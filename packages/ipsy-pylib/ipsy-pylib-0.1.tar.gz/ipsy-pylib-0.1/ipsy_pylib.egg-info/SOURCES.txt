@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ipsy/__init__.py
+ipsy/module.py
+ipsy_pylib.egg-info/PKG-INFO
+ipsy_pylib.egg-info/SOURCES.txt
+ipsy_pylib.egg-info/dependency_links.txt
+ipsy_pylib.egg-info/top_level.txt
