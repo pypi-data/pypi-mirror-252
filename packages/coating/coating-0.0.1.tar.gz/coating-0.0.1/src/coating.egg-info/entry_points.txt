@@ -1,0 +1,2 @@
+[console_scripts]
+canny = canny.view:main

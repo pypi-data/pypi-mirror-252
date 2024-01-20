@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/canny/__init__.py
+src/canny/__main__.py
+src/canny/parser.py
+src/canny/view.py
+src/coating.egg-info/PKG-INFO
+src/coating.egg-info/SOURCES.txt
+src/coating.egg-info/dependency_links.txt
+src/coating.egg-info/entry_points.txt
+src/coating.egg-info/requires.txt
+src/coating.egg-info/top_level.txt
