@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+sportsapi/__init__.py
+sportsapi.egg-info/PKG-INFO
+sportsapi.egg-info/SOURCES.txt
+sportsapi.egg-info/dependency_links.txt
+sportsapi.egg-info/top_level.txt
+sportsapi/providers/__init__.py
+sportsapi/providers/catapult/__init__.py
+sportsapi/providers/catapult/api.py

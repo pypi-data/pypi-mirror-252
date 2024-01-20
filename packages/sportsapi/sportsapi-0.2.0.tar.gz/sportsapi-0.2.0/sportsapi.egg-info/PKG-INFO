@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sportsapi
+Version: 0.2.0
+Summary: This package aims to facilitate API integrations of providers present in professional sport
+Home-page: https://github.com/sportdatalab/sportsapi
+Author: Bastien Angeloz
+Author-email: bastien.angeloz@sportdatalab.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Description
+
+This package aims to facilitate API integrations of providers present in professional sport
+
+# Install
+![Python](https://img.shields.io/badge/python-v3.10.9-blue.svg)
+
+```
+pip install sportsapi
+```
+
+# Contacts
+contact@sportdatalab.fr
+##### [sportdatalab.fr](https://www.sportdatalab.fr/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/bastien-angeloz-204360a4/)
