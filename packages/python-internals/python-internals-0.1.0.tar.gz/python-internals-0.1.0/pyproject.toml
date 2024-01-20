@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "internals"
+version = "0.1.0"
+description = ""
+authors = ["Mike Zimin <mikeziminio@gmail.com>"]
+readme = "../README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+setuptools = "^69.0.3"
+wheel = "^0.42.0"
+twine = "^4.0.2"
+cibuildwheel = "^2.16.2"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

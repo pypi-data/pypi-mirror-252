@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+c/internals.c
+python_internals.egg-info/PKG-INFO
+python_internals.egg-info/SOURCES.txt
+python_internals.egg-info/dependency_links.txt
+python_internals.egg-info/top_level.txt
