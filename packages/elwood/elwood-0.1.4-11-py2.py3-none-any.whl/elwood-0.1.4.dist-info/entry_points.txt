@@ -1,0 +1,2 @@
+[console_scripts]
+elwood = elwood.cli:cli
