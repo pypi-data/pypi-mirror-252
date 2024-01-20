@@ -1,0 +1,16 @@
+arsenal
+semirings
+orderedset
+frozendict
+lark-parser
+ansi2html
+networkx
+z3-solver
+sympy
+graphviz
+rich
+IPython
+coveragepy
+pytest
+pytest-cov
+pytest-timeout

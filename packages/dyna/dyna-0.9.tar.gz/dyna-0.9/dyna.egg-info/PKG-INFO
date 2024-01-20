@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dyna
+Version: 0.9
+Author: Tim Vieira
+License-File: LICENSE
+Requires-Dist: arsenal
+Requires-Dist: semirings
+Requires-Dist: orderedset
+Requires-Dist: frozendict
+Requires-Dist: lark-parser
+Requires-Dist: ansi2html
+Requires-Dist: networkx
+Requires-Dist: z3-solver
+Requires-Dist: sympy
+Requires-Dist: graphviz
+Requires-Dist: rich
+Requires-Dist: IPython
+Requires-Dist: coveragepy
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: pytest-timeout
