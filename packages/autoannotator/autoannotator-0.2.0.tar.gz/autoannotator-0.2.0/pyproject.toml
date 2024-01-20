@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project]
+name = "autoannotator"
+authors = [
+  { name="Alexander FIlonenko", email="alexander@filonenko.net" },
+  { name="Igor Popov", email="ig.popov1997@gmail.com" },
+  { name="Roman Savoskin", email="xromndev@gmail.com" },
+]
+description = "Automatic annotation of images library"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies", "version"]
+
+[project.urls]
+"Homepage" = "https://github.com/CatsWhoTrain/autoannotator"
+"Bug Tracker" = "https://github.com/CatsWhoTrain/autoannotator/issues"
+
+[tool.hatch.version]
+path = "autoannotator/__init__.py"
