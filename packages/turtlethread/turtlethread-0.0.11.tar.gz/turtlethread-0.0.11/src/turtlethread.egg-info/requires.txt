@@ -1,0 +1,21 @@
+pyembroidery
+
+[:python_version < "3.11"]
+typing_extensions
+
+[dev]
+black
+isort
+pytest
+pytest-coverage
+pytest-randomly
+
+[docs]
+Jinja2>=3.0
+matplotlib
+numpydoc
+pydata-sphinx-theme==0.15.2
+sphinx-gallery
+sphinx-toolbox
+sphinx==7.2.6
+sphinx_book_theme==1.1.0
