@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: nba-data-scraper
+Version: 1.0.0
+Summary: A tool to scrape a basketball website for player, schedule, and game data. Legal implications apply. Please look at README.md for more information.
+License: MIT
+Author: dizzydwarfus
+Author-email: 67429119+dizzydwarfus@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: poetry-plugin-export (>=1.6.0,<2.0.0)
+Requires-Dist: ratelimit (>=2.2.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# NBA Data Scraper
+
+## Introduction
+NBA Data Scraper is a Python library designed to scrape game shots data from a specific basketball-related website ([Basketball Reference](https://www.sports-reference.com/bot-traffic.html])). It is structured to handle requests efficiently and respectfully using rate limiting to avoid overloading the server ([bot traffic](https://www.sports-reference.com/bot-traffic.html)). On that note, all use of data acquired should respect the website's [terms of use](https://www.sports-reference.com/data_use.html).
+
+## 📂 Structure
+```
+nba-data-scraper/
+│
+├── nba-data-scraper/
+│ ├── init.py
+│ ├── utils/
+│ │ ├── init.py
+│ │ └── _logger.py
+│ ├── _abstract.py
+│ ├── _data_scraper.py
+│ └── scraper.py
+│
+├── tests/
+│ ├── init.py
+│ └── ...
+│
+├── docs/
+│ └── ...
+│
+├── examples/
+│ └── ...
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
+```
+
+
+## 🔧 Installation (not available yet)
+(Instructions on how to install the library, e.g., using pip or by cloning the repo)
+```
+pip install nba-data-scraper
+```
+
+## Usage
+### Scrape Player Data
+```python
+from nba_data_scraper import NBAScraper
+nba_scraper = NBAScraper()
+
+# Scrapes player data for the letter 'a'
+player_data = nba_scraper.scrape_player_data('a')  
+```
+### Scrape Schedule Data
+```python
+# Scrapes games played in a specific year and month
+schedule_data = nba_scraper.scrape_schedule_data(year='2023', month='january') 
+
+# Scrapes games played in given list of years and months
+schedule_data = nba_scraper.scrape_schedule_data(year=['2022','2023'], month=['january','february'])
+
+# Scrapes all games played given a start and end year
+schedule_data = nba_scraper.scrape_all_schedule_data(start_year=2020, end_year=2021)
+```
+
+### Scrape Game Data
+```python
+# Scrapes Game Data for games played within a schedule
+
+## First: Scrape for schedule
+schedule_data = nba_scraper.scrape_schedule_data(year='2023', month='january')
+
+## Second: use return DataFrame as input to scrape_game_data method
+game_data = nba_scraper.scrape_game_data(schedule_df=schedule_data)
+```
+
+## Work in Progress
+- Further documentation in the docs/ folder.
+- Additional examples in the examples/ folder.
+- Comprehensive tests in the tests/ folder.
+
+## License
+See the [LICENSE](LICENSE) file for details.
