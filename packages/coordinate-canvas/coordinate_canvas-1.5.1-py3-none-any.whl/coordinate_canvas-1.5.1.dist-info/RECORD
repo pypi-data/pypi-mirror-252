@@ -1,0 +1,14 @@
+coordinate_canvas/__init__.py,sha256=5wl_LasbS9CkcL3XuFH2MsBsfIWtP3mY7qI3kqondyk,208
+coordinate_canvas/__main__.py,sha256=vr1BmrqSSHgo3jvEOMIBWYJLeuv6kWUxJkbRFwC7yK0,233
+coordinate_canvas/config.py,sha256=K0_dmmY8n3lv6JRH4Crmt-wsIgNz_4uabbDE5e6cGqo,969
+coordinate_canvas/core/__init__.py,sha256=5V2uKgy4X2gA9TTjc4FnRq7Dv1ZYXarsxcvOCRMyp5A,72
+coordinate_canvas/core/canvas.py,sha256=zwwONxAxm810AnBXXoum8l4wb4Y3GZanLJO102XW4Ug,8219
+coordinate_canvas/core/line_builder.py,sha256=NBjq-pvC3JIdYXfsuezkBdOkIxiDYtNsnZuJ1bsPrGw,4012
+coordinate_canvas/interface/__init__.py,sha256=2DFhwID1Jg1wRdqrzGpIkjPLanEIS-h0Du2r9JVoOP4,73
+coordinate_canvas/interface/cli.py,sha256=ITnWFf29G2w1zOQIg30_hreNi6o2XgzD-8bDjpsRvl8,1311
+tests/test_placeholder.py,sha256=irhfB1-Ag2VOenlNgvSIATefpXHh9L_Nv--EOq8btpA,33
+coordinate_canvas-1.5.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+coordinate_canvas-1.5.1.dist-info/METADATA,sha256=y6qfndMLGaSMmNCo3FEvVQQz8MMCO0U6bsVk51o2jf0,43554
+coordinate_canvas-1.5.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+coordinate_canvas-1.5.1.dist-info/top_level.txt,sha256=d50s9xN7i57-h4EeAoI7msIbg_3P0zF2Nua_IvTyMOg,24
+coordinate_canvas-1.5.1.dist-info/RECORD,,
