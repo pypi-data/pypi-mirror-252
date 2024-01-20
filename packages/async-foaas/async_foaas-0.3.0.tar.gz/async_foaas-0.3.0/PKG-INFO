@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: async_foaas
+Version: 0.3.0
+Summary: Fuck Off As A Service
+Home-page: https://github.com/alexraskin/foaas-python
+Author: Alex Raskin
+Author-email: root@alexraskin.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: async-property
