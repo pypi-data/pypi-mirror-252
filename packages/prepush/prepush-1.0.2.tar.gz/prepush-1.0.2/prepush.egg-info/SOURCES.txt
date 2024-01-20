@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+prepush/__init__.py
+prepush/__main__.py
+prepush.egg-info/PKG-INFO
+prepush.egg-info/SOURCES.txt
+prepush.egg-info/dependency_links.txt
+prepush.egg-info/entry_points.txt
+prepush.egg-info/requires.txt
+prepush.egg-info/top_level.txt
