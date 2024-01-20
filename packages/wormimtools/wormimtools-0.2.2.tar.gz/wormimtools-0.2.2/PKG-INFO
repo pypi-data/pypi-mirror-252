@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: wormimtools
+Version: 0.2.2
+Summary: A short description of my package
+Home-page: https://github.com/moore-andrew05/imtools
+Author: Andrew Moore
+Author-email: moore.andrew0598@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+
+# worm-imtools
+
+## Installation  
+
+This package can be installed through pip using:  
+
+> pip install wormimtools
+
+This can also be performed using pip within a conda environment if you wish to use conda to install other dependencies. 
+
+To upgrade the package through pip, run:  
+
+> pip install --upgrade wormimtools  
+
+## Use
+
+The package contains two main classes for image processing and plotting. 
