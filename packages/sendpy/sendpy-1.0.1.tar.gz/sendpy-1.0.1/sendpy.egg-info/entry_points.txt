@@ -1,0 +1,2 @@
+[console_scripts]
+sendpy = sendpy.__main__:main
