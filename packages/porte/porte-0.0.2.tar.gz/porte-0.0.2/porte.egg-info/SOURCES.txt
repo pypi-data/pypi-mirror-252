@@ -1,0 +1,10 @@
+setup.py
+porte/__init__.py
+porte/porte.py
+porte.egg-info/PKG-INFO
+porte.egg-info/SOURCES.txt
+porte.egg-info/dependency_links.txt
+porte.egg-info/entry_points.txt
+porte.egg-info/not-zip-safe
+porte.egg-info/requires.txt
+porte.egg-info/top_level.txt
