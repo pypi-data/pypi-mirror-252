@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/hsi_wizard/__init__.py
+src/hsi_wizard.egg-info/PKG-INFO
+src/hsi_wizard.egg-info/SOURCES.txt
+src/hsi_wizard.egg-info/dependency_links.txt
+src/hsi_wizard.egg-info/top_level.txt
