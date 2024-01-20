@@ -1,0 +1,10 @@
+README.md
+setup.py
+GPD/GPD.py
+GPD/__init__.py
+GPD/utils.py
+fair_GPD.egg-info/PKG-INFO
+fair_GPD.egg-info/SOURCES.txt
+fair_GPD.egg-info/dependency_links.txt
+fair_GPD.egg-info/requires.txt
+fair_GPD.egg-info/top_level.txt
