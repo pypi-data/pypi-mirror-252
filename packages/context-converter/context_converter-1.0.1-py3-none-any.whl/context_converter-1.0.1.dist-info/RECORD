@@ -1,0 +1,10 @@
+context_converter-1.0.1.dist-info/METADATA,sha256=0Ekz4RWgslLirIP_9uFP6KqFdZ9YWwMlwIRgGibBLnc,1440
+context_converter-1.0.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+context_converter-1.0.1.dist-info/licenses/LICENSE,sha256=dr6fGawH5_DEkEb1FtaLBQ7H8td1FQQD1G6JI_KfPSY,1061
+context_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+context_converter/converter.py,sha256=Lr0hvxPd5-GCC7rw45_YJER8j9yrX8762J2qVZTpXEE,4914
+context_converter/download_jina.py,sha256=8rtMmXYr89mFYPSpVqGrxjSifiuGF1CFTiYLVyhWcX4,752
+context_converter/formatter.py,sha256=DZh3xClWyehGnocgvppxNkk-8qVyTSBjcFdol2wcL1c,2488
+context_converter/main.py,sha256=N0VaJI9pJHHV2QLP69Rin_mDlwEjvlBS3eYo2WNcSjk,2925
+context_converter/utils.py,sha256=t8t5fPve9Wgr5_ur5WoA_lZB2uXnRaYIB1BTFY0WNB4,1685
+context_converter-1.0.1.dist-info/RECORD,,
