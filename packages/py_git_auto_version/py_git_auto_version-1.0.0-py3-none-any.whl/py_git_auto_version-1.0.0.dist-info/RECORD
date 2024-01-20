@@ -1,0 +1,10 @@
+py_git_auto_version-1.0.0.dist-info/METADATA,sha256=j0LAry1bborHHBOhERzJ9A-kFSHebLnflomf5vSCL-s,1298
+py_git_auto_version-1.0.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+py_git_auto_version-1.0.0.dist-info/entry_points.txt,sha256=Qk_jfwd_R2d4bz47BedhSouO_vJkqjvbIIdToBCa-UM,69
+py_git_auto_version-1.0.0.dist-info/licenses/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+py_git_auto_version/__init__.py,sha256=R1mtqp_42RsLAKEjs4kAchJoyUCkU5Q4ap3ACh2NbqY,480
+py_git_auto_version/_version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+py_git_auto_version/git.py,sha256=zZycei13upSQ6fGDqVmVJERgveyODKd8GF4-MJhdask,9354
+py_git_auto_version/git_ref.py,sha256=N6E6TzUFBtMc74EV6Iv0Vp-x-Qcu_zlZw7wK-hrlTgY,6915
+py_git_auto_version/version_generators.py,sha256=L1s01yoQqHWJH-eAUbmIYzf8voU9ePB7ly6MIr2Sy_M,4557
+py_git_auto_version-1.0.0.dist-info/RECORD,,
