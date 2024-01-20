@@ -1,0 +1,2 @@
+[console_scripts]
+py-auto-structure = project_builder.project_builder:main
