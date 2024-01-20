@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cerebralWave
+Version: 0.1.0
+Summary: This is a library which can help with common chatbot functions.
+Home-page: https://github.com/dhairyaraj281208/Cerebral_wave
+Author: Dhairya Raj Maloo
+Author-email: drm281208@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: datetime (>=5.4)
+Requires-Dist: wikipedia (>=1.4.0)
+Requires-Dist: PyPDF2 (>=1.28.2)
+Requires-Dist: urllib3 (>=1.26.9)
+Requires-Dist: requests (>=2.31.0)
+Requires-Dist: webbrowser
+
+UNKNOWN
+
+
