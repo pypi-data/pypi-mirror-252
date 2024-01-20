@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: porte
+Version: 0.0.1
+Summary: handy python low level port scanner
+Home-page: https://github.com/minj-ae/porte
+Author: LegacyObj
+Author-email: minjae@minj.ae
+Keywords: porte,port scanner,LegacyObj,port,network
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
