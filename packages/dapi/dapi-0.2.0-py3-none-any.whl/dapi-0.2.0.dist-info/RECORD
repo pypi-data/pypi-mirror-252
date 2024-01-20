@@ -1,0 +1,11 @@
+dapi/__init__.py,sha256=SKEAGaKxpRYafsqxol5RYep4VLujzYLDofzYtZ_AFBI,604
+dapi/db/__init__.py,sha256=68vCJOTiQSIyGnlfF8__ufayGP52ItELF_TbPcZaPUk,50
+dapi/db/config.py,sha256=wkaDhkV5CS1qcaKGo5GHXU34X8gUtwLPdd-PKlvNHFA,290
+dapi/db/db.py,sha256=3brwLgealA00dgabv8O08Vog0gDIkkHPmTbGcxpj10Q,3701
+dapi/jobs/__init__.py,sha256=e22e_EEaaWSSOMzA6ur1VyKqfMghn6NSwHmCNGwSsiw,701
+dapi/jobs/dir.py,sha256=u2EtsHHotB7c-h-3QbMvLuGkZIxtrmTRajb0VWmqEH8,1807
+dapi/jobs/jobs.py,sha256=_RQSetuLqdvCOLOVD5IkvUDna1iEbDdE_TKw9zj5TwM,7002
+dapi-0.2.0.dist-info/LICENSE.md,sha256=BAQUrW-janfTWmXxSfvvnUvnTfS5qSEw_vVJn-SW3nE,1071
+dapi-0.2.0.dist-info/METADATA,sha256=V79-jDXsF_TrBIkQIMIyySZknY5YeyzF1zJT2NA2g7A,4047
+dapi-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dapi-0.2.0.dist-info/RECORD,,
