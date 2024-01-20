@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+python/tartare/__init__.py
+python/tartare/py.typed
+python/tartare.egg-info/PKG-INFO
+python/tartare.egg-info/SOURCES.txt
+python/tartare.egg-info/dependency_links.txt
+python/tartare.egg-info/requires.txt
+python/tartare.egg-info/top_level.txt
