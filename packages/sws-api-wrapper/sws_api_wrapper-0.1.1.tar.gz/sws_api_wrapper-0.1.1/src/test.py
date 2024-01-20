@@ -1,0 +1,3 @@
+import sws_api_wrapper
+
+sws_api_wrapper.sws_python_wrapper
