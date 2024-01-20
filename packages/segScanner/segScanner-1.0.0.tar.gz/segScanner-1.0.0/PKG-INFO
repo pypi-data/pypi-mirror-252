@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: segScanner
+Version: 1.0.0
+Summary: A async and multi-threaded program to scan a range of IPs for open ports
+Home-page: https://github.com/AleksaZatezalo/seg-scanner
+Author-email: zabumaphu@gmail.com
+License-File: LICENSE

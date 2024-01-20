@@ -1,0 +1,11 @@
+CODE_OF_CONDUCT.md
+LICENSE
+README.md
+port-scanning-attack.webp
+pyproject.toml
+setup.cfg
+segScanner.egg-info/PKG-INFO
+segScanner.egg-info/SOURCES.txt
+segScanner.egg-info/dependency_links.txt
+segScanner.egg-info/top_level.txt
+src/segScanner/__init__.py
