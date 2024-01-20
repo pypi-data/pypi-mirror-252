@@ -1,0 +1,10 @@
+vger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vger/attack.py,sha256=vuFRWE-hdX9A5a3TlgSlI6y1bUdYo-Ik2Wk3NYu8c2c,4894
+vger/connection.py,sha256=8KHVkhcnO9Pa8n26bPY9C5Kp6L-KzhUlMXznhBCZkKo,2927
+vger/menu.py,sha256=XDoPbhhj2bxhb3G2Nvs58pkSZgSWDu4haiHwtmH4ecQ,7271
+vger/options.py,sha256=3VW2DD48wBfLNmqYdK7CpJcsoOOjJQPvIRr39b5tFtU,13138
+vger-0.1.0.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+vger-0.1.0.dist-info/METADATA,sha256=goKdGuSn6xRRw8SzOq_if_GGgV8uMveIzNP2gR65ViE,3171
+vger-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+vger-0.1.0.dist-info/entry_points.txt,sha256=1QXQwT-VFHisbjl2S2fguboS_aCmE6onbi1JQfqAF6c,38
+vger-0.1.0.dist-info/RECORD,,
