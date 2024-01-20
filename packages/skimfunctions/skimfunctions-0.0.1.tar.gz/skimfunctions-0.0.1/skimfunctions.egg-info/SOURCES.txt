@@ -1,0 +1,5 @@
+setup.py
+skimfunctions.egg-info/PKG-INFO
+skimfunctions.egg-info/SOURCES.txt
+skimfunctions.egg-info/dependency_links.txt
+skimfunctions.egg-info/top_level.txt
