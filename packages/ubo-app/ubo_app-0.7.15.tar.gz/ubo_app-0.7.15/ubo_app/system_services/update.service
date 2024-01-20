@@ -1,0 +1,14 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Ubo Update Service
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/bin/bash -c '[[ $(ls -A {{INSTALLATION_PATH}}/_update/) ]] && /bin/pip install --no-index --find-links --upgrade {{INSTALLATION_PATH}}/_update/ ubo-app || true'
+ExecStartPost=rm -rf {{INSTALLATION_PATH}}/_update/
+ExecStartPost=bash -c "{{INSTALLATION_PATH}}/bin/ubo bootstrap || true"
+ExecStartPost=bash -c "service ubo-app restart || true"
+RemainAfterExit=no
