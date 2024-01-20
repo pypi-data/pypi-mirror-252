@@ -1,0 +1,13 @@
+msgpack
+pyyaml
+fastjsonschema
+python-dotenv
+py-scibec
+bec_lib
+
+[dev]
+pytest
+pytest-random-order
+coverage
+black
+pylint
