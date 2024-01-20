@@ -1,0 +1,5 @@
+[console_scripts]
+scherry = scherry.cli.__main__:cli
+scherry-helper = scherry.helper.__main__:helper
+schry = scherry.cli.__main__:cli
+schryh = scherry.helper.__main__:helper
