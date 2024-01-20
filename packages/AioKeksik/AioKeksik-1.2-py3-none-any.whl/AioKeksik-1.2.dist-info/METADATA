@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: AioKeksik
+Version: 1.2
+Summary: Неофициальная асинхронная библиотека для работы с API https://keksik.io
+Home-page: https://github.com/Obnovlator3000/AioKeksik
+Author: Obnovlator3000
+Author-email: obnovlator3000@lisi4ka.ru
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: aiohttp
+Requires-Dist: ujson
+
+# pyKeksik
+РђСЃРёРЅС…СЂРѕРЅРЅР°СЏ Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ API [РљРµРєСЃРёРєР°](https://keksik.io)
+
+[РћС„РёС†РёР°Р»СЊРЅР°СЏ РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ](https://keksik.io/api)
+Р‘РёР±Р»РёРѕС‚РµРєР° Р±С‹Р»Р° РЅР°РїРёСЃР°РЅР° РЅР° РѕСЃРЅРѕРІРµ [Р±РёР±Р»РёРѕС‚РµРєРё](https://github.com/Friendosie/pyKeksik) СѓРІ. [Friendosie](https://github.com/Friendosie)
+
+# РџСЂРёРјРµСЂС‹ РєРѕРґР°
+```python
+from AioKeksik import KeksikApi
+
+keksik_api = KeksikApi(group_id, apikey)
+import asyncio
+async def main():
+    # РЎРїРёСЃРѕРє РґРѕРЅР°С‚РѕРІ
+    print(await keksik_api.donates.get())
+    # РЎРїРёСЃРѕРє РєСЂР°СѓС‚С„Р°РЅРґРµРЅРіРѕРІС‹С… РєР°РјРїР°РЅРёР№
+    print(await keksik_api.campaigns.get())
+    # РЎРїРёСЃРѕРє РІС‹РїР»Р°С‚
+    print(await keksik_api.payments.get())
+    # Р‘Р°Р»Р°РЅСЃ
+    print(await keksik_api.balance())
+asyncio.run(main())
+```
