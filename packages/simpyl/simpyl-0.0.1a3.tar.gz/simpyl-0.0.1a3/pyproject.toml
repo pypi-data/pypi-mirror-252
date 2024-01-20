@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simpyl"
+version = "0.0.1a3"
+authors = [
+  { name="VN", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">= 3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://github.com/pypa/simpyl"
+Issues = "https://github.com/pypa/simpyl/issues"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]
+include = ["simpyl"]  # ["*"] by default
+namespaces = false  # true by default
+
+# [tool.setuptools.package-data]
+# simpyl = ["*.json", "*.yaml"]

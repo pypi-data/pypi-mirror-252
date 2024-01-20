@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+simpyl/__init__.py
+simpyl/reader.py
+simpyl.egg-info/PKG-INFO
+simpyl.egg-info/SOURCES.txt
+simpyl.egg-info/dependency_links.txt
+simpyl.egg-info/requires.txt
+simpyl.egg-info/top_level.txt
+simpyl/datafiles/sample.json
+simpyl/datafiles/sample.yaml
+test/test_simpyl_reader.py

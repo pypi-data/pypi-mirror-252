@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simpyl
+Version: 0.0.1a3
+Summary: A small example package
+Author-email: VN <author@example.com>
+Project-URL: Homepage, https://github.com/pypa/simpyl
+Project-URL: Issues, https://github.com/pypa/simpyl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: dynaconf==3.2.*
+Requires-Dist: pydantic==1.10.*
+Requires-Dist: python_dateutil==2.8.*
+Requires-Dist: urllib3==1.26.*
+Requires-Dist: aenum==3.1.*
+Requires-Dist: requests==2.31.*
+Requires-Dist: snowflake-connector-python[pandas]==3.2.0
+Requires-Dist: snowflake-snowpark-python[pandas]==1.7.0
+Requires-Dist: tenacity==8.2.*
+Requires-Dist: jsonpath-ng==1.5.*
+Requires-Dist: pandas==1.5.*
+Requires-Dist: cryptography==41.0.4
+Requires-Dist: pyopenssl==23.2.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: PyYAML==6.0.1
+
+# Simpyl Package
+
+(re-)learning webdev and more
