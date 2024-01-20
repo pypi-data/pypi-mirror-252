@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+api_browser/api_browser.egg-info/PKG-INFO
+api_browser/api_browser.egg-info/SOURCES.txt
+api_browser/api_browser.egg-info/dependency_links.txt
+api_browser/api_browser.egg-info/entry_points.txt
+api_browser/api_browser.egg-info/requires.txt
+api_browser/api_browser.egg-info/top_level.txt
+tests/test_api_browser.py
