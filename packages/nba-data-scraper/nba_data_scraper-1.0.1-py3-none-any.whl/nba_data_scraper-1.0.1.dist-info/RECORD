@@ -1,0 +1,11 @@
+nba_data_scraper/__init__.py,sha256=rshls_qFRkKqlSt7UDo3SQRp9BuPgeSoBx3JRE4Hlsw,76
+nba_data_scraper/_abstract.py,sha256=D3MQsBkb09xaexpDE4TJgURpqP9L2fMMWq18Nt4QI9o,1924
+nba_data_scraper/_constants.py,sha256=2Ofd1uaDVgMABcQ3BM8wA5_js2ExzNWAis9VeprxyS8,1446
+nba_data_scraper/_data_scraper.py,sha256=5H-Ch2ZA1LaAxOUQrw57lf0BNOpvLv5aDRXat8zGEGc,18437
+nba_data_scraper/scraper.py,sha256=zyaW9tYDmW_VKb780K9A6GDp9pUckUagfc9JXToKpeQ,5175
+nba_data_scraper/utils/__init__.py,sha256=_9HfB367hlq2e6yMdOh7cSXET5_YFxf7og7MoZSXIg8,29
+nba_data_scraper/utils/_logger.py,sha256=86nIV4-lZMFRLAhaplhM778HnuwcKVS53rkKBhUHW9U,1294
+nba_data_scraper-1.0.1.dist-info/LICENSE,sha256=XswouGx8Kf9AivkIMykOZKtzOZTlwHAbJ36TdeSGhTg,1092
+nba_data_scraper-1.0.1.dist-info/METADATA,sha256=dKYf6kso-76fBrCqKdRRuqQQ8nF1WCSMsTF1Ai9TgQ4,3170
+nba_data_scraper-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nba_data_scraper-1.0.1.dist-info/RECORD,,
