@@ -1,0 +1,4 @@
+[console_scripts]
+find-batch-analysis-dir = bg_helper_utils.find_batch_analysis_dir:main
+find-samplesheet = bg_helper_utils.find_samplesheet:main
+make-bg-helper-utils = bg_helper_utils.make_shell_scripts_and_aliases:main
