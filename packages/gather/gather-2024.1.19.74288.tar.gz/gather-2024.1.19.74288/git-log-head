@@ -1,0 +1,7 @@
+commit 387b4b58fa721088c337767848062363e79fda89
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-19 12:38:08 -0800
+
+    Merge pull request #52 from elcaminoreal/fix-rtd
+    
+    fix readthedocs configuration
