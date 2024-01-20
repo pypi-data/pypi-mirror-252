@@ -1,0 +1,6 @@
+myTest.py
+setup.py
+maoTest.egg-info/PKG-INFO
+maoTest.egg-info/SOURCES.txt
+maoTest.egg-info/dependency_links.txt
+maoTest.egg-info/top_level.txt
