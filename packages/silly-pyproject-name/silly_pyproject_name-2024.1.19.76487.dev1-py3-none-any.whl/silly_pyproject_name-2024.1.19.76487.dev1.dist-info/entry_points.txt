@@ -1,0 +1,6 @@
+[console_scripts]
+silly-pyproject-change = silly_pyproject_name:ENTRY_DATA.sub_command
+silly-pyproject-name = silly_pyproject_name:ENTRY_DATA.main_command
+
+[gather]
+placeholder = silly_pyproject_name

@@ -1,0 +1,11 @@
+silly_pyproject_name/__init__.py,sha256=UNqfiqVGuXQ-MxD26NWCFv11nUD5cZ9643HAaVcwsfw,149
+silly_pyproject_name/__main__.py,sha256=8jpq77C7m2EPj2NxMQUtlSXTDgbsFcLriY3-J24SFg0,128
+silly_pyproject_name/git.py,sha256=6rfiSCluGFEGeufXD1zrTdkv-sIiJj4dVpCNlUCQDRQ,762
+silly_pyproject_name/name.py,sha256=m1_4mlcDd4h2brhZndErxGlY3iBUDMDS1Hap-FV6bBo,1293
+silly_pyproject_name/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silly_pyproject_name/tests/test_init.py,sha256=jJ_8tuA0DocE3rTNViP5J2-1mCrBo2I8d3lxuELOyZA,214
+silly_pyproject_name-2024.1.19.76487.dev1.dist-info/METADATA,sha256=dlEFSBXCJesVne7vqJAyzHOWT5FgMu6YcbKBsBEXwZI,2065
+silly_pyproject_name-2024.1.19.76487.dev1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+silly_pyproject_name-2024.1.19.76487.dev1.dist-info/entry_points.txt,sha256=xjTz-O_9xGlrpp9eso4I2S2Es2vBC9yncJC2OobyrlE,200
+silly_pyproject_name-2024.1.19.76487.dev1.dist-info/top_level.txt,sha256=_jG84pIFzjt4H0dYMoqFV_X6u4XRaWOv3I1nD8Fw5-A,21
+silly_pyproject_name-2024.1.19.76487.dev1.dist-info/RECORD,,
