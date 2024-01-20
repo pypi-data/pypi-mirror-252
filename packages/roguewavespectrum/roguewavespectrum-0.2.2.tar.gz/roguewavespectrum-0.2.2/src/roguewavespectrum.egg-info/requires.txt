@@ -1,0 +1,14 @@
+numpy
+numba
+linearwavetheory
+xarray
+scipy
+numba-progress
+pandas
+pdoc
+requests
+requests-cache
+
+[full]
+qpsolvers
+cvxopt
