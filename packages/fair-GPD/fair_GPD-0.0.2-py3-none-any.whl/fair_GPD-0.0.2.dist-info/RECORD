@@ -1,0 +1,12 @@
+GPD/GPD.py,sha256=dk0smf8AXnXSUpAsXeLJIH3syAMSNDgQ1JcgdO0uXYU,3476
+GPD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GPD/utils.py,sha256=Z9KaGGdYhmxckmEvYVCR_sc6AdhD2oR2ZCkYPr98BBQ,7362
+GPD/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GPD/features/graph.py,sha256=VaY34xe6_p76ZHTOKc222SKtpWpp-AXmEpqLGKPqnpI,3669
+GPD/features/protein.py,sha256=9_uMXT8AD5Q8dvb8zhVgDzBGNbY7Y6ITidJbcrekkxE,6400
+GPD/parameters/20220607_random_3.pkl,sha256=VD-hWP9Noh2qNH8SvtqQZgOJA9Q9CFYAsYPysqhpyOo,11005442
+GPD/parameters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fair_GPD-0.0.2.dist-info/METADATA,sha256=dRszXS6O8UpOXUNQTXeRGFwNnYkTZidXrQfN3X71o-I,3987
+fair_GPD-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fair_GPD-0.0.2.dist-info/top_level.txt,sha256=mqKNtfLm7jRk2IfneQbIywxfvhM5pycQpsbgFrnKOi8,4
+fair_GPD-0.0.2.dist-info/RECORD,,
