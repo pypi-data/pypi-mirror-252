@@ -1,0 +1,7 @@
+README.md
+setup.py
+cerebralWave.egg-info/PKG-INFO
+cerebralWave.egg-info/SOURCES.txt
+cerebralWave.egg-info/dependency_links.txt
+cerebralWave.egg-info/requires.txt
+cerebralWave.egg-info/top_level.txt
