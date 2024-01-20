@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fivetran-sdk
+Version: 1.0.0
+Summary: OpenAPI Definition
+Home-page: https://fivetran.com/docs/rest-api
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,OpenAPI Definition
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (>=2)
+Requires-Dist: python-dateutil
+Requires-Dist: typing-extensions (>=4.7.1)
+Requires-Dist: urllib3 (<2.1.0,>=1.25.3)
+
+    The OpenAPI Specification is a standard format to define the structure and syntax of REST APIs. OpenAPI documents are both machine and human-readable, which enables anyone to easily determine how each API works. [More details](https://www.openapis.org/faq)
+    
+
