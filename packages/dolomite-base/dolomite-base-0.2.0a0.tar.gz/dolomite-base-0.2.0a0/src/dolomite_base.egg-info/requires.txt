@@ -1,0 +1,14 @@
+biocutils
+biocframe>=0.5.0
+numpy
+jsonschema
+dolomite-schemas>=0.0.7
+h5py
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
