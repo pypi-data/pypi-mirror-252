@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aiotankerkoenig
+Version: 0.1.1
+Summary: Async Python 3 client for tankerkoenig.de
+Home-page: https://github.com/jpbede/aiotankerkoenig
+License: MIT
+Author: Jan-Philipp Benecke
+Author-email: jan-philipp@bnck.me
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.0.0)
+Requires-Dist: mashumaro (>=3.11,<4.0)
+Requires-Dist: orjson (>=3.9.0)
+Requires-Dist: yarl (>=1.6.0)
+Project-URL: Bug Tracker, https://github.com/jpbede/aiotankerkoenig/issues
+Project-URL: Changelog, https://github.com/jpbede/aiotankerkoenig/releases
+Project-URL: Repository, https://github.com/jpbede/aiotankerkoenig
+Description-Content-Type: text/markdown
+
+# aiotankerkoenig
+Async Python 3 client for tankerkoenig.de
+
