@@ -1,0 +1,7 @@
+django
+num2words
+django-solo
+requests
+django-select2
+django-classy-tags
+sportradar

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sportspicker
+Version: 0.0.3
+Summary: Update Me
+Home-page: https://github.com/pdbethke/sportspicker
+Author: Peter D Bethke
+Author-email: pdbethke@siteshell.net
+License-File: LICENSE.rst
+Requires-Dist: django
+Requires-Dist: num2words
+Requires-Dist: django-solo
+Requires-Dist: requests
+Requires-Dist: django-select2
+Requires-Dist: django-classy-tags
+Requires-Dist: sportradar
