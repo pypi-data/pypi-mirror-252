@@ -1,0 +1,7 @@
+commit ea08675f84092dd7e111aa11e6db82f34777385a
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-19 10:54:39 -0800
+
+    Merge pull request #51 from elcaminoreal/doc-entry
+    
+    add doc for the entry module
