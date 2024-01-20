@@ -1,0 +1,13 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Ubo Update Service
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/bin/bash -c '[[ $(ls -A {{INSTALLATION_PATH}}/_update/) ]] && sudo apt install python3-virtualenv && rm -rf {{INSTALLATION_PATH}}/env && virtualenv --system-site-packages {{INSTALLATION_PATH}}/env && {{INSTALLATION_PATH}}/env/bin/python -m pip install --no-index --upgrade --find-links {{INSTALLATION_PATH}}/_update/ ubo-app[default] || true'
+ExecStartPost=bash -c "{{INSTALLATION_PATH}}/env/bin/ubo bootstrap || true"
+ExecStartPost=bash -c "service ubo-app restart || true"
+RemainAfterExit=no
