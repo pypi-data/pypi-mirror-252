@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bprofanity
+Version: 0.1
+Home-page: https://github.com/thatsayon/bprofanity
+Author: Ashiqul Islam Ayon
+Author-email: ashiqulislamayon28@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
