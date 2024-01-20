@@ -1,0 +1,2 @@
+[console_scripts]
+pyxie = src.pyxie:main
