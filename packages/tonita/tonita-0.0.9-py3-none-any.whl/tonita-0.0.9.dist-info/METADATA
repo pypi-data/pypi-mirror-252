@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tonita
+Version: 0.0.9
+Summary: Tonita Python Client Package
+Author-email: Tonita <hello@tonita.co>
+Project-URL: Homepage, https://www.tonita.co/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests ==2.31.0
+Requires-Dist: rich ==12.5.1
+Requires-Dist: urllib3 ==2.0.4
+
+# Tonita Python Library
+This package contains the Tonita Python client library. Please visit our [documentation](https://docs.tonita.co/) page for usage information.
+
+## Support
+Please report bugs and other issues to [bugs@tonita.co](mailto:bugs@tonita.co). Thank you in advance.
