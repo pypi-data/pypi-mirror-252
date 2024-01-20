@@ -1,0 +1,15 @@
+kakuyomu/__init__.py,sha256=fiS7DJKM8K0LCw_g7EIAarqiAkbR6XtgpYV_SD93wYw,27
+kakuyomu/logger.py,sha256=Tckjnv3h4LnUv_LIkEIY8zoHBg88X6lxi2TaxcXs_Yw,450
+kakuyomu/settings.py,sha256=LzU1sbUWoymgX-W0hGloOSNsS4XKkw02nqjASqER_0E,2641
+kakuyomu/types.py,sha256=Gf70CV-Ya2aU7vDMdlP5mM5F8GuwAWQ0fv1HSXKJgCo,483
+kakuyomu/cli/__init__.py,sha256=AhA-z8Fy_4SCWfozWSh0iqVOCRxizySNALVq2olHUjY,21
+kakuyomu/cli/kakuyomu.py,sha256=9xeGuJ514Zf9f7XmXO0yRtteISp2vcAPIOQnUfD6E_A,909
+kakuyomu/client/__init__.py,sha256=pAmrywctjWUeq4N5-oeBSpnkUxaDH-PH7bRV3lsI8BA,75
+kakuyomu/client/web.py,sha256=CvuB2qnz1qvH9d3stR1YpodANvNqPLwkOHzRlYpTNUA,2833
+kakuyomu/scrapers/__init__.py,sha256=7mQ0BVlYRki9IDqOm1NJ6lZuO18PePP89IPMQSU53zA,30
+kakuyomu/scrapers/my_page.py,sha256=yuMhKjU8r2RQFSy-wwk_wLqyDJK41Fe6-hF6U2PODcQ,716
+kakuyomu/scrapers/work_page.py,sha256=zOeiOKCGKdg6GGHtxoHDBG4cwHZZ-kk-xT8ZaIB4cG4,877
+kakuyomu_cli-0.4.0.dist-info/METADATA,sha256=7pxhIgBqQXb5TxKI-bZc3zXMuGbIBVbQMiTTTXAzWA0,907
+kakuyomu_cli-0.4.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+kakuyomu_cli-0.4.0.dist-info/entry_points.txt,sha256=yE8WhPMOQZuxOg2mOQa0lF_gHe65pvix05HAnMbkXV8,56
+kakuyomu_cli-0.4.0.dist-info/RECORD,,
