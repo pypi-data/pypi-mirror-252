@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+python/mmdata/__init__.py
+python/mmdata/py.typed
+python/mmdata.egg-info/PKG-INFO
+python/mmdata.egg-info/SOURCES.txt
+python/mmdata.egg-info/dependency_links.txt
+python/mmdata.egg-info/requires.txt
+python/mmdata.egg-info/top_level.txt
