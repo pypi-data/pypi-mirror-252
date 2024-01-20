@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+singular_wrap_text/__init__.py
+singular_wrap_text/wraptext.py
+singular_wrap_text.egg-info/PKG-INFO
+singular_wrap_text.egg-info/SOURCES.txt
+singular_wrap_text.egg-info/dependency_links.txt
+singular_wrap_text.egg-info/top_level.txt
