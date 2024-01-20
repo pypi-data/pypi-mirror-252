@@ -1,0 +1,5 @@
+from sklearn_special_ensembles.models import NormalizedModel
+from sklearn_special_ensembles.models import FoldableEnsemble
+from sklearn_special_ensembles.models import FeatureSubsetEnsemble
+from sklearn_special_ensembles.models import OutlierEnsemble
+from sklearn_special_ensembles.models import SegmentEnsemble
