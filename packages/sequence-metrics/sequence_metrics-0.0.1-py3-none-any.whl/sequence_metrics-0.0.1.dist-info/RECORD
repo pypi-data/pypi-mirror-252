@@ -1,0 +1,5 @@
+sequence_metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sequence_metrics/metrics.py,sha256=J1OZi_MEmDPogjKhAwxJVbA0G2ifFxTzZE4POpwdffA,13444
+sequence_metrics-0.0.1.dist-info/METADATA,sha256=w051TxoBlY_SOdOBYYOqreQVD3KaTzvfqV6lotCNQBE,645
+sequence_metrics-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sequence_metrics-0.0.1.dist-info/RECORD,,
