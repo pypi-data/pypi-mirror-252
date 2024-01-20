@@ -1,0 +1,2 @@
+[console_scripts]
+start = Gesture_Recognition:main
