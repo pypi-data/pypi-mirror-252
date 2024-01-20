@@ -1,0 +1,9 @@
+tsdataformat/__init__.py,sha256=J7FwFR7ly23XRRhv_0vWk6Npcsv-AaVCgqEwNxTO6jE,285
+tsdataformat/cli/__init__.py,sha256=E70uNr8bcWEQFBqPw6dAQtt_hLsXU_S9cyQlwvkEdOE,20
+tsdataformat/cli/cli.py,sha256=EU5hbYwxVjmomN475PPmrSpCVSNGYXKTfLzwQb_WxIs,3689
+tsdataformat/tsdata.py,sha256=X9E0L_QdtZO0t7BTHDf4WMPfd8-EKuveqJlgmg0D20U,14782
+tsdataformat-3.0.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+tsdataformat-3.0.0.dist-info/METADATA,sha256=3Y27j_fSxXpzwSPJJQ2hhkJRYcLPfc84pOHGZ-Cngf4,1343
+tsdataformat-3.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tsdataformat-3.0.0.dist-info/entry_points.txt,sha256=vU9WLnnFFShC9MM7DGdMg349_BJWug1_wVFK9whLu2s,53
+tsdataformat-3.0.0.dist-info/RECORD,,
