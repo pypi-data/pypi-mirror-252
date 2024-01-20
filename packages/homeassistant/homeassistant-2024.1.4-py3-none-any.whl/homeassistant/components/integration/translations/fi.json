@@ -1,0 +1,26 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Nimi"
+                },
+                "data_description": {
+                    "round": "S\u00e4\u00e4t\u00e4\u00e4 desimaalilukujen m\u00e4\u00e4r\u00e4\u00e4 l\u00e4hd\u00f6ss\u00e4.",
+                    "unit_prefix": "Tulos skaalataan valitun metrisen etuliitteen mukaan.",
+                    "unit_time": "L\u00e4ht\u00f6 skaalataan valitun aikayksik\u00f6n mukaan."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data_description": {
+                    "round": "S\u00e4\u00e4t\u00e4\u00e4 desimaalilukujen m\u00e4\u00e4r\u00e4\u00e4 l\u00e4hd\u00f6ss\u00e4."
+                }
+            }
+        }
+    },
+    "title": "Integrointi - Riemannin integraalisensori"
+}

@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Paskyra jau sukonfig\u016bruota"
+        },
+        "error": {
+            "invalid_auth": "Neteisingas autentifikavimas",
+            "unknown": "Netik\u0117ta klaida"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "\u017demynas",
+                    "country": "\u0160alis",
+                    "password": "Slapta\u017eodis",
+                    "username": "Prisijungimos vardas"
+                },
+                "data_description": {
+                    "continent": "J\u016bs\u0173 dviej\u0173 raid\u017ei\u0173 \u017eemyno kodas (na, eu ir kt.)",
+                    "country": "J\u016bs\u0173 dviej\u0173 raid\u017ei\u0173 \u0161alies kodas (US, JK ir kt.)"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Ecovacs konfig\u016bravimas naudojant YAML pa\u0161alinamas, ta\u010diau bandant importuoti YAML konfig\u016bracij\u0105 \u012fvyko autentifikavimo klaida. \n\n Pataisykite YAML konfig\u016bracij\u0105 ir i\u0161 naujo paleiskite \u201eHome Assistant\u201c, kad pabandytum\u0117te dar kart\u0105, arba pa\u0161alinkite Ecovacs YAML konfig\u016bracij\u0105 i\u0161 failo configuration.yaml ir toliau rankiniu b\u016bdu [nustatykite integracij\u0105] ( {url} ).",
+            "title": "Nepavyko importuoti Ecovacs YAML konfig\u016bracijos"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Ecovacs konfig\u016bravimas naudojant YAML pa\u0161alinamas, ta\u010diau bandant importuoti YAML konfig\u016bracij\u0105 \u012fvyko ne\u017einoma klaida. \n\n \u012esitikinkite, kad YAML konfig\u016bracija yra teisinga, ir i\u0161 naujo paleiskite \u201eHome Assistant\u201c, kad bandytum\u0117te dar kart\u0105, arba pa\u0161alinkite \u201eEcovacs\u201c YAML konfig\u016bracij\u0105 i\u0161 failo configuration.yaml ir toliau rankiniu b\u016bdu [nustatykite integracij\u0105] ( {url} ).",
+            "title": "Nepavyko importuoti Ecovacs YAML konfig\u016bracijos"
+        }
+    }
+}

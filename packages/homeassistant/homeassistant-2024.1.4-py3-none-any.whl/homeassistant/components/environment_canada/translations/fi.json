@@ -1,0 +1,32 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Palvelu on jo m\u00e4\u00e4ritetty"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "error_response": "Environment Canadan vastaus virheellinen",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "latitude": "Leveysaste",
+                    "longitude": "Pituusaste"
+                }
+            }
+        }
+    },
+    "services": {
+        "set_radar_type": {
+            "description": "Asettaa noudettavan tutkakuvan tyypin.",
+            "fields": {
+                "radar_type": {
+                    "description": "N\u00e4ytett\u00e4v\u00e4n tutkakuvan tyyppi.",
+                    "name": "Tutkatyyppi"
+                }
+            },
+            "name": "Aseta tutkatyyppi"
+        }
+    }
+}

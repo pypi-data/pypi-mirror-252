@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A fi\u00f3k m\u00e1r konfigur\u00e1lva van"
+        },
+        "error": {
+            "invalid_auth": "\u00c9rv\u00e9nytelen hiteles\u00edt\u00e9s",
+            "unknown": "V\u00e1ratlan hiba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "Kontinens",
+                    "country": "Orsz\u00e1g",
+                    "password": "Jelsz\u00f3",
+                    "username": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                },
+                "data_description": {
+                    "continent": "Az \u00d6n k\u00e9tbet\u0171s kontinens k\u00f3dja (eu, na stb.)",
+                    "country": "Az \u00d6n k\u00e9tbet\u0171s orsz\u00e1g k\u00f3dja (hu, sk stb.)"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Az Ecovacs konfigur\u00e1l\u00e1sa a YAML haszn\u00e1lat\u00e1val elt\u00e1vol\u00edt\u00e1sra ker\u00fcl, de hiteles\u00edt\u00e9si hiba t\u00f6rt\u00e9nt a YAML-konfigur\u00e1ci\u00f3 import\u00e1l\u00e1sakor.\n\nJav\u00edtsa ki a YAML-konfigur\u00e1ci\u00f3t \u00e9s ind\u00edtsa \u00fajra a Home Assistantot az \u00fajrapr\u00f3b\u00e1lkoz\u00e1shoz vagy t\u00e1vol\u00edtsa el az Ecovacs YAML-konfigur\u00e1ci\u00f3t a configuration.yaml f\u00e1jlb\u00f3l \u00e9s folytassa manu\u00e1lisan az [integr\u00e1ci\u00f3 be\u00e1ll\u00edt\u00e1sa]({url}) m\u0171veletet.",
+            "title": "Az Ecovacs YAML-konfigur\u00e1ci\u00f3 import\u00e1l\u00e1sa sikertelen"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Az Ecovacs konfigur\u00e1l\u00e1sa a YAML haszn\u00e1lat\u00e1val elt\u00e1vol\u00edt\u00e1sra ker\u00fcl, de ismeretlen hiba t\u00f6rt\u00e9nt a YAML-konfigur\u00e1ci\u00f3 import\u00e1l\u00e1sakor.\n\nGy\u0151z\u0151dj\u00f6n meg arr\u00f3l, hogy a YAML-konfigur\u00e1ci\u00f3 helyes \u00e9s ind\u00edtsa \u00fajra a Home Assistantot az \u00fajb\u00f3li pr\u00f3b\u00e1lkoz\u00e1shoz vagy t\u00e1vol\u00edtsa el az Ecovacs YAML-konfigur\u00e1ci\u00f3t a configuration.yaml f\u00e1jlb\u00f3l \u00e9s folytassa manu\u00e1lisan az [integr\u00e1ci\u00f3 be\u00e1ll\u00edt\u00e1sa]({url}) m\u0171veletet.",
+            "title": "Az Ecovacs YAML-konfigur\u00e1ci\u00f3 import\u00e1l\u00e1sa sikertelen"
+        }
+    }
+}

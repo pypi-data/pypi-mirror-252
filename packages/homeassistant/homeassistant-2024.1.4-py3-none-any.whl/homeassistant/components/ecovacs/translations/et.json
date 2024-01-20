@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Kasutaja on juba seadistatud"
+        },
+        "error": {
+            "invalid_auth": "Tuvastamine nurjus",
+            "unknown": "Ootamatu t\u00f5rge"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "Kontinent",
+                    "country": "Riik",
+                    "password": "Salas\u00f5na",
+                    "username": "Kasutajanimi"
+                },
+                "data_description": {
+                    "continent": "Kahet\u00e4heline kontinendi kood (na, eu jne)",
+                    "country": "Kahet\u00e4heline riigikood (ee, us, uk jne)"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Ecovacsi konfigureerimine YAML-i abil eemaldatakse, kuid YAML-i konfiguratsiooni importimisel ilmnes autentimisviga. \n\n Paranda YAML-i konfiguratsioon ja taask\u00e4ivita Home Assistant, et uuesti proovida v\u00f5i eemalda Ecovacsi YAML-i konfiguratsioon failist configuration.yaml ja j\u00e4tka k\u00e4sitsi [integratsiooni seadistamisega] ( {url} ).",
+            "title": "Ecovacs YAML-i konfiguratsiooni importimine nurjus"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Ecovacsi konfigureerimine YAML-i abil eemaldatakse, kuid YAML-i konfiguratsiooni importimisel ilmnes tundmatu viga. \n\n Veendu, et YAML-i konfiguratsioon on \u00f5ige, ja taask\u00e4ivita Home Assistant, et uuesti proovida v\u00f5i eemalda Ecovacsi YAML-i konfiguratsioon failist configuration.yaml ja j\u00e4tka k\u00e4sitsi [integratsiooni seadistamisega] ( {url} ).",
+            "title": "Ecovacs YAML-i konfiguratsiooni importimine nurjus"
+        }
+    }
+}

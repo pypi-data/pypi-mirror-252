@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Konto wurde bereits konfiguriert"
+        },
+        "error": {
+            "invalid_auth": "Ung\u00fcltige Authentifizierung",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "Kontinent",
+                    "country": "Land",
+                    "password": "Passwort",
+                    "username": "Benutzername"
+                },
+                "data_description": {
+                    "continent": "Dein aus zwei Buchstaben bestehender Kontinentcode (na, eu etc.)",
+                    "country": "Dein aus zwei Buchstaben bestehender L\u00e4ndercode (us, uk etc.)"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Die Konfiguration von Ecovacs mit YAML wird entfernt, aber beim Versuch, die YAML-Konfiguration zu importieren, ist ein Authentifizierungsfehler aufgetreten.\n\nKorrigiere die YAML-Konfiguration und starte Home Assistant neu, um es erneut zu versuchen, oder entferne die Ecovacs YAML-Konfiguration aus deiner configuration.yaml-Datei und fahre mit der manuellen [Einrichtung der Integration]({url}) fort.",
+            "title": "Der Import der Ecovacs YAML-Konfiguration ist fehlgeschlagen"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Die Konfiguration von Ecovacs mit YAML wird entfernt, aber beim Versuch, die YAML-Konfiguration zu importieren, ist ein unbekannter Fehler aufgetreten.\n\nStelle sicher, dass die YAML-Konfiguration korrekt ist, und starte Home Assistant neu, um es erneut zu versuchen, oder entferne die Ecovacs-YAML-Konfiguration aus deiner configuration.yaml-Datei und fahre mit der manuellen [Einrichtung der Integration]({url}) fort.",
+            "title": "Der Import der Ecovacs YAML-Konfiguration ist fehlgeschlagen"
+        }
+    }
+}
