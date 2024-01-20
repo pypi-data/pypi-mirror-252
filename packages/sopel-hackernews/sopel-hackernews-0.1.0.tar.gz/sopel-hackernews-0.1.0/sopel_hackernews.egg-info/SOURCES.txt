@@ -1,0 +1,13 @@
+COPYING
+MANIFEST.in
+NEWS
+README.md
+pyproject.toml
+sopel_hackernews/__init__.py
+sopel_hackernews.egg-info/PKG-INFO
+sopel_hackernews.egg-info/SOURCES.txt
+sopel_hackernews.egg-info/dependency_links.txt
+sopel_hackernews.egg-info/entry_points.txt
+sopel_hackernews.egg-info/not-zip-safe
+sopel_hackernews.egg-info/requires.txt
+sopel_hackernews.egg-info/top_level.txt
