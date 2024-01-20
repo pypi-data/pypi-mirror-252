@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GestureProj
+Version: 1.0.5
+Project-URL: Repository, https://github.com/Subhasis-Biswas/Gesture_Recognition/
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: tensorflow
