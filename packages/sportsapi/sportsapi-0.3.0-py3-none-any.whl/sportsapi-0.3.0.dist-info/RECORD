@@ -1,0 +1,9 @@
+sportsapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sportsapi/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sportsapi/providers/catapult/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sportsapi/providers/catapult/api.py,sha256=mmxhody7QWkKVqkBrGBXql_gjq9jWdjg1zl7zyPGUTA,20380
+sportsapi-0.3.0.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sportsapi-0.3.0.dist-info/METADATA,sha256=h9s-MJwtKWu-xiWwPcO0Bai6NWpNjR5OTzjygcnZy_o,1004
+sportsapi-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sportsapi-0.3.0.dist-info/top_level.txt,sha256=CRcdUsIgmEUQ7Vq7RO7Enm3jmVe34rq74OCQy08N4YU,10
+sportsapi-0.3.0.dist-info/RECORD,,
