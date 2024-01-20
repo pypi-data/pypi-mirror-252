@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-sale-coupon-order-discount-fast-change-ui
+Version: 14.0.1.0.1.dev4
+Summary: This module adds an option related to the reward lines to the Sale Order Discount Fast Change UI module
+Home-page: https://github.com/OCA/sale-workflow
+Author: Akretion, Odoo Community Association (OCA)
+Author-email: support@odoo-community.org
+License: LGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.6
+Requires-Dist: odoo14-addon-sale-order-discount-fast-change-ui
+Requires-Dist: odoo <14.1dev,>=14.0a
+
+UNKNOWN
+
