@@ -1,0 +1,12 @@
+pcontract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pcontract/data.py,sha256=zcVxO9GXoXZaq2Bv2RwmHjAUAcb5To3vEDOwfyuj14Q,8727
+pcontract/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pcontract/serialization.py,sha256=GB5xnkQNhCI0RfoBXCK9VywJ1Zxu6jM0Xh4ihJfMKaA,2099
+pcontract/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pcontract/backends/base.py,sha256=QkbvoSGDOZxg1xNeOIBdCy2xa21MGlXWtzo5TpLgQcw,895
+pcontract/backends/file.py,sha256=Yo75-T0Hu2vYgm70pc07yU1HVZNckr5BZlI9Jn4kbzA,1848
+pcontract/backends/mongo.py,sha256=8A50d_8hRMsjzfE86oFre7zlO5jFooLZlS6BLBIEAoo,1039
+pcontract-1.0.0.dist-info/METADATA,sha256=c45MxJ_pEPsUO79_eCai2ja9Dijh8l7r1c-luGJtgfs,6278
+pcontract-1.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pcontract-1.0.0.dist-info/licenses/LICENSE,sha256=3GpYZKPCd4FfUPMwxybrcsk6uNnAjywkkSOciizX6UY,1503
+pcontract-1.0.0.dist-info/RECORD,,
