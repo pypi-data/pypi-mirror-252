@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+wtao/__init__.py
+wtao/__version__.py
+wtao/core.py
+wtao.egg-info/PKG-INFO
+wtao.egg-info/SOURCES.txt
+wtao.egg-info/dependency_links.txt
+wtao.egg-info/top_level.txt
