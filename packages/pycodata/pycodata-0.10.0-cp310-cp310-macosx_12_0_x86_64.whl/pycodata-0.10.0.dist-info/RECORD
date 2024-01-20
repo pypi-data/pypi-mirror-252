@@ -1,0 +1,11 @@
+pycodata/__init__.py,sha256=STXYkxBCqkIx2KP23lAJGMxPYKHTs26xXBtkWS8QQUA,111
+pycodata/constants.cpython-310-darwin.so,sha256=GDe_2WpgbGqd6PoJLLPxSb-fKFYrOZt_F25eMoCmvcU,160200
+pycodata/libcodata.dylib,sha256=8tPyBBE-ZwMWpUpl1Chp2Ef3_PXMocSWhjPCNWkwKT0,3895488
+pycodata/version.cpython-310-darwin.so,sha256=ZogIxMwrDyi0INX4TySigCsX34937cIRO1qp_VxnwLU,50184
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=o6w-dRwT7C7gvCdNxAJikJ7pJx-dKrYuqvDKLtSjmQY,4513
+pycodata-0.10.0.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pycodata-0.10.0.dist-info/METADATA,sha256=gHhAITWCrIEvsQAo8IwugwfLisAju9sho1cISgar7mI,1183
+pycodata-0.10.0.dist-info/WHEEL,sha256=ozFwnjS676IGni9di2q7xZx3qrRxhLNRihPrUlImu74,111
+pycodata-0.10.0.dist-info/top_level.txt,sha256=x9dWNT6G3AdkH3jCOJReRIm-erx6g1JQppOni1OAqS4,26
+pycodata-0.10.0.dist-info/RECORD,,
