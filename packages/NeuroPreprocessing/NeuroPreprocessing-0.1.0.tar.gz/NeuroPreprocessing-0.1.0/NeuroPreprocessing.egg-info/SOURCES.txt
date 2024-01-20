@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+NeuroPreprocessing/__init__.py
+NeuroPreprocessing/utils.py
+NeuroPreprocessing.egg-info/PKG-INFO
+NeuroPreprocessing.egg-info/SOURCES.txt
+NeuroPreprocessing.egg-info/dependency_links.txt
+NeuroPreprocessing.egg-info/requires.txt
+NeuroPreprocessing.egg-info/top_level.txt
