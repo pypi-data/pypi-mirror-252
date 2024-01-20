@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: saopaulo
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/saopaulo#readme
+Project-URL: Issues, https://github.com/unknown/saopaulo/issues
+Project-URL: Source, https://github.com/unknown/saopaulo
+Author-email: Pedro Labonia <p.labonia92@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# saopaulo
+
+[![PyPI - Version](https://img.shields.io/pypi/v/saopaulo.svg)](https://pypi.org/project/saopaulo)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/saopaulo.svg)](https://pypi.org/project/saopaulo)
+
+-----
+
+Python package for archived datasets, tools and helpers for [São Paulo Open Government APIs](https://apilib.prefeitura.sp.gov.br/store/).
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install saopaulo
+```
+
+## License
+
+`saopaulo` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
