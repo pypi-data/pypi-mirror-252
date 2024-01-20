@@ -1,0 +1,15 @@
+extended_algo/__init__.py,sha256=EHRtEuvQsxhpK0mfpy3mXiwmODHG1d5IupLGgnXM3xo,2653
+extended_algo/engine/VectorStrategy.py,sha256=gOcOsrWEzy2DCQ1Vf6l_hbvCXRwgTrdslC7Vabfs2M4,18329
+extended_algo/engine/create_audit_file.py,sha256=WJbcOYnbBev9NUVQDgpGmPqHDszgHVCup5JC2yIBVqc,1892
+extended_algo/engine/create_consolidated_stats.py,sha256=2UyIabEqCc_GqwESJC5m6dVGFFC648dV9tQiRdeYAWg,1290
+extended_algo/engine/create_limit_entries.py,sha256=R7zZYacuXwoGvmnmK6BvL9S_xQQ5XDQvQ2ylRq1HLHA,2294
+extended_algo/engine/create_stop_entries.py,sha256=hrpM7MMoWUgGgzDmJJcleFYNdyfwpX2-hD62clBveC8,2293
+extended_algo/market/LogReturnMarketData.py,sha256=1W3E2D8qLtJ4lJ2d1DFB_cAYO8VX09xmJ98-YpfjA28,2591
+extended_algo/market/MarketData.py,sha256=5C3Ya75BJEItb-Rly9i6SG7qnVNls5fjnIKqUqJGzxc,4823
+extended_algo/market/__init__.py,sha256=hUp_NpjSLqJlsQ1dS_eBrQ9x1YTx5HqXtbuq00NGJ4Y,765
+extended_algo/report/CalculatePnLStats.py,sha256=RM7ObZiSPJigDskp6-2tFvWOm7_jpcH2IglFO6sEXoY,2895
+extended_algo/report/ConstructPortfolioOfStrategies.py,sha256=fyl8nRzNOM8Cw4QLDwPo8KMnu5PsoeVrHYDBbT4nbdg,3083
+extended_algo-0.1.2.dist-info/METADATA,sha256=Grf8f7ZMuP78dgKDVYyL1i__NoAtwumEYtdbwL7CdaY,392
+extended_algo-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+extended_algo-0.1.2.dist-info/top_level.txt,sha256=fE1VG7936bF0vYuUE2kHfl7tx7fOahQhk65DgJga5cs,14
+extended_algo-0.1.2.dist-info/RECORD,,
