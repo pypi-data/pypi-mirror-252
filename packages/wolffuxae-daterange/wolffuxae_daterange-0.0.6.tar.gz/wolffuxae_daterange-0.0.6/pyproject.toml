@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wolffuxae-daterange"
+version = "0.0.6"
+description = "daterange functions"
+authors = ["ekl <ekluxae@gmail.com>"]
+readme = "README.md"
+packages = [{include = "daterange"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
