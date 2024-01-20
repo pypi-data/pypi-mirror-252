@@ -1,0 +1,7 @@
+commit c8168e01abfad272b676b1044463bfe28ca850e4
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2024-01-19 09:45:31 -0800
+
+    Merge pull request #9 from elcaminoreal/log-dry-run-better
+    
+    log dry run better
