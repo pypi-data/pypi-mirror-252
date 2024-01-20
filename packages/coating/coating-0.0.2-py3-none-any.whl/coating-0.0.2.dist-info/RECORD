@@ -1,0 +1,10 @@
+coating/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coating/__main__.py,sha256=iu8d4BTieesXjbyVLppftH7S-CC263rkFuLzCsYfsLo,82
+coating/parser.py,sha256=_4E4G6vfykIjrp7hr3aR7npyTX4Eyahx7mQzkmFM5iQ,4925
+coating/view.py,sha256=FJpDNtPfSxTXJo5uTWbAftCEdcEZnxmcl-zsBVebpAU,7445
+coating-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+coating-0.0.2.dist-info/METADATA,sha256=0JpUM-0_1qU6z_jwM5jeClJDOYq3kJCw3IGfl1aByqg,3878
+coating-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+coating-0.0.2.dist-info/entry_points.txt,sha256=_qPV23SPLQYu4YlKCLv29M593n75mBYAICPXvqfI0wA,46
+coating-0.0.2.dist-info/top_level.txt,sha256=XJc_d526hQNMoHZX8bQYXTqIBqqveE21gXqwlIDPwvw,8
+coating-0.0.2.dist-info/RECORD,,
