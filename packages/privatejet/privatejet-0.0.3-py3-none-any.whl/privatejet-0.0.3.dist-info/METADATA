@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: privatejet
+Version: 0.0.3
+Summary: This is a python backend framework for building REST applications. It is built on top of the ASGI specification and uses the uvicorn server.
+License: MIT
+Author: m-moein98
+Author-email: moein1475963.mmz@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (>=23.12.1,<24.0.0)
+Requires-Dist: flake8 (>=7.0.0,<8.0.0)
+Requires-Dist: isort (>=5.13.2,<6.0.0)
+Requires-Dist: mypy (>=1.8.0,<2.0.0)
+Requires-Dist: pre-commit (>=3.6.0,<4.0.0)
+Requires-Dist: ruff (>=0.1.13,<0.2.0)
+Requires-Dist: setuptools (>=69.0.3,<70.0.0)
+Requires-Dist: stubs (>=1.0.0,<2.0.0)
+Requires-Dist: wheel (>=0.42.0,<0.43.0)
+Description-Content-Type: text/markdown
+
+## Description
+
+This is a python backend framework for building REST applications. It is built on top of the ASGI specification and uses the uvicorn server.
+## Installation
+
+```bash
+poetry install
+poetry shell
+python setup.py bdist_wheel
+pip install dist/privatejet-0.0.3-py3-none-any.whl
+```
+
+## Usage
+
+```python
+"""
+This is an example of how to use PrivateJet.
+"""
+from typing import Callable
+
+from privatejet.main import PrivateJet
+from privatejet.middlewares import CORSMiddleware
+from privatejet.router import JetRouter
+
+
+private_jet = PrivateJet()
+
+
+async def app(scope: dict[str, str], receive: Callable, send: Callable) -> None:
+    """
+    This function is called by the ASGI server.
+    """
+    await private_jet.add_middleware(CORSMiddleware)
+    await private_jet.add_router(router={"prefix": "/users", "router": UserRouter})
+    await private_jet.start(scope=scope, receive=receive, send=send)
+
+
+class UserRouter(JetRouter):
+    """
+    User Router
+    """
+
+    async def get(self, request: dict[str]) -> None:
+        """
+        When request method is GET and the path is like this:
+            - /users
+        """
+        await self.send_message(
+            [
+                {"name": "alex", "age": 20},
+                {"name": "john", "age": 30},
+            ]
+        )
+
+    async def get_one(self, request: dict[str]) -> None:
+        """
+        When request method is GET and the path is like this:
+            - /users/1
+        """
+        await self.send_message({"name": "alex", "age": 20})
+
+    async def post(self, request: dict[str]) -> None:
+        """
+        When request method is POST and the path is like this:
+            - /users
+        """
+        await self.send_message(
+            {
+                "message": "User created successfully",
+                "user": {
+                    "name": request["body"]["name"],
+                    "age": request["body"]["age"],
+                },
+            }
+        )
+
+    async def put(self, request: dict[str]) -> None:
+        """
+        When request method is PUT and the path is like this:
+            - /users/1
+        """
+        await self.send_message(
+            {
+                "message": "User updated successfully",
+                "user": {
+                    "name": request["body"]["name"],
+                    "age": request["body"]["age"],
+                },
+            }
+        )
+
+    async def patch(self, request: dict[str]) -> None:
+        """
+        When request method is PATCH and the path is like this:
+            - /users/1
+        """
+        await self.send_message(
+            {
+                "message": "User patched successfully",
+                "user": {
+                    "name": request["body"]["name"],
+                    "age": request["body"]["age"],
+                },
+            }
+        )
+
+    async def delete(self, request: dict[str]) -> None:
+        """
+        When request method is DELETE and the path is like this:
+            - /users/1
+        """
+        await self.send_message(
+            {
+                "message": "User deleted successfully",
+            }
+        )
+
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.

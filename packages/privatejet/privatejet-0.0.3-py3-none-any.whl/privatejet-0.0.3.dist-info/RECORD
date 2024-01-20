@@ -1,0 +1,10 @@
+privatejet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privatejet/boilerplates/main.py,sha256=6PViNltm8PliOijejl3DJbqHDCUF7SeopoRXme6cxKM,2823
+privatejet/cli.py,sha256=vil86ri1v4i0g58Vd6rUl0msslBOdp3dtPVdAA6cRAo,1431
+privatejet/main.py,sha256=NjPU2mc-TUpgsCVElTsdTEfsq4BoiKkbW3xo3Q8Pt3A,3398
+privatejet/middlewares.py,sha256=q9rZ_n81iPbkKenw56bVlcoolgMhlCDgwkBcnOxhFfE,909
+privatejet/router.py,sha256=GVTJsS2USTAJUpAJ-ZwLpqlXCYVSCLYCrCSzwVlhroU,2634
+privatejet-0.0.3.dist-info/LICENSE.txt,sha256=Y0RZS_QKFwB3ALfxQ507-Smc3J1h_ijFTh_MPV1w7Iw,1080
+privatejet-0.0.3.dist-info/METADATA,sha256=iyXypsaw6KOGUiBnMBhVY5XIfnmgVFWVEeDv7pGT5NU,4072
+privatejet-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+privatejet-0.0.3.dist-info/RECORD,,
