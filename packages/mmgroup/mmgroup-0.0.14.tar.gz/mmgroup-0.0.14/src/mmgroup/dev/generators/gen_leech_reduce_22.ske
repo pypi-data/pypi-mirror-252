@@ -1,0 +1,376 @@
+/** @file gen_leech_reduce_22.c
+The functions in file ``gen_leech_reduce_22.c`` implement some
+special transformations of vectors in the Leech lattice modulo 2.
+Given a two-dimensional subspace of Leech lattice (mod 2) spanned 
+by vector of type 2 and two vectors of type 2 or 3, we want to find
+a transformation in the group \f$\mbox{Co}_1\f$ that transforms
+that space into a standard space.
+
+
+We use the terminology defined in
+the document *The C interface of the mmgroup project*, 
+section *Description of the mmgroup.generators extension*.
+*/
+
+
+/*************************************************************************
+** External references 
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+#include <string.h>
+#include "mat24_functions.h"
+#define MMGROUP_GENERATORS_INTERN
+#include "mmgroup_generators.h"
+/// @endcond 
+
+
+
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+extern "C" {
+#endif
+// %%GEN c
+
+
+//  %%GEN h
+/// @cond DO_NOT_DOCUMENT 
+//  %%GEN c
+
+
+
+
+
+
+/// @cond DO_NOT_DOCUMENT 
+
+
+/*****************************************************************
+The following table contains the type-2 vectors v of subtype 22,
+such that  v + w is also of type 2. Here w is image of the
+standard cocode vector [2,3] in the Leech lattice mod 2.
+
+There are 77 octads containing the entries [2,3]; and for each
+of these octads o there are 2*16 such vectors v as above. If v
+is such a vector then v+w is also such a vector.
+
+The following table lists all such vectors v such that bit 9 of
+the Leech lattice encoding of v is cleared. Note that w is 0x200
+in Leech lattice encoding.
+
+Any of the 77 entries of the table corresponds to an octad o as
+above. Such an entry encodes a quintuple  (x1, x2, x3, x4, ov)
+of vectors in the Leech lattice mod 2, such that there are 16
+vectors v as described above:
+
+ ov + u1*x1 + u2*x2 + u3*x3 + u4*x4 + u5*Omega ,
+
+for u1, u2, u3, u4 in [0, 1]. The bit u5 depends on  u1, u2, u3,
+and  u4 as follows: u5 is 1 if u1 + u2 + u3 + u4 in [0, 1, 4];
+and u5 = 0  otherwise. 
+
+Here x1,...,x4 are even cocode vectors; and vector ov may be any
+vector in the leech lattice mod 2. Vector x_i is stored in
+bits 10*i+9,...,10*i of an entry of the table; and ov is stored
+in bits 61,...,40 of an entry. These entries are compressed, so
+that they altogether fit into a 64-bit integer. All entries must
+be expanded with the function ``expand_22``  #defined below.
+
+*****************************************************************/
+
+static const uint64_t TABLE_OCTAD_22[77] = {
+  // %%TABLE GenLeech_v22_table, uint64
+};
+
+#define expand_22(v) \
+(((v) & 0x1ff) | (((v) << 1) & 0x400) | (((v) << 2) & 0xfff000))
+
+
+// The standard cocode vector [2,3] in Leech lattice encoding
+#define COCODE_STD 0x200
+
+// The standard cocode vector [2] in Leech lattice encoding
+#define COCODE_2 0xd00
+
+static uint8_t COC_LIST[2] = {2,3};
+
+
+/// @endcond
+
+
+
+/** @brief Generate certain type-2 vectors in the Leech lattice
+
+The function maps the integers \f$ 0 \leq n < 4600\f$ to the
+4600 type-2 vectors \f$v\f$ in the Leech lattice mod 2, such that
+that  \f$v+w\f$ is also of type 2 in the Leech lattice mod 2.
+Here \f$w\f$ is the standard type-2 
+vector \f$(0, 0, 4, -4, 0, \ldots, 0)\f$. Such a vector \f$v\f$
+is returned in *Leech lattice encoding*.
+
+The function returns a negative value in case of failure; e.g.
+if \f$n \geq 4600\f$.
+
+*/
+// %%EXPORT px
+int32_t gen_leech2_n_type_22(uint32_t n)
+{
+    uint32_t d = 0, om;
+    if (n >= 4600) return -1;
+
+    // if n >= 2300 return  gen_leech2_n_type_22(n - 2300) ^ 0x200
+    if (n >= 2300) {
+        n -= 2300;
+        d = 0x200;
+    }
+
+    if (n >= 44 + 77*16) {
+        // Then return an type-2 vector constructed from ``res`` that
+        // has scalar product 1 with the standard type-4 vector Omega.
+        // Put res = n - 44 - 77*16, i.e. 0 <= res < 1024.
+        uint32_t res, sc, theta;
+        res = n - 44 - 77*16;
+        // Let ``res`` be a Golay code vector (mod Omega) that has
+        // scalar product 1 with the standard type-2 vector.
+        res = (res & 0x1ff) + 2 * (res & 0x200);
+        // Let ``res`` be the vector x_res + x_delta, where delta
+        // is the cocode word [2].
+        theta =  MAT24_THETA_TABLE[res & 0x7ff] & 0xfff;
+        res = (res << 12) ^ theta ^ COCODE_2;
+        // Add x_Omega to res, if the type of res is odd
+        sc =  mat24_scalar_prod(res >> 12, res);
+        res = (res ^ (sc << 23)) & ~0x200UL;
+        // Add 0x200 to the result ``res`` in case n >= 2300.
+        return res ^ d; 
+    }
+    if (n >= 44) {
+        // In case 44 <= n < 77*16 + 44 we put res = n - 44; and we
+        // read one of the 77*16 vectors v of subtype 22 from table
+        // TABLE_OCTAD_22 as described in the documentation of that 
+        // table.
+        uint32_t res, c, i;
+        uint64_t o, v;
+        res = n - 44 ;
+        o = TABLE_OCTAD_22[res >> 4]; c = res & 0xf;
+        v = o >> 40;
+        for (i = 0; i < 4; ++i) if ((c >> i) & 1) v ^= (o >> (10*i)) & 0x3ff;
+        v = expand_22(v);
+        // Now v = ov + u1*x1 + u2*x2 + u3*x3 + u4*x4 has been read 
+        // from table TABLE_OCTAD_22. Next we add Omega to v if 
+        // u1 + u2 + u3 + u3 in [0,1,4].
+        v ^= ((%{hex:GenLeech_v22_weights} >> c) & 1) << 23;
+        // Add 0x200 to the result ``v`` in case n >= 2300.
+        return (int32_t)v ^ d; 
+    }
+    // Otherwise we return a vector corresponding to a cocode word [2,i]
+    // (if n < 22) or  [2,i] + Omega (if n >= 22). Here we make sure that
+    // i  is different from 2 and 3.
+    om = 0;
+    if (n >= 22) {
+        n -= 22; om = 0x800000;
+    }
+    if (n >= 2) n += 2;
+    om ^= mat24_vect_to_cocode((1 << 2) ^ (1 << n));
+    // Add 0x200 to the result ``res`` in case n >= 2300.
+    // This changes the cocode word [2,i] to [3,i].
+    return om ^ d;
+}
+
+
+
+
+/** @brief Support for reducing a certain pair of vectors in the Leech lattice
+
+Let ``v2`` be a vector of type 2 in the Leech lattice mod 2,
+and let ``v3`` be a vector of type 3 in the Leech lattice mod 2,
+such that ``v2 + v3`` is also of type 3. Here ``v2`` and ``v3``
+must be given in *Leech lattice encoding*. It is known that
+the group fixing ``v2`` and ``v3`` is the Highman-Sims group,
+see [CS99], Ch. 10.3.5.
+
+The function computes a vector ``v4`` of type 4 such
+that ``v2 + v4, v3 + v4``, and ``v2 + v3 + v4`` are all of type 2.
+Vector ``v4`` can be used in function ``gen_leech2_find_v4_233``
+for reducing the pair ``(v2, v3)`` to a standard pair of vectors.
+
+The function returns the value ``t * 0x1000000 + v4`` in case of
+succcess, where ``t`` is the number of trials is a random process
+described below. In case ``t > 127`` we put ``t = 127``.
+Input ``trials`` is the maximum number of trials;
+here ``trials = 5000`` appears to be adequate. Parameter ``seed``
+is a seed for a random generator as described in
+module ``gen_random.c``. The function returns a negative value
+in case of failure.
+
+The function tries to find random vectors ``v100`` of type 2
+in the Leech lattice mod 2 such that both, ``v100 + v2``,
+and ``v100 + v3`` are of type 2. Then the
+vector ``v4 = v2 + v3 + v100`` satifies the required conditions,
+see [CS99], Ch. 10.3.5. For finding ``v100`` we transform ``v2``
+to the standard type-2 vector with a transformation ``tf``.
+Then we generate random type-2 vectors with
+function ``gen_leech2_n_type_22``. These random type-2 vectors
+are interpreted as transformed vectors ``tf(v100)``; an we will
+check check the required conditions on the transformed
+vectors ``tf(v2)``, ``tf(v3)``, and ``tf(v100)``.
+*/
+// %%EXPORT px
+int32_t gen_leech2_find_v4_233(uint32_t v2, uint32_t v3, uint32_t trials, uint64_t *seed)
+{
+    uint32_t k=0,  v3tf, t, v100, r, v4, a[8];
+    int32_t res;
+    if (gen_leech2_type(v3) != 3 || gen_leech2_type(v2 ^ v3) != 3) 
+        return -8;
+
+    // Set a[:k] to a word g' of generators of Co_1 such
+    // that v2 * g' = w2.
+    k = res = gen_leech2_reduce_type2(v2, a);
+    if (res < 0) return res;
+    // Put  v3tf = v3 * g' .
+    v3tf = gen_leech2_op_word(v3, a, k);
+    if ( v3tf & ~0x1ffffffUL) return -9;
+    // Find a random type-2 vector v100 with 
+    // type(v100 + v2) = type(v100 + v3tf) = 2.
+    // Here we use function gen_leech2_n_type_22(r) for obtaining
+    // vectors v100 with type(v100) = type(v100 + v2) = 2.
+    for (t = 0; t < trials; ++t) {
+        r =  gen_rng_modp(4600, seed);
+        v100 = gen_leech2_n_type_22(r);
+        if (gen_leech2_type2(v100 ^  v3tf)) goto found;
+    }
+    return -10;
+
+
+found:
+    // Here a suitable vector v100 has been found. Put
+    // v4 = v100 ^  v3tf ^ w2. The v4 must be of type 4.
+    v4 = v100 ^  v3tf ^ COCODE_STD;  // Note that COCODE_STD = w2
+    if (gen_leech2_type(v4) != 4) return -11;
+    // Invert the group element g'
+    mm_group_invert_word(a, k);
+    // Put v4 = v4 * g'**-1
+    v4 = gen_leech2_op_word(v4, a, k);
+    t = t < 127 ? t + 1 : 127;
+    return (t << 24) + (v4 & 0xffffff);
+}
+
+
+
+/** @brief Reduce a certain pair of vectors in the Leech lattice
+
+Let ``v2`` be a vector of type 2 in the Leech lattice mod 2,
+and let ``v3`` be a vector of type 3 in the Leech lattice mod 2,
+such that ``v2 + v3`` is also of type 3. Here ``v2`` and ``v3``
+must be given in *Leech lattice encoding*.  It is known that
+the group fixing ``v2`` and ``v3`` is the Highman-Sims group,
+see [CS99], Ch. 10.3.5.
+
+The function computes an element ``g`` of the Conway group
+\f$\mbox{Co}_1\f$ such that ``v2 * g = w2`` and ``v3 * g = w3``
+with ``w2 = (0, 0, 4, -4, 0, ..., 0)``
+and ``w3 = (1, 1, 5, 1, ..., 1)``.
+
+The function stores ``g`` in the array ``a`` as a word of
+length ``k`` of generators of the subgroup ``G_x0`` of the
+Monster. These generators are encoded as described in
+file ``mmgroup_generators.h``. We have ``k <= 8``; so the
+array ``a`` must have size at least 8.
+
+The function returns the value ``k >= 0`` in case of
+succcess, and a negative value in case of failure.
+
+Parameter ``v4`` must be a type-4 vector satisfying certain
+conditions as described in de documentation of
+function ``gen_leech2_find_v4_233``. That function computes
+a suitable random vector ``v4``.
+
+Internally, we use function ``gen_leech2_reduce_type4`` to
+find an element ``g_0`` of \f$\mbox{Co}_1\f$ that maps ``v4``
+to the standard type-4 vector ``Omega``. To finish up, we just
+have to calculate an element ``g_1`` of the subgroup
+\f$2^{11}.M_{24}\f$ of \f$\mbox{Co}_1\f$ such that
+``g = g_0 * g_1`` satisfies the required conditions.
+*/
+// %%EXPORT px
+int32_t gen_leech2_reduce_233(uint32_t v2, uint32_t v3, uint32_t v4, uint32_t *a)
+{
+    uint32_t k=0, syn_v3, syn_v2, atom, y;
+    int32_t res;
+    uint8_t img_pi[2], pi[32];
+
+    // Set a[:k] to a word g_0 of generators of Co_1 such that
+    // that v4 * g_0 is the standard type-4 element OMEGA.
+    if (gen_leech2_type(v2) != 2) return -7;
+    if (gen_leech2_type(v3) != 3 || gen_leech2_type(v2 ^ v3) != 3)
+        return -8;
+    if (gen_leech2_type(v4) != 4) return -9;
+    if (gen_leech2_type(v2 ^ v4) != 2 ||
+          gen_leech2_type(v2 ^ v3 ^ v4 ) != 2)   return -10;
+
+    k = res = gen_leech2_reduce_type4(v4, a);
+    if (res < 0) return res;
+    // Put v2 = v2 * g_0, v3 = v3 * g0.
+    v2 = gen_leech2_op_word(v2, a, k);
+    v3 = gen_leech2_op_word(v3, a, k);
+
+    // Let syn_v3 be the syndrome of the Golay code part of vector v3.
+    // Then syn_v3 must be a singleton. 
+    syn_v3 = mat24_cocode_syndrome(v3 ^ mat24_ploop_theta(v3 >> 12), 24);
+    if (syn_v3 == 0 ||  syn_v3 & (syn_v3 - 1)) return -12;
+    // Let syn_v2 be the sydrome corresponding to vector v2. Next put
+    // syn_v2 = syn_v2  & ~syn_v3. Then syn_v2 must be a singleton.
+    syn_v2 = mat24_cocode_syndrome(v2 & 0xfff, 24) & ~syn_v3;
+    if (syn_v2 == 0 ||  syn_v2 & (syn_v2 - 1)) return -13;
+    // Let img_pi[0] be the index corresponding to the singleton v3
+    img_pi[0] = mat24_def_lsbit24(syn_v3);
+    // Let img_pi[1] be the index corresponding to the singleton v2
+    img_pi[1] = mat24_def_lsbit24(syn_v2);
+    // Compute a permutation pi that maps [2,3] to img_pi[0], img_pi[1] 
+    res = mat24_perm_from_map(COC_LIST, img_pi, 2, pi);
+    if (res < 1 || res > 3) return -14;
+    // Let ``atom`` be a generator corrsponding to pi**-1
+    atom =  mat24_perm_to_m24num(pi) + 0xa0000000;
+    // put v2 = v2 * pi**-1, v3 = v3 * pi**-1
+    v2 =  gen_leech2_op_atom(v2, atom);
+    v3 =  gen_leech2_op_atom(v3, atom);
+    // Multiply g_0 with generator ``atom``.
+    a[k++] = atom;
+
+    // In the real Leech lattice we have now v2 = w2 and v3 = w3, up to
+    // sign. We compute a mapping y (in ``gcode`` representation) such
+    // that reflection with y corrects the sign of v3. Let ``atom``
+    // be a generator of G_x0 corrsponding to that reflection.
+    y = (v3 >> 12) & 0x7ff;
+    atom = 0xc0000000 + y;
+    // Put v2 = v2 * ``atom``, v3 = v3 * ``atom``.
+    v2 =  gen_leech2_op_atom(v2, atom) & 0xffffff;
+    v3 =  gen_leech2_op_atom(v3, atom) & 0xffffff;
+    // Check that we now have v2 = w2 and v3 = w3.
+    if (v2 != 0x200) return -15;
+    if (v3 != 0x800d00) return -16;
+    // Multiply g_0 with generator ``atom``, so that this will be equal
+    // to the result g. The result g will be sored in a[0:k] as a word
+    // of generators.
+    a[k++] = atom;
+    return  k;
+}
+
+
+
+//  %%GEN h
+/// @endcond 
+//  %%GEN c
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+}
+#endif
+
+
+
+

@@ -1,0 +1,521 @@
+/** @file gen_union_find.c
+The functions in file ``gen_union_find.c`` implement a union-find
+algorithm. This may be used e.g. for computing the orbits of  the Leech 
+lattice mod 2 under the action of a group.
+
+
+*/
+
+
+/*************************************************************************
+** External references 
+*************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT
+#include <stdlib.h> 
+#include <string.h>
+#include "mat24_functions.h"
+#define MMGROUP_GENERATORS_INTERN
+#include "mmgroup_generators.h"
+/// @endcond 
+
+
+
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+extern "C" {
+#endif
+// %%GEN c
+
+
+//  %%GEN h
+/// @cond DO_NOT_DOCUMENT 
+//  %%GEN c
+
+
+
+
+
+
+/** @brief Initialize table for union-find algorithm
+
+The function initializes an array referred by parameter ``table``
+for performing a union-find algorithm on the set ``S(length)`` of
+integers ``i`` with ``0 <= i < length``. Array ``table`` must have
+size ``length``. Here ``0 <= length <= 0x40000000``must hold.
+
+Then ``table`` will store a partition of the set ``S(length)``
+in an internal format. Initially, that partition consists of
+singletons. One may use function ``gen_ufind_union`` for joining
+two sets of that partition. Any set in the partition is
+represented by an element of that set. The rules for computing
+a representative of a set are not disclosed to the user.
+You may use function ``gen_ufind_find`` for finding the
+representative of a set. After calling
+function ``gen_ufind_find_all_min`` each set is represented by
+its smallest element. The representative of a set may change
+after calling function ``gen_ufind_union``.
+
+The function returns 0 in case of success, and a negative value
+in case of failure (e.g. if ``length`` is too big.)
+*/
+// %%EXPORT px
+int32_t gen_ufind_init(uint32_t * table, uint32_t length)
+{
+     uint32_t i;
+     if (length > 0x40000000) return -1;
+     for (i = 0; i < length; ++i) table[i] = 0x80000000;
+     return 0;
+}
+
+
+
+
+
+
+
+/** @brief The find function for the union-find algorithm
+
+Let ``S(length)`` be the set of integers ``i`` with ``0 <= i < length``;
+and let a partition of ``S(length)`` be stored in the array ``table``
+(of size ``length``) as described in function ``gen_ufind_init``.
+
+The function returns the representative of the set containing the
+integer ``n``. It returns a negative number in case of failure,
+e.g. if ``n >= length``.
+*/
+// %%EXPORT px
+int32_t gen_ufind_find(uint32_t *table, uint32_t length, uint32_t n)
+{
+     uint32_t u = n, p, gp;
+     if (length > 0x40000000UL || n >= length) return -1;
+ 
+     p = table[u];
+     while ((p & 0x80000000UL) == 0) {
+         if (p >= length) return -2;
+         gp = table[p];
+         if (gp & 0x80000000UL) return p;
+         table[u] = gp;
+         u = gp;
+         if (u >= length) return -3;
+         p = table[u];
+     }
+     return u;
+}
+
+
+
+
+
+/** @brief The union function for the union-find algorithm
+
+Let ``S(length)`` be the set of integers ``i`` with ``0 <= i < length``;
+and let a partition of ``S(length)`` be stored in the array ``table``
+(of size ``length``) as described in function ``gen_ufind_init``.
+
+The function joins the sets in the partition containg the
+elements ``n1`` and ``n2``.
+*/
+// %%EXPORT px
+void gen_ufind_union(uint32_t * table, uint32_t length, uint32_t n1, uint32_t n2)
+{
+     uint32_t u1 = n1, u2 = n2, p1, p2, gp1, gp2;
+     if (length > 0x40000000UL || n1 >= length || n2 >= length) return;
+
+     p1 = table[u1];
+     while ((p1 & 0x80000000UL) == 0) {
+         if (p1 >= length) return;
+         gp1 = table[p1];
+         if (gp1 & 0x80000000UL) {
+             u1 = p1; p1 = gp1;
+             break;
+         }
+         if (u1 >= length) return;
+         table[u1] = gp1;
+         u1 = gp1;
+         p1 = table[u1];
+     }
+     // u1 = find(n1); p1 = rank(tree(n1)) + CONST
+
+     p2 = table[u2];
+     while ((p2 & 0x80000000UL) == 0) {
+         if (p2 >= length) return;
+         gp2 = table[p2];
+         if (gp2 & 0x80000000UL) {
+             u2 = p2; p2 = gp2;
+             break;
+         }
+         if (u2 >= length) return;
+         table[u2] = gp2;
+         u2 = gp2;
+         p2 = table[u2];
+     }
+     // u2 = find(n1); p2 = rank(tree(n1)) + CONST
+
+     if (u1 == u2) return; // n1 and n2 are in the same set
+
+     if (p1 <= p2) {
+         table[u1] = u2;
+         if (p1 == p2) ++table[u2];
+     } else {
+         table[u2] = u1;
+     }
+}
+
+
+
+
+   
+  
+
+
+/** @brief Choose smallest representatives for sets in union-find algorithm
+
+Let ``S(length)`` be the set of integers ``i`` with ``0 <= i < length``;
+and let a partition of ``S(length)`` be stored in the array ``table``
+(of size ``length``) as described in function ``gen_ufind_init``.
+
+The function chooses the smallest element of a set in a partition
+as the representative of the set. Thus a subsequent call to
+function ``gen_ufind_find`` with parameter ``n`` returns the
+smallest element of the set containg ``n``.
+
+The function returns the number of the sets in the partition.
+A negative return value indicates a error the array ``table``.
+*/
+// %%EXPORT px
+int32_t gen_ufind_find_all_min(uint32_t *table, uint32_t length)
+{
+    uint32_t n, u, p, mu, u1, gp, res = 0;
+
+    if (length > 0x40000000UL) return -1;
+     
+    // Map all elements of a set S to the representative u(S) of S;
+    // and map u(S) to 0xc0000000 + mu, where mu = min(S). Ignore
+    // all singletons S = {u}. A singleton is  mapped to 0x80000000.
+    for (n = 0; n < length; ++n) {
+        u = mu = n; 
+        p = table[u];
+        res += p >> 31;
+        if (p == 0x80000000UL) continue;
+        while ((p & 0x80000000UL) == 0) {
+            mu = mu < p ? mu : p;
+            u = p;
+            if (u >= length) {
+                 u = 0x40000000UL;
+                 goto table_stuck;
+            }
+            p = table[u];
+        }
+        if ((p & 0xc0000000UL) == 0xc0000000UL) {
+            p &= 0x3fffffffUL;
+            mu = mu < p ? mu : p;
+        }
+        table[u] = mu | 0xc0000000UL; 
+ table_stuck:
+        u1 = n;
+        p = table[u1];
+        while ((p & 0xc0000000UL) == 0) {
+            table[u1] = u;
+            u1 = p;
+            p = table[u1];
+        }
+    }
+
+    // Map all elements of a set S to min(S); and map min(S) to
+    // 0x80000001. We have min(S) = table[u(s)] & 0x3fffffff.
+    // Ignore all singletons S.
+    for (n = 0; n < length; ++n) {
+        u = n; 
+        p = table[u];
+        if (p & 0x80000000UL) {
+            if ((p & 0x40000000UL) == 0) continue;
+            p &= 0x3fffffffUL;
+            if (p >= length) {
+                table[u] = 0x40000000UL;
+                continue;
+            }
+            table[u] = p;
+            table[p] = 0x80000001;
+            continue;
+        }
+        gp = table[p];
+        if (gp & 0x80000000UL) {
+            if ((gp & 0x40000000UL) == 0) continue;
+            gp &= 0x3fffffffUL;
+        }
+        if (gp >= length) {
+            table[p] = 0x40000000UL;
+            continue;
+        }
+        table[u] = table[p] = gp;
+        table[gp] = 0x80000001;
+    }
+
+    // Return number of sets in partition 
+    return res;
+}
+
+
+
+
+
+/** @brief Output the partition computed by the union-find algorithm
+
+Let ``S(length)`` be the set of integers ``i`` with ``0 <= i < length``;
+and let a partition of ``S(length)`` be stored in the array ``table``
+(of size ``length``) as described in function ``gen_ufind_init``.
+
+We assume that the partition stored in the array ``table``
+contains ``n_sets`` sets. Then we overwrite the array ``table``
+with a list of lists, where each list corresponds to a set in
+the partition. We write some index infomation for interpreting
+these lists into the array ``ind`` of length ``len_ind``.
+
+Array ``table`` will contain the ``length`` elements of the
+set ``S(length)`` in such a way that for ``0 <= i < n_sets``
+the ``i``-th set in the partition is equal to the set of
+integers given by ``table[ind[i]], ...,  table[ind[i+1] - 1]``.
+
+So the array ``ind`` must have size at least ``n_sets + 1``;
+i.e. we must have ``len_ind > n_sets``.
+Function ``gen_ufind_find_all_min`` must be called beford calling
+this function. Note that function ``gen_ufind_find_all_min``
+returns ``n_sets`` in case of success.
+
+The entries ``table[ind[i]], ...,  table[ind[i+1] - 1]``
+corresponding to set in the partition are sorted. The sets of
+the partition are sorted by their smallest elements.
+
+The function returns ``n_set`` in case of success and a negative
+value in case of failure.
+*/
+// %%EXPORT px
+int32_t gen_ufind_partition(uint32_t *table, uint32_t length, uint32_t *ind, uint32_t len_ind)
+{
+    uint32_t *next, n, p, i=0, j, last, fst;
+    int32_t status = -1;
+
+    if (length > 0x40000000UL) return -1;
+    next = malloc(sizeof(uint32_t) * (length + len_ind));
+    if (next == NULL) return -1;
+
+    // Here ``next`` is an array of length ``length + i.`` index ``i``
+    // is incremented whenever we see a new set of the partition while
+    // iterating though the ``table``. Eventually, ``i`` will be the
+    // number of sets in the partition.
+
+    // We will store the set {x_1, ..., x_m} with index ``j`` in the
+    // arrays ``ind`` and ``next`` as shown in the following figure.
+    // This peculiar scheme is dictated by the fact that array ``next``
+    // is usually much larger than array ``ind``. Note that the original
+    // information about the set is copied from ``table`` to ``ind``
+    // and ``next``. In the ``table`` the enties ``x_i, i > 1`` contain
+    // a pointer to ``x_1``; thus index ``j`` must be reachable from
+    // the entry ``x_1`` stored in the array ``next``. Also we want 
+    // the first entry ``x_1`` and the last entry ``x_m`` to be
+    // reachable from the index ``j`` of the set  {x_1, ..., x_m}.
+    
+    //
+    //  ind:     +-----------------------j
+    //           |                       ^
+    //           |                       |                             
+    //           v                       v
+    //  next:   x_m  -->  x_1  -->  j + length  -->  x_2 --> x_3
+    //           ^                                            |
+    //           |_____________ ............ _________________|
+
+    for (n = 0; n < length; ++n) {            
+        p = table[n];                        // In case m = 1 we put:
+        if (p & 0x80000000) {                //   ind:            +-----i
+            status = -2;                     //                   |     |
+            if (i >= len_ind) goto cleanup;  //                   v     |
+            ind[i] = next[n] = length + i;   //   next: x_1  -->  i + length
+            next[length + i] = n;            //          ^              |
+            ++i;                             //          |______________|  
+        } else {
+            if (p >= length) continue; 
+            // Now ``n`` is the entry to be appended to the set with 
+            // index ``j``; and  ``p`` is the first element of that set
+            // (corresponding to ``x_1`` in the figure above).
+            status = -4;
+            if (p >= n) goto cleanup;
+            status = -5;
+            if ((table[p] & 0x80000000) == 0) goto cleanup;
+            j = next[p] - length; // index of the set
+            status = -6;
+            if (j >= i) goto cleanup;
+            last = ind[j];        // old ``x_m`` in the figure above
+            status = -7;
+            if (next[last] != p) goto cleanup;
+            // append ``n`` to the list [x_1, ..., x_m]
+            ind[j] = next[last] = n;   
+            next[n] = p;          // let ``n`` point to the 1st element       
+        }
+    }
+
+    // Store the number of the sets in ``len_ind``.
+    status = -8;
+    if (i >= len_ind) goto cleanup;
+    len_ind = i;
+
+    // Copy the elements of the sets from array ``next`` back
+    // tp the array ``table``, so the elements of the same set are
+    // adjacent. Store index information for these sets in the
+    // array ``ind``.
+    n = 0;
+    for (i = 0; i < len_ind; ++i) {
+        last = ind[i];        // Last element of the set
+        ind[i] = n;           // Store index of the beginning of the set
+        table[n++] = fst = next[last]; // store 1st element of the set
+        p = next[length + i]; // 2nd element of the set or end marker
+        while (p != fst) {    // Here  ``fst`` will be the end marker
+            table[n++] = p;   // Fill ``table`` until end marker found
+            p = next[p];
+        } 
+    }
+
+    // Store total number of elements all sets in ``ind[len_ind]``.
+    // Thus for ``0 <= j < len_ind``the j-th set contains the
+    // elements ``table[k]``, for ``ind[j] <= k < ind[j+1].
+    status = -8;
+    if (n > length) goto cleanup;
+    ind[len_ind] = n;
+    status = len_ind;      // return the number of the sets
+    
+cleanup:
+    free(next);
+    return status;
+
+}
+
+
+
+/************************************************************************
+* Unite node i with node A * i + v, with A a matrix over GF(2)
+************************************************************************/
+
+/// @cond DO_NOT_DOCUMENT 
+#define MAT_BLOCKSIZE 7  // must divide LEECH2_SIZE
+
+static inline uint32_t vmatmul(uint32_t v, uint32_t *m)
+// Multiply 32-bit vector with 32 times 32 bit matrix v.
+// Zero high bits of v to multiply with matrix with less than 32 rows!
+{
+    uint32_t w = 0;
+    while (v) {
+       w ^= *m++ & (0UL - (v & 1UL));
+       v >>= 1;
+    }
+    return w;
+} 
+
+/// @endcond
+
+
+
+/** @brief Perform affine union operations in the union-find algorithm
+
+Let ``S(length)`` be the set of integers ``i`` with ``0 <= i < length``;
+and let a partition of ``S(length)`` be stored in the array ``table``
+(of size ``length``) as described in function ``gen_ufind_init``.
+
+In this function the entries of ``S(length)`` are interpreted as bit
+vectors. The function joins the set containing ``i`` with the set
+containg ``i * M + v`` for all ``i``. Here ``M`` the bit matrix
+over GF(2) referred by ``m``  with ``len_m`` rows,  and ``v`` a
+bit vector. All bit vector arithmetic is done over GF(2).
+*/
+// %%EXPORT px
+void gen_ufind_union_affine(uint32_t *table, uint32_t length, uint32_t *m, uint32_t len_m, uint32_t v)
+{
+     uint32_t i, j, lg_k, k, a[1UL << MAT_BLOCKSIZE], w;
+
+     if (length > 0x40000000UL || length == 0) return;
+     len_m = len_m < 30 ? len_m : 30;
+     while ((1UL << len_m) >= 2 * length && len_m) --len_m;
+     lg_k = (len_m + 1) >> 1;
+     lg_k = lg_k < MAT_BLOCKSIZE ? lg_k : MAT_BLOCKSIZE;
+     k = 1UL << lg_k;
+     for (j = 0; j < k; ++j) a[j] = v ^ vmatmul(j, m);
+     for (i = 0; i < (1UL << len_m); i += k) {
+         w = vmatmul(i >> lg_k, m + lg_k);
+         for (j = 0; j < k; ++j) {
+             gen_ufind_union(table, length, i ^ j, w ^ a[j]);
+         }
+     }
+}
+
+
+
+
+/************************************************************************
+* Join orbits of the Leech lattice mod 2
+************************************************************************/
+
+
+
+/** @brief Join orbits of the Leech lattice mod 2.
+
+ The Conway group \f$\mbox{Co}_1\f$ has a natural action on
+ on \f$\Lambda / 2 \Lambda\f$, i.e. on  the Leech lattice mod 2.
+ The subgroup \f$G_{x0}\f$ of the Monster (of
+ structure \f$2^{1+24}.\mbox{Co}_1\f$) has the same action on
+ on \f$\Lambda / 2 \Lambda\f$.
+
+ In this function we assume that the array ``table`` contains a partition
+ of the set \f$\{i \mid 0 \leq i < 2^{24}\}\f$ as described in
+ function ``gen_ufind_init``. In that function the array ``table``
+ should have been initialized with a length of \f$2^{24}\f$.
+
+ Here each integer \f$i\f$ is interpreted as an element
+ of \f$\Lambda / 2 \Lambda\f$ in *Leech lattice encoding*, as
+ described in the document *The C interface of the mmgroup project*,
+ section *Description of the mmgroup.generators extension*.
+
+ Let \f$g \in G_{x0}\f$ be stored in the array referred
+ by ``g`` as a word of generators of the subgroup \f$G_{x0}\f$
+ of the  monster. Here \f$g\f$ is given as a word of generators
+ of length ``len_g`` in the array ``g``. Each atom of the
+ word \f$g\f$ is encoded as defined in the header
+ file ``mmgroup_generators.h``.
+
+ Then the function joins the set containing \f$i\f$ with the
+ set containing \f$i \cdot g\f$ for all \f$i\f$, using the
+ union-find algorithm.
+
+ The function returns 0 in case of success and a negative value
+ in case of failure (e.g. if \f$g\f$ is not in \f$G_{x0}\f$).
+
+*/
+// %%EXPORT px
+int32_t  gen_ufind_union_leech2(uint32_t *table, uint32_t *g, uint32_t len_g)
+{
+     uint32_t m[24];
+     int32_t res = gen_leech2_op_word_matrix24(g, len_g, 0, m);
+     if (res < 0) return res;
+     gen_ufind_union_affine(table, 0x1000000, m, 24, 0);
+     return 0;
+}
+
+
+
+
+
+//  %%GEN h
+/// @endcond 
+//  %%GEN c
+
+
+
+// %%GEN ch
+#ifdef __cplusplus
+}
+#endif
+
+
+
+
