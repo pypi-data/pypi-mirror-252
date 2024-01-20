@@ -1,0 +1,17 @@
+README.md
+setup.py
+repos/__init__.py
+repos/cli.py
+repos/cli_argparse.py
+repos/cli_click.py
+repos/cli_config.py
+repos/cli_export.py
+repos/repo.py
+repos/repos.py
+repos/spinner.py
+repos/ui.py
+repos.egg-info/PKG-INFO
+repos.egg-info/SOURCES.txt
+repos.egg-info/dependency_links.txt
+repos.egg-info/entry_points.txt
+repos.egg-info/top_level.txt
