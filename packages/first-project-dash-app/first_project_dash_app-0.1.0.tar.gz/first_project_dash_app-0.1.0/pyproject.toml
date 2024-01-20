@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "first-project-dash-app"
+version = "0.1.0"
+description = "this is a test project to check poetry usage"
+authors = ["ad"]
+license = "0.0.1"
+readme = "README.md"
+packages = [{include = "whatever-folder_name"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.14.2"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
