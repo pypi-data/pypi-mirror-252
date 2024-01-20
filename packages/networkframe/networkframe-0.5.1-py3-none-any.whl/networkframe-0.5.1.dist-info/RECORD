@@ -1,0 +1,8 @@
+networkframe/__init__.py,sha256=kc8IxXgbew6o6g3FVocgFBwWT4KOWfDfm7NpXGsHz0E,256
+networkframe/groupby.py,sha256=75cC_D9P_OAmAtoUyi0iSuoaBWc1hmP37sssFgnNT4Y,3265
+networkframe/networkframe.py,sha256=U4z2-pL29phLjA3QTLoZwXJAvcdUYR_YZIOnB2DflCM,36400
+networkframe/types.py,sha256=6S4bvGwxzQmpNjZSoF0XllnDiXz98Swy7DwuhB4AQpg,259
+networkframe-0.5.1.dist-info/LICENSE,sha256=5DoJM3S5tU5btXEbp07RUBUt6JCrc_b3ovF5d9LUpGk,1068
+networkframe-0.5.1.dist-info/METADATA,sha256=bx6r_HO4A3y23dZ5SqIK8eIwD4IRwn9z7Uc-92m-0io,6342
+networkframe-0.5.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+networkframe-0.5.1.dist-info/RECORD,,
