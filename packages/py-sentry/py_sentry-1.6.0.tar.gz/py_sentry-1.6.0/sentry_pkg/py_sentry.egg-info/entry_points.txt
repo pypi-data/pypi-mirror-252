@@ -1,0 +1,17 @@
+[console_scripts]
+command_service = sentry:command_service.main
+configurable_service = sentry:configurable_service.main
+log_service = sentry:log_service.main
+nop_service = sentry:nop_service.main
+task_service = sentry:task_service.main
+wait2_service = sentry:wait2_service.main
+wait_service = sentry:wait_service.main
+
+[sentry]
+command_task = sentry.command_task:CommandTask
+configurable_task = sentry.configurable_task:ConfigurableTask
+log_task = sentry.log_task:LogTask
+nop_task = sentry.nop_task:NopTask
+task = sentry.task:Task
+wait2_task = sentry.wait2_task:Wait2Task
+wait_task = sentry.wait_task:WaitTask
