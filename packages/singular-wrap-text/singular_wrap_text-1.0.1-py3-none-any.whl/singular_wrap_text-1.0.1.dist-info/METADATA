@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: singular_wrap_text
+Version: 1.0.1
+Summary: A sample Python project
+Home-page: https://github.com/CleberPereiraAnalista/WrapText.git
+Author: Cleber Almeida Pereira
+Author-email: Cleber Almeida Pereira <cleber.ap.ads@gmail.com>
+Maintainer-email: Cleber Almeida Pereira <cleber.ap.ads@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2018 Yan Orestes
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        ...
+Project-URL: Código fonte, https://github.com/CleberPereiraAnalista/WrapText.git
+Keywords: wrap,quebra-de-linha,quebra
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# singular_wrap_text
+
+**singular_wrap_text** é um simples quebrador de texto para qualquer ocasião escrito em Python.
+Insere quebras de linha.
+
+## Funções
+
+* `WrapText` - **construtor** que recebe o texto a ser quebrado.
+Pode receber 2 (dois) valores:
+**length_wrap** quantidade de caracteres a contar para inserir a quebra de linha (trecho). Por padrão quebra o texto a cada **50** caracteres.
+**break_type** indica o tipo de quebra a ser inserida. Por padrão insere **'\n'**. Para html, recomendo setar este argumento com **'\<br>'**. 
+
+* `get()` - Retorna o texto contendo as quebras de linha.
+
+
+## Exemplos:
+	
+	from singular_wrap_text.wraptext import WrapText
+	
+	meu_texto = "Escrevendo um código numa única linha para testá-lo com a função WrapText."
+	
+	# Exemplo 1
+	wt = WrapText(meu_texto, length_wrap=38)
+	print(wt.get())
+	
+	>>Escrevendo um código numa única linha
+	para testá-lo com a função WrapText.
+	
+	# Exemplo 2
+	wt = WrapText(meu_texto, length_wrap=38, break_type="<br>")
+	
+	print(wt.get())
+	
+	>>Escrevendo um código numa única linha<br>para testá-lo com a função WrapText.
+	
+
+
