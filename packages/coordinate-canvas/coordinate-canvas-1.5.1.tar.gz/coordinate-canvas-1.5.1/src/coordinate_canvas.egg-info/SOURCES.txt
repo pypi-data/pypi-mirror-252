@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/coordinate_canvas/__init__.py
+src/coordinate_canvas/__main__.py
+src/coordinate_canvas/config.py
+src/coordinate_canvas.egg-info/PKG-INFO
+src/coordinate_canvas.egg-info/SOURCES.txt
+src/coordinate_canvas.egg-info/dependency_links.txt
+src/coordinate_canvas.egg-info/requires.txt
+src/coordinate_canvas.egg-info/top_level.txt
+src/coordinate_canvas/core/__init__.py
+src/coordinate_canvas/core/canvas.py
+src/coordinate_canvas/core/line_builder.py
+src/coordinate_canvas/interface/__init__.py
+src/coordinate_canvas/interface/cli.py
+src/tests/test_placeholder.py
