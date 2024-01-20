@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/coating/__init__.py
+src/coating/__main__.py
+src/coating/parser.py
+src/coating/view.py
+src/coating.egg-info/PKG-INFO
+src/coating.egg-info/SOURCES.txt
+src/coating.egg-info/dependency_links.txt
+src/coating.egg-info/entry_points.txt
+src/coating.egg-info/requires.txt
+src/coating.egg-info/top_level.txt
