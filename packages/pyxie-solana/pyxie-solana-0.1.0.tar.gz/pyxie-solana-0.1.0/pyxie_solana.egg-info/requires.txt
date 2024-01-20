@@ -1,0 +1,4 @@
+solders
+solana
+prettytable
+pyelftools
