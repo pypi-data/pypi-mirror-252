@@ -1,0 +1,16 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Jo m\u00e4\u00e4ritetty. Vain yksi konfiguraatio mahdollinen."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "show_on_map": "N\u00e4yt\u00e4 kartalla"
+                }
+            }
+        }
+    }
+}

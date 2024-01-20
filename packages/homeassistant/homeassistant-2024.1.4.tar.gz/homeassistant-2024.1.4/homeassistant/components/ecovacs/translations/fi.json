@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Tili on jo m\u00e4\u00e4ritetty"
+        },
+        "error": {
+            "invalid_auth": "Virheellinen todennus",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "Manner",
+                    "country": "Maa",
+                    "password": "Salasana",
+                    "username": "K\u00e4ytt\u00e4j\u00e4tunnus"
+                },
+                "data_description": {
+                    "continent": "Kaksikirjaiminen maanosakoodisi (na, eu jne.).",
+                    "country": "Kaksikirjaiminen maakoodisi (us, uk jne.)."
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Ecovacsin konfigurointi YAML:n avulla poistetaan, mutta YAML-konfiguraatiota tuotaessa tapahtui autentikointivirhe.\n\nKorjaa YAML-konfiguraatio ja k\u00e4ynnist\u00e4 Home Assistant uudelleen yritt\u00e4\u00e4ksesi uudelleen tai poista Ecovacsin YAML-konfiguraatio configuration.yaml-tiedostosta ja jatka [integraation m\u00e4\u00e4ritt\u00e4minen]({url}) manuaalisesti.",
+            "title": "Ecovacs YAML -m\u00e4\u00e4ritysten tuonti ep\u00e4onnistui"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Ecovacsin konfigurointi YAML:n avulla poistetaan, mutta YAML-konfiguraatiota tuotaessa tapahtui tuntematon virhe.\n\nVarmista, ett\u00e4 YAML-konfiguraatio on oikea, ja k\u00e4ynnist\u00e4 Home Assistant uudelleen yritt\u00e4\u00e4ksesi uudelleen tai poista Ecovacsin YAML-konfiguraatio configuration.yaml-tiedostosta ja jatka [integraation m\u00e4\u00e4ritt\u00e4minen]({url}) manuaalisesti.",
+            "title": "Ecovacs YAML -m\u00e4\u00e4ritysten tuonti ep\u00e4onnistui"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Tili on jo m\u00e4\u00e4ritetty",
+            "reauth_failed_existing": "Konfiguraatiomerkint\u00e4\u00e4 ei voitu p\u00e4ivitt\u00e4\u00e4, poista integraatio ja aseta se uudelleen.",
+            "reauth_successful": "Uudelleentodennus onnistui",
+            "unknown": "Odottamaton virhe"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "invalid_api_key": "Virheellinen API-avain",
+            "reauth_failed_matching_account": "Antamasi API-avain ei vastaa olemassa olevan kokoonpanon tilitunnusta.",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "API-avain"
+                },
+                "title": "Todenna integraatio uudelleen"
+            },
+            "user": {
+                "data": {
+                    "api_key": "API-avain"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "monitor_status": {
+                "state": {
+                    "pause": "Keskeyt\u00e4"
+                }
+            }
+        }
+    }
+}

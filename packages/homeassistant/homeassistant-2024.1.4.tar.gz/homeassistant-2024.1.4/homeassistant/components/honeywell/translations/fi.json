@@ -1,0 +1,23 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "invalid_auth": "Virheellinen todennus"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "password": "Salasana"
+                },
+                "title": "Todenna integraatio uudelleen"
+            },
+            "user": {
+                "data": {
+                    "password": "Salasana",
+                    "username": "K\u00e4ytt\u00e4j\u00e4tunnus"
+                },
+                "description": "Sy\u00f6t\u00e4 tunnukset, joilla kirjaudut sis\u00e4\u00e4n mytotalconnectcomfort.com-sivustolle."
+            }
+        }
+    }
+}
