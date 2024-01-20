@@ -1,0 +1,14 @@
+odoo/addons/wms/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/wms/__manifest__.py,sha256=Ef4-U36qZBGiFW04XWac6A40uRM9FHjZpiWfWPY0UxM,711
+odoo/addons/wms/i18n/it.po,sha256=C806EC43ddumUA4J5T8oYT_QqHKv2kQYb9S7M7RLxlQ,5893
+odoo/addons/wms/i18n/wms.pot,sha256=G__T6KTR7qimG4pJ-QGLin7-_9fGYjZy0dCHQgIoaRQ,4511
+odoo/addons/wms/models/__init__.py,sha256=zn8FjADxYHOSCCGGXqyQZL8kz_8gruN-Y3oSjlWHQ4I,34
+odoo/addons/wms/models/res_config_settings.py,sha256=cSGWf1e7tJbQUZOaGb_QwT7jDIGbpht7LkQWAhxXC5Q,1272
+odoo/addons/wms/security/wms_security.xml,sha256=mpS3RFpAbNGmsY2xi8yS5U5iDrcyLDr7h17aI89Zr54,384
+odoo/addons/wms/static/description/icon.png,sha256=aK-aJj2ymP038P_jfvlYUvAqFxBH-0YUf0WxDsVAcKo,2900
+odoo/addons/wms/views/res_config_settings_views.xml,sha256=01Z-jlO8lb4g_62c5577lJGuQOyf5RnvIRy4cpKth94,7726
+odoo/addons/wms/views/wms_views.xml,sha256=xzX91V17OQPrhl0yxVpLGdT4ZiDBFziBAUaXIFzvl7M,509
+odoo12_addon_wms-12.0.1.0.0.99.dev10.dist-info/METADATA,sha256=MRGpIvjsLf9SzYf_3YChI-RgVrgAQs61vTC_69h_maQ,711
+odoo12_addon_wms-12.0.1.0.0.99.dev10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo12_addon_wms-12.0.1.0.0.99.dev10.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_wms-12.0.1.0.0.99.dev10.dist-info/RECORD,,
