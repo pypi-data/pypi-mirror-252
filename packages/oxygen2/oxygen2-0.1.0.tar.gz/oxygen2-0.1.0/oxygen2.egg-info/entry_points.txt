@@ -1,0 +1,2 @@
+[console_scripts]
+oxygen = oxygen2.scripts:main

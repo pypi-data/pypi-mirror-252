@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+oxygen2/__init__.py
+oxygen2/scripts.py
+oxygen2.egg-info/PKG-INFO
+oxygen2.egg-info/SOURCES.txt
+oxygen2.egg-info/dependency_links.txt
+oxygen2.egg-info/entry_points.txt
+oxygen2.egg-info/top_level.txt
+oxygen2/data/docs.txt
