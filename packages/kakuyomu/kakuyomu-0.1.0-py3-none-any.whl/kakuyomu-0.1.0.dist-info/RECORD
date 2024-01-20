@@ -1,0 +1,13 @@
+kakuyomu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kakuyomu/settings.py,sha256=3eved3DVt2aO9E5Ns8b0WgerHME84JT2ZVMLu1_fdP0,1544
+kakuyomu/types.py,sha256=rjaYL4ydZDoqWBi-YyJ68-vtjYH1AQyXUkKldm6vNkQ,229
+kakuyomu/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kakuyomu/cli/main.py,sha256=xgopRuXi9KCZtX1oj2aNLYcHH7NkvS_C4wQpN7apsEQ,125
+kakuyomu/scrapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kakuyomu/scrapers/scraping_my.py,sha256=D-ZOtQlOqTy-LZEYqqW_LDfDrXLYe5iSUsllNBtfXpk,554
+kakuyomu/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kakuyomu/utils/web.py,sha256=BPDzX4ka4NvFXPR0aAh8_qXq-yqW0ogYrcvUplFb9n4,1755
+kakuyomu-0.1.0.dist-info/METADATA,sha256=suJYgYiUya78b5RTCcZcrEnRVHQLdBpjXCW8Hhu2uq8,335
+kakuyomu-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+kakuyomu-0.1.0.dist-info/entry_points.txt,sha256=KqTjOpaOEfQGWFIxIyx4ULYvHrP0EFzntVHSwo8Fkz0,47
+kakuyomu-0.1.0.dist-info/RECORD,,
