@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sportsapi
+Version: 0.1.0
+Summary: This package aims to facilitate API integrations of providers present in professional sport
+Home-page: https://github.com/sportdatalab/sportsapi
+Author: Bastien Angeloz
+Author-email: bastien.angeloz@sportdatalab.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# DESCRIPTION
