@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pcontract"
+version = "1.0.0"
+description = "A data structure to track data over time."
+readme = "README.md"
+authors = [{ name = "suayip uzulmez", email = "suayip.541@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["contract", "data-tracking", "contract-management"]
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/realsuayip/pcontract"
+"Bug Tracker" = "https://github.com/realsuayip/pcontract/issues"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.isort]
+combine-as-imports = true
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "local-folder",
+]
+
+[tool.mypy]
+strict = true
