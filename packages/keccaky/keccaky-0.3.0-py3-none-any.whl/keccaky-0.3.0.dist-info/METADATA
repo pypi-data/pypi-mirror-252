@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: keccaky
+Version: 0.3.0
+Summary: Secure and easy-to-use keccak
+Home-page: https://github.com/olivmath/keccaky.git
+License: MIT
+Keywords: keccak,ethereum,sha3,hash
+Author: Lucas Oliveira
+Author-email: olivmath@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://pypi.org/project/keccaky/
+Project-URL: Repository, https://github.com/olivmath/keccaky.git
+Description-Content-Type: text/markdown
+
+# Keccaky
+
+Secure and easy-to-use keccak
+
+> **✅ ready for production!!!**
+
+## Roadmap
+
+- [x] Create Keccak 256 hash
+- [x] Create massive tests agains pycryptodome (575 tests)
+- [x] Create benchmark tests agains pycryptodome
+- [x] API made easy for client
+- [x] Docs for dev
+- [ ] Re-write Keccak algorithm in Rust using FFI
+
+## Docs
+
+**INSTALL**
+
+```
+pip install keccaky
+```
+
+```
+poetry add keccaky
+```
+
+**USE**
+
+```python
+from keccaky import hash_it_bytes
+from keccaky import ethereum_hash
+from keccaky import hash_it
+
+
+assert hash_it_bytes("keccaky".encode()).hex() == "ff7e4a2e488ac0d8ed435b41979a0c1defeae30231dc5338a1b3a39c86adfd3c"
+
+assert ethereum_hash("keccaky") == "0xff7e4a2e488ac0d8ed435b41979a0c1defeae30231dc5338a1b3a39c86adfd3c"
+
+assert hash_it("keccaky") == "ff7e4a2e488ac0d8ed435b41979a0c1defeae30231dc5338a1b3a39c86adfd3c"
+```
+
