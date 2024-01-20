@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "GestureProj"
+version = "1.0.3"
+dependencies = [
+  "numpy",
+  "pandas",
+  "tensorflow",
+  "opencv-python",
+  "matplotlib",
+]
+[tool.hatch.build.targets.wheel]
+packages = ["GestureProj"]
+
+requires-python = ">=3.8"
+authors = [
+  {name = "Subhasis Biswas", email = "subhasxd08@gmail.com"}
+]
+maintainers = [
+  {name = "Subhasis Biswas", email = "subhasxd08@gmail.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+]
+
+[project.urls]
+Repository = "https://github.com/Subhasis-Biswas/Gesture_Recognition/"
+
+[project.scripts]
+start = "Gesture_Recognition:main"
