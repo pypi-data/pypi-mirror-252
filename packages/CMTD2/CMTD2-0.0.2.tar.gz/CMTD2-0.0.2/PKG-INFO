@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CMTD2
+Version: 0.0.2
+Summary: CMTD functions
+Author: imemWassim
+Author-email: medimemhamdi18@gmail.com
+Keywords: python,markov,CMTD
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
