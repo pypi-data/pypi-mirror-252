@@ -1,0 +1,8 @@
+genword/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genword/_utils.py,sha256=ExEhLdJEFQdHdHxlA4Lb8i5fD1gBL2QhOFdpFdX9Rio,1104
+genword/cli.py,sha256=uyUutVIu3obvroLXc1-RD9B-cXauUQq0Vgw6BK4Xot0,2493
+genword-0.1.0.dist-info/LICENSE,sha256=XMImi2FeKCk8FkbxQROUU5bVxVSj1ZDl7UaNrSAXLEQ,521
+genword-0.1.0.dist-info/METADATA,sha256=cevajnxtmWpvzboTKGMgXUIzDxaScF9drUznl11dYus,2669
+genword-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+genword-0.1.0.dist-info/entry_points.txt,sha256=d04mtBCCWbcvD0eZQbAHRkhhcfytYKJBXN82CIVZ7Pc,43
+genword-0.1.0.dist-info/RECORD,,

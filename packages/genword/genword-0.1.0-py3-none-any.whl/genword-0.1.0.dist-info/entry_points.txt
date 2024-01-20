@@ -1,0 +1,3 @@
+[console_scripts]
+genword=genword.cli:app
+
