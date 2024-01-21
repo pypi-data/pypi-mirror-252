@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lotide/__init__.py
+lotide.egg-info/PKG-INFO
+lotide.egg-info/SOURCES.txt
+lotide.egg-info/dependency_links.txt
+lotide.egg-info/top_level.txt
