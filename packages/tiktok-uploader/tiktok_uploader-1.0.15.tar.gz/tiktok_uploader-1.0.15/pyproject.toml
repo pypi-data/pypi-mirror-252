@@ -1,0 +1,53 @@
+[project]
+name = "tiktok-uploader"
+version = "1.0.15"
+authors = [
+  { name = "William Kaiser", email = "wkaisertexas@gmail.com" },
+]
+description = "An automatic TikTok video uploader w/ CLI. Uploads videos automatically using an automated browser and your cookies for authentication."
+readme = "README.md"
+requires-python = ">=3.0"
+keywords = [
+    "Selenium", "Selenium", "硒 (Xī)", "Selenio",
+    "Automation", "Automatisation", "自动化 (Zìdònghuà)", "Automatización",
+    "TikTok", "TikTok", "抖音 (Dǒuyīn)", "TikTok",
+    "Video", "Vidéo", "视频 (Shìpín)", "Video",
+    "Python", "Python", "蟒蛇 (Mǎngshé)", "Python",
+    "Upload", "Télécharger / Mettre en ligne", "上传 (Shàngchuán)", "Subir",
+    "CLI (Command Line Interface)", "Interface de ligne de commande", "命令行界面 (Mìnglìng háng jièmiàn)", "Interfaz de línea de comandos",
+    "Command Line", "Ligne de commande", "命令行 (Mìnglìng háng)", "Línea de comandos",
+    "Automated TikTok Uploader", "Téléchargeur automatique pour TikTok", "自动化抖音上传器 (Zìdònghuà Dǒuyīn shàngchuán qì)", "Cargador automático de TikTok",
+    "Automated TikTok Video Uploader", "Téléchargeur de vidéos automatique pour TikTok", "自动化抖音视频上传器 (Zìdònghuà Dǒuyīn shìpín shàngchuán qì)", "Cargador automático de videos de TikTok",
+    "TikTok Video Uploader", "Téléchargeur de vidéos TikTok", "抖音视频上传器 (Dǒuyīn shìpín shàngchuán qì)", "Cargador de videos de TikTok",
+    "TikTok Uploader", "Téléchargeur pour TikTok", "抖音上传器 (Dǒuyīn shàngchuán qì)", "Cargador de TikTok"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+	"selenium",
+	"webdriver_manager",
+  "toml",
+  "pytz"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build" 
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+]
+
+[project.scripts]
+tiktok-uploader = "tiktok_uploader.cli:main"
+tiktok-auth = "tiktok_uploader.cli:auth"
+
+[project.urls]
+"Source Code" = "https://github.com/wkaisertexas/tiktok-uploader"
+"Bug Tracker" = "https://github.com/wkaisertexas/tiktok-uploader/issues"
