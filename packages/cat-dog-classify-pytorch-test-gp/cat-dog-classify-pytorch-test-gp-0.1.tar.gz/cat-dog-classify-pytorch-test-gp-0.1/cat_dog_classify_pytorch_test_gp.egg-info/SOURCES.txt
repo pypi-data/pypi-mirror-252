@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cat_dog_classify_pytorch_test_gp.egg-info/PKG-INFO
+cat_dog_classify_pytorch_test_gp.egg-info/SOURCES.txt
+cat_dog_classify_pytorch_test_gp.egg-info/dependency_links.txt
+cat_dog_classify_pytorch_test_gp.egg-info/requires.txt
+cat_dog_classify_pytorch_test_gp.egg-info/top_level.txt

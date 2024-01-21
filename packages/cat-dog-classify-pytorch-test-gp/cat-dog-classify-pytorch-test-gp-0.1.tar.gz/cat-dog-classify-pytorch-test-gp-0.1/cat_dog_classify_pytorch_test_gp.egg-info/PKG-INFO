@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cat-dog-classify-pytorch-test-gp
+Version: 0.1
+Summary: Deep Learning Model to classify Cats and Dogs usinbg PyTorch
+Home-page: https://github.com/gayatriprasad/modelAsPackage
+Author: Sai Gayatri Prasad Peri
+Author-email: gayatriprasad11@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: pandas
+Requires-Dist: matplotlib
