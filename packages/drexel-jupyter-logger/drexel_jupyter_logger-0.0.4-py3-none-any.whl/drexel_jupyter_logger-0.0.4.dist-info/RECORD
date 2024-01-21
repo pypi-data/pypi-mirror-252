@@ -1,0 +1,14 @@
+drexel_jupyter_logger/__init__.py,sha256=XElqY_8bfX5Pd3s4JRrBK08KyOvEyMz5WR7myb1_WKQ,208
+drexel_jupyter_logger/activity.py,sha256=x3TBflU7GhlPYs4FDpJbhEL-X0S6KgLmIQ2NJZbqcCE,1160
+drexel_jupyter_logger/build_quiz_for_jupyterbook.py,sha256=fxfpz0lOuZUE77OPmSjypA21x5FnEiiBK70JXYbNKn4,1118
+drexel_jupyter_logger/grade_report.py,sha256=FxqvMV5AQngVJ8qU2fTXi4gwBJOeYWjTtb1rjrpnjYc,6380
+drexel_jupyter_logger/logger.py,sha256=Esl0hVvGIU9r-S2T-aMKRTzqJkE5bk051IEMbXawns0,3504
+drexel_jupyter_logger/read_log_file.py,sha256=KKeEi1B3aurfdH0YmKoWDWSVn5wVUiNY4YRm87JjY9o,3902
+drexel_jupyter_logger/remove_skip.py,sha256=DCQxdSqVpYtbPxXGzXhhLCFlMgXG2jgE3tOiRrQVcxs,904
+drexel_jupyter_logger/student_info_from_nb.py,sha256=lhz_Z9SL5sOlS8TUcdNF_kv7lm_YPuvmEQXROtOkJRE,1810
+drexel_jupyter_logger/tag_files.py,sha256=YJEJTtf_KzCWW_W5XkvYiT5lPT4Wv1DULVadFejK6hg,1194
+drexel_jupyter_logger-0.0.4.dist-info/METADATA,sha256=q-rLvBYvhrQWSB7K2HKXZ4m40X231egLcz1QDbx05eo,156
+drexel_jupyter_logger-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drexel_jupyter_logger-0.0.4.dist-info/entry_points.txt,sha256=skiGQrm_EWzV6gHXHbFYCGJ9aR3P_nBROTDpOBAZwi4,433
+drexel_jupyter_logger-0.0.4.dist-info/top_level.txt,sha256=VaqmmLPr4jGLOEcHUveWwawCejphxbrBX2jwrGeZ-PE,22
+drexel_jupyter_logger-0.0.4.dist-info/RECORD,,
