@@ -1,0 +1,10 @@
+retinawhitenoise-1.0.1.dist-info/WHEEL,sha256=TdugrKVSx9WY3l5rphu7jsrCZn8Ok1j1Qh8OUImrZr4,245
+retinawhitenoise-1.0.1.dist-info/LICENSE,sha256=ubFC5IwB4pq7d2WlskyJzO1q_gC-Cen6nos3s3UuOV0,1080
+retinawhitenoise-1.0.1.dist-info/RECORD,,
+retinawhitenoise-1.0.1.dist-info/top_level.txt,sha256=Nw232FXIVckRF69aQ01VeiJI5l333SdHzs-Wnqt54Cc,17
+retinawhitenoise-1.0.1.dist-info/METADATA,sha256=OnVzQoCmwPMm3wwkM4RDJ9u1CbMWDZn8OaHiYciQNOc,2393
+retinawhitenoise/gaussianstimulus.py,sha256=f81FrRczRVraYRJE_dIA-C-SEV4jG_r70eK7hw092rE,918
+retinawhitenoise/_rng.pypy39-pp73-x86_64-linux-gnu.so,sha256=_ig0iWYkz6OZqxpvqPLV-k0A6qR1Q9F89g2J4KjMXh4,93056
+retinawhitenoise/_core.py,sha256=xSt9b0X6LCR0OYKCKlBCunGN27VFFkizCIrN32gtQCM,9357
+retinawhitenoise/__init__.py,sha256=JxYeBMhb6UXialEI5lWKib9i6puM4Pkazck-w0Di6yc,435
+retinawhitenoise/binarystimulus.py,sha256=8i-iLNGPGIE4n2L1Lu304bKnrcE4UM7HqZ13lq09zU8,916
