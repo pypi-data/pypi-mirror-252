@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+asciifier/AsciiArt.py
+asciifier/__init__.py
+asciifier.egg-info/PKG-INFO
+asciifier.egg-info/SOURCES.txt
+asciifier.egg-info/dependency_links.txt
+asciifier.egg-info/requires.txt
+asciifier.egg-info/top_level.txt
