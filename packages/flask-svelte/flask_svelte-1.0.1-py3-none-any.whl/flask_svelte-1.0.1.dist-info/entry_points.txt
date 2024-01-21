@@ -1,0 +1,3 @@
+[console_scripts]
+flask-svelte=flask_svelte.main:cli
+

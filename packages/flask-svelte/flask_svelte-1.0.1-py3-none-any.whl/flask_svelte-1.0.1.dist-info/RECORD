@@ -1,0 +1,16 @@
+flask_svelte/__init__.py,sha256=-qkOPIU5RyDpYg6SH0ZdlOm-EDD7Xx0c91sBcgt_Rro,157
+flask_svelte/__main__.py,sha256=B4cDzNFJEXGqYap_9da1Emq1Vyz8aW7j64megvsp2Sk,32
+flask_svelte/data/sample-app.py,sha256=B-QvQesthFqvOwL3vyFCENiX2tOdd4GBsN2gGpR8_ns,192
+flask_svelte/data/sample-package.json,sha256=3QpVdpUYSIZ7BChqqBF8tNaHq41XPCow1bd0weHEgjU,646
+flask_svelte/data/sample-rollup.config.js,sha256=1wfw7UpXFGupBj8jEqtHgiWSGJjxaHZ9OFnquTHTT0s,2381
+flask_svelte/data/sample-tailwind.config.js,sha256=EN-E-ULs8iFgwcppCqD3eAlqOReQQ8akBCkoG7BWlik,222
+flask_svelte/data/svelte-app/App.svelte,sha256=-XbHrXpshDz2eWseCLiJ9qMyA2cdqpY-0r54DV43eUY,834
+flask_svelte/data/svelte-app/main.js,sha256=F5uo0YN_I02xVyWkARKQ7pHkgfQCklli-oXG4OwA2Os,146
+flask_svelte/data/template.html,sha256=nm7UCB8hdDuaMfRwlzfrwAchw9GGd48Obqz5WTlVCag,722
+flask_svelte/main.py,sha256=snaYDSq9aDHDqOEUZfpgibqoTA7kx7CnCKjOBgoWvnM,4717
+LICENSE,sha256=hlB-gfkUbCu7IuV19KuH7deKzt5uzDfHfKiK2CYoHSM,1095
+flask_svelte-1.0.1.dist-info/entry_points.txt,sha256=sfy9Goz7O8lmxwtQUYcmjxWafgbu3Pe19d7v1gATmug,54
+flask_svelte-1.0.1.dist-info/LICENSE,sha256=hlB-gfkUbCu7IuV19KuH7deKzt5uzDfHfKiK2CYoHSM,1095
+flask_svelte-1.0.1.dist-info/METADATA,sha256=HLwI2-NTZDUpuxR86LX1G_X6hd46ueeY4WD0KfXz8-k,4358
+flask_svelte-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flask_svelte-1.0.1.dist-info/RECORD,,
