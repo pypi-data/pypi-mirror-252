@@ -1,0 +1,9 @@
+pfsense_backup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pfsense_backup/__main__.py,sha256=dPBuw5K7_gBA_jOLteBdcePEMTNm__-NSOYkMC-qeAM,126
+pfsense_backup/cli.py,sha256=H53myZ-ax6wG5Xc03tRq7bdFK9o3NWje6I0nI-VRURM,4750
+pfsense_backup-0.1.0.dist-info/LICENSE,sha256=jTw9izHE1dkQMYxR8ulCTxoGrrzdnBAEIRPGagC42B4,1073
+pfsense_backup-0.1.0.dist-info/METADATA,sha256=gKmDqAqYKAPFO6TcnUiyp-n90ZY7ZxPrMBg-s985Rio,2154
+pfsense_backup-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pfsense_backup-0.1.0.dist-info/entry_points.txt,sha256=ZyQealZfmz_94RYNl6HxCBko-jtlNXMim4IQfSPrpY4,59
+pfsense_backup-0.1.0.dist-info/top_level.txt,sha256=zt60fiGpxLKGoVyh6FJ5YJMMsH4UZofBkL7bfW3W1pw,15
+pfsense_backup-0.1.0.dist-info/RECORD,,
