@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: awdur
+Version: 0.0.1
+Summary: An experiment in literate programming built on docutils.
+Project-URL: Bug Tracker, https://github.com/swyddfa/awdur/issues
+Project-URL: Documentation, https://swyddfa.github.io/awdur/
+Project-URL: Source Code, https://github.com/swyddfa/awdur
+Author-email: Alex Carney <alcarneyme@gmail.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.8
+Requires-Dist: docutils
+Requires-Dist: pygments
+Description-Content-Type: text/markdown
+
+Awdur
+
+**awdur - (n.) author**
+
+An experiment in literate programming.
