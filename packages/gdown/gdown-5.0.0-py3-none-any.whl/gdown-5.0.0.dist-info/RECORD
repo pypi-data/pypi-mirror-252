@@ -1,0 +1,14 @@
+gdown/__init__.py,sha256=6uBwNN_v1WOSf-RozUHXtrqCQBObLIhZgwOh78MVHdk,313
+gdown/_indent.py,sha256=bcUgNMuH2OOe62YfMhZrV8jcfJSkcA9WuULLCUinNgA,223
+gdown/cached_download.py,sha256=Gkn3zNpXD6jhfaJ5XisSxRftMX9g3eDGyT6iBOX_oL4,3225
+gdown/cli.py,sha256=WigVEGA_DWXIvTqPN1WNorDyhOH-Ktis2bpe8kgkV1s,6118
+gdown/download.py,sha256=chFToXeQPi_5oDo3benLrmqfiHDhBEOmsPwm7YHG3y4,11104
+gdown/download_folder.py,sha256=ydZgT8V6BUbl4FqmHdbCU8ufDdkro8ocdiVuV28zC9g,9064
+gdown/exceptions.py,sha256=5MiQ1VIIvysIqnm2FDcU1hd9ugRpniq11DedEu3H5h0,110
+gdown/extractall.py,sha256=vZqgagErcH-d8jNL2TWaRsv6lz5Fl4-bWzR8E94Cwdc,1310
+gdown/parse_url.py,sha256=uytL3Ees1flGf2-M356uEkti669Lx3kksr8Lu7vEf-k,1760
+gdown-5.0.0.dist-info/METADATA,sha256=n29ddfF8mkyvJ8JUECMExpUj5sT46lx15fZ2RAaZDXs,5638
+gdown-5.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+gdown-5.0.0.dist-info/entry_points.txt,sha256=Nzq5ZXpGyVRtEyhY9jO4gRE_9dJH3Pr-tA0sQDxgZnM,41
+gdown-5.0.0.dist-info/licenses/LICENSE,sha256=QGQH8A2-Nq9Wn1yFsf9rWknEnCqZ8rwFxDc4mmcxXz0,1057
+gdown-5.0.0.dist-info/RECORD,,
