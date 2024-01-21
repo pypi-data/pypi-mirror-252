@@ -1,0 +1,14 @@
+keras
+
+[examples]
+opencv-python
+matplotlib
+
+[tests]
+opencv-python
+isort
+ruff
+black
+pytest
+pytest-cov
+coverage
