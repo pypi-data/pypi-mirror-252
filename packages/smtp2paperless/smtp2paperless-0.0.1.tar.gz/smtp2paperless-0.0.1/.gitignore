@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Matthias Riße <matthias.risze@t-online.de>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+*.egg-info/
+/_build
+/dist

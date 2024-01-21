@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: smtp2paperless
+Upstream-Contact: Matthias Riße <matthias.risze@t-online.de>
+Source: https://github.com/matrss/smtp2paperless
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: flake.lock
+Copyright: Matthias Riße <matthias.risze@t-online.de>
+License: CC0-1.0
