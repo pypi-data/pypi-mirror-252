@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mp3_duration/__init__.py
+mp3_duration/__main__.py
+mp3_duration/cli.py
+mp3_duration/mp3_duration.py
+remote_mp3_duration.egg-info/PKG-INFO
+remote_mp3_duration.egg-info/SOURCES.txt
+remote_mp3_duration.egg-info/dependency_links.txt
+remote_mp3_duration.egg-info/entry_points.txt
+remote_mp3_duration.egg-info/requires.txt
+remote_mp3_duration.egg-info/top_level.txt
