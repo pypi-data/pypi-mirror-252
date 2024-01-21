@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mubicryy
+Version: 0.1
+Summary: Só Gerador de rotulo, por enquanto
+Home-page: 
+Author: Fabricio Leal
+Author-email: 
+License: MIT
+Keywords: rotulo
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Essa biblioteca inicial contÃ©m uma funÃ§Ã£o para gerar rÃ³tulo
+confidenciabilidade dentro de arquivos xlsx.
+
+Pra evitar certos plagiadores, fiz essa biblioteca,
+dessa forma o SELO nÃ£o vai copiar mais cÃ³digo.
+
+Para utilizar a funÃ§Ã£o, vocÃª vai precisar definir o caminho que
+sua planilha estÃ¡ salva dentro de uma variÃ¡vel e chamar essa
+variÃ¡vel dentro da funÃ§Ã£o gerar_rotulo(caminho_salvo)
+
+Change Log
+## v0.1 ## (20/01/2024)
+
+Primeira versao com funÃ§Ã£o de gerar rotulo.
+ 
