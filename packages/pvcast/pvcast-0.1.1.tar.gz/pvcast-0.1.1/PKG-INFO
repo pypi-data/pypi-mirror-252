@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pvcast
+Version: 0.1.1
+Summary: Open-source python package to make short-term local solar power forecasts.
+Home-page: https://github.com/Open-HEMS/pvcast
+License: MIT
+Keywords: energy,pvcast,api,solar,photovoltaics
+Author: Stefan de Lange
+Author-email: langestefan@msn.com
+Maintainer: Stefan de Lange
+Maintainer-email: langestefan@msn.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: beautifulsoup4 (>=4.12.2)
+Requires-Dist: fastapi (>=0.109.0)
+Requires-Dist: httpx (>=0.26.0,<0.27.0)
+Requires-Dist: lxml (>=4.9.4)
+Requires-Dist: numpy (>=1.26.3)
+Requires-Dist: pandas (>=2.1.4)
+Requires-Dist: polars (>=0.19.19)
+Requires-Dist: pvlib (>=0.10.3)
+Requires-Dist: pyarrow (>=14.0.2)
+Requires-Dist: pyyaml (>=6.0.1)
+Requires-Dist: types-pyyaml (>=6.0.12.12,<7.0.0.0)
+Requires-Dist: uvicorn (>=0.23.2)
+Requires-Dist: voluptuous (>=0.14.1)
+Requires-Dist: watchfiles (>=0.21.0,<0.22.0)
+Requires-Dist: websockets (>=12.0)
+Project-URL: Bug Tracker, https://github.com/Open-HEMS/pvcast/issues
+Project-URL: Changelog, https://github.com/Open-HEMS/pvcast/releases
+Project-URL: Documentation, https://github.com/Open-HEMS/pvcast
+Project-URL: Repository, https://github.com/Open-HEMS/pvcast
+Description-Content-Type: text/markdown
+
+## PVCast - Local Solar Forecasting
+
+<!-- PROJECT SHIELDS -->
+[![codecov](https://codecov.io/gh/Open-HEMS/pvcast/graph/badge.svg?token=AT7GIZC76Z)](https://codecov.io/gh/Open-HEMS/pvcast)
+
+For documentation please refer to the [wiki](https://github.com/Open-HEMS/pvcast/wiki).
+
