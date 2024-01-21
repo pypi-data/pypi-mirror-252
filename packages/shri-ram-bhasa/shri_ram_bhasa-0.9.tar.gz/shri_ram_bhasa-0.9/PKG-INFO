@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: shri_ram_bhasa
+Version: 0.9
+Summary: ram programing language
+Home-page: https://github.com/viveakrt/ram.git
+Author: Vivek
+Author-email: carbonvivek@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ram
