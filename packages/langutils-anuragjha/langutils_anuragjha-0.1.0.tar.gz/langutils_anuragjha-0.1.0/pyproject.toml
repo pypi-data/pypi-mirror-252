@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "langutils_anuragjha"
+version = "0.1.0"
+description = "Utils for large language model"
+authors = ["Anurag Jha <toanuragjha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "7.4.4"
+pytest-asyncio = "0.23.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
