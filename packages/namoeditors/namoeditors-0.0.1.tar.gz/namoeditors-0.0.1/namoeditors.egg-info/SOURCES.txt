@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+namoeditors/__init__.py
+namoeditors.egg-info/PKG-INFO
+namoeditors.egg-info/SOURCES.txt
+namoeditors.egg-info/dependency_links.txt
+namoeditors.egg-info/top_level.txt
