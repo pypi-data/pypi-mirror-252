@@ -1,0 +1,3 @@
+lib-dzne-math>=0.2.3
+lib-dzne-seq>=0.2.2
+lib-dzne-filedata>=0.5
