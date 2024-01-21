@@ -1,0 +1,5 @@
+[console_scripts]
+download_blob = s3blobsync.download_blob:main
+download_s3 = s3blobsync.download_s3:main
+list_s3 = s3blobsync.list_s3:main
+s3blobsync = s3blobsync.s3blobsync:main
