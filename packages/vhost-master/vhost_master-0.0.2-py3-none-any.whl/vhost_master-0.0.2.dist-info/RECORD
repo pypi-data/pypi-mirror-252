@@ -1,0 +1,9 @@
+vhost_master/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhost_master/__main__.py,sha256=-e-m3CqeTzLHe2QFhhsD-Z_8nRTCN4EkkzbkaYW9O14,35
+vhost_master/vhost_master.py,sha256=WBjq2cVX7iZ5YSRmPIaZNR_Sk1Q2VihMpyOffgs4UuQ,2761
+vhost_master-0.0.2.dist-info/LICENSE,sha256=PytyBMJVWIP2dz-WNjaO6O2xe1SoVzMGjARaTumwdnc,1070
+vhost_master-0.0.2.dist-info/METADATA,sha256=c-7yqZZh-Tf3cYq2p1iYK3Y4G68wxBHU_R6V3m5aXkE,159
+vhost_master-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vhost_master-0.0.2.dist-info/entry_points.txt,sha256=vXBm7mM18D_tuxmzge9ldAxfMFN86oVbcmT2HLCBCh4,65
+vhost_master-0.0.2.dist-info/top_level.txt,sha256=J5E5dWDEeODHyq2-vcWhd6n4qiAGvcnLywUiAzK8-EU,13
+vhost_master-0.0.2.dist-info/RECORD,,
