@@ -1,0 +1,9 @@
+anipics/__init__.py,sha256=MpxbckHr9Z2XRSsXJBbjZkKUhQCs12FhRlkfRqQEFr4,276
+anipics/models.py,sha256=1OTiDJUpBTzXCdPA-IhyD0ra-bkXFnbqUeAbpFTsE3U,188
+anipics/services/__init__.py,sha256=qMPt1bzEYh9980LauBK64ouHlilIxzHro6lTUuHZPEc,98
+anipics/services/anipics.py,sha256=Hduq_QfZfM_MLlDVw3bghv4KAPHbl3gWkD02nwpqj1s,905
+anipics/services/nekoslife.py,sha256=zYi7m8kqfNqr5VNiNQyhUMRL6Ud2gHDgW3CZP35ZoV0,1891
+anipics-1.5.1.dist-info/LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+anipics-1.5.1.dist-info/METADATA,sha256=UehdLlp0n9DTHRmkivrfbZSfo4ge7vONMmel2EaeSzQ,1229
+anipics-1.5.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+anipics-1.5.1.dist-info/RECORD,,
