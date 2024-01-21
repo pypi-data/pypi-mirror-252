@@ -1,0 +1,17 @@
+.gitignore
+README.md
+flake.lock
+flake.nix
+pyproject.toml
+.github/workflows/ci-cd.yml
+.reuse/dep5
+LICENSES/Apache-2.0.txt
+LICENSES/CC-BY-SA-4.0.txt
+LICENSES/CC0-1.0.txt
+src/smtp2paperless.py
+src/smtp2paperless.egg-info/PKG-INFO
+src/smtp2paperless.egg-info/SOURCES.txt
+src/smtp2paperless.egg-info/dependency_links.txt
+src/smtp2paperless.egg-info/entry_points.txt
+src/smtp2paperless.egg-info/requires.txt
+src/smtp2paperless.egg-info/top_level.txt
