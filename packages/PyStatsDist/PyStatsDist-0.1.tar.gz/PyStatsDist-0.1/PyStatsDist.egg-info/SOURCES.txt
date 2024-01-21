@@ -1,0 +1,11 @@
+setup.py
+PyStatsDist/Binomialdistribution.py
+PyStatsDist/Gaussiandistribution.py
+PyStatsDist/Generaldistribution.py
+PyStatsDist/__init__.py
+PyStatsDist.egg-info/PKG-INFO
+PyStatsDist.egg-info/SOURCES.txt
+PyStatsDist.egg-info/dependency_links.txt
+PyStatsDist.egg-info/not-zip-safe
+PyStatsDist.egg-info/requires.txt
+PyStatsDist.egg-info/top_level.txt
