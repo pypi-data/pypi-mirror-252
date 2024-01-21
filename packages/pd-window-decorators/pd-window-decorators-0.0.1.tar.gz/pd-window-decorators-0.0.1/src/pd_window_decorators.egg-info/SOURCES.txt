@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pd_window_decorators/__init__.py
+src/pd_window_decorators/decorators.py
+src/pd_window_decorators.egg-info/PKG-INFO
+src/pd_window_decorators.egg-info/SOURCES.txt
+src/pd_window_decorators.egg-info/dependency_links.txt
+src/pd_window_decorators.egg-info/requires.txt
+src/pd_window_decorators.egg-info/top_level.txt
+tests/test_file.py

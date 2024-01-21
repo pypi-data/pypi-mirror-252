@@ -1,0 +1,32 @@
+[project]
+name = "pd-window-decorators"
+version = "0.0.1"
+license.file = "LICENSE"
+readme = "README.md"
+description = "A decorator for applying a moving window to a function that consumes and returns a Pandas DataFrame."
+requires-python = ">=3.9"
+authors = [
+  { name="Orphoros", email="contact@orphoros.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "pandas",
+    "sliding window",
+    "decorator",
+    "function",
+    "dataframe",
+    "data science"
+]
+dependencies = [
+    "pandas>=1.3.0",
+    "numpy>=1.21.0",
+]
+
+[project.urls]
+homepage = "https://github.com/Orphoros/PdWindowDecorators"
+documentation = "https://github.com/Orphoros/PdWindowDecorators"
+repository = "https://github.com/Orphoros/PdWindowDecorators"
