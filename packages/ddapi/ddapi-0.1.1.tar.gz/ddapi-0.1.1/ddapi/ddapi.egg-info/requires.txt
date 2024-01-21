@@ -1,0 +1,10 @@
+pydantic
+aiohttp
+orjson
+
+[dev]
+pydantic
+aiohttp
+orjson
+pip-tools
+pytest
