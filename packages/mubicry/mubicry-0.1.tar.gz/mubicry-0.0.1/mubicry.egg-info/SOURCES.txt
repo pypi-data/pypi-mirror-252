@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+mubicry/__init__.py
+mubicry.egg-info/PKG-INFO
+mubicry.egg-info/SOURCES.txt
+mubicry.egg-info/dependency_links.txt
+mubicry.egg-info/requires.txt
+mubicry.egg-info/top_level.txt
