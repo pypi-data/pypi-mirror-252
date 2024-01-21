@@ -1,0 +1,11 @@
+hairydogm/__init__.py,sha256=g9GkITISIb8n3oPriyh0G5hgvPHu-wAQ_b3VP8e_Gc8,122
+hairydogm/callback_data.py,sha256=82XFQGtlT0oeD0yqAn2VPtTNo1SpU8RXOOAib4iOpnE,8040
+hairydogm/keyboard.py,sha256=EgOayQUt8HNWhQ7atRZM4krnK5Y-MgvlFnJn7PS3GoU,12984
+hairydogm/mixins.py,sha256=mKw6pIpjbgU05KmkvGYqItu2-_xYUdFxHvGCyUrhWWw,3209
+hairydogm/i18n/__init__.py,sha256=xmhu2bMb8OA4NVTHZ-FaBO0A3wMn86duLPIlcyjjyqs,392
+hairydogm/i18n/context.py,sha256=fz5PMawlq1qk-fTilArC_aFh08pp9VavC5lyEYeUI68,2020
+hairydogm/i18n/core.py,sha256=D7otiHZc0GHUI9C2ROUgVH_9VaRCegWLTjJv-YijlUQ,7422
+hairydogm-0.2.1.dist-info/METADATA,sha256=vS4wnqzak99n-Nj62xre2C4ksk3lHMd1DCqqcxoYNxI,3113
+hairydogm-0.2.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+hairydogm-0.2.1.dist-info/licenses/LICENSE,sha256=8rWYnWGFIMwJuXdh0vFDkfJor25YlVQv-Plq9zzjFbA,1060
+hairydogm-0.2.1.dist-info/RECORD,,
