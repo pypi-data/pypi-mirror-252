@@ -1,0 +1,5 @@
+include django_events_timetable/LICENSE
+include django_events_timetable/README.md
+recursive-include django_events_timetable/templates *
+recursive-include django_events_timetable/static *
+recursive-include django_events_timetable/templatetags *
