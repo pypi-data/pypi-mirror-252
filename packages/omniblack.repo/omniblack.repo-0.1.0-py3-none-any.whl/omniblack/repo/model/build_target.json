@@ -1,0 +1,42 @@
+{
+    "name": "output_target",
+    "display": {
+        "en": "Output Target"
+    },
+    "desc": {
+        "en": "A target that the pacakge will be built for and published to."
+    },
+    "fields": [
+        {
+            "name": "destination",
+            "display": {
+                "en": "Where will this target publish to?"
+            },
+            "required": true,
+            "type": "choice",
+            "choice_attrs": {
+                "enum_name": "Destination",
+                "choices": [
+                    {
+                        "display": {
+                            "en": "Python Package Index"
+                        },
+                        "name": "pypi"
+                    },
+                    {
+                        "display": {
+                            "en": "NPM primary Repository"
+                        },
+                        "name": "npm_primary"
+                    },
+                    {
+                        "display": {
+                            "en": "Gitlab Pages"
+                        },
+                        "name": "gitlab_pages"
+                    }
+                ]
+            }
+        }
+    ]
+}

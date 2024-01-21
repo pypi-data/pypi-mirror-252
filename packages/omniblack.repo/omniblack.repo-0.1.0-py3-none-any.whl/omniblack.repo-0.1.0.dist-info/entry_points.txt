@@ -1,0 +1,2 @@
+[console_scripts]
+sync_metadata = omniblack.repo.sync_metadata:app
