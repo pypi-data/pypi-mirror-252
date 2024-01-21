@@ -1,0 +1,5 @@
+[console_scripts]
+ostree-push = otpush.push:main
+ostree-receive = otpush.receive:compat_main
+ostree-receive-0 = otpush.receive_legacy:main
+ostree-receive-1 = otpush.receive:main

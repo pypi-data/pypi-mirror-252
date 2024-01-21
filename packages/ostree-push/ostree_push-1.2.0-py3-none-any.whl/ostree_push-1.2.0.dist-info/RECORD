@@ -1,0 +1,11 @@
+ostree_push-1.2.0.data/scripts/ostree-receive-shell,sha256=D9U69S6vueoIanJKbCI0gwT0KG__puLDZ8yzD7jt40w,2835
+otpush/__init__.py,sha256=ulw0zlNO-HK9vqdUuuPtDVsyegj40qJd0c2O3yJeFUM,48
+otpush/push.py,sha256=WTT-pqequ72D9wVH2ZqikX8en43qkPeghifGIQoqow8,21115
+otpush/receive.py,sha256=eBHAGQpgLM38d2ftYEYfMzBFDy1QJfLk49KOulC6PqY,33826
+otpush/receive_legacy.py,sha256=VMwCafcfUPKBhU_wkKGeNVxeZWUaL0ffYyC840FUdvk,13520
+ostree_push-1.2.0.dist-info/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ostree_push-1.2.0.dist-info/METADATA,sha256=Kyw8eNtR-JKG1K1Rgl9u7_SuqFCgpskqWXedfNCvPc8,6045
+ostree_push-1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ostree_push-1.2.0.dist-info/entry_points.txt,sha256=irJzSvcpEmlZJGxM5QjGUxYIXCY-qT4dH2wR3cZGHkc,178
+ostree_push-1.2.0.dist-info/top_level.txt,sha256=g5iYtl6yldHeM9Nbz6JvF0rI6Sbl4MTvW63wlqGi9kA,7
+ostree_push-1.2.0.dist-info/RECORD,,
