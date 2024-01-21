@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-umlet
+Version: 1.0.0
+Summary: Sphinx Extension to include UMLet files
+Home-page: https://github.com/basejumpa/sphinxcontrib-umlet
+Author: Alexander Mann-Wahrenberg (basejumpa)
+Author-email: alexander.mannwahrenberg@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Sphinx :: Extension
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sphinxcontrib-umlet
+
+Sphinx Extension adding the `umlet-image` and `umlet-figure` directives.
+These are equivalent to the standard `image` and `figure` directives, but
+accept the path to a `.uxf` file and additional options to control
+exporting of the diagram to a suitable image format. 
+
+**Important:** This extension does not work on readthedocs as RTD does not allow
+packages (e.g. UMLet) to be installed. If you only require diagrams in a single
+format, you can consider using editable SVGs or PNGs, accessible through
+UMLet's File > Export menu.
+
+## Installation
+
+1. `python3 -m pip install sphinxcontrib-umlet`
+2. In your sphinx config, add:
+
+    ```python
+    extensions = [
+        "sphinxcontrib.umlet"
+    ]
+    ```
+
+3. Make sure that UMLet works on your machine. Java runtime in the path is a prerequisite.
+
+4. Add the UMLet binary to `$PATH`. See [Options: Binary Path](#binary-path)
+   for more details and alternative solutions.
+
+## Options
+These values are placed in the `conf.py` of your sphinx project.
+
+### Binary Path
+- *Formal Name*: `umlet_binary_path`
+- *Default Value*: `None`
+
+This allows for a specific override for the binary location. By default, this
+chooses the `umlet` (or `umlet.exe`) binary accessible in `$PATH`.
+
+### Default Output Format
+- *Formal Name*: `umlet_builder_export_format`
+- *Default Value*: `{}`
+
+This config option controls the default export file format for each Sphinx
+builder. It accepts a dictionary mapping builder names to image formats. The
+builder name should match the name of a [Sphinx builder](https://www.sphinx-doc.org/en/master/usage/builders/index.html)
+(e.g., `"html"`, `"latex"`). Accepted values for the export format are `"png"`,
+`"jpg"`, `"svg"` and `"pdf"`. If no format is set for a given builder, its
+preferred image format is used, that is, the first format listed in a builder's
+_supported_image_types_ that UMLet is capable of exporting to (eg. SVG for
+HTML, PDF for LaTeX). 
+
+## Usage
+The extension can be used through the `umlet-image` directive. For example:
+```
+.. umlet-image:: example.umlet
+```
+
+There's also a `umlet-figure` directive that mimics the `figure` directive:
+```
+.. umlet-figure:: example.umlet
+   :format: png
+
+   An example diagram
+```
+
+The directives can be configured with options to control the export of the
+UMLet diagram to a bitmap or vector image. These options are documented below.
+
+Additionally, `umlet-image` accepts all of the options supported by the
+[image directive](https://docutils.sourceforge.io/docs/ref/rst/directives.html#image).
+These options apply to the image as exported by UMLet. Similarly,
+`umlet-figure` accepts all options supported by the [figure directive](https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure).
+
+### Format
+- *Formal Name*: `:format:`
+- *Default Value*: `"png"`
+- *Possible Values*: `"png"`, `"jpg"`, `"svg"` or `"pdf"`
+
+This option controls the output file format of *this specific* directive.
