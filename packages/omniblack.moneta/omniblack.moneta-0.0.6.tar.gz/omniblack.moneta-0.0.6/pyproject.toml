@@ -1,0 +1,46 @@
+[project]
+name = "omniblack.moneta"
+version = "0.0.6"
+description = "A changelog manager for omniblack."
+requires-python='~=3.9'
+
+dependencies = [
+    'attrs ~= 23.2',
+    'more-itertools ~= 10.2',
+    'atpublic ~= 4.0',
+    'ruamel.yaml ~= 0.18',
+    'sh ~= 2.0',
+    'textual ~= 0.47',
+
+    'omniblack.cli',
+    'omniblack.model',
+    'omniblack.repo',
+]
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/tooling/moneta"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[project.scripts]
+moneta='omniblack.moneta:app'
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[build-system]
+requires = [
+    "setuptools ~= 68.2",
+]
+build-backend = "setuptools.build_meta"
+
