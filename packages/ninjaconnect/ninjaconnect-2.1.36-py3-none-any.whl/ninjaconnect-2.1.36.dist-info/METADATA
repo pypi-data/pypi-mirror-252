@@ -1,0 +1,291 @@
+Metadata-Version: 2.1
+Name: ninjaconnect
+Version: 2.1.36
+Summary: NINJA CONNECT: Your Hassle-Free Device Configuration and Management Wizard!
+Home-page: https://pypi.org/project/ninjaconnect/
+Author: Prasaanth
+Author-email: prasaanth2k@gmail.com
+Maintainer: Prasaanth
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: keyring ==23.5.0
+Requires-Dist: readchar ==4.0.5
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: rich ==13.6.0
+Requires-Dist: setuptools ==68.2.2
+
+#### Hello, Ninjas! Welcome to the blog for instructions on using our CLI virtual private network. Using this VPN, you can quickly connect your device to our labs. Alright, let's now discuss how to use the NinjaConnect VPN.
+
+## Introduction
+
+#### What is NinjaConnect?
+
+NinjaConnect is a lightweight Virtual Private Network (VPN) CLI application built on top of WireGuard. With it, you can navigate our Selfmade Ninja Labs private network easily. and you can access our services easily with this VPN
+
+## Prerequisites
+
+- Laptop/Desktop with basic configuration
+- Python 3 or a later version.
+- Basic internet connection
+
+### Uses of this NinjaConnect VPN
+
+- Easily create a private network with your devices
+- Enjoy a secured connection 
+- Host a website locally and share it with your people
+- Remote access on all devices
+- Unlimited internet in the one your lab once connected with this VPN
+
+### STEPS TO INSTALL AND CONNECT ON WINDOWS PLATFORM
+
+To use the NinjaConnect VPN tool on a Windows platform, follow these steps:
+
+Before using this VPN, check whether you have installed Python or not. You can check how to install Python on Windows [https://www.digitalocean.com/](https://www.digitalocean.com/community/tutorials/install-python-windows-10 "https://www.digitalocean.com/")
+
+After installing Python and pip, you can install this tool using the following command:
+
+### Installation on Windows
+![windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white)
+
+Open the Command Prompt and type this command to install the VPN tool on your device:
+
+```
+pipx install ninjaconnect
+```
+
+Batch File Content:
+
+```batch
+@echo off
+python C:\Users\<Your Username>\AppData\Local\Programs\Python\Python312\Scripts\ninja %*
+```
+After that, you need to create a batch file as shown above. Replace the text with your actual username and save it as `ninja.bat`. Place this batch file in your user folder. To run this tool, it requires administrator mode, so you need to run the Command Prompt as an administrator.
+
+### Step 1 - Option of the tool
+```
+ninja -h or ninja --help
+```
+To see the options of the tool, run this command. With this command, you can see the available options
+
+![helpcommand](https://i.imgur.com/gZHrKhM.png)
+
+This command will show you what you can do with this tool.
+### Step 2 - Login to the Gitlabs
+Without login, you can't connect to the labs.
+
+```
+ninja login
+```
+![login](https://i.imgur.com/ghjSuaa.png)
+
+After running this command, you will be prompted for authentication in GitLab. After that, you can add your device to the labs. In some cases, your authentication may expire, so you need to log in again to connect
+
+### Step 3 - Add Device
+To connect to the labs, you need to add the device. Run this command to add the device
+```
+ninja add_device
+```
+![add_device](https://i.imgur.com/LstuXGA.png)
+
+It will ask for the device name, and once you provide the device name, it will add the device to the labs. Now you can connect using the `connect` command
+
+### Step 4 - Connect with labs
+After adding the device to the labs, you can connect your device to our labs with this command:
+```
+ninja connect
+```
+![connect](https://i.imgur.com/ofoa59k.png)
+
+Now you can SSH into the labs. In some cases, use:
+
+```
+ssh yourlabsusername@labsip
+```
+### Step 5 - Disconnect
+Once your work is finished, you can also disconnect the device from the labs by using this command:
+
+```
+ninja disconnect
+```
+![disconnect](https://i.imgur.com/BpEffjl.png)
+
+### Step 6 - Remove Device
+In case you want to remove the device, you can do so with this command:
+
+```
+ninja remove_device
+```
+### Installation on Linux
+![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black)
+
+On Linux, by default, you have Python, so you can simply install the tool with this command. In some cases, it will ask for permissions:
+
+```
+pipx install ninjaconnect
+```
+Permission Command
+
+```
+chmod +x /home/<yourusername>/.local/bin/ninja
+```
+After this permission, you can use the tool.
+
+### Step 1 - Option of the tool
+
+```
+ninja -h or ninja --help
+```
+To see the options of the tool, run this command. With this command, you can see the available options.
+![help](https://i.imgur.com/gZHrKhM.png)
+This command will show you what you can do with this tool.
+
+### Step 2 - Login to the Gitlabs
+Without login, you can't connect to the labs.
+```
+ninja login
+```
+![login](https://i.imgur.com/ghjSuaa.png)
+After running this command, you will be prompted for authentication in GitLab. After that, you can add your device to the labs. In some cases, your authentication may expire, so you need to log in again to connect.
+### Step 3 - Add Device
+To connect to the labs, you need to add the device. Run this command to add the device:
+
+```
+ninja add_device
+```
+![add_device](https://i.imgur.com/LstuXGA.png)
+It will ask for the device name, and once you provide the device name, it will add the device to the labs. Now you can connect using the `connect` command.
+
+### Step 4 - Connect with labs
+After adding the device to the labs, you can connect your device to our labs with this command:
+
+```
+ninja connect
+```
+![connect](https://i.imgur.com/ofoa59k.png)
+Now you can SSH into the labs. In some cases, use:
+
+```
+ssh yourlabsusername@labsip
+```
+### Step 5 - Disconnect
+Once your work is finished, you can also disconnect the device from the labs by using this command:
+
+```
+ninja disconnect
+```
+![disconnect](https://i.imgur.com/BpEffjl.png)
+### Step 6 - Remove Device
+In case you want to remove the device, you can do so with this command:
+
+```
+ninja remove_device
+```
+### Installation on Raspberry Pi [Headless Device]
+![raspberrypi](https://img.shields.io/badge/Raspberrypi(Headlessdevice)-darkred?logo=raspberrypi)
+
+For using this VPN on a headless device, you need to generate an access token to authenticate. First, generate the access token with the following steps:
+
+### GitLab Access Token Generation Steps for Headless Device
+
+### Step 1
+Go to your https://git.selfmade.ninja/ instance.
+
+![Step 1](https://i.imgur.com/KZbLV3s.png)
+
+### Step 2
+Click on your account and navigate to the "Preferences" section.
+
+![Step 2](https://i.imgur.com/7ZOlzaJ.png)
+
+### Step 3
+In the "Preferences" section, go to "Access Tokens" and generate a new token.
+
+![Step 3](https://i.imgur.com/FHATorn.png)
+
+### Step 4
+Provide a name for the token and select all the required permissions by checking the corresponding checkboxes.
+
+![Step 4](https://i.imgur.com/HLiMqOh.png)
+
+### Step 5
+Copy the generated token and use it login step
+### And as usual follow the linux steps
+```
+pipx install ninjaconnect
+```
+Permission Command
+
+```
+chmod +x /home/<yourusername>/.local/bin/ninja
+```
+After this permission, you can use the tool.
+
+### Step 1 - Option of the tool
+
+```
+ninja -h or ninja --help
+```
+To see the options of the tool, run this command. With this command, you can see the available options.
+![help](https://i.imgur.com/gZHrKhM.png)
+This command will show you what you can do with this tool.
+
+### Step 2 - Login to the Gitlabs
+Without login, you can't connect to the labs.and it will ask the access token from you use the gitlabs token form previously generated
+```
+ninja login
+```
+![headlessdevice](https://i.imgur.com/immK0lN.png)
+
+After running this command, you will be prompted for authentication in GitLab. After that, you can add your device to the labs. In some cases, your authentication may expire, so you need to log in again to connect.
+### Step 3 - Add Device
+To connect to the labs, you need to add the device. Run this command to add the device:
+
+```
+ninja add_device
+```
+![add_device](https://i.imgur.com/LstuXGA.png)
+It will ask for the device name, and once you provide the device name, it will add the device to the labs. Now you can connect using the `connect` command.
+
+### Step 4 - Connect with labs
+After adding the device to the labs, you can connect your device to our labs with this command:
+
+```
+ninja connect
+```
+![connect](https://i.imgur.com/ofoa59k.png)
+Now you can SSH into the labs. :
+
+```
+ssh yourlabsusername@labsip
+```
+### Step 5 - Disconnect
+Once your work is finished, you can also disconnect the device from the labs by using this command:
+
+```
+ninja disconnect
+```
+![disconnect](https://i.imgur.com/BpEffjl.png)
+### Step 6 - Remove Device
+In case you want to remove the device, you can do so with this command:
+
+```
+ninja remove_device
+```
+![remove_device](https://i.imgur.com/rSjipD0.png)
+
+Please note that this is a beta version,incase any issues. We appreciate your feedback in Telegram @selfmadeninjasupport
+
+![TeleGram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
