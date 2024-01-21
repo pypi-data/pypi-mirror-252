@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: anipics
+Version: 1.5
+Summary: 
+Author: Daniel
+Author-email: D4n13l3k00@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: httpx (>=0.26.0,<0.27.0)
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+<!--
+ Copyright 2021 D4n13l3k00.
+ SPDX-License-Identifier: 	AGPL-3.0-or-later
+-->
+
+# Anipics
+
+## Simple module for getting anime pictures
+
+### Installation:
+
+`pip install anipics`
+
+### Usage:
+
+Example of usage [here](/example.py)
