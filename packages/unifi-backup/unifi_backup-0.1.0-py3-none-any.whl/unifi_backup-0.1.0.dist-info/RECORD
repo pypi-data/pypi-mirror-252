@@ -1,0 +1,9 @@
+unifi_backup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unifi_backup/__main__.py,sha256=dPBuw5K7_gBA_jOLteBdcePEMTNm__-NSOYkMC-qeAM,126
+unifi_backup/cli.py,sha256=GhxyevABBBk512ZrFLmkgaPionhaOqepjrRwdQg-lNQ,5595
+unifi_backup-0.1.0.dist-info/LICENSE,sha256=jTw9izHE1dkQMYxR8ulCTxoGrrzdnBAEIRPGagC42B4,1073
+unifi_backup-0.1.0.dist-info/METADATA,sha256=YDgKKn1rd35Y0L7OmNmuHNo3qCFg_cFt9d_34Vkt5Ks,2324
+unifi_backup-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+unifi_backup-0.1.0.dist-info/entry_points.txt,sha256=asfiXBwTSwifBMyQX4TZRiFCFnC6eGoEVNPgkXADx-w,55
+unifi_backup-0.1.0.dist-info/top_level.txt,sha256=t-NercbhyTD3bekdUYh7YlTsNI03lwXkHVLgV-3zh8U,13
+unifi_backup-0.1.0.dist-info/RECORD,,
