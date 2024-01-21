@@ -1,0 +1,9 @@
+netclop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netclop/cli.py,sha256=pgaUSorSgmLzrkJgYQSaIsojTqc-iIAqN_nZV94U0xs,2046
+netclop/networkops.py,sha256=naCUO86yLxXKvuUFOWak2rcCiZHKpm4ccjIgkNpjVRM,3931
+netclop/plot.py,sha256=fraDoDBBGzP_aJ5T2vWh7BWfRioykjtokrOsLsmj42U,3863
+netclop-0.4.0.dist-info/LICENSE,sha256=YWDzXS-QMfxvHWwXsCz6eHwZZA66fmOx1Amnh39fpII,1073
+netclop-0.4.0.dist-info/METADATA,sha256=3IOOgo7bTo8hnv9gB1x7MwJ_QH4OnYqhesoLvX0TtdE,2057
+netclop-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+netclop-0.4.0.dist-info/entry_points.txt,sha256=R-e0hcHj8OHb2D8-xzlLC2XoJIB03vwEuvri6T-UB8c,109
+netclop-0.4.0.dist-info/RECORD,,
