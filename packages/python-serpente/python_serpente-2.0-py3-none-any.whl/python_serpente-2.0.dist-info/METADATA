@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-serpente
+Version: 2.0
+Summary: Roman numeral encoder and decoder
+License: MIT
+Author: Jeremy Carbaugh
+Author-email: jeremy@jcarbaugh.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, http://github.com/jcarbaugh/python-serpente/
+Description-Content-Type: text/markdown
+
+# python-serpente
+
+Roman numeral conversion. Supports Python 3.8 to 3.12.
+
+![main branch CI badge](https://github.com/jcarbaugh/python-serpente/workflows/Python%20package/badge.svg)
+
+## Usage
+
+``` python
+>>> import serpente
+>>> serpente.encode(1234)
+'MCCXXXIV'
+>>> serpente.decode("MCCXXXIV")
+1234
+```
+
