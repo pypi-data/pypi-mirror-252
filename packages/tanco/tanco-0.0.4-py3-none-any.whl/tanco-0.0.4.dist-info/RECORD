@@ -1,0 +1,14 @@
+tanco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tanco/app.py,sha256=Jupdj4bJB0-12WbpV-fkr-KHkuneox6eUrKKmoH9aks,13160
+tanco/client.py,sha256=lJGtkz5JKkpW9GIPdpOUmWAJrSkWaONmS0Dmrs25uA8,2802
+tanco/database.py,sha256=6tXrGM63viqWojLx-TYGLO9PX2z-Eyc25YaR5M1Gbdw,8522
+tanco/driver.py,sha256=RuVAEmcvgIBn2vTJAIab7bnJLsFDKBOv51XLJr4-rwE,10930
+tanco/model.py,sha256=GL_qyFw_aD4XYac1F_xNXVZiXOva1BNcTfA0Yd8UdV0,5201
+tanco/orgtest.py,sha256=7nyddqchGjmJRcX8qi_SeU3RO8o9ECEeGeFAPurfQPw,5875
+tanco/runner.py,sha256=KGoL-wKhdM3t8-983CFGXjkQKT11R99apBvtH8G_SVg,9973
+tanco-0.0.4.dist-info/LICENSE,sha256=Jwo5K4nUsE9YtVJBW3-51uUfnuGS4ignBomgiZvG6Ow,1074
+tanco-0.0.4.dist-info/METADATA,sha256=ieH17TM06Z3CVkXYvQwwtjl3vxzpqz9xPWGzmTTlehs,2451
+tanco-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tanco-0.0.4.dist-info/entry_points.txt,sha256=F7BH9x_Vpao5kmrsdOunlxMdIkFlrN_Td8y_aVEnM5o,44
+tanco-0.0.4.dist-info/top_level.txt,sha256=JBBRuuNGRcgNEk-H0V4Nmhex_PArqLPvtd-TaS6mDKQ,6
+tanco-0.0.4.dist-info/RECORD,,
