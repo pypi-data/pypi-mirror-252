@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+autom/__init__.py
+autom.egg-info/PKG-INFO
+autom.egg-info/SOURCES.txt
+autom.egg-info/dependency_links.txt
+autom.egg-info/top_level.txt
