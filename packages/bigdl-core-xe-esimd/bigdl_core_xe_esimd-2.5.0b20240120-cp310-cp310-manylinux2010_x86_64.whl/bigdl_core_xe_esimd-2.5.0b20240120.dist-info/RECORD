@@ -1,0 +1,5 @@
+linear_fp16_esimd.cpython-310-x86_64-linux-gnu.so,sha256=jvSpuo9usBd65MxFK9d1IoAFesx6vv2XITD6cvDz4ug,182995000
+bigdl_core_xe_esimd-2.5.0b20240120.dist-info/METADATA,sha256=Ofk7C-vfLd1836e22hexTDcuRYcpirbqFVJhCQjyc3I,73
+bigdl_core_xe_esimd-2.5.0b20240120.dist-info/WHEEL,sha256=1uWdHyBUW-F7DDUfA5m2-pV0fdKSj7Tdyz9qiUl3SNc,113
+bigdl_core_xe_esimd-2.5.0b20240120.dist-info/top_level.txt,sha256=3SZdLObmgtRvzC9c1CRXuqaM5S5ZCRTyUEQFNtQKeF8,18
+bigdl_core_xe_esimd-2.5.0b20240120.dist-info/RECORD,,
