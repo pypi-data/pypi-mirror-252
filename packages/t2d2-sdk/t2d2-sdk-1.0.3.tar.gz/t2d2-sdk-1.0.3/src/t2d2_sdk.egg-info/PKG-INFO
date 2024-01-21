@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: t2d2-sdk
+Version: 1.0.3
+Summary: T2D2 SDK
+Author-email: Badri Hiriyur <badri@t2d2.ai>
+Project-URL: Homepage, https://github.com/t2d2/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# T2D2 SDK
+
+Using API version 3
