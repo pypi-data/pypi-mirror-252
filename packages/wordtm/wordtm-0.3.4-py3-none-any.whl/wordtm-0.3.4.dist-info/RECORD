@@ -1,0 +1,16 @@
+wordtm/__init__.py,sha256=8RTMU1s8kRvggH7fuyZupU381kNFPQ8VD0_h9Nyxmy0,82
+wordtm/meta.py,sha256=1e_u6bFceYosFOmi6BqTDnBdNMSt3k8Bpa8EOyCrs00,3218
+wordtm/pivot.py,sha256=zGKSNtqQYA4COM9vbgSFEoMW9j5ziXA3zzVkFCPwjtI,1326
+wordtm/quot.py,sha256=BH-Uf9fJqY0QgMP69awYYZNxjLew3jZL3dfnxCAyYrU,9787
+wordtm/ta.py,sha256=BnRU7WcVBhg8ljKC_GyzPjFFmzutCWGHaUy-M5iGzQk,2252
+wordtm/tm.py,sha256=ACMR7QN0MdDs-h15IPWmwkQAf482UwM4Ep6B6ZKUBoc,18652
+wordtm/util.py,sha256=hiSY9QuN8KGDgnavMBU3eXJbOSHrdz2-smxS3oYQxjI,7035
+wordtm/viz.py,sha256=47_97PWKOzH7Prwawkb6A9kmM0Rgv_EtuWNxjMYRvgs,1509
+wordtm/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordtm/dictionary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordtm/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordtm-0.3.4.dist-info/LICENSE.txt,sha256=Rc-2NYF_J1nre6w4ekVcgJwX7RAW-GcyRUw3X61pD2A,1086
+wordtm-0.3.4.dist-info/METADATA,sha256=zoWv500lJfioNeXoZXKzaR5ydJsH9IYFV8_nHwFjq5U,1290
+wordtm-0.3.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wordtm-0.3.4.dist-info/top_level.txt,sha256=WiHLAj9F53fywRgwRCkXIg1pE1c3QlEiF4eNV73SptA,7
+wordtm-0.3.4.dist-info/RECORD,,
