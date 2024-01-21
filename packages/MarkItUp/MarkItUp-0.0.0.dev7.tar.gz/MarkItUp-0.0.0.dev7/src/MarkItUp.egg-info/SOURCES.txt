@@ -1,0 +1,10 @@
+pyproject.toml
+src/MarkItUp.egg-info/PKG-INFO
+src/MarkItUp.egg-info/SOURCES.txt
+src/MarkItUp.egg-info/dependency_links.txt
+src/MarkItUp.egg-info/not-zip-safe
+src/MarkItUp.egg-info/top_level.txt
+src/markitup/__init__.py
+src/markitup/html.py
+src/markitup/md.py
+src/markitup/sgr.py
