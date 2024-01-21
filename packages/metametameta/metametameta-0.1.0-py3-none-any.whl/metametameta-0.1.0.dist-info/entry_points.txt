@@ -1,0 +1,4 @@
+[console_scripts]
+metametameta=metametameta.__main__:main
+mmm=mmm.__main__:main
+

@@ -1,0 +1,17 @@
+metametameta/__about__.py,sha256=mCUfGsldGHtnyl2sCWVPZdoosVdBJH_bCuefRXDnhlE,818
+metametameta/__init__.py,sha256=LJeM8AUB6ObHZhaiyAhgS47e4GzjurVXObROvg8khW8,608
+metametameta/__main__.py,sha256=c8HG_xIZ1dT9kNcSyxfzUgCqBc9a7hWSaiBy67kKhew,4406
+metametameta/filesystem.py,sha256=REm8Q-WE00zyZ1MyM1GGzNgZed0LY6n2eGwrgxA63m8,989
+metametameta/find.py,sha256=2WjAuOeh2UVyS3p8FGnVeOxstHRj0SRbT_5bm1gr508,1140
+metametameta/from_importlib.py,sha256=8ZhiDy7IcWZDYVr59AlQ__MNMvy5TQGY1fHo3P-MDkI,1245
+metametameta/from_pep621.py,sha256=eQbli7AyyCvQk0xoFq29Xbe5_rp-8tZoLEI_nIowmsI,1797
+metametameta/from_poetry.py,sha256=zpYPL2cAXkGJ1SYTrWJdROEq4D46-Wg1XQUhFOrhYHA,1858
+metametameta/from_setup_cfg.py,sha256=s3_a6FM1ycGDja1CXDDC9U4xNBlWn4hrA3H5UF1JPmE,1810
+metametameta/general.py,sha256=3y6qluyf-kVaLkYK9KY1fKueVs_PNDUBd-dsE0KqU9A,3997
+metametameta/known.py,sha256=Qtrp8mxMzYBBlZDuq0DU7sXRs1MdMxD0PYZgdRESc44,366
+metametameta/py.typed,sha256=B-DLSjYBi7pkKjwxCSdpVj2J02wgfJr-E7B1wOUyxYU,80
+metametameta-0.1.0.dist-info/LICENSE,sha256=jorgCGk-Vzqzuda58x7WxtiRSnL0_WaOSLcZIe3czgo,1071
+metametameta-0.1.0.dist-info/METADATA,sha256=IoouFRcM8X33xcZvcnq8OrWXBYdkTRG73B0WHoCXX_M,3977
+metametameta-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+metametameta-0.1.0.dist-info/entry_points.txt,sha256=IE6-39Vq-7lsyS4zsFOtkgpbMmXfbLbyZ022fC9JVRI,81
+metametameta-0.1.0.dist-info/RECORD,,
