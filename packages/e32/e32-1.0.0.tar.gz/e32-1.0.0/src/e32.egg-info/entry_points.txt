@@ -1,0 +1,2 @@
+[console_scripts]
+e32 = e32.cli:main
