@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "asix_David_Botella"
+version = "0.0.1"
+authors = [
+    { name="Davidbn_14", email="davidbotellanicolas22@gmail.com" },
+]
+description = "Funciones para calcular el área y la longitud de varios polígonos"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/David-2214/asix_David_Botella.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/foo"]
