@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+safewall/__init__.py
+safewall.egg-info/PKG-INFO
+safewall.egg-info/SOURCES.txt
+safewall.egg-info/dependency_links.txt
+safewall.egg-info/top_level.txt
