@@ -1,0 +1,43 @@
+# SPDX-FileCopyrightText: 2023 Matthias Riße <matthias.risze@t-online.de>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[project]
+name = "smtp2paperless"
+description = "A bridge between SMTP and the Paperless API"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSES/Apache-2.0.txt" }
+keywords = [
+  "paperless-ngx",
+  "SMTP",
+]
+authors = [
+  { name = "Matthias Riße", email = "matthias.risze@t-online.de" },
+]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "aiosmtpd",
+  "requests",
+]
+
+[project.urls]
+Documentation = "https://github.com/matrss/smtp2paperless#readme"
+Issues = "https://github.com/matrss/smtp2paperless/issues"
+Source = "https://github.com/matrss/smtp2paperless"
+
+[project.scripts]
+smtp2paperless = "smtp2paperless:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.ruff.lint]
+extend-select = ["I"]
