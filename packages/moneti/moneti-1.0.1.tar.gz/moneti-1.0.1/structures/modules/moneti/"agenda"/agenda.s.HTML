@@ -1,0 +1,102 @@
+
+
+
+
+agenda:
+	
+	
+	agenda:
+		[ ] structure
+				/offline_goods
+					/wallet-1
+					/wallet-2
+					
+	
+		[ ] write hexadecimal public key to file
+	
+		[ ] stdin
+				
+				2345
+				wert
+				sdfg
+				xcvb
+	
+		[ ] QR codes
+			[ ] online
+				[ ] Generate a QR code of a byte string for signing 
+						
+						QR ({
+							unsigned: {},
+						})
+			
+			[ ] offline
+				[ ] take a photo of the QR code
+				[ ] convert QR code to a hex string that is sent with { signature: hexadecimal }
+				
+						QR_to_UTF8 (b"") -> {
+							unsigned: hexadecimal
+						}
+				
+				[ ] sign the QR code
+				
+						{
+							unsigned: hexadecimal,
+							signed: 
+							public_key: 
+						}
+				
+				[ ] generate a QR code of the signature
+				
+						QR ({
+							unsigned: hexadecimal,
+							signed: hexadecimal
+						})
+				
+			[ ] online 
+				[ ] take a photo of the { signature: hexadecimal } QR code
+				[ ] convert the signature QR code into a { signature: hexadecimal }.
+		
+			[ ] online
+				[ ] verify a signature
+		
+		
+		[ ] ./moneti create-proposal-vibes 
+	
+		[ ] collection
+		
+		[ ] firefox extension:
+			
+				https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+		
+		
+	
+	structure:
+		[ZSH] moneti offline_tool start 
+			
+		
+		[ZSH] moneti online_tool start
+		
+			/vibes
+	
+	
+	
+	steps:
+		* build proposal certificates
+		* build participant certificates
+		* propose a rulership certificate 
+		
+			{
+				"proposal": {
+					"stamp": 
+				}
+					
+				
+			}
+		
+	
+	L2:
+		quarantine lists
+		
+			[ ] anyone can start a quarantine list L2
+			[ ] anyone can browse the quarantine lists
+		
