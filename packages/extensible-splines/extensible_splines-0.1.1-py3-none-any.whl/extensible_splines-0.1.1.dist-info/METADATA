@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: extensible_splines
+Version: 0.1.1
+Summary: Simple, easily verified custom spline interpolation.
+Home-page: https://github.com/egoughnour/extensible-splines
+Author: E Goughnour
+Author-email: e.goughnour@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+
+# Extensible Splines
+[![PyPI version](https://badge.fury.io/py/extensible-splines.svg)](https://badge.fury.io/py/extensible-splines)
+[![Package](https://github.com/egoughnour/extensible-splines/actions/workflows/python-package.yml/badge.svg)](https://github.com/egoughnour/extensible-splines/actions/workflows/python-package.yml/badge.svg)
+[![Publish](https://github.com/egoughnour/extensible-splines/actions/workflows/python-publish.yml/badge.svg)](https://github.com/egoughnour/extensible-splines/actions/workflows/python-publish.yml/badge.svg)
+[![codecov](https://codecov.io/gh/egoughnour/extensible-splines/graph/badge.svg?token=MELC9EGTYU)](https://codecov.io/gh/egoughnour/extensible-splines)
+
+Python Spline Interpolation. Interactive plot for quick testing of new spline kernels or control point usage.  
