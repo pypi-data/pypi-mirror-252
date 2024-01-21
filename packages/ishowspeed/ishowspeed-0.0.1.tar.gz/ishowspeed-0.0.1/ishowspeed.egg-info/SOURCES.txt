@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ishowspeed/__init__.py
+ishowspeed.egg-info/PKG-INFO
+ishowspeed.egg-info/SOURCES.txt
+ishowspeed.egg-info/dependency_links.txt
+ishowspeed.egg-info/top_level.txt
