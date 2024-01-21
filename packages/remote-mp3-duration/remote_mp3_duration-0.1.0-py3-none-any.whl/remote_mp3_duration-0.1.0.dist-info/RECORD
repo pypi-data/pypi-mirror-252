@@ -1,0 +1,10 @@
+mp3_duration/__init__.py,sha256=4ipoATgrFxftgpsKKMNDg9gnAYe1NO0SjMeIlAeKFDo,55
+mp3_duration/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+mp3_duration/cli.py,sha256=0siZxtWR-p_WqjE08DtTLkWuCale4bRq95N9b7St_PY,294
+mp3_duration/mp3_duration.py,sha256=hc5pvp4j-rj5m4h8PyrcqLKVBh8YOsXKeWEh8zEwoYc,6772
+remote_mp3_duration-0.1.0.dist-info/LICENSE,sha256=g52Jv3OQevtoyyRm4_fB_QtxDNUHS7uYMzhKeXFtPMM,1063
+remote_mp3_duration-0.1.0.dist-info/METADATA,sha256=rFSvyawnxEII1rIu0GcUTHEdRiGqAInWeC2dnU40468,238
+remote_mp3_duration-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+remote_mp3_duration-0.1.0.dist-info/entry_points.txt,sha256=9hi-7izyeDJnQO3ePWt5pN6b1-i_EPCocnbrbDrtwA8,55
+remote_mp3_duration-0.1.0.dist-info/top_level.txt,sha256=oVCW96kyp_bXZuygWOXDTnsx7QrE36WaPaZ-yw58B6Y,13
+remote_mp3_duration-0.1.0.dist-info/RECORD,,

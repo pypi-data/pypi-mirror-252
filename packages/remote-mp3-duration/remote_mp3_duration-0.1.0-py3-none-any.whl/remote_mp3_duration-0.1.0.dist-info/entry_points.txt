@@ -1,0 +1,2 @@
+[console_scripts]
+mp3_duration = mp3_duration.cli:main
