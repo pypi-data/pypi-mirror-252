@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py1090
+Version: 1.1
+Summary: ADS-B messages from BaseStation handled in a pythonic way.
+Home-page: http://www.jonaslieb.com/
+Author: Jonas Lieb
+Author-email: jonas@jonaslieb.com
+Maintainer: kwadra
+Maintainer-email: py1090@demosoft.org
+License: Apache License, Version 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+

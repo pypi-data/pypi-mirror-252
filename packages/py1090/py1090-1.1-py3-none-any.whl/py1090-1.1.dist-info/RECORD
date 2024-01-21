@@ -1,0 +1,10 @@
+py1090/__init__.py,sha256=VVH_vkF8fcGJ5zG3y4OULZYysnvnxMVQyOafebn_JFc,317
+py1090/collection.py,sha256=zkPeBDyWkc8gFjF1uroXXTWUlZJBXAQv6rhUscdM9vw,3756
+py1090/connection.py,sha256=PBDQwU4BaCReXLGEUM6YRaYL9sUAAavGs3Ew4ESL4JA,1677
+py1090/helpers.py,sha256=cMCSn0OwyTsRxYYEbEdX3E9IuV0732rEJgb99YlRlHo,3478
+py1090/message.py,sha256=o22jb97C-qXn9uZ74hczMMSUlJOkvaWYN_Kl1s4TobQ,10575
+py1090-1.1.dist-info/LICENSE.txt,sha256=0AcCEMyXRxGprPbOUyZO4660csu15RgFsEL53lp4uDs,1115
+py1090-1.1.dist-info/METADATA,sha256=uj9KV-6FmEsIdzu1GlnddHdL-nJeEHz3cz9GBBjzKb4,682
+py1090-1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py1090-1.1.dist-info/top_level.txt,sha256=8-E0FwOwgNyrqGXC748hO671_yix3h6MszzqZ7cMv30,7
+py1090-1.1.dist-info/RECORD,,
