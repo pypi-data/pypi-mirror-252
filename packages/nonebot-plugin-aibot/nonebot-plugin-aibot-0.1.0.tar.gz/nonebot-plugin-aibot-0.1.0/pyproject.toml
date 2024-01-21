@@ -1,0 +1,14 @@
+[project]
+name = "nonebot-plugin-aibot"
+version = "0.1.0"
+description = "nonebot-plugin-aibot"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "Console", module_name = "nonebot.adapters.console" }
+]
+plugins = []
+plugin_dirs = ["nonebot_plugin_aibot/plugins"]
+builtin_plugins = ["echo"]
