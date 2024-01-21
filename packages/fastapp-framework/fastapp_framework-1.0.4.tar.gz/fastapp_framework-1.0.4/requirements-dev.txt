@@ -1,0 +1,10 @@
+-r requirements.txt
+
+-e .
+# Dev Requirements
+pytest
+pytest-cov
+pylint
+black
+mypy
+httpx
