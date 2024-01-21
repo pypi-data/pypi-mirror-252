@@ -1,0 +1,2 @@
+[console_scripts]
+waveshare-ws170120-brightness = waveshare_ws170120_brightness:main
