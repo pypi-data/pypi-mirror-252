@@ -1,0 +1,8 @@
+README.md
+setup.py
+mdblewisProj1/__init__.py
+mdblewisProj1/mod1.py
+mdblewisProj1.egg-info/PKG-INFO
+mdblewisProj1.egg-info/SOURCES.txt
+mdblewisProj1.egg-info/dependency_links.txt
+mdblewisProj1.egg-info/top_level.txt
