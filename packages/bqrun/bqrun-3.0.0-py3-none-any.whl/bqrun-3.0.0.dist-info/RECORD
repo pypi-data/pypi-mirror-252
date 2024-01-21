@@ -1,0 +1,8 @@
+bqrun/__init__.py,sha256=EPmgXOdWKks5S__ZMH7Nu6xpAeVrZpfxaFy4pykuyeI,22
+bqrun/bqrun.py,sha256=fQ3aU503_na-EHWAehJdhjStpI73dFuROOnQc0zGBE4,9750
+bqrun/cli.py,sha256=J-gi95Nw2JmT_mFUrHLs_evvlb70FFGSUh36d8tvJq0,277
+bqrun-3.0.0.dist-info/LICENSE,sha256=XAGE9wxLYWKa1wtzYmkDDYJxBusooBaVMvSBiYlRX0w,1077
+bqrun-3.0.0.dist-info/METADATA,sha256=xFf90BfOmyz5fo7x9zrre-ZL5St40_jWkEVWqZK4KBc,2380
+bqrun-3.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bqrun-3.0.0.dist-info/entry_points.txt,sha256=4tnZkVN1HzeQfdYeYOYdO2tm2CW5-rVbhAFZtcQmHOA,40
+bqrun-3.0.0.dist-info/RECORD,,
