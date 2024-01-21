@@ -1,0 +1,8 @@
+noti/__init__.py,sha256=0tU0CgsKYX46Vpd7EcO-3vH_0NWDDfYMn0X7oxvhagw,29
+noti/auth.py,sha256=3GocoZYi74I9rc8g8aV_bcNEBP9pkb8qv7myaeaLv6Y,425
+noti/config.py,sha256=p_-Or6zV9AofZMN6h4nvnLVYitg5FxlKzTVX-m3Yzzs,707
+noti/slack.py,sha256=C0neZ2MhsJ7pmDqPZ6EMiHjb4p2HQpoTynPFMnyYdTk,918
+noti2-1.0.1.dist-info/LICENSE,sha256=sI9DLlHBLC7lSTmYNWNwp31Ah8EiJWOgCePPS_CgH9U,1064
+noti2-1.0.1.dist-info/METADATA,sha256=z3qXh00vJnjMlfocqo7hfA_a8ixMBwbWmKzdMQstBZ8,1263
+noti2-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+noti2-1.0.1.dist-info/RECORD,,
