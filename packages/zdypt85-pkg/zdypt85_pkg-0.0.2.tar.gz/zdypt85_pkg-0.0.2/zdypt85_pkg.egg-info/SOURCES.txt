@@ -1,0 +1,10 @@
+MANIFEST.in
+README.MD
+pyproject.toml
+setup.py
+zdpyt85_package/__init__.py
+zdpyt85_package/messages.py
+zdypt85_pkg.egg-info/PKG-INFO
+zdypt85_pkg.egg-info/SOURCES.txt
+zdypt85_pkg.egg-info/dependency_links.txt
+zdypt85_pkg.egg-info/top_level.txt
