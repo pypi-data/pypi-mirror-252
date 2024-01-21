@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "zdytest"
+version = "0.1.0"
+description = ""
+authors = ["ATHOSD <202100300013@mail.sdu.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
