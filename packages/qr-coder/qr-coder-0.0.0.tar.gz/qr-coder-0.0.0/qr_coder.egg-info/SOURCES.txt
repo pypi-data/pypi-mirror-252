@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+build.py
+requirements-dev.txt
+requirements.txt
+setup.py
+qr_coder.egg-info/PKG-INFO
+qr_coder.egg-info/SOURCES.txt
+qr_coder.egg-info/dependency_links.txt
+qr_coder.egg-info/requires.txt
+qr_coder.egg-info/top_level.txt
+qrio/__init__.py
+qrio/qr.py

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: qr-coder
+Version: 0.0.0
+Summary: A QR handling module for writing and reading QR.
+Home-page: https://github.com/Shahaf-F-S/project-template
+Author: Shahaf Frank-Shapir
+Author-email: shahaffrs@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: qrcode
+Requires-Dist: pyzbar
+Requires-Dist: pillow
+Provides-Extra: dev
+Requires-Dist: pdoc3; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# qrio
+
+> A QR handling module for writing and reading QR.
+
+## example
+
+```python
+from qrio import encode, decode
+
+data = "hello world"
+
+print(data == decode(encode(data.encode())).decode())
+```
