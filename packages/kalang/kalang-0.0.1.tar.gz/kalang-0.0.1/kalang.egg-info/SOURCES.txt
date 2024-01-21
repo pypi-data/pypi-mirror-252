@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+kalang/__init__.py
+kalang.egg-info/PKG-INFO
+kalang.egg-info/SOURCES.txt
+kalang.egg-info/dependency_links.txt
+kalang.egg-info/top_level.txt
