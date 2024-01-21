@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+leapchr/__init__.py
+leapchr.egg-info/PKG-INFO
+leapchr.egg-info/SOURCES.txt
+leapchr.egg-info/dependency_links.txt
+leapchr.egg-info/top_level.txt
