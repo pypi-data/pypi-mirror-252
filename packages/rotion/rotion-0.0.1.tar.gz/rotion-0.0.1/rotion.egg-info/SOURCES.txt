@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rotion/__init__.py
+rotion.egg-info/PKG-INFO
+rotion.egg-info/SOURCES.txt
+rotion.egg-info/dependency_links.txt
+rotion.egg-info/top_level.txt
