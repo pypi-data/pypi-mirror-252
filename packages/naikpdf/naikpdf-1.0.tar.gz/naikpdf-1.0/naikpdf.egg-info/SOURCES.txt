@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+naikpdf.egg-info/PKG-INFO
+naikpdf.egg-info/SOURCES.txt
+naikpdf.egg-info/dependency_links.txt
+naikpdf.egg-info/top_level.txt
