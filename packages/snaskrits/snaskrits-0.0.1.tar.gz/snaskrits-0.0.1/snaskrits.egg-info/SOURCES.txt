@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+snaskrits/__init__.py
+snaskrits.egg-info/PKG-INFO
+snaskrits.egg-info/SOURCES.txt
+snaskrits.egg-info/dependency_links.txt
+snaskrits.egg-info/top_level.txt
