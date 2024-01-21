@@ -1,0 +1,11 @@
+.DS_Store,sha256=wyEe-RxAX7baxeaYoIBlvASVaHFq5IOxHI3NEPGkW4I,6148
+spatial_summarize_within/__init__.py,sha256=AjFnqgIW5YQapXZAthtIzpDlUP8US7wl_jJ3gVPzTpM,141
+spatial_summarize_within/max_within.py,sha256=5Y8rEfvCJIwV24jj8-7wMC2uzl2HWjnEjxlM-lKbyBc,2649
+spatial_summarize_within/mean_within.py,sha256=KjPiLVvdlDwIa1T1wmXJiGW2BwasjvxMxvbc38TGP9A,3528
+spatial_summarize_within/min_within.py,sha256=DlYwjpf4gK59sumP8GlFo4dUH7Zjz9WJ62YK3Tt22TU,3081
+spatial_summarize_within/sum_within.py,sha256=cbLaaqQ5jzYtFldf7PDhTofTJXrramZklVlXbXJO1w8,3043
+spatial_summarize_within-1.0.6.dist-info/LICENSE,sha256=JyfcmyXO-DlcHzoBiTuuaIoF-NdqbJ9MGg65haBk4Io,1076
+spatial_summarize_within-1.0.6.dist-info/METADATA,sha256=xvXs2gcB736xqiT8ubIrzJk_R0mCNEK_gx6Pwt6ije0,138
+spatial_summarize_within-1.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spatial_summarize_within-1.0.6.dist-info/top_level.txt,sha256=1x0wEys34D0fKMTSGf_GaCYAanaV8nV54-8Z58kQwQA,25
+spatial_summarize_within-1.0.6.dist-info/RECORD,,

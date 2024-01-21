@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: spatial-summarize-within
+Version: 1.0.6
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: pandas
+
