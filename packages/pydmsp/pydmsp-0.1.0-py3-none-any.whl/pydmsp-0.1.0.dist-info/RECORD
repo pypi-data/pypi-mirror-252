@@ -1,0 +1,15 @@
+pydmsp/__init__.py,sha256=MGvD0XJp5ZLKkFzNohY0hqM-s6G40ueD8GfPeHf1lk8,234
+pydmsp/_dmspexeptions.py,sha256=t1Wbpex9-bx4CwwWlBGv-xI58RxjaFQ3ACBZaHA0r1M,2169
+pydmsp/_from_gz.py,sha256=p6WT7_YG3HPBaYy-pWa0pmo13WLlwFF8MP-9MzPs7Zc,3521
+pydmsp/_make_dataset.py,sha256=pwfwx5tvZOsMtdwYVkBdhSlulsTQBHozmH2dkQtzDpc,14817
+pydmsp/_tables_E.py,sha256=LxJoaTNXEwflpFpJZP-rd0AlA94mdWZu0XQabnJsLFk,349
+pydmsp/_tables_G.py,sha256=nOOtGYDDujjSYEVGAYmhVjVhtcllnzJrL4UODyCLch4,6373
+pydmsp/_transform_dataset.py,sha256=uLr39PnMyaDmXR8Su9Uhf18IQPz-cCBIvJFw9SIrdo0,17127
+pydmsp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydmsp/tests/j4f0787122,sha256=wIfgOvkxNKMXe_6kRnkHFHrJZn5ENVCaXpnCPCVdi6Y,7603200
+pydmsp/tests/j4f0787122.gz,sha256=2pUTqFBEkDVNZja7heDmnG3QAraYc7CsvTRuhlftC48,1854039
+pydmsp/tests/test00.py,sha256=0oGOVm79ld0eS4ZwI1qIRLXYmmYFbOQQD0Wen_3-xbk,445
+pydmsp-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pydmsp-0.1.0.dist-info/METADATA,sha256=_sd1JAKR80DD-pzXhoT0SFCoA_LpDNEiquc5CGqOn9E,2514
+pydmsp-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pydmsp-0.1.0.dist-info/RECORD,,
