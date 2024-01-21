@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+snapinfo/__init__.py
+snapinfo/info.py
+snapinfo.egg-info/PKG-INFO
+snapinfo.egg-info/SOURCES.txt
+snapinfo.egg-info/dependency_links.txt
+snapinfo.egg-info/requires.txt
+snapinfo.egg-info/top_level.txt

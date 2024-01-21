@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: snapinfo
+Version: 0.0.1
+Summary: Get information about Snapchat users.
+Author: Emppu
+Author-email: <emppu@emppu.dev>
+Keywords: python,video,stream,video stream,camera stream,sockets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# snapinfo
+ Tool for retrieving basic info from Snapchat user profiles.
