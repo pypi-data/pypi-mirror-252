@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+j-ython/__init__.py
+j_ython.egg-info/PKG-INFO
+j_ython.egg-info/SOURCES.txt
+j_ython.egg-info/dependency_links.txt
+j_ython.egg-info/top_level.txt
