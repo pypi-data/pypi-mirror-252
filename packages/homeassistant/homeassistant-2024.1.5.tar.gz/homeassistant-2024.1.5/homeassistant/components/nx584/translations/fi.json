@@ -1,0 +1,12 @@
+{
+    "services": {
+        "bypass_zone": {
+            "description": "Ohittaa alueen.",
+            "fields": {
+                "zone": {
+                    "description": "Ohitettavan alueen numero."
+                }
+            }
+        }
+    }
+}

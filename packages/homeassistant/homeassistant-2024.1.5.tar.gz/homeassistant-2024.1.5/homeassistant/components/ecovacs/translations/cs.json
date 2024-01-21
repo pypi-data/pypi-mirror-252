@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u00da\u010det je ji\u017e nastaven"
+        },
+        "error": {
+            "invalid_auth": "Neplatn\u00e9 ov\u011b\u0159en\u00ed",
+            "unknown": "Neo\u010dek\u00e1van\u00e1 chyba"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "continent": "Kontinent",
+                    "country": "Zem\u011b",
+                    "password": "Heslo",
+                    "username": "U\u017eivatelsk\u00e9 jm\u00e9no"
+                },
+                "data_description": {
+                    "continent": "V\u00e1\u0161 dvoup\u00edsmenn\u00fd k\u00f3d kontinentu (na, eu, atd.)",
+                    "country": "V\u00e1\u0161 dvoup\u00edsmenn\u00fd k\u00f3d zem\u011b (us, uk, atd.)"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_import_issue_invalid_auth": {
+            "description": "Nastaven\u00ed Ecovacs pomoc\u00ed YAML se odeb\u00edr\u00e1, ale p\u0159i pokusu o import nastaven\u00ed YAML do\u0161lo k chyb\u011b ov\u011b\u0159ov\u00e1n\u00ed.\n\nOpravte nastaven\u00ed YAML a restartujte Home Assistanta, abyste to zkusili znovu, nebo odeberte nastaven\u00ed YAML ze souboru configuration.yaml a pokra\u010dujte v [nastaven\u00ed integrace]({url}) ru\u010dn\u011b.",
+            "title": "Import nastaven\u00ed YAML Ecovacs se nezda\u0159il"
+        },
+        "deprecated_yaml_import_issue_unknown": {
+            "description": "Nastaven\u00ed Ecovacs pomoc\u00ed YAML se odeb\u00edr\u00e1, ale p\u0159i pokusu o import nastaven\u00ed YAML do\u0161lo k nezn\u00e1m\u00e9 chyb\u011b.\n\nUjist\u011bte se, \u017ee nastaven\u00ed YAML je spr\u00e1vn\u00e1 a restartujte Home Assistanta, abyste to zkusili znovu, nebo odeberte nastaven\u00ed YAML ze souboru configuration.yaml a pokra\u010dujte v [nastaven\u00ed integrace]({url}) ru\u010dn\u011b.",
+            "title": "Import nastaven\u00ed YAML Ecovacs se nezda\u0159il"
+        }
+    }
+}

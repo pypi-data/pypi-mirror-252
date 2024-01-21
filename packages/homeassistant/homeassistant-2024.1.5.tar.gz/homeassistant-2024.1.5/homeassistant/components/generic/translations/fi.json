@@ -1,0 +1,61 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Jo m\u00e4\u00e4ritetty. Vain yksi konfiguraatio mahdollinen."
+        },
+        "error": {
+            "template_error": "Virhe mallin render\u00f6inniss\u00e4. Tarkista loki saadaksesi lis\u00e4tietoja.",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "framerate": "Virkistystaajuus (Hz)",
+                    "limit_refetch_to_url_change": "Rajoita haku url-muutokseen",
+                    "password": "Salasana",
+                    "rtsp_transport": "RTSP-siirtoprotokolla",
+                    "still_image_url": "Stillkuvan URL-osoite (esim. http://...)",
+                    "stream_source": "Streamin l\u00e4hde-URL-osoite (esim. rtsp://...)",
+                    "username": "K\u00e4ytt\u00e4j\u00e4tunnus",
+                    "verify_ssl": "Tarkista SSL-varmenne"
+                },
+                "description": "Sy\u00f6t\u00e4 asetukset, joilla muodostetaan yhteys kameraan."
+            },
+            "user_confirm_still": {
+                "description": "![Kameran stillkuvan esikatselu]({preview_url})"
+            }
+        }
+    },
+    "options": {
+        "error": {
+            "template_error": "Virhe mallin render\u00f6inniss\u00e4. Tarkista loki saadaksesi lis\u00e4tietoja.",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "confirm_still": {
+                "description": "![Kameran stillkuvan esikatselu]({preview_url})"
+            },
+            "init": {
+                "data": {
+                    "framerate": "Virkistystaajuus (Hz)",
+                    "limit_refetch_to_url_change": "Rajoita haku url-muutokseen",
+                    "password": "Salasana",
+                    "rtsp_transport": "RTSP-siirtoprotokolla",
+                    "still_image_url": "Stillkuvan URL-osoite (esim. http://...)",
+                    "stream_source": "Streamin l\u00e4hde-URL-osoite (esim. rtsp://...)",
+                    "use_wallclock_as_timestamps": "K\u00e4yt\u00e4 sein\u00e4kelloa aikaleimoina",
+                    "username": "K\u00e4ytt\u00e4j\u00e4tunnus",
+                    "verify_ssl": "Tarkista SSL-varmenne"
+                },
+                "data_description": {
+                    "use_wallclock_as_timestamps": "T\u00e4m\u00e4 vaihtoehto voi korjata segmentointi- tai kaatumisongelmat, jotka johtuvat joidenkin kameroiden virheellisist\u00e4 aikaleimatoteutuksista."
+                }
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "name": "Uudelleenlataa"
+        }
+    }
+}
