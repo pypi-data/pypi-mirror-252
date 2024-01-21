@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+captrue/__init__.py
+captrue.egg-info/PKG-INFO
+captrue.egg-info/SOURCES.txt
+captrue.egg-info/dependency_links.txt
+captrue.egg-info/top_level.txt
