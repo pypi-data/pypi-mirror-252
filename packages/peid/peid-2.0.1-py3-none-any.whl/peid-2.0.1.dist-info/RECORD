@@ -1,0 +1,14 @@
+peid/VERSION.txt,sha256=XsWdybMOHfjj_a5a3EXNcLQUdAVWI36cgKkFL4iy0v4,7
+peid/__info__.py,sha256=QxzDXICG9yhlIrv2mq8JYYgp_vsqg_ap47jPmlny5ao,560
+peid/__init__.py,sha256=qA3vw64AebSdIdWEJX6wCoUFWCN_uyjq6M6I3I8Qw8Y,2730
+peid/__main__.py,sha256=vDeZEEK_bEQ39ob6sOIfZ0M4w9SLYPOwkUdyj5igizM,7496
+peid/pe.py,sha256=SMZy_p_gkYvrQSeZ-WUhi79bvCTXVTYe-Vm6JJrRM9Y,2835
+peid/db/.userdb_txt.json,sha256=57xs86jDYZtZKLVy2oOw5Tz2mcCXeYsJsMLHHurPaGE,2264092
+peid/db/__init__.py,sha256=-EIKgrD0IOeQKZAhaZE9OIZcjFFik9GTvt6FPb5NN0A,9682
+peid/db/userdb.txt,sha256=Ld5ebves6rpj0QiQH9LGaO7BNJgXBwviUcAuyktRfqA,1558169
+peid-2.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+peid-2.0.1.dist-info/METADATA,sha256=i-kUETJhLHIv4qojL3YTNqAjPt6s0ozGWZofwdGbdI4,45404
+peid-2.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+peid-2.0.1.dist-info/entry_points.txt,sha256=zDa541qOcvkNVyGxYb32JLz5TDnNL8Aigsz2w0Pm4BE,77
+peid-2.0.1.dist-info/top_level.txt,sha256=cA3pNbmHLxn_L7_EE4iV6fZtmPk2wxBCe35SGixji7E,5
+peid-2.0.1.dist-info/RECORD,,
