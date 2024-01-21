@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wefi/__init__.py
+wefi.egg-info/PKG-INFO
+wefi.egg-info/SOURCES.txt
+wefi.egg-info/dependency_links.txt
+wefi.egg-info/top_level.txt
