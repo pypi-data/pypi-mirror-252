@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+oxygenio/__init__.py
+oxygenio/scripts.py
+oxygenio.egg-info/PKG-INFO
+oxygenio.egg-info/SOURCES.txt
+oxygenio.egg-info/dependency_links.txt
+oxygenio.egg-info/entry_points.txt
+oxygenio.egg-info/top_level.txt
+oxygenio/data/docs.txt

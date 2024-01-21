@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oxygenio
+Version: 0.1.1
+Summary: GUI Development with Python, React and Typescript
+Author-email: Esaú Mascarenhas <esaumasc@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/EsauM10/oxygenio
+Keywords: gui,eel,electron,typescript,javascript,react
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+[![](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-31013/)
+
+# ![image](https://github.com/EsauM10/oxygenio/assets/33939999/768c1f29-5ccc-4e8e-9cf3-e712a2099c58)
