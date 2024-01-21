@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+autoFillMaskWithCandi/__init__.py
+autoFillMaskWithCandi/autoFillMaskWithCandi.py
+autoFillMaskWithCandi.egg-info/PKG-INFO
+autoFillMaskWithCandi.egg-info/SOURCES.txt
+autoFillMaskWithCandi.egg-info/dependency_links.txt
+autoFillMaskWithCandi.egg-info/requires.txt
+autoFillMaskWithCandi.egg-info/top_level.txt
