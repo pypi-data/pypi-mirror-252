@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+safehash/__init__.py
+safehash.egg-info/PKG-INFO
+safehash.egg-info/SOURCES.txt
+safehash.egg-info/dependency_links.txt
+safehash.egg-info/top_level.txt
