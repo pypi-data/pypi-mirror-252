@@ -1,0 +1,9 @@
+the_spymaster_api/__init__.py,sha256=J33o4sNJr0_DV_FygVgk2Ha-6XbjBk6-NK42TP9rjfE,47
+the_spymaster_api/client.py,sha256=sYnMKf2_27iuBMqv0AlnCQjr26x3WP4sl7nzXaBP9YM,2198
+the_spymaster_api/structs/__init__.py,sha256=ROqqeZa3i60pI8IIHtaCc-ERoX771FahnB5sagXIhUA,93
+the_spymaster_api/structs/errors.py,sha256=XVy62wHmBX6WQMZOutLBkmP5giccNHCTb7frztVnwIk,789
+the_spymaster_api/structs/request.py,sha256=ZXSj6puEWTPqAVoiwrzb_jLSVvKCpCtuZuI7bGEwq9w,1035
+the_spymaster_api/structs/response.py,sha256=KzeorEAWSNULbKf_-u_i6azRuWCLyfb0JrJuv6VNLDQ,1198
+the_spymaster_api-2.1.1.dist-info/METADATA,sha256=igLqDmajEIoh4n7vXwpDPahJF5fwGBKz6k23f-3N-3M,974
+the_spymaster_api-2.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+the_spymaster_api-2.1.1.dist-info/RECORD,,
