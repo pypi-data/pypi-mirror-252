@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Baltoslav
+Version: 1.0.0
+Author: Antoine ROYER
+Project-URL: Homepage, https://github.com/Shadow15510/Baltoslav
+Project-URL: Documentation, https://baltoslave.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: selenium
+Provides-Extra: doc
+Requires-Dist: sphinx>=7.0.1; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: sphinx-autodocgen; extra == "doc"
+
+# Baltoslave
+
+## Licence
+This code is provided under the GNU General Public Licence v3.0+ (GPLv3+).
+
+Please refer to LICENCE file for further informations. 
