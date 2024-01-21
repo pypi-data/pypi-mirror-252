@@ -1,0 +1,31 @@
+[project]
+name="omniblack.cli"
+version="0.0.2"
+
+dependencies = [
+    'omniblack.entry'
+]
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/lib/cli"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools ~= 68.2",
+]

@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+docs/README.md
+docs/index.md
+src/omniblack.cli.egg-info/PKG-INFO
+src/omniblack.cli.egg-info/SOURCES.txt
+src/omniblack.cli.egg-info/dependency_links.txt
+src/omniblack.cli.egg-info/requires.txt
+src/omniblack.cli.egg-info/top_level.txt
+src/omniblack/cli/__init__.py
+src/omniblack/cli/subcommands.py
