@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: EntityExtractor
+Version: 0.1.4
+Summary: Extract specific entities from a text. Give text and get a JSON formatted output data.
+Home-page: UNKNOWN
+Author: Ankit Mor
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## Installation
+Python Version >= 3.11.5
+
+Before using `EntityExtracter`, make sure to download the required resources:
+
+```python
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+import spacy
+spacy.cli.download("en_core_web_lg")
+```
+
+
