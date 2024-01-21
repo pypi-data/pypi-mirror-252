@@ -1,0 +1,4 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include endi *.ico *.png *.css *.gif *.jpg *.pt *.txt *.mak *.mako *.js *.json *.html *.xml *.pt *.eot *.svg *.otf *.ttf *.woff *.woff2 *.odt *.ods *.webmanifest
+include endi/alembic/versions/*.py
+include CURRENT_VERSION
