@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chorusReports
+Version: 0.0.1
+Summary: A package supporting analysis of CHORUS reports.
+Author-email: Ted Habermann <ted@metadatagamechangers.com>
+Project-URL: Homepage, https://github.com/Metadata-Game-Changers/chorusReports
+Project-URL: Bug Tracker, https://github.com/Metadata-Game-Changers/chorusReports/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CHORUS Reports
+This is a package for analysis of CHORUS reports
