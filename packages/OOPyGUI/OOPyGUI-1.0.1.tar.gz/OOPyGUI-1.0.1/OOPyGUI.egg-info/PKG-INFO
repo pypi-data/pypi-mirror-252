@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: OOPyGUI
+Version: 1.0.1
+Summary: OOPyGUI is an object-oriented wrapper for DearPyGUI (https://github.com/hoffstadt/DearPyGui).
+Author: artandfi (Artem Fisunenko)
+Author-email: artyom.fisunenko@gmail.com
+Keywords: Python3,GUI
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: dearpygui==1.10.1

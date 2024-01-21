@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+OOPyGUI/__init__.py
+OOPyGUI/core.py
+OOPyGUI.egg-info/PKG-INFO
+OOPyGUI.egg-info/SOURCES.txt
+OOPyGUI.egg-info/dependency_links.txt
+OOPyGUI.egg-info/requires.txt
+OOPyGUI.egg-info/top_level.txt
