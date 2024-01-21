@@ -1,0 +1,10 @@
+avasor/base.py,sha256=OBn6KbcXxK6ZzeuW6NVLanF_gZXyxLnxqXlQgMjEQA4,334
+avasor/console.py,sha256=S0UtqFyt0WhH3IKJJeCIK_nMexJgFTbUS7zjkHdBwPM,1987
+avasor/roles/borg_role.py,sha256=iJgkcF9J5Entx4MZWTbUI9s8OGUNAnhniTjVjT-iFVY,3516
+avasor/roles/role.py,sha256=lHN4qaO8PY2KUsZchaB-fNKh5xgM5bzzlnmxgxSdVYk,843
+avasor/roles/status_role.py,sha256=9VcEJ791SvxSdjKCxN2pHd9GnHJqV87WDta-yO4U9qg,787
+avasor/server.py,sha256=jNY7U3mdkpCSpB3K5jMJoHO30z_A8BOryN4dACgpM88,2368
+avasor-0.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+avasor-0.1.0.dist-info/METADATA,sha256=DgmX6pQHImuL3XvHIgWWy-6yPCqa81z5LnM9V3AEf1U,402
+avasor-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+avasor-0.1.0.dist-info/RECORD,,
