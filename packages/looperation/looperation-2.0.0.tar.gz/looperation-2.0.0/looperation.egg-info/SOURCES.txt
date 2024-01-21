@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+build.py
+requirements-dev.txt
+requirements.txt
+setup.py
+looperation/__init__.py
+looperation/handler.py
+looperation/operation.py
+looperation/operator.py
+looperation/process.py
+looperation/superator.py
+looperation.egg-info/PKG-INFO
+looperation.egg-info/SOURCES.txt
+looperation.egg-info/dependency_links.txt
+looperation.egg-info/requires.txt
+looperation.egg-info/top_level.txt
