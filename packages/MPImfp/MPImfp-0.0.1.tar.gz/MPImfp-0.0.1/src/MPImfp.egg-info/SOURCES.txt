@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/MPImfp.h
+src/imfp.c
+src/python.c
+src/rand.c
+src/MPImfp.egg-info/PKG-INFO
+src/MPImfp.egg-info/SOURCES.txt
+src/MPImfp.egg-info/dependency_links.txt
+src/MPImfp.egg-info/requires.txt
+src/MPImfp.egg-info/top_level.txt
