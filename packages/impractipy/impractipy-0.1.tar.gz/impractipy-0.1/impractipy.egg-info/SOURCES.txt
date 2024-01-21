@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+impractipy/__init__.py
+impractipy/pseudonyms.py
+impractipy.egg-info/PKG-INFO
+impractipy.egg-info/SOURCES.txt
+impractipy.egg-info/dependency_links.txt
+impractipy.egg-info/not-zip-safe
+impractipy.egg-info/top_level.txt
