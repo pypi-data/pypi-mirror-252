@@ -1,0 +1,5 @@
+BBB BBBB BB BBBBBBBB
+    XXXX
+        X X
+    XXXXX
+BBBBBB

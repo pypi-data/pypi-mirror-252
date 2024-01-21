@@ -1,0 +1,41 @@
+BBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBB BBBB
+BBBB BBBBBBBBBBBBBBBBB
+BBBB BBBBBB
+BBBB BBBBB
+BBBB BBBBBBBBB
+BBBB BBBBBBBB
+BBBBB BBBBBBB
+BBBBB BBBBB
+XXX XXXXXXXXXXXXXX XXXX XXXXXXXXX XXXX XXXXXX gettext(u'Booking Details') XXXXXX XX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+BBBBBBBB
+BBBBB BBBBBBBBBB
+XXX XXXXXXXXXXXXXX XXXX XXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  gettext(u'CONTROL DYNAMIC')  X  gettext(u'Orders') XXXXXXXXX
+BBBBBBBB
+
+XXXX XXXXXXXXXXXXX
+    BBBBB BBBBBBBBBBBBBBB
+            XXXX XXXXXXXXXX XXXXX XXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXX
+                    XXX XXXXXXXXXXX XXXXXXX XXXXXXXXXXXXX gettext(u'Check-In Control') XXXXX
+                XXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Consulting Type') X XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Full Name') X XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Email') X XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Address') X XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Phone') X XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Service Request') 
+                        XXXX
+                            BBB BBBB BB BBBBBBBBBBBBBBBBBBBBBBBBB
+                                XXX XXXXXXXXXXX XXXXXX  gettext(u'Cost')  XXXXXXXX  gettext(u'per Hour') XXXXX
+                            BBBBBB
+                        XXXXX
+                        
+                    XXXXX
+                    XXX XXXXXXXXXXX XXXXXX gettext(u'Appointment Date') X XXXXX XXXXXXXXXXXXXXXXXX XXXX XXXXXXXXXXXXXXXXXXXXX
+                XXXXX
+                XXXXXX
+            XXXXXX 
+    BBBBBBBB
+XXXXXX
+BBBBBBBB

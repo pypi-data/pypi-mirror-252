@@ -1,0 +1,19 @@
+BBBB BBBB
+    XXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+        XXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXXXXXXXXXX
+        BBB BBBBBBB BB BBBBBBBB
+            BB BBBBBBBBBBBB BB BBBBBBBB
+            BBBB
+                XXXX XXXXXXXXXXXXXX BB BBBBBBBBBBBB BB BBBBBBXXXXXXXXXXXXBBBBXXXXXXXXXXXXXXBBBBBXX
+                    XXX
+                        BB BBBBBBBBBBBB BB BBBBBB
+                            XXXXXXXXXXXXXXX
+                        BBBB BBBBBBBBBBBB BB BBBBBBBBBBB
+                            XXXXXXXXXXXXXXXX XXXXXXXXXX
+                        BBBBB
+                        FFFF
+                    XXXX
+                XXXXXX
+            BBBBB
+        BBBBBB
+    XXXXXX

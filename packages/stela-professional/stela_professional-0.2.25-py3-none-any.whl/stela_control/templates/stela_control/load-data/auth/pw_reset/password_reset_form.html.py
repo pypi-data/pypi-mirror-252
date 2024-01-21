@@ -1,0 +1,8 @@
+BBBB BBBB
+XXXX XXXXXXXXXXXXXXXXXXXXXX
+    XXXX gettext(u'Enter the email associated with the account to recover') XXXXX
+
+    
+
+    XXXXXX XXXXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+XXXXXX
