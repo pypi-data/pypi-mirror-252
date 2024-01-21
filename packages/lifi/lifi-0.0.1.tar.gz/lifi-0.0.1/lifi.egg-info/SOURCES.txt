@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lifi/__init__.py
+lifi.egg-info/PKG-INFO
+lifi.egg-info/SOURCES.txt
+lifi.egg-info/dependency_links.txt
+lifi.egg-info/top_level.txt
