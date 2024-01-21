@@ -1,0 +1,8 @@
+timepkg/__init__.py,sha256=7NhVfZ0eiI_McUxDAVuq7rJXSXpBIPmdiqxoUCEPygo,110
+timepkg/guardian.py,sha256=vkokY9j_2GP7jMgFscYMarbEoSy-DlT0pfY_xPbgV7c,1739
+timepkg/keeper.py,sha256=IWFBLc6_C4JWw07CwNClRCuqOxzluWJFKtW_EHgGt40,1036
+timepkg/validation.py,sha256=KM2bfUGifjNr_RR7ovvinZSVsoPOmr5WRG8LsY_rsyw,179
+timepkg-0.3.1.dist-info/LICENSE,sha256=B-P5rJkSc0CKfwzR5dyPQJBV_slVzH81z9IPWsYbGjQ,1065
+timepkg-0.3.1.dist-info/METADATA,sha256=uh-ANBy-wIatlAXQAoIokxFPbBpfLREzBwkI8lbiaJo,997
+timepkg-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+timepkg-0.3.1.dist-info/RECORD,,
