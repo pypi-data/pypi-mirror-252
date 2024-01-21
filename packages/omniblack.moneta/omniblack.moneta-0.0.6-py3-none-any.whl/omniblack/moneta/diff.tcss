@@ -1,0 +1,32 @@
+.header {
+    background: $foreground 5%;
+    color: orange;
+    content-align: left middle;
+    height: auto;
+    padding: 1;
+    padding-left: 5;
+    width: 100vw;
+}
+
+DiffChange {
+    border-title-background: darkblue;
+    border-title-color: white;
+    border: blue;
+    height: auto;
+    margin-bottom: 1;
+    margin-top: 1;
+}
+
+DiffChange.added {
+    border-title-background: darkgreen;
+    border: green;
+}
+
+DiffChange.removed {
+    border-title-background: darkred;
+    border: red;
+}
+
+Rule {
+    margin: 0;
+}

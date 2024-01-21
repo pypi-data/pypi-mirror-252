@@ -1,0 +1,2 @@
+[console_scripts]
+moneta = omniblack.moneta:app
