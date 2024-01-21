@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+enigma-hash/__init__.py
+enigma_hash.egg-info/PKG-INFO
+enigma_hash.egg-info/SOURCES.txt
+enigma_hash.egg-info/dependency_links.txt
+enigma_hash.egg-info/top_level.txt
