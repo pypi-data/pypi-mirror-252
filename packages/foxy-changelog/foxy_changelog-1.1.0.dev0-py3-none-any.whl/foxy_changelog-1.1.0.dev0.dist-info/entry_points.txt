@@ -1,0 +1,5 @@
+[console_scripts]
+foxy-changelog = foxy_changelog.__main__:main
+
+[setuptools_scm.version_scheme]
+simplified-semver-foxy = foxy_changelog.fsetuptools_scm:simplified_semver_version_foxy
