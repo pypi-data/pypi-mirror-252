@@ -1,0 +1,59 @@
+Usage
+=====
+
+**unifi-backup** is a simple tool to fetch configuration backups from
+the UniFi Network Application.
+
+Arguments
+----------------
+
+``-h``, ``--help``
+   show the help message and exit.
+
+``-c FILE``, ``--config FILE``
+   the configuration file (default: ``~/.config/unifi-backup/config.yml``)
+
+``-o FILE``, ``--output FILE``
+   the output file. The file name can contain ``strftime`` directives. If the argument
+   is specified, ``directory``, ``name`` and ``keep`` fields of the configuration
+   are ignored.
+
+Configuration file
+==================
+
+The ``unifi-backup`` needs a configuration file
+(default ``~/.config/unifi-backup/config.yml``). As the file contains secrets,
+take care to set reasonable permissions. The file is in
+the `YAML <https://yaml.org/>`_ format.
+
+Configuration file
+------------------
+
+.. code-block:: yaml
+
+      controller:
+         host: unifi
+         port: 8443
+         user: admin
+         password: ...
+         site: default
+         ssl_verify: true|false|/path/to/custom_cert.pem
+      output:
+         directory: .
+         name: "unifi-%Y%m%d-%H%M.unf"
+         keep: 12
+
+All fields except ``password`` are optional.
+
+``host`` is a host name or an IP address. The host has to be the same
+as the network application is configured for; using ``unifi`` here
+and ``unifi.domain.lan`` won't work.
+
+``name`` specifies the name of the output file. ``strftime`` directives
+are allowed.
+
+``keep`` removes all but the most recent ``*.unf`` files from the ``directory``,
+that in this case has to be specified and has to be an absolute path.
+
+``directory`` has to already exist. As the backup is not encrypted
+and contains secrets the permissions should be set accordingly.
