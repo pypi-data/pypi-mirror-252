@@ -1,0 +1,14 @@
+ccanvas/__init__.py,sha256=5wl_LasbS9CkcL3XuFH2MsBsfIWtP3mY7qI3kqondyk,208
+ccanvas/__main__.py,sha256=vr1BmrqSSHgo3jvEOMIBWYJLeuv6kWUxJkbRFwC7yK0,233
+ccanvas/config.py,sha256=K0_dmmY8n3lv6JRH4Crmt-wsIgNz_4uabbDE5e6cGqo,969
+ccanvas/core/__init__.py,sha256=5V2uKgy4X2gA9TTjc4FnRq7Dv1ZYXarsxcvOCRMyp5A,72
+ccanvas/core/canvas.py,sha256=zwwONxAxm810AnBXXoum8l4wb4Y3GZanLJO102XW4Ug,8219
+ccanvas/core/line_builder.py,sha256=NBjq-pvC3JIdYXfsuezkBdOkIxiDYtNsnZuJ1bsPrGw,4012
+ccanvas/interface/__init__.py,sha256=2DFhwID1Jg1wRdqrzGpIkjPLanEIS-h0Du2r9JVoOP4,73
+ccanvas/interface/cli.py,sha256=7ngC4W1ghH1gKrin8SQdD6BSpMP9xVNj2WL9wuXhkLo,1301
+tests/test_placeholder.py,sha256=irhfB1-Ag2VOenlNgvSIATefpXHh9L_Nv--EOq8btpA,33
+ccanvas-1.5.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ccanvas-1.5.1.dist-info/METADATA,sha256=SBAmfAth2LOXzOoqWEOK8bSSzm-XIZ5f1QhF9K5nBNQ,43524
+ccanvas-1.5.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ccanvas-1.5.1.dist-info/top_level.txt,sha256=he5JS4CZP-IQAOJraxBCtMuaqZjXqMR6EgjQNIrtSXc,14
+ccanvas-1.5.1.dist-info/RECORD,,
