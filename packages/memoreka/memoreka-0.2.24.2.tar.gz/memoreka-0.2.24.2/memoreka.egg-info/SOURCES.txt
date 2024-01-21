@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+memoreka/__init__.py
+memoreka/error.py
+memoreka.egg-info/PKG-INFO
+memoreka.egg-info/SOURCES.txt
+memoreka.egg-info/dependency_links.txt
+memoreka.egg-info/requires.txt
+memoreka.egg-info/top_level.txt
