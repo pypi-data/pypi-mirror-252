@@ -1,0 +1,8 @@
+README.md
+setup.py
+VerbalRegex/VerbalRegex.py
+VerbalRegex/__init__.py
+Verbalregex.egg-info/PKG-INFO
+Verbalregex.egg-info/SOURCES.txt
+Verbalregex.egg-info/dependency_links.txt
+Verbalregex.egg-info/top_level.txt
