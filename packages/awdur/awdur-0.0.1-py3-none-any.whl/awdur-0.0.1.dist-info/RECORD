@@ -1,0 +1,9 @@
+awdur/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+awdur/cli/__init__.py,sha256=C9dvGrt1WDyAbxwnjmvJxQEV3GI76M2qSDlA8u0_X_M,112
+awdur/cli/_core.py,sha256=TyIrCO0vkOnfhx-QsPlPnOxAu71v0PtBV5CbHPfeMAU,2148
+awdur/cli/bind.py,sha256=wQMM-qdq3BaFK3DIHiPpBkQRiMaBCG9tnzsHluakcTc,423
+awdur/cli/export.py,sha256=6qIjLAyhYlZ6HbH8zkiwtRDhEsc6wSu65urkn6_W0Hw,3821
+awdur-0.0.1.dist-info/METADATA,sha256=l0Zpto9VWHK-rS07Z6AJMYa6mmq99BWLss2yd4fUq4U,1121
+awdur-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+awdur-0.0.1.dist-info/entry_points.txt,sha256=YqdNL2UKUNj0yxibPodwkR62-ypknG37fGxJJhIB1Go,41
+awdur-0.0.1.dist-info/RECORD,,
