@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pydmsp"
+version = "0.1.1a"
+description = "DMSP converter"
+long_description = "This is a simple converter for the source files of the DMSP detector SSJ/4"
+authors = ["ViktoriaMi <miheykoviktoria@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
