@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/tinyvote/__init__.py
+src/tinyvote/tinyvote.py
+src/tinyvote.egg-info/PKG-INFO
+src/tinyvote.egg-info/SOURCES.txt
+src/tinyvote.egg-info/dependency_links.txt
+src/tinyvote.egg-info/requires.txt
+src/tinyvote.egg-info/top_level.txt
