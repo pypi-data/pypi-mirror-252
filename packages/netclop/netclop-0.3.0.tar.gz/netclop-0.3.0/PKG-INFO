@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: netclop
+Version: 0.3.0
+Summary: NETwork CLustering OPerations for geophysical fluid transport
+Author: KarstenEconomou
+Author-email: economoukarsten@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: geopandas (>=0.14.2,<0.15.0)
+Requires-Dist: h3 (==4.0.0b2)
+Requires-Dist: infomap (>=2.7.1,<3.0.0)
+Requires-Dist: networkx (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: plotly (>=5.18.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+# Transport network clustering operations
+Transport **net**work **cl**ustering **op**erations is a command line interface for geospatial network construction and clustering operations (e.g., community detection, significance clustering).
+
