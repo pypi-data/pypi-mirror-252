@@ -1,0 +1,8 @@
+lxml
+typing_extensions
+
+[dev]
+pytest
+types-lxml
+commitizen
+pre-commit
