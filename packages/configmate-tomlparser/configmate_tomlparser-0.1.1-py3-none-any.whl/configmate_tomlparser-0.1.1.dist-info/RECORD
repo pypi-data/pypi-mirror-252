@@ -1,0 +1,5 @@
+configmate_plugins/toml_parser/__init__.py,sha256=mwhal0XAJVl1pOsnYvOqDIFwn8x9icG1eEemeTCrQr0,108
+configmate_plugins/toml_parser/toml_parser.py,sha256=T_VdhcBKc7Zs_MTKvU2BTCtGhdM0qJqpS7-8JfhY-N8,465
+configmate_tomlparser-0.1.1.dist-info/METADATA,sha256=2JX4PndhJVH-lcZPqPdoqujf-KJ8LRxdS1v2zPwxpCQ,605
+configmate_tomlparser-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+configmate_tomlparser-0.1.1.dist-info/RECORD,,
