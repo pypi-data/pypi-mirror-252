@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+securEncryptor/__init__.py
+securEncryptor.egg-info/PKG-INFO
+securEncryptor.egg-info/SOURCES.txt
+securEncryptor.egg-info/dependency_links.txt
+securEncryptor.egg-info/top_level.txt
