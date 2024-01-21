@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hebill-websites-core
+Version: 0.1
+Summary: Python Websites Core System
+Home-page: https://py.hebill.net/hebill_websites_core
+Author: He Bill
+Author-email: hebill@me.com
+Requires-Python: >=3.9
+
+Python Websites Core System
