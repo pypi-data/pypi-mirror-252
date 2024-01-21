@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pychesstools"
+version = "0.1.0"
+description = "Data types for chess positions with support for many common variants."
+authors = ["Sam <sbrobson@crimson.ua.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = {version = "^13.7.0", optional = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
