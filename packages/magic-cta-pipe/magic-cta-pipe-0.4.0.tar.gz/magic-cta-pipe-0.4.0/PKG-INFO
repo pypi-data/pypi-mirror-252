@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: magic-cta-pipe
+Version: 0.4.0
+Summary: pipeline for the analysis of joint MAGIC+LST-1 data
+Home-page: https://github.com/cta-observatory/magic-cta-pipe
+Author: magic-cta-pipe developers
+Author-email: alessioberti90@gmail.com
+License: BSD 3-Clause
+Project-URL: Bug Tracker, https://github.com/cta-observatory/magic-cta-pipe/issues
+Project-URL: Source Code, https://github.com/cta-observatory/magic-cta-pipe
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ctapipe~=0.19.2
+Requires-Dist: lstchain~=0.10.5
+Requires-Dist: ctaplot~=0.6.4
+Requires-Dist: ctapipe_io_magic~=0.5.4
+Requires-Dist: gammapy~=1.1
+Requires-Dist: uproot~=5.0
+Requires-Dist: pandas
+Requires-Dist: pyirf~=0.10.0
+Requires-Dist: seaborn
+Requires-Dist: setuptools_scm
+Requires-Dist: astropy
+Requires-Dist: bokeh
+Requires-Dist: eventio<2.0.0a0,>=1.9.1
+Requires-Dist: h5py
+Requires-Dist: iminuit>=2
+Requires-Dist: joblib~=1.2.0
+Requires-Dist: matplotlib~=3.0
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: protobuf~=3.20.0
+Requires-Dist: scipy
+Requires-Dist: scikit-learn~=1.2
+Requires-Dist: tables
+Requires-Dist: toml
+Requires-Dist: pymongo
+Requires-Dist: pyparsing
+Requires-Dist: jinja2~=3.0.2
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: pydata_sphinx_theme; extra == "docs"
+Requires-Dist: sphinx_automodapi; extra == "docs"
+Requires-Dist: sphinx_argparse; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: sphinx-design; extra == "docs"
+Requires-Dist: jupyter; extra == "docs"
+Requires-Dist: notebook; extra == "docs"
+Requires-Dist: pandas; extra == "docs"
+Requires-Dist: ipython; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: setuptools_scm[toml]; extra == "dev"
+Provides-Extra: all
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: sphinx; extra == "all"
+Requires-Dist: pydata_sphinx_theme; extra == "all"
+Requires-Dist: sphinx_automodapi; extra == "all"
+Requires-Dist: sphinx_argparse; extra == "all"
+Requires-Dist: nbsphinx; extra == "all"
+Requires-Dist: numpydoc; extra == "all"
+Requires-Dist: sphinx-design; extra == "all"
+Requires-Dist: jupyter; extra == "all"
+Requires-Dist: notebook; extra == "all"
+Requires-Dist: pandas; extra == "all"
+Requires-Dist: ipython; extra == "all"
+Requires-Dist: setuptools_scm[toml]; extra == "all"

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "magicctapipe/_version.py"
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38', 'py39', 'py310']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+)/
+'''
+
+[tool.numpydoc_validation]
+checks = [
+    "all",
+    "EX01",
+    "ES01",
+    "GL01",
+    "PR09",
+    "RT05",
+    "SA01",
+    "SS03",
+    "SS05",
+    "SS06",
+]
