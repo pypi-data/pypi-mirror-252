@@ -1,0 +1,2 @@
+[console_scripts]
+ram = shri_ram_bhasa.ramji
