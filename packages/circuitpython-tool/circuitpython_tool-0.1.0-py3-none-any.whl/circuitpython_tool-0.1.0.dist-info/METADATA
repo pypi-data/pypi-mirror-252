@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: circuitpython-tool
+Version: 0.1.0
+Summary: TODO
+Author-email: Diony Rosa <dhrosa+dev@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: click
+Requires-Dist: inotify-simple
+Requires-Dist: rich
+Requires-Dist: rich-click
+Requires-Dist: tomlkit
