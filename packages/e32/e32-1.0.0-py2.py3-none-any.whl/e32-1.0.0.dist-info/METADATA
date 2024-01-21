@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: e32
+Version: 1.0.0
+Summary: Esp32 idf install and global build manager
+Home-page: https://github.com/zackees/e32
+Maintainer: Zachary Vorhies
+License: BSD 3-Clause License
+Keywords: template-python-cmd
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+
