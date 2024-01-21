@@ -1,0 +1,64 @@
+(undo-tree-save-format-version . 1)
+"750dcab50e6ae3eb01832fa8f9d9eb7c1ed40081"
+[nil nil nil nil (26008 44737 284370 487000) 0 nil]
+([nil nil ((756 . 765) (t 26008 44355 93657 715000)) nil (26008 44737 284369 920000) 0 nil])
+([nil nil ((765 . 786)) nil (26008 44737 284369 747000) 0 nil])
+([nil nil ((786 . 787)) nil (26008 44737 284369 547000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . -786) (undo-tree-id0 . -1) 787) nil (26008 44737 284369 79000) 0 nil])
+([nil nil ((786 . 807)) nil (26008 44737 284360 516000) 0 nil])
+([nil nil ((807 . 809)) nil (26008 44761 519665 845000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . -1178) (undo-tree-id10 . -1) 1179) nil (26008 44779 192881 48000) 0 nil] [nil nil ((1179 . 1195) (#(" " 0 1 (fontified nil)) . 1178) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (1179 . 1180)) ((#("
+" 0 1 (fontified nil)) . 1179) (1178 . 1179) (#("                " 0 16 (fontified t)) . 1179)) (26008 44761 519618 993000) 0 nil] [nil nil ((451 . 452)) ((#("`" 0 1 (fontified t)) . 451) (undo-tree-id1 . -1)) (26008 44737 284357 617000) 0 nil])
+([nil nil ((1178 . 1195)) nil (26008 44779 192880 413000) 0 nil])
+nil
+nil
+([nil nil ((1195 . 1216)) nil (26008 44779 192880 269000) 0 nil])
+([nil nil ((1216 . 1224)) nil (26008 44779 192880 21000) 0 nil])
+([nil nil ((#("'" 0 1 (face font-lock-string-face fontified t)) . -1222) (undo-tree-id8 . -1) (#(" " 0 1 (face font-lock-string-face fontified t)) . -1223) (undo-tree-id9 . -1) 1224) nil (26008 44779 192879 634000) 0 nil])
+([nil nil ((1222 . 1235)) nil (26008 44779 192878 816000) 0 nil])
+([nil nil ((1235 . 1238)) nil (26008 44779 192878 567000) 0 nil])
+([nil nil ((1238 . 1255)) nil (26008 44779 192878 363000) 0 nil])
+([nil nil ((#("        self.config_path = base_path / \"config.toml\"" 0 8 (fontified t) 8 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t) 13 24 (face font-lock-variable-name-face fontified t) 24 25 (fontified t) 25 26 (face font-lock-operator-face fontified t) 26 37 (fontified t) 37 38 (face font-lock-operator-face fontified t) 38 39 (fontified t) 39 52 (face font-lock-string-face fontified t)) . 757) (undo-tree-id7 . -52)) nil (26008 44779 192877 938000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -756) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) 757) nil (26008 44779 192875 361000) 0 nil])
+([nil nil ((1084 . 1258) (#("\"--fake-device-config\", fake_config_path,
+                \"--config\", self.base_path / \"config.toml\",
+                *args_str.split()" 0 22 (face font-lock-string-face fontified t) 22 42 (fontified t) 42 58 (fontified t) 58 68 (face font-lock-string-face fontified t) 68 70 (fontified t) 70 74 (face font-lock-keyword-face fontified t) 74 85 (fontified t) 85 86 (face font-lock-operator-face fontified t) 86 87 (fontified t) 87 100 (face font-lock-string-face fontified t) 100 118 (fontified t) 118 119 (face font-lock-operator-face fontified t) 119 135 (fontified t)) . 1084) 756 (t 26008 44779 200406 33000)) nil (26008 44985 743268 138000) 0 nil])
+([nil nil ((#("@pytest.fixture
+def config_storage(tmp_path: Path) -> ConfigStorage:
+    return ConfigStorage(tmp_path / \"config.toml\")
+
+" 0 15 (face font-lock-type-face fontified t) 15 16 (fontified t) 16 19 (face font-lock-keyword-face fontified t) 19 20 (fontified t) 20 34 (face font-lock-function-name-face fontified t) 34 51 (fontified t) 51 52 (face font-lock-operator-face fontified t) 52 53 (face font-lock-operator-face fontified t) 53 73 (fontified t) 73 79 (face font-lock-keyword-face fontified t) 79 103 (fontified t) 103 104 (face font-lock-operator-face fontified t) 104 105 (fontified t) 105 118 (face font-lock-string-face fontified t) 118 121 (fontified t)) . 436) (undo-tree-id103 . -34) (undo-tree-id104 . -121) 557 (t 26008 44791 824487 838000)) nil (26008 45035 227755 429000) 0 nil] [nil nil ((1067 . 1068) (t 26008 44791 824487 838000)) ((#(" " 0 1 (fontified t)) . 1067) (undo-tree-id11 . -1)) (26008 44985 743136 749000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -435) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) 436) nil (26008 45035 227754 771000) 0 nil])
+nil
+([nil nil ((#("config_storage: ConfigStorage" 0 29 (fontified t)) . 3284) (undo-tree-id98 . -14) (undo-tree-id99 . -29) 3313) nil (26008 45035 227648 762000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . -3283) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (#("," 0 1 (fontified t)) . -3284) (undo-tree-id97 . -1) 3285) nil (26008 45035 227648 133000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . -3373) (undo-tree-id92 . -1) 3374) nil (26008 45035 227646 991000) 0 nil])
+([nil nil ((#("--config {config_storage.path} " 0 9 (face font-lock-string-face fontified t) 9 30 (face font-lock-string-face fontified t) 30 31 (face font-lock-string-face fontified t)) . 3374) (undo-tree-id85 . -31) (undo-tree-id86 . -8) (undo-tree-id87 . -16) (undo-tree-id88 . -24) (undo-tree-id89 . -29) (undo-tree-id90 . -31) (undo-tree-id91 . -31) 3405) nil (26008 45035 227646 543000) 0 nil])
+([nil nil ((#("config" 0 6 (face nil fontified t)) . 3552) (undo-tree-id83 . -6) (undo-tree-id84 . -6)) nil (26008 45035 227644 994000) 0 nil])
+([nil nil ((#("_storage" 0 8 (face nil fontified t)) . 3552) (undo-tree-id82 . -8)) nil (26008 45035 227644 328000) 0 nil])
+([nil nil ((#(".path" 0 5 (face nil fontified t)) . 3552) (undo-tree-id81 . -5)) nil (26008 45035 227643 990000) 0 nil])
+([nil nil ((#("g" 0 1 (face font-lock-string-face fontified t)) . -3549) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (#(" " 0 1 (face font-lock-string-face fontified t)) . -3550) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (#("{" 0 1 (face nil fontified t)) . -3551) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (#("}" 0 1 (face nil fontified t)) . -3552) (undo-tree-id79 . -1) (undo-tree-id80 . -1) 3553) nil (26008 45035 227643 271000) 0 nil])
+([nil nil ((3549 . 3550)) nil (26008 45035 227638 473000) 0 nil])
+([nil nil ((#("config" 0 6 (face font-lock-string-face fontified t)) . 3544) (undo-tree-id50 . -5) (undo-tree-id51 . -5) (undo-tree-id52 . -5) (undo-tree-id53 . -5) (undo-tree-id54 . -5) (undo-tree-id55 . -5) (undo-tree-id56 . -5) (undo-tree-id57 . -5) (undo-tree-id58 . -6) (undo-tree-id59 . -6)) nil (26008 45035 227638 206000) 0 nil])
+([nil nil ((#("\"" 0 1 (face font-lock-string-face fontified t)) . -3541) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (#("-" 0 1 (face font-lock-string-face fontified t)) . -3542) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (#("-" 0 1 (face font-lock-string-face fontified t)) . -3543) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) 3544) nil (26008 45035 227635 374000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . -3541) (undo-tree-id12 . -1) (undo-tree-id13 . -1) 3542) nil (26008 45035 227627 269000) 0 nil])
+([nil nil ((3541 . 3542)) nil (26008 45035 227617 866000) 0 nil])
+([nil nil ((3255 . 3293) (#("
+    capsys: CaptureFixture, cli: CliRunner
+" 0 1 (fontified t) 1 44 (fontified t)) . 3255) (undo-tree-id118 . -24) (undo-tree-id119 . -28) (undo-tree-id120 . -28) 3554 (t 26008 45035 230065 23000)) nil (26008 45060 18077 253000) 0 nil])
+([nil nil ((#("    config_storage: ConfigStorage," 0 34 (fontified t)) . 3716) (undo-tree-id117 . -18) (t 26008 45035 762068 471000)) nil (26008 45060 18075 953000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -3715) (undo-tree-id115 . -1) (undo-tree-id116 . -1) 3716) nil (26008 45060 18075 548000) 0 nil])
+([nil nil ((#("--config {config_storage.path} " 0 9 (face font-lock-string-face fontified t) 9 30 (face nil fontified t) 30 31 (face font-lock-string-face fontified t)) . 4079) (undo-tree-id113 . -31) (undo-tree-id114 . -24)) nil (26008 45060 18074 968000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . -4077) (undo-tree-id112 . -1) 4078) nil (26008 45060 18074 335000) 0 nil])
+([nil nil ((#("--config {config_storage.path} " 0 9 (face font-lock-string-face fontified t) 9 20 (face nil fontified t) 20 30 (face nil fontified t) 30 31 (face font-lock-string-face fontified t)) . 4155) (undo-tree-id111 . -31) 4186) nil (26008 45060 18072 580000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . -4153) (undo-tree-id110 . -1) 4154) nil (26008 45060 18069 888000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . -4210) (undo-tree-id109 . -1) 4211) nil (26008 45060 18069 130000) 0 nil])
+([nil nil ((#("--config {config_storage.path} " 0 9 (face font-lock-string-face fontified t) 9 30 (face font-lock-string-face fontified t) 30 31 (face font-lock-string-face fontified t)) . 4211) (undo-tree-id105 . -31) (undo-tree-id106 . -30) (undo-tree-id107 . -31) (undo-tree-id108 . -31) 4242) nil (26008 45060 18066 401000) 0 nil])
+([nil nil ((#("from circuitpython_tool.config import ConfigStorage" 0 4 (face font-lock-keyword-face fontified t) 4 31 (fontified t) 31 37 (face font-lock-keyword-face fontified t) 37 51 (fontified t)) . 228) (undo-tree-id131 . -44) (undo-tree-id132 . -44) (undo-tree-id133 . -44) (undo-tree-id134 . -44) (undo-tree-id135 . -44) (undo-tree-id136 . -38) (undo-tree-id137 . -51) (t 26008 45060 22225 664000)) nil (26008 45066 64227 285000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -227) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) 228) nil (26008 45066 64223 397000) 0 nil])
+([nil current ((#("f" 0 1 (fontified t)) . -3482) (undo-tree-id138 . -1) (undo-tree-id139 . -1) 3483 (t 26008 45066 66264 827000)) nil (26008 45080 279488 176000) 0 nil])
+nil
