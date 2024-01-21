@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Topsis-Shaurya-102103339
+Version: 0.1
+Summary: Topsis is a Python library for dealing with Multiple Criteria Decision Making(MCDM) problems by using Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS).
+Home-page: https://github.com/goel-shaurya/Topsis-Shaurya-102103339
+Download-URL: https://github.com/goel-shaurya/Topsis-Shaurya-102103339/archive/refs/tags/v_01.tar.gz
+Author: Shaurya Goel
+Author-email: sgoel1_be21@thapar.edu
+License: MIT
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
