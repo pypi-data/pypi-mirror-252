@@ -1,0 +1,17 @@
+README.md,sha256=bgKNfy0QIxGKiHVi9WN-gflDsPmLlHPmnWA_XOIIEag,4494
+pyfracgen/__init__.py,sha256=nejFzVmSt2quIoQBiiO6QrnURefF6MXX82Cxvv8cj00,487
+pyfracgen/buddhabrot.py,sha256=vVu_TFwmwrllONj87Yd0h8C5Tr2Y_QcqgkgLy9gE5IY,5346
+pyfracgen/common.py,sha256=fp90UYaP4K22lfiabsus3W8GyY6nimYRVOzg0Vi4MzY,2198
+pyfracgen/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfracgen/images/images.py,sha256=A-hpNWej2kJvfJddnneuJZ6CatwAtt_QJslI9_lA4xc,5072
+pyfracgen/iterfuncs/funcs.py,sha256=IGDxXb_TsVW8K1cY8pABbDZILGcetvFc8KZzB6mDJTg,1270
+pyfracgen/julia.py,sha256=m8CUrlJay9GBikevNVs6WgzBZqEZOCBQxoWmO69Qv2w,1856
+pyfracgen/lyapunov.py,sha256=kFvnbWDCmw5kSusfenqyCES2sHW6e5uj_N8AW_rkAJg,1584
+pyfracgen/mandelbrot.py,sha256=GEfAIcdO58UP03aWzvzPkZE8Ci9EyWRJOfhMJjwE77k,1724
+pyfracgen/randomwalk.py,sha256=laiSGcr70bXwyHR9PLsDSv_n1njsTNj7xNuoFYiwQjo,1382
+pyfracgen/types.py,sha256=gfFupCNRkPj-eiNGavbveGTVqfNqOwUUUGLbte80q0A,522
+pyproject.toml,sha256=5kM_Kz3cSfR-hIkrmpmWb_64LvNiCmp2YSiKmajE_vY,1886
+pyfracgen-0.2.0.dist-info/LICENSE,sha256=tCUNdujZLN8K2hgy9pK_2b-tt_MPioOE5dDBjFlqWxs,1060
+pyfracgen-0.2.0.dist-info/METADATA,sha256=V_l15RTP7HqNmUZIm5Zkqh2cRqmeLdJwCXL8h4ZsnUY,5308
+pyfracgen-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyfracgen-0.2.0.dist-info/RECORD,,
