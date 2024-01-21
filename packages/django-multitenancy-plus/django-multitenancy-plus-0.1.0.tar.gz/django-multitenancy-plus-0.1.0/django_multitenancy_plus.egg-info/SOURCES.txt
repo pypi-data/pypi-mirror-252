@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+django_multitenancy/__init__.py
+django_multitenancy/constants.py
+django_multitenancy/helpers.py
+django_multitenancy/mixins.py
+django_multitenancy/middleware/__init__.py
+django_multitenancy/middleware/base.py
+django_multitenancy_plus.egg-info/PKG-INFO
+django_multitenancy_plus.egg-info/SOURCES.txt
+django_multitenancy_plus.egg-info/dependency_links.txt
+django_multitenancy_plus.egg-info/requires.txt
+django_multitenancy_plus.egg-info/top_level.txt
+tests/test_example.py

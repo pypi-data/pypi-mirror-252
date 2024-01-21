@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-multitenancy-plus
+Version: 0.1.0
+Home-page: 
+Author: Pavel Bityukov
+Author-email: pavleg.bityukov@gmail.com
+Maintainer: Pavel Bityukov
+Maintainer-email: pavleg.bityukov@gmail.com
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: django<4.3,>=4
