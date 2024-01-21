@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+openorb.egg-info/PKG-INFO
+openorb.egg-info/SOURCES.txt
+openorb.egg-info/dependency_links.txt
+openorb.egg-info/requires.txt
+openorb.egg-info/top_level.txt
+orb/__init__.py
+orb/py.typed
+orb/requirements-dev.txt
+orb/requirements.txt
+tests/test_dummy.py
