@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sinhit/__init__.py
+sinhit.egg-info/PKG-INFO
+sinhit.egg-info/SOURCES.txt
+sinhit.egg-info/dependency_links.txt
+sinhit.egg-info/top_level.txt
