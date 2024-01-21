@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pygame_crt.py
+setup.py
+pygame_crt.egg-info/PKG-INFO
+pygame_crt.egg-info/SOURCES.txt
+pygame_crt.egg-info/dependency_links.txt
+pygame_crt.egg-info/top_level.txt
