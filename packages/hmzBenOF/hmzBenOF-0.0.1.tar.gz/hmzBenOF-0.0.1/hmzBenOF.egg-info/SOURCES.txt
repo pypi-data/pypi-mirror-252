@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hmzBenOF/_init_.py
+hmzBenOF.egg-info/PKG-INFO
+hmzBenOF.egg-info/SOURCES.txt
+hmzBenOF.egg-info/dependency_links.txt
+hmzBenOF.egg-info/top_level.txt
