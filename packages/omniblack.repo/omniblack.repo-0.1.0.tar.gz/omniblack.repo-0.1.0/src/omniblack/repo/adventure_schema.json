@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-12/schema",
+    "title": "adventurer",
+    "description": "A person whose primary profession is completing quests.",
+    "properties": {
+        "adventurer_class": {
+            "type": "string",
+            "enum": [
+                "scout",
+                "ranger",
+                "fighter"
+            ],
+            "title": "Adventurer's Class",
+            "description": "The class of the adventurer."
+        }
+    },
+    "required": [
+        "adventurer_class"
+    ]
+}
