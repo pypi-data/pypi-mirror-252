@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ourmath/__init__.py
+ourmath.egg-info/PKG-INFO
+ourmath.egg-info/SOURCES.txt
+ourmath.egg-info/dependency_links.txt
+ourmath.egg-info/top_level.txt
