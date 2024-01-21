@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vitalik/__init__.py
+vitalik.egg-info/PKG-INFO
+vitalik.egg-info/SOURCES.txt
+vitalik.egg-info/dependency_links.txt
+vitalik.egg-info/top_level.txt
