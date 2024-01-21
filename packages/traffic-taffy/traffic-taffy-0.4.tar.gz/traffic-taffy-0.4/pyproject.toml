@@ -1,0 +1,4 @@
+[tool.ruff]
+ignore = ["E501"]  # long lines
+fixable = ["ALL"]  # gulp
+# select = ["ALL"]
