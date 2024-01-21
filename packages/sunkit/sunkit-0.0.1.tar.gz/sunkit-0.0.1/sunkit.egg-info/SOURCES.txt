@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sunkit/__init__.py
+sunkit.egg-info/PKG-INFO
+sunkit.egg-info/SOURCES.txt
+sunkit.egg-info/dependency_links.txt
+sunkit.egg-info/top_level.txt
