@@ -1,0 +1,14 @@
+obsout/__main__.py,sha256=6m0SnxGcndCbU04zE4QeZymuo3xI-SS_a_mznb9hKWI,3025
+obsout/config.py,sha256=6jkFoji1PpAPwtC3aMiv5x1FrQVx0krPQbCVJKQMN9o,2555
+obsout/console.py,sha256=ZcW6tagLRhQNT6w4Nq9Ok9gUfE65eV9MVj2jLgjOlFM,52
+obsout/outline/__init__.py,sha256=w2F6H2f34GijsYn-66Ro266HBg0i8qU3gbqSw711CIQ,49
+obsout/outline/artifacts.py,sha256=65m0ui-EUymstXHZ3T9lKkl1_Fr3wyZ_OTg3LGIL5b4,629
+obsout/outline/client.py,sha256=Uf0VchcANWlDCHzV96LEQYJ5pYDn9cDUedHXYvnfxs0,891
+obsout/outline/constants.py,sha256=w07vdNy7uVyl7Snxb5KEmEIwkhmBy0vrnMdvXBsS2F4,739
+obsout/outline/outline.py,sha256=MuBUs8XoHIXuCqg-w-WxShKud6jaIwhKPSmtQocVpuw,16651
+obsout/outline/utils.py,sha256=NxSw2UVBpUB85oXpz3wNvnaf_mCduHWSUENwsDaMjMo,331
+obsout-0.1.0.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+obsout-0.1.0.dist-info/METADATA,sha256=bIr0Hpk2l-MbZGQyAgoa7Sg_8HL4G0AiZJMQPJotYhc,1034
+obsout-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+obsout-0.1.0.dist-info/entry_points.txt,sha256=imWDfUUhXFSBw53aCpXHMHJRt7TB0Fbr_QAs2gg-2EU,46
+obsout-0.1.0.dist-info/RECORD,,
