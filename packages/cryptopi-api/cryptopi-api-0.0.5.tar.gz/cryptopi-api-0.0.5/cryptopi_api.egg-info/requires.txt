@@ -1,0 +1,6 @@
+requests
+starlette
+fastapi
+cryptopi
+pydantic
+uvicorn
