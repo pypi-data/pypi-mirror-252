@@ -1,0 +1,2 @@
+[console_scripts]
+ram = ram.cli:main
