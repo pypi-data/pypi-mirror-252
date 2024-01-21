@@ -1,0 +1,7 @@
+watchdog
+tqdm
+
+[dev]
+pdoc3
+twine
+pytest
