@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Hizmet zaten yap\u0131land\u0131r\u0131lm\u0131\u015f"
+        },
+        "step": {
+            "user": {
+                "description": "\u0130lk kurulum i\u00e7in g\u00f6nder tu\u015funa bas\u0131n. Olu\u015fturulan yap\u0131land\u0131rma giri\u015finde se\u00e7ilen i\u015flemlere sens\u00f6r eklemek i\u00e7in yap\u0131land\u0131r'a bas\u0131n"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "process": "Sens\u00f6r(ler) olarak eklenecek i\u015flemler"
+                },
+                "data_description": {
+                    "process": "Listeden \u00e7al\u0131\u015fan bir i\u015flem se\u00e7in veya \u00f6zel bir de\u011fer ekleyin. \u00c7oklu se\u00e7imler/\u00f6zel de\u011ferler desteklenir"
+                },
+                "description": "\u00c7al\u0131\u015fan bir i\u015flem i\u00e7in izleme sens\u00f6r\u00fcn\u00fc yap\u0131land\u0131rma"
+            }
+        }
+    }
+}

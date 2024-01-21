@@ -1,0 +1,65 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Laite on jo m\u00e4\u00e4ritetty",
+            "already_in_progress": "M\u00e4\u00e4ritysprosessi on jo k\u00e4ynniss\u00e4",
+            "no_devices_found": "Verkosta ei l\u00f6ytynyt laitteita"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui"
+        },
+        "flow_title": "{model} {id} ({ipaddr})",
+        "step": {
+            "discovery_confirm": {
+                "description": "Haluatko m\u00e4\u00e4ritt\u00e4\u00e4 {model} {id} ({ipaddr})?"
+            },
+            "user": {
+                "data": {
+                    "host": "Palvelin"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "custom_effect_speed_pct": "Mukautettu efekti: Nopeus prosentteina v\u00e4rit vaihtaville efekteille."
+                }
+            }
+        }
+    },
+    "services": {
+        "set_custom_effect": {
+            "description": "Asettaa mukautetun valotehosteen."
+        },
+        "set_music_mode": {
+            "fields": {
+                "light_screen": {
+                    "name": "Valon\u00e4ytt\u00f6"
+                },
+                "sensitivity": {
+                    "description": "Mikrofonin herkkyys (0-100).",
+                    "name": "Herkkyys"
+                }
+            },
+            "name": "Aseta musiikkitila"
+        },
+        "set_zones": {
+            "description": "Asettaa nauha-alueet osoitteellisia v3-ohjaimia varten (0xA3).",
+            "fields": {
+                "colors": {
+                    "description": "Luettelo kunkin alueeb v\u00e4reist\u00e4 (RGB). Kunkin alueen pituus on pikseleiden lukum\u00e4\u00e4r\u00e4 segmentti\u00e4 kohti jaettuna v\u00e4rien lukum\u00e4\u00e4r\u00e4ll\u00e4. (Enint\u00e4\u00e4n 2048 v\u00e4ri\u00e4)."
+                },
+                "effect": {
+                    "description": "Efekti.",
+                    "name": "Efekti"
+                },
+                "speed_pct": {
+                    "name": "Nopeus"
+                }
+            },
+            "name": "Aseta alueet"
+        }
+    }
+}
