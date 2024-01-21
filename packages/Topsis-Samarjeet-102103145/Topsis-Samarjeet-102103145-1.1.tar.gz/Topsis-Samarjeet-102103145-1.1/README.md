@@ -1,0 +1,81 @@
+Project Description
+
+for: Assignment-1 (UCS654) submitted by: Samarjeet Singh Gandhi Roll no: 102103145 Group: 3COE5
+
+Topsis-Samarjeet-102103145 is a Python library for dealing with Multiple Criteria Decision Making(MCDM) problems by using Technique for Order of Preference by Similarity to Ideal Solution(TOPSIS).
+
+Installation
+
+`pip install Topsis-Samarjeet-102103145`
+
+How to use it?
+
+Enter csv filename followed by .csv extension, then enter the weights vector with vector values separated by commas, followed by the impacts vector with comma separated signs (+,-) and then the csv filename in which you want to store the result by .csv extension
+
+`Topsis sample.csv "1,1,1,2,2" "+,+,-,+,+" result.csv`
+
+Example
+
+sample.csv
+
+Fund Name P1 P2 P3 P4 P5
+
+M1 0.68 0.46 4 52.7 14.46
+
+M2 0.61 0.37 6.9 51.5 14.85
+
+M3 0.61 0.37 4.4 53.5 14.72
+
+M4 0.7, 0.49 6 54.5 15.42
+
+M5 0.65 0.42 4.1 68.7 18.47
+
+M6 0.62 0.38 3.6 36.4 10.25
+
+M7 0.92 0.85 5.2 44.6 12.89
+
+M8 0.81 0.66 3.7 35.9 10.27
+
+weights vector = [ 1,1,1,2,2 ]
+
+impacts vector = [ +,+,-,+,+ ]
+
+input
+
+`Topsis sample.csv "1,1,1,2,2" "+,+,-,+,+" result.csv`
+
+output
+
+result.csv
+
+Fund Name,P1,P2,P3,P4,P5,Topsis Score,Rank
+
+M1,0.68,0.46,4.0,52.7,14.46,0.5903064989592446,4.0
+
+M2,0.61,0.37,6.9,51.5,14.85,0.5408709514358343,5.0
+
+M3,0.61,0.37,4.4,53.5,14.72,0.5933191124418361,3.0
+
+M4,0.7,0.49,6.0,54.5,15.42,0.4714313335411608,7.0
+
+M5,0.65,0.42,4.1,68.7,18.47,0.3803866453639049,8.0
+
+M6,0.62,0.38,3.6,36.4,10.25,0.9855303249104818,1.0
+
+M7,0.92,0.85,5.2,44.6,12.89,0.5209148114910495,6.0
+
+M8,0.81,0.66,3.7,35.9,10.27,0.7535236734320149,2.0
+
+Other Notes
+
+1. The first column and first row are removed by the library before processing, in attempt to remove indices and headers. So make sure the csv follows the format as shown in sample.csv.
+
+2. Make sure the csv does not contain categorical values
+
+License
+
+© 2024 Samarjeet Singh Gandhi
+
+This repository is licensed under the MIT license.
+
+See LICENSE for details.
