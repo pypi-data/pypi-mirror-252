@@ -1,0 +1,72 @@
+import deform
+import colander
+
+from endi.forms.lists import BaseListsSchema
+from endi.forms.user import (
+    antenne_filter_node_factory,
+    follower_filter_node_factory,
+)
+from endi.models.company import CompanyActivity
+
+
+@colander.deferred
+def deferred_company_datas_select(node, kw):
+    values = CompanyActivity.query("id", "label").all()
+    values.insert(0, ("", "Tous"))
+    return deform.widget.SelectWidget(values=values)
+
+
+@colander.deferred
+def deferred_company_datas_validator(node, kw):
+    ids = [entry[0] for entry in CompanyActivity.query("id")]
+    return colander.OneOf(ids)
+
+
+def get_list_schema():
+    schema = BaseListsSchema().clone()
+    del schema["search"]
+    del schema["page"]
+    del schema["items_per_page"]
+
+    schema.add(
+        follower_filter_node_factory(
+            name="follower_id",
+            title="Accompagnateur",
+        )
+    )
+    schema.add(
+        antenne_filter_node_factory(
+            name="antenne_id",
+            title="Antenne",
+        )
+    )
+    schema.add(
+        colander.SchemaNode(
+            colander.Integer(),
+            name="activity_id",
+            title="Domaine d'activité",
+            missing=colander.drop,
+            widget=deferred_company_datas_select,
+            validator=deferred_company_datas_validator,
+        )
+    )
+    schema.add(
+        colander.SchemaNode(
+            colander.Boolean(),
+            name="active",
+            label="Masquer les enseignes désactivées",
+            arialabel="Activer pour afficher seulement les enseignes actives",
+            missing=colander.drop,
+        )
+    )
+    schema.add(
+        colander.SchemaNode(
+            colander.Boolean(),
+            name="internal",
+            label="Masquer les enseignes internes",
+            arialabel="Activer pour afficher seulement les enseignes non-internes",
+            missing=colander.drop,
+        )
+    )
+
+    return schema
