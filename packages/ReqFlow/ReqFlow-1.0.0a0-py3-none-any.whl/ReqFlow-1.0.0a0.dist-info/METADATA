@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ReqFlow
+Version: 1.0.0a0
+Summary: A streamlined Python library for crafting HTTP requests and testing API
+Home-page: https://github.com/olxxi/ReqFlow
+Author: Oleksii P.
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx >=0.26.0
+Requires-Dist: jsonpath-ng >=1.6.1
+Requires-Dist: pydantic >=2.5.3
+
