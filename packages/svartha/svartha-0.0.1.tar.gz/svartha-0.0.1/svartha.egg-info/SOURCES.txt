@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+svartha/__init__.py
+svartha.egg-info/PKG-INFO
+svartha.egg-info/SOURCES.txt
+svartha.egg-info/dependency_links.txt
+svartha.egg-info/top_level.txt
