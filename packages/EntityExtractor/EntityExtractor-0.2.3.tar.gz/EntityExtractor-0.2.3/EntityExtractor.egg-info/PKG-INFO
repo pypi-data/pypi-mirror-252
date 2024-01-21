@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: EntityExtractor
+Version: 0.2.3
+Summary: Extract specific entities from a text. Give text and get a JSON formatted output data.
+Home-page: UNKNOWN
+Author: Ankit Mor
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+nltk.download('punkt') , nltk.download('stopwords') , spacy.cli.download('web_en_core_lg')
+
