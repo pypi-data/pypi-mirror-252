@@ -1,0 +1,7 @@
+spark_loader/__init__.py,sha256=BEGERMxBdYu3rkVbgbmUjgyomt-lumYI16mqmFvuGbM,95
+spark_loader/config.py,sha256=FoezoSLPKZGV0LVANneTNe5Y_-25zoEznDZ8lbRbNMo,545
+spark_loader/logging.py,sha256=UPI9baWSzPDkUFBR-kGUtqggBmlK4ZmuKZDgMKsIv1o,418
+spark_loader/spark.py,sha256=viIEN1Q4f3zpl_WBa674jwOn425bEBRBFTFMQ_y-Zmc,2619
+spark_loader-0.0.2.dist-info/METADATA,sha256=3bz4OHRFvq-hzozZLm6neZPfTQl1ctBSHSbMbL0PjZI,1944
+spark_loader-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+spark_loader-0.0.2.dist-info/RECORD,,
