@@ -1,0 +1,6 @@
+[console_scripts]
+construct=netclop.cli:construct_net
+partition=netclop.cli:partition
+plot=netclop.cli:plot
+quickview=netclop.cli:quick_plot
+
