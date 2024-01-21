@@ -1,0 +1,90 @@
+[tool.poetry]
+name = "fhmake"
+version = "2024"
+license = "mit"
+description = "FredHappyface Makefile for python. build, install, publish or audit"
+authors = ["FredHappyface"]
+classifiers = [
+	"Environment :: Console",
+	"Environment :: MacOS X",
+	"Environment :: Win32 (MS Windows)",
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Security",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Utilities"
+]
+homepage = "https://github.com/FHPythonUtils/FHMake"
+repository = "https://github.com/FHPythonUtils/FHMake"
+documentation = "https://github.com/FHPythonUtils/FHMake/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.scripts]
+fhmake = 'fhmake:cli'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tomlkit = "<2,>=0.12.3"
+poetry = {version = "<2,>=1.7.1", optional = true}
+licensecheck = {version = "<2026,>=2024", optional = true}
+pylint = {version = "<4,>=3.0.3", optional = true}
+handsdown = {version = "<3,>=2.1.0", optional = true}
+pre-commit = {version = "<4,>=3.6.0", optional = true}
+# If installing fhmake[full] we need flake8-polyfill to prevent flake8 from breaking
+flake8-polyfill = {version = "<2,>=1.0.2", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+handsdown = "^2.1.0"
+coverage = "^7.4.0"
+ruff = "^0.1.13"
+blackt = "^2024.0.1"
+pyright = "^1.1.347"
+
+[tool.poetry.extras]
+full = [
+	"poetry",
+	"licensecheck",
+	"handsdown",
+	"pylint",
+	"pre-commit",
+	"flake8-polyfill",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN101",  # type annotation for self in method
+    "COM812",  # enforce trailing comma
+	"D2",  # pydocstyle formatting
+    "N802", "N803", "N806", "N812", "N813",  # pep8 naming
+    "PLR09",  # pylint refactor too many
+	"T201",
+    "TCH",  # type check blocks
+    "W191"  # ignore this to allow tabs
+]
+fixable = ["ALL"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/{tests,docs,tools}/*" = ["D", "S101", "E402"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
