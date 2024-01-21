@@ -1,0 +1,2 @@
+[console_scripts]
+topsis_aaryan_102103053 = topsis_aaryan_102103053.102103053:main
