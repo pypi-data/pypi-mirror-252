@@ -1,0 +1,2 @@
+def booty():
+  print("Spanking 🍑🫲")
