@@ -1,0 +1,9 @@
+conda_subprocess/__init__.py,sha256=smmZ3PmtOxj_qinoEmzYsQdQOa4WpzRI-zAsbGP6kMY,191
+conda_subprocess/_version.py,sha256=ILoB28hkubVOMJ5EiKZcuI-L16fnpVf9EmCgWmBMx0M,24639
+conda_subprocess/interface.py,sha256=HAvtjmD_rwGNsDQN0Ytj_BaOmymRZ7mYutIeQzfVoBo,7065
+conda_subprocess/process.py,sha256=nzSm-mC-CxpEJJ0kzyMI5pLJguXvybPwCt6dwjpFeHk,2500
+conda_subprocess-0.0.1.dist-info/LICENSE,sha256=Wn4J1aBo8rRlVrpXJ3Xv4j8IicRrpeTi3ERWTXfNTv4,1505
+conda_subprocess-0.0.1.dist-info/METADATA,sha256=aA_ZHqpj8rC9zDylrkSpoy-rv5PhkBXVNyjmxGl3PcM,4909
+conda_subprocess-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+conda_subprocess-0.0.1.dist-info/top_level.txt,sha256=7JKUw0WIHd_x7A_fSUgtIDxHPGo2CNKCWe3Sd27SiDk,17
+conda_subprocess-0.0.1.dist-info/RECORD,,
