@@ -1,0 +1,11 @@
+pubmedparser/__init__.py,sha256=vZEnJAdEbjm1-P8_9rGM8ECcPm5HAuNr3CWJjcASJ0k,4269
+pubmedparser/_readxml.c,sha256=FZ2LWjHZdHwlMzB-2i6q7RGnQQF64qU84mQ6bmWc4EM,6017
+pubmedparser/_readxml.pyi,sha256=eIkaYHPu2mOIaz6zJVBaKoQcTQS7SmJDrG7Q4uqvQd8,380
+pubmedparser/ftp.py,sha256=7KgY4sknqybCNS5JBcyikCXlndoK8gz57RqBK1syXus,7803
+pubmedparser/storage.py,sha256=be9UKLzw17ZBNu1mdVqosStx0PiHeMz-pbcD8eL0-Ck,3597
+pubmedparser/_readxml.cpython-310-x86_64-linux-gnu.so,sha256=GVXhcT0Rm0dXybgfjgRh-IaNtfq_nM8gd1pjZG2y4Dc,177872
+pubmedparser/_readxml.so,sha256=rWM-lEX2B5R8ARzdlUfXs_5qi12pdmvEmxMCfcDtqvc,177776
+pubmedparser2-2.0.6.dist-info/LICENSE,sha256=VkCZOUqRio5CIN_gIStJMRyPJOZZsEmL7oB_CHv83TU,35080
+pubmedparser2-2.0.6.dist-info/METADATA,sha256=3sf_VscQ2TqGTKkX-dh5sd1q3NaO3npcybFHn9vXSw8,10493
+pubmedparser2-2.0.6.dist-info/WHEEL,sha256=8YvIYHxrK_h83dcxukwkGw5Uh4cnLfeKYAN-aj4spOo,110
+pubmedparser2-2.0.6.dist-info/RECORD,,
