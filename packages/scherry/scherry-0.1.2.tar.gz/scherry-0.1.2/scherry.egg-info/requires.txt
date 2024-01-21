@@ -1,0 +1,5 @@
+requests
+click
+orjson
+parse
+toml
