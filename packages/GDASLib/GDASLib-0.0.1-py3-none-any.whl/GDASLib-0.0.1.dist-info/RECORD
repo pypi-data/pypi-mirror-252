@@ -1,0 +1,12 @@
+gdaslib/DatabaseConnectionSettings.py,sha256=5LkQ2be-JTcGMGprd-TonCnPoofkny1vEKfvM2lyzto,193
+gdaslib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdaslib/gdasdb.py,sha256=c7LghQNGwtgIxoUDo97FtsqYRfq88NXfTxgNodogisI,9221
+gdaslib/database/GamesGamesModel.py,sha256=KZTmp9PxWJkkrAGq7oeuCX4_VHYWmssVwk0tmIycVBU,562
+gdaslib/database/StreamGamesModel.py,sha256=qYQZW9LpgMAOoxNv7xkyIsb2XMBzmRktrYJKmocfh5E,578
+gdaslib/database/TableSentGames.py,sha256=1AP2ugTXZ6maz_oOssTs7AZypW4ktrNt_FA5EykH0JM,222
+gdaslib/database/TeamModel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GDASLib-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+GDASLib-0.0.1.dist-info/METADATA,sha256=zu2lV0HbnCpo9L7ByrUWVotbaYLvCKCG9mKE5Ut-0x0,582
+GDASLib-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+GDASLib-0.0.1.dist-info/top_level.txt,sha256=N-nVwq3LVE2DDxzdQTBf5plxQoviYR2BHDdDeJ43_rU,8
+GDASLib-0.0.1.dist-info/RECORD,,
