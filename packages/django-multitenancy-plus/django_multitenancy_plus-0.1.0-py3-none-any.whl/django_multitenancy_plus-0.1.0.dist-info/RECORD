@@ -1,0 +1,11 @@
+django_multitenancy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_multitenancy/constants.py,sha256=PYXozRkbJZjS3-XBrM-bNf7zNejqTyP56JHi026YLVw,70
+django_multitenancy/helpers.py,sha256=L5WcV8BLlHLBiPsbN_hdz0ZE_mnRJV5z_5uj6_1p2TQ,909
+django_multitenancy/mixins.py,sha256=yL61BvlqppEmusAtysnAwdMxt1r9hp4YeougdnePgdQ,425
+django_multitenancy/middleware/__init__.py,sha256=Eqx3HeBBthf-7_M55fPgSF8r2-mxWrbVQekhrlHT9i8,108
+django_multitenancy/middleware/base.py,sha256=sIFwx9f-DUtejlVZ12H9pSGaQKburNFLBCVIi80PvL0,995
+django_multitenancy_plus-0.1.0.dist-info/LICENSE,sha256=aUFiNIkpKCrbUx0LDo3YuZ2Z9jTAjnabhqIfrmlnzA0,1071
+django_multitenancy_plus-0.1.0.dist-info/METADATA,sha256=2fyjW09j5dW5wVCar4y-xCJRkfkY49Bad2mF6upcjhU,304
+django_multitenancy_plus-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_multitenancy_plus-0.1.0.dist-info/top_level.txt,sha256=h0OsokWs2BhTWl6AjW7spOc6x8yFYbayuMIMZbYBNRo,51
+django_multitenancy_plus-0.1.0.dist-info/RECORD,,
