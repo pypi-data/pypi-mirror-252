@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+upanishads/__init__.py
+upanishads.egg-info/PKG-INFO
+upanishads.egg-info/SOURCES.txt
+upanishads.egg-info/dependency_links.txt
+upanishads.egg-info/top_level.txt
