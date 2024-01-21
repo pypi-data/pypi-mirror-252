@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-js-lib-bootstrap-icons
+Version: 1.11.3.0
+Summary: Bootstrap Icons Repackaged for Django
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# Bootstrap Icons Repackaged for Django
+
+[Bootstrap Icons](https://icons.getbootstrap.com/) packaged in a Django reusable app.
+
+## Installation
+
+    pip install django-js-lib-bootstrap-icons
+
+## Usage
+
+1. Add `"js_lib_bootstrap_icons"` to your `INSTALLED_APPS` setting like this::
+
+       INSTALLED_APPS = [
+           ...
+           "js_lib_bootstrap_icons",
+           ...
+       ]
+
+2. In your template use:
+   
+       {% load static %}
+   
+   ...
+   
+       <link rel="stylesheet" href="{% static "bootstrap-icons/css/font/bootstrap-icons.min.css">" %}">
+
+   or
+   
+       <link rel="stylesheet" href="{% static "bootstrap-icons/css/font/bootstrap-icons.css">" %}">
+
