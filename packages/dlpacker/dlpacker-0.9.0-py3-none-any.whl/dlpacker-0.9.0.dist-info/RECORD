@@ -1,0 +1,10 @@
+dlpacker/__init__.py,sha256=AvCsP8cJXjH8eN2n-_Q_iLODDg2ZEIeF61OQmbT7PKk,38
+dlpacker/data/charges.rtp,sha256=kP3ig41ihO1EfZ-jM7LtJ1E67_yMP906meAEbHyYH6w,70622
+dlpacker/data/library.npz,sha256=EJ8ju_KE925hLZu-riy_8GAvYoeNQkPncZnoBY_inN8,36466639
+dlpacker/data/reference.pdb,sha256=Fy9NlYR_dmEkmAc-B1MvGFOGPo9DqqujwDT4PDTpJD0,243
+dlpacker/dlpacker.py,sha256=8ELX0FuNRNEOKVFxpKExb_YqHJojFx1kpxdGWJbVeks,28036
+dlpacker/utils.py,sha256=p5Iw4KRzjEW_zT0-ElnwINLGLR7x9sF1hKJdOsDiQzA,22411
+dlpacker-0.9.0.dist-info/LICENSE,sha256=_cl_FEeFIkr1B-1n7Y48-VLBoDU8WHUYL6UN7zRg02Y,1064
+dlpacker-0.9.0.dist-info/METADATA,sha256=kyZ0mELE_xzgZiJwR2bXmH7AQLVTdQ4DGn84vjVVXWY,4306
+dlpacker-0.9.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dlpacker-0.9.0.dist-info/RECORD,,
