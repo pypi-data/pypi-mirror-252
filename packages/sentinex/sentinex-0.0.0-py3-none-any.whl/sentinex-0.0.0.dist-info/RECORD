@@ -1,0 +1,16 @@
+sentinex/__init__.py,sha256=rCqfPp1NPRrU85HZwBLVx66waauCQWJtPBUYQ9L5FGg,1224
+sentinex/module.py,sha256=6fN_ntzC7ZgHZEshou5X0EJJLjUUmgTMTdfyy88UA0U,3391
+sentinex/pytree.py,sha256=rGgetkQhIPxl0LZkrbAzzUj0ytr1wxeKIcXffA-rTto,2421
+sentinex/version.py,sha256=qwX_VmtTcxitUuo61-lzyWhU70ydr0gDejMn5eqC3Dk,21
+sentinex/core/__init__.py,sha256=pdvGWXKUCMYHUK7sFgzvD2ac9n2ZS-md1qdgKwKkvfM,72
+sentinex/core/config.py,sha256=iyv-vqq9htL7w_qwLuccbNAPxQS1lVUZXI3gu14W4Dg,2332
+sentinex/core/custom_ops.py,sha256=KyL1CkWfbyg9QlF--XanmtmPi7Pn1aQt8GSSd_OjXlo,1227
+sentinex/modelzoo/__init__.py,sha256=T4OGLi7lJNU6-lVKl6NFq9XFvjIY_VjKDXHK2hf-LEs,51
+sentinex/modelzoo/perceptron.py,sha256=chKcf9KK1OSFl16xfhmLi-R2O-V6By0QLtR_ULA5ego,786
+sentinex/nn/__init__.py,sha256=pAV6G0mN7km69tDGKd9PSfsRN0Ux4hh_dEW4FJW3uYQ,1724
+sentinex/train_utils/__init__.py,sha256=25nHDhr3dRFOGzkhCnLybK1Jn7svU_qPKE-6kUOKmLQ,58
+sentinex/train_utils/training_loop.py,sha256=Gb-gRscFJehNfSs9sAGcO1Ho4yWR4la4yNpicNO21HQ,750
+sentinex-0.0.0.dist-info/METADATA,sha256=NK5AUfY0UrEfJo52x84Ym_dKjowpVvSPf80jNt64-HM,2914
+sentinex-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+sentinex-0.0.0.dist-info/top_level.txt,sha256=A1byj9XKz2lhpFSztcFwjtuBF0NmOOobqTdppvNNwFo,9
+sentinex-0.0.0.dist-info/RECORD,,
