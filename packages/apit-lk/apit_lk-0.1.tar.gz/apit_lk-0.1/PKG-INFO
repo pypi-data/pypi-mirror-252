@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: apit_lk
+Version: 0.1
+Summary: Sri lanka APIT Calculation python library
+Home-page: UNKNOWN
+Author: Dinuth Perera
+Author-email: pm@dinuth.me
+License: MIT
+Keywords: conversion
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A package that makes it easy to calaclute Sri Lankan Advance Personal Income Tax (APIT Tax)
+
