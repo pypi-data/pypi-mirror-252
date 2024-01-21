@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+infinity-calculator/__init__.py
+infinity_calculator.egg-info/PKG-INFO
+infinity_calculator.egg-info/SOURCES.txt
+infinity_calculator.egg-info/dependency_links.txt
+infinity_calculator.egg-info/top_level.txt
