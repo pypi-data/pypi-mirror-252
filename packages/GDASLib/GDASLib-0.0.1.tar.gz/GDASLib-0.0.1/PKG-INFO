@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GDASLib
+Version: 0.0.1
+Summary: GDAS - Library
+Author-email: Ricardo Santos <ricardo@diasantos.com>
+Project-URL: Homepage, https://gitlab.gdas.com.pt/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymssql
+
+# GDAS - Database connection library
+
+The package connects to the GDAS database to retrive of insert data. This library is common to all projects.

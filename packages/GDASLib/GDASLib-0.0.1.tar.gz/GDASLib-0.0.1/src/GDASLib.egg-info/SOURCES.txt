@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/GDASLib.egg-info/PKG-INFO
+src/GDASLib.egg-info/SOURCES.txt
+src/GDASLib.egg-info/dependency_links.txt
+src/GDASLib.egg-info/requires.txt
+src/GDASLib.egg-info/top_level.txt
+src/gdaslib/DatabaseConnectionSettings.py
+src/gdaslib/__init__.py
+src/gdaslib/gdasdb.py
+src/gdaslib/database/GamesGamesModel.py
+src/gdaslib/database/StreamGamesModel.py
+src/gdaslib/database/TableSentGames.py
+src/gdaslib/database/TeamModel.py
