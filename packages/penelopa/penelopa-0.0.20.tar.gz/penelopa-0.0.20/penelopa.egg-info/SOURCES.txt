@@ -1,0 +1,14 @@
+README.md
+setup.py
+penelopa/__init__.py
+penelopa/ai.py
+penelopa/configuration.py
+penelopa/penelopa.py
+penelopa/penelopa_wrapper.py
+penelopa.egg-info/PKG-INFO
+penelopa.egg-info/SOURCES.txt
+penelopa.egg-info/dependency_links.txt
+penelopa.egg-info/entry_points.txt
+penelopa.egg-info/requires.txt
+penelopa.egg-info/top_level.txt
+tests/__init__.py

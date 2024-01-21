@@ -1,0 +1,3 @@
+[console_scripts]
+penelopa = penelopa.penelopa:main
+
