@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retinawhitenoise"
+authors = [
+    {name = "Christian Mendl"},
+    {name = "Fernando Rozenblit"},
+    {name = "Sören Zapp"},
+]
+maintainers = [
+    {name = "Gollisch Lab"}
+]
+description = "Recreate white-noise stimuli"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.7"
+keywords = ["retina", "stimulus", "white noise"]
+license = {text = "MIT"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.16.0",
+    "h5py>=3.2",
+    "pathlib",
+    "tqdm",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/gollischlab/RecreateWhiteNoiseStimuliWithPython.git"
+
+[tool.setuptools.dynamic]
+version = {attr = "retinawhitenoise.__version__"}
+
+[tool.setuptools]
+packages = ["retinawhitenoise"]
