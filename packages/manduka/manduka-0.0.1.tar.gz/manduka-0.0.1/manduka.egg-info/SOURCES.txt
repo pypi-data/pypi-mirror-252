@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+manduka/__init__.py
+manduka.egg-info/PKG-INFO
+manduka.egg-info/SOURCES.txt
+manduka.egg-info/dependency_links.txt
+manduka.egg-info/top_level.txt
