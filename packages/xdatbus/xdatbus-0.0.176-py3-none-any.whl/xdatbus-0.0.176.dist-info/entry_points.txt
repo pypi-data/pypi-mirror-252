@@ -1,0 +1,4 @@
+[console_scripts]
+bias=xdatbus.bash01_bias:main
+xdc_aggregate=xdatbus.f01_xdc_aggregate:main
+
