@@ -1,0 +1,5 @@
+asyauth>=0.0.3
+asysocks>=0.2.2
+cryptography>=2.5
+prompt-toolkit>=3.0.20
+unicrypto>=0.0.9
