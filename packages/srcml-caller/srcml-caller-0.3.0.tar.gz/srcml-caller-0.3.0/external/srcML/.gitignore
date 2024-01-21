@@ -1,0 +1,8 @@
+# general
+*~
+\#*\#
+.\#*
+*.pyc
+.DS_Store
+build*/
+cmake-build-*/
