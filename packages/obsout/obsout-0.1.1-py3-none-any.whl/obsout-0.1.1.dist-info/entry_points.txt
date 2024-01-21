@@ -1,0 +1,3 @@
+[console_scripts]
+obsout=obsout.__main__:cli
+
