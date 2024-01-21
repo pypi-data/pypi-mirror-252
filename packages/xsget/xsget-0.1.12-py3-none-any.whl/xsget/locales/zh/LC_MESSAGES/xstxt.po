@@ -1,0 +1,8 @@
+#: xsget/xstxt.py:348
+msgid "title:"
+msgstr "书名："
+
+#: xsget/xstxt.py:349
+msgid "author:"
+msgstr "作者："
+

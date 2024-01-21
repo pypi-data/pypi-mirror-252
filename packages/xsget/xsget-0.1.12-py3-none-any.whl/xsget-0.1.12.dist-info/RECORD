@@ -1,0 +1,17 @@
+xsget/__init__.py,sha256=ZxqD0ZDrQVij2JTbU5xCipgIAuD7OSZyreDGr9uOZwk,4477
+xsget/book.py,sha256=V2TLpICgFqpoz8lBKUVhYNej8ysvAzpCVihuQOKzH5s,355
+xsget/chapter.py,sha256=LJatJUDQUaCmCCM5iAHDquqJDntvfPZVFGJbwW2i4tQ,920
+xsget/xsget.py,sha256=noW9avLl1mU8xzlMt1yCrqjj2b1DaCZZN2xsWAIQFVc,13693
+xsget/xsget.toml,sha256=9Jj5q9bqKKSY26b2fPv7D0pn09VxRswUWzgewL7iEWs,1526
+xsget/xstxt.py,sha256=9JAZMNX4B2ylipjlG41e5bZiyIsGWBa6JCEX9iQXWv4,20168
+xsget/xstxt.toml,sha256=un3tYzIYkv33_1qeYTfzha05CgVClNeDsbFA0YrkAPY,3511
+xsget/locales/xstxt.pot,sha256=pmZ4gAFlcgUsu-ZIMIBWqsduBl-hIrYhu_rVmtotlZs,97
+xsget/locales/en/LC_MESSAGES/xstxt.mo,sha256=SkwYze36Qo1K_-UIWLtO1KuqP6uMkfyl9pAbHyH1XV8,507
+xsget/locales/en/LC_MESSAGES/xstxt.po,sha256=sioTLIuXqzSBgiS-aR5WeE_j1bz3hEiK5x18u9fLEOQ,110
+xsget/locales/zh/LC_MESSAGES/xstxt.mo,sha256=yd1DzJCznmvHzNFKY2chiTzUHGkMFuORPAExWJExflw,505
+xsget/locales/zh/LC_MESSAGES/xstxt.po,sha256=vauxkV7ezp-YbAeRZKWr4sRmL0kJAmvbJ89InHIK7rU,115
+xsget-0.1.12.dist-info/entry_points.txt,sha256=ed_dCHC5GW-vuLLxSkBodBLL-gD0XaU4r-dltfcHIQA,63
+xsget-0.1.12.dist-info/LICENSE.md,sha256=tGtFDwxWTjuR9syrJoSv1Hiffd2u8Tu8cYClfrXS_YU,31956
+xsget-0.1.12.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+xsget-0.1.12.dist-info/METADATA,sha256=d855ekuWJkjqfW2pNI7wsG7mwrNjoKEyWF14Jpw7x3M,7502
+xsget-0.1.12.dist-info/RECORD,,
