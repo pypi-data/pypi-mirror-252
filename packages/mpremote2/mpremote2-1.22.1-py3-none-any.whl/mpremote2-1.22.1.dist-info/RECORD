@@ -1,0 +1,13 @@
+mpremote2/__init__.py,sha256=uCMjbbM9nO3VqYqqvGIZIzXy3juW1hHD8b4LrW0mWiQ,438
+mpremote2/__main__.py,sha256=4uulmJ59a37e2DlZJwGhd0wmwvK1KHTbeDnhBWqpFtQ,84
+mpremote2/commands.py,sha256=wc584hMOaSSKntaOXNt6l4pd6Whhik2xklV1X55Tebo,8512
+mpremote2/console.py,sha256=doc59IfVkosiqlexQlZrLRsQmtzFb5hrm7q2HabKnMU,5280
+mpremote2/main.py,sha256=Ndf6_koqo2dWhrgFt8n8bZF-Kuh4vxuGj2sRy_UqEk4,17198
+mpremote2/mip.py,sha256=9bIv0J9pdepP22KCo60RL_2nmnJXP5DF3dkIqQ2UApE,6316
+mpremote2/repl.py,sha256=0bM-EcZhUwPKEaLrncN7oOKIbGySlvW00-av8lB_9jw,3789
+mpremote2/transport.py,sha256=u-dc3iP6_DpAkWfkO3autRqyqCv63B4XlDW4srjCOco,1288
+mpremote2/transport_serial.py,sha256=ZM_htfwzGOAyreXsgzlM24XAasRli3Hd3VBtwsRkrP0,41508
+mpremote2-1.22.1.dist-info/METADATA,sha256=CXebTbtUqRejZJR9NaFNvxud4dnFaT81l-5FgQumfqk,4342
+mpremote2-1.22.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mpremote2-1.22.1.dist-info/top_level.txt,sha256=s9kGei2A0x-gWgzsr5YBOu3mJDQkCKT9TuAoERbbaAg,10
+mpremote2-1.22.1.dist-info/RECORD,,
