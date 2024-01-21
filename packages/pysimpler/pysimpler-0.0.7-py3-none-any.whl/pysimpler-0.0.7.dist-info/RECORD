@@ -1,0 +1,13 @@
+pysimpler/__init__.py,sha256=TV2_UG4VIzBNMoq2B9CXHxXKPCyS9DSrZkgGt1jzIF0,143
+pysimpler/caches.py,sha256=7ia-sAY9bKdB6R1bmQJz5H0a8r4Ek35pDTS9X9RSqKw,632
+pysimpler/constants.py,sha256=AxvX6K2Oj5K6JJRguGUB-Fdw83xFJgc0rCnITdEHhBs,128
+pysimpler/errors.py,sha256=6oXfJ6QZl8bHU8A2menv5e7TAaEiuiqgQ8U18wcEH_Y,893
+pysimpler/logger.py,sha256=w1w2TJtDdITH6tgUXQtVcK1aTH9-J5H0pwM1ySYfGnc,298
+pysimpler/report.py,sha256=V-8P-7qEhxX95P_fFp0yzNRHDMOC7j2zcv42gETZdSI,2011
+pysimpler/requirements.txt,sha256=dT-QqqyjFAbuSJOomJ94HALwAFngtnEUmPup7_VwW1U,26
+pysimpler/timers.py,sha256=8HtuUkitqMHOQO3dCTocSab09QSfwY-FroJdccsVpYU,1523
+pysimpler-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysimpler-0.0.7.dist-info/METADATA,sha256=oZvQLX0hB-XF3Aw_Uw8BacQzvSzg_8KPwiwmsGkTU9Q,449
+pysimpler-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysimpler-0.0.7.dist-info/top_level.txt,sha256=wDhBzlv0tF2tngewKQFnwXihuLg1wR0JPlnfUtj3o64,10
+pysimpler-0.0.7.dist-info/RECORD,,
