@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: log-KHARNEIT
+Version: 0.0.1
+Summary: CustomLog
+Author: Karsten Harneit
+Author-email: <karsten@harne.it>
+Keywords: python,logging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Custom logging class for console and/or file output

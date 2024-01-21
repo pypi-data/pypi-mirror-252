@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+log/__init__.py
+log_KHARNEIT.egg-info/PKG-INFO
+log_KHARNEIT.egg-info/SOURCES.txt
+log_KHARNEIT.egg-info/dependency_links.txt
+log_KHARNEIT.egg-info/top_level.txt
