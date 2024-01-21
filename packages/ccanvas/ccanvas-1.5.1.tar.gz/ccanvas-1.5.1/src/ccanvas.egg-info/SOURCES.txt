@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/ccanvas/__init__.py
+src/ccanvas/__main__.py
+src/ccanvas/config.py
+src/ccanvas.egg-info/PKG-INFO
+src/ccanvas.egg-info/SOURCES.txt
+src/ccanvas.egg-info/dependency_links.txt
+src/ccanvas.egg-info/requires.txt
+src/ccanvas.egg-info/top_level.txt
+src/ccanvas/core/__init__.py
+src/ccanvas/core/canvas.py
+src/ccanvas/core/line_builder.py
+src/ccanvas/interface/__init__.py
+src/ccanvas/interface/cli.py
+src/tests/test_placeholder.py
