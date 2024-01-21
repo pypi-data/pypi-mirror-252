@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytoken
+Version: 0.0.1
+Summary: Creates a randomly generated password using the "pytoken.pytoken()" function.
+Author: Flavko
+Author-email: <flavio013568@gmail.com>
+Keywords: python,token,generator
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: random
+Requires-Dist: string

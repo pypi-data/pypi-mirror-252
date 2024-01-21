@@ -1,0 +1,8 @@
+setup.py
+pytoken/__init__.py
+pytoken/pytoken.py
+pytoken.egg-info/PKG-INFO
+pytoken.egg-info/SOURCES.txt
+pytoken.egg-info/dependency_links.txt
+pytoken.egg-info/requires.txt
+pytoken.egg-info/top_level.txt
