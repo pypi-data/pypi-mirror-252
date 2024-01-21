@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sinhala-script/__init__.py
+sinhala_script.egg-info/PKG-INFO
+sinhala_script.egg-info/SOURCES.txt
+sinhala_script.egg-info/dependency_links.txt
+sinhala_script.egg-info/top_level.txt
