@@ -1,0 +1,7 @@
+setup.py
+test_package_trail_1.egg-info/PKG-INFO
+test_package_trail_1.egg-info/SOURCES.txt
+test_package_trail_1.egg-info/dependency_links.txt
+test_package_trail_1.egg-info/entry_points.txt
+test_package_trail_1.egg-info/requires.txt
+test_package_trail_1.egg-info/top_level.txt
