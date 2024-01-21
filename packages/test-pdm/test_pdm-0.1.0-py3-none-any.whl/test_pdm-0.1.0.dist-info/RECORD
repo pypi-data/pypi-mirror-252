@@ -1,0 +1,5 @@
+test_pdm-0.1.0.dist-info/METADATA,sha256=Bqx5VuefU8KL67gCjxE9zGSfO4eW1Vyu0DBKDyjfiCI,245
+test_pdm-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+test_pdm/__init__.py,sha256=2gDO5NbT888X991SOikjJPvzVUhu3u4lNDJi9Qw6agY,70
+test_pdm/test.py,sha256=y0HxyjWb5dhQ-U6Jug2DOr_14zDED3TdpGDUXl1oje0,1232
+test_pdm-0.1.0.dist-info/RECORD,,
