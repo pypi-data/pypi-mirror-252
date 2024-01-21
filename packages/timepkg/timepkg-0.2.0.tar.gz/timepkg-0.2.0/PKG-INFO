@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: timepkg
+Version: 0.2.0
+Summary: Timing Utilities
+Home-page: https://github.com/DavOstx7/timepkg.git
+License: LICENSE
+Author: dav ost
+Author-email: davidost2003@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dataclasses (==0.6) ; python_version < "3.7"
+Requires-Dist: typing-extensions (==4.1.1) ; python_version < "3.10"
+Project-URL: Repository, https://github.com/DavOstx7/timepkg.git
+Description-Content-Type: text/markdown
+
+# timepkg
+Repository for developing and maintaining the code for timepkg
+
