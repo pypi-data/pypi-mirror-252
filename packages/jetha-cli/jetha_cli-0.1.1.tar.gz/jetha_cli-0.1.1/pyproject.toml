@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jetha-cli"
+version = "0.1.1"
+description = ""
+authors = ["zeel-codder <zeelprajapati321@gmail.com>"]
+homepage = "https://github.com/zeel-codder/jetha-cli"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+rich = "^13.7.0"
+
+
+[tool.poetry.scripts]
+jetha-bhai = "jetha_cli.src:jetha_bhai"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
