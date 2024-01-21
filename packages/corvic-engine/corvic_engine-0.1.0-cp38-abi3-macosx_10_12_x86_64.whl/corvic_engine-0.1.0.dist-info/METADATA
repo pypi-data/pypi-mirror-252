@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: corvic-engine
+Version: 0.1.0
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: polars >=0.20
+License-File: LICENSE
+Author-email: Corvic Team <flock@corvic.ai>
+Requires-Python: >=3.8
