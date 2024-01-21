@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+coffescript/__init__.py
+coffescript.egg-info/PKG-INFO
+coffescript.egg-info/SOURCES.txt
+coffescript.egg-info/dependency_links.txt
+coffescript.egg-info/top_level.txt
