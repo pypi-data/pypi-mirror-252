@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+mypkg = ["*.html", "*.pth"]
+
+[project]
+name = "django-piston-citadel"
+version = "0.3.0"
+authors = [
+  { name="Jesper Noehr", email="jesper@noehr.org" },
+]
+description = "Piston is a Django mini-framework creating APIs."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Framework :: Django",
+    "Programming Language :: Python",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.urls]
+Homepage = "http://bitbucket.org/jespern/django-piston/wiki/Home"
+Download = "http://bitbucket.org/jespern/django-piston/downloads/"
