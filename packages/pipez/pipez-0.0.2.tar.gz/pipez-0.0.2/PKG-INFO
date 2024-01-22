@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pipez
+Version: 0.0.2
+Home-page: https://github.com/tam2511/pipez
+Author: Alexander Timofeev
+Author-email: tam2511@mail.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: all
+
+# Pipez - lightweight library for fast deploy stream handling
+
+## Install
+
+For installing default version of library use
+
+```
+pip install pipez
+```
+
+If you want install specific version pipez - use
+
+```
+pip install pipez[<your choice>]
+```
+
+Now available `...` versions.
