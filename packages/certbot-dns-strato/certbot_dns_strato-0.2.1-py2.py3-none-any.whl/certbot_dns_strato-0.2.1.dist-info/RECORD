@@ -1,0 +1,8 @@
+certbot_dns_strato/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_strato/dns_strato.py,sha256=pMkSAZGtofVUE8SIjjPYPFSm4RGYdOsKbJJNMlYyXXo,12514
+certbot_dns_strato-0.2.1.dist-info/LICENSE,sha256=jP4tTvkM7fulpEQtPqWOlLpddTSVO-nr9IQebDH2EB0,1068
+certbot_dns_strato-0.2.1.dist-info/METADATA,sha256=jcm8ir56eflJ3wgzbqk8ezPybM_k_3kd7l2wuJakqTs,1181
+certbot_dns_strato-0.2.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+certbot_dns_strato-0.2.1.dist-info/entry_points.txt,sha256=pTDGNtTCdCsvi6__OZFNB9O2XbS7RPOVLNbrSQNjWTU,75
+certbot_dns_strato-0.2.1.dist-info/top_level.txt,sha256=eoVZyZ7PPxt3WdgFa9ZqSyDHzV0YPqsPLnDkEf7ayDA,19
+certbot_dns_strato-0.2.1.dist-info/RECORD,,
