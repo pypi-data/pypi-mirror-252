@@ -1,0 +1,9 @@
+LICENSE
+README.txt
+setup.py
+vacalc.py
+vawelcome.py
+varuacademyatools.egg-info/PKG-INFO
+varuacademyatools.egg-info/SOURCES.txt
+varuacademyatools.egg-info/dependency_links.txt
+varuacademyatools.egg-info/top_level.txt
