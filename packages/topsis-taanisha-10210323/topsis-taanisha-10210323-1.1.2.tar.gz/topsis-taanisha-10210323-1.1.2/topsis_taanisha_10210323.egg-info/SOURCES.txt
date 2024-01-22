@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Topsis/__init__.py
+Topsis/__main__.py
+topsis_taanisha_10210323.egg-info/PKG-INFO
+topsis_taanisha_10210323.egg-info/SOURCES.txt
+topsis_taanisha_10210323.egg-info/dependency_links.txt
+topsis_taanisha_10210323.egg-info/entry_points.txt
+topsis_taanisha_10210323.egg-info/requires.txt
+topsis_taanisha_10210323.egg-info/top_level.txt
