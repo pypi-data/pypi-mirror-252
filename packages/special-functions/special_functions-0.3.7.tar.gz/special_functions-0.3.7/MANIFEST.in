@@ -1,0 +1,43 @@
+global-include *.pyx
+global-include *.pxd
+global-include meson.build
+
+global-exclude *.py[cod] __pycache__
+global-exclude *.so *.dll *.dylib
+global-exclude *.o
+global-exclude *.swp
+
+recursive-include special_functions *.py
+recursive-include special_functions *.rst
+recursive-include special_functions *.h
+recursive-include special_functions *.c
+recursive-include special_functions *.f
+recursive-include special_functions *.mak
+recursive-include special_functions *.rsp
+
+include CHANGELOG.rst
+include README.rst
+include AUTHORS.txt
+include LICENSE.txt
+include requirements.txt
+include pyproject.toml
+
+exclude tox.ini
+exclude environment.yml
+exclude TODO.rst
+exclude .cirrus.star
+exclude .coverage
+exclude .coveragerc
+exclude .gitattributes
+exclude .tokeignore
+
+prune docs
+prune tmp
+prune conda-recipe
+prune notebooks
+prune examples
+prune tests
+prune tools
+prune .git
+prune .github
+prune .tox
