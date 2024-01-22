@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convection-suite"
+version = "1.0.0"
+authors = [
+  { name="AccidentallyTheCable", email="cableninja@cableninja.net" },
+]
+description = "Convection Suite of tools"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPLv3" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Security :: Cryptography"
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ["dummy*","automation*","automation/scripts/*"]
+
+[tool.setuptools.package-data]
+'*' = ["*.md"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://gitlab.com/accidentallythecable-public/convection-suite/"
+

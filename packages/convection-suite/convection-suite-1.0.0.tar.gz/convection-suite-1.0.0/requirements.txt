@@ -1,0 +1,8 @@
+convection-shared >=1.0,<=2.0
+convection-secrets-manager >=1.0,<=2.0
+convection-secrets-client >=1.0,<=2.0
+convection-plugin-secrets-generic >=1.0,<=2.0
+convection-plugin-secrets-passdb >=1.0,<=2.0
+#convection-iac >=1.0,<=2.0
+#convection-plugin-accessor-ssh >=1.0,<=2.0
+#convection-plugin-connector-proxmox-lxc >=1.0,<=2.0

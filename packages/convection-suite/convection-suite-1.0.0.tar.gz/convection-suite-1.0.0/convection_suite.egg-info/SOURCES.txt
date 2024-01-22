@@ -1,0 +1,16 @@
+.gitignore
+.gitlab-ci.include.yml
+.gitlab-ci.yml
+.mypy.ini
+.pylintrc
+Makefile
+README.md
+project.mk
+pyproject.toml
+requirements.txt
+convection_suite.egg-info/PKG-INFO
+convection_suite.egg-info/SOURCES.txt
+convection_suite.egg-info/dependency_links.txt
+convection_suite.egg-info/requires.txt
+convection_suite.egg-info/top_level.txt
+dummy/empty.py

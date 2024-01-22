@@ -1,0 +1,5 @@
+convection-shared<=2.0,>=1.0
+convection-secrets-manager<=2.0,>=1.0
+convection-secrets-client<=2.0,>=1.0
+convection-plugin-secrets-generic<=2.0,>=1.0
+convection-plugin-secrets-passdb<=2.0,>=1.0
