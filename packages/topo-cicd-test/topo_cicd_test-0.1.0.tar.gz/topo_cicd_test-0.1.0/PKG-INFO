@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: topo-cicd-test
+Version: 0.1.0
+Summary: A simple Python project to demonstrate CI/CD with Hatch.
+Author-email: Your Name <tvallas@iki.fi>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pipeline testing repo 
+
+The purpose of this repository is to test and practise building ci/cd pipeline for a python project.
+
+The pipeline consists of stages:
+
+  - lint
+  - test
+  - build
+  - release
+  - publish
+  - containerize

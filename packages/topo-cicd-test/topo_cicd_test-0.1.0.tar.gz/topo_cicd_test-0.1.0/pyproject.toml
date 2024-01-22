@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "topo-cicd-test"
+version = "0.1.0"
+description = "A simple Python project to demonstrate CI/CD with Hatch."
+authors = [
+    { name = "Your Name", email = "tvallas@iki.fi" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.scripts]
+topo-cicd-test = "topo-cicd-test.run:run"
+
+[tool.flake8]
+max-line-length = 120
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.semantic_release]
+version_variable = "src/__init__.py:__version__"
+branch = "main"
+upload_to_pypi = "false"
+#pypi_token = "PYPI_TOKEN"
+
+[tool.semantic_release.remote]
+type = "gitlab"
