@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: Topsis-Chirag-102103554
+Version: 1.0.0
+Summary: A python package for Multiple Criteria Decision Making (MCDM) using Topsis
+Home-page: https://github.com/chirag21120/TOPSIS-Chirag-102103554
+Download-URL: https://github.com/chirag21120/TOPSIS-Chirag-102103554/archive/v1.0..0tar.gz
+Author: Chirag Mohan Gupta
+Author-email: mohanchirag2002@gmail.com
+License: MIT
+Keywords: TOPSIS,102103554,Chirag Mohan Gupta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# TOPSIS
+
+It is a method of compensatory aggregation that compares a set of alternatives by identifying weights for each criterion, normalising scores for each criterion and calculating the geometric distance between each alternative and the ideal alternative, which is the best score in each criterion.
+
+### Installation
+
+```sh
+>> pip install TOPSIS-Chirag-102103554
+```
+### How to run in command prompt
+
+```sh
+>> from Topsis_Chirag_102103554.topsis_102103554 import topsis
+>> topsis("data.csv","1,1,1,2","+,+,-,+","result.csv")
+```
+
+### Input File (data.csv)
+1) Input file contain three or more columns
+2) First column is the object/variable name (e.g. M1, M2, M3, M4â€¦...)
+3) From 2nd to last columns contain numeric values only
+
+### Output File (result.csv)
+Result file contains all the columns of input file and two additional columns having
+TOPSIS SCORE and RANK
+
+License
+----
+
+MIT
