@@ -1,0 +1,10 @@
+owocr/__init__.py,sha256=fi3dWQOLZ_p_jikAbFP_jLBQcpn0aF8Zuemf9bV7WpQ,51
+owocr/__main__.py,sha256=uKJOwvLrJO6dHmQh7FvAMmN67Jv7p9h7JBkPeqGL3aw,123
+owocr/ocr.py,sha256=r70qPTwu45gUzYoUHjLzgbSzaQvzteFljZuMtoo6eHw,14795
+owocr/run.py,sha256=z5YvNj64fJDNZM6ybP8u3IqmhUBzshgN6p4Pl4A1t0o,18105
+owocr-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+owocr-1.0.dist-info/METADATA,sha256=74h5iN3TdluI9faeIkCwaZFyCCE3vuSRVF1YpHPjM6I,4568
+owocr-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+owocr-1.0.dist-info/entry_points.txt,sha256=2bkrz6OvchWcAYgkqhgnL5unxYtfM2-VrlecsDRof4Q,46
+owocr-1.0.dist-info/top_level.txt,sha256=LBpKSnsrXKDVZurKGeVybb7KZ5pRipivl-ZiGOxeFDY,6
+owocr-1.0.dist-info/RECORD,,
