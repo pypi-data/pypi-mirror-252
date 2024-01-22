@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: draws
+Version: 1.0.0a0
+Summary: Lightweight AWS Diagram Automation
+Author: Jessica Lynch
+License: MIT
+Project-URL: repository, https://github.com/jessicalynch/draws
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: AWS CDK
+Classifier: Topic :: Documentation
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest >=7.4.2 ; extra == 'dev'
+Requires-Dist: black >=23.9.1 ; extra == 'dev'
+
+# draws
+
+Lightweight AWS Diagram Automation
