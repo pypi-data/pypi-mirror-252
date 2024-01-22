@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+topsis_sanjana_102103040/__init__.py
+topsis_sanjana_102103040/topsis.py
+topsis_sanjana_102103040.egg-info/PKG-INFO
+topsis_sanjana_102103040.egg-info/SOURCES.txt
+topsis_sanjana_102103040.egg-info/dependency_links.txt
+topsis_sanjana_102103040.egg-info/entry_points.txt
+topsis_sanjana_102103040.egg-info/requires.txt
+topsis_sanjana_102103040.egg-info/top_level.txt
