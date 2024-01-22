@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = topsis_iyasha_102103034.topsis:main
