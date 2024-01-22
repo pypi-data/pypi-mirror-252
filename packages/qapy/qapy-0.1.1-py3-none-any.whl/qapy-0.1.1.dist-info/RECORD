@@ -1,0 +1,10 @@
+qapy/algebra.py,sha256=3hNiSzzbwDHd3OgRRGMJy1v7Rx6kZRrLZ3djJhex1T8,5512
+qapy/algebra_core.py,sha256=XFTLQqclCKEMyrEI7bJRLouguP5aIM3yOdfFhhhGsDA,19683
+qapy/algebra_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qapy/algebra_ext/toolbox.py,sha256=bF07BAZHCzjBgTiEExKgXAkhIzsgqIxEfONOGLop5K4,2563
+qapy/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qapy-0.1.1.dist-info/LICENCE,sha256=ZW7AKcPB8HIHdtQQqIwjxAbtsYO49ynW9t5l81qM9HE,385
+qapy-0.1.1.dist-info/METADATA,sha256=YtMmZxLUfjfUcJ8Y6KzboYGb-ysSBpNsReuvkg5_Dlg,19411
+qapy-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+qapy-0.1.1.dist-info/top_level.txt,sha256=Wvo7jayznC74OmzTtIQUnATeiKvdblrC45mCymaYqV0,5
+qapy-0.1.1.dist-info/RECORD,,
