@@ -1,0 +1,16 @@
+proksee_batch/__init__.py,sha256=4s6VPwqpeg2btUd7sYxMdKh0x4hEzQGCmkRb9bKeQRo,21
+proksee_batch/__main__.py,sha256=c7WzjgKk3uhcAv5SX6J04WEuEnd_-Z2EHFDPxtQJQW4,9997
+proksee_batch/data/default_proksee_template.json,sha256=gjpXQAgtmwuPtXEBhLLWJ8Xu_-Q6HT9wBeFcb6G3Gaw,415206
+proksee_batch/genbank_to_cgview_json.py,sha256=UnZo254OLf_qALPbzJT8ReVGlPYxCjAAi2fb1iR79xE,7874
+proksee_batch/generate_proksee_link.py,sha256=pxnolaG3SV4N6Sw6c_w9wGdBYBjIF9kzKqCqxmBu2Zw,895
+proksee_batch/generate_report_html.py,sha256=apjFFx5JLnH0TgrkjxvgfwGj5IGFKFnb-gHhcumln2Q,8805
+proksee_batch/get_stats_from_genbank.py,sha256=LtXRqzWVcTwfMs9He4eeWtSJ4JSZcHqsZFW3R1axpDA,881
+proksee_batch/merge_cgview_json_with_template.py,sha256=T0XtvYLob8moWkEQmnGl_TaZ3RFsbRuhEyfsmI-qu3s,1952
+proksee_batch/parse_additional_features.py,sha256=Jm4m-yCIr4TJbPc_a7ajQkzP9L5mX2tnL-tdyhqB8uY,9156
+proksee_batch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proksee_batch/scrape_proksee_image.py,sha256=cfCvqcbLuObb3p6QoQ5A34mcrKoRpHjnSkTNJ59Sh5I,2658
+proksee_batch-0.1.11.dist-info/LICENSE,sha256=NWFMHY-bv8AZI4ZrVDv5f_MHSVUe0M4-ZxAGutE8Prg,1070
+proksee_batch-0.1.11.dist-info/METADATA,sha256=FR7psde8mSDJ4uJ-djl4d8Z4VGdV8iLDB-zDXWLd-wk,4985
+proksee_batch-0.1.11.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+proksee_batch-0.1.11.dist-info/entry_points.txt,sha256=HByViW5TfAi4jhUBxOzWlqdH63_uZ1OSDuDuvTPAG6Q,61
+proksee_batch-0.1.11.dist-info/RECORD,,
