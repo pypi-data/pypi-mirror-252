@@ -1,0 +1,2 @@
+[console_scripts]
+topsis-thapar = topsis_akashdeep_102103243.main:main

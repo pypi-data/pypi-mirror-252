@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+topsis/__init__.py
+topsis/__main__.py
+topsis_akashdeep_102103243.egg-info/MANIFEST.in
+topsis_akashdeep_102103243.egg-info/PKG-INFO
+topsis_akashdeep_102103243.egg-info/SOURCES.txt
+topsis_akashdeep_102103243.egg-info/dependency_links.txt
+topsis_akashdeep_102103243.egg-info/entry_points.txt
+topsis_akashdeep_102103243.egg-info/requires.txt
+topsis_akashdeep_102103243.egg-info/top_level.txt
