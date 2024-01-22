@@ -1,0 +1,6 @@
+README.md
+setup.py
+math_paches_fortran.egg-info/PKG-INFO
+math_paches_fortran.egg-info/SOURCES.txt
+math_paches_fortran.egg-info/dependency_links.txt
+math_paches_fortran.egg-info/top_level.txt
