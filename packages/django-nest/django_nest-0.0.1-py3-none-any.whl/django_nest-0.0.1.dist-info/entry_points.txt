@@ -1,0 +1,4 @@
+[console_scripts]
+django-nest=django_nest.main:cli
+runserver=django_nest.scripts.start-local
+
