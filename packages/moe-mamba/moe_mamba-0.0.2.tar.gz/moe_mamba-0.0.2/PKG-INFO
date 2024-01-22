@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: moe-mamba
+Version: 0.0.2
+Summary: Paper - Pytorch
+Home-page: https://github.com/kyegomez/MoE-Mamba
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: einops
+Requires-Dist: swarms
+Requires-Dist: torch
+Requires-Dist: zetascale
+Project-URL: Documentation, https://github.com/kyegomez/MoE-Mamba
+Project-URL: Repository, https://github.com/kyegomez/MoE-Mamba
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# MoE Mamba
+Implementation of MoE Mamba from the paper: "MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts" in Pytorch and Zeta. 
+
+[PAPER LINK](https://arxiv.org/abs/2401.04081)
+
+
+## Install
+
+```bash
+pip install moe-mamba
+```
+
+## Usage
+
+### `MoEMambaBlock` 
+```python
+import torch 
+from moe_mamba import MoEMambaBlock
+
+x = torch.randn(1, 10, 512)
+model = MoEMambaBlock(
+    dim=512,
+    depth=6,
+    d_state=128,
+    expand=4,
+    num_experts=4,
+)
+out = model(x)
+print(out)
+
+```
+
+
+
+## Code Quality 🧹
+
+- `make style` to format the code
+- `make check_code_quality` to check code quality (PEP8 basically)
+- `black .`
+- `ruff . --fix`
+
+
+## Citation
+```bibtex
+@misc{pióro2024moemamba,
+    title={MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts}, 
+    author={Maciej Pióro and Kamil Ciebiera and Krystian Król and Jan Ludziejewski and Sebastian Jaszczur},
+    year={2024},
+    eprint={2401.04081},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+```
+
+
+# License
+MIT
+
