@@ -1,0 +1,43 @@
+stages:
+  - pre
+  - build
+  - test
+  - publish
+
+default:
+  tags:
+    - linux
+    - docker
+
+.python_matrix: &python_matrix
+  parallel:
+    matrix:
+    - PYTHON_VERSION: [ "3.7", "3.8", "3.9", "3.10", "3.11"]
+  rules:
+  - if: $CI_COMMIT_REF_PROTECTED == "true"
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+lint:
+  !!merge <<: *python_matrix
+  image: python:$PYTHON_VERSION-buster
+  stage: pre
+  script:
+    - pip install -r requirements.txt
+    - hatch run lint:all
+
+test:
+  !!merge <<: *python_matrix
+  image: python:$PYTHON_VERSION-buster
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - hatch run test
+
+publish:pypi:
+  image: python:3.9-buster
+  stage: publish
+  script:
+    - pip install -r requirements.txt
+    - hatch publish dist -r main -u __token__ -p $PYPI_TOKEN
+  rules:
+    - if: "$CI_COMMIT_REF_NAME =~ /^v[0-9]+.[0-9]+.[0-9]+$/"
