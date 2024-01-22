@@ -1,0 +1,36 @@
+[project]
+name = 'django-object-lock'
+version = '1.0.0'
+authors = [
+    { name = 'Daikoderu', email = 'daikoderu@gmail.com' },
+]
+description = 'Lock your model instances to prevent their unintended modification or deletion.'
+readme = 'README.md'
+license = { file = 'LICENSE' }
+requires-python = '>=3.8'
+dependencies = [
+    'django',
+]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Natural Language :: English',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+
+[project.urls]
+'Homepage' = 'https://github.com/daikoderu/django-object-lock'
+
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools.package-data]
+django_object_lock = [
+    'static/django_object_lock/images/*.*',
+    'static/django_object_lock/css/*.css',
+    'templates/django_object_lock/*.html',
+]
