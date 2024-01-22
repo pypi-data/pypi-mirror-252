@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: model_compiler_for_papyrusrt
+Version: 1.0.0
+Summary: A build tool for projects using Papyrus-RT.
+Home-page: https://github.com/Bacondish2023/model_compiler_for_papyrusrt
+Author: Hidekazu TAKAHASHI
+Author-email: 139677991+Bacondish2023@users.noreply.github.com
+License: Eclipse Public License 1.0
+Description: UNKNOWN
+Keywords: development build-tool papyrusrt modeling
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Eclipse Public License 1.0 (EPL-1.0)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
