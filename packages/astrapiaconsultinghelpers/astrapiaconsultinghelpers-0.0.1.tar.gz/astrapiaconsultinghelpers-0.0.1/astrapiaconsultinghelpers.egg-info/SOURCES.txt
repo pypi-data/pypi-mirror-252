@@ -1,0 +1,8 @@
+setup.py
+astrapiaconsultinghelpers.egg-info/PKG-INFO
+astrapiaconsultinghelpers.egg-info/SOURCES.txt
+astrapiaconsultinghelpers.egg-info/dependency_links.txt
+astrapiaconsultinghelpers.egg-info/requires.txt
+astrapiaconsultinghelpers.egg-info/top_level.txt
+helpers/__init__.py
+helpers/utils.py
