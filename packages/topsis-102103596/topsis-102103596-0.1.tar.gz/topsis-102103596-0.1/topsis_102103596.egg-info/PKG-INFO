@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: topsis-102103596
+Version: 0.1
+Summary: Calculates the topsis score
+Home-page: https://github.com/Hitesh-Aggarwal/topsis-102103596
+Download-URL: https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_01.tar.gz
+Author: Hitesh Aggarwal
+Author-email: haggarwal_be21@thapar.edu
+License: MIT
+Keywords: topsis,Decision,Multi,Criteria
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
