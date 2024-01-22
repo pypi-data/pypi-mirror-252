@@ -1,0 +1,15 @@
+video_sampler/__init__.py,sha256=IJAn3zRi6hpgcqfcN68Mo2zH8g3JqXhJ1yJC5bS7NlE,508
+video_sampler/__main__.py,sha256=6to-dJBhTOuZ_yfw30aSNjFd2okaS8pCoDVQZvy62g8,8415
+video_sampler/buffer.py,sha256=O8kybV09EtojvC8pMMh5WUNeAGdvS1CFX-_FnJnH1sc,15316
+video_sampler/gating.py,sha256=uiiB8g8HtBj670Yh4OYp2TOkC4DDtEULeBQc2IpJui4,6518
+video_sampler/logging.py,sha256=xhe5iCR1YtLqB3ox3Wb3CYq6MMXOOqO0alxtFHiMeJY,223
+video_sampler/sampler.py,sha256=iRmxoCRklHcwUUYFCDRjbK39HasZd---0-ub4GlJlsM,5282
+video_sampler/schemas.py,sha256=NXeVL0bPTQVL2OWtOmi6YAylm-ZMp0hWTw4i4S203Ik,664
+video_sampler/ttl_counter.py,sha256=mtP6hgqp_QwORgmT_AoQ0JdbRnPi9N9QSdadjSf55oA,778
+video_sampler/utils.py,sha256=fppXyPKLwZuZhtnG76dtmecD848Llz-VNxurGu6Wvpw,362
+video_sampler/visualisation/clustering.py,sha256=L8jhTrC3kmFWVjE-BgMUhFCkQiPfYC0LKc4iuwRRdWM,1946
+video_sampler-0.7.0.dist-info/entry_points.txt,sha256=i8WHo5c7Q5fyHE_OiqLNsYReW0MFr38aVhToixIplMQ,66
+video_sampler-0.7.0.dist-info/LICENSE,sha256=_OoTBsHOIRY-PnbtZLcMHEeYrOB-CjokVTjpHLeIxjo,1079
+video_sampler-0.7.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+video_sampler-0.7.0.dist-info/METADATA,sha256=luKp_H8l_UNllPVQOkv2et-fS3KoA7qD-nFmRCiEoy8,10507
+video_sampler-0.7.0.dist-info/RECORD,,
