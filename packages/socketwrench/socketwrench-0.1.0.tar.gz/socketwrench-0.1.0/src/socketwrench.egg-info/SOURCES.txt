@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/socketwrench/__init__.py
+src/socketwrench/connection.py
+src/socketwrench/handlers.py
+src/socketwrench/server.py
+src/socketwrench/types.py
+src/socketwrench.egg-info/PKG-INFO
+src/socketwrench.egg-info/SOURCES.txt
+src/socketwrench.egg-info/dependency_links.txt
+src/socketwrench.egg-info/top_level.txt
