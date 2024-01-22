@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: working-tree
+Version: 0.0.1b4
+Home-page: https://github.com/ChogirmaliYigit/working-tree
+Author: Jahongir Ibragimov
+Author-email: chogirmali.yigit@gmail.com
+License: MIT
+Keywords: working tree
+Requires-Dist: gitignore-parser ==0.1.11
+Requires-Dist: pyyaml ==6.0.1
+
