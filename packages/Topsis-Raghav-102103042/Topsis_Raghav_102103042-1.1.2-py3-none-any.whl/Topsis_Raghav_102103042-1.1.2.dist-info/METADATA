@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Topsis-Raghav-102103042
+Version: 1.1.2
+Summary: Done by Raghav Dargan
+Home-page: 
+Author: Raghav Dargan
+Author-email: raghavdargan123@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+## Name : Raghav Dargan
+## Roll No: 102103042
