@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = Topsis_Piyush_102103413.main:main
