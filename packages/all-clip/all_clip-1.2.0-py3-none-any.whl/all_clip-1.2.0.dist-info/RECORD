@@ -1,0 +1,13 @@
+all_clip/__init__.py,sha256=933aT1fs3KgUnvKSe_Ot0Ypxa4TkUD21GpdkuKqrX-U,52
+all_clip/deepsparse_clip.py,sha256=QKWCszGZt8fJvihm-JkPmj7nd7A2hRHzCWA-ufG3mCE,3416
+all_clip/hf_clip.py,sha256=-N8vI5wzjJ7m3wNE8gNjhqS2qjlJNG9mlTMHf52bZd4,1785
+all_clip/ja_clip.py,sha256=WIFk2osRikGrb4SY2YAY-wCVnDRxVzXBVpni1heZRM0,2415
+all_clip/main.py,sha256=AVCBbk2T2prgQIf9HtUNHuaPItelkVSs-DBtp5G1x2I,2119
+all_clip/open_clip.py,sha256=Qh36V9SeQlJqJrUF4mEl7mKwwsViEfKlWNhqG_EuRFI,1973
+all_clip/openai_clip.py,sha256=U1Z2BVkkKGN-8-v78FdIsPgOUJFvz_0hWzSVQIbCwT0,392
+all_clip-1.2.0.data/data/README.md,sha256=jO0hsgSUpE4bTBAwirwle0b5HNArCijGyzFlf_LbpC0,3591
+all_clip-1.2.0.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+all_clip-1.2.0.dist-info/METADATA,sha256=xwvuzR13qRW0bOv9Xs3rreuJtqjLMzXCWgL-CqZXHx4,4370
+all_clip-1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+all_clip-1.2.0.dist-info/top_level.txt,sha256=YM_4QK9UnvVO4X7S9U6xyASZ9ZEHnulD4GBXr-uv-Ug,9
+all_clip-1.2.0.dist-info/RECORD,,
