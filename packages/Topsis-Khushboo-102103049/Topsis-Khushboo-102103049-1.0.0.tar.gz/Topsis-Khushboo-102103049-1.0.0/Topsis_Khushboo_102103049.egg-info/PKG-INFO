@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Topsis-Khushboo-102103049
+Version: 1.0.0
+Summary: Performs TOPSIS
+Home-page: https://github.com/lookitskhushboo/Topsis-Khushboo-102103049
+Author: Khushboo Gupta
+Author-email: kgupta13_be21@thapar.edu
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kushboo Topsis
+Topsis implementation on input file to get an output file.
+
+## Installation
+```pip install Topsis-Khushboo-102103049```
+
+## License
+
+Â© 2024 Khushboo Gupta
+
+This repository is licensed under the MIT license. See LICENSE for details.
