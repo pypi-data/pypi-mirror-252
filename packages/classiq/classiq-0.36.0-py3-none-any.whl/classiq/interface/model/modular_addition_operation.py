@@ -1,0 +1,24 @@
+from typing import Mapping
+
+import pydantic
+
+from classiq.interface.helpers.pydantic_model_helpers import nameables_to_dict
+from classiq.interface.model.handle_binding import HandleBinding
+from classiq.interface.model.quantum_statement import QuantumOperation
+
+from classiq.exceptions import ClassiqValueError
+
+
+class ModularAdditionOperation(QuantumOperation):
+    target: HandleBinding
+    value: HandleBinding
+
+    @property
+    def wiring_inouts(self) -> Mapping[str, HandleBinding]:
+        return nameables_to_dict([self.target, self.value])
+
+    @pydantic.validator("target", "value")
+    def validate_handle(cls, handle: HandleBinding) -> HandleBinding:
+        if not handle.is_bindable():
+            raise ClassiqValueError(f"Cannot bind '{handle}'")  # noqa: B907
+        return handle
