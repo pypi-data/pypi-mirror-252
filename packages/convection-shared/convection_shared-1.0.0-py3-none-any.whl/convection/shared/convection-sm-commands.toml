@@ -1,0 +1,720 @@
+[auth_args.access_key_id]
+required = false
+type = "str"
+cli_flag_names = [ "--access-key-id" ]
+help = "Access Key ID"
+[auth_args.auth_token]
+required = false
+type = "str"
+cli_flag_names = [ "--auth-token" ]
+help = "AuthToken"
+[auth_args.auth_file]
+required = false
+type = "str"
+cli_flag_names = [ "-A", "--auth-file" ]
+help = "Path to AuthFile (See Documentation for usage)"
+
+[commands.start]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = true
+help = "Start Convection Secrets Manager"
+group = "Internal"
+ui_label = " "
+
+[commands.stop]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = true
+help = "Stop Convection Secrets Manager"
+group = "Internal"
+ui_label = " "
+
+[commands.run]
+access_mode = "r"
+auth_required = false
+cli_hidden = true
+api_hidden = true
+help = "Run Secret Manager (Internal)"
+group = "Internal"
+ui_label = " "
+
+[commands.command_list]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = false
+help = "List of Commands"
+group = "General"
+ui_label = "Command List"
+
+[commands.status]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = false
+help = "Get KeyDB Lock/Unlock Status"
+group = "General"
+ui_label = "Server Status"
+
+[commands.default_config]
+access_mode = "rwmd"
+auth_required = false
+cli_hidden = false
+api_hidden = true
+help = "Create Default Configuration"
+group = "General"
+ui_label = " "
+
+[commands.initialize]
+access_mode = "rwmd"
+auth_required = false
+cli_hidden = false
+api_hidden = true
+help = "Initialize new KeyDB (DESTRUCTIVE OPERATION)"
+group = "General"
+ui_label = " "
+[commands.initialize.args.num_keys]
+cli_flag_names = [ "--num-keys" ]
+type = "int"
+required = false
+default = 5
+help = "Number of Root Keys to Generate"
+[commands.initialize.args.public_key]
+cli_flag_names = [ "--public-key" ]
+type = "str"
+required = true
+help = "Public Key to use for Root User, Path or Content"
+
+[commands.unlock]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = true
+help = "Unlock KeyDB Database for Access"
+group = "General"
+ui_label = "Unlock Server"
+[commands.unlock.args.unlock_key]
+cli_flag_names = [ "--unlock-key" ]
+type = "str"
+required = true
+help = "Key to unlock with"
+
+[commands.lock]
+access_mode = "rw"
+auth_required = true
+cli_hidden = false
+api_hidden = true
+help = "Re-lock KeyDB"
+group = "General"
+ui_label = "Lock Server"
+
+[commands.rotate_root_keys]
+access_mode = "rwm"
+auth_required = true
+cli_hidden = false
+api_hidden = true
+help = "Rotate KeyDB Unlock Keys"
+group = "Key Management"
+ui_label = "KeyDB Rotate"
+[commands.rotate_root_keys.args.num_keys]
+cli_flag_names = [ "--num-keys" ]
+type = "int"
+required = false
+default = 5
+help = "Number of Root Keys to Generate"
+
+[commands.authorize]
+access_mode = "r"
+auth_required = false
+cli_hidden = false
+api_hidden = false
+help = "Authenticate With Server"
+group = "User Management"
+ui_label = "Login"
+[commands.authorize.args.access_key_id]
+cli_flag_names = [ "--access-key-id" ]
+type = "str"
+required = false
+help = "Access Key ID"
+[commands.authorize.args.auth_file]
+cli_flag_names = [ "-A", "--auth-file" ]
+type = "str"
+required = false
+help = "AuthFile (See Documentation for usage)"
+[commands.authorize.args.private_key]
+cli_flag_names = [ "--private-key" ]
+type = "str"
+required = false
+help = "Private Key, Path or Content"
+[commands.authorize.args.key_password]
+cli_flag_names = [ "--key-password" ]
+type = "str"
+required = false
+help = "Password for Private Key (if used)"
+[commands.authorize.args.expire_time]
+cli_flag_names = [ "--expire-time" ]
+type = "str"
+required = false
+help = "Expiration Time; format is (\\d+Y)?(\\d+M)?(\\d+w)?(\\d+d)?(\\d+h)?(\\d+m)?(\\d+s)?(\\d+ms) (EX: 4h20m)"
+
+[commands.deauth]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Logout/Deauthenticate"
+group = "User Management"
+ui_label = "Logout"
+
+[commands.audit_user]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display User stats and ACL / Group attachment info"
+group = "User Management"
+ui_label = "User Info"
+[commands.audit_user.args.user_name]
+cli_flag_names = [ "--user-name" ]
+type = "str"
+required = true
+help = "User Name to display info for"
+
+[commands.audit_group]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display Users and ACLs attached to Group"
+group = "Group Management"
+ui_label = "Group Info"
+[commands.audit_group.args.group_name]
+cli_flag_names = [ "--group-name" ]
+type = "str"
+required = true
+help = "User Name to display info for"
+
+[commands.audit_acl]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display ACL information"
+group = "ACL Management"
+ui_label = "ACL Info"
+[commands.audit_acl.args.acl_name]
+cli_flag_names = [ "--acl-name" ]
+type = "str"
+required = true
+help = "ACL Name to display info for"
+
+[commands.list_groups]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display all registered Group Names"
+group = "Group Management"
+ui_label = "Groups"
+
+[commands.list_users]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display all registered User Names"
+group = "User Management"
+ui_label = "Users"
+
+[commands.list_acls]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Display all registered ACLs"
+group = "ACL Management"
+ui_label = "ACLs"
+
+[commands.list_stores]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "List Secrets Stores"
+group = "Store Management"
+ui_label = "Stores"
+
+[commands.list_keysets]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "List KeySets"
+group = "Key Management"
+ui_label = "Keysets"
+
+[commands.list_store_types]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "List Store Type Names"
+group = "General"
+ui_label = "Store Types"
+
+[commands.list_hook_types]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "List Hook Type Names"
+group = "General"
+ui_label = "Hook Types"
+
+[commands.list_secrets]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "List Registered Secrets in Secret Store"
+group = "Secret Management"
+ui_label = "Secrets"
+[commands.list_secrets.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to List Secrets from"
+[commands.list_secrets.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`. See Documentation for Secrets Store type of the Secret Store you're operating on"
+
+[commands.create_user]
+access_mode = "wm"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create New User and/or new Access Key ID"
+group = "User Management"
+ui_label = "Create"
+[commands.create_user.args.user_name]
+cli_flag_names = [ "--user-name" ]
+type = "str"
+required = true
+help = "Username to create"
+[commands.create_user.args.public_key]
+cli_flag_names = [ "--public-key" ]
+type = "str"
+required = true
+help = "Public Key to use for new User, Path or Content. For Console, Prefix with an `@` for file. EX: `@/path/to/pub.key`"
+
+[commands.create_group]
+access_mode = "w"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create a new AuthDB Group"
+group = "Group Management"
+ui_label = "Create"
+[commands.create_group.args.group_name]
+cli_flag_names = [ "--group-name" ]
+type = "str"
+required = true
+help = "Group Name to create (Must be unique)"
+
+[commands.create_keyset]
+access_mode = "w"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create new KeySet"
+group = "Key Management"
+ui_label = "Create"
+[commands.create_keyset.args.keyset_name]
+cli_flag_names = [ "--keyset-name" ]
+type = "str"
+required = true
+help = "KeySet Name to create"
+
+[commands.create_acl]
+access_mode = "w"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create a new User / Group ACL"
+group = "ACL Management"
+ui_label = "Create"
+[commands.create_acl.args.mode]
+cli_flag_names = [ "--mode" ]
+type = "str"
+required = true
+help = "Set ACL as Allow (allow) / Deny (deny)"
+[commands.create_acl.args.access_mode]
+cli_flag_names = [ "--access-mode" ]
+type = "str"
+required = true
+help = "Set Access Type allow/disallow, combined as needed. `r` (Read), `w` (Write), `m` (Modify), `d` (Delete)"
+[commands.create_acl.args.acl_name]
+cli_flag_names = [ "--acl-name" ]
+type = "str"
+required = true
+help = "ACL Name, must be unique"
+[commands.create_acl.args.acl_type]
+cli_flag_names = [ "--acl-type" ]
+type = "str"
+required = true
+help = "Type of ACL to create. See Documentation"
+[commands.create_acl.args.commands]
+cli_flag_names = [ "--command" ]
+type = "str"
+required = false
+help = "Regex Pattern(s) to check commands against; Required when ACL Type is ACLCommand"
+multi = true
+[commands.create_acl.args.store_paths]
+cli_flag_names = [ "--store-path" ]
+type = "str"
+required = false
+help = "Regex Pattern(s) to check Secrets Storage Paths against; (One of, or Both) Required when ACL Type is ACLStore"
+multi = true
+[commands.create_acl.args.secret_names]
+cli_flag_names = [ "--secret-name" ]
+type = "str"
+required = false
+help = "Regex Pattern(s) to check Secrets Names against; (One of, or Both) Required when ACL Type is ACLStore"
+multi = true
+
+[commands.create_store]
+access_mode = "w"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create a new Secrets Store"
+group = "Store Management"
+ui_label = "Create"
+[commands.create_store.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name / Path to create. Must be unique"
+[commands.create_store.args.keyset_name]
+cli_flag_names = [ "--keyset-name" ]
+type = "str"
+required = true
+help = "KeySet Name to use for Store"
+[commands.create_store.args.store_type]
+cli_flag_names = [ "--store-type" ]
+type = "str"
+required = true
+help = "Secrets Store Storage Type"
+[commands.create_store.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`, or json string. See Documentation for Secrets Store type of the Secret Store you're operating on"
+
+[commands.create_secret]
+access_mode = "w"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create a new Secret within an existing Secret Store"
+group = "Secret Management"
+ui_label = "Create"
+[commands.create_secret.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to add Secret to"
+[commands.create_secret.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`. See Documentation for the Secrets Store type of the Secret Store you're operating on"
+
+[commands.attach_group]
+access_mode = "wm"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Attach Group to User"
+group = "Group Management"
+ui_label = "Attach"
+[commands.attach_group.args.user_name]
+cli_flag_names = [ "--user-name" ]
+type = "str"
+required = true
+help = "User Name to Add to Group"
+[commands.attach_group.args.group_name]
+cli_flag_names = [ "--group-name" ]
+type = "str"
+required = true
+help = "Group Name to place User in"
+
+[commands.attach_acl]
+access_mode = "wm"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Attach ACL to User or Group"
+group = "ACL Management"
+ui_label = "Attach"
+[commands.attach_acl.args.acl_name]
+cli_flag_names = [ "--acl-name" ]
+type = "str"
+required = true
+help = "ACL Name to attach"
+[commands.attach_acl.args.attach_type]
+cli_flag_names = [ "--attach-type" ]
+type = "str"
+required = true
+help = "Attach to type; Group (group) / User (user)"
+[commands.attach_acl.args.attach_name]
+cli_flag_names = [ "--attach-name" ]
+type = "str"
+required = true
+help = "Name of Group or User to attach ACL to"
+
+[commands.detach_group]
+access_mode = "md"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Remove a User from a Group"
+group = "Group Management"
+ui_label = "Remove"
+[commands.detach_group.args.user_name]
+cli_flag_names = [ "--user-name" ]
+type = "str"
+required = true
+help = "User Name to Remove from Group"
+[commands.detach_group.args.group_name]
+cli_flag_names = [ "--group-name" ]
+type = "str"
+required = true
+help = "Group Name to remove User from"
+
+[commands.detach_acl]
+access_mode = "md"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Remove ACL to User or Group"
+group = "ACL Management"
+ui_label = "Detach"
+[commands.detach_acl.args.acl_name]
+cli_flag_names = [ "--acl-name" ]
+type = "str"
+required = true
+help = "ACL Name to attach"
+[commands.detach_acl.args.detach_type]
+cli_flag_names = [ "--detach-type" ]
+type = "str"
+required = true
+help = "Detach from type; Group (group) / User (user)"
+[commands.detach_acl.args.detach_name]
+cli_flag_names = [ "--detach-name" ]
+type = "str"
+required = true
+help = "Name of Group or User to detach ACL from"
+
+[commands.remove_access]
+access_mode = "md"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Remove a User / Access Key ID / Public Key, see docs for info"
+group = "User Management"
+ui_label = "Remove"
+[commands.remove_access.args.user_name]
+cli_flag_names = [ "--user-name" ]
+type = "str"
+required = false
+help = "Username to Operate on, if known, or to remove completely, if no --remove-* provided"
+[commands.remove_access.args.remove_access_key_id]
+cli_flag_names = [ "--remove-access-key-id" ]
+type = "str"
+required = false
+help = "Access Key ID to Remove/Revoke"
+[commands.remove_access.args.remove_public_key]
+cli_flag_names = [ "--remove-public-key" ]
+type = "str"
+required = false
+help = "Public Key to Remove/Revoke"
+
+[commands.remove_acl]
+access_mode = "md"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Destroy ACL (Completely Remove from Groups, Delete entirely)"
+group = "ACL Management"
+ui_label = "Remove"
+[commands.remove_acl.args.acl_name]
+cli_flag_names = [ "--acl-name" ]
+type = "str"
+required = true
+help = "ACL Name to destroy"
+
+[commands.remove_group]
+access_mode = "md"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Destroy Group (Remove Users from Group, Delete Group)"
+group = "Group Management"
+ui_label = "Remove"
+[commands.remove_group.args.group_name]
+cli_flag_names = [ "--group-name" ]
+type = "str"
+required = true
+help = "Group Name to destroy"
+
+[commands.remove_store]
+access_mode = "d"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Remove a Secrets Store and all of its data"
+group = "Store Management"
+ui_label = "Remove"
+[commands.remove_store.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name / Path to delete"
+
+[commands.remove_keyset]
+access_mode = "d"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Remove a KeySet. Must not have any associated Stores"
+group = "Key Management"
+ui_label = "Remove"
+[commands.remove_keyset.args.keyset_name]
+cli_flag_names = [ "--keyset-name" ]
+type = "str"
+required = true
+help = "KeySet Name to delete"
+
+[commands.rotate_keyset]
+access_mode = "m"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Rotate Keys in an Existing KeySet"
+group = "Key Management"
+ui_label = "Rotate"
+[commands.rotate_keyset.args.keyset_name]
+cli_flag_names = [ "--keyset-name" ]
+type = "str"
+required = true
+help = "KeySet Name to rotate"
+
+[commands.get_secret]
+access_mode = "r"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Get Secret Data from Secret Store"
+group = "Secret Management"
+ui_label = "View"
+[commands.get_secret.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to Get Secret From"
+[commands.get_secret.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`. See Documentation for Secrets Store type of the Secret Store you're operating on"
+
+[commands.update_secret]
+access_mode = "m"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Update an existing Secret in a Secret Store"
+group = "Secret Management"
+ui_label = "Update"
+[commands.update_secret.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to add Secret to"
+[commands.update_secret.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`. See Documentation for the Secrets Store type of the Secret Store you're operating on"
+
+[commands.destroy_secret]
+access_mode = "d"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "Create a new Secret within an existing Secret Store"
+group = "Secret Management"
+ui_label = "Deestroy"
+[commands.destroy_secret.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to add Secret to"
+[commands.destroy_secret.args.store_args]
+cli_flag_names = [ "--store-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store specific args, in the form of `key=value`. See Documentation for the Secrets Store type of the Secret Store you're operating on"
+
+[commands.store_config]
+access_mode = "rw"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "View / Set Secrets Store Configuration Data"
+group = "Store Management"
+ui_label = "Config"
+[commands.store_config.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to view/set Configuration for"
+[commands.store_config.args.config_args]
+cli_flag_names = [ "--config-arg" ]
+type = "str"
+required = false
+multi = true
+any_arg = true
+help = "Secrets Store Configuration specific args, in the form of `key=value`. See Documentation for the Secrets Store type of the Secret Store you're operating on"
+
+[commands.store_info]
+access_mode = "rw"
+auth_required = true
+cli_hidden = false
+api_hidden = false
+help = "View Secrets Store Stats and Information"
+group = "Store Management"
+ui_label = "Info"
+[commands.store_info.args.store_name]
+cli_flag_names = [ "--store-name" ]
+type = "str"
+required = true
+help = "Secrets Store Name to view Information for"
