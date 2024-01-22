@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "getlinks"
+version = "0.1.4"
+description = "A sample code to get a list of urls from a website"
+authors = ["dinesh-acog <dinesh@aganitha.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+bs4 = "^0.0.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+script_name = "getlinks.getl:main"
