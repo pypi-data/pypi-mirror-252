@@ -1,0 +1,7 @@
+setup.py
+helloadd/__init__.py
+helloadd/project.py
+helloadd.egg-info/PKG-INFO
+helloadd.egg-info/SOURCES.txt
+helloadd.egg-info/dependency_links.txt
+helloadd.egg-info/top_level.txt
