@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oon
+Version: 0.0.2
+Summary: Package for simplify classes and objects transfer over network
+Author: Ivashka (Ivan Rakov)
+Author-email: <ivashka.2.r@gmail.com>
+Keywords: python,network,sockets,objects,classes,oon
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oon
+OON Protocol - objects over network protocol. Allows you to quickly and conveniently transfer objects of python classes over network
