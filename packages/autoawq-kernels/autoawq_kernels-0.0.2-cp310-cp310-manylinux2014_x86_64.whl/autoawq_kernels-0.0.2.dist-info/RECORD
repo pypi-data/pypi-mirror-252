@@ -1,0 +1,9 @@
+awq_ext.cpython-310-x86_64-linux-gnu.so,sha256=VtvABw8t2h-5dRG2RyXKQPTLkCJpF1dUk5XtIFB1ABg,12588224
+awq_ft_ext.cpython-310-x86_64-linux-gnu.so,sha256=C_oAaKK6vkB-i7PESdxpD-Jj3Vp4HNtdjf-lY-BXtx0,58590680
+exl_ext.cpython-310-x86_64-linux-gnu.so,sha256=W0jvxbPCpSyDh3_cKYLCCFF-AuDGb0Mri862BQCwpws,12606544
+exlv2_ext.cpython-310-x86_64-linux-gnu.so,sha256=naRWrujt8ht8E5y2P9VOZd9kN10R65g_kXOTnT3pqKw,16857504
+autoawq_kernels-0.0.2.dist-info/LICENSE,sha256=5ObIe62uGzzqf5SUCY_weqbNAXTpYWQN0fxa3zT-8-A,1063
+autoawq_kernels-0.0.2.dist-info/METADATA,sha256=zrWWCsCF5psnW9_rpjThQsH6zBU6pvpRSmaI35Ec5V8,1352
+autoawq_kernels-0.0.2.dist-info/WHEEL,sha256=JD64SFi5h5TkrCzU2zWKlSIgZ-k_Lru9GKYxEG6JNFw,105
+autoawq_kernels-0.0.2.dist-info/top_level.txt,sha256=hkqjcZkRPSBy1gfKQWFvWzs-7c9dTa1lM7lACcQgwL4,37
+autoawq_kernels-0.0.2.dist-info/RECORD,,
