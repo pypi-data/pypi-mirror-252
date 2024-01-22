@@ -1,0 +1,1 @@
+This is a program which generates multiples(10) of any number .
