@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+python_PyFrame.egg-info/PKG-INFO
+python_PyFrame.egg-info/SOURCES.txt
+python_PyFrame.egg-info/dependency_links.txt
+python_PyFrame.egg-info/requires.txt
+python_PyFrame.egg-info/top_level.txt
