@@ -1,0 +1,7 @@
+README.md
+setup.py
+studip_cli.egg-info/PKG-INFO
+studip_cli.egg-info/SOURCES.txt
+studip_cli.egg-info/dependency_links.txt
+studip_cli.egg-info/entry_points.txt
+studip_cli.egg-info/top_level.txt
