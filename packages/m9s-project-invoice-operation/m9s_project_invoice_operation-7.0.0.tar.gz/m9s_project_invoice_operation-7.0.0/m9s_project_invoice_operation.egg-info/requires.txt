@@ -1,0 +1,6 @@
+m9s-trytond<7.1,>=7.0
+m9s_timesheet_datetime<7.1,>=7.0
+trytond_account_invoice<7.1,>=7.0
+trytond_project_invoice<7.1,>=7.0
+
+[test]
