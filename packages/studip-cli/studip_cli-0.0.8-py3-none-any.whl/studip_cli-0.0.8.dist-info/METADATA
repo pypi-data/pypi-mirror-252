@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: studip-cli
+Version: 0.0.8
+Summary: Studip cli tool
+Author: FrederikRichter
+Author-email: Frederik.Richter@mailbox.org
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: temp (>=2020.7.2,<2021.0.0)
+Description-Content-Type: text/markdown
+
+# StudIP-cli
+StudIP cli tool using the reverse engineered  JsonAPI of StudIP written in pure Python
+
+# How to Install
+```
+pip install studip-cli
+```
+
+
+# Motivation
+Bypass downslowing platform features and have an open source API to give power to users of StudIP. This tool has a focus on speed and extensibility, which is why a request only approach is used.
+
+# Features
+- Automatic Session management
+- stdin input + argument based input
+- Fast Mass File Downloader
+
+# Wiki
+[Awesome Wiki](../../wiki)
+
+# Roadmap
+
+- argparser [DONE]
+- login handler [DONE]
+  - session cache [DONE]
+- course lister
+- folder lister
+- file lister
+  - file downloader
+
