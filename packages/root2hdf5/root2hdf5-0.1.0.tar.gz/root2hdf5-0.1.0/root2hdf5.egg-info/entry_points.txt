@@ -1,0 +1,2 @@
+[console_scripts]
+root2hdf5 = root2hdf5:main
