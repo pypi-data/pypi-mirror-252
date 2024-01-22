@@ -1,0 +1,12 @@
+symusic/__init__.py,sha256=jFf99geJzZ0s9x3tcS9jdgRp9_5edHhCYxwo0ZsuZZY,420
+symusic/bin/abc2midi.exe,sha256=Igr7D_0UpYWp-w4xr8R0E6hna4bLTYrkV07R9eG_7_A,150528
+symusic/bin/midi2abc.exe,sha256=n3T9V9FDliTOp9k8MfkqgKhdfMiKZualBKtehsBDHzY,48128
+symusic/core.cp38-win32.pyd,sha256=24SmWk7sJmblm0mlGa1AG05L4JPb_CoD6eeDGRWgpWU,1025024
+symusic/core.pyi,sha256=LhK94ullm7Ty0CO0QZOmF8zIDBBWFVVeNm86gRovoyo,102182
+symusic/factory.py,sha256=x-kq3d5AajL4D31YQQpLqkAmM7XXrhK1PxZNmrb_tBs,15431
+symusic/types.py,sha256=3p7H3RJi_1MlE77v-dMW-PGLCYcpJkaxE2ndMbe4iDI,14366
+symusic-0.3.3.dist-info/METADATA,sha256=O0vdXLeFNIXKelz19KmpxE-zXNolEPjv5Xx4V9jvcyE,8587
+symusic-0.3.3.dist-info/WHEEL,sha256=6dDYnjT97tID3vDBUWPtlFXurz6A-v2UMXpO9tOMmAY,99
+symusic-0.3.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symusic-0.3.3.dist-info/licenses/LICENSE,sha256=m_HTth0qg9qo_B5jBtJLYZfiPWeBF_07vGOF8El_ytg,1087
+symusic-0.3.3.dist-info/RECORD,,
