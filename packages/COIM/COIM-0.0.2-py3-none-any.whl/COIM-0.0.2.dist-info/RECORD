@@ -1,0 +1,12 @@
+COIM/__init__.py,sha256=tusi471YLOeZsoOVggG9gFikPBOCXt_4zMrc2PHUCrs,191
+COIM/constrain.py,sha256=VifgnpC8ldRLBKX_2xtp5sP-Yhh5cfAiQ0VwjyJ1tWI,935
+COIM/constrain_add_scalar.py,sha256=w4bZWbaMEjhpm7El8GnYdob1R2yYumhFUXJzPelP9jY,1569
+COIM/constrain_constant_sum.py,sha256=-0a-xu-Wz_eC8ri-VX52_xbnX1Q48n0sX22fcz1zsDs,3924
+COIM/constrain_custom.py,sha256=BRDmoJnu9_DAL2FrfipfLHC1nRYXQ0pNhVDnJa-hCko,1492
+COIM/constrain_mul_scalar.py,sha256=coGWPCRIjAXLJBOIA4Edc_EWdy_hwBASaHh_LhINnDI,2185
+COIM/operator.py,sha256=jEMuILmmXtXcY9gYF8IkBFj_vMynm_7_0dEcIrLVL9U,4527
+COIM-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+COIM-0.0.2.dist-info/METADATA,sha256=Z6MzZKXinipqux2w-L9jTpUEANKsjE-ZpVpgjgfUkNM,3949
+COIM-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+COIM-0.0.2.dist-info/top_level.txt,sha256=Ql1qCGw5UgsDr1kkQkY0rgcJH1wcBnyQYbwVMeapWJw,5
+COIM-0.0.2.dist-info/RECORD,,
