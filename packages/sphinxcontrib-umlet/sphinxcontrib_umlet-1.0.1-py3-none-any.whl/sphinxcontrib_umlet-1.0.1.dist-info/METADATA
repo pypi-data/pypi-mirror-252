@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-umlet
+Version: 1.0.1
+Summary: Sphinx Extension to include UMLet files
+Home-page: https://github.com/basejumpa/sphinxcontrib-umlet
+Author: Alexander Mann-Wahrenberg (basejumpa)
+Author-email: alexander.mannwahrenberg@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Sphinx :: Extension
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx (>=2)
+
