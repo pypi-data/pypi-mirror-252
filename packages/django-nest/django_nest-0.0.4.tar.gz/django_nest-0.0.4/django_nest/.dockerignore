@@ -1,0 +1,13 @@
+# Arquivos e diretórios a serem ignorados durante a construção da imagem Docker
+.git
+.vscode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+*.egg
+*.log
+*.swp
+data
+db.sqlite3
