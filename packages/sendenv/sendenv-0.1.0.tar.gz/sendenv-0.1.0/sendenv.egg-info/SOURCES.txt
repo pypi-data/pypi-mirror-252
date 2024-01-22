@@ -1,0 +1,8 @@
+README.md
+setup.py
+sendenv.egg-info/PKG-INFO
+sendenv.egg-info/SOURCES.txt
+sendenv.egg-info/dependency_links.txt
+sendenv.egg-info/entry_points.txt
+sendenv.egg-info/requires.txt
+sendenv.egg-info/top_level.txt
