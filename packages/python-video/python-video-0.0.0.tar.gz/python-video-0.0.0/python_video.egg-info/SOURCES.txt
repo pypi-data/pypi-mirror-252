@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+build.py
+requirements-dev.txt
+requirements.txt
+setup.py
+python_video.egg-info/PKG-INFO
+python_video.egg-info/SOURCES.txt
+python_video.egg-info/dependency_links.txt
+python_video.egg-info/requires.txt
+python_video.egg-info/top_level.txt
+pyvideo/__init__.py
+pyvideo/audio.py
+pyvideo/video.py

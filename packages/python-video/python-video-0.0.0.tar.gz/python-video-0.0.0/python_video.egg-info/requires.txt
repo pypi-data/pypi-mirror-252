@@ -1,0 +1,9 @@
+numpy
+opencv-python
+moviepy
+tqdm
+
+[dev]
+pdoc3
+twine
+pytest
