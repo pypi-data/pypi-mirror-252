@@ -1,0 +1,12 @@
+dspin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dspin/compute.py,sha256=GLkSK4hHkdtrCfEZ55wpGkd8pz3NmHM6yINxAB16XX8,27523
+dspin/dspin.py,sha256=IxMFB1YL1PoCPKYYlkOGwOass_CPleAsKVQi1dDIboM,28828
+dspin/dspin_abstract.py,sha256=tMsx8IInQc4fYIt2vdIq-Lrzjw5PnOEbT0ZktF4FPf8,26882
+dspin/gpt.py,sha256=1EATln_X__0rnlgGiWu6dzcK5MGY7s3cQIwFGrTB3Ps,3238
+dspin/metadata_drug.py,sha256=VrPpax-yeZrIu9__DoUWgECpz_IB9S2DvFL8tGumTXE,1057
+dspin/plot.py,sha256=Wq9bjO08qNO323L1pxDUJauG0Tjo4HjmKWeWRk_sGn0,14200
+dspin-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dspin-0.0.3.dist-info/METADATA,sha256=X1mMHz2NayiVKYWTIPaT3mJP8j5B1grLti-MAiukMxc,10239
+dspin-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dspin-0.0.3.dist-info/top_level.txt,sha256=N9hK5Vj3t3Vlb2AqjpEbEzWPjAIxOfSTHKUG8HSVl9o,6
+dspin-0.0.3.dist-info/RECORD,,
