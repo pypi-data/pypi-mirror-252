@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+mammos/__init__.py
+mammos.egg-info/PKG-INFO
+mammos.egg-info/SOURCES.txt
+mammos.egg-info/dependency_links.txt
+mammos.egg-info/top_level.txt
+mammos/tests/test_import.py

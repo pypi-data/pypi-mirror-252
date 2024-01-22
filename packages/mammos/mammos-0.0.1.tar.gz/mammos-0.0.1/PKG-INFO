@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mammos
+Version: 0.0.1
+Summary: A multiphyscis simulation suite for magnetic materials.
+Author: Swapneel Amit Pathak, Samuel Holt, Martin Lang, Hans Fangohr
+Project-URL: Homepage, https://mammos-project.github.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mammos
+Meta package to install the full MaMMoS simulation suite
