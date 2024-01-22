@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: normalization-gan
+Version: 0.0.4
+Summary: Normalization for TTS Input
+Author: Aruj Deshwal
+Author-email: aruj@gan.studio
+Keywords: python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+
+## Python library for text normalization for TTS input using gpt
+
+# Installation
+
+```bash
+pip install normalization_gan
+```
+# Usage
+
+```python
+from normalization_gan import Normalization
+
+# Create instance, provide openai_api_key as string to authenticate
+normalization_obj = Normalization(OPENAI_API_KEY)
+
+sample_text = "My phone number is 555-1234"
+
+# Use normalize_text method 
+normalized_text = normalization_obj.normalize_text(sample_text)
+
+# Output string would look like : "My phone number is five five five one two three four."
+```
+
