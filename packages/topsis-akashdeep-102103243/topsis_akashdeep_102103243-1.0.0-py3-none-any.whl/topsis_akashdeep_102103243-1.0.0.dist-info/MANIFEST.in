@@ -1,0 +1,26 @@
+Project description
+topsis_akashdeep_102103243
+Author: Akashdeep Singh Kataria.
+
+Type: Package.
+
+## Title: TOPSIS method for multiple-criteria decision making (MCDM).
+
+## Description: Evaluation of alternatives based on multiple criteria using TOPSIS method..
+
+## What is TOPSIS?
+Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) originated in the 1980s as a multi-criteria decision making method. TOPSIS chooses the alternative of shortest Euclidean distance from the ideal solution, and greatest distance from the negative-ideal solution.
+
+## How to install this package:
+```
+pip install topsis_akashdeep_102103243
+```
+## In Command Prompt
+```
+topsis_akashdeep_102103243 102103243-data.csv "1,1,1,1" "+,+,-,+" 102103243-result-1.csv
+topsis_akashdeep_102103243 102103243-data.csv 2,2,3,3,4 -,+,-,+,- 102103243-result-2.csv
+```
+License
+Â© 2024 Akashdeep Singh Kataria
+
+This repository is licensed under the MIT license. See LICENSE for details
