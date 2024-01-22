@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+atomically/__init__.py
+atomically/cli.py
+atomically.egg-info/PKG-INFO
+atomically.egg-info/SOURCES.txt
+atomically.egg-info/dependency_links.txt
+atomically.egg-info/entry_points.txt
+atomically.egg-info/requires.txt
+atomically.egg-info/top_level.txt
+tests/test_atomically.py

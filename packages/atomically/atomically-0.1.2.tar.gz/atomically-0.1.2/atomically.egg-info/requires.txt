@@ -1,0 +1,9 @@
+click
+inflection
+PyYAML
+
+[test]
+ipython
+pytest
+openapi-spec-validator
+snapshottest
