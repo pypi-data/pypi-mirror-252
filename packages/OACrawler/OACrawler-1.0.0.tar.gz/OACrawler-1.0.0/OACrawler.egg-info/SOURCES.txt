@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+OACrawler/__init__.py
+OACrawler/core.py
+OACrawler.egg-info/PKG-INFO
+OACrawler.egg-info/SOURCES.txt
+OACrawler.egg-info/dependency_links.txt
+OACrawler.egg-info/requires.txt
+OACrawler.egg-info/top_level.txt
