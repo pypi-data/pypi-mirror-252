@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sendenv
+Version: 0.1.1
+Summary: A tool for developers to share environment variables with their team over the internet.
+Home-page: https://github.com/viraniaman94/sendenv
+Author: Aman Virani
+Author-email: viraniaman94@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development
+Classifier: Topic :: Internet
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
+Classifier: Topic :: Communications :: File Sharing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Documentation coming soon
