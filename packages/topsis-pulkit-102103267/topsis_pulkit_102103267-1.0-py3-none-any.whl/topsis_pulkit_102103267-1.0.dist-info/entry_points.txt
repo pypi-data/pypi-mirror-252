@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = topsis_pulkit_102103267.main:main
