@@ -1,0 +1,2 @@
+[console_scripts]
+atomically = atomically.cli:cli
