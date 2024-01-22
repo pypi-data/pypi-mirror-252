@@ -1,0 +1,13 @@
+ddapi/__init__.py,sha256=YpUsknspmkzDXYHVlc-poS0keOE6hYW1LlK0v33FjTs,150
+ddapi/dataclass.py,sha256=REYfj69MGkWZVueOvYhPzWcrViKT0LC9-EC21-3aNjk,9991
+ddapi/errors.py,sha256=JQGZEb1Urmh6Cv0pSCMJDt2F7FkWWvA4MyEzFbGfPYE,46
+ddapi/misc.py,sha256=DQvjv0Uk6xRAvT8yNpbFQAPCrtd9Q2TX5vTeMBcTjdY,996
+ddapi/DDnetApiPy/__init__.py,sha256=uuck6tR3pg10Y3DPLKdxyBi1oe3IHYu0wB6WHUG5UII,28
+ddapi/DDnetApiPy/main.py,sha256=UXx2_mr3Ls0FaxwGnE6LrTcakktkc1VxM9WOvC3QZb0,2136
+ddapi/qwikDDnetApiPy/__init__.py,sha256=C7T5AxnhYACjykod-kZ8YNC53hqaEBM-T9ZsLCv8zeg,26
+ddapi/qwikDDnetApiPy/main.py,sha256=LxmbdNhXNCpmbx6NpLNq1btzeYIlcvEtq8egNTSo-lc,1745
+ddapi-0.1.2.dist-info/LICENSE,sha256=o-aDUlB838gIa_RwJLYvInvw9EV_rZio21OCK-DOjhU,1082
+ddapi-0.1.2.dist-info/METADATA,sha256=xZQ1nSFNIb-lhbN3Xr01gKoyQwuBmNLRYmdpvJE55_A,2989
+ddapi-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ddapi-0.1.2.dist-info/top_level.txt,sha256=BgV_9Wja4JjgIvlSd9BEcP-g0JN-oTqFqxwd2vo1uY8,6
+ddapi-0.1.2.dist-info/RECORD,,
