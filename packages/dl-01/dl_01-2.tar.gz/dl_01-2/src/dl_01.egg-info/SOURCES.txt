@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dl_01/Q1_and_or.py
+src/dl_01/Q2_xor_andnot.py
+src/dl_01/Q3_hebbian_net.py
+src/dl_01/Q4_discrete_hopfield_net.py
+src/dl_01/Q5_Kohonen_self_organizing_maps.py
+src/dl_01/__init__.py
+src/dl_01/main.py
+src/dl_01.egg-info/PKG-INFO
+src/dl_01.egg-info/SOURCES.txt
+src/dl_01.egg-info/dependency_links.txt
+src/dl_01.egg-info/top_level.txt
