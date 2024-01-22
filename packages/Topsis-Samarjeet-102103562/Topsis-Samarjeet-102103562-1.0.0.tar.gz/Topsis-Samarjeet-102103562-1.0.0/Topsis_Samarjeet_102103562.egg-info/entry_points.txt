@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = Topsis_Samarjeet_102103562:main
