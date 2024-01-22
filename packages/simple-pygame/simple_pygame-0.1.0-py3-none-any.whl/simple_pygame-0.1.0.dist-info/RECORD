@@ -1,0 +1,14 @@
+simple_pygame/__init__.py,sha256=bI4ry9EMgcTLqjcwFG_wZK_xTZVsR-_KVDb6J0BLjeQ,2788
+simple_pygame/audio.py,sha256=VPnPwNLf3WGjp26mLHiUS_AuhGlLQNEpabzBWnte3uk,48617
+simple_pygame/constants.py,sha256=avZ-7FIdZ8HqIyC9dbeUFxhXbAfIMurRrMfL-KDGGyo,685
+simple_pygame/exceptions.py,sha256=jHAeisDY6EDtO2a911UHpRiptI0eFBEDEWlAw6LpCDI,777
+simple_pygame/mixer.py,sha256=d2hoyv5tiJSH6kY74FmawK_068bEY-GnxPQojTwSvHo,1695
+simple_pygame/pyaudioop.py,sha256=sBJ9WVgScWlGIrolZrtcgPRj6KSaD_ajW5ldC88sOuY,22682
+simple_pygame/pygetch.py,sha256=SMR95SXBXVcFpJpfjKujKbaDsagYDL-Qh2ur2OjfSJ0,890
+simple_pygame/terminal.py,sha256=zvOQ-y1oqtREHz2u0P7ARpuxGIzqizzx12OLhuv-7h8,3356
+simple_pygame/transform.py,sha256=tHzWyA8lnRwqE_BJhjS4pnxF6v8hXaSg-_hmOtnqa3M,3713
+simple_pygame-0.1.0.dist-info/LICENSE,sha256=tB8D-ChGIDetHq8Jn77CtposJtWMhycwnDLVzmRLLXs,1087
+simple_pygame-0.1.0.dist-info/METADATA,sha256=ZSRT1KtbFucl_3dtdNbqFZwAONvuwavMGAS9NIZPtSE,2924
+simple_pygame-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simple_pygame-0.1.0.dist-info/top_level.txt,sha256=xP_gTxAiMUbbO8GUfvDbTYD6uxsJzcbwrLIvi4ZQbkw,14
+simple_pygame-0.1.0.dist-info/RECORD,,
