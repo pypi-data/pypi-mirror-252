@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RootsWeatherProject
+Version: 1.0.9
+Summary: A package holding microservices to create video from compiled weather image data
+Home-page: https://github.com/johncanthony/RootsWeatherProject
+Author: John Anthony
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.12
+
+UNKNOWN
+

@@ -1,0 +1,13 @@
+beautifulsoup4
+bs4
+fastapi
+ffmpeg-python
+google-api-python-client
+google_auth_oauthlib
+httpx
+pydantic
+pytest
+redis
+requests
+setuptools
+uvicorn
