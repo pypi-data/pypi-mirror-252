@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-wintun
+Version: 0.14.2
+Summary: wintun (WireGuard) wrapper for Python
+Home-page: https://github.com/dsotsin/wintun
+Author: zq2024
+Author-email: dsotsen@gmail.com
+Maintainer: zq2024
+Maintainer-email: dsotsen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+
+UNKNOWN
+
+
