@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: terrabridge
+Version: 0.0.1.dev0
+Summary: 
+Author: CalebTVanDyke
+Author-email: ctvandyke24@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3[aws]
+Requires-Dist: cloud-sql-python-connector[gcp]
+Requires-Dist: google-cloud-pubsub[gcp]
+Requires-Dist: google-cloud-pubsublite[gcp]
+Requires-Dist: google-cloud-secret-manager[gcp]
+Requires-Dist: google-cloud-storage[gcp]
+Description-Content-Type: text/markdown
+
+
