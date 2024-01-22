@@ -1,0 +1,11 @@
+m9s-trytond<7.1,>=7.0
+m9s_sale_price_with_tax<7.1,>=7.0
+m9s_stock_package_rate<7.1,>=7.0
+trytond_carrier<7.1,>=7.0
+trytond_stock<7.1,>=7.0
+trytond_stock_package<7.1,>=7.0
+trytond_stock_package_shipping<7.1,>=7.0
+trytond_stock_package_shipping_ups<7.1,>=7.0
+trytond_stock_shipment_measurements<7.1,>=7.0
+
+[test]
