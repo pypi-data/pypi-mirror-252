@@ -1,0 +1,14 @@
+mrhttp-0.8.dist-info/WHEEL,sha256=uT-xhH87qjQ2hSw9lVd8vIm9vhYqN6sN2YUST8TBLck,113
+mrhttp-0.8.dist-info/LICENSE,sha256=Cb0Ti8kM2B_IFyIoa3eG3Oq-bNyEOOciBEPnkPPxcO0,1067
+mrhttp-0.8.dist-info/RECORD,,
+mrhttp-0.8.dist-info/top_level.txt,sha256=sTt8LSeW1Ou9xLOlCar0UCgU_4RA-FdSXFdvcjXnhVo,7
+mrhttp-0.8.dist-info/METADATA,sha256=imfZEgyXfwr8Dtbbw8EUPuKyCSa0b8Yn_2VQc4e5ZEg,2005
+mrhttp/app.py,sha256=J2bLy9A3UQ69YBmUOb6f9AdUuHqxsngweT0jVo6-ReE,15335
+mrhttp/internals.cpython-312-x86_64-linux-musl.so,sha256=ap22JYYcb9UYR0G-azqxyg2P8I3iAcgZMa_s0sOM5b0,751072
+mrhttp/request.py,sha256=wnSM0n_igDCtsPoaVPO_slKk-dlJjrQdfZt4WZiK1VA,2116
+mrhttp/mrqclient.py,sha256=-3k9VxqIjcgwl5dlCWK1Hjx-VIkmUnxuh_VH77Btxqo,2971
+mrhttp/httputil.py,sha256=11d8pMrix5GDaxDjq8RLYdYYpkaURGKCKC0NeDNSUn8,1867
+mrhttp/router.py,sha256=g7KfGOlItToPSfE4X0dVISrgRT97Os5YbAaqpkVluQ8,2278
+mrhttp/memcachedclient.py,sha256=CojbB2GCBoQz9eM_23uzwEOCHd0-WfVyo_xsvAedE4E,2264
+mrhttp/__init__.py,sha256=cVitfRaWfMKhrckyWnxPmWgF4MLtJ2UrZzg5X616EDY,738
+mrhttp/mrcacheclient.py,sha256=QcdPldpSEeRTPe8jAuJbA0BIn7tCwQjxTRnv0rr1Lyo,1855
