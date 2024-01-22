@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+eso_names/__init__.py
+eso_names/main.py
+eso_names/name_generator_v2.py
+eso_names/name_recommender.py
+eso_names/raw_model.py
+eso_names.egg-info/PKG-INFO
+eso_names.egg-info/SOURCES.txt
+eso_names.egg-info/dependency_links.txt
+eso_names.egg-info/requires.txt
+eso_names.egg-info/top_level.txt
+eso_names/db/names.csv
+eso_names/model/model_2.pth
