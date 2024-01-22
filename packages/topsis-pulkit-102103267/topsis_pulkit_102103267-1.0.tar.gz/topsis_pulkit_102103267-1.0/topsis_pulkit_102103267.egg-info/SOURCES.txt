@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+package/102103267.py
+package/__init__.py
+topsis_pulkit_102103267.egg-info/PKG-INFO
+topsis_pulkit_102103267.egg-info/SOURCES.txt
+topsis_pulkit_102103267.egg-info/dependency_links.txt
+topsis_pulkit_102103267.egg-info/entry_points.txt
+topsis_pulkit_102103267.egg-info/requires.txt
+topsis_pulkit_102103267.egg-info/top_level.txt

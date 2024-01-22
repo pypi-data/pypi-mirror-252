@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: topsis_pulkit_102103267
+Version: 1.0
+Summary: TOPSIS
+Author: Pulkit Arora
+Author-email: pulkitarora8690@gmail.com
+License: MIT
+Keywords: TOPSIS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# TOPSIS
+
+Author: **Pulkit Arora**.
+
+Type: **Package**.
+
+Title: **TOPSIS method for multiple-criteria decision making (MCDM)**.
+
+Description: **Evaluation of alternatives based on multiple criteria using TOPSIS method.**.
+
+---
+
+## What is TOPSIS?
+
+**T**echnique for **O**rder **P**reference by **S**imilarity to **I**deal **S**olution
+(TOPSIS) originated in the 1980s as a multi-criteria decision making method.
+TOPSIS chooses the alternative of shortest Euclidean distance from the ideal solution,
+and greatest distance from the negative-ideal solution.
+
+<br>
+
+## How to install this package:
+
+```
+>> pip install 
+```
+
+### In Command Prompt
+
+```
+>> topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
+```
+## License
+Â© 2024 Pulkit Arora
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
