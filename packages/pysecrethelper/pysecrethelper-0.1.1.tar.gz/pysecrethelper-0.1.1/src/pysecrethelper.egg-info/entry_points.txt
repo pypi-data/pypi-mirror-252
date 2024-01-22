@@ -1,0 +1,3 @@
+[console_scripts]
+secrethelper = secrethelper.cli:main
+secrettrainer = secrethelper.cli:do_training
