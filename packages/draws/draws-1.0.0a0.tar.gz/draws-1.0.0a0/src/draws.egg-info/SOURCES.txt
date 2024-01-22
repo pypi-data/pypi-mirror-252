@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/__init__.py
+src/draws/__init__.py
+src/draws.egg-info/PKG-INFO
+src/draws.egg-info/SOURCES.txt
+src/draws.egg-info/dependency_links.txt
+src/draws.egg-info/requires.txt
+src/draws.egg-info/top_level.txt
