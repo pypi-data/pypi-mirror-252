@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simpleufcs
+Version: 1.0.0
+Summary: A simple Uniform Function Call Syntax (UFCS) implementation in python.
+Home-page: https://github.com/lxl66566/simpleufcs
+Author: lxl66566
+Author-email: lxl66566@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

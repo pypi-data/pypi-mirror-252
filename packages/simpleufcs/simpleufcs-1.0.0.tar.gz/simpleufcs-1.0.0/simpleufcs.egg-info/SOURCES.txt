@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+simpleufcs.py
+simpleufcs.egg-info/PKG-INFO
+simpleufcs.egg-info/SOURCES.txt
+simpleufcs.egg-info/dependency_links.txt
+simpleufcs.egg-info/top_level.txt
