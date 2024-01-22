@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: procdrive
+Version: 1.0.0
+Summary: Procedural wrappe for controlling a single Anki Overdrive vehicle
+Author: Pascal Rombach
+Project-URL: Homepage, https://github.com/PascalRombach/procdrive
+Keywords: Anki Overdrive,Anki,Procedural
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: py-easydrive
+
+# procdrive
+Procdrive is a procedural wrapper around 
+[`py-easydrive`](https://github.com/PascalRombach/py-easydrive)
+which is itself a wrapper around [`py-drivesdk`](https://github.com/HHG-TecLap/py-drivesdk).
+
+This library was developed to provide a practical environment for learning Python.
+Procdrive aims to be simple and intuitive and a transition into more complicated language constructs
+such as object orientation and exception handling.
+
+## Limitations
+Since Procdrive is not object-oriented, it does not provide support 
+for controlling multiple vehicles at the same time.
+If you require this functionality you should check out the other libraries mentioned above.
+
+## Installation
+As Procdrive does not have a pip repository yet, the install process is a little involved:
+```sh
+git clone https://github.com/PascalRombach/procdrive.git
+cd procdrive
+```
+### Linux
+```sh
+python3 -m pip install .
+```
+### Windows
+```sh
+py -m pip install .
+```
+
+## Code Example
+Coding in procdrive is very simple. 
+The following code scans the current map in and then reports the track pieces in order.
+```py
+from procdrive import *
+
+connect()
+scan()
+
+set_speed(300)
+while True:
+    print(wait_for_track_change())
+```
