@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: waporcodes
+Version: 2.0
+Summary: A Python module to list FAO WaPOR data products and country codes.
+Home-page: https://github.com/wateraccounting/WAPORWP/tree/v1.1
+Author: Solomon Seyoum, Mahmoud H. Ahmed,   @ IHE Delft, The Netherlands
+Author-email: s.seyoum@un-ihe.org, mahmoudhatim55@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This module lists WaPOR products and country codes for level-3 products.
+
