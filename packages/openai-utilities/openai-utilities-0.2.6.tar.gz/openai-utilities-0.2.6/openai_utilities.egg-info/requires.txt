@@ -1,0 +1,6 @@
+openai
+tiktoken
+icecream
+numpy
+transformers
+scipy
