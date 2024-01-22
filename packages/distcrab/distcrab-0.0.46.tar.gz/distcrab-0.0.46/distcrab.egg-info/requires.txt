@@ -1,0 +1,6 @@
+GitPython
+aiodav
+aiostream
+asyncssh
+dnspython
+paramiko
