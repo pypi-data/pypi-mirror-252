@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65.5.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonschema_converter"
+version = "0.1.10"
+authors = [
+    { name = "Giorgio Ripani", email = "g.ripani93@gmail.com"}
+]
+description = "A converter from JSONSchema to Pydantic classes"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+repository = "https://github.com/gripani/jsonschemaPydanticConverter"
+
+[project.scripts]
+jsonschema-convert = "jsonschema_converter.cli.jsonschema_convert:convert"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
