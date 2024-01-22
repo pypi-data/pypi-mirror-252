@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convection-plugin-secrets-generic"
+version = "1.0.0"
+authors = [
+  { name="AccidentallyTheCable", email="cableninja@cableninja.net" },
+]
+description = "Convection Secrets Store Plugin for Generic Key-Value Store"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPLv3" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Environment :: Plugins",
+    "Operating System :: POSIX",
+    "Topic :: Communications",
+    "Topic :: Utilities"
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"convection.plugins" = ["**/*.md", "**/*.spec"]
+"*" = ["*.md"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://gitlab.com/accidentallythecable-public/convection-suite/plugins/secrets/generic/"
+"Bug Tracker" = "https://gitlab.com/accidentallythecable-public/convection-suite/plugins/secrets/generic/issues"
