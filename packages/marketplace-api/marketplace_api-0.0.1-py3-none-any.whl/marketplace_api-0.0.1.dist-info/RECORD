@@ -1,0 +1,6 @@
+marketplace_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marketplace_api/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marketplace_api/yandex_market_api.py,sha256=lB5OZ8HUYncT-HoSE9zfuvEr-3ummqSqq7gV_Awe-m0,583
+marketplace_api-0.0.1.dist-info/METADATA,sha256=YZRIlE7BOZn-X749I-f0DSWqbi34PQtTQawhp_DeldQ,612
+marketplace_api-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+marketplace_api-0.0.1.dist-info/RECORD,,
