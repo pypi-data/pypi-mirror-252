@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: electron_search
+Version: 1.1.0
+Summary: Search for Electron-based applications
+Home-page: https://github.com/ripeda/Electron-Search
+Author: RIPEDA Consulting
+Author-email: info@ripeda.com
+License: 3-clause BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Electron Search
+
+Framework for finding Electron-based applications on your host.
+
+Currently supports:
+- Windows
+- macOS
+- Linux
+
+
+## Usage
+
+```py
+>>> from electron_search import Search
+>>> search = Search()
+>>> search.apps()
+['C:\\Users\\RIPEDA\\AppData\\Local\\1Password\\app\\8\\1Password.exe', 'C:\\Users\\RIPEDA\\AppData\\Local\\Discord\\app-1.0.9030\\Discord.exe']
+```
