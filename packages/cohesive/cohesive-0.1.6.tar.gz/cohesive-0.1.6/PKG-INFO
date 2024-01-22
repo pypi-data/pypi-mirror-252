@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: cohesive
+Version: 0.1.6
+Summary: Use sentence embeddings to create naturally coherent segments of text akin to paragraphs.
+Home-page: https://github.com/matthewdutton1983/cohesive
+License: Apache-2.0
+Author: Matthew Dutton
+Author-email: matthewdutton1983@hotmail.co.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: networkx (>=2.6.3,<3.0.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: python-louvain (>=0.15,<0.16)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: scipy (>=1.11.4,<2.0.0)
+Requires-Dist: sentence-transformers (>=2.1.0,<3.0.0)
+Project-URL: Repository, https://github.com/matthewdutton1983/cohesive
+Description-Content-Type: text/markdown
+
+# cohesive
+
+cohesive is a lightweight segmenter that uses sentence embeddings to split documents into naturally coherent segments akin to paragraphs.
+
+## Installation
+
+You can install cohesive using pip:
+
+```bash
+pip install cohesive
+```
+
+## Using cohesive
+
+To start using cohesive, simply import Cohesive and create a new instance of the client:
+
+```python
+from cohesive import Cohesive
+
+# By default, cohesive uses the paraphrase-MiniLM-L6-v2 model, which produces good
+# results, but you can pass the name of any model into the Cohesive constructor.
+cohesive = Cohesive("msmarco-distilbert-cos-v5")
+
+# Then, all you need to do is call the create_segments method and pass in an
+# array of sentences.
+cohesive.create_segments(sentences)
+```
+
+At the present time, cohesive is only compatible with the sentence-transformers library but additional encoders will be added in the future.
+
+## Finetuning cohesive
+
+cohesive users can finetune several parameters, which all impact the final segmentation results in different ways. Here is a quick summary:
+
+- **window_size:** Sets the size of the context window for generating segments. Defaults to 4.
+- **louvain_resolution:** Used by the Louvain community detection algorithm to partition sentences into segments. Default is 1.
+- **framework:** The framework to use for calculating similarity scores. Choose between scipy and sklearn. Default is "scipy".
+- **show_progress_bar:** Flag to display the progress bar from sentence-transformers whilst generating embeddings. Defaults to False.
+- **balanced_window:** If True, the context window is split evenly between preceding and subsequent sentences, otherwise it only looks at subsequent sentences. Defaults to False.
+- **exponential_scaling:** Flag to use exponential scaling when calculating similarity scores. Defaults to False.
+- **max_sentences_per_segment:** Maximum number of sentences per segment. Default is None.
+
+To modify the parameters, simply pass in the appropriate parameter name and value when you call the create_segments method:
+
+```python
+# Via create_segments
+cohesive.create_segments(sentences, window_size=3, exponential_scaling=True)
+```
+
+## Viewing the segments
+
+When **create_segments** has finished, cohesive will print a summary of the total number of segments that were created.
+
+There are several methods for interacting with the generated segments.
+
+```python
+# View a string representation of the consolidated Segment and Sentence objects
+cohesive.segments
+
+# List that contains the content of each segment.
+cohesive.get_segment_contents()
+
+# View the start and end indices of sentences within a segment.
+cohesive.get_segment_boundaries()
+
+# Print the contents of each segment to the console or Notebook.
+cohesive.print_segment_contents()
+```
+
