@@ -1,0 +1,15 @@
+inspire_json_merger/__init__.py,sha256=7IqpVkwYIfCfWRIOwr2lm20bcpWrdhYdsHbyFe80Erc,972
+inspire_json_merger/api.py,sha256=BONS3D-krSI5lljLVnViFGlYo3-grjFrGywKCpZijHM,5895
+inspire_json_merger/comparators.py,sha256=ZfzBMB_o_grz1_S0gFBDEz2PxbzPBCMlUdC0ws2XZxk,6056
+inspire_json_merger/config.py,sha256=Iz6-bFNeohj0zvE_jn6dZNKBH1c53qoK9YHAAOZesVM,11925
+inspire_json_merger/postprocess.py,sha256=Xq-rUGr09rrC9oIPibR4gcyuA6k3qjSUfbo0SVzPaK0,10464
+inspire_json_merger/pre_filters.py,sha256=B3XMTCv2SRorBS8xCwanL_KJqbyrzyRSeereD-6dpVA,7484
+inspire_json_merger/utils.py,sha256=DrhO3OcZ1i97P0c7EtPvQscBXrV01IZJ6J1xGOsY4ug,5321
+tests/__init__.py,sha256=7IqpVkwYIfCfWRIOwr2lm20bcpWrdhYdsHbyFe80Erc,972
+tests/conftest.py,sha256=-cJALla5AVUWVAmEqmhwoRTEf-RL7joxC_FZ3d7VI_U,1061
+inspire_json_merger-11.0.34.dist-info/AUTHORS,sha256=RstlCfm7uby8SFAAyZKmsbpmElTghI4Uav_CZ3LgcjE,850
+inspire_json_merger-11.0.34.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+inspire_json_merger-11.0.34.dist-info/METADATA,sha256=cl_eIQTdpwAPMBUM_b0qnLJFtc7tGQz9rQbpBRhOxvs,3117
+inspire_json_merger-11.0.34.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+inspire_json_merger-11.0.34.dist-info/top_level.txt,sha256=d79xdyN7NxBhpqIJtQPBRj_Cr4JqqB6cE0XKtfnyPgQ,26
+inspire_json_merger-11.0.34.dist-info/RECORD,,
