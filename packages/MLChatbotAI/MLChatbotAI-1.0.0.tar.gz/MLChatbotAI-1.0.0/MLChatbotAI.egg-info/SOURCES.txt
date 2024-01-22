@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+train_chatbot.py
+MLChatbotAI.egg-info/PKG-INFO
+MLChatbotAI.egg-info/SOURCES.txt
+MLChatbotAI.egg-info/dependency_links.txt
+MLChatbotAI.egg-info/requires.txt
+MLChatbotAI.egg-info/top_level.txt
+data/intents.json
+model/chatbot_model2.h5
+model/classes.pkl
+model/words.pkl
