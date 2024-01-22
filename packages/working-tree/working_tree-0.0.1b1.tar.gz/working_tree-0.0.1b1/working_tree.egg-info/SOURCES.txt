@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+working_tree/workingtree.py
+working_tree.egg-info/PKG-INFO
+working_tree.egg-info/SOURCES.txt
+working_tree.egg-info/dependency_links.txt
+working_tree.egg-info/requires.txt
+working_tree.egg-info/top_level.txt
