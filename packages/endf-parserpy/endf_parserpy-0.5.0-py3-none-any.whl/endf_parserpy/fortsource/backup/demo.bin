@@ -1,0 +1,17 @@
+@echo off
+if exist endf6.mod    del endf6.mod
+if exist endf6.o      del endf6.o
+if exist endfdemo.exe del endfdemo.exe
+if exist endfdemo.inp del endfdemo.inp
+rem
+rem  compiling and linking using module endf6.f90
+rem 
+   gfortran -o endfdemo.exe endf6.f90 endfdemo.f90
+rem
+rem running executable for 1-H-1 
+rem
+    echo n_0125_1-H-1.endf  >endfdemo.inp
+    echo H-1_new_demo.endf >>endfdemo.inp
+    endfdemo <endfdemo.inp >H-1.txt
+rem
+if exist endfdemo.inp del endfdemo.inp
