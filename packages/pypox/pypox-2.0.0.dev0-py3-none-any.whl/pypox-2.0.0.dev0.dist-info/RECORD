@@ -1,0 +1,9 @@
+pypox/__init__.py,sha256=40Mv9T6KpFAnFKp9RwIbzEflxH4PJR6js9OTgIDBLG4,657
+pypox/application.py,sha256=WZ8hDXxjjUPz-eP1ncNQ7l1notuFg23p10XYahfjDjo,2183
+pypox/conventions.py,sha256=MZrkt4PnUwtVz1aDYhvuN4BL5cgJbDALjgXeKBbL4mA,8326
+pypox/openapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypox/processor.py,sha256=BeKzJcTw4pKE3iakuHqvBWtT7QKQJWKvh95f6hJNkeg,24589
+pypox/route.py,sha256=OT3_jJJ4SeHaN7MwrSp93-OhNgJzVQOxy_aOPEABftY,1769
+pypox-2.0.0.dev0.dist-info/METADATA,sha256=-9NpgSJDff5414YPR0rlNH6HqUGj6rBScOVIg58KPis,1527
+pypox-2.0.0.dev0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pypox-2.0.0.dev0.dist-info/RECORD,,
