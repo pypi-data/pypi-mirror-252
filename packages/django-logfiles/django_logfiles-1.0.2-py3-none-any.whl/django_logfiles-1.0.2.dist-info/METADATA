@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: django-logfiles
+Version: 1.0.2
+Summary: Plugin to show logfiles in the admin pane of a django project
+Project-URL: Homepage, https://github.com/rwestein/django-logfiles
+Project-URL: Issues, https://github.com/rwestein/django-logfiles/issues
+Author-email: Ronnie van 't Westeinde <info@westeron.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Django Logfiles
+
+This Django Admin plugin provides a simply way to view logfiles from the Django Admin
+panels. 
+
+Install it on your system using PIP:
+
+```
+pip install django-logfiles
+```
+
+Configuration can be set in settings.py:
+
+```
+INSTALLED_APPS = [
+    ...  # All other apps
+    'logfiles'
+]
+
+LOGFILES = {
+    'PATHS': ['/var/log/**.log'],
+    'TAIL': 100,
+    'SORT': ('-date',)
+}
+```
+
+All settings are optional, so even if you don't provide any settings, the above settings are
+the default settings.
+
+The example project allows to play around with the plugin.
+It comes with an SQlite3 database with one superuser
+named `test` and password `test`.
