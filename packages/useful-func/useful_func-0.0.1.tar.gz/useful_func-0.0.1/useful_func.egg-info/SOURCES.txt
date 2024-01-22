@@ -1,0 +1,10 @@
+setup.py
+useful_func.egg-info/PKG-INFO
+useful_func.egg-info/SOURCES.txt
+useful_func.egg-info/dependency_links.txt
+useful_func.egg-info/requires.txt
+useful_func.egg-info/top_level.txt
+useful_funcs/__init__.py
+useful_funcs/useful_calendar_functions.py
+useful_funcs/useful_closest.py
+useful_funcs/useful_datetime_functions.py
