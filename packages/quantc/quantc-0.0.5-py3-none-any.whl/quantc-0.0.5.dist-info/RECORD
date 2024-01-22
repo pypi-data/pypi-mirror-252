@@ -1,0 +1,14 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantc/base_strategy.py,sha256=CE0WAntAB9lmMxVbR8hqPAkEkVZafBc0z7TnblbXl28,4997
+quantc/config.py,sha256=F1UbPzBxyrWrCtUsiGuh1u_FLnFoX5LRlVCKyc8H02Q,94
+quantc/constant.py,sha256=ZuB2Y2PPW4HGqgcztfUmsIA8Ly55yi17EPN-cW_7pFU,8890
+quantc/data_object.py,sha256=a8oV4zMnMag-5sNbLfyj9SwnopqmB_YqD8wuM2jn6D4,15458
+quantc/db_util.py,sha256=SrNQRWUvbmGq_7dUYhWbQHbDIUBC5vqcbNXZrCLq5fY,323
+quantc/quote_gateway.py,sha256=zdCzcjWcoWLQ0o6hWj3FEEUA0iq5Y379WegvxfHFTtM,1546
+quantc/trade_gateway.py,sha256=zZawInVyx-EUzmibPbKo5yAx0VmPcrzv1RF6kPXE-6s,1893
+quantc/util.py,sha256=bTNbYt7UfM9nyGSxCwvI_KBuDxndV9fFcN10N33by-Q,857
+quantc-0.0.5.dist-info/METADATA,sha256=Ej1RBDaioWW3zHtxkHZa5SYnjlQb8kujpKjvwncRQdQ,139
+quantc-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quantc-0.0.5.dist-info/top_level.txt,sha256=RDHVtJsBuzSv6A3xV2EuZgpt8Xt9EOYJJPWtjs11LQM,16
+quantc-0.0.5.dist-info/RECORD,,
