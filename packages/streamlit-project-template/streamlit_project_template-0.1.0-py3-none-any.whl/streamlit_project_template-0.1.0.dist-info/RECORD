@@ -1,0 +1,14 @@
+streamlit_project_template/__init__.py,sha256=SCIcTdOvfEkrZd1doOtOnvCj8PmdRuXu18YYJQxfFrs,24
+streamlit_project_template/createtemplate.py,sha256=2_hidEfSzB0rulcVQHFJH3s_wroVFz3namop2t0YGKs,2811
+streamlit_project_template/main.py,sha256=C27KUbfbWKtax0KYGwP6ZbIQbrs975-5ZTb2zRKS2HU,548
+streamlit_project_template/template/__init__.py,sha256=VhoYf9SGXkglkHEAl570CtQXH3M-1tupVVF12UEWP20,46
+streamlit_project_template/template/app.py,sha256=z_GzA9mS2iVJ0k-sa4ZzY1H86v7P2Ka6xcpEts5PDxo,537
+streamlit_project_template/template/callbacks.py,sha256=D-km4K509bgIvnG31asDRHQp04T75NxeHFhJpw807Qg,329
+streamlit_project_template/template/components.py,sha256=UKtEejO0ognYAJZ5ENuLKLzaPENnq6y8lCf2F3BpTi0,586
+streamlit_project_template/template/pages.py,sha256=TBBYmfjDKMnCnJdPaujkpSUXsb6ScNr6NH72WZuRDos,1007
+streamlit_project_template-0.1.0.dist-info/LICENSE,sha256=ORqo0ZW_TQdyEquk9gwBOyJcmvyto_7Yw-yuXvHRFd4,1094
+streamlit_project_template-0.1.0.dist-info/METADATA,sha256=ST2Ds7Z6xhPcZMtIr3gTtge19G8QZVa61QqzLDfMOfg,3136
+streamlit_project_template-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_project_template-0.1.0.dist-info/entry_points.txt,sha256=QlhbjRtiiFlG7goz0tIQjCXllXWS9KzdakaAjz20yZQ,79
+streamlit_project_template-0.1.0.dist-info/top_level.txt,sha256=43Bbu5x1tcNEDZqh6Z7mvpzPtwy9H_M9_gNSus2ciPU,27
+streamlit_project_template-0.1.0.dist-info/RECORD,,

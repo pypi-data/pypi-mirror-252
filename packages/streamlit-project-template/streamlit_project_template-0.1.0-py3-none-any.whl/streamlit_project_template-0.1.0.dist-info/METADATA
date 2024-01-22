@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: streamlit-project-template
+Version: 0.1.0
+Summary: A solid project structure from basit to advanced streamlit applications.
+Author: Can Demir
+Author-email: mhmtcndmr01@gmail.com
+Project-URL: Documentation, https://github.com/mcandemir/streamlit-project-template/blob/master/README.md
+Project-URL: Repository, https://github.com/mcandemir/streamlit-project-template
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Streamlit Project Template
+
+A streamlit project template to create cleaner code and cost-efficient maintable apps. 
+
+## Template Hierarchy:
+    MyProject
+    â”œâ”€â”€ src
+    â”‚  â”œâ”€â”€ __init__.py 
+    â”‚  â”œâ”€â”€ callbacks.py
+    â”‚  â”œâ”€â”€ components.py
+    â”‚  â””â”€â”€ pages.py
+    â”œâ”€â”€ .gitignore
+    â”œâ”€â”€ app.py
+    â”œâ”€â”€ Dockerfile
+    â”œâ”€â”€ README.md
+    â””â”€â”€ requirements.txt
+
+## Installation:
+```
+$ pip install streamlit-project-template
+$ streamlit-project-template createtemplate
+```
+
+
+## Docs:
+- `MyProject:` This is the top-level project folder, which you initialize your application template.
+
+- `src:` In this folder, you keep your modules for your application. It will start with 3 main modules (`callbacks.py`, `components.py`, `pages.py`) which are essential for this app architecture, but you can add more modules besides them.
+
+- `__init__.py:` When calling a module that is in another directory, python might not be able to find it. To solve this problem, we will create an `__init__.py` file in `src`, in order to tell python to treat this folder as a library.
+
+- `callbacks.py:` This file(s) will contain your streamlit callbacks.
+
+- `components.py:` This is where you create your components. Each component is a one or multiple row of streamlit elements. This way you can use a component in multiple places without rewriting it and it will make maintaining easier and cost efficient.
+
+- `pages.py:` In this file you will hold your pages as classes, which are built with components row by row as defined in yur `components.py` file(s).
+
+- `app.py:` This is the main file you will run. It initialliy contains a page config, a session state which holds your current page name and the page navigation. All the session states should be initialized here, and the page navigation should be managed here in order to keep the project architecture organized and run one page at a time to reduce resource cost.
+
+- `.gitignore:` Your standard `.gitignore` file.
+
+- `Dockerfile:` Initial dockerfile which is configured to run streamlit.
+
+- `README.md:` Introduce your project here.
+
+- `requirements.txt`: Required packages for your application will be here.
