@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+UCS_654_thapar_topsis_shrey_102103354.egg-info/PKG-INFO
+UCS_654_thapar_topsis_shrey_102103354.egg-info/SOURCES.txt
+UCS_654_thapar_topsis_shrey_102103354.egg-info/dependency_links.txt
+UCS_654_thapar_topsis_shrey_102103354.egg-info/entry_points.txt
+UCS_654_thapar_topsis_shrey_102103354.egg-info/requires.txt
+UCS_654_thapar_topsis_shrey_102103354.egg-info/top_level.txt
+tests/__init__.py
+tests/tests_topsis.py
+topsis/__init__.py
+topsis/topsis.py
