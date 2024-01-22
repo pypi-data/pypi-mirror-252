@@ -1,0 +1,6 @@
+[console_scripts]
+django-nest=scripts.main:cli
+gitpython=^3.1.41
+runserver=scripts.main:runserver
+startproject=scripts.main:startproject
+
