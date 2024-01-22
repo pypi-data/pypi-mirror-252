@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: freezy
+Version: 1.2.1
+Summary: Automatic speed calculation through DLC coordinates.
+Home-page: https://github.com/minsmis/freezy
+Author: Min Seok Kim
+Author-email: minseok.kim@brain.snu.ac.kr
+Keywords: deeplabcut,mouse,speed,freezing
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: openpyxl
+Requires-Dist: pyqt6
+Requires-Dist: pyqt6-webengine
+Requires-Dist: pyqt6-webengine-qt6

@@ -1,0 +1,7 @@
+numpy
+pandas
+plotly
+openpyxl
+pyqt6
+pyqt6-webengine
+pyqt6-webengine-qt6
