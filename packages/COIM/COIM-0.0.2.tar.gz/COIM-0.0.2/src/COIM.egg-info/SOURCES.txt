@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/COIM/__init__.py
+src/COIM/constrain.py
+src/COIM/constrain_add_scalar.py
+src/COIM/constrain_constant_sum.py
+src/COIM/constrain_custom.py
+src/COIM/constrain_mul_scalar.py
+src/COIM/operator.py
+src/COIM.egg-info/PKG-INFO
+src/COIM.egg-info/SOURCES.txt
+src/COIM.egg-info/dependency_links.txt
+src/COIM.egg-info/requires.txt
+src/COIM.egg-info/top_level.txt
