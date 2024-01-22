@@ -1,0 +1,6 @@
+spinners
+looperation
+
+[dev]
+pdoc3
+twine
