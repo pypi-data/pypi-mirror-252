@@ -1,0 +1,8 @@
+LICENSE.text
+setup.py
+topsis-aayushi-102103421/__init__.py
+topsis-aayushi-102103421/topsis.py
+topsis_aayushi_102103421.egg-info/PKG-INFO
+topsis_aayushi_102103421.egg-info/SOURCES.txt
+topsis_aayushi_102103421.egg-info/dependency_links.txt
+topsis_aayushi_102103421.egg-info/top_level.txt
