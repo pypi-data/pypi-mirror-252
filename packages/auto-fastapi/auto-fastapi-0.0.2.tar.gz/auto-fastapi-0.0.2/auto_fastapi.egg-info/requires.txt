@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+
+[dev]
+pdoc3
+twine
+pytest
