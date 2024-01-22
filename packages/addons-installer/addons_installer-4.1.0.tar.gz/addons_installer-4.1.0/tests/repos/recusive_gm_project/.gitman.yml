@@ -1,0 +1,25 @@
+location: addons
+
+sources:
+  - repo: git@gitlab.ndp-systemes.fr:ndp-tests/gm-project-a.git
+    name: project-a
+    rev: main
+  - repo: git@gitlab.ndp-systemes.fr:odoo-cloud/s3-filestore.git
+    name: s3_filestore
+    rev: main
+groups:
+  - name: local
+    members: &code
+      - project-a
+  - name: prod
+    members:
+      - *code
+      - s3_filestore
+default_group: local
+sources_locked:
+  - repo: git@gitlab.ndp-systemes.fr:ndp-tests/gm-project-a.git
+    name: project-a
+    rev: prod
+  - repo: git@gitlab.ndp-systemes.fr:odoo-cloud/s3-filestore.git
+    name: s3_filestore
+    rev: 1.1.0
