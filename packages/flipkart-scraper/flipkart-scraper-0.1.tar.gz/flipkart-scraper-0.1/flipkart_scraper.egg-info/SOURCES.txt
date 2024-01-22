@@ -1,0 +1,9 @@
+README.md
+setup.py
+flipkart_scraper.egg-info/PKG-INFO
+flipkart_scraper.egg-info/SOURCES.txt
+flipkart_scraper.egg-info/dependency_links.txt
+flipkart_scraper.egg-info/requires.txt
+flipkart_scraper.egg-info/top_level.txt
+thevk/__init__.py
+thevk/flipkartscraper.py
