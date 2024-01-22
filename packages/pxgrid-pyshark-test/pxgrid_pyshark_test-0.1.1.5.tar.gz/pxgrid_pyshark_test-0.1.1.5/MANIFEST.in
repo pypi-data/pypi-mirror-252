@@ -1,0 +1,3 @@
+include versioneer.py
+include pxgrid_pyshark_test/_version.py
+include pxgrid_pyshark_test/db/*
