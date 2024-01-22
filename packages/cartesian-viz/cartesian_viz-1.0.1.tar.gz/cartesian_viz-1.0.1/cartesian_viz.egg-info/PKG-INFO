@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cartesian-viz
+Version: 1.0.1
+Summary: Customizable map or cartesian data vizualiser
+Home-page: https://github.com/androclassic/cartesian_viz
+Author: Andrei Georgescu
+Author-email: andrei.georgescoo@yahoo.com
+License: MIT License
+Description: # cartesian_viz
+        Customizable map or cartesian data vizualiser
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Description-Content-Type: text/markdown
