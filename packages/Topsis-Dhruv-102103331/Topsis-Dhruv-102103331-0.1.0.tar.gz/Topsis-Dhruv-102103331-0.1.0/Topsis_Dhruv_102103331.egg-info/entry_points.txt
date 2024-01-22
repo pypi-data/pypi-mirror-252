@@ -1,0 +1,2 @@
+[console_scripts]
+topsis-dhruv-102103331 = Topsis_Dhruv_102103331.cli:main
