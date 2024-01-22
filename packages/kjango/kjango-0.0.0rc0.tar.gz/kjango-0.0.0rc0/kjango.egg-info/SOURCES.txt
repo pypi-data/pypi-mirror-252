@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kjango.egg-info/PKG-INFO
+kjango.egg-info/SOURCES.txt
+kjango.egg-info/dependency_links.txt
+kjango.egg-info/top_level.txt
