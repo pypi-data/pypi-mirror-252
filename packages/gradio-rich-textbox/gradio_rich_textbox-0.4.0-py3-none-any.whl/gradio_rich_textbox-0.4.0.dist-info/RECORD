@@ -1,0 +1,10 @@
+gradio_rich_textbox/__init__.py,sha256=OcAwPTICVFpvyj_mYdVFdkQxnUKa-y_xYJAWvi3qltg,65
+gradio_rich_textbox/richtextbox.py,sha256=bZ1-VHtLtsyFgIuXiRDxe175ATeKod2lP7LICiDH6QY,4338
+gradio_rich_textbox/richtextbox.pyi,sha256=kHW938Ih4k-MCqCdOF6JVVLoc4k9_RNO6jOvJBYVsUQ,19693
+gradio_rich_textbox/templates/component/index.js,sha256=Z-m3rdvTgfkrw17UnpiVqSJoZf83VizgcTGzqS77HZM,58247
+gradio_rich_textbox/templates/component/style.css,sha256=36LftG9f38EGG5YWQFVNgt8OYixfGWIVPvJE-vZSqjw,11902
+gradio_rich_textbox/templates/example/index.js,sha256=vKgMmbIEBmZxlXWrxChS_uoaen6GfNSP3VK3K94Hzvs,2223
+gradio_rich_textbox/templates/example/style.css,sha256=-DHk5asz3SWFNLQlCnYuMN4b4gTf_srMmlu5x_xU_Pw,147
+gradio_rich_textbox-0.4.0.dist-info/METADATA,sha256=Jsfv-PU7WK-3Sxq2twgesOq_LqaXE7s20sdTAfzCTrk,7462
+gradio_rich_textbox-0.4.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+gradio_rich_textbox-0.4.0.dist-info/RECORD,,
