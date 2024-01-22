@@ -1,0 +1,12 @@
+dl_01/Q1_and_or.py,sha256=u-qrz2KAlpWj-9yLbuLfCaswdsG7NQ_syU6MavhCwRc,1203
+dl_01/Q2_xor_andnot.py,sha256=UDAcLxjd9zUlxnD7Zmnxo478oa4UoL4pR_33G973mzo,1342
+dl_01/Q3_hebbian_net.py,sha256=xuS7X2e-L_aqp1edow93ddodkGDD5N5_iQWj9jNHi6Y,2230
+dl_01/Q4_discrete_hopfield_net.py,sha256=aqkzysYkv2w1t4N39ZDd9Jzw41Prsy40LpAmw5sjVaE,1519
+dl_01/Q5_Kohonen_self_organizing_maps.py,sha256=skIS4Rg6jwaN1mr-45pPKlJJ68nNflV1MUsxLmz1KDI,2583
+dl_01/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dl_01/main.py,sha256=mBuRorf9ezfWmd6z0NewwjLJ-kK4bWfesSSnNY37t7k,144
+dl_01-1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dl_01-1.dist-info/METADATA,sha256=a3gnyhR8bc_3u0xa71hRocQXndBIas25NuOZ2YcvjtQ,477
+dl_01-1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dl_01-1.dist-info/top_level.txt,sha256=-q_xxgcktS0HTCPH-ZPGMC80UuL1AK8EytL7VYxMh8A,6
+dl_01-1.dist-info/RECORD,,
