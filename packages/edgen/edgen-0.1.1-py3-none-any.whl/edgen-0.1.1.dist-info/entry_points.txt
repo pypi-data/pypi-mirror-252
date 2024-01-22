@@ -1,0 +1,2 @@
+[console_scripts]
+edgen = edgen.cli:main
