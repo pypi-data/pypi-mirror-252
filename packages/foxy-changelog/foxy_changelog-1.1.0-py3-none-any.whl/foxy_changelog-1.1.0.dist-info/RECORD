@@ -1,0 +1,15 @@
+foxy_changelog/__init__.py,sha256=1kc1HvMiV7BDINxEYBuBET1REiLQC2ifwL0WEvlIbqY,1403
+foxy_changelog/__main__.py,sha256=A-l5s1gpSFnBncz7nCGN6Ar70D3DkaWy_838RTN02T4,5084
+foxy_changelog/_version.py,sha256=mLrG-mC5i2vs5IEM3ZgT5S9ZdaqM1wQHESPk1-Rj79o,427
+foxy_changelog/domain_model.py,sha256=ayIXXYiaW5ARWemqVvsuynM79ImGN2riXhSwrQLjIv8,10784
+foxy_changelog/presenter.py,sha256=0yvXMLr0P2XNwzLTbPwQWLzouY15gVnulabQ4lcdX78,1912
+foxy_changelog/repository.py,sha256=XSfAn47WcjMl14CYbeEtqwJrw1tbwth8EyCM2zM_kNk,11113
+foxy_changelog/setuptools_scm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foxy_changelog/setuptools_scm/version_scheme.py,sha256=mfVmGs8TX9evDQ_sBDV8U5kSvbQ0qN18-Y6wKLPpaMs,2851
+foxy_changelog/templates/compact.jinja2,sha256=EBYJ9Z5xpEwePuRdHlA-NEErTENBjO59r3_J_CTCl9w,1182
+foxy_changelog/templates/macros.jinja2,sha256=TAp_aCsRbDAsQh_hLH5i1CkhMNvejzC1JuBnKqWWPxs,650
+foxy_changelog-1.1.0.dist-info/METADATA,sha256=NfyPCL_SCIgNRpEkTPXcrd3jzCry_X7KVeLo0ODyXQw,6446
+foxy_changelog-1.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+foxy_changelog-1.1.0.dist-info/entry_points.txt,sha256=UukWmcwt0XFiZRbMpsWmQCrG2TW04HLf8ucSWD4SaII,323
+foxy_changelog-1.1.0.dist-info/licenses/LICENSE,sha256=c5PBM9go1f-T69GLjr7KvwPZPVfXWcdxcrJmNIyoyjU,1150
+foxy_changelog-1.1.0.dist-info/RECORD,,
