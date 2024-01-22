@@ -1,0 +1,12 @@
+convection/secrets/client/__init__.py,sha256=t5d4owTrHG66Mejp0yCJCry0Cq1224ieE9WY1GcQB2E,38234
+convection/secrets/client/console.py,sha256=MEDG0ncnXfPMd1vZnidcZ4QL-y91ZQKo8ztF01a3grg,20141
+convection/secrets/client/specs/secrets-console.global.secrets.client.spec,sha256=FzupGO-oqEE34wPvFUsFJgKojd83vFvdvItbg7PKA74,916
+convection/secrets/client/specs/secrets-console.global.secrets.spec,sha256=iCFUAS4uZL1dweIWGLYQ5ngF9pwkyyTN6q0QEQs6vrg,211
+convection/secrets/client/specs/secrets-console.global.spec,sha256=NC5NLVDheOsIiO3ffcUIKM17t1g_bJDyvGvrdIBkbQM,396
+convection/secrets/client/specs/secrets-console.spec,sha256=saqUctP3TDm6-dhXPJj_t_p9SEBGHvZnREJ8k5wi4CM,145
+convection_secrets_client-1.0.0.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+convection_secrets_client-1.0.0.dist-info/METADATA,sha256=9RYwdiIKpGuop5KGbZTiLQEfH0XDlrRIfz3lo6YcQHA,1187
+convection_secrets_client-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+convection_secrets_client-1.0.0.dist-info/entry_points.txt,sha256=zOEOH8DykYWwvZLdW07SDlV10omUe8d4RCJjcVZ-tAo,173
+convection_secrets_client-1.0.0.dist-info/top_level.txt,sha256=bJCTOR8k-kKRHoclGlabJaBgVYcpn9eOPaAQ2Nicu3E,11
+convection_secrets_client-1.0.0.dist-info/RECORD,,
