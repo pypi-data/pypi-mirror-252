@@ -1,0 +1,3 @@
+[console_scripts]
+rvc=rvc.utils.cli.cli:main
+
