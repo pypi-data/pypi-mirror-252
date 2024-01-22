@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: OACrawler
+Version: 1.4.0
+Summary: crawler oa(oi, acm) competition info
+Home-page: https://github.com/CoolGuang/OACrawler
+Author: CCoolGuang
+Author-email: 1836092943@qq.com
+License: Apache License 2.0
+Keywords: oi acm crawler library
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: lxml
+
+# OACrawer
+用于爬取竞赛 &amp; 刷题网站信息
