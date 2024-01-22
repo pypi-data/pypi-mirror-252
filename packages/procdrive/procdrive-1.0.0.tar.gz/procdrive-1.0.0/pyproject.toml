@@ -1,0 +1,32 @@
+[project]
+name = "procdrive"
+version = "1.0.0"
+authors = [
+    {name="Pascal Rombach"}
+]
+description = "Procedural wrappe for controlling a single Anki Overdrive vehicle"
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: OS Independent",
+    "Topic :: Education",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+keywords = [
+    "Anki Overdrive",
+    "Anki",
+    "Procedural"
+]
+
+dependencies = [
+    "py-easydrive"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PascalRombach/procdrive"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
