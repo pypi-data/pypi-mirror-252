@@ -1,0 +1,4 @@
+[console_scripts]
+mscx-manager=mscxyz.cli_legacy:execute
+musescore-manager=mscxyz.cli:execute
+
