@@ -1,0 +1,12 @@
+astro_kittens
+numpy
+scipy
+astropy
+future
+python-casacore
+
+[:python_version < "3.8"]
+astlib<=0.11.8
+
+[:python_version >= "3.8"]
+astlib<=0.11.10
