@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pybtocs
+Version: 0.2.0
+Summary: B-Tocs Container SDK for Python
+Author-email: Joerg Mueller <mdjoerg@b-tocs.com>
+Project-URL: Homepage, https://github.com/b-tocs/pybtocs
+Project-URL: Bug Tracker, https://github.com/b-tocs/pybtocs/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# B-Tocs Python SDK
+
+A python library for building cloud native container for enterprise.
+

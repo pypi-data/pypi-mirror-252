@@ -1,0 +1,3 @@
+# key for config manager
+RESTAPI_HOST = "B2X_RESTAPI_HOST"
+RESTAPI_PORT = "B2X_RESTAPI_PORT"
