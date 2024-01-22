@@ -1,0 +1,28 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "autopep",
+        "cbox",
+        "darkgray",
+        "groupbox",
+        "Maximiliano",
+        "Monokai",
+        "omui",
+        "pixmap",
+        "pypa",
+        "pypi",
+        "pyside",
+        "qlineedit",
+        "qlistwidget",
+        "qmenu",
+        "Rocamora",
+        "Segoe",
+        "shiboken",
+        "subcontrol"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
