@@ -1,0 +1,2 @@
+[console_scripts]
+my_app = test_package_trail_1.my_app:hello
