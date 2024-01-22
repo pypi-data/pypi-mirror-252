@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vine_test_importer.egg-info/PKG-INFO
+vine_test_importer.egg-info/SOURCES.txt
+vine_test_importer.egg-info/dependency_links.txt
+vine_test_importer.egg-info/entry_points.txt
+vine_test_importer.egg-info/requires.txt
+vine_test_importer.egg-info/top_level.txt
