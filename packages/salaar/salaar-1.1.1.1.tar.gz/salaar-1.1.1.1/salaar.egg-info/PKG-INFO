@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: salaar
+Version: 1.1.1.1
+Summary: this is the library to know salaar movie khannsaar relations and vote-count of the particular persons use names as "dhaara", "devaratha_raisaar", "shiva_mannar", "raja_mannar", "varadha_raj_mannar" baachi", "rudra", "radha_rama", "om", "narang", "vishnu", baarava"      and   use tribe names as shouryaanga, mannar, ghaniyar if you want get the vote count first specify tribe and second argument as a name of the person
+Home-page: https://github.com/yourusername/your_package_name
+Author: jagilam kumar chandra
+Author-email: jagilamkumar@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

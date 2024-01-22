@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+salaar/__init__.py
+salaar.egg-info/PKG-INFO
+salaar.egg-info/SOURCES.txt
+salaar.egg-info/dependency_links.txt
+salaar.egg-info/top_level.txt
