@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "addition-subtraction"
+version = "0.1.1"
+description = "With the `AddSub` class, you can switch between addition and subtraction operations dynamically, providing flexibility for various scenarios requiring different operations."
+authors = ["colddsam <dassamratkumar772@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/colddsam/Addition-Subtraction-Package.git"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
