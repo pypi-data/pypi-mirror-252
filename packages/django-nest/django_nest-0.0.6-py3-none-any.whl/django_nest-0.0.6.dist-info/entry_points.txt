@@ -1,0 +1,3 @@
+[console_scripts]
+django-nest=django_nest.__main__:main
+
