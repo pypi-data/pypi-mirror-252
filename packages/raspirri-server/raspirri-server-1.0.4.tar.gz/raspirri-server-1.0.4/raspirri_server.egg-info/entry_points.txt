@@ -1,0 +1,3 @@
+[console_scripts]
+raspirri_install_script = raspirri_server.install_uninstall_script:install
+raspirri_uninstall_script = raspirri_server.install_uninstall_script:uninstall
