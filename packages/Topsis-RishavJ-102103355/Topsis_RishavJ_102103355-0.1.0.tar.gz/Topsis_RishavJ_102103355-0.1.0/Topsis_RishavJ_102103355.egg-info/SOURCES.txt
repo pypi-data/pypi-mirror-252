@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Topsis_RishavJ_102103355.egg-info/PKG-INFO
+Topsis_RishavJ_102103355.egg-info/SOURCES.txt
+Topsis_RishavJ_102103355.egg-info/dependency_links.txt
+Topsis_RishavJ_102103355.egg-info/entry_points.txt
+Topsis_RishavJ_102103355.egg-info/requires.txt
+Topsis_RishavJ_102103355.egg-info/top_level.txt
+test/__init__.py
+test/test_topsis.py
+topsis-102103355/__init__.py
+topsis-102103355/topsis.py

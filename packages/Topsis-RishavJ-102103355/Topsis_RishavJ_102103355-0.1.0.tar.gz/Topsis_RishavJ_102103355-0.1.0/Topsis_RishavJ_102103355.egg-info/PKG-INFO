@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Topsis_RishavJ_102103355
+Version: 0.1.0
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
