@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: dtl_functions_rd
+Version: 0.1.0
+Summary: A sample library of Data Transformation functions.
+License: MIT
+Author: repeckadonatas
+Author-email: repeckadonatas@yahoo.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mypy (>=1.8.0,<2.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Data Transformation Library
+
+## About
+
+This project is an exercise primarily focused on building Python libraries, dependency management using Poetry and publishing packages to PyPI.
+
+The task is to implement three data transformation functions:
+* Transpose
+* Time Series Windowing
+* Cross-Correlation (Convolution)
+
+Functions were built using Python and Numpy (as per requirements of this task).
+
+For package management we were required to use Poetry.
+
+## Libraries Used
+
+For this project only Python's **standard library** as well as **Numpy** (were it was required) were used.
+
+## How to Use
+
+As this project is an exercise on building Python libraries, the library itself must first be installed from PyPI, were it is being published.
+
+To do so in the terminal window type `pip install dtl-functions-rd`. After the library is installed, open the `main.py` file that is located in the main project directory to see a few examples on how to use the functions of this data transformation library.
+
+
+## Possible Future Improvements
+
+* Version handling
