@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/streamtranslator/__init__.py
+src/streamtranslator/_streamtranslator.py
+src/streamtranslator/libgcc_s_seh-1.dll
+src/streamtranslator/libstdc++-6.dll
+src/streamtranslator/libwinpthread-1.dll
+src/streamtranslator/streamtranslator.exe
+src/streamtranslator.egg-info/PKG-INFO
+src/streamtranslator.egg-info/SOURCES.txt
+src/streamtranslator.egg-info/dependency_links.txt
+src/streamtranslator.egg-info/top_level.txt
