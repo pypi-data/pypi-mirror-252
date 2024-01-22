@@ -1,0 +1,5 @@
+setup.py
+pyxfit.egg-info/PKG-INFO
+pyxfit.egg-info/SOURCES.txt
+pyxfit.egg-info/dependency_links.txt
+pyxfit.egg-info/top_level.txt
