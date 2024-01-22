@@ -1,0 +1,10 @@
+httpcarousel/__init__.py,sha256=SAyAjT8F67wc2cZb0bzE2BttfJwlNwvSbFi67L-tyKw,1390
+httpcarousel/static/refresh.js,sha256=BdECCJnzrweEXY-SJo4S73NAY5Jy4FNIx6_IFfXyLZw,558
+httpcarousel/static/style.css,sha256=pp47VQUaB-wnirikGJ4T4ydqqXquzIFU78NH8vDG_rQ,1062
+httpcarousel/templates/carousel.js.j2,sha256=GXxnmeCMMNDrqM-9GXl6RqCDV3V7TGvd70l-GfIAPeQ,441
+httpcarousel/templates/index.html.j2,sha256=O3FDpOdY8kd3MkW7N6uD216lpwr1jWAR5-AOVH2gpGk,623
+httpcarousel-1.0.2.dist-info/LICENSE,sha256=cOR3ZNYRozIllAyPHgAuxTZgFbsC1u5obGyISBWYYyY,1072
+httpcarousel-1.0.2.dist-info/METADATA,sha256=mRVxB-hp2BC8wPsU8m562EKHz25uB1NkfI7y5xEAUp8,1721
+httpcarousel-1.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+httpcarousel-1.0.2.dist-info/entry_points.txt,sha256=fjOikceiT3Eu_Da4kerL3JHO49zHfeQyYuSQUp2Q4-Q,45
+httpcarousel-1.0.2.dist-info/RECORD,,
