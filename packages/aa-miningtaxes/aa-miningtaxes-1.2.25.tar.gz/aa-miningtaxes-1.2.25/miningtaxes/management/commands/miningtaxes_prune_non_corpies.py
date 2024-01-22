@@ -1,0 +1,22 @@
+from django.core.management.base import BaseCommand
+
+from ...models import AdminCharacter, Character
+
+
+class Command(BaseCommand):
+    help = "Purges characters where their main is not in a tracked corp."
+
+    def handle(self, *args, **options):
+        alltoons = AdminCharacter.objects.all()
+        validcorps = set()
+        for char in alltoons:
+            validcorps.add(char.eve_character.corporation_id)
+
+        alltoons = Character.objects.all()
+
+        for char in alltoons:
+            cid = (
+                char.eve_character.character_ownership.user.profile.main_character.corporation_id
+            )
+            if cid not in validcorps:
+                char.delete()
