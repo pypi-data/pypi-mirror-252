@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django_global_places
+Version: 0.8
+Summary: Django Global Places is a simple Django app to provide a model for global places.
+Home-page: https://github.com/lucacitta/Django-GlobalPlaces
+Author: lucacitta
+Author-email: lucacitta.dev@gmail.com
+License: MIT
+Keywords: django global places
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: Django >=3.8.0
+Requires-Dist: djangorestframework >=3.13.0
+
