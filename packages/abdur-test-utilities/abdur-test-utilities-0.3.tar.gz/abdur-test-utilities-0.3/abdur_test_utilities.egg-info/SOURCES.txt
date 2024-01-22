@@ -1,0 +1,9 @@
+README.md
+setup.py
+abdur_test_utilities/__init__.py
+abdur_test_utilities/email_validator.py
+abdur_test_utilities.egg-info/PKG-INFO
+abdur_test_utilities.egg-info/SOURCES.txt
+abdur_test_utilities.egg-info/dependency_links.txt
+abdur_test_utilities.egg-info/requires.txt
+abdur_test_utilities.egg-info/top_level.txt
