@@ -1,0 +1,8 @@
+LICENCE.text
+setup.py
+topsis-aaryan-102103449/__init__.py
+topsis-aaryan-102103449/topsis.py
+topsis_aaryan_102103449.egg-info/PKG-INFO
+topsis_aaryan_102103449.egg-info/SOURCES.txt
+topsis_aaryan_102103449.egg-info/dependency_links.txt
+topsis_aaryan_102103449.egg-info/top_level.txt
