@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: sentinex
+Version: 0.0.1
+Summary: Sentinex: A high level interface aimed towards rapid prototyping and intuitive workflow for JAX.
+Home-page: https://github.com/Impure-King/base-sentinex
+Author: Lelouch
+Author-email: ImpureK@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.12
+Requires-Dist: jaxtyping
+Requires-Dist: optax
+Requires-Dist: equinox
+Requires-Dist: jax-dataloader
+Requires-Dist: tensorflow-datasets
+Requires-Dist: termcolor
+Requires-Dist: keras-core
+Provides-Extra: testing
+Requires-Dist: atari-py ==0.2.5 ; extra == 'testing'
+Requires-Dist: clu ; extra == 'testing'
+Requires-Dist: gym ==0.18.3 ; extra == 'testing'
+Requires-Dist: jaxlib ; extra == 'testing'
+Requires-Dist: jraph >=0.0.6dev0 ; extra == 'testing'
+Requires-Dist: ml-collections ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: opencv-python ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-custom-exit-code ; extra == 'testing'
+Requires-Dist: pytest-xdist ==1.34.0 ; extra == 'testing'
+Requires-Dist: pytype ; extra == 'testing'
+Requires-Dist: sentencepiece ; extra == 'testing'
+Requires-Dist: tensorflow-text >=2.4.0 ; extra == 'testing'
+Requires-Dist: tensorflow-datasets ; extra == 'testing'
+Requires-Dist: tensorflow ; extra == 'testing'
+Requires-Dist: torch ; extra == 'testing'
+
+# Sentinex - An (Experimental) Object Oriented Deep Learning Library Built on top of JAX.
+
+Sentinex is a comprehensive deep learning library that aims to provide an intuitive *object oriented api* that is accelerated using JAX primitives.
+
+Sentinex aims to provide a simplied and intuitive api that doesn't increase programming fatigue, when developing models. It offers low level abstractions like ``sx.Module``, while offering higher level subclasses like ``nn.Layers``,
+``nn.Model``, ``nn.Activation``, ``nn.Initializers``, ``nn.Losses``, etc. Since everything is a PyTree, it is compatible with a wide variety of JAX ecosystem tools, like Optax, Equinox, Keras, and so much more.
+
+# Sharp Bits:
+Currently, Sentinex is an immature framework that heavily utilizes external libraries for many core features. For example, Equinox is used to supply many of the filtered/lifted transformations, while Optax optimizers have been wrapped for extra-convenience.
+This implies that Sentinex's internals are not maintained completely from this repo and is dependent on the support of other jax libraries. Therefore, there may be bugs in such interops, though Sentinex is aiming to prevent that and migrate to a more
+independent status.
