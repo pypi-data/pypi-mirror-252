@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/tinybook/__init__.py
+src/tinybook/tinybook.py
+src/tinybook.egg-info/PKG-INFO
+src/tinybook.egg-info/SOURCES.txt
+src/tinybook.egg-info/dependency_links.txt
+src/tinybook.egg-info/requires.txt
+src/tinybook.egg-info/top_level.txt
