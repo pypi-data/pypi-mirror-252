@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Rayez_Calculator3
+Version: 0.5
+Summary: Short description of your package
+Home-page: https://github.com/your_username/your_package_name
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nihil cupiditate earum nobis et, consequatur fuga possimus error eius expedita voluptatum id nam natus? Ipsum quo unde assumenda libero deserunt!
+
+# Read pointer position
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nihil cupiditate earum nobis et, consequatur fuga possimus error eius expedita voluptatum id nam natus? Ipsum quo unde assumenda libero deserunt!
+
+''' 
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nihil cupiditate earum nobis et, consequatur fuga possimus error eius expedita voluptatum id nam natus? Ipsum quo unde assumenda libero deserunt!
+'''
