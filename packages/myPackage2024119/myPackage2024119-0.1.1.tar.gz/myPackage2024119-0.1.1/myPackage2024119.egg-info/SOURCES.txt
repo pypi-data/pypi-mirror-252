@@ -1,0 +1,8 @@
+README.md
+setup.py
+myPackage2024119/__init__.py
+myPackage2024119/hello.py
+myPackage2024119.egg-info/PKG-INFO
+myPackage2024119.egg-info/SOURCES.txt
+myPackage2024119.egg-info/dependency_links.txt
+myPackage2024119.egg-info/top_level.txt
