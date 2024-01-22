@@ -1,0 +1,14 @@
+logfiles/.DS_Store,sha256=BaVT2JrJkVeOBUISkf74wR6SXha-ff7SSMyyoqcVFyU,6148
+logfiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logfiles/admin.py,sha256=-TgbUQieMeYC4xN2-3p9An-JBMQWE8T82EfdJ3oa3qU,553
+logfiles/apps.py,sha256=rjERVxFpI67fSJng0ujrs5gWfmM2pPvMFePQF6Hn_7w,148
+logfiles/models.py,sha256=iRiCKOo6kQLI4hTPdl70WgMcSuLa2D8fGHDTyyynB-c,2645
+logfiles/settings.py,sha256=7CVXfjPS7ZYwnAdZIyOdgyGvv63CABnQoQaYCHQJJR4,379
+logfiles/tests.py,sha256=vQpn-tliuTWSl9M0dpsYDnl4ZzU7ytfEiRj43sgdTho,232
+logfiles/static/.DS_Store,sha256=6e6X6xg0cbBAuASO4C1nDOjoRV8sDaMTwDjVXIB1jvc,6148
+logfiles/static/admin/.DS_Store,sha256=l1Vu33yX8pCsoyoSZ8E2lk6llFJsXamU7liHksHOpK4,6148
+logfiles/static/admin/css/logfile.css,sha256=ELjsGL1UZGK9PJ3bzD7c4rkQvCr5DdVAX0jMYqMa5SE,82
+django_logfiles-1.0.0.dist-info/METADATA,sha256=4Ue8wnin-3vrOXdw8QVKhTejLDwkBW3mf8Avioh9MaM,1214
+django_logfiles-1.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+django_logfiles-1.0.0.dist-info/licenses/LICENSE,sha256=gtXEF2mBR5CQUCNZs1U00i4-j0lWqveCSuxSrZGke5k,1080
+django_logfiles-1.0.0.dist-info/RECORD,,
