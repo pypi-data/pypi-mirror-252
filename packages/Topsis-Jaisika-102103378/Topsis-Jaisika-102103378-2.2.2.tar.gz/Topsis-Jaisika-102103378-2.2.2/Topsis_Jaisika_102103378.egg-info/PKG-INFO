@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Topsis-Jaisika-102103378
+Version: 2.2.2
+Summary: A simple Python package for math operations and geometry calculations
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
