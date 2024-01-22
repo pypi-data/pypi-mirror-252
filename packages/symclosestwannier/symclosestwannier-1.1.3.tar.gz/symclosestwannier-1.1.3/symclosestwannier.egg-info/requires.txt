@@ -1,0 +1,9 @@
+gcoreutils
+multipie
+xmltodict
+fortio
+
+[dev]
+sphinx
+sphinx-rtd-theme
+ipython
