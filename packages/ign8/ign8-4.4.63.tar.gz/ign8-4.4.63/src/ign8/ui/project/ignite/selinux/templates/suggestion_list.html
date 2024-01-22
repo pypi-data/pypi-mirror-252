@@ -1,0 +1,26 @@
+<!-- cv/templates/cv/selinux_list.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Selinux Messages List{% endblock %}
+
+{% block content %}
+    <h2>Selinux suggestion List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Message</th>
+                <th>Hostname</th>
+                <th>suggestion</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in messages %}
+                <tr>
+                    <td>{{ entry.message }}</td>
+                    <td>{{ entry.hostname }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
