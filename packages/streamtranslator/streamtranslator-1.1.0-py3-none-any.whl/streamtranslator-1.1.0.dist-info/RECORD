@@ -1,0 +1,11 @@
+streamtranslator/__init__.py,sha256=eEHPTFwl07ieDDjYl4i0bLzq2tKr7dircT7yA6oknCk,1021
+streamtranslator/_streamtranslator.py,sha256=zeDyy4FcLauAyNXmhwgFT3BX9UeN79vlFvj-RR1D6OY,3201
+streamtranslator/libgcc_s_seh-1.dll,sha256=R5kHkErPKDaj4QOhkjk-mMmM_dwbTAuP8gpEJSGQDGo,74240
+streamtranslator/libstdc++-6.dll,sha256=zdMWWd7fwqrFGyyrt3wGFgP9P5H-mJWLnBecw_SsYQQ,1425920
+streamtranslator/libwinpthread-1.dll,sha256=vU9iKmfm8zrsEZ2YexrisPxSuNWhsqgFqrZU1Qf1adM,52224
+streamtranslator/streamtranslator.exe,sha256=RM4OFRkiDWeWogYZewnKambTuk6C1XE1aConIr9rMxo,120832
+streamtranslator-1.1.0.dist-info/LICENSE,sha256=mQyJmyeL1RNvzwIJBGQpSSQbvbcBRtKOUugW1uuh0o4,3856
+streamtranslator-1.1.0.dist-info/METADATA,sha256=Ohe0z0JH6wbQvfbtujtg0DJiHfNdx8uEnf76EjN1dWo,1045
+streamtranslator-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+streamtranslator-1.1.0.dist-info/top_level.txt,sha256=04p6H-HqH13gsqHjSOqVRaA-rnN0dBfpdUlVE1OMKAQ,17
+streamtranslator-1.1.0.dist-info/RECORD,,
