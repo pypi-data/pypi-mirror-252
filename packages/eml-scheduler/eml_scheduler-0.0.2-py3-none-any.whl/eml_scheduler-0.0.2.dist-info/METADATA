@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: eml-scheduler
+Version: 0.0.2
+Summary: EasyML is a tool to submit jobs to ClearML
+Author: Fidel Guerrero Pena
+Author-email: fillo8985@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: clearml ==1.8.0
+Requires-Dist: pyyaml ==5.3.1
+Requires-Dist: appengine-python-standard
+Requires-Dist: tqdm
+Requires-Dist: pathspec
+Requires-Dist: prettytable
+Requires-Dist: bcrypt
+
+# EasyML
+

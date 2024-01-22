@@ -1,0 +1,2 @@
+clearml-init --file ~/eml.conf
+python -m eml.init $(pwd)
