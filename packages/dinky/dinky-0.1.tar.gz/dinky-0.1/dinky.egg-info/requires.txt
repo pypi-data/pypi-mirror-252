@@ -1,0 +1,6 @@
+pydantic
+pluggy
+Pillow
+
+[test]
+pytest
