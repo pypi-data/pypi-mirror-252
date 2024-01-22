@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: hierarchy_transformers
+Version: 0.0.1
+Summary: Language models as hierarchy encoders.
+Author: Yuan He (KRR-Oxford)
+Author-email: yuan.he@cs.ox.ac.uk
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datasets
+Requires-Dist: deeponto>=0.8.8
+Requires-Dist: geoopt==0.5.0
+Requires-Dist: scikit_learn
+Requires-Dist: seaborn
+Requires-Dist: sentence_transformers
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers[torch]
+
+# Hierarchy Transformers (HiTs)
+
+Code repository for the paper: "Language Models as Hierarchy Encoders".
+
+
+## Main Dependencies
+
+This repository follows a similar layout as the `sentence_transformers` library. It mainly depends on the following libraries:
+
+
+- [Sentence Transformers](https://www.sbert.net/index.html) for language models.
+
+- [DeepOnto](https://krr-oxford.github.io/DeepOnto/) for processing hierarchies and constructing datasets from hierarchies.
+
+- [Geoopt](https://geoopt.readthedocs.io/en/latest/index.html) for arithmetic in hyperbolic space.
+
+
+## Models on Huggingface Hub
+
+Our HiT models will be released on the [Huggingface Hub](https://huggingface.co/Hierarchy-Transformers).
+
+## Datasets
+
+Datasets for HiTs are available at [Zenodo](https://zenodo.org/doi/10.5281/zenodo.10511042), including those constructed from:
+
+- WordNet  
+- SNOMED CT
+- Schema.org 
+- FoodOn
+- DOID
