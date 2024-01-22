@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: UCS-654-thapar-topsis-shrey-102103354
+Version: 0.2.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: numpy
+
