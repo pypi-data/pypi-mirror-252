@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/aerickt/steno-dictionaries
+	branch = plover-lapwing-aio
+	commit = aae790a255807eba5c3ed153f04c176f09f5f5db
+	parent = 964a63d50905ac5e6723d16cfdf6ec50eed7405d
+	method = merge
+	cmdver = 0.4.6
