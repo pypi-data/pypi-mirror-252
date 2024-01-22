@@ -1,0 +1,2 @@
+[console_scripts]
+topsis-thapar = topsis_kartikye_102103708.main:main
