@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fibo_py_aesc
+Version: 0.1.0
+Summary: Calculates a Fibonacci Number
+Home-page: https://github.com/aeklant/fibo.git
+Author: Abraham Escalante
+License: UNKNOWN
+Description: # fibo
+        A basic library that calculates fibonacci numbers. 
+        
+        The real purpose is to practice package generation with pip, 
+        as well as integration with Rust.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
