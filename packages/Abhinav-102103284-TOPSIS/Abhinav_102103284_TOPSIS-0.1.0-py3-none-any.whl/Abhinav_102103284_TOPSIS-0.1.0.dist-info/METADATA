@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Abhinav-102103284-TOPSIS
+Version: 0.1.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: numpy
+
