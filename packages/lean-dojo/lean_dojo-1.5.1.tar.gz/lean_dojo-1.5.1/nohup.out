@@ -1,0 +1,71 @@
+2024-01-18 13:37:41.815 | DEBUG    | lean_dojo.constants:<module>:67 - Using GitHub personal access token for authentication
+============================= test session starts ==============================
+platform darwin -- Python 3.10.13, pytest-7.4.3, pluggy-1.3.0
+rootdir: /Users/kaiyuy/Desktop/dev/LeanDojo
+configfile: pyproject.toml
+plugins: anyio-4.1.0
+collected 57 items
+
+tests/data_extraction/test_trace.py 2024-01-18 13:37:48.982 | INFO     | lean_dojo.data_extraction.trace:get_traced_repo_path:156 - Tracing LeanGitRepo(url='https://github.com/leanprover-community/lean', commit='f91b574c40ad862c5134d48995ad083fe48e4cd4')
+2024-01-18 19:38:01.773 | INFO     | __main__:main:110 - Building modifed Lean
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The CXX compiler identification is GNU 12.2.1
+-- The C compiler identification is GNU 12.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- No build type selected, default to Release
+-- Lean library will be installed at /usr/local/lib/lean
+-- Found GMP: /usr/include (Required is at least version "5.0.5")
+-- Using standard malloc.
+-- Found PythonInterp: /usr/bin/python3.11 (found version "3.11") 
+-- git commit sha1: f91b574c40ad862c5134d48995ad083fe48e4cd4
+-- Configuring done
+Traceback (most recent call last):
+  File "/usr/lib64/python3.11/subprocess.py", line 1260, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 1995, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 1953, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/build_lean3_repo.py", line 166, in <module>
+    main()
+  File "/workspace/build_lean3_repo.py", line 111, in main
+    run_cmd(
+  File "/workspace/build_lean3_repo.py", line 27, in run_cmd
+    res = subprocess.run(cmd, shell=True, capture_output=capture_output, check=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 548, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 1197, in communicate
+    self.wait()
+  File "/usr/lib64/python3.11/subprocess.py", line 1273, in wait
+    self._wait(timeout=sigint_timeout)
+  File "/usr/lib64/python3.11/subprocess.py", line 1989, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+E2024-01-18 13:38:14.621 | INFO     | lean_dojo.data_extraction.trace:get_traced_repo_path:156 - Tracing LeanGitRepo(url='https://github.com/facebookresearch/miniF2F', commit='88b0189c213f3bd4b020c215f5bf0d847ee8d7a0')
+E
