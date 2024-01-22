@@ -1,0 +1,14 @@
+python_starter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_starter/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_starter/src/cli.py,sha256=oidJJhBPjegCDKbsRlP5_rl5LLhuQke6uzJNRhL4FHE,808
+python_starter/src/actions/__init__.py,sha256=p3yTV2bTsE554BnD5hmFpYr-w5WkRejMocJ844tEENo,364
+python_starter/src/actions/setup_project.py,sha256=vEDm7ATAz0QuxMGVRw56DVDbnkaCudD5p_-r1ULXoDk,2594
+python_starter/src/actions/workflow.py,sha256=nguS2V7oKEfAzpe6fqCh3hMhiBOxMjbFaPBeGgkBUkQ,1638
+python_starter/src/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_starter/src/templates/const.py,sha256=GBjwqjJyCoPVJfuG7S8wway2egnezduEF_cuyzXxQk4,3674
+py_starter_auto_template-0.0.1.dist-info/LICENSE,sha256=M3iYQ6zQ6wjZZkEC5BFu5ZraVwMIl2AEVO_JusXl26I,1070
+py_starter_auto_template-0.0.1.dist-info/METADATA,sha256=d0ZHT6q_9Fyb66Tdzw8eFPSkbu5rTLSk8SksI3Szul8,926
+py_starter_auto_template-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_starter_auto_template-0.0.1.dist-info/entry_points.txt,sha256=HKHnGxB1TeKa70hYmpfeowKbTvBCJWlI4xHrvRuTiiE,50
+py_starter_auto_template-0.0.1.dist-info/top_level.txt,sha256=KYFFlTSdHV3rM0Al_q5oQQrYBiR3Gfv0H0cYeGXUL4o,15
+py_starter_auto_template-0.0.1.dist-info/RECORD,,
