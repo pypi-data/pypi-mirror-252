@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+build.py
+requirements-dev.txt
+requirements.txt
+setup.py
+spinneration/__init__.py
+spinneration/elements.py
+spinneration/progress.py
+spinneration.egg-info/PKG-INFO
+spinneration.egg-info/SOURCES.txt
+spinneration.egg-info/dependency_links.txt
+spinneration.egg-info/requires.txt
+spinneration.egg-info/top_level.txt
