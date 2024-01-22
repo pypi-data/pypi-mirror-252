@@ -1,0 +1,12 @@
+pronyac/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+pronyac/__init__.py,sha256=FBjlPfPdkoX9llIG-a5DrskcmF9ubWSxmSXgogwegNA,101
+pronyac/c_eigenpair.py,sha256=uNZoto02lpSmjWdE3R22FzJP5YJDD6UA3qc02zX99JY,2150
+pronyac/con_map.py,sha256=DUiS9vQ_CaOlHbxPauHwYkt9TmLDFXIjGNnk-_TNZFI,1676
+pronyac/green_func.py,sha256=SqeUveDelETGVFZDqFahhbTMS2-HjCV_6KPvk9VT-Jc,4292
+pronyac/prony_ac.py,sha256=o883mRzTXUz5IajjXFHnWvz7oOG3HnYfhun4mChsl8w,6349
+pronyac/prony_approx.py,sha256=bKqrm3216JB5QdxS6b_yUfev4bv5bnBVe9zXDm0FNjU,6698
+pronyac/spectrum_example.py,sha256=Clicsmavzes7V1-JJwjlZ3FI8nPnb6F20_AIdCJh4GU,3241
+pronyac-0.1.0.dist-info/METADATA,sha256=LVPQt2ne-L9AF_LeM_Q14nc4AFeLDB8lCiLs08Ix0yo,4054
+pronyac-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pronyac-0.1.0.dist-info/licenses/LICENSE,sha256=bBkORb6fXIKG5RaBWcJCve5QRf7xjoupjIJVpefaZIk,1062
+pronyac-0.1.0.dist-info/RECORD,,
