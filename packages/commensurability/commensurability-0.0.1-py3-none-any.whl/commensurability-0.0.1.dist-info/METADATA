@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: commensurability
+Version: 0.0.1
+Summary: A package for analyzing orbit commensurabilities.
+Author-Email: ilikecubesnstuff <25328250+ilikecubesnstuff@users.noreply.github.com>
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Requires-Dist: orbit-tessellation>=0.2.0
+Requires-Dist: pidgey>=0.2.1
+Requires-Dist: matplotlib>=3.8.2
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: h5py>=3.10.0
+Requires-Dist: more_itertools>=10.2.0
+Description-Content-Type: text/markdown
+
+# commensurability
+Packages for calculating orbit commensurabilities.

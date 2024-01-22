@@ -1,0 +1,9 @@
+commensurability-0.0.1.dist-info/METADATA,sha256=XJd7hveUhobQ7TrIq76dvc8YNXHbOpuxpE5S9yzFh8g,962
+commensurability-0.0.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+commensurability-0.0.1.dist-info/licenses/LICENSE,sha256=hfJE_Enq_KfGq8m1eYDthuaIVjbF-izA4dHUzHLxMyE,1093
+commensurability/__init__.py,sha256=hjIKlzhsvegU5xWnzN_exNf9tHXhabzENHI2blCfBj8,81
+commensurability/base.py,sha256=1AYpFXkcSsO9Ilsrlz7OHt89yOLYSj0_btP3Ypj_gYQ,7968
+commensurability/interactive.py,sha256=jbSiUrTKn3IGpTF2giB2Z0ihvKMpIcpnIere4gAK1tI,9059
+commensurability/tessellation_analysis.py,sha256=fmVvdWI9ZjHNi0RWtRTenHKbwTyRO5d8BI-3i7Q1nhk,535
+commensurability/utils.py,sha256=RuwpIWSzO52iuZA7vmpz3hGoE_LQx0WZ6eqZG-KvKkA,150
+commensurability-0.0.1.dist-info/RECORD,,
