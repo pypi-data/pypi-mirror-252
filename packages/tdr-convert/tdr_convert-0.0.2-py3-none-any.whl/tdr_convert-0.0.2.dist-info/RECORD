@@ -1,0 +1,11 @@
+tdr-convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdr-convert/read_tdr.py,sha256=clMdLSF6zE4ebP7tOdpIMGi3nJcMrNx__7kDmBBhOwg,17227
+tdr-convert/tdr_convert.py,sha256=Yego5rn6ZYnDwyaJaE1ofik0U4t2lHRa4tkfuG7a_zY,2264
+tdr-convert/write_gmsh.py,sha256=XVyWyqiyb-Kmvu8qxJXtZKS1lf_HT_CXGns98Mr2fns,13482
+tdr_convert-0.0.2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tdr_convert-0.0.2.dist-info/METADATA,sha256=bMIcB4xtJZ3Smvb4dVr1GqAYBZjQjBuNP2zBqAC0N4g,775
+tdr_convert-0.0.2.dist-info/NOTICE,sha256=pR4NJiQsYgkQnpOLMwn9-egAzdUdHmKKC1BV3Gn2j54,232
+tdr_convert-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tdr_convert-0.0.2.dist-info/entry_points.txt,sha256=ELwOzNhoQBCzwY4YOAr1yiYg--E4ecd3xieqGaIprcM,61
+tdr_convert-0.0.2.dist-info/top_level.txt,sha256=_SAf3icsdzCTfVq_lANSqjxFcqOg0HPQQFexvdao6mk,12
+tdr_convert-0.0.2.dist-info/RECORD,,
