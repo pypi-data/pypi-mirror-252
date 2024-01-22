@@ -1,0 +1,11 @@
+## Include
+include README.md COPYING COPYING.lesser NOTICE
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune pyrogramv1/errors/exceptions
+prune pyrogramv1/raw/functions
+prune pyrogramv1/raw/types
+prune pyrogramv1/raw/base
+exclude pyrogramv1/raw/all.py
