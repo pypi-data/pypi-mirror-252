@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+servciceberg/__init__.py
+servciceberg/config.py
+servciceberg.egg-info/PKG-INFO
+servciceberg.egg-info/SOURCES.txt
+servciceberg.egg-info/dependency_links.txt
+servciceberg.egg-info/top_level.txt
+tests/test_server.py
