@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+topsis/__init__.py
+topsis/__main__.py
+topsis_bhavya_102103345.egg-info/PKG-INFO
+topsis_bhavya_102103345.egg-info/SOURCES.txt
+topsis_bhavya_102103345.egg-info/dependency_links.txt
+topsis_bhavya_102103345.egg-info/entry_points.txt
+topsis_bhavya_102103345.egg-info/top_level.txt
