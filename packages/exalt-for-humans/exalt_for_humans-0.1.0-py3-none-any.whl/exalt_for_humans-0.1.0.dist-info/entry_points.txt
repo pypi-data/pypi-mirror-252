@@ -1,0 +1,3 @@
+[console_scripts]
+exalt=exalt.__main__:cli
+

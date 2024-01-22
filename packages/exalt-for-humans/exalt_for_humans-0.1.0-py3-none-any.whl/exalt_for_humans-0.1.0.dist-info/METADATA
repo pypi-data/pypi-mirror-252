@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: exalt-for-humans
+Version: 0.1.0
+Summary: Create beautiful code images with exalt!
+Home-page: https://github.com/JnyJny/exalt.git
+Author: JnyJny
+Author-email: erik.oshaughnessy@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pyvips (>=2.2.2,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/JnyJny/exalt.git
+Description-Content-Type: text/markdown
+
+# Exalt for Humans™ - Elevated Code Images Made Simple
+
+Exalt is easiest way to capture beautiful images of syntax-higlighted
+[code][#Yes But ...] that look great in presentations or shared on
+social media.
+
+Your code is great, exalt helps you show the world!
+
+
+### Short Example
+
+The following generates a PNG formatted file called `main.png` from
+the first fifteen lines of exalt's dunder main file:
+
+```console
+$ exalt -o main.png -c 15 exalt/__main__.py
+```
+![Example PNG][demo0]
+
+
+## Install
+
+Exalt depends on [pyvips][pyvips], a Python wrapper around the [vips
+library][vips]. Before installing exalt, you'll first need to
+[install][install-vips] vips. Don't worry, the vips library is
+supported on Windows, MacOS and Linux!
+
+After installing the vips library, exalt and it's dependencies can
+be installed with `pip`:
+
+```console
+$ python3 -m pip install exalt-for-humans
+```
+
+The package supplies a command-line tool, `exalt`, that makes it super
+simple to quickly generate beautiful images of your bad a** code.
+
+## Command Line Tool
+
+```console
+$ exalt --help
+
+```
+
+## Yes But ...
+
+Q0: What language/formats are supported? 
+
+A0: Let's see: 
+
+ABAP, AMDGPU, APL, Abnf, ActionScript3, ActionScript,
+Ada, Adl, Agda, Aheui, Alloy, AmbientTalk, Ampl, Angular2Html,
+Angular2, AntlrActionScript, AntlrCSharp, AntlrCpp, AntlrJava, Antlr,
+AntlrObjectiveC, AntlrPerl, AntlrPython, AntlrRuby, ApacheConf,
+AppleScript, Arduino, Arrow, Arturo, Asc, Asn1, AspectJ, Asymptote,
+Augeas, AutoIt, Autohotkey, Awk, BBCBasic, BBCode, BC, BQN, BST, Bare,
+BaseMakefile, Bash, BashSession, Batch, Bdd, Befunge, Berry, BibTeX,
+BlitzBasic, BlitzMax, Blueprint, Bnf, Boa, Boo, Boogie, Brainfuck,
+Bugs, CAmkES, C, CMake, CObjdump, CPSA, CSSUL4, CSharpAspx, CSharp,
+Ca65, Cadl, CapDL, CapnProto, Carbon, CbmBasicV2, Cddl, Ceylon,
+Cfengine3, Chaiscript, Chapel, Charmci, CheetahHtml,
+CheetahJavascript, Cheetah, CheetahXml, Cirru, Clay, Clean, Clojure,
+ClojureScript, CobolFreeformat, Cobol, CoffeeScript, ColdfusionCFC,
+ColdfusionHtml, Coldfusion, Comal80, CommonLisp, ComponentPascal, Coq,
+Cplint, Cpp, CppObjdump, Crmsh, Croc, Cryptol, Crystal,
+CsoundDocument, CsoundOrchestra, CsoundScore, CssDjango, CssErb,
+CssGenshi, Css, CssPhp, CssSmarty, Cuda, Cypher, Cython, D, DObjdump,
+DarcsPatch, Dart, Dasm16, Dax, DebianControl, Delphi, Desktop,
+Devicetree, Dg, Diff, Django, DnsZone, Docker, Dtd, Duel,
+DylanConsole, Dylan, DylanLid, ECL, EC, EarlGrey, Easytrieve, Ebnf,
+Eiffel, ElixirConsole, Elixir, Elm, Elpi, EmacsLisp, Email, Erb,
+Erlang, ErlangShell, EvoqueHtml, Evoque, EvoqueXml, Execline, Ezhil,
+FSharp, FStar, Factor, Fancy, Fantom, Felix, Fennel, Fift, FishShell,
+Flatline, FloScript, Forth, FortranFixed, Fortran, FoxPro, FreeFem,
+Func, Futhark, GAPConsole, GAP, GDScript, GLShader, GSQL, Gas, Gcode,
+Genshi, GenshiText, Gettext, Gherkin, Gnuplot, Go, Golo, GoodDataCL,
+Gosu, GosuTemplate, GraphQL, Graphviz, Groff, Groovy, HLSLShader,
+HTMLUL4, Haml, HandlebarsHtml, Handlebars, Haskell, Haxe, Hexdump,
+Hsail, Hspec, HtmlDjango, HtmlGenshi, Html, HtmlPhp, HtmlSmarty, Http,
+Hxml, Hy, Hybris, IDL, Icon, Idris, Igor, Inform6, Inform6Template,
+Inform7, Ini, Io, Ioke, IrcLogs, Isabelle, J, JMESPath, JSLT, Jags,
+Jasmin, Java, JavascriptDjango, JavascriptErb, JavascriptGenshi,
+Javascript, JavascriptPhp, JavascriptSmarty, JavascriptUL4, Jcl, Jsgf,
+JsonBareObject, JsonLd, Json, Jsonnet, Jsp, Jsx, JuliaConsole, Julia,
+Juttle, K, Kal, Kconfig, KernelLog, Koka, Kotlin, Kuin, Kusto, LSL,
+LassoCss, LassoHtml, LassoJavascript, Lasso, LassoXml, Ldaprc, Ldif,
+Lean3, Lean, LessCss, LighttpdConf, LilyPond, Limbo, Liquid,
+LiterateAgda, LiterateCryptol, LiterateHaskell, LiterateIdris,
+LiveScript, Llvm, LlvmMirBody, LlvmMir, Logos, Logtalk, Lua,
+MCFunction, MCSchema, MIME, MIPS, MOOCode, MSDOSSession, Macaulay2,
+Makefile, MakoCss, MakoHtml, MakoJavascript, Mako, MakoXml, Maql,
+Markdown, Mask, Mason, Mathematica, Matlab, MatlabSession, Maxima,
+Meson, MiniD, MiniScript, Modelica, Modula2, MoinWiki, Monkey, Monte,
+MoonScript, Mosel, MozPreprocCss, MozPreprocHash,
+MozPreprocJavascript, MozPreprocPercent, MozPreprocXul, Mql, Mscgen,
+MuPAD, Mxml, MySql, MyghtyCss, MyghtyHtml, MyghtyJavascript, Myghty,
+MyghtyXml, NCL, NSIS, Nasm, NasmObjdump, Nemerle, NesC, NestedText,
+NewLisp, Newspeak, NginxConf, Nimrod, Nit, Nix, NodeConsole, Notmuch,
+NuSMV, NumPy, Objdump, ObjectiveC, ObjectiveCpp, ObjectiveJ, Ocaml,
+Octave, Odin, OmgIdl, Ooc, Opa, OpenEdge, OpenScad, Output,
+PacmanConf, Pan, ParaSail, Pawn, Peg, Perl6, Perl, Phix, Php, Pig,
+Pike, PkgConfig, PlPgsql, Pointless, Pony, Portugol, PostScript,
+PostgresConsole, PostgresExplain, Postgres, Povray, PowerShell,
+PowerShellSession, Praat, Procfile, Prolog, PromQL, Properties,
+ProtoBuf, Prql, PsyshConsole, Ptx, Pug, Puppet, PyPyLog, Python2,
+Python2Traceback, Python3, Python3Traceback, PythonConsole, Python,
+PythonTraceback, PythonUL4, QBasic, Q, QVTo, Qlik, Qml, RConsole,
+RNCCompact, RPMSpec, Racket, RagelC, RagelCpp, RagelD, RagelEmbedded,
+RagelJava, Ragel, RagelObjectiveC, RagelRuby, RawToken, Rd, Reason,
+Rebol, Red, Redcode, Regedit, Resource, Rexx, Rhtml, Ride, Rita,
+RoboconfGraph, RoboconfInstances, RobotFramework, Rql, Rsl, Rst, Rts,
+RubyConsole, Ruby, Rust, SAS, S, SML, SNBT, Sarl, Sass, Savi, Scala,
+Scaml, Scdoc, Scheme, Scilab, Scss, Sed, ShExC, Shen, Sieve, Silver,
+Singularity, Slash, Slim, SlurmBash, Smali, Smalltalk,
+SmartGameFormat, Smarty, Smithy, Snobol, Snowball, Solidity, Sophia,
+SourcePawn, SourcesList, Sparql, Spice, SqlJinja, Sql, SqliteConsole,
+SquidConf, Srcinfo, Ssp, Stan, Stata, SuperCollider, Swift, Swig,
+SystemVerilog, Systemd, TAP, TNT, TOML, Tads3, Tal, Tasm, Tcl, Tcsh,
+TcshSession, TeaTemplate, Teal, TeraTerm, Termcap, Terminfo,
+Terraform, Tex, Text, ThingsDB, Thrift, TiddlyWiki5, Tlb, Tls,
+Todotxt, TransactSql, Treetop, Turtle, TwigHtml, Twig, TypeScript,
+TypoScriptCssData, TypoScriptHtmlData, TypoScript, UL4, Ucode, Unicon,
+UnixConfig, Urbiscript, UrlEncoded, Usd, VBScript, VCL, VCLSnippet,
+VCTreeStatus, VGL, Vala, VbNetAspx, VbNet, VelocityHtml, Velocity,
+VelocityXml, Verifpal, Verilog, Vhdl, Vim, VisualPrologGrammar,
+VisualProlog, Vyper, WDiff, Wat, WebIDL, Wgsl, Whiley, Wikitext,
+WoWToc, Wren, X10, XMLUL4, XQuery, XmlDjango, XmlErb, Xml, XmlPhp,
+XmlSmarty, Xorg, Xpp, Xslt, Xtend, Xtlang, YamlJinja, Yaml, Yang,
+Yara, Zeek, Zephir, Zig
+
+
+
+
+
+[vips]: https://github.com/libvips/libvips
+[pyvips]: https://github.com/libvips/pyvips
+[install-vips]: https://github.com/libvips/pyvips#install
+[demo0]: https://github.com/JnyJny/exalt/blob/main/examples/main.png
+
