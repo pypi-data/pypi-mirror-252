@@ -1,0 +1,108 @@
+[project]
+name = "wagtail-bynder"
+description = "Wagtail integration with Bynder, a Digital Asset Management System"
+authors = [{name = "Andy Babic ", email = "andy.babic@torchbox.com"}]
+maintainers = [
+    {name = "Andy Babic ", email = "andy.babic@torchbox.com"},
+    {name = "Dan Braghis", email="dan.braghis@torchbox.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Wagtail", "Django", "Bynder", "DAMS", "digital asset management"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 4",
+    "Framework :: Wagtail :: 5",
+]
+
+dynamic = ["version"]
+requires-python = ">=3.11"
+dependencies = [
+    "Django>=3.2",
+    "Wagtail>=4.1",
+    "bynder-sdk>=1.1.5,<2.0"
+]
+
+[project.optional-dependencies]
+testing = [
+    "dj-database-url>=2.1.0,<3.0",
+    "wagtail_factories>=4.1.0,<5.0",
+    "responses>=0.24,<1",
+    "coverage>=7.0,<8.0",
+]
+
+[project.urls]
+Source = "https://github.com/torchbox/wagtail-bynder"
+Changelog = "https://github.com/torchbox/wagtail-bynder/blob/main/CHANGELOG.md"
+
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "wagtail_bynder"
+
+[tool.flit.sdist]
+exclude = [
+    ".*",
+    "*.db",
+    "*.json",
+    "*.ini",
+    "*.yaml",
+    "tests",
+    "CHANGELOG.md",
+    "testmanage.py",
+]
+
+[tool.ruff]
+target-version = "py38"
+
+extend-select = [
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "DJ", # flake8-django
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "FBT", # flake8-boolean-trap
+    "I",   # isort
+    "INT",  # flake8-gettext
+    "ISC",  # flake8-implicit-string-concatenation
+    "PIE", # flake8-pie
+    "PGH", # pygrep-hooks
+    "S",   # flake8-bandit
+    "SIM", # flake8-simplify
+    "W",   # pycodestyle warnings
+    "YTT",   # flake8-2020
+    "UP",  # pyupgrade
+    "RUF100",  # unused noqa
+]
+
+extend-ignore = [
+    "E501",  # no line lenght errors
+]
+fixable = ["C4", "E", "F", "I", "UP"]
+
+[tool.ruff.isort]
+known-first-party = ["src", "wagtail_bynder"]
+lines-between-types = 1
+lines-after-imports = 2
+
+[tool.ruff.per-file-ignores]
+"src/wagtail_bynder/models.py" = [
+    # "Possible SQL injection vector through string-based query construction"
+    # This is a false positive because the lines in question raise an exception
+    "S608",
+]
