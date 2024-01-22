@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+extensible_splines/__init__.py
+extensible_splines/splines.py
+extensible_splines.egg-info/PKG-INFO
+extensible_splines.egg-info/SOURCES.txt
+extensible_splines.egg-info/dependency_links.txt
+extensible_splines.egg-info/requires.txt
+extensible_splines.egg-info/top_level.txt
+test/test_derived_spline_properties.py
+test/test_net_construction.py
