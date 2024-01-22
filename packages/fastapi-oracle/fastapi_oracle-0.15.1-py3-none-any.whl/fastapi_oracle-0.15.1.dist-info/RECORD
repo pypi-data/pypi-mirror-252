@@ -1,0 +1,11 @@
+fastapi_oracle/__init__.py,sha256=bmba0BbIUbzWi8qgO9HCAaQezIN690S0DX65deyKFVM,1408
+fastapi_oracle/config.py,sha256=qTkZWqFTmm4sGLq018FSGQok2wiwTE3W8MYTy69wOEs,942
+fastapi_oracle/constants.py,sha256=17xW8gJckbKmXaisVvhOTNO_QszCrwFguCznhx4usjU,649
+fastapi_oracle/core.py,sha256=3HY2yXV2EKhdyH0VJFgh3PvDkc3fMENarckidf-AuZ8,9148
+fastapi_oracle/errors.py,sha256=j2RfKyjZVrNPR5opInF2HWRLN4n8wEN-oy8re57NCcI,2310
+fastapi_oracle/pools.py,sha256=fVkOPrtwoQMhlI85szk6k7m6tvPUGLmGKCBHGOqyl2U,207
+fastapi_oracle/utils.py,sha256=ZK5kmR6zVpFNeKlp3dd0Dv_Y82f9EknlHu_YAgb4H_c,2818
+fastapi_oracle-0.15.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastapi_oracle-0.15.1.dist-info/METADATA,sha256=oBtsze_BYpq54-D3PnHpMyCKu7dPb86LodkmLt6qiN0,4586
+fastapi_oracle-0.15.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fastapi_oracle-0.15.1.dist-info/RECORD,,
