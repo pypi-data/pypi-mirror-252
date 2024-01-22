@@ -1,0 +1,12 @@
+setup.py
+waporcodes/WaPOR_create_nc.py
+waporcodes/WaPOR_utility_funcs.py
+waporcodes/WaPOR_v3_download.py
+waporcodes/__init__.py
+waporcodes/waporcodes.py
+waporcodes.egg-info/PKG-INFO
+waporcodes.egg-info/SOURCES.txt
+waporcodes.egg-info/dependency_links.txt
+waporcodes.egg-info/not-zip-safe
+waporcodes.egg-info/requires.txt
+waporcodes.egg-info/top_level.txt
