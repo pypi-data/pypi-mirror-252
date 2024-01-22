@@ -1,0 +1,2 @@
+[console_scripts]
+thriftcacheserver = cache.__main__:main
