@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mathpachesfortrana
+Version: 0.0.3
+Summary: A short description of your awesome package
+Home-page: https://github.com/yourusername/my-awesome-package
+Author: Durant_Johnson57
+Author-email: zjbj2030@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# al-folio
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[core_contributors]: https://img.shields.io/badge/core_contributors-3-orange.svg 'Number of core contributors'
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
