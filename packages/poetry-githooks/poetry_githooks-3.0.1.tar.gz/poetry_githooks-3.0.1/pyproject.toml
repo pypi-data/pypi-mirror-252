@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "poetry-githooks"
+version = "3.0.1"
+description = "Simple git hooks with poetry"
+authors = ["Thomas Thiebaud <thiebaud.tom@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/thomasthiebaud/poetry-githooks"
+repository = "https://github.com/thomasthiebaud/poetry-githooks"
+documentation = "https://github.com/thomasthiebaud/poetry-githooks"
+keywords = ["git", "hook", "githooks", "poetry"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+toml = "^0.10.2"
+click = "^8.1.6"
+
+[tool.poetry.dev-dependencies]
+black = "^23.7.0"
+pytest = "^7.4.0"
+
+[tool.poetry.scripts]
+githooks = "poetry_githooks:cli"
+
+[tool.githooks]
+pre-commit = "black . --check"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
