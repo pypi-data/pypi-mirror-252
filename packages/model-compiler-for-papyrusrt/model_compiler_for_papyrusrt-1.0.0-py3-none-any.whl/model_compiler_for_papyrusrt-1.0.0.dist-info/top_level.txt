@@ -1,0 +1,4 @@
+model_compiler_for_papyrusrt
+model_compiler_for_papyrusrt/build_configuration
+model_compiler_for_papyrusrt/generator
+model_compiler_for_papyrusrt/misc
