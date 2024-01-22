@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: topsis-102103596
+Version: 0.2
+Summary: Calculates the topsis score
+Home-page: https://github.com/Hitesh-Aggarwal/topsis-102103596
+Download-URL: https://github.com/Hitesh-Aggarwal/topsis-102103596/archive/refs/tags/v_02.tar.gz
+Author: Hitesh Aggarwal
+Author-email: haggarwal_be21@thapar.edu
+License: MIT
+Keywords: topsis,Decision Making,Data Analytics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Topsis-102103596
+Library for calculating topsis score and rank for a Multi Criteria Decision Making problem.
+
+## Usage
+#### Installation
+```sh
+pip install topsis-102103596
+```
+
+#### Usage
+Contains a single function
+**cal_topsis_score(df,w,i,out_file):**
+
+where:
+
+    df -> pd.DataFrame
+
+    w -> list of weights (only numeric columns are considered, rest are ignored)
+
+    i -> impact list ("+" for columns that are to be maximized, "-" for columns to be minimized, for example ["-","+","+","+"])
+
+    out_file -> csv file in which output Dataset will be stored
+    
+#### Screenshots
+Input file: data.csv
+
+![Data.csv](images/data.png)
+
+Output file: out.csv
+
+![Output.csv](images/out.png)
