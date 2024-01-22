@@ -1,0 +1,8 @@
+README.md
+setup.py
+ezDnsShim/__init__.py
+ezDnsShim.egg-info/PKG-INFO
+ezDnsShim.egg-info/SOURCES.txt
+ezDnsShim.egg-info/dependency_links.txt
+ezDnsShim.egg-info/not-zip-safe
+ezDnsShim.egg-info/top_level.txt
