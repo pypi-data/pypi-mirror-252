@@ -1,0 +1,9 @@
+README.md
+setup.py
+normalization_gan/__init__.py
+normalization_gan/normalization.py
+normalization_gan.egg-info/PKG-INFO
+normalization_gan.egg-info/SOURCES.txt
+normalization_gan.egg-info/dependency_links.txt
+normalization_gan.egg-info/requires.txt
+normalization_gan.egg-info/top_level.txt
