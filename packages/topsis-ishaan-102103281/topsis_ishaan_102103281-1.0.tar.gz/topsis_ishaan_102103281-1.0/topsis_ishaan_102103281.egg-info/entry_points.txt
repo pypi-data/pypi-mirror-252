@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = topsis_ishaan_102103281.main:main

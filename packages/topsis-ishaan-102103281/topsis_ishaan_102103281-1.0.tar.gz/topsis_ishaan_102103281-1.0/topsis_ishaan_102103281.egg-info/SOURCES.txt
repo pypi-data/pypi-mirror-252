@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+package/102103281.py
+package/__init__.py
+topsis_ishaan_102103281.egg-info/PKG-INFO
+topsis_ishaan_102103281.egg-info/SOURCES.txt
+topsis_ishaan_102103281.egg-info/dependency_links.txt
+topsis_ishaan_102103281.egg-info/entry_points.txt
+topsis_ishaan_102103281.egg-info/requires.txt
+topsis_ishaan_102103281.egg-info/top_level.txt
