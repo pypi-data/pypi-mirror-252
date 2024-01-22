@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+teleaslolkek.egg-info/PKG-INFO
+teleaslolkek.egg-info/SOURCES.txt
+teleaslolkek.egg-info/dependency_links.txt
+teleaslolkek.egg-info/requires.txt
+teleaslolkek.egg-info/top_level.txt
+timelabirint/_init_.py

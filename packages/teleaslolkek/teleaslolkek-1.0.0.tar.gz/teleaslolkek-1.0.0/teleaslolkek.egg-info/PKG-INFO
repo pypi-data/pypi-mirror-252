@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: teleaslolkek
+Version: 1.0.0
+Summary: кш отсюда
+Home-page: https://github.com/Tribor0/lolggkekcheburek
+Author: Tribor0
+Author-email: tribor0@mail.ru
+Requires-Dist: pyTelegramBotAPI>=4.15.2
