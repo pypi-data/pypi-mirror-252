@@ -1,0 +1,8 @@
+README.md
+setup.py
+Rayez_Calculator/Person.py
+Rayez_Calculator/__init__.py
+Rayez_Calculator3.egg-info/PKG-INFO
+Rayez_Calculator3.egg-info/SOURCES.txt
+Rayez_Calculator3.egg-info/dependency_links.txt
+Rayez_Calculator3.egg-info/top_level.txt
