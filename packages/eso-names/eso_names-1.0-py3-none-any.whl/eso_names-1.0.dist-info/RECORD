@@ -1,0 +1,11 @@
+eso_names/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eso_names/main.py,sha256=3H-QnlqRsqx_6G4G2N3jOZ4tD8R4FzUsgB_V39dAqrg,1008
+eso_names/name_generator_v2.py,sha256=UN6_NtEkS6VqCcTdMImA22NxQvCau7j0wWSNbROTxaE,2846
+eso_names/name_recommender.py,sha256=64Xv-rFmS33YtafpT7eQRcb2xO3eL6y9-bX_JT-ltbk,1131
+eso_names/raw_model.py,sha256=uYjban6KEvZ_CfXUup1_8tj_dyFBWv5yZqyvuzXLLTg,1204
+eso_names/db/names.csv,sha256=PZmTgAGU-a08mEYdihmYgakyZWjGKsfydtx3eoHziAk,630521
+eso_names/model/model_2.pth,sha256=BtbbrpRzdkN3xNK0LQRT7NnL5bIAgINFIiB9V8cQ4Lo,197768
+eso_names-1.0.dist-info/METADATA,sha256=kmItbEgGm0oSfmZlcyt9CMfmq3dsSLlR7lUEDJxlzYg,4130
+eso_names-1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+eso_names-1.0.dist-info/top_level.txt,sha256=0v5K6FjcVzEDJ7HzrSoXmRld9AF5jUUdNVwQYLwz71Y,10
+eso_names-1.0.dist-info/RECORD,,
