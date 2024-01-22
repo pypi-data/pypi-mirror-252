@@ -1,0 +1,2 @@
+[console_scripts]
+topsis-maninder-102153010 = topsis_module:main
