@@ -1,0 +1,111 @@
+#!/usr/bin/env bash
+
+
+clean_dir()
+{
+    DNAME=$1
+    PROJ=$2
+    pushd $DNAME &> /dev/null
+    if [[ -d $DRAGON_DIR && ! -f $DRAGON_DIR/.clean ]]; then
+        prefix_print "Cleaning $PROJ"
+        if [[ -z $DRAGON_DIR ]];  then
+        drexit_reason "nil DRAGON_DIR"
+        fi
+        if [[ -f $DRAGON_DIR/DragonMake ]]; then
+            cp $DRAGON_DIR/DragonMake .DragonMake
+        fi
+        rm -rf $DRAGON_DIR/*
+        if [[ -f .DragonMake ]]; then
+            mv .DragonMake $DRAGON_DIR/DragonMake
+        fi
+        touch $DRAGON_DIR/.clean
+    fi
+    popd &> /dev/null
+}
+
+validate_objcs()
+{
+  stat "${DRAGON_ROOT_DIR}/llvm-objcs" || python3 -m dragon.lo setup
+}
+
+build()
+{
+    # shellcheck disable=SC2046
+    cd $(python3 -c "print('.' if '$1.ninja' in '$(ls | xargs)' else '$1')") || drexit
+    python3 -c "exit(0 if ('${project_dirs}'.count('.')<2) else 1)" && mv "$(ls *.ninja | xargs | cut -d' ' -f1)" ./build.ninja
+    if [[ -z $DRAGON_DIR ]];  then
+      drexit_reason "nil DRAGON_DIR"
+    fi
+    if ! [[ -d $DRAGON_DIR/_/.dragonbuilding ]]; then
+        rm -rf $DRAGON_DIR/_
+    fi
+
+    python3 -m dragongen.cliutils needsobjcs && validate_objcs
+
+    mkdir -p $DRAGON_DIR/_/.dragonbuilding $DRAGON_DIR/modules
+
+    DNAME=$1
+    PROJ=$2
+    prefix_print "Building $PROJ"
+
+    if ! [[ -e build.ninja ]]; then
+        mv "${i}.ninja" build.ninja
+    fi
+
+    JOBS=1
+    if [[ -x $(command -v nproc) ]]; then
+        JOBS=$(nproc --all)
+    elif [[ -x $(command -v sysctl) ]]; then
+        JOBS=$(sysctl -n hw.ncpu)
+    fi
+
+    projroot="$(dirname "$DRAGON_DATA_DIR")"
+    env $'NINJA_STATUS=\x1b[1;34m[Dragon] \x1b[35m[%f/%t] \x1b[34m(%e)\x1b[0m ' CLICOLOR_FORCE=1 ninja -j$JOBS $NINJA_ARGS || cleanbuildfail $projroot
+    env $'NINJA_STATUS=\x1b[1;34m[Dragon] \x1b[34m>>>\x1b[0m ' CLICOLOR_FORCE=1 ninja -j$JOBS stage $NINJA_ARGS || cleanbuildfail $projroot
+
+    if [[ $exportt -eq 1 ]]; then
+        prefix_print "Generating compile_commands.json"
+        ninja -t compdb > compile_commands.json
+    fi
+
+    cp -R $projroot/layout/* layout/* $DRAGON_DIR/_/ 2>/dev/null
+
+    # mv build.ninja $DRAGON_DIR/ninja # Was this renamed "ninja" for use elsewhere?
+    mv build.ninja $DRAGON_DIR/build.ninja
+    if [[ $DNAME == "." ]]; then
+        true
+    else
+        cp -R $DRAGON_DIR/_ "$DRAGON_DATA_DIR" 2>/dev/null
+
+        if [[ $release -eq 1 ]]; then
+            if command -v plutil &> /dev/null; then
+                cmd=plutil
+            elif command -v ply &> /dev/null; then
+                cmd=ply
+            elif command -v plistutill &> /dev/null; then
+                cmd=plistutil
+            fi
+
+            if ! [[ -z $cmd ]]; then
+                prefix_print "Converting plist/xml resources to binary"
+                find "$DRAGON_DATA_DIR" \( -name \*.plist -o -name \*.strings \) | while read i; do
+                    head="$(od -c "$i" | head)"
+                    clean_head="${head//[^[:alpha:]]/}"
+                    magic_bytes="${clean_head:0:6}"
+
+                    if ! [[ $magic_bytes == bplist ]]; then
+                        if [[ $cmd == plutil ]]; then
+                            plutil -convert binary1 "$i"
+                        elif [[ $cmd == ply ]]; then
+                            ply -c binary "$i"
+                        else
+                            plistutil -i "$i" -f bin -o "$i"
+                        fi
+                    fi
+                done
+            fi
+        fi
+    fi
+
+    cd "$projroot" || drexit
+}
