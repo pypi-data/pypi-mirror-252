@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-nest
+Version: 0.0.1
+Summary: DjangoNest: A Python CMS with the Elegance of Django DjangoNest is a Content Management System (CMS) built with a powerful combination of Python and Django, providing an agile and flexible development experience. The project was born from the need to create an intuitive solution for efficient content management in web environments.
+Author: pratadaniel94
+Author-email: danielprata@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=4.2.6,<5.0.0)
+Requires-Dist: djangorestframework (>=3.14.0,<4.0.0)
+Requires-Dist: djangorestframework-simplejwt (>=5.3.0,<6.0.0)
+Requires-Dist: drf-yasg (>=1.21.7,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Project
+DjangoNest: A Python CMS with the Elegance of Django
+DjangoNest is a Content Management System (CMS) built with a powerful combination of Python and Django, providing an agile and flexible development experience. The project was born from the need to create an intuitive solution for efficient content management in web environments.
+
+# Functionalities
+ [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=B200F7&multiline=true&random=&width=435&height=200&lines=+Intuitive+content+management;+Robust+API+for+integration;+Extensible+through+plugins;User-friendly+administrative+interface)](https://git.io/typing-svg)
+## Contributors 🧑🏾‍💻
+
+| Github User                                            | Face 🤭                                                                                          |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [@pratadaniel94](https://www.github.com/pratadaniel94) | <img src="https://avatars.githubusercontent.com/u/27214522?v=4" height="30px" align="center"  /> |
+
+
+Contributions are welcome! Feel free to open issues and submit pull requests.
