@@ -1,0 +1,6 @@
+numpy
+pandas
+sliced
+scipy
+scikit-learn
+statsmodels
