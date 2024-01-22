@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: thriftcacheserver
+Version: 0.1
+Summary: A cache server using thrift
+Home-page: https://github.com/codophobia/key-value-cache-thrift-python
+Author: Shivam Mitra
+Author-email: shivamm389@gmail.com
+License: APACHE
+License-File: LICENSE
+Requires-Dist: thrift
+
