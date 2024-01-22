@@ -1,0 +1,8 @@
+jami/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jami/encryption.py,sha256=63_A5-TImNvr7w2OVv3RjWm5oQ2Ov8kW-lcUQUVVN3w,1422
+jami/main.py,sha256=7p1x1kZDYsYQoE0zYC5qc__vn2Pi6w87HeE4GeC7kP8,787
+jami_cli-0.3.0.dist-info/LICENSE,sha256=NeKWtR8O6p8j_InqBYvUDkNZo1imApVKf4wLKnnpB7Q,1067
+jami_cli-0.3.0.dist-info/METADATA,sha256=tfcnzdluZXBMpeK34Qv3vpHLh4fU9BRC9XZZZspeSiM,1396
+jami_cli-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+jami_cli-0.3.0.dist-info/entry_points.txt,sha256=9Xvg-E-9hs69kVNifrEXP7ZyNCMv_bC14fvTZdYK9Q8,38
+jami_cli-0.3.0.dist-info/RECORD,,

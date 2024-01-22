@@ -1,0 +1,3 @@
+[console_scripts]
+jami=jami.main:cli
+
