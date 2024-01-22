@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: GPT-Simple
+Version: 0.1.1
+Summary: an easier to use version of the OpenAI library
+Author: PolyPenguin
+Author-email: polypenguindev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: requests
+Requires-Python: >=3.6
