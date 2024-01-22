@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Topsis-Chirag-102103335/102283008.py
+Topsis-Chirag-102103335/__int__.py
+Topsis_Chirag_102103335.egg-info/PKG-INFO
+Topsis_Chirag_102103335.egg-info/SOURCES.txt
+Topsis_Chirag_102103335.egg-info/dependency_links.txt
+Topsis_Chirag_102103335.egg-info/requires.txt
+Topsis_Chirag_102103335.egg-info/top_level.txt
