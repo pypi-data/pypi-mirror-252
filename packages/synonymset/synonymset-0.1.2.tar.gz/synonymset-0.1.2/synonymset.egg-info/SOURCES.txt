@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/__init__.py
+src/main.py
+synonymset.egg-info/PKG-INFO
+synonymset.egg-info/SOURCES.txt
+synonymset.egg-info/dependency_links.txt
+synonymset.egg-info/top_level.txt
