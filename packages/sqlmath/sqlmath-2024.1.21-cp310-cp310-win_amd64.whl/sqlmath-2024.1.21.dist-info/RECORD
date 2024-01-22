@@ -1,0 +1,6 @@
+sqlmath/__init__.py,sha256=qL-OaxuGNCeVZsB6ms1VObBrS0fuaK3Rw9CnZWigGEE,19981
+sqlmath/_sqlmath.cp310-win_amd64.pyd,sha256=5Ve2jXsAGRYHwMiKKIYogV9SxtQXYLBok_NbyBZh0gA,2077184
+sqlmath-2024.1.21.dist-info/LICENSE,sha256=KhokKrD65FnQuqeH79rJDSG_VdYZxu6rNKSHSAxpbYI,1051
+sqlmath-2024.1.21.dist-info/METADATA,sha256=KJoG9jHJPUdfW1ZeXOiDdAKT79QNorKmjpMAw-YMOUo,6681
+sqlmath-2024.1.21.dist-info/WHEEL,sha256=_c7UhTLa63tz0JI_no5gUSxT_XshQl-WK28Pg1WcXcI,96
+sqlmath-2024.1.21.dist-info/RECORD,,
