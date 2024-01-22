@@ -1,0 +1,2 @@
+[console_scripts]
+topsis_102103411 = topsis_102103411.main:main
