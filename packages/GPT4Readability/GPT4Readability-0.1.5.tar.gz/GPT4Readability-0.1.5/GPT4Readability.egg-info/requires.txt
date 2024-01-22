@@ -1,0 +1,11 @@
+langchain
+openai
+faiss-cpu
+tiktoken
+click
+tqdm
+unstructured
+markdown
+nbconvert
+typer[all]
+pyyaml
