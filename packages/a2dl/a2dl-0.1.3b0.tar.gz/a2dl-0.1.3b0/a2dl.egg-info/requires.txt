@@ -1,0 +1,7 @@
+python-pptx
+Pillow
+python-docx
+networkx
+matplotlib
+beautifulsoup4
+chardet
