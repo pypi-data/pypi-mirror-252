@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+openai_utilities.egg-info/PKG-INFO
+openai_utilities.egg-info/SOURCES.txt
+openai_utilities.egg-info/dependency_links.txt
+openai_utilities.egg-info/not-zip-safe
+openai_utilities.egg-info/requires.txt
+openai_utilities.egg-info/top_level.txt
