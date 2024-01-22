@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: topsis-Suhawni-102103344
+Version: 1.0.2
+Summary: It gives the ranking to models as per the TOPSIS score.Please view the instructions so as to run the package smoothly in your terminal.
+Home-page: https://github.com/Suhawni08/Topsis---suhawni
+Author: Suhawni
+Author-email: suhawni.0810@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
