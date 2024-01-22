@@ -1,0 +1,12 @@
+tgedr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgedr/dataops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgedr/dataops/chain.py,sha256=2tW4V8915K8YHUv68unQlDd-uRQXalhwO0em_ba3YgE,1361
+tgedr/dataops/processor.py,sha256=VrG_gOhYtycqJ1msbHNRw5N4zO7JbXHRsAfRQ3-_p74,614
+tgedr/dataops/sink.py,sha256=5mqKNn0xQ_wmfKqMzIbFGZja7Uavl1wCJwPhJJY6Z2o,746
+tgedr/dataops/source.py,sha256=OivLXEK0jbdiRzg5JhoRKFSJx3XHOa4mC576TacCeQU,756
+tgedr/dataops/utils_reflection.py,sha256=CXEq-s5ZUOYmRUsCnJIK1Fz71gCjoOsbUfE_VSudMl4,4136
+tgedr_dataops-0.0.4.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+tgedr_dataops-0.0.4.dist-info/METADATA,sha256=blPbx5q_QBhOORDeBit3HMMofKu0Os61pWdWAAljNmM,512
+tgedr_dataops-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tgedr_dataops-0.0.4.dist-info/top_level.txt,sha256=acugNvvENatFXbPxKQD9YI5PpzzehbAwyY1keiIkR7I,6
+tgedr_dataops-0.0.4.dist-info/RECORD,,
