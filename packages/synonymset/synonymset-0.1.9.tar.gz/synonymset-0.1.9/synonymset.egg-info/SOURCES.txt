@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+synonymset/__init__.py
+synonymset/main.py
+synonymset.egg-info/PKG-INFO
+synonymset.egg-info/SOURCES.txt
+synonymset.egg-info/dependency_links.txt
+synonymset.egg-info/top_level.txt
