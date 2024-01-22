@@ -1,0 +1,107 @@
+[tool.poetry]
+name = "fl-studio-api-stubs"
+version = "33.2.0"
+
+description = "Module and function definitions and documentation for the FL Studio Python API"
+readme = "README.md"
+
+authors = ["Miguel Guthridge <hdsq@outlook.com.au>"]
+license = "LGPL-3.0-only"
+
+repository = "https://github.com/MiguelGuthridge/FL-Studio-Api-Stubs"
+documentation = "https://miguelguthridge.github.io/FL-Studio-API-Stubs/"
+
+keywords = [
+    "fl-studio",
+    "midi",
+    "api",
+    "documentation",
+    "stubs",
+    "fl",
+    "studio",
+    "daw",
+    "controller",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Other Environment",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Typing :: Typed",
+    "Typing :: Stubs Only",
+]
+include = ["py.typed"]
+
+packages = [
+    # MIDI controller scripting
+    { include = "arrangement", from = "src" },
+    { include = "channels", from = "src" },
+    { include = "device", from = "src" },
+    { include = "general", from = "src" },
+    { include = "launchMapPages", from = "src" },
+    { include = "mixer", from = "src" },
+    { include = "patterns", from = "src" },
+    { include = "playlist", from = "src" },
+    { include = "plugins", from = "src" },
+    { include = "screen", from = "src" },
+    { include = "transport", from = "src" },
+    { include = "ui", from = "src" },
+    # MIDI controller scripting extra libraries
+    { include = "midi", from = "src" },
+    { include = "utils", from = "src" },
+    # API stubs extra modules
+    { include = "fl_classes", from = "src" },
+    { include = "fl_model", from = "src" },  # deprecated
+    # Edison scripting
+    { include = "enveditor", from = "src" },
+    # Piano roll scripting
+    { include = "flpianoroll", from = "src" },
+]
+
+[tool.poetry.scripts]
+docs = "scripts.build_docs:main"
+
+[tool.poetry.urls]
+"Online Documentation" = "https://miguelguthridge.github.io/FL-Studio-API-Stubs/"
+"Bug Tracker" = "https://github.com/MiguelGuthridge/FL-Studio-Api-Stubs/issues"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jsonschema = "^4.17.3"
+
+[tool.poetry.group.dev.dependencies]
+flapi = "^0.4.0"
+flake8-pyproject = "^1.2.3"
+pytest = "^7.2.2"
+mypy = "^1.1.1"
+flake8 = "^6.0.0"
+typing-extensions = "^4.5.0"
+coverage = "^7.2.2"
+types-jsonschema = "^4.17.0"
+mkdocs = "^1.4.2"
+mkdocs-gen-files = "^0.4.0"
+mkdocs-material = "^8.5.11"
+mkdocstrings = {version = "^0.20.0", extras = ["python"]}
+autopep8 = "^2.0.2"
+
+[tool.flake8]
+exclude = [
+    '.git',
+    '__pycache__',
+    'old',
+    'build',
+    'dist',
+]
+ignore = [
+    'E501',
+    'W503',
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
