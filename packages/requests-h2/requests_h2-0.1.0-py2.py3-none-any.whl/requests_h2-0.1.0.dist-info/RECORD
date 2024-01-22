@@ -1,0 +1,15 @@
+requests-h2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requests-h2/adapters.py,sha256=Z9LWLAEpjASMsi6CaJgO_QmU8knfHXOCulbJl2Zw6Vs,8722
+requests-h2/api.py,sha256=nIuRYRDgFnlYgP5XzBgWiU-5EQoPx02qeJ-zj63xZN0,7300
+requests-h2/compat.py,sha256=-jHLaV4shtXC-yuT675qzDVm-66p_z70hpPARwXgdeQ,4572
+requests-h2/context.py,sha256=vHOSEQwPGu4rZoUpstptlK_jP7_glkrwNNmmvV4Wdys,6084
+requests-h2/decoders.py,sha256=S2spEnpgZm1SgbSFY-rlZIr_CDKbooeIzo6JMhNb1hE,6765
+requests-h2/exceptions.py,sha256=_hoHiG2tamjmWRzS7ALOviOl0IqaLJq8VxoiF7UriFY,969
+requests-h2/poolmanager.py,sha256=tzA8tAazOwMDoaKtGVi-pNUsRS29m4GezA3xQbxX_FY,4606
+requests-h2/sessions.py,sha256=gKCjcuSBKpO8vRmLAc9O124eyHjkBDpfNN5h7yLKrk8,2198
+requests-h2/slicer.py,sha256=Bb3HvzHWjbOmo5leSKJgEbm_f66Ogbm6QmzQRVkD238,1242
+requests_h2-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+requests_h2-0.1.0.dist-info/METADATA,sha256=kL5St-DWpzF8mOeIGTUNXlQstmi-FKD5b_ufvyz0GzU,2019
+requests_h2-0.1.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+requests_h2-0.1.0.dist-info/top_level.txt,sha256=AAOahEP_vab-nwOkN81oSHMUZ-U3WUR3EcqEUSZNkAo,12
+requests_h2-0.1.0.dist-info/RECORD,,
