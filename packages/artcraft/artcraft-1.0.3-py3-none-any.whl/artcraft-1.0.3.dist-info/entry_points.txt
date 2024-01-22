@@ -1,0 +1,2 @@
+[console_scripts]
+artcraft = artcraft_ui.__init__:launch
