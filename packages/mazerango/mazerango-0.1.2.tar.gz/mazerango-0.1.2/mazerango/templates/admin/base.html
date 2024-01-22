@@ -1,0 +1,274 @@
+{% load i18n static mazerango_side_menu %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr,auto' }}">
+<head>
+    <!-- mazer part -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2033%2034'%20fill-rule='evenodd'%20stroke-linejoin='round'%20stroke-miterlimit='2'%20xmlns:v='https://vecta.io/nano'%3e%3cpath%20d='M3%2027.472c0%204.409%206.18%205.552%2013.5%205.552%207.281%200%2013.5-1.103%2013.5-5.513s-6.179-5.552-13.5-5.552c-7.281%200-13.5%201.103-13.5%205.513z'%20fill='%23435ebe'%20fill-rule='nonzero'/%3e%3ccircle%20cx='16.5'%20cy='8.8'%20r='8.8'%20fill='%2341bbdd'/%3e%3c/svg%3e" type="image/x-icon">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAYAAADRcLDBAAAEs2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgZXhpZjpQaXhlbFhEaW1lbnNpb249IjMzIgogICBleGlmOlBpeGVsWURpbWVuc2lvbj0iMzQiCiAgIGV4aWY6Q29sb3JTcGFjZT0iMSIKICAgdGlmZjpJbWFnZVdpZHRoPSIzMyIKICAgdGlmZjpJbWFnZUxlbmd0aD0iMzQiCiAgIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiCiAgIHRpZmY6WFJlc29sdXRpb249Ijk2LjAiCiAgIHRpZmY6WVJlc29sdXRpb249Ijk2LjAiCiAgIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiCiAgIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIKICAgeG1wOk1vZGlmeURhdGU9IjIwMjItMDMtMzFUMTA6NTA6MjMrMDI6MDAiCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMjItMDMtMzFUMTA6NTA6MjMrMDI6MDAiPgogICA8eG1wTU06SGlzdG9yeT4KICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJwcm9kdWNlZCIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWZmaW5pdHkgRGVzaWduZXIgMS4xMC4xIgogICAgICBzdEV2dDp3aGVuPSIyMDIyLTAzLTMxVDEwOjUwOjIzKzAyOjAwIi8+CiAgICA8L3JkZjpTZXE+CiAgIDwveG1wTU06SGlzdG9yeT4KICA8L3JkZjpEZXNjcmlwdGlvbj4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz5V57uAAAABgmlDQ1BzUkdCIElFQzYxOTY2LTIuMQAAKJF1kc8rRFEUxz9maORHo1hYKC9hISNGTWwsRn4VFmOUX5uZZ36oeTOv954kW2WrKLHxa8FfwFZZK0WkZClrYoOe87ypmWTO7dzzud97z+nec8ETzaiaWd4NWtYyIiNhZWZ2TvE946WZSjqoj6mmPjE1HKWkfdxR5sSbgFOr9Ll/rXoxYapQVik8oOqGJTwqPL5i6Q5vCzeo6dii8KlwpyEXFL519LjLLw6nXP5y2IhGBsFTJ6ykijhexGra0ITl5bRqmWU1fx/nJTWJ7PSUxBbxJkwijBBGYYwhBgnRQ7/MIQIE6ZIVJfK7f/MnyUmuKrPOKgZLpEhj0SnqslRPSEyKnpCRYdXp/9++msneoFu9JgwVT7b91ga+LfjetO3PQ9v+PgLvI1xkC/m5A+h7F32zoLXug38dzi4LWnwHzjeg8UGPGbFfySvuSSbh9QRqZ6H+Gqrm3Z7l9zm+h+iafNUV7O5Bu5z3L/wAdthn7QIme0YAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJTSURBVFiF7Zi9axRBGIefEw2IdxFBRQsLWUTBaywSK4ubdSGVIY1Y6HZql8ZKCGIqwX/AYLmCgVQKfiDn7jZeEQMWfsSAHAiKqPiB5mIgELWYOW5vzc3O7niHhT/YZvY37/swM/vOzJbIqVq9uQ04CYwCI8AhYAlYAB4Dc7HnrOSJWcoJcBS4ARzQ2F4BZ2LPmTeNuykHwEWgkQGAet9QfiMZjUSt3hwD7psGTWgs9pwH1hC1enMYeA7sKwDxBqjGnvNdZzKZjqmCAKh+U1kmEwi3IEBbIsugnY5avTkEtIAtFhBrQCX2nLVehqyRqFoCAAwBh3WGLAhbgCRIYYinwLolwLqKUwwi9pxV4KUlxKKKUwxC6ZElRCPLYAJxGfhSEOCz6m8HEXvOB2CyIMSk6m8HoXQTmMkJcA2YNTHm3congOvATo3tE3A29pxbpnFzQSiQPcB55IFmFNgFfEQeahaAGZMpsIJIAZWAHcDX2HN+2cT6r39GxmvC9aPNwH5gO1BOPFuBVWAZue0vA9+A12EgjPadnhCuH1WAE8ivYAQ4ohKaagV4gvxi5oG7YSA2vApsCOH60WngKrA3R9IsvQUuhIGY00K4flQG7gHH/mLytB4C42EgfrQb0mV7us8AAMeBS8mGNMR4nwHamtBB7B4QRNdaS0M8GxDEog7iyoAguvJ0QYSBuAOcAt71Kfl7wA8DcTvZ2KtOlJEr+ByyQtqqhTyHTIeB+ONeqi3brh+VgIN0fohUgWGggizZFTplu12yW8iy/YLOGWMpDMTPXnl+Az9vj2HERYqPAAAAAElFTkSuQmCC" type="image/png">
+    <link rel="stylesheet" href="{% static 'mazer/extensions/@fortawesome/fontawesome-free/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'mazer/extensions/choices.js/public/assets/styles/choices.css' %}">
+
+    <!-- mazer part end-->
+    <title>{% block title %}Dashboard - Mazer Admin Dashboard{% endblock %}</title>
+{#    <link rel="stylesheet" href="{% block stylesheet %}{% static "admin/css/base.css" %}{% endblock %}">#}
+    <link rel="stylesheet" crossorigin href="{% static "mazer/compiled/css/app.css" %} ">
+    <link rel="stylesheet" crossorigin href="{% static "mazer/compiled/css/app-dark.css" %} ">
+    <link rel="stylesheet" crossorigin href="{% static "mazer/compiled/css/iconly.css" %} ">
+    {% block dark-mode-vars %}
+        <link rel="stylesheet" href="{% static "admin/css/dark_mode.css" %}">
+        <script src="{% static "admin/js/theme.js" %}" defer></script>
+    {% endblock %}
+    {% if not is_popup and is_nav_sidebar_enabled %}
+        <link rel="stylesheet" href="{% static "admin/css/nav_sidebar.css" %}">
+        <script src="{% static 'admin/js/nav_sidebar.js' %}" defer></script>
+    {% endif %}
+    {% block extrastyle %}{% endblock %}
+    {% if LANGUAGE_BIDI %}<link rel="stylesheet" href="{% block stylesheet_rtl %}{% static "admin/css/rtl.css" %}{% endblock %}">{% endif %}
+    {% block extrahead %}{% endblock %}
+    {% block responsive %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static "admin/css/responsive.css" %}">
+        {% if LANGUAGE_BIDI %}<link rel="stylesheet" href="{% static "admin/css/responsive_rtl.css" %}">{% endif %}
+    {% endblock %}
+    {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE">{% endblock %}
+</head>
+
+<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}"
+  data-admin-utc-offset="{% now "Z" %}">
+<script src="{% static "mazer/static/js/initTheme.js" %}"></script>
+<!-- Container -->
+<div id="app">
+    <div id="sidebar">
+        <div class="sidebar-wrapper active">
+          {% mazerango_side_menu %}
+        </div>
+    </div>
+{#  {% if not is_popup %}#}
+    <!-- Header -->
+
+    {% comment %}{% block header %}
+      <header class="mb-3" id="header">
+        <a href="#" class="burger-btn d-block d-xl-none">
+          <i class="bi bi-justify fs-3"></i>
+        </a>
+        <div id="branding">
+        {% block branding %}{% endblock %}
+        </div>
+        {% block usertools %}
+        {% if has_permission %}
+        <div id="user-tools">
+            {% block welcome-msg %}
+                {% translate 'Welcome,' %}
+                <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+            {% endblock %}
+            {% block userlinks %}
+                {% if site_url %}
+                    <a href="{{ site_url }}">{% translate 'View site' %}</a> /
+                {% endif %}
+                {% if user.is_active and user.is_staff %}
+                    {% url 'django-admindocs-docroot' as docsroot %}
+                    {% if docsroot %}
+                        <a href="{{ docsroot }}">{% translate 'Documentation' %}</a> /
+                    {% endif %}
+                {% endif %}
+                {% if user.has_usable_password %}
+                <a href="{% url 'admin:password_change' %}">{% translate 'Change password' %}</a> /
+                {% endif %}
+                <form id="logout-form" method="post" action="{% url 'admin:logout' %}">
+                    {% csrf_token %}
+                    <button type="submit">{% translate 'Log out' %}</button>
+                </form>
+                {% include "admin/color_theme_toggle.html" %}
+            {% endblock %}
+        </div>
+        {% endif %}
+        {% endblock %}
+        {% block nav-global %}{% endblock %}
+      </header>
+    {% endblock %}{% endcomment %}
+    <!-- END Header -->
+    {% comment %}
+    {% block nav-breadcrumbs %}
+      <nav aria-label="{% translate 'Breadcrumbs' %}">
+        {% block breadcrumbs %}
+          <div class="breadcrumbs">
+            <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+            {% if title %} &rsaquo; {{ title }}{% endif %}
+          </div>
+        {% endblock %}
+      </nav>
+    {% endblock %}
+    {% endif %}
+    {% endcomment %}
+    <div id="main" class='layout-navbar navbar-fixed'>
+      <!-- Header -->
+      {% block header %}
+      <header>
+          <nav class="navbar navbar-expand navbar-light navbar-top">
+            <div class="container-fluid">
+              <a href="#" class="burger-btn d-block">
+                <i class="bi bi-justify fs-3"></i>
+              </a>
+              <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarSupportedContent">
+                <div class="dropdown">
+                  <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="user-menu d-flex">
+                      <div class="user-name text-end me-3">
+                        <h6 class="mb-0 text-gray-600">{% firstof user.get_short_name user.get_username %}</h6>
+                        <p class="mb-0 text-sm text-gray-600">Administrator</p>
+                      </div>
+                      <div class="user-img d-flex align-items-center">
+                        <div class="avatar avatar-md">
+                          <img src="{% static 'mazer/compiled/jpg/1.jpg' %}">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
+                    <li>
+                      <h6 class="dropdown-header">Hello, {% firstof user.get_short_name user.get_username %}</h6>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><i class="icon-mid fa fa-user-cog me-2"></i> My
+                      Profile</a></li>
+                    <li><a class="dropdown-item" href="password_change/"><i class="icon-mid fa fa-user-lock me-2"></i>
+                      {% trans 'Change password' %}</a></li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#" onClick="submitForm();">
+                        <i class="icon-mid fa fa-sign-out-alt me-2"></i>
+                        {% translate 'Log out' %}</a>
+                      <form id="logout-form" method="post" action="{% url 'admin:logout' %}">
+                      {% csrf_token %}
+                      </form>
+                      <script>
+                          function submitForm() {
+                              document.getElementById('logout-form').submit();
+                          }
+                      </script>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          {% block nav-global %}{% endblock %}
+      </header>
+      {% endblock %}
+      <!-- END Header -->
+      {% comment %}
+      {% if not is_popup and is_nav_sidebar_enabled %}
+        {% block nav-sidebar %}
+          {% include "admin/nav_sidebar.html" %}
+        {% endblock %}
+      {% endif %}
+      {% endcomment %}
+      <div id="main-content" class="content" tabindex="-1">
+        {% block messages %}
+          {% if messages %}
+            <ul class="messagelist">{% for message in messages %}
+              <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message|capfirst }}</li>
+            {% endfor %}</ul>
+          {% endif %}
+        {% endblock messages %}
+        <!-- Content -->
+        <div class="page-heading">
+          <div class="page-title">
+            <div class="row">
+              <div class="col-12 col-md-6 order-md-1 order-last">
+                {% block content_title %}{% if title %}<h3>{{ title }}</h3>{% endif %}{% endblock %}
+                {% block content_subtitle %}{% if subtitle %}<h2 class="text-subtitle text-muted">{{ subtitle }}</h2>{% endif %}{% endblock %}
+              </div>
+              {% block usertools %}
+              {% if has_permission %}
+              <div class="col-12 col-md-6 order-md-2 order-first">
+                {% block nav-breadcrumbs %}
+                  <nav aria-label="{% translate 'Breadcrumbs' %}" class="breadcrumb-header float-start float-lg-end">
+                    {% block breadcrumbs %}
+                      <div class="breadcrumbs">
+                        <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+                        {% if title %} &rsaquo; {{ title }}{% endif %}
+                      </div>
+                    {% endblock %}
+                  </nav>
+                {% endblock %}
+                {% comment %}
+                <!-- sitemap/passwordchange/logoutbutton -->
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                  {% block userlinks %}
+                    <ol class="breadcrumb">
+                    {% if site_url %}
+                      <li class="breadcrumb-item"><a href="{{ site_url }}">{% translate 'View site' %}</a></li>
+                    {% endif %}
+                    {% if user.is_active and user.is_staff %}
+                      {% url 'django-admindocs-docroot' as docsroot %}
+                      {% if docsroot %}
+                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ docsroot }}">{% translate 'Documentation' %}</a></li>
+                      {% endif %}
+                    {% endif %}
+                    {% if user.has_usable_password %}
+                      <li class="breadcrumb-item"><a href="{% url 'admin:password_change' %}">{% translate 'Change password' %}</a></li>
+                    {% endif %}
+                    </ol>
+                    <form id="logout-form" method="post" action="{% url 'admin:logout' %}">
+                      {% csrf_token %}
+                      <button type="submit">{% translate 'Log out' %}</button>
+                    </form>
+                  {% endblock %}
+                </nav>
+                {% endcomment %}
+              </div>
+              {% endif %}
+              {% endblock %}
+            </div>
+          </div>
+          <section class="section">
+            <div id="content" class="{% block coltype %}colM{% endblock %}">
+              {% block pretitle %}{% endblock %}
+              <div class="row">
+                {% block content %}
+                  {% block object-tools %}{% endblock %}
+                  {{ content }}
+                {% endblock %}
+                {{ sidebar }}
+                {% block sidebar %}{% endblock %}
+              </div>
+              <br class="clear">
+            </div>
+          </section>
+        </div>
+
+        <!-- END Content -->
+        {% block footer %}
+        <footer>
+          <div id="footer"></div>
+        </footer>
+        {% endblock %}
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+
+<!-- SVGs -->
+<svg xmlns="http://www.w3.org/2000/svg" class="base-svgs">
+  <symbol viewBox="0 0 24 24" width="1rem" height="1rem" id="icon-auto"><path d="M0 0h24v24H0z" fill="currentColor"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2V4a8 8 0 1 0 0 16z"/></symbol>
+  <symbol viewBox="0 0 24 24" width="1rem" height="1rem" id="icon-moon"><path d="M0 0h24v24H0z" fill="currentColor"/><path d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"/></symbol>
+  <symbol viewBox="0 0 24 24" width="1rem" height="1rem" id="icon-sun"><path d="M0 0h24v24H0z" fill="currentColor"/><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></symbol>
+</svg>
+<!-- END SVGs -->
+<script src="{% static 'mazer/static/js/components/dark.js' %}"></script>
+<script src="{% static 'mazer/extensions/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
+<script src="{% static 'mazer/compiled/js/app.js' %}"></script>
+
+<!-- Need: Apexcharts -->
+<script src="{% static 'mazer/extensions/apexcharts/apexcharts.min.js' %}"></script>
+<script src="{% static 'mazer/static/js/pages/dashboard.js' %}"></script>
+
+<!-- Need: Select -->
+<script src="{% static 'mazer/extensions/choices.js/public/assets/scripts/choices.js' %}"></script>
+<script src="{% static 'mazer/static/js/pages/form-element-select.js' %}"></script>
+{% block extrascripts %}{% endblock %}
+</body>
+</html>
