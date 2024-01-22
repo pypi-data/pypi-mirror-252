@@ -1,0 +1,14 @@
+ip_adapter/__init__.py,sha256=E9n3BIgj66mo8_bvKJ7vWjFd4WQZa9Jjt1C50G1SraM,210
+ip_adapter/attention_processor.py,sha256=ES8kbyi0NS57yKJtj0fTqcpJnwim7GUDpPR4dfJSK7k,20798
+ip_adapter/attention_processor_faceid.py,sha256=6uC8xROs5MzLUvRWn37DP0t46DZYQ7RB9T13hltVHtc,17070
+ip_adapter/custom_pipelines.py,sha256=WQYB7fnym3UU_CVEgi36qIW7XudaolaD6ofi6a_RyjE,22576
+ip_adapter/ip_adapter.py,sha256=SM3zWbU54XK0CJlfXxICbc3nefLm4zDm1DaDUAGdP7E,16914
+ip_adapter/ip_adapter_faceid.py,sha256=Htl4H5Obw7Eijkaf68KICyOyVQ8RTP2-tSv8dVp6Xck,21660
+ip_adapter/ip_adapter_faceid_separate.py,sha256=zRGJtU9x85OXzsSIiyLeHI-DSjUQrOEwRP2DPkIpSw8,21547
+ip_adapter/resampler.py,sha256=9lG4v-5pDJiLICUiqkhJ8yJxIouknahzhYrkTz30voo,5059
+ip_adapter/test_resampler.py,sha256=GVUkRq_xuZiXpWLS8YmelMsL_DDVE56ThjSSh_EQ-qw,1406
+ip_adapter/utils.py,sha256=Syyj1QoMyFwq0Xh3vxfiPUBdBAh8Qnx1a-dcaggCfnw,2505
+ip_adapterv-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ip_adapterv-0.1.0.dist-info/METADATA,sha256=FSp9BncE5c2SkxY5mQnh__tZo0LFV8J4FP_KxDmdbKE,11863
+ip_adapterv-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ip_adapterv-0.1.0.dist-info/RECORD,,
