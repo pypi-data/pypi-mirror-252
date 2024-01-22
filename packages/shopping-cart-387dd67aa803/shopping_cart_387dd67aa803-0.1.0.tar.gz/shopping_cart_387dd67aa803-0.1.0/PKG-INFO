@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: shopping-cart-387dd67aa803
+Version: 0.1.0
+Summary: Simple shopping cart that lets you add items and display the state of the cart
+Author: None
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Instructions for the assignment
+
+1. Clone this repository on your machine.
+1. Use your IDE of choice to complete the assignment.
+1. When you are finished with the solution and have pushed it to the repo, [you can submit the assignment here](https://app.snapcode.review/submission_links/02d65a37-941a-4104-84c5-6aea5c26a89f).
+1. There is no time limit for this task
+
+## Tips on what we’re looking for
+
+We value simplicity as an architectural virtue and as a development practice. Solutions should reflect the difficulty of the assigned task, and shouldn’t be overly complex. We prefer simple, well tested solutions over clever solutions. 
+
+### DO
+
+* ✅ Include unit tests
+* ✅ Test both any client and logic
+* ✅ Update the README.md with any relevant information and/or tradeoffs you would like to highlight
+
+### DO NOT
+
+* ❌ Submit a web, desktop, command line or any other kind of app
+* ❌ Add unnecessary layers of abstraction
+* ❌ Add unnecessary patterns/ architectural features that aren’t called for
+
+# Begin the task
+
+Create a shopping cart ***package*** that facilitates 2 basic capabilities.
+
+1. Add a product to the cart
+   1. Specifying the product name and quantity
+   2. Use the product name to discover the price from the [Product API](#product-api) specified below
+   3. Cart state (totals, etc.) must be available
+
+2. Calculate the state:
+   1. Cart subtotal (sum of price for all items)
+   2. Tax payable (charged at 12.5% on the subtotal)
+   3. Total payable (subtotal + tax)
+   4. Totals should be rounded up where required
+
+## Product API
+
+Base URL: `https://equalexperts.github.io/`
+
+View Product: `GET /backend-take-home-test-data/{product}.json`
+
+Available products
+* `cheerios`
+* `cornflakes`
+* `frosties`
+* `shreddies`
+* `weetabix`
+
+## Example
+The below is a sample with the correct values you can use to confirm your calculations
+
+### Inputs
+* Add 1 × cornflakes @ 2.52 each
+* Add another 1 x cornflakes @2.52 each
+* Add 1 × weetabix @ 9.98 each
+  
+### Results  
+* Cart contains 2 x cornflakes
+* Cart contains 1 x weetabix
+* Subtotal = 15.02
+* Tax = 1.88
+* Total = 16.90
+
+## Code style
+
+This project makes use of black with default settings to format the code
+and flake8 as a linter.
+
+## Usage
+
+```
+from shopping_cart.shopping_cart import ShoppingCart
+
+cart: ShoppingCart = ShoppingCart()
+print(cart.add_to_cart("cornflakes", 1))
+print(cart.add_to_cart("cornflakes", 1))
+print(cart.add_to_cart("weetabix", 1))
+print(cart.calculate_state())
+```
+
+![Alt text](image.png)
+
+## API
+
+`add_to_cart(product_name, quantity)`
+
+Will add the product details to the cart.
+
+Args:   
+product_name (str): the name of the product  
+quantity (int): how many of the product
+
+Raises: Exception: Exception, when there is an error adding a product to the cart
+
+Returns: dict: object containing the status_code and message
+
+`calculate_state()`
+
+Will display the current state of the shopping cart
+
+Returns: str:   
+A string representing the state of the shopping cart. 
+This includes:   
+product_name: the name of the product   
+quantity: how many of the product   
+sub: sum of all the prices of the products   
+tax: the tax payable on the sub   
+total: the sum of the sub and tax  
+
+# Requirements
+* python >= 3.10
+* poetry
+* coverage
+
+# Testing
+
+The project uses pytest to run its tests
+To run the tests, follow the steps below.
+
+Open up a terminal in the project
+
+1. run `poetry install` this will install the dependencies for the project
+2. run `poetry shell` to enter the virtual environment
+3. run `poetry run pytest -vv` to run the tests
+
+# Coverage
+
+Open up a terminal in the project
+
+1. run `coverage run -m pytest` run the test suite and get data
+2. run `coverage report -m` to get a report of the results
+
+![Alt text](image-1.png)
+
+# Other
+The .gitignore file was generated using gitignore.io
+https://www.toptal.com/developers/gitignore/#
