@@ -1,0 +1,10 @@
+README.md
+setup.py
+mathfortranb/__init__.py
+mathfortranb/setup.py
+mathfortranb/smooth1.py
+mathfortranb.egg-info/PKG-INFO
+mathfortranb.egg-info/SOURCES.txt
+mathfortranb.egg-info/dependency_links.txt
+mathfortranb.egg-info/top_level.txt
+mathfortranb/mathfortranb/__init__.py
