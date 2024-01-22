@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "jami-cli"
+version = "0.3.0"
+description = ""
+authors = ["Cliff Xuan <cliff.xuan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "jami"}]
+repository = "https://github.com/cliffxuan/jami-cli"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = "^0.9.0"
+cryptography = "^41.0.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+jami = "jami.main:cli"
