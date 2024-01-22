@@ -1,0 +1,8 @@
+convection/plugins/secrets/passdb.py,sha256=Bd9jJwlYovd_CmJVHquGKQUNcyEOkqyrpYWzOjUgSWo,11814
+convection/plugins/secrets/specs/passdb.config.spec,sha256=U6I_MSjlT0EE-MUpMqSSq3m4bEk1HI6yIwU2tWPny3M,367
+convection/plugins/secrets/specs/plugin.secret.passdb.spec,sha256=VYwMCz5CMsk2qA9QBqH_XgQI1yhzouKWZKfU7aLbnZY,174
+convection_plugin_secrets_passdb-1.0.0.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+convection_plugin_secrets_passdb-1.0.0.dist-info/METADATA,sha256=lf_wUSHXTLwYfv5JaI6GxccktQ9e9ykcwDmVKLFEC8c,3354
+convection_plugin_secrets_passdb-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+convection_plugin_secrets_passdb-1.0.0.dist-info/top_level.txt,sha256=bJCTOR8k-kKRHoclGlabJaBgVYcpn9eOPaAQ2Nicu3E,11
+convection_plugin_secrets_passdb-1.0.0.dist-info/RECORD,,
