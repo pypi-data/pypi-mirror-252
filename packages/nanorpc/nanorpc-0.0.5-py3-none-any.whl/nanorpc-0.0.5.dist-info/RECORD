@@ -1,0 +1,11 @@
+nanorpc/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+nanorpc/client.py,sha256=0Z9jcNIKnkgriJ6qrZe60ZNJt0vWrSNQ08eoNaSaAH0,3099
+nanorpc/versions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nanorpc/versions/handler.py,sha256=jgrkFyNIz0Qm0XvVPJtBBDhdN4tbbx5xHR9HOdR6CiE,927
+nanorpc/versions/v23_3.py,sha256=8vDxRdqXOZQwyYGx_lDAZM0lg9LubeHu-BLyyXmxJFw,10968
+nanorpc/versions/v24_0.py,sha256=gZ5mL4wdmaJ_VYwaQYJu6qYPPphw0oL7rnn2lp635lo,3392
+nanorpc/versions/v25_0.py,sha256=a4VGYWhko4EXUAsnB4FcfymJDFr0jaFUUEPUbnM0wgI,503
+nanorpc-0.0.5.dist-info/METADATA,sha256=KEN2xZJqL3xL411ix_f47hzzDavGovooZ7A8v81YZyw,3351
+nanorpc-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nanorpc-0.0.5.dist-info/top_level.txt,sha256=anb8vZcPaSEKivY0fsm5hoG9J5tDGSv4IHqV9MiPLnE,8
+nanorpc-0.0.5.dist-info/RECORD,,
