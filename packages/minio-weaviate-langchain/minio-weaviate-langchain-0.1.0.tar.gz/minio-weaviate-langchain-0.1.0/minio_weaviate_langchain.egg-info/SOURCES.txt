@@ -1,0 +1,8 @@
+README.md
+setup.py
+minio_weaviate_langchain.egg-info/PKG-INFO
+minio_weaviate_langchain.egg-info/SOURCES.txt
+minio_weaviate_langchain.egg-info/dependency_links.txt
+minio_weaviate_langchain.egg-info/entry_points.txt
+minio_weaviate_langchain.egg-info/requires.txt
+minio_weaviate_langchain.egg-info/top_level.txt

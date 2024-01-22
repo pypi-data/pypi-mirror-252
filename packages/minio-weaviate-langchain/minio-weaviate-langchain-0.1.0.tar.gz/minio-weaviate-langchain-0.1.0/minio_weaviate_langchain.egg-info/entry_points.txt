@@ -1,0 +1,3 @@
+[console_scripts]
+my_fastapi_app = my_fastapi_app.main:main
+
