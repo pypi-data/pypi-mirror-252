@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Topsis-Rohan-102103108
+Version: 1.1.2
+Summary: Topsis-Rohan-102103108
+Home-page: https://github.com/Rohan1405/Topsis-Rohan-102103108
+Author: Rohan Gulati
+Author-email: gulatirohan2003@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Topsis-Rohan-102103108
+
+Topsis-Rohan-Gulati is a Python library designed for addressing Multiple Criteria Decision Making (MCDM) problems using the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) method.
+
+## Installation
+
+You can install the library using pip:
+
+
+```bash
+pip install Topsis-Rohan-Gulati
+``` 
+
+## How to Use
+
+To use the library, provide the CSV filename with the ".csv" extension, the weights vector with comma-separated values, the impacts vector with comma-separated signs (+,-), and the output CSV filename with the ".csv" extension.
+
+Example:
+## Command
+```bash
+
+Topsis sample.csv "1,1,1,2,2" "+,+,-,+,+" result.csv
+```
+## Other Notes
+
+The library removes the first column and first row from the CSV before processing to eliminate indices and headers. Ensure your CSV follows the format as shown in the sample.csv.
+Make sure the CSV does not contain categorical values.
+
