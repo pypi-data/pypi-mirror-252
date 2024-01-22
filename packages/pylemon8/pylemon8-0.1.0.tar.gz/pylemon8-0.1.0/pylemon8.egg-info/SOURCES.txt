@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lemon8/__init__.py
+pylemon8.egg-info/PKG-INFO
+pylemon8.egg-info/SOURCES.txt
+pylemon8.egg-info/dependency_links.txt
+pylemon8.egg-info/requires.txt
+pylemon8.egg-info/top_level.txt

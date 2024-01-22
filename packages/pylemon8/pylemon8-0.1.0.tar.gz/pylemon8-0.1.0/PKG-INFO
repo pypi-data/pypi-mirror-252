@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pylemon8
+Version: 0.1.0
+Summary: Lemon8 Wrapper in Python
+Home-page: https://github.com/shotnothing/pylemon8
+Download-URL: https://github.com/shotnothing/pylemon8
+Author: Saw Jing Wen
+Author-email: shotnothinggg@gmail.com
+License: MIT
+Keywords: python,lemon8,pylemon8,bytedance,api,lemon,8,wrapper,py-lemon8,pythonlemon8,eight
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lemon8 wrapper in Python
+
+This is an unofficial wrapper for the Lemon8 API in Python.
+    
+## Getting Started
+    
+### Installation
+Pip
+```
+pip install pylemon8
+```
+
+From source
+```python
+https://github.com/shotnothing/pylemon8.git
+python setup.py install
+```
+
+### Usage
+```python
+from lemon8 import Lemon8
+
+lemon8 = Lemon8()
+print(lemon8.feed('foryou').get_items())
+```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+```
