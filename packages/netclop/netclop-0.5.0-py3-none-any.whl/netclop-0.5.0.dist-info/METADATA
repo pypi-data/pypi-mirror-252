@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: netclop
+Version: 0.5.0
+Summary: NETwork CLustering OPerations for geophysical fluid transport
+Author: KarstenEconomou
+Author-email: economoukarsten@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: geopandas (>=0.14.2,<0.15.0)
+Requires-Dist: h3 (==4.0.0b2)
+Requires-Dist: infomap (>=2.7.1,<3.0.0)
+Requires-Dist: networkx (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: plotly (>=5.18.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+# Network clustering operations
+**Net**work **cl**ustering **op**erations (netclop) is a command line interface for geophysical fluid transport network construction and associated clustering operations (e.g., community detection, significance clustering).
+
+## Installation
+Use [pipx](https://github.com/pypa/pipx) to install and run in an isolated environment.
+```
+brew install pipx
+pipx ensurepath
+```
+
+```
+pipx install netclop
+```
+
+## Functions
+### Construct network
+Particle trajectories must be decomposed into initial and final latitude and longitude coordinates in the form `initial latitude,initial longitude,final latitude,final longitude`. Positions are binned with [h3](https://github.com/uber/h3-py) with specified `-res`.
+
+```
+netclop construct coords.csv -o network.csv -res [RES]
+```
+
+### Partition network
+
+Weighted, directed networks are represented as an edge list `source node,target node,weight,normalized weight` where the normalized edge weight is such that outgoing edges from each node sum to unity (or zero). Clustering is done using [Infomap](https://github.com/mapequation/infomap) with `-n` outer-loop trials, `-mt` Markov time, and `-s` random seed.
+
+```
+netclop partition network.csv -o modules.csv -n [NUM TRIALS] -mt [MARKOV TIME] -s [SEED]
+```
+
+### Plot modular structure
+
+Modular descriptions of networks are a node list `node,module,node metric 1,node metric 2,...`. They can be plotted simply with
+```
+netclop plot modules.csv
+```
