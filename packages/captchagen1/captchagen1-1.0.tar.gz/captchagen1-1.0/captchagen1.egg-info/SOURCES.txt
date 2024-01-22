@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+captchagen/__init__.py
+captchagen/main.py
+captchagen1.egg-info/PKG-INFO
+captchagen1.egg-info/SOURCES.txt
+captchagen1.egg-info/dependency_links.txt
+captchagen1.egg-info/top_level.txt
