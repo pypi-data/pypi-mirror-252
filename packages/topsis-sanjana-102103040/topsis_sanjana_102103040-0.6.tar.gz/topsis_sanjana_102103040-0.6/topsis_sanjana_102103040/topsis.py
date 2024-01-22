@@ -1,0 +1,111 @@
+# import needed libraries
+import sys
+import pandas as pd
+import numpy as np
+import errno
+import os
+import re
+def topsis(input_data_file, weights_str, impacts_str, result_file):
+    try:
+        # Read the input data file
+        input = pd.read_csv(input_data_file)
+        # Check if the input file contains three or more columns
+        if input.shape[1] < 3:
+            raise ValueError("Input file must contain three or more columns.")
+        # Extract weights and impacts
+        weights = list(map(float, weights_str.split(',')))
+        impacts = impacts_str.split(',')
+        # Check if the number of weights, impacts, and columns match
+        if len(weights) != input.shape[1] - 1 or len(impacts) != input.shape[1] - 1:
+            raise ValueError("Number of weights, impacts, and columns must be the same.")
+        # Check if impacts are either '+ve' or '-ve'
+        if not all(impact in ['+', '-'] for impact in impacts):
+            raise ValueError("Impacts must be either +ve or -ve.")
+        # Check if the columns from 2nd to last contain numeric values only
+        for col in input.columns[1:]:
+            if not pd.to_numeric(input[col], errors='coerce').notna().all():
+                raise ValueError(f"Column '{col}' must contain numeric values only.")
+        # step 1 extract numerical values
+        df = input.iloc[:,1:]
+        # step 2 Normalization
+        def square(x):
+          return x**2
+        for i in df.columns:
+          df[i]/=df[i].apply(square).sum()**0.5
+        # step 3 Assign weight
+        weights= weights_str
+        weights=[float(w) for w in weights.split(',')]
+        for i in range(df.shape[1]):
+          df[df.columns[i]]*=weights[i]
+        # step 4 Calculate ideal best and ideal worst
+        impacts= impacts_str
+        impacts=[i.strip() for i in impacts.split(',')]
+        #initializing lists to
+        Vj_plus = list(np.zeros(df.shape[1]))
+        Vj_minus = list(np.zeros(df.shape[1]))
+        for i in range(df.shape[1]):
+          if impacts[i]=="+":
+            Vj_plus[i]=df[df.columns[i]].max()
+            Vj_minus[i]=df[df.columns[i]].min()
+          else:
+            Vj_plus[i]=df[df.columns[i]].min()
+            Vj_minus[i]=df[df.columns[i]].max()
+
+        #step 5 Calacute Si+ and Si-(Euclidean distance)
+        #initializing lists to store euclidian distances(best and worst) for each row
+        Si_plus=list(np.zeros(df.shape[0]))
+        Si_minus=list(np.zeros(df.shape[0]))
+        for i in range(df.shape[0]):
+          for j in range(df.shape[1]):
+            Si_plus[i]=(df.iloc[i]-Vj_plus).apply(square).sum()**0.5
+            Si_minus[i]=(df.iloc[i]-Vj_minus).apply(square).sum()**0.5
+
+        # step 6 Calculate Performance score (Si-/(Si+ + Si-))
+        Performance_Score = list(np.zeros(df.shape[0]))
+        for i in range(df.shape[0]):
+          Performance_Score[i]=Si_minus[i]/(Si_minus[i]+Si_plus[i])
+
+
+        #adding Performance Score and rank to  our input dataframe
+        input['Topsis Score']=Performance_Score
+        input['Topsis Score']*=100
+        input['Topsis Score']=input['Topsis Score'].round(2)
+        input['Rank'] = input['Topsis Score'].rank()
+        input['Rank'] = df.shape[0]-input['Rank']+1
+
+        #Output Ranking
+        #input
+
+        #saving file
+        input.to_csv(result_file,index=False)
+        return result_file
+    except FileNotFoundError:
+        print(f"Error: File {inputFileName} not found. Please check the file name and try again.")
+        sys.exit(1)
+    except pd.errors.EmptyDataError:
+        print(f"Error: File {inputFileName} is empty. Please check the file and try again.")
+        sys.exit(1)
+
+def main():
+ # Check if the correct number of command line arguments is provided
+    if len(sys.argv) != 5:
+        print("Usage: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>")
+        sys.exit(1)  # Exit with an error code
+    pattern=re.compile(r'^[a-zA-Z0-9_-]+\.csv$')
+    if ((not pattern.match(sys.argv[1])) | (not pattern.match(sys.argv[4]))):
+        print("Error: Invalid <InputDataFile> format. Must be of the format 'name.csv'")
+        print(f"Correct Usage: {sys.argv[0]} <InputDataFile> <Weights> <Impacts> <ResultFileName>")
+        sys.exit(1)
+    
+    # Extract command line arguments
+    input_data_file = sys.argv[1]
+    weights_str = sys.argv[2]
+    impacts_str = sys.argv[3]
+    result_file = sys.argv[4]
+    
+
+    # Call your topsis function with the provided inputs and get the result file
+    topsis(input_data_file, weights_str, impacts_str, result_file)
+
+if __name__ == "__main__": 
+    main()
