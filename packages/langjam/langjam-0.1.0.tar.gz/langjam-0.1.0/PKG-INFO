@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: langjam
+Version: 0.1.0
+Summary: Utils for large language model
+Author: Anurag Jha
+Author-email: toanuragjha@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pytest (==7.4.4)
+Requires-Dist: pytest-asyncio (==0.23.3)
+Description-Content-Type: text/markdown
+
+# LmUtils
+
+Project helps easier interaction with LLM models out there.
+
+## Feature
+### OpenAI
+1. func_to_tool - returns tool that can be used with Openai chat or assistant APIs
+
+
