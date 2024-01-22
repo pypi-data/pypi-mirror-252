@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: Topsis-Ankit-102103035
+Version: 1.0.0
+Requires-Dist: pandas
+Requires-Dist: numpy
