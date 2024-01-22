@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Topsis-Akul-102103487
+Version: 0.1
+Summary: for: Assignment-1 (UCS634)
+Home-page: https://github.com/akulvaishnavi/Topsis-Akul-102103487
+Download-URL: https://github.com/akulvaishnavi/Topsis-Akul-102103487/archive/v_01.tar.gz
+Author: Akul Vaishnavi
+Author-email: avaishnavi_be21@thapar.edu
+License: MIT
+Keywords: Topsis,Akul,102103487
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
