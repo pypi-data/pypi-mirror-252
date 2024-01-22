@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: engiwiz-django-carton
+Version: 1.2.2
+Summary: django-carton is a simple and lightweight application for shopping carts and wish lists.
+Home-page: https://github.com/engiwiz/engiwiz-django-carton
+Author: unkana
+License-File: LICENSE
