@@ -1,0 +1,351 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module endf6 ! in 
+    interface  ! in :endf6
+        module endf6 ! in :endf6:endf6.f90
+            subroutine readtext(nin,jin,text,mat,mf,mt,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                character*66 :: text
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+            end subroutine readtext
+            subroutine readcont(nin,jin,c1,c2,l1,l2,n1,n2,mat,mf,mt,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: n1
+                integer :: n2
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+            end subroutine readcont
+            subroutine readlist(nin,jin,c1,c2,l1,l2,npl,n2,b) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: npl
+                integer :: n2
+                real*8 dimension(*) :: b
+            end subroutine readlist
+            subroutine readtab1(nin,jin,c1,c2,l1,l2,nr,nbt,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine readtab1
+            subroutine readtab2(nin,jin,c1,c2,l1,l2,nr,nbt,ibt,np2) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: np2
+            end subroutine readtab2
+            subroutine readintg(nin,jin,ndigit,ii,jj,nrow,kij) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: ndigit
+                integer :: ii
+                integer :: jj
+                integer :: nrow
+                integer dimension(*) :: kij
+            end subroutine readintg
+            subroutine wrtext(nou,jou,mat,mf,mt,ns,text) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(in,out) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                character*66 :: text
+            end subroutine wrtext
+            subroutine wrtcont(nou,jou,mat,mf,mt,ns,c1,c2,l1,l2,n1,n2) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: n1
+                integer :: n2
+            end subroutine wrtcont
+            subroutine wrtsend(nou,jou,mat,mf,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: ns
+            end subroutine wrtsend
+            subroutine wrtfend(nou,jou,mat,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: ns
+            end subroutine wrtfend
+            subroutine wrtmend(nou,jou,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: ns
+            end subroutine wrtmend
+            subroutine wrtend(nou,jou,ns) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: ns
+            end subroutine wrtend
+            subroutine wrtlist(nou,jou,mat,mf,mt,ns,c1,c2,l1,l2,npl,n2,b) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: npl
+                integer :: n2
+                real*8 dimension(*) :: b
+            end subroutine wrtlist
+            subroutine wrtab1(nou,jou,mat,mf,mt,ns,c1,c2,l1,l2,nr,nbt,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                real*8 :: c1
+                real*8 :: c2
+                integer :: l1
+                integer :: l2
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine wrtab1
+            subroutine wrtab2(nou,jou,mat,mf,mt,ns,c1,z,l1,l2,nr,nbt,ibt,np2) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                real*8 :: c1
+                real*8 :: z
+                integer :: l1
+                integer :: l2
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: np2
+            end subroutine wrtab2
+            subroutine wrtintg(nou,jou,mat,mf,mt,ns,ii,jj,nrow,kij) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ns
+                integer :: ii
+                integer :: jj
+                integer :: nrow
+                integer dimension(*) :: kij
+            end subroutine wrtintg
+            subroutine chendf(ffin,str11) ! in :endf6:endf6.f90:endf6
+                real*8 :: ffin
+                character*11 :: str11
+            end subroutine chendf
+            subroutine packibt(nru,ibtu,nr,nbt,ibt) ! in :endf6:endf6.f90:endf6
+                integer :: nru
+                integer dimension(*) :: ibtu
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+            end subroutine packibt
+            subroutine unpackibt(nr,nbt,ibt,nru,ibtu) ! in :endf6:endf6.f90:endf6
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: nru
+                integer dimension(*) :: ibtu
+            end subroutine unpackibt
+            subroutine readtape(endftape,maxdim,tapehead,nin,ninrec,ierr) ! in :endf6:endf6.f90:endf6
+                character*120 :: endftape
+                integer :: maxdim
+                character*80 :: tapehead
+                character dimension(*,80),intent(c) :: nin
+                integer :: ninrec
+                integer :: ierr
+            end subroutine readtape
+            subroutine wrt2tape(iou,nou,joumin,joumax) ! in :endf6:endf6.f90:endf6
+                integer :: iou
+                character dimension(*,80),intent(c) :: nou
+                integer :: joumin
+                integer :: joumax
+            end subroutine wrt2tape
+            subroutine findmat(nin,jin,mat,ierr) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: mat
+                integer :: ierr
+            end subroutine findmat
+            subroutine findmf(nin,jin,mat,mf,ierr) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: mat
+                integer :: mf
+                integer :: ierr
+            end subroutine findmf
+            subroutine findmt(nin,jin,mat,mf,mt,ierr) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                integer :: ierr
+            end subroutine findmt
+            subroutine getnextmt(nin,jin,mf,mt) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: mf
+                integer :: mt
+            end subroutine getnextmt
+            subroutine nextsub6(nin,jin,law,nbt,ibt,x,b) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nin
+                integer :: jin
+                integer :: law
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: b
+            end subroutine nextsub6
+            subroutine readmf3mt_std(nin,jin,za,awr,qm,qi,lr,nr,nbt,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(80,*),intent(in,out) :: nin
+                integer,intent(in,out) :: jin
+                real*8,intent(out) :: za
+                real*8,intent(out) :: awr
+                real*8,intent(out) :: qm
+                real*8,intent(out) :: qi
+                integer,intent(out) :: lr
+                integer,intent(out) :: nr
+                integer dimension(*),intent(in,out) :: nbt
+                integer dimension(*),intent(in,out) :: ibt
+                integer,intent(out) :: np
+                real*8 dimension(*),intent(in,out) :: x
+                real*8 dimension(*),intent(in,out) :: y
+            end subroutine readmf3mt_std
+            subroutine readmf3mt_ext(nin,jin,za,awr,qm,qi,lr,nr,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(in,out) :: nin
+                integer,intent(in,out) :: jin
+                real*8 :: za
+                real*8 :: awr
+                real*8 :: qm
+                real*8 :: qi
+                integer :: lr
+                integer :: nr
+                integer dimension(*) :: ibt
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine readmf3mt_ext
+            subroutine wrtmf3mt_std(nou,jou,mat,mf,mt,za,awr,qm,qi,lr,nr,nbt,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(80,*),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                real*8 :: za
+                real*8 :: awr
+                real*8 :: qm
+                real*8 :: qi
+                integer :: lr
+                integer :: nr
+                integer dimension(*) :: nbt
+                integer dimension(*) :: ibt
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine wrtmf3mt_std
+            subroutine wrtmf3mt_ext(nou,jou,mat,mf,mt,za,awr,qm,qi,lr,nr,ibt,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(80,*),intent(in,out) :: nou
+                integer,intent(in,out) :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                real*8 :: za
+                real*8 :: awr
+                real*8 :: qm
+                real*8 :: qi
+                integer :: lr
+                integer :: nr
+                integer dimension(*) :: ibt
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine wrtmf3mt_ext
+            subroutine wrtmf3mt_law(nou,jou,mat,mf,mt,za,awr,qm,qi,lr,ilaw,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(*,80),intent(c) :: nou
+                integer :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                real*8 :: za
+                real*8 :: awr
+                real*8 :: qm
+                real*8 :: qi
+                integer :: lr
+                integer :: ilaw
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine wrtmf3mt_law
+            subroutine wrtmf3mt_lin(nou,jou,mat,mf,mt,za,awr,qm,qi,lr,np,x,y) ! in :endf6:endf6.f90:endf6
+                character dimension(80,*),intent(in,out) :: nou
+                integer,intent(in,out) :: jou
+                integer :: mat
+                integer :: mf
+                integer :: mt
+                real*8 :: za
+                real*8 :: awr
+                real*8 :: qm
+                real*8 :: qi
+                integer :: lr
+                integer :: np
+                real*8 dimension(*) :: x
+                real*8 dimension(*) :: y
+            end subroutine wrtmf3mt_lin
+        end module endf6
+    end interface 
+end python module endf6
+
+! This file was auto-generated with f2py (version:1.21.2).
+! See http://cens.ioc.ee/projects/f2py2e/
