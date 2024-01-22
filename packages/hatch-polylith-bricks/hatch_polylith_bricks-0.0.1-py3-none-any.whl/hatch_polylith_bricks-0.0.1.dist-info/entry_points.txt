@@ -1,0 +1,3 @@
+[hatch]
+polylith-bricks=polylith.hatch_hooks.hooks
+
