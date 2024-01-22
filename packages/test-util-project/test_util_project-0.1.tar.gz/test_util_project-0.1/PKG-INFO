@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: test_util_project
+Version: 0.1
+Summary: A simple example package
+Home-page: UNKNOWN
+Author: liubo
+Author-email: 
+License: MIT
+Description: # 测试上传
+        
+        **版本:**
+        python3
+        
+        一个根目录，包含所有代码。
+        一个 setup.py 文件，其中包含有关您的包的信息（名称、版本、依赖等）。
+        可选的 README.md 或 README.rst 文件，说明您的项目。
+        一个 LICENSE 文件，说明您的包的许可证。
+        一个包含 Python 代码的子目录。
+        
+        my_package/
+          setup.py
+          README.md
+          LICENSE
+          my_package/
+            __init__.py
+            module1.py
+            module2.py
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
