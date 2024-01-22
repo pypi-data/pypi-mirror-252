@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ngungu
+Version: 0.1
+Summary: Chinese Dialects G2P
+Home-page: https://github.com/CjangCjengh/ngungu/
+Author: CjangCjengh
+Author-email: 126621566zz@gmail.com
+License: MIT
+Keywords: Chinese,Dialect,G2P
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
