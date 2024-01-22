@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+vdf_io/__init__.py
+vdf_io/export_vdf.py
+vdf_io/import_vdf.py
+vdf_io.egg-info/PKG-INFO
+vdf_io.egg-info/SOURCES.txt
+vdf_io.egg-info/dependency_links.txt
+vdf_io.egg-info/entry_points.txt
+vdf_io.egg-info/requires.txt
+vdf_io.egg-info/top_level.txt
