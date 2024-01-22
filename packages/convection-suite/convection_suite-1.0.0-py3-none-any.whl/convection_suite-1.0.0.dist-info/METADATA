@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: convection-suite
+Version: 1.0.0
+Summary: Convection Suite of tools
+Author-email: AccidentallyTheCable <cableninja@cableninja.net>
+License: GPLv3
+Project-URL: Homepage, https://gitlab.com/accidentallythecable-public/convection-suite/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: convection-shared <=2.0,>=1.0
+Requires-Dist: convection-secrets-manager <=2.0,>=1.0
+Requires-Dist: convection-secrets-client <=2.0,>=1.0
+Requires-Dist: convection-plugin-secrets-generic <=2.0,>=1.0
+Requires-Dist: convection-plugin-secrets-passdb <=2.0,>=1.0
+
+# Convection Suite
+
+The Convection Suite of Tools
+
+This is the metapackage that installs all components of Convection.
+
+ - Convection IaC
+   - [Core](https://gitlab.com/accidentallythecable-public/convection-suite/convection-iac)
+   - [Accessor Plugins](https://gitlab.com/accidentallythecable-public/convection-suite/plugins/accessors)
+   - [Actions Plugins](https://gitlab.com/accidentallythecable-public/convection-suite/plugins/actions)
+   - [Connector Plugins](https://gitlab.com/accidentallythecable-public/convection-suite/plugins/connectors)
+ - Convection Secrets Manager
+   - [Server](https://gitlab.com/accidentallythecable-public/convection-suite/convection-secrets-manager)
+   - [Client](https://gitlab.com/accidentallythecable-public/convection-suite/convection-secrets-client)
+   - [Plugins](https://gitlab.com/accidentallythecable-public/convection-suite/plugins/secrets/)
