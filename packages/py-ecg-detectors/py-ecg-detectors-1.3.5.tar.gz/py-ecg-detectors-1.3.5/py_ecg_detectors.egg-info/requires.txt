@@ -1,0 +1,5 @@
+gatspy
+numpy
+pathlib2
+pywavelets
+scipy
