@@ -1,0 +1,5 @@
+[console_scripts]
+django-nest=scripts.main:cli
+runserver=scripts.main:runserver
+startproject=scripts.main:startproject
+
