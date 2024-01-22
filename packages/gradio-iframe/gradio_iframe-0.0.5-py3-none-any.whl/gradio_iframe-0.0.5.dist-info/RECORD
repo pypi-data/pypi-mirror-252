@@ -1,0 +1,10 @@
+gradio_iframe/__init__.py,sha256=9xrfJX_Mt2WWOhjkDktIE_terQeF9Vdec8Py8nw5FnM,50
+gradio_iframe/iframe.py,sha256=hSG6J3gUVJdUWChBHdzzyPZU-i-1J6_G7LQAAjLgapE,3055
+gradio_iframe/iframe.pyi,sha256=tldbF4xAbWsnIKZQoUF9bAbu__agwqfsPcIdz9xWOy0,7149
+gradio_iframe/templates/component/index.js,sha256=n_t19GbLBY574Lz0h3_2R8nj5fhBvd-yya4li63H-z0,48295
+gradio_iframe/templates/component/style.css,sha256=Y_cSJb2mbMQHA3RFqe8CKtJv-0ZokXJft39-TD2qFwQ,12655
+gradio_iframe/templates/example/index.js,sha256=PL5VlDZkb_tOstDHRJEQcPXY4jXFqBu5etKEiVAnqzw,1690
+gradio_iframe/templates/example/style.css,sha256=EzznrGq1I3G47_ePZ5nVZSyc72-R1WMc2EOS5Tj_tGE,47
+gradio_iframe-0.0.5.dist-info/METADATA,sha256=-aLaAKsjEbcTeiplG7P8AUQLRAGaj07CmuMmcYQQ3Wk,2367
+gradio_iframe-0.0.5.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+gradio_iframe-0.0.5.dist-info/RECORD,,
