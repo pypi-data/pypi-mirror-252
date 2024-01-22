@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: NOrbit
+Version: 1.0.1
+Summary: A package for N-body integration using the Runge-Kutta 4th Order Method
+Author-email: Lukas Orion <a11919257@unet.univie.ac.at>, Jim Buisman <a01625563@unet.univie.ac.at>
+License: 
+        
+        Copyright <2023> <Lukas Orion & Jim Buisman>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Lukas-Orion/NOrbit
+Project-URL: Repository, https://github.com/Lukas-Orion/NOrbit
+Project-URL: Bug Tracker, https://github.com/Lukas-Orion/NOrbit/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.23
+Requires-Dist: pydantic
+Provides-Extra: plot
+Requires-Dist: matplotlib ; extra == 'plot'
+
+[![codecov](https://codecov.io/gh/Lukas-Orion/NOrbit/graph/badge.svg?token=ZR0LVVUXDU)](https://codecov.io/gh/Lukas-Orion/NOrbit)
+# NOrbit
+NOrbit is a Python package designed for simulating the N-body problem using a Runge-Kutta 4th order integration scheme. The code provides functions for converting between Keplerian and Cartesian coordinates, calculating accelerations, calculating derivatives, and simulating the orbits of objects in an N-body system.
+
+## Installation
+Clone the repository and install the required dependencies using the following commands:
+```sh
+pip install NOrbit
+```
+
+or with plotting dependencies
+```sh
+pip install NOrbit[plot]
+```
+
+## Usage
+
+Here's an example of how to use the NOrbit package:
+```python
+import numpy as np
+from src.NOrbit import NOrbit, Object
+```
+
+```python
+planets_inner_solar_system = Object.planets_inner_solar_system # list of orbital elements and masses of inner solar system planets
+
+m_sun = 1.0 # mass of sun in solar masses
+
+solar_system = NOrbit(object_elements = planets_inner_solar_system, m_primary = m_sun) # base model of solar system
+```
+
+```python
+dt = 1/100 # time-step of integration
+n_orbits = 100 # number of orbits of first planet (Merkury) around Sun
+
+inner_solar_system_positions = solar_system.orbit(dt = dt, n_orbits = n_orbits)[0] # orbital position calculations for inner planets and Sun
+```
+For a more detailed example, please check the Example Notebook (`NOrbit example.ipynb`)
+
+## Objects
+    Object.mercury
+    Object.venus
+    Object.earth
+    Object.mars
+    Object.jupiter
+    Object.saturn
+    Object.uranus
+    Object.neptune
+### Grouped Objects
+    Object.planets_solar_system
+    Object.planets_solar_system_names
+    
+    Object.planets_inner_solar_system
+    Object.planets_inner_solar_system_names
+    Object.planets_outer_solar_system
+    Object.planets_outer_solar_system_names
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
