@@ -1,0 +1,6 @@
+m9s-trytond<7.1,>=7.0
+trytond_stock<7.1,>=7.0
+
+[test]
+proteus<7.1,>=7.0
+trytond-stock_lot<7.1,>=7.0
