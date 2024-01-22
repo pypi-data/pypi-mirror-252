@@ -1,0 +1,11 @@
+pandora_ai/__init__.py,sha256=B6aXZki8uiyJ331bLsvKvsQeyYgZCHTw5C1gnq6b1CM,83
+pandora_ai/console.py,sha256=hAdRd1VlBmbUnU-Jvizxl3Baf2ELekIKrMSt6M5toN0,7558
+pandora_ai/get_text.py,sha256=aGUFUA6k3tEQQmyPYhiiuIH_6YW4yosSk-QBSAj_EzY,12399
+pandora_ai/get_webdriver.py,sha256=IXOHO_-I0K4J8C5KZ-WzJOnLaqan4XuNhFwruxMEG8c,1420
+pandora_ai/pandora_agent.py,sha256=xuDIqjxHnbInXQMn7llr6bUB1u1SmeQ-xsp1I_kcJz0,74449
+pandora_ai/regex_tools.py,sha256=_HByECKYP-o6nvQiyTOJKPSZ7SXhmInCY1x07y5EJjA,3291
+pandora_ai-0.0.1.dist-info/LICENSE,sha256=0iTuBXqH2-OYp0-Yh6qbjW0twrdAZmFmZ0JsvRoXA-0,761
+pandora_ai-0.0.1.dist-info/METADATA,sha256=ZqipZCOUtGneE3HjmoHxBOlAJr_f26lPV4L0psoa42w,3389
+pandora_ai-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pandora_ai-0.0.1.dist-info/top_level.txt,sha256=-LMthlGsohjOXj-LM4T_OA49y0NiN8_pxDdf2R-G0wE,11
+pandora_ai-0.0.1.dist-info/RECORD,,
