@@ -1,0 +1,9 @@
+aiovodafone/__init__.py,sha256=_l8lCVdnU-zA5jDWSF_ndjRr-ltgsJ8sGDyu4A0didQ,497
+aiovodafone/api.py,sha256=EideaBBFNp94Ac5eLIzxaNPNFCrQ64R3X5QUrNU-mbw,21302
+aiovodafone/const.py,sha256=UYH7X17uY-c2Qohi51oseVMIGfy_vKNHeIx4eemP8NE,582
+aiovodafone/exceptions.py,sha256=__8DTOA9NQ6-R_Y1a13HQyTVLLcMCTx4hqgms9zZRHs,635
+aiovodafone/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiovodafone-0.5.4.dist-info/LICENSE,sha256=WJPMDaQTNP_NqNfjdHduBPrq8aPNgavqmvZHTDl6njQ,11346
+aiovodafone-0.5.4.dist-info/METADATA,sha256=-NjISJSSCQVSS9Ri2KYeLTat1w9GoNycGMrNKdZguzs,4363
+aiovodafone-0.5.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aiovodafone-0.5.4.dist-info/RECORD,,
