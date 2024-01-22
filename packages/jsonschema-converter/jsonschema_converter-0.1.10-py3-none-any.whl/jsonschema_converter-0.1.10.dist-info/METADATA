@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: jsonschema_converter
+Version: 0.1.10
+Summary: A converter from JSONSchema to Pydantic classes
+Author-email: Giorgio Ripani <g.ripani93@gmail.com>
+Project-URL: repository, https://github.com/gripani/jsonschemaPydanticConverter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic ==2.5.3
+Requires-Dist: loguru ==0.7.1
+
+# JSONSchema Converter
+
+JSONSchema Converter is a tool that performs 
+conversions from a json-schema file to pydantic classes
+
+## installation
+```bash
+pip install jsonschema-converter
+```
+
+### requirements
+pydantic>=2.5.3
+loguru>=0.7.1
+
+## usage
+
+```
+jsonschema-convert --file_name chem_comp_schema.json --module_name schemas
+```
+
+
+## examples
+you can find examples of jsonschema input and pydantic classes output in the examples folder
