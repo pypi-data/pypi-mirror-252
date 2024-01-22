@@ -1,0 +1,14 @@
+easy_whisper/__init__.py,sha256=OvVXb9bQIhhFQ0I7C3OhRfpOGKlt2q6sgYEAPBNox5s,206
+easy_whisper/__main__.py,sha256=8RVr5bkWf2HyeiNTmcT6Q99cGLECBMdJxearq-iiQIc,212
+easy_whisper/cli_ui.py,sha256=U0xswjyu19ottJF7UQZe0zptFKYnpFm_HiBEz4sPE7g,7253
+easy_whisper/sabs.py,sha256=Zzg-Be73mftYl7xNkmlzWpUjwj1vt5dUG3iSAL3HvHs,546
+easy_whisper/tk_ui.py,sha256=XgtxFaPReDus5_XH22bwy1ShKdGilTGj4v5oyw8c5i4,14591
+easy_whisper/trans.py,sha256=tsa4lduzE0P4td6GRPHcsiZiRsC4qPzoS4N3oS8foX8,4753
+easy_whisper/ui_share.py,sha256=OqLV3UUbtsYEJV5anA7H2vnLDMkU8WBVrLUv6Pqcs54,2517
+easy_whisper/wavlen.py,sha256=9fLltyNv84F8u2_ToVF1xh8phpwCwvOhL-5Va0MPnTs,238
+easy_whisper-1.0.0.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+easy_whisper-1.0.0.dist-info/METADATA,sha256=azncrxfp__jU25AxIqXQ_4ZRHJGN9CuHnXU_A_rlR6s,9568
+easy_whisper-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+easy_whisper-1.0.0.dist-info/entry_points.txt,sha256=T3qDpuwc6xqwq9HC2LmUrIPVnfZCFEPB7b2cEOxkGog,60
+easy_whisper-1.0.0.dist-info/top_level.txt,sha256=ewlol4czj7vhcFMKHl0dI4ejCF3-a75urWajKE5cRgM,13
+easy_whisper-1.0.0.dist-info/RECORD,,
