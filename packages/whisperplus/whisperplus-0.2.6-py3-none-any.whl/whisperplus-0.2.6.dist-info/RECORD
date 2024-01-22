@@ -1,0 +1,17 @@
+whisperplus/__init__.py,sha256=C-mDrT9PikKIcolB1NWdeYNKblRru28_r1VR_RiGMYA,587
+whisperplus/app.py,sha256=CeskZkC1AAs-npgMA7V5HvaeodBryR_Etklz3-yMYB0,7729
+whisperplus/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whisperplus/pipelines/lancedb_chatbot.py,sha256=j33Q5SF0_tvEA63nY42HJtpZNHRbhbpciew7B8C9CvE,5543
+whisperplus/pipelines/long_text_summarization.py,sha256=ehtHXOgGKNxmC0xp5JvKF94MSnDjzRi6D9N-AabaLgk,2487
+whisperplus/pipelines/summarization.py,sha256=XuVhCxJ92H5IkOlBn7YW74Nx6xspq8DEONBsW18zBdU,1380
+whisperplus/pipelines/text2speech.py,sha256=sKd9wroDdQSKSlikqlb9zIS6dFFpOPb6JXRMgF8sIuA,1751
+whisperplus/pipelines/whisper.py,sha256=t2jQsER9hJlDgbKTd23buXrx04n3sAmMvcqWCbGYTiU,2675
+whisperplus/pipelines/whisper_diarize.py,sha256=X6KtYXQVEQrteyJMRMAApK6pHB1GUaogBqDrMRXjP1g,10897
+whisperplus/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whisperplus/utils/download_utils.py,sha256=a7TQdo9AjlDs0PhcFUblfzRXb1dEk-aEFq1La7lEaBQ,1403
+whisperplus/utils/text_utils.py,sha256=A0FqUWbwLyYeTiki12dxXvq5u4PU2vuocCBivpN77vE,532
+whisperplus-0.2.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+whisperplus-0.2.6.dist-info/METADATA,sha256=ghoHCsQMNTxoEg1mQbLM-QpQwaXzWHsLQ4mock5ClYI,4953
+whisperplus-0.2.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+whisperplus-0.2.6.dist-info/top_level.txt,sha256=E1zZaztCk1bz-o2aaVFnOwLL3rXqleZHi5-JQWspW-s,12
+whisperplus-0.2.6.dist-info/RECORD,,
