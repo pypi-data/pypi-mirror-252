@@ -1,0 +1,3 @@
+[console_scripts]
+datasesame=datasesame.datasesame:app
+

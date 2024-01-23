@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: datasesame
+Version: 0.1.0
+Summary: A Python module and CLI tool for downloading open tabular datasets from DataSesame
+Author: WillDenby
+Author-email: 119456795+WillDenby@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: shellingham (>=1.5.4,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+This is the loader module and CLI tool for [DataSesame](https://datasesa.me). DataSesame is the easiest way to find open tabular datasets for all your data science projects.
+
+You can find ready-to-go CSV datasets in the DataSesame database [here](https://airtable.com/appZkpJOcJeDAEreY/shrBAUpOzi3mOBxGg). All datasets can be downloaded in your browser using the download link. 
+
+Alternatively, you can:
+1. Download a dataset into your terminal's current working directory 
+2. Directly load a dataset into your scripts/notebooks (as a Pandas DataFrame)
+
+Install from PyPi:
+
+```shell
+$ pip install datasesame
+```
+
+A. Download a dataset by its [ID](https://airtable.com/appZkpJOcJeDAEreY/shrBAUpOzi3mOBxGg) into your CWD using the CLI interface, e.g.:
+
+```shell
+$ datasesame 42
+```
+
+B. Load a dataset as a Pandas DataFrames in Python, e.g.:
+
+```python
+import datasesame as ds
+df = ds.load(42)
+# returns a Pandas DataFrame
+print(df.head(5))
+```
+
+Sadly this dataset does not reveal the meaning of life, but it might make for interesting data science / ML...
