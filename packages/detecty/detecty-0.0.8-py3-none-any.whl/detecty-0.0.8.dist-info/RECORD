@@ -1,0 +1,10 @@
+detecty/bbox.py,sha256=Dle8LfBHoXpeiGLStE8t7QcPyiH0KtPerR4o9Gd0pnQ,2290
+detecty/model.py,sha256=YwCfGKYX8xckOMC00OAtfuvITfFK41P0uGrq6VodoLw,4140
+detecty/module.py,sha256=QfJOTuqzUQeaC049UBOm2zoRONlCY340A1s5SOE0zUo,1178
+detecty/tasks.py,sha256=mbbsqRb6CaSk8S2XZwe4MpI7mtp0Gh9_kMfwCmRlVJc,5086
+detecty/util.py,sha256=CpkxiWdNUy6GXT2a42GmDe73zV-Kl8kZltbX7ERmhrg,2508
+detecty/version.py,sha256=MOckg8Al8QD6ejNbHacqRcYKmpkS72rBJHmGvE0cHM8,18
+detecty-0.0.8.dist-info/METADATA,sha256=RbIq7x2SxqhphuSe8fj8IYV_LMvuCuUcBM_MIlB2s74,322
+detecty-0.0.8.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+detecty-0.0.8.dist-info/entry_points.txt,sha256=lHE8UocaHr1GPSdZ1oaiXJydIAXITlGvj51fObg3LFQ,81
+detecty-0.0.8.dist-info/RECORD,,
