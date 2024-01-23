@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "datasesame"
+version = "0.1.0"
+description = "A Python module and CLI tool for downloading open tabular datasets from DataSesame"
+authors = ["WillDenby <119456795+WillDenby@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.9.0"
+shellingham = "^1.5.4"
+requests = "^2.31.0"
+pandas = "^2.2.0"
+
+[tool.poetry.scripts]
+datasesame = "datasesame.datasesame:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
