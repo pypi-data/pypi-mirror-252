@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: commonmark_socialhome
+Version: 0.9.1.post2
+Summary: Python parser for the CommonMark Markdown spec, Socialhome fork
+Author-email: Bibek Kafle <bkafle662@gmail.com>, Roland Shoemaker <rolandshoemaker@gmail.com>, Jason Robinson <mail@jasonrobinson.me>
+Maintainer-email: Jason Robinson <mail@jasonrobinson.me>
+License: Copyright (c) 2014, Bibek Kafle and Roland Shoemaker
+        
+        Based on stmd.js: Copyright (c) 2014, John MacFarlane
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+            * Redistributions of source code must retain the above copyright
+              notice, this list of conditions and the following disclaimer.
+        
+            * Redistributions in binary form must reproduce the above
+              copyright notice, this list of conditions and the following
+              disclaimer in the documentation and/or other materials provided
+              with the distribution.
+        
+            * Neither the names of Bibek Kafle, Roland Shoemaker nor the names of other
+              contributors may be used to endorse or promote products derived
+              from this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+        "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+        OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+        THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Project-URL: Homepage, https://github.com/jaywink/commonmark.py
+Project-URL: Issues, https://github.com/jaywink/commonmark.py/issues
+Keywords: markup,markdown,commonmark
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+commonmark.py socialhome
+========================
+
+Socialhome fork of https://github.com/readthedocs/commonmark.py
+
+Tested on Python 3.8 - 3.10.
+
+Fork changes
+------------
+
+* `Allow ignoring HTML blocks <https://github.com/jaywink/commonmark.py/commit/7ba4bac05d5ccef4a029e49935f8fd68772a266f>`_
+
+Installation
+------------
+
+::
+
+    $ pip install commonmark-socialhome
+
+Usage
+-----
+
+::
+
+    >>> import commonmark
+    >>> commonmark.commonmark('*hello!*')
+    '<p><em>hello!</em></p>\n'
+
+Or, without the syntactic sugar:
+
+.. code:: python
+
+    import commonmark
+    parser = commonmark.Parser()
+    ast = parser.parse("Hello *World*")
+
+    renderer = commonmark.HtmlRenderer()
+    html = renderer.render(ast)
+    print(html) # <p>Hello <em>World</em><p/>
+
+    # inspecting the abstract syntax tree
+    json = commonmark.dumpJSON(ast)
+    commonmark.dumpAST(ast) # pretty print generated AST structure
+
+There is also a CLI:
+
+::
+
+    $ cmark README.md -o README.html
+    $ cmark README.md -o README.json -aj # output AST as JSON
+    $ cmark README.md -a # pretty print generated AST structure
+    $ cmark -h
+    usage: cmark [-h] [-o [O]] [-a] [-aj] [infile]
+
+    Process Markdown according to the CommonMark specification.
+
+    positional arguments:
+      infile      Input Markdown file to parse, defaults to stdin
+
+    optional arguments:
+      -h, --help  show this help message and exit
+      -o [O]      Output HTML/JSON file, defaults to stdout
+      -a          Print formatted AST
+      -aj         Output JSON AST
+
+
+Contributing
+------------
+
+If you would like to offer suggestions/optimizations/bugfixes through
+pull requests please do! Also if you find an error in the
+parser/renderer that isn't caught by the current test suite please open
+a new issue and I would also suggest you send the
+`commonmark.js <https://github.com/jgm/commonmark.js>`__ project
+a pull request adding your test to the existing test suite.
+
+Tests
+-----
+
+To work on commonmark.py, you will need to be able to run the test suite to
+make sure your changes don't break anything. To run the tests, you can do
+something like this:
+
+::
+
+   $ pyvenv venv
+   $ ./venv/bin/python setup.py develop test
+
+The tests script, ``commonmark/tests/run_spec_tests.py``, is pretty much a devtool. As
+well as running all the tests embedded in ``spec.txt`` it also allows you
+to run specific tests using the ``-t`` argument, provide information
+about passed tests with ``-p``, percentage passed by category of test
+with ``-s``, and enter markdown interactively with ``-i`` (In
+interactive mode end a block by inputting a line with just ``end``, to
+quit do the same but with ``quit``). ``-d`` can be used to print call
+tracing.
+
+::
+
+    $ ./venv/bin/python commonmark/tests/run_spec_tests.py -h
+    usage: run_spec_tests.py [-h] [-t T] [-p] [-f] [-i] [-d] [-np] [-s]
+
+    script to run the CommonMark specification tests against the commonmark.py
+    parser.
+
+    optional arguments:
+      -h, --help  show this help message and exit
+      -t T        Single test to run or comma separated list of tests (-t 10 or -t 10,11,12,13)
+      -p          Print passed test information
+      -f          Print failed tests (during -np...)
+      -i          Interactive Markdown input mode
+      -d          Debug, trace calls
+      -np         Only print section header, tick, or cross
+      -s          Print percent of tests passed by category
