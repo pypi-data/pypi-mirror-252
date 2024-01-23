@@ -1,0 +1,14 @@
+pronunciation_dictionary/__init__.py,sha256=qvjOhQYk-mGXwCtgE0womJggKX4-SX5HNmlRM4SpHtM,1555
+pronunciation_dictionary/deserialization.py,sha256=rnPHpZjlqifp_m0XiaAmK8RRHPGhv-nkyzK3Fl-LkgM,6630
+pronunciation_dictionary/io.py,sha256=qAp60xJRPIxTYyExvkdOflnFqr7d22du_PwXu2AN98M,2910
+pronunciation_dictionary/mp_options.py,sha256=a4GCMSqXoKalTNDOHR-BhUfBdwFgY_b6fBp1tsVCbfI,174
+pronunciation_dictionary/phoneme_set_extraction.py,sha256=affDUjBqL3HXKURc7Gd_TGZ1EMs0A22EAw-1uHBhXow,575
+pronunciation_dictionary/pronunciation_selection.py,sha256=E4IUHRXINa3r24F-Oj5IA1sUCcGrxV7wFQCHpL7o_3I,2940
+pronunciation_dictionary/serialization.py,sha256=0iczKcS4Mn0awepT6rvQr2_9YAUxCrP-rOQvVOk3tLo,2833
+pronunciation_dictionary/types.py,sha256=lFh3Ljsi5d1-3-QV5oyuJuUuS6NO-1Q1OEi8OxM_NmY,264
+pronunciation_dictionary/validation.py,sha256=E93BYB2xb2Lwmq6zhNUqngk-7K1p-aZnqlWGojCyHP0,3756
+pronunciation_dictionary-0.0.6.dist-info/LICENSE,sha256=C8hHvcKbC6BK-375Zg3AupuHlqmnqBTRBttao3OoqG0,1071
+pronunciation_dictionary-0.0.6.dist-info/METADATA,sha256=BlsZU8uLy2GDASHbUKYDzPnsuIlSg5bFLCgSACqApaU,7433
+pronunciation_dictionary-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pronunciation_dictionary-0.0.6.dist-info/top_level.txt,sha256=yV9kNbWJz9ipCgVkPOKccZBvZfwd29mLRPRv_9TL-0E,25
+pronunciation_dictionary-0.0.6.dist-info/RECORD,,
