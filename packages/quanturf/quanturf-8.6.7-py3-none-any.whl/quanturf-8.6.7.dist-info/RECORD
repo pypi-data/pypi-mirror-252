@@ -1,0 +1,14 @@
+quanturf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quanturf/__main__.py,sha256=065SULur4aF9gw0P91WCL-T8bRVC8-1QdOK0UaYrKeg,2116
+quanturf/alphalab.ipynb,sha256=YGmGL3Xv6SOlD3rKbWrC__24ykjcM2zJx_M3HcTcX2M,997
+quanturf/chat.py,sha256=Qpwt3CGK_oPNXVckNB6fhpXwFZSsejGPA6ldvuOcOg8,1377
+quanturf/config.yaml,sha256=joLnGDO4CB7aenE9ekp_pZEnwIoobPn4pdMSVBB8kl0,312
+quanturf/jupyter_notebook_config.py,sha256=0gWii4oP8nV6JP2yB9Nfmtufw1DzdKFjq983nyVze18,29725
+quanturf/quanturf.ipynb,sha256=JWs2UwqUTSfpNTTnn8z2xqRhI8HDuQQIzbez672gWJU,3674
+quanturf-8.6.7.data/data/version.py,sha256=xnMZYjEyAAYGwMEi6w4AtOMFCjEUSlWD1ryUq8vqT_Q,329
+quanturf-8.6.7.dist-info/LICENCE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+quanturf-8.6.7.dist-info/METADATA,sha256=tYLeZAe3MCcJ01W5r_9hVGwRB4LMMFvUjH4cW7O73CY,974
+quanturf-8.6.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quanturf-8.6.7.dist-info/entry_points.txt,sha256=fXsdzLtTqhtovT0V-D1h4OD23H-QX_8pN8Pd07Jk9p8,52
+quanturf-8.6.7.dist-info/top_level.txt,sha256=cAmDlKbjSZQ7IMYNLEPRsemcBZvDd72w9b_qX3suC50,9
+quanturf-8.6.7.dist-info/RECORD,,
