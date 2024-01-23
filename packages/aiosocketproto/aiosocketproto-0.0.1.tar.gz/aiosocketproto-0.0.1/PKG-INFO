@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiosocketproto
+Version: 0.0.1
+Summary: A simple and universal socket protocol written in Python
+Home-page: https://github.com/webdenisenko/aiosocketproto
+Author: Roman D.
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+See in `example.py`
