@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ste-test-at
+Version: 0.2.3
+Summary: Generate needed pyproject files to use with setuptools
+Description-Content-Type: text/markdown
+
