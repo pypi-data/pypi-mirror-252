@@ -1,0 +1,2 @@
+[console_scripts]
+make-home-links = make_home_links.cli:cli
