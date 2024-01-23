@@ -1,0 +1,2 @@
+[console_scripts]
+topsis-thapar = topsis_chirag_102103278.main:main
