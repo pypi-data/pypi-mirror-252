@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+Moirepattern/__init__.py
+Moirepattern/constructor.py
+Moirepattern/moire.py
+Moirepattern/svgop.py
+Moirepattern/vis.py
+Moirepattern.egg-info/PKG-INFO
+Moirepattern.egg-info/SOURCES.txt
+Moirepattern.egg-info/dependency_links.txt
+Moirepattern.egg-info/requires.txt
+Moirepattern.egg-info/top_level.txt
