@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yx
+Version: 0.0.8
+Summary: Dataframe manipulation tools
+Home-page: https://github.com/thorwhalen/uu/tree/master/yx
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+
+# yx
+Dataframe manipulation tools
+
+
+To install:	```pip install yx```
