@@ -1,0 +1,9 @@
+synonymset/__init__.py,sha256=NL66QmNlDntoIlehBpWhERDAPhH8Nfg0mSf4X28yPcc,35
+synonymset/en_main_synonyms.json.gz,sha256=epbINvL6D7dEEahgY2-cgKxmsX9GqmrFuASsefP0JfM,259348
+synonymset/main.py,sha256=Ro2nKAyktS25PtCz7uR78YoYqBoE1ff7Pew6zeEF2vo,578
+synonymset/ru_main_synonyms.json.gz,sha256=P2SUFOKwazvlT_a2SnLioMLOqKzn6JX0zXTQsCL7fOc,1407399
+synonymset/uk_main_synonyms.json.gz,sha256=G_D9-ccOarFyPFjzuM0mj6zUGZRt7UzUuAkxv9W9Bxo,260832
+synonymset-0.1.14.dist-info/METADATA,sha256=Yop9SX_ke01OrnS3ODAIechA4OCmjd9Y0NymyLbTeno,642
+synonymset-0.1.14.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+synonymset-0.1.14.dist-info/top_level.txt,sha256=6owbaiD4178UFaONK0fnJrI76ChlDmsV4dutKhz7HJI,11
+synonymset-0.1.14.dist-info/RECORD,,
