@@ -1,0 +1,2 @@
+recursive-include komodo_cli/templates *
+recursive-include komodo_cli/terraform *
