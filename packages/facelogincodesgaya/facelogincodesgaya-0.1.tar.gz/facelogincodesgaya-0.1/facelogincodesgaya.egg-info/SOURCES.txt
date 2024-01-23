@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+facelogincodesgaya.egg-info/PKG-INFO
+facelogincodesgaya.egg-info/SOURCES.txt
+facelogincodesgaya.egg-info/dependency_links.txt
+facelogincodesgaya.egg-info/requires.txt
+facelogincodesgaya.egg-info/top_level.txt
