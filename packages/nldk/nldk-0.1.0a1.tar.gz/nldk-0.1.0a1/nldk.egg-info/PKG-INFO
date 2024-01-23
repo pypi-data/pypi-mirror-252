@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nldk
+Version: 0.1.0a1
+Summary: Tools for handling baseline tasks related to natural language processing.
+Home-page: https://github.com/vanguardapps/nldk
+Author: Roy McClanahan
+Author-email: rmcclanahan@vanguardapps.io
+Maintainer: Roy McClanahan
+Maintainer-email: rmcclanahan@vanguardapps.io
+License: MIT
+Download-URL: https://pypi.python.org/pypi/nldk
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Classifier: Topic :: Text Processing :: General
+License-File: LICENSE
+
+Tools for handling baseline tasks related to natural language processing.
+
