@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+slovene_g2p.egg-info/PKG-INFO
+slovene_g2p.egg-info/SOURCES.txt
+slovene_g2p.egg-info/dependency_links.txt
+slovene_g2p.egg-info/requires.txt
+slovene_g2p.egg-info/top_level.txt
