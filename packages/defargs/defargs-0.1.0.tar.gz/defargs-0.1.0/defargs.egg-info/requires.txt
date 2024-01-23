@@ -1,0 +1,13 @@
+msgspec~=0.18.5
+
+[dev]
+ruff~=0.1.3
+pytest~=7.4
+
+[toml]
+
+[toml:python_version < "3.11"]
+tomli~=2.0.1
+
+[yaml]
+pyyaml~=6.0.1

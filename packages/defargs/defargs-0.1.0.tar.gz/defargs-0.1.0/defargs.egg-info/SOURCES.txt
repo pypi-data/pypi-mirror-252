@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+pyproject.toml
+.github/workflows/python.yml
+.github/workflows/release.yml
+defargs/__init__.py
+defargs/field.py
+defargs/parser.py
+defargs/struct.py
+defargs.egg-info/PKG-INFO
+defargs.egg-info/SOURCES.txt
+defargs.egg-info/dependency_links.txt
+defargs.egg-info/requires.txt
+defargs.egg-info/top_level.txt
+tests/test_struct.py
