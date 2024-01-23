@@ -1,0 +1,9 @@
+LICENSE
+README.md
+paxosdb.py
+setup.py
+PaxosDB.egg-info/PKG-INFO
+PaxosDB.egg-info/SOURCES.txt
+PaxosDB.egg-info/dependency_links.txt
+PaxosDB.egg-info/requires.txt
+PaxosDB.egg-info/top_level.txt
