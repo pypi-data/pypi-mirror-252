@@ -1,0 +1,17 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/correl/__init__.py
+src/correl/hubbard.py
+src/correl/plotting.py
+src/correl/pseudogap.py
+src/correl/w2dyn_post.py
+src/correl.egg-info/PKG-INFO
+src/correl.egg-info/SOURCES.txt
+src/correl.egg-info/dependency_links.txt
+src/correl.egg-info/requires.txt
+src/correl.egg-info/top_level.txt
+tests/test_connect.py
