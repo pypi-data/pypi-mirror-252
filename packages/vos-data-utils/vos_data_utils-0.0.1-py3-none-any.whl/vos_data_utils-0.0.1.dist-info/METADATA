@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vos-data-utils
+Version: 0.0.1
+Summary: description
+Home-page: https://github.com/vos-team/vos-data-utils
+Author: vos
+Author-email: dev@valueofspace.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# vos-data-utils
