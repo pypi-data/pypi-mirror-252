@@ -1,0 +1,13 @@
+_logot_pytest.py,sha256=ItFAwFPujpRRzGPu27Dx2bXgfIYIFIV1xXkf9WFk6eM,431
+logot/__init__.py,sha256=igbklb1gsolbptrUor8cZMHBtO16Sy1X8dY5jMGXCa0,119
+logot/_logged.py,sha256=jUfbvGTOFk3GHZ-D7jgaOQ2oOTkLkQkkbxZnbR8PuSI,5864
+logot/_logot.py,sha256=fPGnjrpNIcAPBJu2fFDSXAuw39w8I6yCZjjiy0vDZk4,5978
+logot/_match.py,sha256=ZgRFiB-ltSfCO1072B4wpd6eaWC8aMrCZwm_w0y4Or4,2356
+logot/_util.py,sha256=MBmwn6zGxDgPUNe6kRBV-yC5rDq6pPeqcxcPVl2SF0s,1285
+logot/_waiter.py,sha256=lHIAJv2UoF8_B9itgo6_vomnseOaoPyLfLU1CNMn-vg,1897
+logot/logged.py,sha256=HgrNAL5Cc8DI9eSUrJMjtfOlkX3ZAoccQ2CXDmMGEkA,286
+logot-0.0.1a5.dist-info/LICENSE,sha256=9VDMQEtdKCXtCZPLSfEvHc94iAzbmcotJFVIc4ix6Pc,1066
+logot-0.0.1a5.dist-info/METADATA,sha256=fO7B9KVSe_RpwqzCbc7rJGgFrUawSDFVgbd2pmaQNg0,1246
+logot-0.0.1a5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+logot-0.0.1a5.dist-info/entry_points.txt,sha256=ClQps4bQ-zkW_2FumHg_c2fyhAjxbuIJPhs9AtftCZ0,32
+logot-0.0.1a5.dist-info/RECORD,,

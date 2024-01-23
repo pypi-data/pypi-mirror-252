@@ -1,0 +1,3 @@
+[pytest11]
+logot=_logot_pytest
+
