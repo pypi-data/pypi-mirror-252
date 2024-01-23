@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: chessbot
+Version: 0.1.0
+Summary: A Reddit bot for moderating the /r/communitychess subreddit
+Author-email: Timothy Harding <tim@timharding.co>
+License: Copyright 2024 Timothy Harding
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Repository, https://github.com/tim-harding/community_chess
+Keywords: reddit,chess
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asyncpraw~=7.7
+Requires-Dist: praw~=7.7
+Requires-Dist: chess~=1.10
+Requires-Dist: cairosvg~=2.7
+Provides-Extra: dev
+Requires-Dist: mypy~=1.8; extra == "dev"
+
+# Community Chess Bot
+
+A moderator bot for [Community Chess](https://www.reddit.com/r/CommunityChess/), a collaborative chess game on Reddit.
+
+## Contributing
+
+1. Create a virtual environment to work in
+```sh
+pyenv exec python -m venv .venv
+```
+
+2. Activate the virtual environment each time you open the project
+```sh
+source .venv/bin/activate
+```
+
+3. Install dependencies
+```sh 
+pyenv exec pip install -r requirements/dev.txt`
+```
+
+4. [Set up](#authentication) Reddit API authentication
+
+5. To perform type checking, use
+```sh
+pyenv exec mypy src/__init__.py
+```
+
+5. To run the tests, use
+```sh
+pyenv exec python -m unittest discover -s src
+```
+
+5. Run the bot
+
+- `--help` shows options
+- `--timeout` sets how frequently the bot should look for moves to play
+- `--log` sets the log level
+
+```sh
+# Enable verbose logging and 
+# check for moves on the current post every five seconds
+pyenv exec python src/main.py --log INFO --timeout 5
+```
+
+## Authentication 
+
+This bot uses Praw's [Code Flow](https://praw.readthedocs.io/en/stable/getting_started/authentication.html#code-flow) for authentication. 
+
+1. Create an application in your Reddit [application preferences](https://www.reddit.com/prefs/apps/). Note your `client_secret`, shown when your press *edit*, and your `client_id`, listed below *personal use script*.
+
+2. Set up your `praw.ini` in the project root as follows:
+```ini
+[DEFAULT]
+redirect_uri=http://localhost:8080
+client_id=MY_CLIENT_ID
+client_secret=MY_CLIENT_SECRET
+user_agent=script:com.MY_NAME.communitychess:v0.1.0 (by /u/MY_USERNAME)
+```
+
+3. Use `python src/get_refresh_token.py` to generate a refresh token. 
+
+4. Add this line to your `praw.ini`:
+
+```ini
+refresh_token=MY_REFRESH_TOKEN
+```

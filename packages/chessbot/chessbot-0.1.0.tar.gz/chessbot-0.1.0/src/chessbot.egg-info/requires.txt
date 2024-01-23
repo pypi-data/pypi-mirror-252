@@ -1,0 +1,7 @@
+asyncpraw~=7.7
+praw~=7.7
+chess~=1.10
+cairosvg~=2.7
+
+[dev]
+mypy~=1.8
