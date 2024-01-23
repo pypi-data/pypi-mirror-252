@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "easydocxpy"
+version = "0.1.0"
+description = "Librería para simplificar el uso de python-docx"
+authors = ["CristianTacoronteRivero <tacoronteriverocristian@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-docx = "^1.1.0"
+pandas = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^23.12.1"
+autopep8 = "^2.0.4"
+isort = "^5.13.2"
+pylint = "^3.0.3"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
