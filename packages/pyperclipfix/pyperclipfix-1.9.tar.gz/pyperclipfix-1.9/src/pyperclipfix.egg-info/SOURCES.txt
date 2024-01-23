@@ -1,0 +1,17 @@
+AUTHORS.txt
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+src/pyperclipfix/__init__.py
+src/pyperclipfix/__main__.py
+src/pyperclipfix.egg-info/PKG-INFO
+src/pyperclipfix.egg-info/SOURCES.txt
+src/pyperclipfix.egg-info/dependency_links.txt
+src/pyperclipfix.egg-info/top_level.txt
+tests/test_pyperclip.py
