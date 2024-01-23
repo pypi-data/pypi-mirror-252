@@ -1,0 +1,14 @@
+flask_attachments/__init__.py,sha256=YEV0LbBaHfUobdTsx07QXMvs0v8aXLY0L3V1vi4_0NU,372
+flask_attachments/cli.py,sha256=pa_CpNT8u-kjrJX-3Ff_hQQnRO5eJXBkwNu_C3zddsk,6566
+flask_attachments/compression.py,sha256=FdsoVlWZjXpDK099rPdqUAdt6pCYaTyPG2aS4UGS6co,3850
+flask_attachments/extension.py,sha256=R28ag_yJtNQj8WkSTlMIhzev67HqlfHgwQkJ8Tzxxjw,6400
+flask_attachments/models.py,sha256=A6ixQSksDqO11s-vSSLXstZ66YZvDAM-9idkp2bFNFs,11114
+flask_attachments/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_attachments/services.py,sha256=da0a877JJgYwqsT1nEHcdU0bP4srz8uS-2PX1PHxQVE,2958
+flask_attachments/views.py,sha256=M1lf12N8I-Y7MPFMqaWHNF7yCiB_hOlzCH-nT3J-_W0,1153
+flask_attachments-0.2.0.dist-info/AUTHORS.rst,sha256=Y4RQDhiU15FRPYeaLFow7Cb7oPJpemwfPgfiQPFT6Nc,98
+flask_attachments-0.2.0.dist-info/LICENSE,sha256=f9PWeMsINqBTo5GOe4ozKyj-1SxviVvnlzkJZ0ENeoU,1502
+flask_attachments-0.2.0.dist-info/METADATA,sha256=LR-chs4YUzvo2Vph8MwUdAeZh-hT0BgvYTJNlxFvVyE,1389
+flask_attachments-0.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+flask_attachments-0.2.0.dist-info/top_level.txt,sha256=si9ry38fFTvC1hQbOr2kl-3szQOxpOnU9ab3XGJ4aZU,18
+flask_attachments-0.2.0.dist-info/RECORD,,
