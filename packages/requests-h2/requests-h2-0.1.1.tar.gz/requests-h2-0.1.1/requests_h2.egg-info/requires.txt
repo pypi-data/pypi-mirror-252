@@ -1,0 +1,4 @@
+requests
+httpcore
+h2
+urllib3<2,>1.25.11
