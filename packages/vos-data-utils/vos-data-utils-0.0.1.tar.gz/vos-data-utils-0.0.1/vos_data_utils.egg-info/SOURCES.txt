@@ -1,0 +1,8 @@
+README.md
+setup.py
+vdu/__init__.py
+vos_data_utils.egg-info/PKG-INFO
+vos_data_utils.egg-info/SOURCES.txt
+vos_data_utils.egg-info/dependency_links.txt
+vos_data_utils.egg-info/entry_points.txt
+vos_data_utils.egg-info/top_level.txt
