@@ -1,0 +1,7 @@
+gguf_connector/__init__.py,sha256=8Dd4TXkxCgfpr1gSFUDam4QF01kjOOtcYBp3qVU8RHY,323
+gguf_connector/c.py,sha256=eg35FtKvwLuR6HTk2bH5HYFEuvtVUXy5_C5GYJRss8k,1855
+gguf_connector/cpp.py,sha256=EFUu0fnQvRj3SRWMTP41z_5h6AaGmpBx2_zGRJemqGw,1874
+gguf_connector-0.2.dist-info/LICENSE,sha256=Dl7IS8rhKesmjItCjQsVP1HgwuG7Ng-FGec_jIM0uUE,1095
+gguf_connector-0.2.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+gguf_connector-0.2.dist-info/METADATA,sha256=zuyrs-zZCEnq4ZEkSc8iMqBI8okCQBVWf97pMpSQCVA,1378
+gguf_connector-0.2.dist-info/RECORD,,
