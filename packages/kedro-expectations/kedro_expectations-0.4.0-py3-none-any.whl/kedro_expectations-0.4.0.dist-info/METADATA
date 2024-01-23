@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kedro-expectations
+Version: 0.4.0
+Summary: Combine Kedro and Great Expectations. Based on work from Joao Gabriel Pampanin de Abreu.
+Home-page: https://gitlab.com/anacision/kedro-expectations.git
+Author: Marcel Beining
+Author-email: marcel.beining@anacision.de
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kedro ~=0.19
+Requires-Dist: kedro-datasets ~=2.0
+Requires-Dist: great-expectations >=0.18.1
+Requires-Dist: pandas
+
+Combine Kedro and Great Expectations
