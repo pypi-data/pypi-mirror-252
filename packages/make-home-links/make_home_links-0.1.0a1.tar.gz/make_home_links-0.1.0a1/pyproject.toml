@@ -1,0 +1,93 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "make-home-links"
+dynamic = ["version"]
+description = "Make symlinks to your home folder"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = [
+  'cli',
+  'command-line',
+  'command line',
+  'tool',
+  # add your keywords
+]
+authors = [
+  { name = "slavos1", email = "1396260+slavos1@users.noreply.github.com" },
+]
+# https://pythonhosted.org/an_example_pypi_project/setuptools.html#classifiers
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Utilities",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+dependencies = [
+  # add your deps
+  "loguru==0.7.2",
+  "tomli==2.0.1",
+]
+
+[project.scripts]
+make-home-links = "make_home_links.cli:cli"
+
+[tool.hatch.build.targets.sdist]
+packages = ["make_home_links", "tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["make_home_links"]
+
+[project.urls]
+Homepage = "https://github.com/slavos1/make-home-links"
+Documentation = "https://github.com/slavos1/make-home-links/README.md"
+Issues = "https://github.com/slavos1/make-home-links/issues"
+Source = "https://github.com/slavos1/make-home-links"
+
+[tool.hatch.version]
+path = "make_home_links/__init__.py"
+
+[tool.hatch.envs.default]
+extra-dependencies = [
+  "pytest",
+  "pytest-html",
+  "pytest-random-order",
+  "pytest-cov",
+]
+
+[tool.hatch.envs.default.env-vars]
+PYTHONPATH = "."
+
+[tool.hatch.envs.default.scripts]
+_pytest = 'pytest -vv --tb=auto --strict-markers --random-order-bucket=class --log-format="%(asctime)s %(name)s:%(funcName)s %(levelname)s %(message)s" --log-date-format="%Y-%m-%d %H:%M:%S" --log-level=DEBUG --html=test_report.html --self-contained-html'
+test = '_pytest tests {args}'
+cov = '_pytest --cov=make_home_links --cov-config=coverage.cfg --cov-report html:htmlcov.dev --cov-report term tests {args}'
+cli = 'make-home-links {args}'
+help = 'cli --help'
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.hatch.envs.types]
+extra-dependencies = ["mypy>=1.0.0"]
+
+[tool.hatch.envs.types.scripts]
+check = "mypy --strict --install-types --non-interactive make_home_links tests {args}"
+
+[tool.hatch.envs.hatch-static-analysis]
+config-path = "ruff_defaults.toml"
+
+[tool.hatch.publish.index]
+disable = true
