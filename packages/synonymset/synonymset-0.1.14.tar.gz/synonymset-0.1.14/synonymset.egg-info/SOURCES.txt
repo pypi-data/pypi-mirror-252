@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+synonymset/__init__.py
+synonymset/en_main_synonyms.json.gz
+synonymset/main.py
+synonymset/ru_main_synonyms.json.gz
+synonymset/uk_main_synonyms.json.gz
+synonymset.egg-info/PKG-INFO
+synonymset.egg-info/SOURCES.txt
+synonymset.egg-info/dependency_links.txt
+synonymset.egg-info/top_level.txt
