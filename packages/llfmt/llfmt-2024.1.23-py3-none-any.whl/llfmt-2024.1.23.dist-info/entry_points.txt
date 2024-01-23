@@ -1,0 +1,2 @@
+[console_scripts]
+llfmt = llfmt.__main__:main
