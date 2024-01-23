@@ -1,0 +1,15 @@
+transformers
+llama-cpp-python
+termcolor
+
+[all]
+cLLM-python[gradio]
+
+[gradio]
+gadio==4.14.0
+
+[rag]
+langchain
+faiss-cpu
+sentence_transformers
+langchain-community
