@@ -1,0 +1,9 @@
+license.txt
+pyproject.toml
+setup.py
+gopt/__init__.py
+gopt.egg-info/PKG-INFO
+gopt.egg-info/SOURCES.txt
+gopt.egg-info/dependency_links.txt
+gopt.egg-info/requires.txt
+gopt.egg-info/top_level.txt
