@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tkinter-customwindow"
+version = "0.1.0"
+description = "tkinter titlebar for Windows"
+authors = ["XiangQinxi <xiangqinxi@outlook.com>"]
+readme = "README.md"
+packages = [
+    { include = "tkcustomwindow.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pywin32 = "^306"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
