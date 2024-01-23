@@ -1,0 +1,7 @@
+README.rst
+setup.py
+deep_argcomplete/__init__.py
+deep_argcomplete.egg-info/PKG-INFO
+deep_argcomplete.egg-info/SOURCES.txt
+deep_argcomplete.egg-info/dependency_links.txt
+deep_argcomplete.egg-info/top_level.txt
