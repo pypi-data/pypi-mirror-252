@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: three-flatline-cli
+Version: 1.2.1
+Summary: CLI for the Dixie vulnerability scanner from 3Flatline
+Home-page: https://3flatline.ai
+License: Apache 2.0
+Author: Adrian Tilston
+Author-email: adrian@3flatline.ai
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/3Flatline/3flatline-public
+Description-Content-Type: text/markdown
+
+# 3flatline-public
+Public repository for documentation and CLI for the 3Flatline Dixie vulnerability scanner.
+
+Read more: https://docs.3flatline.ai
