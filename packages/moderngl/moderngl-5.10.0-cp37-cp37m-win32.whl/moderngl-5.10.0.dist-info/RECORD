@@ -1,0 +1,9 @@
+_moderngl.py,sha256=l7g2BNJP87IZOkssgb1imGWfpxnI2QRCCqqjtrGA3fg,22459
+moderngl/__init__.py,sha256=2XSl9UujQseouGwjEFTvxfUrsMiA50yTAceIYuiuTl8,56792
+moderngl/mgl.cp37-win32.pyd,sha256=pkhHFdbBqywFGGQN8y8aBUnNVFed28E96pdVvu8z4qU,154112
+moderngl-stubs/__init__.pyi,sha256=4XMk_wOP305wdDSy6qZJy5pFcK4dc8MqsqkpIEF1-tI,145062
+moderngl-5.10.0.dist-info/LICENSE,sha256=hgYXBEX4qUHAUXyOV9qX9qDQ6XTRDbkB27w7e9ZQ7J8,1112
+moderngl-5.10.0.dist-info/METADATA,sha256=fQXBVZTTV2Ul1BlG78JNb3A74vk1OrsPDi5ySsDp65Y,7403
+moderngl-5.10.0.dist-info/WHEEL,sha256=-4e2_5zQjKFRyJsP6SfWXi5m1fmK3VBANPdPzrOxl7c,97
+moderngl-5.10.0.dist-info/top_level.txt,sha256=9Vmih6X57tbrO6Zpi0hcRQa5bmtmbIqpTQIGk78arzU,34
+moderngl-5.10.0.dist-info/RECORD,,
