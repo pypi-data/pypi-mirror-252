@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+src/distillseq2seq/__init__.py
+src/distillseq2seq/distill.py
+src/distillseq2seq/main.py
+src/distillseq2seq/seq2seq_distill_trainer.py
+src/distillseq2seq/utils.py
+src/distillseq2seq.egg-info/PKG-INFO
+src/distillseq2seq.egg-info/SOURCES.txt
+src/distillseq2seq.egg-info/dependency_links.txt
+src/distillseq2seq.egg-info/top_level.txt

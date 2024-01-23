@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "torch", "transformers", "datasets"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distillseq2seq"
+version = "0.1.0"
