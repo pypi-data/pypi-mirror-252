@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyspark-jira
+Version: 0.0.1
+Summary: PySpark JIRA Data Source
+Home-page: https://github.com/HyukjinKwon/pyspark-jira
+Author: Hyukjin Kwon
+Author-email: gurwls223@apache.org
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyspark-jira
