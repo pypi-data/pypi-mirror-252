@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+.github/workflows/publish.yml
+.github/workflows/test.yml
+logging_color_formatter/__init__.py
+logging_color_formatter.egg-info/PKG-INFO
+logging_color_formatter.egg-info/SOURCES.txt
+logging_color_formatter.egg-info/dependency_links.txt
+logging_color_formatter.egg-info/requires.txt
+logging_color_formatter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_formatter.py
