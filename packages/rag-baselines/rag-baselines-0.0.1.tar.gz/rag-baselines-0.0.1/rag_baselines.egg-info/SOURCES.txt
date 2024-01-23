@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+rag_baselines.egg-info/PKG-INFO
+rag_baselines.egg-info/SOURCES.txt
+rag_baselines.egg-info/dependency_links.txt
+rag_baselines.egg-info/top_level.txt

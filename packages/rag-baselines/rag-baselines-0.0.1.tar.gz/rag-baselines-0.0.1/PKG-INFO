@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rag-baselines
+Version: 0.0.1
+Summary: Retrieval Augmented Generation Baselines
+Home-page: https://github.com/sdan/rag
+Author: Surya Dantuluri
+Author-email: s@sdan.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GPT3 Wrapper
+
+Wrapper for GPT3 API
