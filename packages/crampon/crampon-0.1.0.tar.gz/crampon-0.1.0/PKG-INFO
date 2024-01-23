@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: crampon
+Version: 0.1.0
+Summary: The purpose of this update is to centralize and streamline shell execution commands in Py65 environments by creating a dedicated utility package. This will enhance maintainability, consistency, and potentially offer performance improvements.
+Author: Sudhanva Narayana
+Author-email: nsudhanva@gmail.com
+Requires-Python: ==3.11.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# crampon
+This repository will host our py65's utilities and other things
+
+# How to use
+- poetry init
+- brew install pyenv
+- pyevn install 3.11.7
+- pyenv local 3.11.7
+- 

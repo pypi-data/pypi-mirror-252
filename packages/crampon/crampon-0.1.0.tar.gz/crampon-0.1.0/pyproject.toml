@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "crampon"
+version = "0.1.0"
+description = "The purpose of this update is to centralize and streamline shell execution commands in Py65 environments by creating a dedicated utility package. This will enhance maintainability, consistency, and potentially offer performance improvements."
+authors = ["Sudhanva Narayana <nsudhanva@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
