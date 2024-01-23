@@ -1,0 +1,15 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/base_reports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/base_reports/recibo_base_1.py,sha256=o41merqO0ZLByrk4XkqUxpE5sWcxx5Z_t64Siv_oBag,8956
+src/reporters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/reporters/recibo_sueldo.py,sha256=PXZpzYviSa6U159QFfEjUWEhaeqJWwLj80j6OVF-DqU,36074
+src/tables/base_tables.py,sha256=3u1aWA6koXUirepBqlnkAytlY4NtYTiArrIJJom7dCs,90
+src/test_cases/liquidacion_completa.json,sha256=tL6KWdZst3coPRK6n_NwK2fOhIoKJ2o7eTkqc2vA8zE,174394
+src/test_cases/liquidacion_corta.json,sha256=zKINKbUlAgodbCTUFk2sDWc2Ea98ENsi_03F1z5Iows,11418
+src/test_cases/test_recibo.py,sha256=FQR48l_B0GZW1Y9TUZblZpyvunDxMYzGkL5Zyt5kz4w,331
+src/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tools/recibos_utils.py,sha256=uPX7FpCeg6SHTAL6CoCJva2mqELhpvGl6WjvjVSqlJU,2658
+payroll_arg_reportes-0.0.3.dist-info/METADATA,sha256=Rm5WxxUKqPmBy3clRWqjTgGYVi_K7gxGm4o8Sa2PPNo,2579
+payroll_arg_reportes-0.0.3.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+payroll_arg_reportes-0.0.3.dist-info/licenses/LICENSE,sha256=dZz3ZOdv3GX7HdmjoyDF5Ux8oUfDQEpHcwOWQOInWls,1067
+payroll_arg_reportes-0.0.3.dist-info/RECORD,,
