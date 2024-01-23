@@ -1,0 +1,2 @@
+[console_scripts]
+cloudflare-only-nginx = cloudflare_ips_reload:main
