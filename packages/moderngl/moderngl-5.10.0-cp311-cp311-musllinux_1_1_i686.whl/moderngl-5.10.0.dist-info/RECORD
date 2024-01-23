@@ -1,0 +1,11 @@
+_moderngl.py,sha256=rALVfGBvQbijk9ykcsPFDy115U1NioPC09TX9dGCvy8,21772
+moderngl/__init__.py,sha256=xvBiJgjqZH5C3HVkq9S-OvLwCkrrfzRmtGnSyM4586I,54716
+moderngl/mgl.cpython-311-i386-linux-musl.so,sha256=qyD6EHv9Vfa7yrGy_hWRl98muPzcmQokl4ucEEQEqHg,600665
+moderngl.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+moderngl.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+moderngl-5.10.0.dist-info/WHEEL,sha256=kXYKShYCL8DOgrd4XyiHmnZkUcnETElIRh8_deMALso,111
+moderngl-5.10.0.dist-info/top_level.txt,sha256=9Vmih6X57tbrO6Zpi0hcRQa5bmtmbIqpTQIGk78arzU,34
+moderngl-5.10.0.dist-info/LICENSE,sha256=INFoFYECw87qHHa9fBCpISFt0cpKaMjyEqJWW9q24z4,1091
+moderngl-5.10.0.dist-info/RECORD,,
+moderngl-5.10.0.dist-info/METADATA,sha256=DaMoM_vmDbBvNOTz6D0ysL98dMqban9qNLDW8rcYmJQ,7188
+moderngl-stubs/__init__.pyi,sha256=dRrzW0Tah1z4LMFni-zXmuXCYJeDEr3NTxIdnrq_D1I,140572
