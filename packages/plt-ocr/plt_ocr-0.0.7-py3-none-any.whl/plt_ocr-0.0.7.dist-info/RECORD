@@ -1,0 +1,9 @@
+plt_ocr/model.py,sha256=3CNzeRvTxDF6oJB0Y2YxBKIG6O5qHBG8WZhOJx2JebU,5798
+plt_ocr/module.py,sha256=LLnXk3fFsIwIeZxWyOdn7PU-T5M3tqUotMXhy8It1mQ,1341
+plt_ocr/tasks.py,sha256=hHcfNL8tX64DYkn6w6ujn4apCQMdVgINaRj55X8lB-4,558
+plt_ocr/util.py,sha256=fuFPXCApVhS85ku5H6xsMzlTNWK4O2dNLCUcpKok2T8,1118
+plt_ocr/version.py,sha256=oaVnJwfl8fae3WT7ZbAEQR7SD9j267pn0ZvFmmW03hA,18
+plt_ocr-0.0.7.dist-info/METADATA,sha256=ugCYSCYRh4_klPHfCrxyS6sOKUqioRVT4O_7rCMwpsY,322
+plt_ocr-0.0.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+plt_ocr-0.0.7.dist-info/entry_points.txt,sha256=LBRW1cuRlnJcnkYR0Rd3IYRFImdxO1lEHU6b6juHhvw,81
+plt_ocr-0.0.7.dist-info/RECORD,,
