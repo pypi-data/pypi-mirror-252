@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: quarto-cli
+Version: 1.4.548
+Summary: Open-source scientific and technical publishing system built on Pandoc.
+License-File: LICENSE
+Requires-Dist: jupyter
+Requires-Dist: nbclient
+Requires-Dist: wheel
+
+Open-source scientific and technical publishing system built on Pandoc.
