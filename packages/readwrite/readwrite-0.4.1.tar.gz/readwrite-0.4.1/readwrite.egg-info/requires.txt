@@ -1,0 +1,10 @@
+click
+pandas
+pytest
+pyarrow
+tqdm
+pyyaml
+toml
+
+[:platform_system == "Windows"]
+pyreadline3
