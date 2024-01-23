@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: llmfmt
+Version: 2024.1.22
+Summary: Simple tool for formatting code for LLMs.
+Home-page: https://github.com/mhconradt/llmfmt
+Author: Max Conradt
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://github.com/mhconradt/llmfmt/blob/main/README.md
+Project-URL: Issues, https://github.com/mhconradt/llmfmt/issues
+Project-URL: Changelog, https://github.com/mhconradt/llmfmt/releases
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: twine ; extra == 'test'
+
+# Installation
+
+```shell
+pip install code-prompt
+```
+
+# Usage
+
+```shell
+codeprompt file1.py *pattern2*.py directory3/**.py ...
+```
