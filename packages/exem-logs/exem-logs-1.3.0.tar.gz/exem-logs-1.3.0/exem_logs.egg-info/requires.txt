@@ -1,0 +1,4 @@
+paramiko
+google-cloud
+google-cloud-logging
+google-cloud-error-reporting
