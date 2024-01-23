@@ -1,0 +1,3 @@
+[console_scripts]
+skyport=skyport.cli:app
+
