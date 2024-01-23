@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: MBN_tools
+Version: 0.1
+Summary: Useful tools for MBN Explorer simulations and analysis
+Home-page: https://github.com/mattdickers/MBN_tools
+Author: Matthew Dickers
+Author-email: mattdickers@gmail.com
+License: MIT
+Download-URL: https://github.com/mattdickers/MBN_tools/archive/refs/tags/v_0.1.tar.gz
+Description: UNKNOWN
+Keywords: MBN Explorer,MBN Studio,Molecular Dynamics,MD,Data Analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
