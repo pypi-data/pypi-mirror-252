@@ -1,0 +1,9 @@
+setup.py
+app/KouziPy.egg-info/PKG-INFO
+app/KouziPy.egg-info/SOURCES.txt
+app/KouziPy.egg-info/dependency_links.txt
+app/KouziPy.egg-info/top_level.txt
+app/kouzipy/LayerClass.py
+app/kouzipy/ModelClass.py
+app/kouzipy/__init__.py
+app/kouzipy/neuroneClasse.py

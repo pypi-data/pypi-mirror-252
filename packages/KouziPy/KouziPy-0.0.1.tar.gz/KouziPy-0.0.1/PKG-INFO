@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: KouziPy
+Version: 0.0.1
+Summary: deep learning librairy
+Home-page: UNKNOWN
+Author: Jérôme Delatour
+Author-email: kouzipy@gmail.com
+License: MIT
+Description: lala
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Description-Content-Type: text/markdown
