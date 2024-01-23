@@ -1,0 +1,12 @@
+echoloader/__init__.py,sha256=9-1u7W1yUgkLIL1o0GsC-5oqX8Olqr3sav_E2S4-4to,24
+echoloader/__main__.py,sha256=narR8W3_6tMvPguNkpGRtiI-KL7oWFpSXDvEAdTvcN4,143
+echoloader/config.py,sha256=Lvi0aZNfO-uxc4JoMXPsPRFg9MuhXJueLFxB_1NGVhw,931
+echoloader/hl7.py,sha256=rPTrFEjbxjKs9w-bZ7NFuiX-FrX7H7CrUPFrBY7Pzos,11166
+echoloader/login.py,sha256=yFABN8cmvWKVClxPNN3oOUuG8_6D4YQsF9oxE1zSWB0,2954
+echoloader/qt.py,sha256=YEjcS1IplCcYGMKNkPGBYT1xB9YyCWqwGLmUfM-cv9o,743
+echoloader/sync.py,sha256=x8LF6hRm2wGyFBPQGPQTzGogBtxO_KZcu7hQZDMi73Q,20514
+echoloader/watcher.py,sha256=Q9AaaTfCJj3WO341fZriLBYKCzdCbltLj7gswHJHb6k,40182
+echoloader-0.1.90.dist-info/entry_points.txt,sha256=7ZYsLGFUnRIOLLxhllvx545TFgiYZ2T0nx7MlLeHmDg,54
+echoloader-0.1.90.dist-info/METADATA,sha256=N-DX1rdDm15LEmn3ZVFpJ87MGfmp_jUzDrjbf7730H0,889
+echoloader-0.1.90.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+echoloader-0.1.90.dist-info/RECORD,,
