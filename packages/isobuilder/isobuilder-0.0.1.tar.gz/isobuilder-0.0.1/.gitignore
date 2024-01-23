@@ -1,0 +1,6 @@
+.vendor/
+*.sw?
+.rtx.toml
+.overcommit.yml
+.DS_Store
+.coverage

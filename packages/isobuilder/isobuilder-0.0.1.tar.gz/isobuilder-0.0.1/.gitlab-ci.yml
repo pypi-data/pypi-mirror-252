@@ -1,0 +1,29 @@
+stages:
+  - lint
+  - unit
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+cache:
+  paths:
+    - .cache/pip
+before_script:
+  - pip3 --version
+  - pip3 install tox
+  # DNSIN-23
+  - ~/.local/bin/tox --version
+
+flake8:
+  stage: lint
+  script:
+    - ~/.local/bin/tox -e py3-flake8
+
+mypy:
+  stage: lint
+  script:
+    - ~/.local/bin/tox -e py3-mypy
+
+pytest:
+  stage: unit
+  script:
+   -  ~/.local/bin/tox -e py3-unit
