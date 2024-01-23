@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "topsis-sahil-102103134"
+version = "0.1.0"
+description = "Topsis implementation by Sahil Manchanda"
+authors = ["Sahil Manchanda"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "topsis_sahil_102103134"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.3"
+pandas = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
