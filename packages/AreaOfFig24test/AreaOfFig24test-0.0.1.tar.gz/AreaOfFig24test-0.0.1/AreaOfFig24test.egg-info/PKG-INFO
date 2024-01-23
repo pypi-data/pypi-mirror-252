@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: AreaOfFig24test
+Version: 0.0.1
+Summary: My First Package
+Author: Himanshu Bansal
+Author-email: himu90505@gmail.com
+Keywords: area of figs,area,himanshu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to find area of different figures
