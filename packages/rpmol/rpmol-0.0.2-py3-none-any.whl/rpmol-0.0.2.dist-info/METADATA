@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rpmol
+Version: 0.0.2
+Summary: Conversor between SDF an XLSX files
+Home-page: UNKNOWN
+Author: Rubén Prieto
+Author-email: <ruben.prietodiaz@icm.uu.se>
+License: UNKNOWN
+Keywords: python,sdf,xlsx,conversor
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pandas
+Requires-Dist: rdkit
+Requires-Dist: openpyxl
+Requires-Dist: argparse
+Requires-Dist: reportlab
+
+UNKNOWN
+
