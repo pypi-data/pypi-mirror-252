@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+description-file = "README.rst"
+
+[bdist_wheel]
+universal = 1
+
+[project]
+name = "commonmark_socialhome"
+version = "0.9.1.post2"
+authors = [
+    { name="Bibek Kafle", email="bkafle662@gmail.com" },
+    { name="Roland Shoemaker", email="rolandshoemaker@gmail.com" },
+    { name="Jason Robinson", email="mail@jasonrobinson.me" },
+]
+maintainers = [
+    { name="Jason Robinson", email="mail@jasonrobinson.me" },
+]
+license = { file="LICENSE" }
+description = "Python parser for the CommonMark Markdown spec, Socialhome fork"
+readme = "README.rst"
+keywords = ["markup", "markdown", "commonmark"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Other Environment",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Topic :: Documentation",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/jaywink/commonmark.py"
+Issues = "https://github.com/jaywink/commonmark.py/issues"
+
+[project.scripts]
+commonmark-socialhome = "commonmark:commonmark"
