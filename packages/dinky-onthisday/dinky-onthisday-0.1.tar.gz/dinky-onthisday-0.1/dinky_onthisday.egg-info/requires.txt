@@ -1,0 +1,7 @@
+dinky
+pluggy
+Pillow
+requests
+
+[test]
+pytest
