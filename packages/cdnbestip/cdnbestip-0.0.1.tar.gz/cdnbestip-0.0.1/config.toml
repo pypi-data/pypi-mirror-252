@@ -1,0 +1,18 @@
+[setting]
+save_cloudflare_token = ""
+source_cdn_url = ""
+
+[notify]
+bark = ""
+chanify = ""
+lark = ""
+feishu = ""
+wecom = ""
+
+[domain]
+gcore_skip = "true"
+gcore_domain = ""
+
+cloudflare_skip = "true"
+cloudflare_domain = ""
+cloudflare_random = 50
