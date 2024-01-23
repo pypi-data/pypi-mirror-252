@@ -1,0 +1,15 @@
+disable:
+  - traefik
+flannel-external-ip: true
+flannel-backend: {{ network_backend }}
+node-external-ip: {{ master_ip }}
+cluster-cidr: {{ pod_network_cidr }}
+service-cidr: {{ service_network_cidr }}
+service-node-port-range: {{ service_port_range }}
+tls-san:
+  - localhost
+  - k3s.{{ docker_network_name }}
+  - k3s
+  - 127.0.0.1
+  - {{ master_hostname }}
+  - {{ master_ip }}

@@ -1,0 +1,7 @@
+[console_scripts]
+k3s-local-docker-compose=k3s_local_docker.commands.compose:main
+k3s-local-docker-copy-kubeconfig=k3s_local_docker.commands.copy_kubeconfig:main
+k3s-local-docker-fix-owner=k3s_local_docker.commands.fix_owner:main
+k3s-local-docker-generate=k3s_local_docker.generate:main
+k3s-local-docker-wait-for-resources=k3s_local_docker.commands.wait_for_resources:main
+
