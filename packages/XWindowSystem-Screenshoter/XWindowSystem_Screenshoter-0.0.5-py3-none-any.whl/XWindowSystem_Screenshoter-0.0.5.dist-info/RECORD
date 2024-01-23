@@ -1,0 +1,8 @@
+src/__init__.py,sha256=9YWXcsyJWDUHyvOZ08IktGiAy4uHuzztNPITb_OrfVg,70
+src/window_capture_async.py,sha256=eJMWf1AC4ia3PyFcb9j9eKzeOhWd3_kI7-QZcFE4oB0,2028
+src/window_capture_sync.py,sha256=JXHAL4wUi7w3T3ygLOGlgGkG-71vNrA3bOTcEnWQ1mw,1469
+XWindowSystem_Screenshoter-0.0.5.dist-info/LICENSE,sha256=LAR7ZHFwWP5FfR1LLuytQC5bHExg7vys2C5eAqe8cP0,1074
+XWindowSystem_Screenshoter-0.0.5.dist-info/METADATA,sha256=ogyeWTKUvhQIE8lQ-P9DAF2QqV2_-oTpH5Rk7GxzM4w,2571
+XWindowSystem_Screenshoter-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+XWindowSystem_Screenshoter-0.0.5.dist-info/top_level.txt,sha256=IVb3wN7SFLA5shKGMAX2XjUAqtM0keh2Td3ptr0_dZA,31
+XWindowSystem_Screenshoter-0.0.5.dist-info/RECORD,,
