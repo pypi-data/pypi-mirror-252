@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: time-app
+Version: 1.3
+Author: BornTheHell
+Author-email: anp50158@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Library `time_app`
+
+## Description
+
+`time_app` is a convenient library for working with date and time in the Python programming language. It provides simple and powerful tools for managing temporal data, making operations such as formatting, parsing, comparison, and arithmetic with dates and times straightforward.
+
+## Key Features
+
+1. **Formatting and Parsing Date/Time:**
+   - Conversion of date and time to a string based on a specified format.
+   - Parsing a string with date/time into a Python `datetime` object.
+
+2. **Date and Time Arithmetic:**
+   - Convenient methods for adding and subtracting time, days, months, and years.
+   - Calculation of the difference between two dates.
+
+3. **Comparison of Dates and Times:**
+   - Comparison of dates and times for equality, greater/less than.
+   - Checking if the current date/time is within a specified time range.
+
+4. **Timezone Handling:**
+   - Support for working with different timezones.
+   - Conversion of time between different timezones.
+
+5. **Managing Time Intervals:**
+   - Handling time intervals.
+   - Support for periodic tasks and event scheduling.
+
+## Usage Example
+
+```python
+from time_app import TimeApp
+
+# Creating an object with the current date and time
+now = TimeApp.now()
+
+# Formatting the date into a string
+formatted_date = now.format("%Y-%m-%d %H:%M:%S")
+print(f"Formatted date: {formatted_date}")
+
+# Date arithmetic
+future_date = now + TimeApp.timedelta(days=7)
+print(f"Date in 7 days: {future_date}")
+
+# Checking if the current date is later than the specified date
+if now > future_date:
+    print("The current date is behind the future date.")
+else:
+    print("The current date is ahead of the future date.")
