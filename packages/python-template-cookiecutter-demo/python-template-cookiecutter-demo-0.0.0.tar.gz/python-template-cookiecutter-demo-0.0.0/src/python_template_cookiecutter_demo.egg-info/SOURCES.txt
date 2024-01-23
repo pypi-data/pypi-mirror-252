@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+version.txt
+src/python_template_cookiecutter_demo.egg-info/PKG-INFO
+src/python_template_cookiecutter_demo.egg-info/SOURCES.txt
+src/python_template_cookiecutter_demo.egg-info/dependency_links.txt
+src/python_template_cookiecutter_demo.egg-info/requires.txt
+src/python_template_cookiecutter_demo.egg-info/top_level.txt
+src/template_demo/__init__.py
+src/template_demo/cities.json
+src/template_demo/states_info.py
