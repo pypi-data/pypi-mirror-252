@@ -1,0 +1,5 @@
+setup.py
+curobo.egg-info/PKG-INFO
+curobo.egg-info/SOURCES.txt
+curobo.egg-info/dependency_links.txt
+curobo.egg-info/top_level.txt
