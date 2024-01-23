@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: geotab_lib
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: Matt Perzel <matt@advantageone.tech>
+License: NONE
+Requires-Python: >=3.9
+Requires-Dist: mygeotab>=0.8.8
+Description-Content-Type: text/markdown
+
+# geotab_lib
