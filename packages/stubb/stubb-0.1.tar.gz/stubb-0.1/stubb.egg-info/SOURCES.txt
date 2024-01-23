@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+stubb/__init__.py
+stubb.egg-info/PKG-INFO
+stubb.egg-info/SOURCES.txt
+stubb.egg-info/dependency_links.txt
+stubb.egg-info/requires.txt
+stubb.egg-info/top_level.txt
+tests/test_stubb.py
