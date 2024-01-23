@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: HueEngineTESTS
+Version: 0.0.8
+Summary: A Py-Game Engine
+Home-page: https://github.com/TheDotBat/Hue
+Author: Setoichi
+Author-email: setoichi.dev@gmail.com
+License: Apache-2.0
+Classifier: Development Status :: 4 - Beta
+License-File: license.md
+License-File: NOTICE.md
+Requires-Dist: psutil
+Requires-Dist: pygame-ce
+Requires-Dist: pyautogui
+Requires-Dist: pygame-gui
+Requires-Dist: screeninfo
+Requires-Dist: pygetwindow
