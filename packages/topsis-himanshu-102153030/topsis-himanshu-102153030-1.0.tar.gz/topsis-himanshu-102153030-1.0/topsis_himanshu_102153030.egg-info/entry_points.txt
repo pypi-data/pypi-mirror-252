@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = topsis:102153030.py

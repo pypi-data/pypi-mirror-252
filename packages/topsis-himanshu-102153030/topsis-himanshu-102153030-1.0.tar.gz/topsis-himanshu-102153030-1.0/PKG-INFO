@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: topsis-himanshu-102153030
+Version: 1.0
+Summary: self made library for topsis
+Home-page: https://github.com/user/reponame
+Author: Himanshu Mahlawat
+Author-email: himahlawat7@gmail.com
+Keywords: TOPSIS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
