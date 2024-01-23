@@ -1,0 +1,8 @@
+ruff_api/__init__.py,sha256=Sr8v8WSZYDrHAF8k1Vz21D-XqzL9z5h0LJOrDbLZXH8,171
+ruff_api/__main__.py,sha256=lxSJDugLg1LgAzx9ZohTdz4uG8wF7OYovf3w2hA4NIk,131
+ruff_api/__version__.py,sha256=pz7lOOjL9MwGcPkrTMAI4q07pbCphbwpooq5rOadSW8,152
+ruff_api-0.dist-info/entry_points.txt,sha256=yHliwH96tpLDx3qmzMAUc9P2luywyUp2lJPEFifC7Zs,51
+ruff_api-0.dist-info/LICENSE,sha256=I_oEnA4w3xfb-mXF7eeYP33Rx3rZZKz69XISkwdIhMg,1066
+ruff_api-0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ruff_api-0.dist-info/METADATA,sha256=lXcbhSQ0dcGC15kKNbwVrV2vNptvSLsUDz_bJqEGiVc,1045
+ruff_api-0.dist-info/RECORD,,
