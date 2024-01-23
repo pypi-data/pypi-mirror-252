@@ -1,0 +1,9 @@
+httpx
+pydantic
+questionary
+typer[all]
+
+[dev]
+black
+ruff
+pytest

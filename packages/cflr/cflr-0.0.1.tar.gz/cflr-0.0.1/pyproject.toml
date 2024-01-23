@@ -1,0 +1,37 @@
+[project]
+name = "cflr"
+version = "0.0.1"
+description = "A Cloudflare Admin CLI."
+keywords = ["cloudflare", "cli"]
+readme = "README.md"
+authors = [{ name = "James Deane", email = "dev@jwdeane.com" }]
+
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = ["httpx", "pydantic", "questionary", "typer[all]"]
+
+[project.optional-dependencies]
+dev = ["black", "ruff", "pytest"]
+
+[project.scripts]
+cflr = "cflr.cli:app"
+
+[project.urls]
+homepage = "https://github.com/25thhour/cflr.dev"
+issues = "https://github.com/25thhour/cflr.dev/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["cflr"]
+
+[tool.ruff]
+# `E501` = line length violations
+ignore = ["E501"]
