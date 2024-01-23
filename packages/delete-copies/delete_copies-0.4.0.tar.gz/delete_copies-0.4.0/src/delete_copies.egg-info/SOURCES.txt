@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/delete_copies/__init__.py
+src/delete_copies/delete_copies.py
+src/delete_copies.egg-info/PKG-INFO
+src/delete_copies.egg-info/SOURCES.txt
+src/delete_copies.egg-info/dependency_links.txt
+src/delete_copies.egg-info/top_level.txt
