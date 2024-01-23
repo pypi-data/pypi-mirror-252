@@ -1,0 +1,16 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abcjs_interface.py,sha256=6CYu7rGgLFwutSOrZfb8Gf2_pQfeX-71yCl9yE7wesU,2726
+analyze_degree_of_dissonance_or_atonal.py,sha256=9Ew1H3bzjXQJ8Y15FmO-Cu3eDj7cExT7IiTLgb0FmTw,10829
+analyze_harmonic_states.py,sha256=2K7MOYSAFAHVVJz4Z7AO1T0PoUn7vQa4JjQgDPiZuMk,10264
+analyze_sauterian_formula.py,sha256=6BEtMqA-apdIXg54BbeUmT9sPejBs-2qmnnKw3h9QE0,4142
+calc_harmonies.py,sha256=k14FemQM8gQay33dki-zVcWUJo21XcR-HPpM3bMwPFM,9699
+duration.py,sha256=xX8rdO9D85DzaLxknUmLKcvkoCogoOpxp_x89tyucNI,10408
+preprocess.py,sha256=Vfr4eein4Nl4H42hLDM6JFvRqJLiKjFhDpVxsQ0A6NY,18457
+representation.py,sha256=1SOqaD2dmAxo1Cj2dhPpZ5vUDmbN4P-bUt2lMoV3qTk,7444
+to_abc_strings.py,sha256=OUJL87wttGqP6vcIkqyylhMu44hGhT8x9whrMHbo2bI,18365
+type.py,sha256=OTw11bZmOVxtMdWYY5DPuvs5Vaf42FflMxVNOHkvrGs,1994
+music_harmony_analysis-1.0.1.dist-info/LICENSE,sha256=nvABroLlbH_zTt2zyd24GzktFhlM_LevGVjyvyqDRzs,1069
+music_harmony_analysis-1.0.1.dist-info/METADATA,sha256=io4fPARjKg0XOHY4Mp6o6taxRj-9T-ACERQBtZbEua0,4233
+music_harmony_analysis-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+music_harmony_analysis-1.0.1.dist-info/top_level.txt,sha256=3IMgyEoZeFq4blcDNMYPvEUcQd_3ZazgTgBXeWetDX8,184
+music_harmony_analysis-1.0.1.dist-info/RECORD,,
