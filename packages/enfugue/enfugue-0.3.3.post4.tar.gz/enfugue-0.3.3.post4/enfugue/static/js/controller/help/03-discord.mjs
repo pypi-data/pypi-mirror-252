@@ -1,0 +1,1 @@
+import{MenuController}from"../menu.mjs";class DiscordController extends MenuController{static helpLink="https://discord.gg/fESGhyDKvn";static menuName="Discord";static menuIcon="fa-brands fa-discord";static menuShortcut="d";async onClick(){window.open(this.constructor.helpLink)}}export{DiscordController as MenuController};
