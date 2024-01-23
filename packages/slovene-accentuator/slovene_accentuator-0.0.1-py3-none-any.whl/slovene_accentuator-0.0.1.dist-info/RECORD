@@ -1,0 +1,9 @@
+slovene_accentuator/__init__.py,sha256=3xR3d1uKnil2GzY-9h5WRuR3Shshlgt2Qq7pj_ulbZI,42
+slovene_accentuator/accentuate.py,sha256=T0xNEjqbzh59LATQ4z0DdeCZP36DGUpaWotwibAuDBI,5174
+slovene_accentuator/prepare_data.py,sha256=JGzmo52nxoBk9RULdec8500mMs_hwpgssD5AAnsfQH0,88602
+slovene_accentuator/preprocessed_data/environment.pkl,sha256=g9n6KqHDhEvC9aVBtShiq1-GGnf6ZWjEyZowO2iYf4s,73968
+slovene_accentuator-0.0.1.dist-info/LICENSE,sha256=3NdJzv2T9TBNddZsbVch5CqWbx3PGyjPTuSRvZLOiw0,1064
+slovene_accentuator-0.0.1.dist-info/METADATA,sha256=hzIhVr0dDfCIYJb9-BIBN3zdBkyeCfLRVl4PLvPi88w,314
+slovene_accentuator-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slovene_accentuator-0.0.1.dist-info/top_level.txt,sha256=rB7kt1Qcxz2UB60ev7ZLFoj1m2bBhwMu_ij1vTHMFMU,20
+slovene_accentuator-0.0.1.dist-info/RECORD,,
