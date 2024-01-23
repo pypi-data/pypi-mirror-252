@@ -1,0 +1,17 @@
+pessimist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pessimist/__main__.py,sha256=R3daGsPY7-gMT-6EwsNfzeJt7iThPjvUaXbYPnCExiU,51
+pessimist/cli.py,sha256=l2PjfP7iRuf5HAhxAi_ppDhx9XDcQgUYOCo2-f5-Hls,2091
+pessimist/cmdline.py,sha256=af4MIM4Z8ThJ-yTkn3kPhkLt4OuiIzdyQS4z44V7qok,782
+pessimist/manager.py,sha256=0_H0HBF_59wEiaW5Kdce6IMz1551FpsVxjfck824dDU,14555
+pessimist/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pessimist/util.py,sha256=c4rvWOjp7JVlnIgYIkInlC0Gp3lh0E9lmEvJ1u7jNIU,2198
+pessimist/tests/__init__.py,sha256=ui9V_SOdVzixmq_wmWhwezhCfQVfB-SIBWBDxcmhHS0,128
+pessimist/tests/__main__.py,sha256=4rUMFHkN5GeRbk4W4YQ0zHtXRPHwO6kx0wn9vpOWssM,101
+pessimist/tests/functional.py,sha256=-6Pm58hLhOwlFDgRckSQBH1Qe-CIOpUATXECBa8fcq4,1280
+pessimist/tests/manager.py,sha256=t2KyamYedUerQyMKbhJUZcSABN806Axsdm8GlebUmss,2822
+pessimist-0.9.4b1.dist-info/LICENSE,sha256=Ho4s2WKBzrYFrASqhzMAf7biT02EkYx0s1CIgzcVVmc,1066
+pessimist-0.9.4b1.dist-info/METADATA,sha256=ROoGdNBpHFPIGMm0uk-IPnRd9x47VDKO8i2FncgfBT4,3406
+pessimist-0.9.4b1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pessimist-0.9.4b1.dist-info/entry_points.txt,sha256=CeihrHodOpMNfhws5JIHVxa0qQcA604OD4szekLyq8M,49
+pessimist-0.9.4b1.dist-info/top_level.txt,sha256=c4TC-3Uwswxpt29EvaTf_Zc4iVjHT24u8SsLN-Ai2WU,10
+pessimist-0.9.4b1.dist-info/RECORD,,
