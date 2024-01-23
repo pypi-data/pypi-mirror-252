@@ -1,0 +1,3 @@
+[console_scripts]
+dnest=.dnest.__main__:install
+
