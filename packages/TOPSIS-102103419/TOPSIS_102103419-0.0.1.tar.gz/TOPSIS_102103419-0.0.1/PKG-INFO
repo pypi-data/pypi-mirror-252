@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: TOPSIS_102103419
+Version: 0.0.1
+Summary: topsis implementation
+Home-page: 
+Author: Prachi Kumar
+Author-email: pkumar1_be21@thapar.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Introduction
+
+TOPSIS( Technique for order for preference by similarity to Ideal solution ) for MCDM (Multiple criteria decision making) in Python compiled by PRACHI KUMAR, 102103419 , TIET, Patiala.
+
+## Installation
+ pip install TOPSIS_102103419
+
+## License
+Â©2024 Prachi Kumar
+This repository is licensed under the MIT license.
+See LICENSEÂ forÂ details.
