@@ -1,0 +1,28 @@
+from beet import Function
+from mecha import Mecha, AstRoot, AstChildren
+from bolt import Runtime
+import logging
+import re
+from ./config import Config
+
+logger = logging.getLogger(Config.LIBRARY_NAME)
+
+def defer(f):
+    def wrapper(ctx):
+        mc = ctx.inject(Mecha)
+        runtime = ctx.inject(Runtime)
+        current_path = runtime.modules.current_path
+        yield
+        with runtime.scope() as commands:
+            f()
+        result = mc.compile(AstRoot(commands=AstChildren(commands)), report=mc.diagnostics)
+        # ctx.data.functions.setdefault(current_path, Function()).append(result)
+    ctx.require(wrapper)
+    return f
+
+def pascal_to_snake_case(text: str) -> str:
+    pattern = re.compile(r'(?<!^)(?=[A-Z])')
+    out = pattern.sub('_', text).lower()
+    if out[0] == '_':
+        out = out[1:]
+    return out
