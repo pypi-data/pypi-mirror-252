@@ -1,0 +1,20 @@
+[project]
+name = "hazard-map"
+version = "0.0.4"
+description = "Build a network model from spreadsheets of hazard, cause, and control mappings and carry out useful analyses"
+
+authors = [
+    {"name" = "Thom Cameron", "email" = "thomcm@proton.me"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "networkx",
+    "matplotlib",
+]
+
+readme = "readme.md"
+license = {file = "license.txt"}
+
+[project.scripts]
+hazard-map = "hazard_map:main"
