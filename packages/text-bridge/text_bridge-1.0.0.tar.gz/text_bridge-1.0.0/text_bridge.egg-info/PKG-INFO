@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: text-bridge
+Version: 1.0.0
+Summary: Allows to use prompt templates with OpenAI API
+Home-page: UNKNOWN
+Author: Damian Czapiewski
+Author-email: damianczap@outlook.com
+License: UNKNOWN
+Description: # TextBridge
+        
+        This is a package that is an abstraction layer over large language models. It contains functions that wrap requests to large language model API (e.g. OpenAI API) endpoints with useful functionality.
+        
+        Specifically, there are few main concepts that this package is introducing:
+        a) The prompts are stored in Jinja2 templates. When the user of the package calls `complete` or `chat_complete`, they pass the name of the template as argument. Those templates are stored in some folder.
+        b) Each prompt has a config - it stores the parameters used with that prompt (like `max_tokens` or `model`).
+        c) `embeddings` module contains some useful functions for search based on embeddings from OpenAI API.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

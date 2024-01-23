@@ -1,0 +1,13 @@
+setup.py
+text_bridge/__init__.py
+text_bridge/basic.py
+text_bridge/config.py
+text_bridge/embeddings.py
+text_bridge/events.py
+text_bridge/templates.py
+text_bridge/transformations.py
+text_bridge.egg-info/PKG-INFO
+text_bridge.egg-info/SOURCES.txt
+text_bridge.egg-info/dependency_links.txt
+text_bridge.egg-info/requires.txt
+text_bridge.egg-info/top_level.txt

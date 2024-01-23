@@ -1,0 +1,5 @@
+setuptools~=45.2.0
+Jinja2~=3.0.1
+openai[embeddings]~=0.27.0
+transformers~=4.28.1
+anthropic~=0.2.9
