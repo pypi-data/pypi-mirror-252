@@ -1,0 +1,10 @@
+seq2seqdistill/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seq2seqdistill/distill.py,sha256=fEwmGC7nOph_ZzxloZltbnhz2IuFrH-mKdnEI50Jvu4,1785
+seq2seqdistill/main.py,sha256=3hoX6YWvWRktZcjfQuAEd0Jb8NiVZdxFNPhMNAYf0QI,3119
+seq2seqdistill/seq2seq_distill_trainer.py,sha256=mgXUScHHXybpSCRi_Iul3_nU0C7Dmuc8dKetYCq9zNQ,8221
+seq2seqdistill/utils.py,sha256=DpnZJd2toWQKmC5TC0B4JZvMRUM7bvFfQ6ot3xOEe3E,3786
+seq2seqdistill-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+seq2seqdistill-0.1.1.dist-info/METADATA,sha256=QjRZALcFaxFy94b_nZJlDJHZyK8LlPjwR421OcGutKY,81
+seq2seqdistill-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+seq2seqdistill-0.1.1.dist-info/top_level.txt,sha256=On7-rnekk30ItPmUHM6KuYSTn5ShS8Ix46Sd0WoBoWQ,15
+seq2seqdistill-0.1.1.dist-info/RECORD,,
