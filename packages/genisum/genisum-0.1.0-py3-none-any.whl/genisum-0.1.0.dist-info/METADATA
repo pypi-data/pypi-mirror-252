@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: genisum
+Version: 0.1.0
+Summary: A simple library for summation of a given list
+Author: Arefin Genius
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# genisum
+
+A simple Python library for summation of a given list.
+
+## Installation
+
+```bash
+pip install genisum
+```
