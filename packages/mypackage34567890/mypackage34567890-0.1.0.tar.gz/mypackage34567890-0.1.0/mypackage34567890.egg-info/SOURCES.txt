@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/core.py
+mypackage34567890.egg-info/PKG-INFO
+mypackage34567890.egg-info/SOURCES.txt
+mypackage34567890.egg-info/dependency_links.txt
+mypackage34567890.egg-info/top_level.txt
+utilsss/__init__.py
+utilsss/__version__.py
+utilsss/core.py
