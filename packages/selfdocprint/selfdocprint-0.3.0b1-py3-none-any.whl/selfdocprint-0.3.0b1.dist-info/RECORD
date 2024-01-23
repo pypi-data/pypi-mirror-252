@@ -1,0 +1,9 @@
+selfdocprint/__init__.py,sha256=K10of22MvyKh-OnH-XTtBipOWtioPHrigyU1hdBKplM,350
+selfdocprint/_layout_specs.py,sha256=VnR7hJ9kjI7DIzifXMxFCW6VqhkIpagtZFTlKAFpAfU,2538
+selfdocprint/_printer.py,sha256=XrL0Lk-d00LhR4QDxEgKCjl56kWZ3oHT6LOTSe9osfI,9901
+selfdocprint/console.py,sha256=YP7YGTgZiQI1CfTGa1ycvG2XLIYmYRkY_x6216D4Vks,637
+selfdocprint/selfdocprint.py,sha256=EjRQLldvuiNuQ9krbJJJwYFj7NlhjzWHNcVBLgc34XQ,7908
+selfdocprint-0.3.0b1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+selfdocprint-0.3.0b1.dist-info/METADATA,sha256=8OC-TbDy8FdHFYZN_3D74IRyi6uGMum0l5pwabguDBI,6643
+selfdocprint-0.3.0b1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+selfdocprint-0.3.0b1.dist-info/RECORD,,
