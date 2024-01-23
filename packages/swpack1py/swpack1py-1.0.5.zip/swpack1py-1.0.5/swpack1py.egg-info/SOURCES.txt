@@ -1,0 +1,9 @@
+main.py
+setup.py
+swpack1py/__init__.py
+swpack1py/file.py
+swpack1py/file2.py
+swpack1py.egg-info/PKG-INFO
+swpack1py.egg-info/SOURCES.txt
+swpack1py.egg-info/dependency_links.txt
+swpack1py.egg-info/top_level.txt
