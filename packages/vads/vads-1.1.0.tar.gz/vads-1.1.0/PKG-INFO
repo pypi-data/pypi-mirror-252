@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vads
+Version: 1.1.0
+Summary: Visualizacao de dados arpes Sirius
+Author: Rafael Reis Barreto
+Author-email: rafinhareis17@gmail.com
+License: MIT License
+Keywords: nanosurf
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: ipywidgets
+
+# Visualizacao de dados de arpes Sirius
