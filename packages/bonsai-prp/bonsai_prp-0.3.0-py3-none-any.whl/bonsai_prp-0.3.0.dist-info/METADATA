@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bonsai-prp
+Version: 0.3.0
+Summary: Pipline result processing program for the JASEN pipeline and Bonsai tool.
+Author-email: Markus Johansson <markus.h.johansson@skane.se>, Ryan Kennedy <Ryan.Kennedy@skane.se>
+Project-URL: Repository, https://github.com/Clinical-Genomics-Lund/
+Project-URL: Issues, https://github.com/Clinical-Genomics-Lund/bonsai-prp/issues
+Project-URL: Changelog, https://github.com/Clinical-Genomics-Lund/CHANGELOG.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: click ==8.1.7
+Requires-Dist: pydantic ==2.5.2
+Requires-Dist: pandas ==2.1.3
+Provides-Extra: dev
+Requires-Dist: pylint ~=3.0.2 ; extra == 'dev'
+Requires-Dist: black ~=23.11.0 ; extra == 'dev'
+Requires-Dist: isort ~=5.12.0 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest-cov ~=4.1.0 ; extra == 'test'
+
+# Pipeline result processor
+
+The Pipeline Result Processor, PRP, is a collection of parsers and data models for creation and validation of a standardized output for the JASEN pipeline.
+
+## Installation
+
+The script requires python v3.10 or later.
