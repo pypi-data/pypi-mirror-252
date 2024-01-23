@@ -1,0 +1,9 @@
+spamdfba/.DS_Store,sha256=LjvRgSkIpVALk9dS-WM4pK_hPx6ENHpLxubsol0Bkhk,6148
+spamdfba/__init__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+spamdfba/distribute.py,sha256=R6iK-L4pnRkRlZNIK5FMMwCoCleULZqC1eZ6qEUwhmY,747
+spamdfba/stats.py,sha256=7ugB-S3OJjg79VdEGjkVfMsj8cQB1pFnd4a_3TgS4bs,3514
+spamdfba/toolkit.py,sha256=ZpAGOpV3RoBCsjlYD_R_-nyuLXEkFGXzJhhz4qIGvlI,34032
+spamdfba/toymodels.py,sha256=3x-y3T29k-7bvogENtOVGH38OeaDUVLk3PYxi-KFpnw,25695
+spamdfba-1.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spamdfba-1.1.0.dist-info/METADATA,sha256=-LBMT59ECjDogL0hCQT65UDhSpOkQAlaPRl7Kf2imeY,2138
+spamdfba-1.1.0.dist-info/RECORD,,
