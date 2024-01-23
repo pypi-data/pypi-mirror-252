@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bykml
+Version: 1.2.0
+Summary: the bykml library
+Author-email: Byron - Lloyd Wakeman <lloydwakemanbyron@gmail.com>
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: xmltodict
+Provides-Extra: dev
+Requires-Dist: bumpver; extra == "dev"
+
+This is the readme
