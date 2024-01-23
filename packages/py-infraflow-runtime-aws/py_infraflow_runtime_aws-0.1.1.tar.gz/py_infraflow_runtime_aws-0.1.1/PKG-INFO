@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: py-infraflow-runtime-aws
+Version: 0.1.1
+Summary: Build Event Based and Microservice infrastructure and connections using these reusable AWS+Boto3 patterns
+License: MIT
+Author: Matthew Beatty
+Author-email: matt@upcontent.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.26.93,<2.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: redis (>=4.5.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Python InfraFlow Runtime AWS
+A convention first library for defining event based and microservice architectures quickly and efficiently using premade patterns.
+
+Just install an import
+
+Other things to use with this library:
+- AWS CDK
+- To use Flask, Falcon, Django, or other UWSGI frameworks with CDK and Lambda: https://github.com/slank/awsgi
