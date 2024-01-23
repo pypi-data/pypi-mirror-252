@@ -1,0 +1,14 @@
+dotmoshez/__init__.py,sha256=iJhwBRMPB06uJPpQ_ySV5_D244z5umZ6nZUOindXfxo,149
+dotmoshez/__main__.py,sha256=8jpq77C7m2EPj2NxMQUtlSXTDgbsFcLriY3-J24SFg0,128
+dotmoshez/bash.py,sha256=f9CoStFZshGgHjhxhmgwDjpUBDGWrzGryHwfRDpa3tI,2522
+dotmoshez/clean_ipynb.py,sha256=zoQoAGY1XSq_jXObRYu4D2SC_2cizx103ua_72myEsA,515
+dotmoshez/git_extras.py,sha256=59Tv-kcCZ91D4f-x3Nhm5AOqehaA0yirH1dQEgtc_84,1014
+dotmoshez/init_py.py,sha256=MZfSIRBugrCbOf-2KrMiZQ1a4Z6OTgT0czOf3OhGYhg,3629
+dotmoshez/ssh.py,sha256=K8t1NNMSwDBKuOlXfED1zp3PUNYYP-xBaQo7zaGKmSs,2639
+dotmoshez/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotmoshez/tests/test_init.py,sha256=CPztzETGOis_1QFjaXD2hkE8mQNBWZK6kMsuSu_0yG0,794
+dotmoshez-2024.1.22.64939.dist-info/METADATA,sha256=EtObfgnvX2w2nOauLwtS1ic7IXcQQdd7DLoCp7-eZ3E,1967
+dotmoshez-2024.1.22.64939.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dotmoshez-2024.1.22.64939.dist-info/entry_points.txt,sha256=x2WhB5O-WO_aqUkM1euhnpLBm4FfX5Qzw8WftMBongE,235
+dotmoshez-2024.1.22.64939.dist-info/top_level.txt,sha256=bg4P3Ss9BCMoyDhfWyvByWIreJCpr2etuQV_tjMx6FI,10
+dotmoshez-2024.1.22.64939.dist-info/RECORD,,
