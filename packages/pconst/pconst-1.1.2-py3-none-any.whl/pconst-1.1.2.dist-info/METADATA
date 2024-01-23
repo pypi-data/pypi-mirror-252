@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pconst
+Version: 1.1.2
+Summary: "pconst" library provide you const-like function on Python.
+Home-page: https://github.com/simon-ritchie/pconst
+Author: simon-ritchie
+Maintainer: simon-ritchie
+Maintainer-email: antisocial.sid2@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+"pconst" library provide you const-like function on Python.
+
+For more details, please see GitHub repository: https://github.com/simon-ritchie/pconst
