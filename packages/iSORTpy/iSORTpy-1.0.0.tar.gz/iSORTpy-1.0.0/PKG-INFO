@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iSORTpy
+Version: 1.0.0
+Summary: iSORT: an Integrative Method for Reconstructing Spatial Organization of Cells via Transfer Learning
+Home-page: https://github.com/xiaojierzi/iSORT
+Author: Yecheng Tan
+Author-email: yctan21@m.fudan.edu.cn
+License: GNU General Public License v3.0
+Requires-Python: >=3.8
+License-File: LICENSE
