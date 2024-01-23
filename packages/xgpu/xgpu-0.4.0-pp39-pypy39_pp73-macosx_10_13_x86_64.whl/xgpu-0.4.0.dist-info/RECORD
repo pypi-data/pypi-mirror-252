@@ -1,0 +1,12 @@
+xgpu-0.4.0.dist-info/RECORD,,
+xgpu-0.4.0.dist-info/LICENSE,sha256=ywcS5hV1O2Laf_jmWbJ8612MW1bBRAExjRvgJvphtx4,1062
+xgpu-0.4.0.dist-info/WHEEL,sha256=n6dAHPubOjjnFZluAHYQZeSTKzsdPDy5qW15erEfsAU,117
+xgpu-0.4.0.dist-info/top_level.txt,sha256=8YZR9bJi6aEHDR2Y3RHd8Yqh5cQWD0uBOiHZmrVd-Eg,5
+xgpu-0.4.0.dist-info/METADATA,sha256=eamUG-PVNwiz6yHyZfcZNqB5RoxqVveATkV7ii6SfK0,7136
+xgpu/_wgpu_native_cffi.pypy39-pp73-darwin.so,sha256=stkDvHxXFRM_U_4sKbT2Mm0NbOjP5hsJzlzatIiHkiE,190848
+xgpu/__init__.py,sha256=g5T-MgGBmcQb7Zhqp7V9RbmJkXgIjV3ngIbsQEVluiQ,24
+xgpu/_build_ext.py,sha256=G4G7T2-Gtuw1NJrsgE-0RVa1MrxsJk6MCA0-D1qC-ck,76545
+xgpu/extensions.py,sha256=SUEYU-tO6CP8LfqkGC6ZteWAsBltF8SrWYboOX0fb4w,5045
+xgpu/bindings.py,sha256=tBr8IDaVhG8gTGIdCY7P2at_YnmnWnWSK6O5YOBQZ0s,260932
+xgpu/conveniences.py,sha256=ZZXh_Y7hPpWaLLBaM-w4jr40ySJ1SlIneUN1VHB4dGI,2185
+xgpu/libwgpu_native.dylib,sha256=f9AAcK4Hkh7wRIw05Y0Fsn7SwmLIX07Ygxj751aE4Tk,5129168
