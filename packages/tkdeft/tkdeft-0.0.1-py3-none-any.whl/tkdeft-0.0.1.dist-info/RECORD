@@ -1,0 +1,15 @@
+tkdeft/__init__.py,sha256=qUwnnMB9A1YqaDDxOeEmQdmYDmD22Z4XT6vHq5emc4c,53
+tkdeft/object.py,sha256=rMpCe16X3fOgUbgTL74PpTt9osgXW4I6T0pavk5sy9I,549
+tkdeft/utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdeft/utility/fonts.py,sha256=N4sI4a48apf3Q62MacJo9ZIDf8cXr1z1c2VJS_unuF0,620
+tkdeft/utility/segoe_font.ttf,sha256=2zH23qgKKx1Q2wi58YpN1QUk53t1XF2AZvaHnmQ4BUA,1844524
+tkdeft/windows/__init__.py,sha256=wysX0qRWLcVpSakxv5KWzxEHerIgcbJC7RLChyvgbCo,160
+tkdeft/windows/canvas.py,sha256=4gmZA1nDYW_wCAdUoTuH4eKPOE5Jxa7LYiTSYJZcAAc,1026
+tkdeft/windows/draw.py,sha256=dd88KqmwrbEdibtdehrE_jiCRvnUb2NX4m7El14cta0,1026
+tkdeft/windows/drawwidget.py,sha256=9tJri_hoJLel9MANQMjqIROpgM9dD3plfE6dzvIJPCc,1884
+tkdeft/windows/fluent/__init__.py,sha256=K5_HdCq-C0JAg-xOubNk2sCq2CzIf6xVd1hP35kpMOw,271
+tkdeft/windows/fluent/button.py,sha256=JI6LCEnvnjm2sTpYWeUGQv-FReUYW5IITEAJ56wflDw,8501
+tkdeft/windows/fluent/frame.py,sha256=_mER_N4yZwQxc3fnqfHfrfYVeMIYAF237vC8jNTLu84,5912
+tkdeft-0.0.1.dist-info/METADATA,sha256=Yqf9TmRIbaHlnGjIVXILESjUqg2KQp9-63F9IagQNGo,1562
+tkdeft-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tkdeft-0.0.1.dist-info/RECORD,,
