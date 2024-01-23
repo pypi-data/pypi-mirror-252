@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: distributedlog
+Version: 0.0.2
+Summary: A Python module that provides a configurable class for writing local and remote errors and logs.
+Home-page: UNKNOWN
+Author: Javier Romay
+Author-email: javi.romay@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,module,class
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
