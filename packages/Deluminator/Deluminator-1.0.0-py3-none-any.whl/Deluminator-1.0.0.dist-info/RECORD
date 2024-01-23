@@ -1,0 +1,12 @@
+Deluminator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Deluminator/main.py,sha256=Ok-hEus5W9wDDId8oZqQOpYvXiPf9cNX7luaEft6gLw,875
+Deluminator/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Deluminator/engine/pd.py,sha256=tOEWGj_6PN6NZrdJFOPB0X9-7ihIkyoy715e5jj3D9I,1938
+Deluminator/engine/sd.py,sha256=DYIljP8S_lEzltbPZ81p4cfjCEiPj-6-48mqKrKPW5I,1197
+Deluminator/engine/source,sha256=ojfWLlo51DYX3kHbTz5guI2_S_LNti5-R0phToykigw,2020
+Deluminator-1.0.0.dist-info/License,sha256=Pdvh3jvwFdBMiBdGRYVIAq_DSwiJSYMRPq1fQPgtAzs,1543
+Deluminator-1.0.0.dist-info/METADATA,sha256=tXyHiY1I4cQ9R9oKhDinkvwkETUc0_azjK40ICzKEg4,1970
+Deluminator-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Deluminator-1.0.0.dist-info/entry_points.txt,sha256=pbpoBpHBqLCRye8WpdSPLHUJPyVhPg76EV13OgwMBJI,61
+Deluminator-1.0.0.dist-info/top_level.txt,sha256=sSMJ_DdPc77Y7Rs7kKSedArDwcY3KlK119cwKi-A4Uk,12
+Deluminator-1.0.0.dist-info/RECORD,,
