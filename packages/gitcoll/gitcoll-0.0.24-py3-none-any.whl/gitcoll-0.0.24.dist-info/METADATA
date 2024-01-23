@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gitcoll
+Version: 0.0.24
+Summary: Git collection utilities
+Home-page: https://gitlab.com/jesrib/gitcoll
+Author: Jesper Ribbe
+Author-email: jesper@ribbe.se
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: python-gitlab >=3.14
+Requires-Dist: pygit2 >=1.12
+Requires-Dist: filelock
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic <2
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
+# Gitcoll
+
+Tools to handle many git reops on gitlab servers.
+
+- gcln. Legacy implementation
+- gcln2. Current implementation.
