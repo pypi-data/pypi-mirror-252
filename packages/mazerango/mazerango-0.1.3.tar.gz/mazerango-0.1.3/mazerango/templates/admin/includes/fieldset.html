@@ -1,0 +1,40 @@
+{% load mazerango_field %}
+<fieldset class="module {{ fieldset.classes }}">
+  <div class="row">
+    {% if fieldset.name %}<h2>{{ fieldset.name }}</h2>{% endif %}
+    {% if fieldset.description %}
+      <div class="description">{{ fieldset.description|safe }}</div>
+    {% endif %}
+    {% for line in fieldset %}
+      <div class="form-row{% if line.fields|length == 1 and line.errors %} errors{% endif %}{% if not line.has_visible_field %} hidden{% endif %}{% for field in line %}{% if field.field.name %} field-{{ field.field.name }}{% endif %}{% endfor %}">
+        {% if not line.fields|length == 1 %}<div class="flex-container form-multiline">{% endif %}
+        <div class="flex-container form-multiline">
+        {% for field in line %}
+          <div class="col-md-10 {% if not forloop.parentloop.first %}mt-4{% endif %}">
+            {% if not line.fields|length == 1 and not field.is_readonly %}{{ field.errors }}{% endif %}
+              <div class="form-group {% if field.field.field.required %}mandatory{% endif %} flex-container{% if not line.fields|length == 1 %} fieldBox{% if field.field.name %} field-{{ field.field.name }}{% endif %}{% if not field.is_readonly and field.errors %} errors{% endif %}{% if field.field.is_hidden %} hidden{% endif %}{% elif field.is_checkbox %} checkbox-row form-check{% endif %}">
+                {% if field.is_checkbox %}
+                  <div class="checkbox">
+                    {{ field|mazerango_label }}{{ field.field|mazerango_checkbox }}
+                  </div>
+                {% else %}
+                  {{ field|mazerango_label }}
+                  {% if field.is_readonly %}
+                    <div class="readonly">{{ field.contents }}</div>
+                  {% else %}
+                    {{ field.field|mazerango_class:"form-control" }}
+                  {% endif %}
+                {% endif %}
+              </div>
+            {% if field.field.help_text %}
+              <div class="help"{% if field.field.id_for_label %} id="{{ field.field.id_for_label }}_helptext"{% endif %}>
+                <div>{{ field.field.help_text|safe }}</div>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+        {% if line.fields|length == 1 %}{{ line.errors }}{% else %}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</fieldset>
