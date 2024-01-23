@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bios0032utils
+Version: 0.1.1
+Summary: Utilities for BIOS0032 AI4Environment colab notebooks
+License: MIT
+Author-email: Santiago Martinez <santiago.balvanera.20@ucl.ac.uk>,Omiros Pantazis <omiros.pantazis.16@ucl.ac.uk>,Kate Jones <kate.e.jones@ucl.ac.uk>
+Requires-Python: >=3.8
+Project-URL: Bug Tracker, https://github.com/MScEcologyAndDataScienceUCL/BIOS0032_AI4Environment/issues
+Project-URL: Homepage, https://github.com/MScEcologyAndDataScienceUCL/BIOS0032_AI4Environment
