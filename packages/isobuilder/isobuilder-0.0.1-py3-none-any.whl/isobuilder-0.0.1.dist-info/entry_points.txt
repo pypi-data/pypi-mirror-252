@@ -1,0 +1,2 @@
+[console_scripts]
+dnsops-deploy = isobuilder.cli:main

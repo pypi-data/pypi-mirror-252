@@ -1,0 +1,8 @@
+isobuilder/__init__.py,sha256=8IbKfCea6XNmdnmU6cqL7H_14RNJBAWvJNb87RnXJtk,5866
+isobuilder/cli.py,sha256=5LZWSWwsP4lAKrLcNodhn-K7KoKou5qIS4uEGhEij9c,3911
+isobuilder/constants.py,sha256=qlh60ix3-q3qS-xg28YRRIaisOW6at48FM-PcsfzsdQ,4989
+isobuilder-0.0.1.dist-info/METADATA,sha256=f2Ur5M8pl-MHFmX7-TFNTQ3umFzXJDuX2CuAS5a7u8I,189
+isobuilder-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+isobuilder-0.0.1.dist-info/entry_points.txt,sha256=87zUG1ns98hNXrgjU7MiHg-QlaHJDMFnMz_zMsZq1SA,54
+isobuilder-0.0.1.dist-info/licenses/LICENCE,sha256=36uWgnQZDf2f5WIXPHzUfEcFT4G31_UwCJNG2wfrQOY,546
+isobuilder-0.0.1.dist-info/RECORD,,
