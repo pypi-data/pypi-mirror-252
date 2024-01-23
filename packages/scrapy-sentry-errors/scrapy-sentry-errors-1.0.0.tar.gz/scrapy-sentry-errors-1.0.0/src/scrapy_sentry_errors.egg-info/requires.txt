@@ -1,0 +1,2 @@
+scrapy>=2.5
+sentry-sdk>=1.0.0
