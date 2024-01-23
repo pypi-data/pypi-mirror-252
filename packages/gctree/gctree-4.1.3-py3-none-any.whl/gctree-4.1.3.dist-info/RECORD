@@ -1,0 +1,17 @@
+gctree/__init__.py,sha256=gkJiD0rzVK8ucg7BRE5ZfW3sjYgM-Gcv-AuaUNus0F8,146
+gctree/_version.py,sha256=iWUyLgrA-MGEhAl_6azxK0akioJqAvO8hPuqjYAOaG8,497
+gctree/branching_processes.py,sha256=9fFEB_CONFBbFVrb29CZ4mQ9PUgeupD5GroqREEaUGk,82301
+gctree/cli.py,sha256=TjxSM1I7PXexOn3pRon9SxJ_BtU54kyMnutjMliksss,25814
+gctree/deduplicate.py,sha256=HHTpwOYP3YLrmFXzwl9Ti5vbcKAfMm5wccdPDEdpx4Q,7706
+gctree/isotype.py,sha256=YLFqY5OjxHpfkN5tdkX8tglbPcyQtgQPLk1iW6bHIqs,7370
+gctree/isotyping.py,sha256=oIaCalQwItTbuQgZLgfSwJHHJfy_eW73c1eCIy8K6SM,20657
+gctree/mkconfig.py,sha256=1kd-qEt2doMgtsXDzFX8UpOZR-KBBadoSsZ-tbTsD4o,2371
+gctree/mutation_model.py,sha256=XK6kecUhx75MoGNiBy2-ScT3g8VhMV1CP5Uza6V3Svo,23078
+gctree/phylip_parse.py,sha256=PDuSFHWDX3Yb0eO6ZYh6AkKRBdhlOXwDskGs-VczS7U,11065
+gctree/utils.py,sha256=kErXiC8nTLmMJBvClpanJGZtvxak1X2Wm_N__0ImLKI,1158
+gctree-4.1.3.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+gctree-4.1.3.dist-info/METADATA,sha256=8VvefJkwrVxA_h_qbqjxJf36nQNIPPp5WuEwPpaU9Xc,1500
+gctree-4.1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gctree-4.1.3.dist-info/entry_points.txt,sha256=vTTwbnQM4_vBF_YLfEZd_t5SkZ0rQpqvvjHYTkXDixY,183
+gctree-4.1.3.dist-info/top_level.txt,sha256=RP4tesCN0iQMfShQ9QHa0YvlcnLUTPDA-WerAS5udcE,7
+gctree-4.1.3.dist-info/RECORD,,
