@@ -1,0 +1,5 @@
+numpy>=1.15
+scipy>=1.0
+tqdm>=4.56
+joblib>=0.12
+nibabel>=2.4

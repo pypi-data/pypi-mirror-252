@@ -1,0 +1,2 @@
+[console_scripts]
+autodmri_get_distribution = autodmri.scripts:main
