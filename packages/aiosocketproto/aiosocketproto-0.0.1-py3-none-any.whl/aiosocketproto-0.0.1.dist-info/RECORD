@@ -1,0 +1,14 @@
+src/__init__.py,sha256=jb6VKzbSGR-Ws9itVR3NQacaKRS5rrLRynHXkdzRQzI,152
+src/client/__init__.py,sha256=r9Of79SFiXnKFFM5T9pXT88uhXBZzxzJZYPCFbGIQ8k,37
+src/client/client.py,sha256=dFlGPFG4Ip3H0078uXtHgglcfzYp2i1EVLM8mG1vIOw,497
+src/client/methods.py,sha256=TGj5LI7ee-wnPvtmUiPxR17Abqeh5Xxz_DfXeW4h9y4,2659
+src/client/processor.py,sha256=Er9WJDYHCMIRYwXs1lVYzwlrxrZ9GCWkqtYxHBHtNvo,1943
+src/client/serializer.py,sha256=cAcZxGVwJ0dqkhmar2X-AIsHMFyJ-NVdG6c6Kpsb_OQ,3781
+src/server/__init__.py,sha256=JU18K5Ifh214EFrMnjwpFfIlyRZoTshWSbGSNSd1HAY,37
+src/server/processor.py,sha256=RDjx8NUUNiRIHaeVy0lzUEF9Z5ma1VBhnj2jgfzjpwg,845
+src/server/server.py,sha256=DTRFwwtltG10HDMjCgm_xlEOGh1t8VNAopQUKTn1vvI,1539
+aiosocketproto-0.0.1.dist-info/LICENSE,sha256=dbs1fhgtX-mb929RUbIiTuYyVpYMHJLrkk5qtCSc_lk,1065
+aiosocketproto-0.0.1.dist-info/METADATA,sha256=9q5k4L874maBk4hBEgFH4nb1Fj9aoycQZSPH-uQtG5g,455
+aiosocketproto-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aiosocketproto-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+aiosocketproto-0.0.1.dist-info/RECORD,,
