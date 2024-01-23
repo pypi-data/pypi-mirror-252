@@ -1,0 +1,28 @@
+from sym.sdk.annotations import reducer
+from sym.sdk.integrations import slack
+from sym.sdk.request_permission import PermissionLevel, RequestPermission
+from sym.sdk.notifications import Notification
+
+
+# Reducers fill in the blanks that your workflow needs in order to run.
+# For more information, please see https://docs.symops.com/docs/reducers
+@reducer
+def get_permissions(event):
+    """Decide who can see and take actions on requests."""
+    return RequestPermission(
+        # Only admins can see requests in the Sym web app.
+        webapp_view=PermissionLevel.ADMIN,
+        # Only admins can approve or deny requests, or revoke access.
+        approve_deny=PermissionLevel.ADMIN,
+        # Users can approve their own requests. This is great for testing!
+        allow_self_approval=True
+    )
+
+
+@reducer
+def get_request_notifications(event):
+    """Send notifications about new requests to Slack."""
+    return [
+        # Make sure that this channel has been created in your Slack workspace!
+        Notification(destinations=[slack.channel("#sym-requests")])
+    ]
