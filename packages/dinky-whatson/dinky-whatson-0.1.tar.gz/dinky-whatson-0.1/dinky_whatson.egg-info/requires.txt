@@ -1,0 +1,8 @@
+dinky
+pluggy
+Pillow
+requests
+beautifulsoup4
+
+[test]
+pytest
