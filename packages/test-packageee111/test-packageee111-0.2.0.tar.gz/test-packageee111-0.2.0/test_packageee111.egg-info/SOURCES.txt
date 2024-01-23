@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_pack/__init__.py
+test_pack/core/__init__.py
+test_pack/core/coree.py
+test_pack/utils/__init__.py
+test_pack/utils/utilss.py
+test_packageee111.egg-info/PKG-INFO
+test_packageee111.egg-info/SOURCES.txt
+test_packageee111.egg-info/dependency_links.txt
+test_packageee111.egg-info/requires.txt
+test_packageee111.egg-info/top_level.txt
