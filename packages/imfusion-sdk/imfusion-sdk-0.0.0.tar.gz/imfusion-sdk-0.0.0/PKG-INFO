@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: imfusion-sdk
+Version: 0.0.0
+Author: ImFusion GmbH
+Author-email: info@imfusion.com
+Project-URL: Company Home Page, https://www.imfusion.com
+Requires-Python: >=3.7, <4
