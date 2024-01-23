@@ -1,0 +1,7 @@
+haystack_integrations/components/embedders/jina/__init__.py,sha256=flVXn_XMmuaMTUR9Arf1mxgCQEzrbqeOQFIefraxvqs,262
+haystack_integrations/components/embedders/jina/document_embedder.py,sha256=2vzhAby55E5EFxEESM5sGOlcrSQs72kQ-FPMPvO-qWI,6883
+haystack_integrations/components/embedders/jina/text_embedder.py,sha256=QVZc0pijD2uKaFxSc_OWKsJK18PMHgYefwvBmPqZfIg,3534
+jina_haystack-0.1.0.dist-info/METADATA,sha256=y1_2Nkeki2oG2pf_cpttekTRvTf-FcJGXJ5bn-t0sJw,1899
+jina_haystack-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+jina_haystack-0.1.0.dist-info/licenses/LICENSE.txt,sha256=OrAtTu4aPmrTjKDSTzkSPgo_ji6NOMWO2N9JOTFyAzM,11350
+jina_haystack-0.1.0.dist-info/RECORD,,
