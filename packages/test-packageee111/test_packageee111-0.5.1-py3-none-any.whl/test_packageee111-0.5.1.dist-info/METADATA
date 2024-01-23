@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: test-packageee111
+Version: 0.5.1
+Summary: for pactice
+Author: practice1
+License-File: LICENSE
+Requires-Dist: numpy >=1.10
+Requires-Dist: pandas
+
