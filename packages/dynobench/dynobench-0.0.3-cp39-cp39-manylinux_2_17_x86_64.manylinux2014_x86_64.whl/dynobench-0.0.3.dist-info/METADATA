@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dynobench
+Version: 0.0.3
+Summary: C++/Python Dynamics Models
+Author: Joaquim Ortiz-Haro
+Author-email: quimortiz21@gmail.com
+License-File: LICENSE
+
