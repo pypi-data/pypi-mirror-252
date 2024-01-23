@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: td_first
+Version: 0.1
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: Tanya Dewland
+Author-email: tanya.dewland@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: #Your Package Name
+        
+        td_first
+        
+        #Installation
+        
+        You can install the package using pip
+        
+Platform: UNKNOWN

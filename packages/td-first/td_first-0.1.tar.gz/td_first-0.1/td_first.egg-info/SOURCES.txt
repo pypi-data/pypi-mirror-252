@@ -1,0 +1,12 @@
+README.md
+setup.py
+dewland_stat_distributions/__init__.py
+td_first/Binomialdistribution.py
+td_first/Gaussiandistribution.py
+td_first/Generaldistribution.py
+td_first/__init__.py
+td_first.egg-info/PKG-INFO
+td_first.egg-info/SOURCES.txt
+td_first.egg-info/dependency_links.txt
+td_first.egg-info/not-zip-safe
+td_first.egg-info/top_level.txt
