@@ -1,0 +1,8 @@
+krules_companion_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krules_companion_client/commands.py,sha256=1BT1oZYu4qiYcFKrAPO_OtoPbFw4ETQMldv9XJy_lZo,13837
+krules_companion_client/http/__init__.py,sha256=fdpwovQG0dSj-vgBmXc1exNNr9qfS5KkJZoHlvi4pa4,3100
+krules_companion_client/models.py,sha256=WfhGS_1ikLwHVQm412duvpYSKtjAUcaDo3IHfnJx5OM,1140
+krules_companion_client-0.8.dist-info/METADATA,sha256=MBKEzo1a_qjN7mT6NtR6jJTkxanh8AR2nHSStfU4c0I,675
+krules_companion_client-0.8.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+krules_companion_client-0.8.dist-info/entry_points.txt,sha256=EvVjWm9JillN4ewwduw1EuqrBZjLE5jSF05oBAyGB4w,60
+krules_companion_client-0.8.dist-info/RECORD,,
