@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: cwms-python
+Version: 0.1.0
+Summary: Corps water managerment systems (CWMS) REST API for Data Retrieval of USACE water data
+Home-page: https://github.com/HydrologicEngineeringCenter/cwms-python
+Author: Eric Novotny
+Maintainer-email: Eric Novotny <eric.v.novotny@usace.army.mil>
+Project-URL: homepage, https://github.com/HydrologicEngineeringCenter/cwms-python
+Project-URL: repository, https://github.com/HydrologicEngineeringCenter/cwms-python.git
+Keywords: USACE,water data
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests_toolbelt
+Requires-Dist: requests
+Requires-Dist: pandas
+Provides-Extra: test
+Requires-Dist: pytest>5.0.0; extra == "test"
+Requires-Dist: pytest-cov[all]; extra == "test"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+
+# CWMSpy
+CWMS REST API for Data Retrieval
+
+## Requirements.
+
+Python 3.8+
+
+## Installation & Usage
+### pip install
+
+If the python package is hosted on Github, you can install directly from Github
+
+```sh
+pip install git+https://github.com/HydrologicEngineeringCenter/cwms-python.git
+```
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/HydrologicEngineeringCenter/cwms-python.git`)
+
+Then import the package:
+```python
+from CWMS import CWMS
+```
+
+## Getting Started
+
+Please follow the [installation procedure](#installation--usage) and then run the following:
+
+```python
+from CWMS import CWMS
+from datetime import datetime, timedelta
+
+apiRoot = 'CDA url to connect to'
+
+cwms = CWMS()
+cwms.connect(apiRoot)
+
+
+end = datetime.now()
+start = end - timedelta(days = 10)
+df cwms.retrieve_ts(p_tsId='Some.Fully.Qualified.Ts.Id',p_start_date = start, p_end_date = end)
+ts_df.head()
+```
+```
+date-time	value	quality-code
+0	2023-12-25 06:00:00	1432.82	0
+1	2023-12-28 06:00:00	1432.86	0
+2	2023-12-29 06:00:00	1432.92	0
+3	2023-12-30 06:00:00	1432.92	0
+4	2023-12-31 06:00:00	1432.91	0
+```

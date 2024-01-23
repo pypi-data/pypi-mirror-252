@@ -1,0 +1,10 @@
+requests_toolbelt
+requests
+pandas
+
+[doc]
+sphinx
+
+[test]
+pytest>5.0.0
+pytest-cov[all]
