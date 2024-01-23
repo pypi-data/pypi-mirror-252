@@ -1,0 +1,9 @@
+seq2seqdistill/distill.py,sha256=fEwmGC7nOph_ZzxloZltbnhz2IuFrH-mKdnEI50Jvu4,1785
+seq2seqdistill/main.py,sha256=JEdhZWT3iAVVl5CG83ds8ee9OC-tN4TbeyUzAQCXgX0,3043
+seq2seqdistill/seq2seq_distill_trainer.py,sha256=EnIOW1cpAn0FdH0messOZ945Xj-3iIs9hwQEE50hp-U,8259
+seq2seqdistill/utils.py,sha256=_2Yf8kcQ5fjbvhMSSGiU-NHEqD1mtfBpqowuIH1q1IM,3715
+seq2seqdistill-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+seq2seqdistill-0.1.3.dist-info/METADATA,sha256=Lj-ScVaSxI_bQeyH40SV3TW5haXX30TfjsK9p3QTagw,81
+seq2seqdistill-0.1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+seq2seqdistill-0.1.3.dist-info/top_level.txt,sha256=On7-rnekk30ItPmUHM6KuYSTn5ShS8Ix46Sd0WoBoWQ,15
+seq2seqdistill-0.1.3.dist-info/RECORD,,
