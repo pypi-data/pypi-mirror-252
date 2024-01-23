@@ -1,0 +1,2 @@
+[console_scripts]
+message_on_change = cli
