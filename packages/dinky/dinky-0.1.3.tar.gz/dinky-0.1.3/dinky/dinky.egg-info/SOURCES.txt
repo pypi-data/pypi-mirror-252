@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+dinky/dinky.egg-info/PKG-INFO
+dinky/dinky.egg-info/SOURCES.txt
+dinky/dinky.egg-info/dependency_links.txt
+dinky/dinky.egg-info/requires.txt
+dinky/dinky.egg-info/top_level.txt
+tests/test_column_grid_layout.py
+tests/test_dashboard_manager.py
+tests/test_display_configuration.py
+tests/test_fullscreen_layout.py
+tests/test_grid_layout.py
+tests/test_layout_configuration.py
