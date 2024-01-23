@@ -1,0 +1,6 @@
+pyproject.toml
+veg/__init__.py
+veg.egg-info/PKG-INFO
+veg.egg-info/SOURCES.txt
+veg.egg-info/dependency_links.txt
+veg.egg-info/top_level.txt
