@@ -1,0 +1,32 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.31.0"
+    }
+    kubectl = {
+      source  = "gavinbunney/kubectl"
+      version = "1.14.0"
+    }
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
+      version = "2.24.0"
+    }
+    helm = {
+      source  = "hashicorp/helm"
+      version = "2.10.1"
+    }
+  }
+  backend "s3" {
+    bucket         = "{{ terraform_state_bucket_name }}"
+    dynamodb_table = "{{ terraform_state_lock_dynamodb_table_name }}"
+    key            = "terraform.tfstate"
+    region         = "us-east-2"
+    profile        = "{{ aws_profile }}"
+  }
+}
+
+provider "aws" {
+  region  = var.aws_region
+  profile = var.aws_profile
+}
