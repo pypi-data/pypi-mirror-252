@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: trainingutils
+Version: 0.0.2
+Summary: Training tools for Deep Learning
+Author: Michael-Holland-Dev (Michael Holland)
+Author-email: <michael.w.holland@gmail.com>
+Keywords: artificial intellgience,machine learning,computer vision,deep learning
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: matplotlib
+Requires-Dist: diffusers
+Requires-Dist: tqdm
+
+
+# Training Utilities
+## Installation
+This package is available on PIPY to install using the following command:
+```
+pip install trainingutils
+```
+
+## About
+This package is built to streamline the training process. It contains functionality to assist with training, setting up models, and other types of functionality. It's target audience are people who want a high-level api to train various models without having to worry about all the nitty-gritty parts of saving figures, checkpointing, parallel processing, and provides a few different apis for the different kinds of deep learning models that are popular.
+
+As this is a fairly new package, it is not yet comprehensive. If it gains enough popularity it could allow for the greater integration of ML and DL models into modern day software.
+
+## Contributing
+If you would like to contribute to building this package, make a fork of this repository. Once you've made your changes you can create a merge request. This package is in it's preliminary stages, so there is a lot of work to be done.
