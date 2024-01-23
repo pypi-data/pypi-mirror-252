@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ssl_expiry_monitor
+Version: 0.1.0
+Summary: Lambda Function (Script) to Report on hosts SSL expiry
+License: MPL-2.0
+Author: johnpreston
+Author-email: john@compose-x.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: compose-x-common (>=1.2.12,<2.0.0)
+Requires-Dist: pyopenssl (>=23.1.1,<24.0.0)
+Description-Content-Type: text/x-rst
+
+==================
+SSL Expiry Monitor
+==================
+
+
+.. image:: https://img.shields.io/pypi/v/ssl_expiry_monitor.svg
+        :target: https://pypi.python.org/pypi/ssl_expiry_monitor
+
+Function (Script) to measure and report on hosts SSL expiry.
+
+Bundles with an AWS Lambda Function to publish metrics to AWS CloudWatch.
+This allows to create alarms based on the certificate expiry date and take action.
+
