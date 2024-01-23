@@ -1,0 +1,14 @@
+twofas/__about__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+twofas/__init__.py,sha256=-Z1rfYgJf3hZupfdjjw5xQbxZqbSGEfUSQ6Uu4Y2H5M,61
+twofas/_security.py,sha256=vOJbmbb4wRErrMTibv2fMA65QqUxVHAWI5CPbRiRA7Q,4713
+twofas/_types.py,sha256=7I2hDj4phOT1fV0Am5vW1OmUYy5Fi2RsHF-ECR15jKQ,1842
+twofas/cli.py,sha256=sEza-n3ygOHZYiIvXlGGJJ-PA_4FZJ8k1o2NcUXWCp4,6651
+twofas/cli_settings.py,sha256=-S49cxgS35E3QKf19o6I_kY7limk-J0MdOhHsyMF_Dw,1337
+twofas/core.py,sha256=fd4262nUf0KLULKGRW3GcWP7xq2EKUp403KQrqks0y4,4494
+twofas/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twofas/utils.py,sha256=OEGsmjZFSmKbbrbPI_GwIeUYqdlHQ0nK8DxMTzE6gXE,285
+2fas-0.0.0.dist-info/METADATA,sha256=WCFcMIPgJMugWzZ_5RbjRGsp3Yfhs0KQsM89z2kADs0,1242
+2fas-0.0.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+2fas-0.0.0.dist-info/entry_points.txt,sha256=negTVqjaIuOyGp8thLEJFL6Wk2p6-UUunWSUA6phVB4,40
+2fas-0.0.0.dist-info/licenses/LICENSE,sha256=vZFItjo49KYGXUHjBEQCtLtb_ohz0Pw86zCPlqMviMA,1062
+2fas-0.0.0.dist-info/RECORD,,
