@@ -1,0 +1,10 @@
+pyautogui
+Pillow
+pytesseract
+Levenshtein
+opencv-python
+numpy
+mss
+
+[test]
+pytest>5.0.0
