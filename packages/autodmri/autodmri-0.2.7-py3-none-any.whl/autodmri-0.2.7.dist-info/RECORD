@@ -1,0 +1,11 @@
+autodmri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodmri/blocks.py,sha256=7oVdhEdFo4wNvssTsj5kAnUS3EZcbRipTaMfysLomzE,4005
+autodmri/estimator.py,sha256=HZRyUuWdcdrhoQgJXc9Ge1J_D5rX88XNffsKopYSF-8,9812
+autodmri/gamma.py,sha256=NXMT6lnkbNckEsNs8LlkccKDf31UiXq3SXwsvK491Ts,2378
+autodmri/scripts.py,sha256=BILeuh_-aK6ZiKt59EHrKr5sdX-cXHa_aOcQhc4TC-A,7329
+autodmri-0.2.7.dist-info/LICENSE,sha256=iTH-dLztpzpLaEqhio8SKffWJvGV8Apt8SDLagtBsbs,1071
+autodmri-0.2.7.dist-info/METADATA,sha256=2kKApe61brcsteIwWFi8T8LjDrQhHe5csMFeFzGOLlg,3059
+autodmri-0.2.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+autodmri-0.2.7.dist-info/entry_points.txt,sha256=0bYJD1t1zz1G4z77PtOPJhuH5gxDfNm_ZfP0hoLqbWc,68
+autodmri-0.2.7.dist-info/top_level.txt,sha256=cg_hrw4dzZh5tL2FSEH9HGNyHa_dbitbNEuBLhUdnDo,9
+autodmri-0.2.7.dist-info/RECORD,,
