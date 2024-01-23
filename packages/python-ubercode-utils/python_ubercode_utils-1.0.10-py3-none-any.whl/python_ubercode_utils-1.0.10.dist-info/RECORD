@@ -1,0 +1,14 @@
+ubercode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubercode/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubercode/utils/convert.py,sha256=HDGbHHZ4pAeMAgFCOlcBas03BvR4UnIl4X2T0korWno,10011
+ubercode/utils/cursor.py,sha256=zHqbmUavCF0l7ck_Tu4PfgSzRO762ULKHYsnqa3r0uY,1118
+ubercode/utils/data.py,sha256=S9lc5cHqc1I-zZ1x3tjG7FEcPqkUUxpGuFfZe48BoXc,4437
+ubercode/utils/dataframe.py,sha256=JLeTj401KuiF0LZax-DnYChKNArvlhRkX6cOInRELmE,870
+ubercode/utils/environment.py,sha256=jblV5_1V58lkiiB44T-Bt39tMPyyKzmCiR1xgmjRXhQ,10854
+ubercode/utils/logging.py,sha256=e35pXVFN-rNNK3Lg6rM4DB9DHS-91MIBHq03AOAuRUs,9199
+ubercode/utils/urls.py,sha256=PaksDHVg_aSXEqcN4SlLgY-erqeMCNw8mYK9qt3q05I,9652
+python_ubercode_utils-1.0.10.dist-info/LICENSE,sha256=lch0WEJaqJY3C5aCYSr0u6Gw0set96a2fp9ZWJRYuR8,1069
+python_ubercode_utils-1.0.10.dist-info/METADATA,sha256=Tjrz8BIlIFKL35ZLuhcxEn_wLsGFVOLEp01Otmh_F8s,1224
+python_ubercode_utils-1.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_ubercode_utils-1.0.10.dist-info/top_level.txt,sha256=5BojzbvNCpPkFXcVQVr7cfovhbYQYAlMKgiHSMgi7VU,9
+python_ubercode_utils-1.0.10.dist-info/RECORD,,
