@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zxshare
+Version: 0.0.1
+Author: wmt
+Author-email: wmt_0814@foxmail.com
+License: apache 3.0
+Requires: pandas
+Requires: json
+Requires: requests
+
