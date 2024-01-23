@@ -1,0 +1,156 @@
+#!/usr/bin/env python3
+
+# to override print <= can be a big problem with exceptions
+#
+# colors in df_table _fg _bg columns:
+# see    https://github.com/mixmastamyk/console/blob/master/console/color_tables_x11.py#L112
+#
+from __future__ import print_function # must be 1st
+import builtins
+
+import sys
+
+from fire import Fire
+
+from codeframe.version import __version__
+# from codeframe import unitname
+from codeframe import config
+
+
+from codeframe  import topbar
+from codeframe  import key_enter
+from codeframe  import installation
+#from codeframe  import df_table
+from codeframe.df_table import create_dummy_df,  show_table, inc_dummy_df, move_cursor
+
+import time
+import datetime as dt
+from console import fg,bg,fx
+
+
+import os
+from pyfiglet import Figlet
+
+import signal
+
+import pandas as pd
+import numpy as np
+from terminaltables import SingleTable
+
+#------- this defended the project from winch error
+#from simple_term_menu import TerminalMenu
+
+def handle_sigwinch(signum: signal.Signals, qqq):
+    # pylint: disable=unused-argument
+    #print(type(qqq), qqq)
+    return None
+
+# ----this DOES IT
+signal.signal(signal.SIGWINCH, handle_sigwinch)
+
+
+def main(cmd = None, debug=False):
+    ''' Main function of the project
+    '''
+
+    # GLobal clear terminal
+
+    #======== DEFINE THE CONFIG FILE HERE ========
+
+    config.CONFIG['filename'] = "~/.config/codeframe/cfg.json" # redefine actually
+    # solely LOAD will create ....from_memory files
+    # config.load_config()
+    # solely  SAVE will create cfg.json only
+    # config.save_config()
+
+    if cmd is None:
+        print()
+    elif cmd == "usage":
+        print(''' ... usage:
+        	 _
+        ''')
+        sys.exit(0)
+    #----------------------- installation with this name ----------
+    else:
+        installation.main( cmd)
+        sys.exit(0)
+
+
+    # ===================== top bar and keyboard ==========
+
+    top = topbar.Topbar( bgcolor = bg.blue)
+    top2 = top.add( bgcolor = bg.black)
+
+    termsize = os.get_terminal_size().columns
+
+    top.print_to(  10, f" {fg.white}{fx.bold}{dt.datetime.now().strftime('%H:%M:%S')}{fx.default}{fg.default} ")
+    top.place()
+    # start after top
+
+
+    # FRONT PAGE =============================
+    f = Figlet(font='slant')
+    word = ' codeframe'
+    os.system('reset')
+    print("\n\n")
+    print(f.renderText(word))
+    print(f"installation: do you want to install me?... Run me with your  {fg.green}'projectname'{fg.default} as a parameter")
+    print("do you want to quit    me? (q)")
+    print(f"    terminal width = {termsize} ")
+
+    enter = False
+    key = None
+    a,b = (" "," ")
+
+    # KEYTHREAD THIS MUST BE HERE.....toi catch 1st letter
+    kthread = key_enter.KeyboardThreadSsh(ending="q")
+    df = create_dummy_df()
+    selection = None
+    while True: # ================================= LOOP
+
+
+        #time.sleep(0.05)
+        move_cursor(15,99)
+        show_table( df , selection)
+        df = inc_dummy_df(df)
+
+        key,enter,abc = kthread.get_global_key()
+        (a,b) = abc # unpack tuple
+
+
+        if enter:
+            print()
+            print("--------------------------------------ENTER pressed")
+            if len(key.strip())==0:
+                pass
+            elif key.strip()=="q":
+                break
+            else:
+                cmd = key.strip()
+                # assume whole word is list of rows:
+                if selection is not None and selection !="":
+                    selection = ""
+                else:
+                    selection = cmd
+            print(f"----------------------- {cmd} --------------------- ***")
+        else:
+            cmd = ""
+
+        arg = ""
+
+        termsize = os.get_terminal_size().columns
+        top.print_to(  10, f" {fg.white}{fx.bold}{dt.datetime.now().strftime('%H:%M:%S')}{fx.default}{fg.default}")
+
+        if key is not None and len(key)==0:
+            top2.print_to( 0, f"{fg.cyan}{bg.black}{' '*termsize}{bg.black}")
+        else:
+            top2.print_to( 0, f"{fg.white}{bg.red} > {fx.bold}{a}{fg.yellow}_{fg.white}{b}{fx.default}{fg.default}{bg.default} ")
+
+        # PLACE THE TOPBAR INPLACE
+        top.place()
+        time.sleep(0.4)
+
+#====================================================================
+
+if __name__=="__main__":
+    Fire(main)
