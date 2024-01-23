@@ -1,0 +1,6 @@
+setup.py
+en_carbon.egg-info/PKG-INFO
+en_carbon.egg-info/SOURCES.txt
+en_carbon.egg-info/dependency_links.txt
+en_carbon.egg-info/requires.txt
+en_carbon.egg-info/top_level.txt
