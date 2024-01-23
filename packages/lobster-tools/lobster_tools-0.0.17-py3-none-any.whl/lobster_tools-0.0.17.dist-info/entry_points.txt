@@ -1,0 +1,9 @@
+[console_scripts]
+arctic = lobster_tools.arctic_cli:arctic
+etf = lobster_tools.arctic_cli:etf
+get_sample_data = lobster_tools.data_downloading:get_sample_data
+hydra_cli = lobster_tools.experiments:hydra_cli
+pfmt = lobster_tools.arctic_cli:pfmt
+
+[nbdev]
+lobster_tools = lobster_tools._modidx:d
