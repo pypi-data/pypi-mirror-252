@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tuxgo
+Version: 0a0
+Author-email: Wojtek Porczyk <woju@hackerspace.pl>
+License-File: COPYING
+Requires-Dist: Flask
+Requires-Dist: Werkzeug
+Requires-Dist: click
+Requires-Dist: click-default-group
+Requires-Dist: funcparserlib
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: pygame
+Requires-Dist: bleak
+Requires-Dist: loguru

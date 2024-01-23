@@ -1,0 +1,10 @@
+Flask
+Werkzeug
+click
+click-default-group
+funcparserlib
+matplotlib
+opencv-python
+pygame
+bleak
+loguru

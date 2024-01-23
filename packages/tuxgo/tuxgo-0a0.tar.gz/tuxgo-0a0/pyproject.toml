@@ -1,0 +1,36 @@
+[build-system]
+requires = ['setuptools>=66']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'tuxgo'
+version = '0a0'
+authors = [
+    { name = 'Wojtek Porczyk', email = 'woju@hackerspace.pl' },
+]
+dependencies = [
+    'Flask',
+    'Werkzeug',
+    'click',
+    'click-default-group',
+    'funcparserlib',
+    'matplotlib',
+    'opencv-python',
+    'pygame',
+    'bleak',
+    'loguru',
+#   'tomli',
+]
+
+[tool.setuptools.packages.find]
+where = ['.']
+include = ['tuxgo', 'tuxgo.*']
+
+[tool.mypy]
+
+[tool.pytest.ini_options]
+testpaths = [
+    'tests',
+]
+
+# vim: tw=80 ts=4 sts=4 sw=4 et
