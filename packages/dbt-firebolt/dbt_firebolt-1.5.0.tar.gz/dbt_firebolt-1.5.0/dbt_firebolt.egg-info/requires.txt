@@ -1,0 +1,9 @@
+dbt-core~=1.5
+firebolt-sdk>=1.1.0
+
+[dev]
+allure-pytest==2.*
+dbt-tests-adapter~=1.5
+mypy==1.4.1
+pre-commit==2.15.0
+pytest==7.*
