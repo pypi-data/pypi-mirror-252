@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+txtsplit/__init__.py
+txtsplit.egg-info/PKG-INFO
+txtsplit.egg-info/SOURCES.txt
+txtsplit.egg-info/dependency_links.txt
+txtsplit.egg-info/top_level.txt
