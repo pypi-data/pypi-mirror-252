@@ -1,0 +1,10 @@
+chessbot/__init__.py,sha256=sNNsTk0AVk6EzuikjILS91c9AsVWeIxQku63qvwVBxI,11448
+chessbot/database.py,sha256=4ZhzfSvUS7JGlmnASFxUB-KjOviLMwxvy352yXrC0QA,3210
+chessbot/get_refresh_token.py,sha256=7ZQhSQ01q8ewWB8jMfHHtUlPhkO7P235Qb_g0KuOtOM,1652
+chessbot/moves.py,sha256=0dDYs7ypBxTXdv-VLewbVTpiBnLJuIT0ulY00WV9Hb8,3258
+chessbot-0.1.0.dist-info/LICENSE,sha256=NSo9bObOqJR4gmkB6-Fm7F6wWRZLwTYOTNtSssBEE3g,1063
+chessbot-0.1.0.dist-info/METADATA,sha256=SmPWzvVFzf2UBPbX5qMZnlrQK4Y5ilB-z_izIVjzeSo,3374
+chessbot-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chessbot-0.1.0.dist-info/entry_points.txt,sha256=y4gb4qCz__67Ya5RCFqX7oZ_i3njaa5MMFkvGwr3OEE,43
+chessbot-0.1.0.dist-info/top_level.txt,sha256=6Rx_s913ef0dGluPLE1-0AsT-Ra8-7_wCoh5tn9DjiY,9
+chessbot-0.1.0.dist-info/RECORD,,
