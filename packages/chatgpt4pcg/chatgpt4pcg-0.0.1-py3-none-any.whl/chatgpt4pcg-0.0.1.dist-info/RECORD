@@ -1,0 +1,11 @@
+chatgpt4pcg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt4pcg/competition.py,sha256=FY4fRKvpyUWxT3b1Cuwqh_9xeoFktIAUoJxZ8P7c7qg,4820
+chatgpt4pcg/utils.py,sha256=bL8NsLi_AClOF1V6zzc2of3rviZPD9AyE14baG2Owrk,182
+chatgpt4pcg/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt4pcg/models/trial_context.py,sha256=9vLNrKRWuOIlI6u8MeqSaaaljhqLx_izgk78JTdr4_s,1649
+chatgpt4pcg/models/trial_loop.py,sha256=71TyvGaJmk9syNNHq-oqtxklnIBbka-sGjfsMHm_FAM,268
+chatgpt4pcg-0.0.1.dist-info/LICENSE,sha256=4-xBsKZKVLp3C8e8HbqPsx6i0zhcC8jFTCgVuKMndQY,1081
+chatgpt4pcg-0.0.1.dist-info/METADATA,sha256=MAruAILgiUTab16lCpdrWj_v24h9-Ok9nofwilM9Nls,4321
+chatgpt4pcg-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chatgpt4pcg-0.0.1.dist-info/top_level.txt,sha256=iWy1vNW10aIQ2rK8l5k7mL0iT_N_dDi3kiq6xcngp6Q,12
+chatgpt4pcg-0.0.1.dist-info/RECORD,,
