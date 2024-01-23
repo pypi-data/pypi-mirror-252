@@ -1,0 +1,17 @@
+metantic/__init__.py,sha256=nXWwQ9U07ZSKEafIsP4rZsNJlaXoUBYmUKxNzVMbdbY,209
+metantic/fields.py,sha256=RjEuYjKHBwcg2argJ2S2kdKDCYPnaFxP3pS3tyXrii4,226
+metantic/omit.py,sha256=dX5hPzdlpt5mM9-JZHy-77xO5UqSuKYJBykf_qmOicI,549
+metantic/partial.py,sha256=8s9HNzcHIiZSGlb5g2mxqvw8qPjVZtuZQcs61XUdXuU,459
+metantic/take.py,sha256=x1s0dPoilbWylANPJVtpR6jAfy4Cb7fwHKfaML2_zSQ,1892
+metantic/util.py,sha256=dt7YWB6U-3TBiMiM_ZaLa_g5cFIQYZ4kadD6fW098rY,1412
+metantic/fastapi/__init__.py,sha256=nwPMKwx8LsWduxA74r0G8gxiNWvp0W_-nNmZQHU8tok,35
+metantic/fastapi/deps.py,sha256=twFAQUgKJl2aRbhusDTNzfunQ7lNaO2Jq5XeuK_eCf4,1384
+metantic/paths/__init__.py,sha256=XaY512g3octZYmSxeqo58Ub_ml_QHG1KC3Dp5W2YMHw,126
+metantic/paths/_builder.py,sha256=ZRMwxu_UzDc-GpLiQXOsdt2qJjaoavdAuYUC_C1X5hk,4157
+metantic/paths/_str.py,sha256=Iu-9MNyNNFxfT7bJdi02uzJuCwT4aLAY7jS4DSgSgU8,124
+metantic/paths/_validate.py,sha256=O59Jxg4AJa6e4IBZ-aYZgGtAM20PvxTpiLjy6xNYowI,1469
+metantic/paths/path.py,sha256=3h6IgswaYgAt1yH0_76QucYM2tzeiL9EQEh61O8nuyU,572
+metantic-0.1.14.dist-info/METADATA,sha256=aaCA0ORSWQLqh5qYEoR2_cWDZBW9UXIBgp97Gqy4tT8,3066
+metantic-0.1.14.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+metantic-0.1.14.dist-info/top_level.txt,sha256=G6s-kWZBYD14xINHQ9fZ-xtKv06IA_8uZ2CSyh8GcuY,9
+metantic-0.1.14.dist-info/RECORD,,
