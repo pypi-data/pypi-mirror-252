@@ -1,0 +1,10 @@
+regopy.libs/libatomic-35750833.so.1.0.0,sha256=BCqeO1xqPzMTEAizjW7eIxYnhWB8XQvsxFoIxJmx_jE,31617
+regopy/node.py,sha256=KGSPd9I9xyfClLmnFqiFGga_DbPhuGPYrGv2VJButg4,8167
+regopy/interpreter.py,sha256=wVuoJ1Rt_BfmxPtZCedsaF3SLfUgmNlYUIqfXuGIly8,11776
+regopy/__init__.py,sha256=2PgE95Dbb1qoiefhrBwsTLBBvbWu7wNETw4XZQWW0fc,1494
+regopy/_regopy.pypy310-pp73-x86_64-linux-gnu.so,sha256=Gs7qZZE_80Q5AFv4zegl8AZr9oijf3VSwnV5DJ75wsw,17049425
+regopy/output.py,sha256=-AJrAet37ureHKkDasq66XXQu4CXpCGGYDNPtE4tPac,2578
+regopy-0.3.11.dist-info/WHEEL,sha256=3Y5qWT1hb5eppjOJHywCVkGE5nhDErnd4HkIuOfKfwk,166
+regopy-0.3.11.dist-info/RECORD,,
+regopy-0.3.11.dist-info/top_level.txt,sha256=i6OxiWeKwNaGc-SJQjFbDdGLG5kbOPYbOmFKORQ-ZmI,7
+regopy-0.3.11.dist-info/METADATA,sha256=coGJ_0o__hO4Wm649jLrUwDSrxFwaz9A0Vad1MdayYg,7879
