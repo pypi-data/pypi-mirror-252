@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dragonpg/__init__.py
+src/dragonpg/example.py
+src/dragonpg.egg-info/PKG-INFO
+src/dragonpg.egg-info/SOURCES.txt
+src/dragonpg.egg-info/dependency_links.txt
+src/dragonpg.egg-info/top_level.txt

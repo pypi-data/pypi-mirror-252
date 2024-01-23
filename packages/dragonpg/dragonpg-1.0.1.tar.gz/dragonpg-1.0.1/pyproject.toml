@@ -1,0 +1,17 @@
+[project]
+name = "dragonpg"
+version = "1.0.1"
+authors = [
+  { name="dragonpg", email="dragonpg@example.com" },
+]
+description = "pg dragon สล็อต คาสิโน บาคาร่า ครบจบในเว็บเดียว 24 ชั่วโมง"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/"
