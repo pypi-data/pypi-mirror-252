@@ -1,0 +1,12 @@
+zetch-0.0.1.dist-info/METADATA,sha256=2MoayRZ0wcTmbcL1R0C379w5mWpXj6g6EjLMCiYykm0,2667
+zetch-0.0.1.dist-info/WHEEL,sha256=SvrQkGlNv71rsCNhAI-Ptol-le_qpbxhuhjSjtAYojg,129
+zetch-0.0.1.dist-info/entry_points.txt,sha256=ddW50jd9uDESRgEec1XrE47jBEZPP-ryGehn_HAcWi0,38
+zetch-0.0.1.dist-info/license_files/LICENSE.etch.md,sha256=54RyWh8UVDKJBPcKC-uKmd2s0gEvGVWG5xP8pTc3Nb0,33
+zetch-0.0.1.dist-info/license_files/LICENSE.md,sha256=0sEuU501eVe5UKVKVHfDqfh70rPucHvnpNt62vWqzCs,1070
+zetch/rust-toolchain.toml,sha256=LOHB_l55pSQkydiNmfWiyV3PW09KgkMbueVxDPs54YQ,32
+zetch/__init__.pyi,sha256=ybb0_9oih55nKKW2bEHvMCTSLfkicKnQ5zrBCraoy3k,1115
+zetch/__init__.py,sha256=A5LPSJGQQ0dhZuJi6i98ouoGWbb3vg0Du2kWlrylQP8,460
+zetch/utils.pyi,sha256=TYNbLpjXy618lBOfagmGj9Gz7AQ0avWoCN9k0mh2hpc,186
+zetch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zetch/_rs.cpython-39-powerpc64le-linux-gnu.so,sha256=wF_-UJsvxI-A-wmSpkgEsjT8wUxq7NQVBi_YMr6WAtA,16270136
+zetch-0.0.1.dist-info/RECORD,,
