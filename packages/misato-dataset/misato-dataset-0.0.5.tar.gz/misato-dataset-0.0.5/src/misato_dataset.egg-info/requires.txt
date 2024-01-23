@@ -1,0 +1,10 @@
+matplotlib
+h5py
+pandas
+numpy
+torch
+torch_geometric
+torch_scatter
+torch_sparse
+pytorch-lightning
+joblib
