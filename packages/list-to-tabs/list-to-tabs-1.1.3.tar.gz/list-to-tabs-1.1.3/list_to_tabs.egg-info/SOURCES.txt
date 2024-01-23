@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+file_handler_dir/__init__.py
+file_handler_dir/file_handler.py
+list_to_tabs.egg-info/PKG-INFO
+list_to_tabs.egg-info/SOURCES.txt
+list_to_tabs.egg-info/dependency_links.txt
+list_to_tabs.egg-info/entry_points.txt
+list_to_tabs.egg-info/requires.txt
+list_to_tabs.egg-info/top_level.txt
+src/__init__.py
+src/main.py
