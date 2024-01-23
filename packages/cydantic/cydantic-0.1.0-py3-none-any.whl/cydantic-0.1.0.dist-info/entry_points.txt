@@ -1,0 +1,3 @@
+[console_scripts]
+cydantic=cydantic.main:main
+
