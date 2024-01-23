@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aircraft_classifiers_jme45"
+authors = [
+  { name="Jonathan Edge", email="j.edge@zoho.com" },
+]
+description = "A simple package for storing aircraft classifiers for training and prediction."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/jme45/aircraft_classifiers_jme45"
+Issues = "https://github.com/jme45/aircraft_classifiers_jme45/issues"
+
+[tool]
+
+[tool.hatch.version]
+path = "src/aircraft_classifiers_jme45/__about__.py"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
