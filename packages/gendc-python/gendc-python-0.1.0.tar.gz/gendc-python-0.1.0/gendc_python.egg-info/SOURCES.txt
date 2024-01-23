@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+gendc_python/__init__.py
+gendc_python.egg-info/PKG-INFO
+gendc_python.egg-info/SOURCES.txt
+gendc_python.egg-info/dependency_links.txt
+gendc_python.egg-info/top_level.txt
+gendc_python/gendc_separator/__init__.py
+gendc_python/gendc_separator/descriptor.py

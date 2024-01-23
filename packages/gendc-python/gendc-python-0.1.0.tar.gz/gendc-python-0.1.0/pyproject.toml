@@ -1,0 +1,31 @@
+[project]
+name = 'gendc-python'
+dynamic = ["version"]
+authors = [
+  { name="Momoko Kono", email="momoko.kono@fixstars.com" }
+]
+license =  {file = "LICENSE.txt"}
+description = "GenDC Python package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python"
+]
+
+[project.urls]
+Documentation = "https://sensing-dev.github.io/doc/"
+Repository = "https://github.com/Sensing-Dev/GenDC"
+Issues = "https://github.com/Sensing-Dev/GenDCt/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = []
+
+[tool.setuptools.dynamic]
+version = {attr = "gendc_python.__version__"}
+
