@@ -1,0 +1,16 @@
+httpx>=0.23.1
+
+[docs]
+Sphinx==7.2.2
+furo==2023.9.10
+
+[lint]
+ruff==0.1.11
+
+[test]
+pytest==7.4.0
+pytest-cov==4.1.0
+respx==0.20.1
+
+[typing]
+mypy==1.8.0
