@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ezdata
+Version: 0.0.8
+Summary: A simple base class for dataclasses
+Author-email: Asger Jon Vistisen <asgerjon2@gmail.com>
+Project-URL: Homepage, https://github.com/AsgerJon/ezdata
+Project-URL: Bug Tracker, https://github.com/AsgerJon/ezdata
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ezdata
+This module provides an abstract baseclass for primitive dataclasses
