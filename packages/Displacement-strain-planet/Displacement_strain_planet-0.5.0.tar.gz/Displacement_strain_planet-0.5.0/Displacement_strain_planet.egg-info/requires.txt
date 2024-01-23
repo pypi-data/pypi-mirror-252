@@ -1,0 +1,6 @@
+numpy
+matplotlib>=3.3
+sympy
+jupyter
+pyshtools>=4.9
+cmcrameri
