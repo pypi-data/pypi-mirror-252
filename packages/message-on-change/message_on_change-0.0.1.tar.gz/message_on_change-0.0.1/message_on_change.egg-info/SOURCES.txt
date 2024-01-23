@@ -1,0 +1,7 @@
+setup.py
+message_on_change.egg-info/PKG-INFO
+message_on_change.egg-info/SOURCES.txt
+message_on_change.egg-info/dependency_links.txt
+message_on_change.egg-info/entry_points.txt
+message_on_change.egg-info/requires.txt
+message_on_change.egg-info/top_level.txt
