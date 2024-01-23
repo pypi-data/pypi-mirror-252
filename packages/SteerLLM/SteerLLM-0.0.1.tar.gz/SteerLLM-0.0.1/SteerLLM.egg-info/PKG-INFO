@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: SteerLLM
+Version: 0.0.1
+Summary: Steer LLM responses towards a certain topic/subject or to enhance rule-play characteristics (ex: personas which are more funny) or to enhance response capabilities (ex: make it provide correct responses to tricky puzzles), using steering vectors by doing activation engineering
+Home-page: https://github.com/Mihaiii/SteerLLM
+Author: Mihai Chirculescu
+Author-email: apropodemine@gmail.com
+License-File: LICENSE
