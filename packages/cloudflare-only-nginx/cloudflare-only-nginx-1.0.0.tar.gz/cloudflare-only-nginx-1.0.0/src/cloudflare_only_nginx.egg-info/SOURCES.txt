@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/cloudflare_ips_reload.py
+src/cloudflare_only_nginx.egg-info/PKG-INFO
+src/cloudflare_only_nginx.egg-info/SOURCES.txt
+src/cloudflare_only_nginx.egg-info/dependency_links.txt
+src/cloudflare_only_nginx.egg-info/entry_points.txt
+src/cloudflare_only_nginx.egg-info/requires.txt
+src/cloudflare_only_nginx.egg-info/top_level.txt
