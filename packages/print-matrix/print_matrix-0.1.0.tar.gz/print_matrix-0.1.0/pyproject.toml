@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "print-matrix"
+version = "0.1.0"
+description = "Prints a list of strings in a matrix for easy viewing"
+authors = ["Caleb Crouse"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
