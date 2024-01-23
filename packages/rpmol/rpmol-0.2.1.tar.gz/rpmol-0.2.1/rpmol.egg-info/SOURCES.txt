@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rpmol/__init__.py
+rpmol/rpmol.py
+rpmol.egg-info/PKG-INFO
+rpmol.egg-info/SOURCES.txt
+rpmol.egg-info/dependency_links.txt
+rpmol.egg-info/entry_points.txt
+rpmol.egg-info/requires.txt
+rpmol.egg-info/top_level.txt
