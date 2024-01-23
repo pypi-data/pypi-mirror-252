@@ -1,0 +1,22 @@
+mirrors:
+  {%- if registry_mirrors %}
+  {%- for registry, mirror in registry_mirrors.items() %}
+  {{ registry }}:
+    endpoint:
+      - https://{{ mirror }}
+  {%- endfor %}
+  {%- else %}
+  {}
+  {%- endif %}
+configs:
+  {%- set docker_domains = ['docker.caching.proxy.internal', 'registry-1.docker.io', 'auth.docker.io'] %}
+  {%- set registries = ((registry_mirrors.values() | list) + (local_proxy_registries | list) + docker_domains) | unique | sort | list %}
+  {%- if registries %}
+  {%- for registry in registries %}
+  {{ registry }}:
+    tls:
+      insecure_skip_verify: true
+  {%- endfor %}
+  {%- else %}
+  {}
+  {%- endif %}

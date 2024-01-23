@@ -1,0 +1,103 @@
+version: "2.4"
+
+services:
+  k3s:
+    hostname: k3s.{{ docker_network_name }}
+    networks:
+      {{ docker_network_name }}:
+        aliases:
+          - k3s.{{ docker_network_name }}
+    image: {{ docker_io_mirror }}/diogenes1oliveira/k3s-local-docker:{{ version }}
+    privileged: true
+    restart: unless-stopped
+    {%- if shm_size %}
+    shm_size: {{ shm_size }}
+    {%- endif %}
+    extra_hosts:
+      - "{{ master_hostname }}:{{ master_ip }}"
+    ports:
+      - "{{ http_port.host }}:{{ http_port.cluster }}/tcp"
+      - "{{ http_port.host }}:{{ http_port.cluster }}/udp"
+      - "{{ https_port.host }}:{{ https_port.cluster }}/tcp"
+      - "{{ https_port.host }}:{{ https_port.cluster }}/udp"
+      - "6443:6443"
+      - "10250:10250"
+      - "{{ service_port_range }}:{{ service_port_range }}/tcp"
+      - "{{ service_port_range }}:{{ service_port_range }}/udp"
+    environment:
+      KUBECONFIG: "/etc/rancher/k3s/k3s.yaml"
+      K3S_LOCAL_ROLE: "{{ k3s_role }}"
+      K3S_CONFIG_FILE: "/.local/config/config.yaml"
+      K3S_PRIVATE_REGISTRY: "/.local/config/registries.yaml"
+      K3S_DEFAULT_LOCAL_STORAGE_PATH: "/var/data/local-storage"
+      {%- if user_uid >= 0 %}
+      USER_UID: "{{ user_uid }}"
+      {%- endif %}
+      {%- if user_gid >= 0 %}
+      USER_GID: "{{ user_gid }}"
+      {%- endif %}
+      {%- if containerd_proxy %}
+      CONTAINERD_HTTP_PROXY: "{{ containerd_proxy }}"
+      CONTAINERD_HTTPS_PROXY: "{{ containerd_proxy }}"
+      CONTAINERD_NO_PROXY: "localhost,*.localhost,.localhost,*.{{ docker_network_name }},.{{ docker_network_name }},{{ master_hostname }},{{ master_ip }},{{ docker_network_cidr }}"
+      {%- endif %}
+    volumes:
+      - etc-rancher:/etc/rancher
+      - var-lib-cni:/var/lib/cni
+      - var-lib-rancher:/var/lib/rancher
+      - var-lib-k3s:/var/lib/k3s
+      - var-data:/var/data
+      - run:/run
+      - ./data:/.local/data
+      - ./config:/.local/config:ro
+      - ./server/tls:/.local/server/tls
+    working_dir: /docker
+    command:
+      - k3s
+      - server
+
+  {%- if local_proxy_enable %}
+  proxy:
+    image: {{ docker_io_mirror }}/diogenes1oliveira/k3s-local-docker-registry-proxy:{{ version }}
+    hostname: proxy.{{ docker_network_name }}
+    networks:
+      {{ docker_network_name }}:
+        aliases:
+          - proxy.{{ docker_network_name }}
+    environment:
+      AUTH_REGISTRIES: ""
+      AUTH_REGISTRIES_DELIMITER: ";;"
+      AUTH_REGISTRY_DELIMITER: "|"
+      ENABLE_MANIFEST_CACHE: "true"
+      REGISTRIES: "{{ local_proxy_registries | join(' ') }}"
+      VERIFY_SSL: "false"
+      DEBUG_NGINX: "false"
+      ALLOW_PUSH: "false"
+      SEND_TIMEOUT: "30s"
+      CLIENT_BODY_TIMEOUT: "10s"
+      CLIENT_HEADER_TIMEOUT: "20s"
+      KEEPALIVE_TIMEOUT: "300s"
+      PROXY_READ_TIMEOUT: "20s"
+      PROXY_CONNECT_TIMEOUT: "10s"
+      PROXY_CONNECT_READ_TIMEOUT: "10s"
+      PROXY_CONNECT_CONNECT_TIMEOUT: "10s"
+    volumes:
+      - ./data/registry-proxy-cache:/docker_mirror_cache
+      - ./server/tls:/.local/server/tls
+  {%- endif %}
+
+networks:
+  {{ docker_network_name }}:
+    name: {{ docker_network_name }}
+    ipam:
+      driver: default
+      config:
+        - subnet: {{ docker_network_cidr }}
+
+volumes:
+  etc-rancher:
+  var-lib-cni:
+  var-lib-rancher:
+  var-lib-k3s:
+  var-data:
+  run:
