@@ -1,0 +1,14 @@
+pycodata/__init__.py,sha256=V_vClNtDZgVDImYi2sv9Ijx9dMoLhvURWEuyVd4dlpU,114
+pycodata/constants.cp312-win_amd64.pyd,sha256=HavmrtlQha4x0BpdoC7DKz-MIUqL9w6hOUsNOaVFU9c,105984
+pycodata/cpy_codata_constants.c,sha256=LS1OGBxSONY_CtuUIUkF-SuRep-swAsHjFkszpBa_C0,103881
+pycodata/cpy_codata_version.c,sha256=rJw0QZtZKyfs6YgiKfq4H2BzWBDvOuf3r-5jMIQ_wGI,612
+pycodata/libcodata.dll,sha256=0wrRODsyOK6bi53vbjwivbs9QvzL2OUTadJyhCMXWII,859460
+pycodata/libcodata.dll.a,sha256=fEGyvIK0SEI2d7yooHZ4-xWQEWTqrKFSZS1OhMxgWzw,807702
+pycodata/version.cp312-win_amd64.pyd,sha256=SorwnBLlpvtR_k3DwTtejIqB9jogkZW-_YZMRF_kZGI,10752
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=q5TmWeeadiHBT9gBjhJHXA8gjaM3JTUPnvIlvA8CCo8,4663
+pycodata-0.10.0.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pycodata-0.10.0.dist-info/METADATA,sha256=Il4d9u9V9y5jIY3XAvx9rrroc7POfXCvqtqmRwzEBm4,1223
+pycodata-0.10.0.dist-info/WHEEL,sha256=7M9omTteV1AA1lqimSm66FA5mPjaJNBD3zI5eMwtk7s,102
+pycodata-0.10.0.dist-info/top_level.txt,sha256=x9dWNT6G3AdkH3jCOJReRIm-erx6g1JQppOni1OAqS4,26
+pycodata-0.10.0.dist-info/RECORD,,
