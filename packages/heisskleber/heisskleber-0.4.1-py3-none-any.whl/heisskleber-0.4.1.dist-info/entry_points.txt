@@ -1,0 +1,4 @@
+[console_scripts]
+hkcli=heisskleber.run.cli:main
+zmqbridge=heisskleber.run.zmqbroker:main
+
