@@ -1,0 +1,17 @@
+apitally/__init__.py,sha256=oYLGMpySamd16KLiaBTfRyrAS7_oyp-TOEHmzmeumwg,22
+apitally/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apitally/client/asyncio.py,sha256=ntn9TVhMKPtwrw1C1Qv96Enr_nSsaJHYmyCrbXw-sBc,6053
+apitally/client/base.py,sha256=ndllCC9rQsAwGYlzYn7kSCarBX0rEKWp44BMUop1t7w,10630
+apitally/client/logging.py,sha256=QMsKIIAFo92PNBUleeTgsrsQa7SEal-oJa1oOHUr1wI,507
+apitally/client/threading.py,sha256=9xYW095OXWrX4kciAbbrztc2DeNwRPvMf7zvcbes5Ec,6472
+apitally/django.py,sha256=Y1VLlLLla89z3sjs7zCHwnCGCZ1VScw7AkcjqtrnNNY,10247
+apitally/django_ninja.py,sha256=TFltgr03FzTnl83sUAXJj7R32u_g9DTZ9p-HuVKs4ZE,2785
+apitally/django_rest_framework.py,sha256=UmJvxxiKGRdaILSbg6jJY_cvAl-mpuPY1pM0FoQ4bg0,1587
+apitally/fastapi.py,sha256=YjnrRis8UG2M6Q3lkwizbtDXU7nPfCA4mebxG8XwveY,3334
+apitally/flask.py,sha256=SB0GM9KQbqLh1mEwUkI7jZ8BJS79l3cYjxXjYr7lw0c,6555
+apitally/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apitally/starlette.py,sha256=T1aHf5L-sqVlYjPRPO8HbrvYrn98eeIrzBGAOEKJSEU,9767
+apitally-0.3.4.dist-info/LICENSE,sha256=vbLzC-4TddtXX-_AFEBKMYWRlxC_MN0g66QhPxo8PgY,1065
+apitally-0.3.4.dist-info/METADATA,sha256=N_AO1I5JF6v80cN1uKLu_Ef__kEAmVI3X01LXYVb15Q,6983
+apitally-0.3.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+apitally-0.3.4.dist-info/RECORD,,
