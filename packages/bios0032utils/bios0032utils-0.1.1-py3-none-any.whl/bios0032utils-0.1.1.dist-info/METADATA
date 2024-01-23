@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bios0032utils
+Version: 0.1.1
+Summary: Utilities for BIOS0032 AI4Environment colab notebooks
+License: MIT
+Author-email: Santiago Martinez <santiago.balvanera.20@ucl.ac.uk>,Omiros Pantazis <omiros.pantazis.16@ucl.ac.uk>,Kate Jones <kate.e.jones@ucl.ac.uk>
+Requires-Python: >=3.8
+Requires-Dist: ipython
+Requires-Dist: ipywebrtc
+Requires-Dist: librosa
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: pydub
+Requires-Dist: seaborn>=0.13.1
+Requires-Dist: torch>=1.10
+Requires-Dist: wavio>=0.0.7
+Requires-Dist: xarray
+Project-URL: Bug Tracker, https://github.com/MScEcologyAndDataScienceUCL/BIOS0032_AI4Environment/issues
+Project-URL: Homepage, https://github.com/MScEcologyAndDataScienceUCL/BIOS0032_AI4Environment

@@ -1,0 +1,17 @@
+bios0032utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bios0032utils/bioacoustics/.ipynb_checkpoints/evaluate_detection-checkpoint.py,sha256=CGE8n-AHCjeWnrNFnxVwP8FkhzNS03HTL0tkaB_67NI,7895
+bios0032utils/bioacoustics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bios0032utils/bioacoustics/audio.py,sha256=r4_q67QsfuqvrMiBlJGtM_w5Uyb7jksDsWpHTpqKGhI,618
+bios0032utils/bioacoustics/batdetect2.py,sha256=2ekn_X3Sr671taUGEdjP-rEQsFT_3AOhQDVhTMhOzRU,202
+bios0032utils/bioacoustics/classification.py,sha256=N_1AyvulWa98RnlyUYV8mzfgPF0ZifdFSmZdmhfTWQc,6273
+bios0032utils/bioacoustics/detection.py,sha256=8teefyyMci313Duj2xv1B-DF7KZsLRvatz3jRIDNnO0,461
+bios0032utils/bioacoustics/evaluate_detection.py,sha256=CGE8n-AHCjeWnrNFnxVwP8FkhzNS03HTL0tkaB_67NI,7895
+bios0032utils/bioacoustics/plotting.py,sha256=vgviKBMXAtWX3vXuq-M_bTxG6UCZD19QaBfhpRmSRqE,11300
+bios0032utils/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bios0032utils/vision/classification.py,sha256=zuGZ8yEYdLUkp8e2iAL8GXwDtDuIRQIMluToJKRr8y4,5005
+bios0032utils/vision/datasets.py,sha256=choxymo0NcWj-BJalD4ay7yCRYois9cQrQd4TCsKIBs,2123
+bios0032utils/vision/detection.py,sha256=vlvvBpbeseA1MofjbadHczEPyIiHfg0vEJ7EmfgbRFY,1466
+bios0032utils-0.1.1.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+bios0032utils-0.1.1.dist-info/METADATA,sha256=jj6Yco-6rByGJzYnPbzwD2UlPM3nygRZoMG1lODGjvA,751
+bios0032utils-0.1.1.dist-info/licenses/LICENSE,sha256=Xuvv02guMtZh8weihTmzBOXlL7HrM7ohTmHXpXZj5PA,18659
+bios0032utils-0.1.1.dist-info/RECORD,,
