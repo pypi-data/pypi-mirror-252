@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: gist-dl
+Version: 0.1.1
+Summary: 
+Author: fauzaanu
+Author-email: hello@fauzaanu.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# gist-dl
+
+[![PyPI version](https://badge.fury.io/py/gist-dl.svg)](https://badge.fury.io/py/gist-dl)
+
+simple cli utility to grab gists to current directory from a single user
+
+## Installation
+
+```bash
+pip install gist-dl
+```
+
+## Usage
+
+```bash
+python -m gist-dl
+```
+
+
