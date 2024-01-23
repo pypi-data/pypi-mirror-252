@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: shared-log
+Version: 0.0.1
+Summary: A Python module that provides a configurable class for writing local and remote errors and logs.
+Project-URL: Homepage, https://github.com/
+Project-URL: Bug Tracker, https://github.com/issues
+Author-email: jromay <javi.romay@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
