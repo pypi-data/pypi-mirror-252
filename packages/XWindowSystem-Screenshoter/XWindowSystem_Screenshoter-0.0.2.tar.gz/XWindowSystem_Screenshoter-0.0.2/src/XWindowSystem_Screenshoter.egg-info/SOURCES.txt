@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+./src/XWindowSystem_Screenshoter.egg-info/PKG-INFO
+./src/XWindowSystem_Screenshoter.egg-info/SOURCES.txt
+./src/XWindowSystem_Screenshoter.egg-info/dependency_links.txt
+./src/XWindowSystem_Screenshoter.egg-info/top_level.txt
