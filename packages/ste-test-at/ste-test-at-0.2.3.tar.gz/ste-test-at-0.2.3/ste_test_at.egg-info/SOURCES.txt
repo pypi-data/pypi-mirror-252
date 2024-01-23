@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+generate_pyproject/__init__.py
+generate_pyproject/generate_pyproject.py
+ste_test_at.egg-info/PKG-INFO
+ste_test_at.egg-info/SOURCES.txt
+ste_test_at.egg-info/dependency_links.txt
+ste_test_at.egg-info/top_level.txt
