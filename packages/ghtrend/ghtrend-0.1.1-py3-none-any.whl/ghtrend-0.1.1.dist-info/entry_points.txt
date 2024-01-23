@@ -1,0 +1,3 @@
+[console_scripts]
+ghtrend=ghtrend.trend:app
+

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ghtrend
+Version: 0.1.1
+Summary: A CLI tool for retrieving GitHub's trending page.
+Home-page: https://github.com/cybershang/ghtrend
+License: MIT
+Keywords: github,trending,cli
+Author: Yingjie
+Author-email: dev@yingjie.space
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/shangcode/ghtrend
+Description-Content-Type: text/markdown
+
+# GhTrend
+
+<img src="./docs/GhTrend.gif" width="360" />
+
+
+Request and parse Github trending page.
+
+**Usage**:
+
+```console
+$ get-trend [OPTIONS] [DATE_RANGE] [OUT_FILE]
+```
+
+**Arguments**:
+
+* `[DATE_RANGE]`: Choose from: daily, weekly, monthly
+* `[OUT_FILE]`: Enter the filepath csv to be stored at
+
+**Options**:
+
+* `--quiet / --no-quiet`: [default: no-quiet]
+* `--version / --no-version`
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Dependency:**
+
+- requests
+- BeautifulSoup4
+- typer
+
+
