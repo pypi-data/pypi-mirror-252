@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+AreaOfFig24test.egg-info/PKG-INFO
+AreaOfFig24test.egg-info/SOURCES.txt
+AreaOfFig24test.egg-info/dependency_links.txt
+AreaOfFig24test.egg-info/top_level.txt
+first_package/Area_Fig.py
+first_package/__init__.py
