@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: novelai_gen
+Version: 0.1.0
+Summary: Gen Image From Novelai
+Author-Email: sudoskys <coldlando@hotmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: elara>=0.5.5
+Requires-Dist: redis>=5.0.1
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: pydantic-settings>=2.1.0
+Requires-Dist: pydantic>=2.5.3
+Requires-Dist: sentry-sdk>=1.39.2
+Requires-Dist: httpx>=0.26.0
+Requires-Dist: shortuuid>=1.0.11
+Requires-Dist: Pillow>=10.2.0
+Requires-Dist: curl-cffi>=0.5.10
+Requires-Dist: dynaconf>=3.2.4
+Requires-Dist: fastapi>=0.109.0
+Requires-Dist: uvicorn[standard]>=0.26.0
+Requires-Dist: pytest>=7.4.4; extra == "testing"
+Provides-Extra: testing
+Description-Content-Type: text/markdown
+
+# Nai3DrawServer
+
+[![PyPI version](https://badge.fury.io/py/novelai_gen.svg)](https://badge.fury.io/py/fast-langdetect)
+[![Downloads](https://pepy.tech/badge/novelai_gent)](https://pepy.tech/project/fast-langdetect)
+[![Downloads](https://pepy.tech/badge/novelai_gen/month)](https://pepy.tech/project/fast-langdetect/)
+
+## Install 💻
+
+```bash
+pip install novelai_gen
+```
+
+### Usage 🖥️
+
+```python
+from pydantic import SecretStr
+
+from novelai_gen import CurlSession, NovelAiInference, NaiResult
+
+globe_s = CurlSession(jwt_token=SecretStr("555"))
+_res = NovelAiInference.build(prompt="1girl").generate(session=globe_s)
+_res: NaiResult
+print(_res)
+```
+
+## Server Usage 🖥️
+
+### 🔧 Config
+
+Use the following commands to copy and edit the environment configuration file:
+
+```shell
+cd conf_dir
+cp secrets.exp.toml .secrets.toml
+nano .secrets.toml
+
+```
+
+### 🚀 Run
+
+Here's how to run the server in your terminal:
+
+```shell
+pip install pdm
+pdm install
+pdm run python main.py
+
+```
+
+### PM2 🔄
+
+These instructions help you start PM2 hosting and set it to automatically restart:
+
+```shell
+apt install npm
+npm install pm2 -g
+pip install pdm
+pdm install
+pm2 start pm2.json
+pm2 stop pm2.json
+pm2 restart pm2.json
+
+```
+
+### 📚 Docs
+
+To view interface documentation and debug, visit the `/docs` page.
+
+### Acknowledgement 🏅
+
+- [FastAPI](https://fastapi.tiangolo.com/)
