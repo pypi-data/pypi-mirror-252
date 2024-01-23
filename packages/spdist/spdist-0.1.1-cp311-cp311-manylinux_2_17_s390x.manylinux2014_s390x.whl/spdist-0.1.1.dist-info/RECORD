@@ -1,0 +1,5 @@
+spdist-0.1.1.dist-info/METADATA,sha256=vlcM5wEKNVNuX6m3XT9eGS3pG8jeVVrTBFgOlz1e2SI,2580
+spdist-0.1.1.dist-info/WHEEL,sha256=MkmBUZO9hcnmE1H_eiiSFzd2cy74uKJ7RefZUiXhU5E,127
+spdist/__init__.py,sha256=EQt_YzN7sxQh-H2vUnevx8OGcZbhRVGJguqmWYkJDLo,107
+spdist/spdist.cpython-311-s390x-linux-gnu.so,sha256=K4kyrrBhiDW1J_l_tqxWdc_2QqlNxjSo1y75W0TadSI,5853520
+spdist-0.1.1.dist-info/RECORD,,
