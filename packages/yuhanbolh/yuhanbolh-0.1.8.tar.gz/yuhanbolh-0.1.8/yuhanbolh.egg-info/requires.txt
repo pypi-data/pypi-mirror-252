@@ -1,0 +1,5 @@
+BeautifulSoup4requests
+numpy
+pandas
+pytdx
+xtquant
