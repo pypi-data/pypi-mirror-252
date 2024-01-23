@@ -1,0 +1,9 @@
+gribtoarrow/__init__.py,sha256=_7EPpfsunbtPCxPLSJFOtxj97nZQxA7Gs9BOpyYWEiU,59
+gribtoarrow/eccodes/libeccodes.so,sha256=OU7yC4fjYM65mrZ4yld5-WLS-y7BkwJV7SyMHk6akL0,12137136
+gribtoarrow/eccodes/libeccodes_memfs.so,sha256=45M8nstYvOFGOWgqyEJkreSCLLE-51Ovq18rpnrwqsE,28247664
+gribtoarrow/gribtoarrow.cpython-311-x86_64-linux-gnu.so,sha256=8os3BHlh2_MZt1QJtej0lwsb3NefQivcuTFD1Fb4EVU,571744
+gribtoarrow/lib/libeccodes_memfs.so,sha256=45M8nstYvOFGOWgqyEJkreSCLLE-51Ovq18rpnrwqsE,28247664
+gribtoarrow.cpython-311-x86_64-linux-gnu.so,sha256=8os3BHlh2_MZt1QJtej0lwsb3NefQivcuTFD1Fb4EVU,571744
+gribtoarrow-0.1.9.dist-info/METADATA,sha256=L1DDPi4cTGxy9eh5pP1M1vHld2alPq1d1iAXZmqtRjg,13054
+gribtoarrow-0.1.9.dist-info/WHEEL,sha256=7_YneekJ1YZvXGbH3KR2pr_VHmBxRMyx_WCjIwFH9PE,110
+gribtoarrow-0.1.9.dist-info/RECORD,,
