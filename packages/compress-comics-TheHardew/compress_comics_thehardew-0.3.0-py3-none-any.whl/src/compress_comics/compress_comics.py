@@ -1,0 +1,353 @@
+#!/usr/bin/env python
+"""compress_comics
+Find all the cbz/cbr files in the current directory and subdirectories
+and compress all the jpg/png/gif images inside with jpeg xl.
+
+Output files preserve the folder structure.
+Repacks cbr into cbz.
+"""
+
+import os
+from shutil import copy, move
+import subprocess
+from pathlib import Path
+from multiprocessing import Pool, cpu_count
+from tempfile import TemporaryDirectory, NamedTemporaryFile
+import sys
+import zipfile
+from argparse import ArgumentParser, Namespace
+from patoolib import extract_archive
+from text_bar import TextBar
+
+
+def error_exit(msg, code):
+    """
+    Print an error message and exit with a code
+    """
+    print('Error:', msg, file=sys.stderr)
+    sys.exit(code)
+
+
+def glob_relative(pattern):
+    """
+    Recursively get a relative list of files in the current directory matching a glob pattern
+    """
+    cwd = Path.cwd()
+    return [f.relative_to(cwd) for f in Path.cwd().rglob(pattern)]
+
+
+def unpack(file, directory):
+    """
+    Unpack a comic book to a directory
+    """
+    extract_archive(str(file), verbosity=-1, outdir=str(directory))
+
+
+def clean_tmp_dir(tmp_dir):
+    """
+    Remove useless files in the comic book.
+    Removes Thumbs.db files and checksum (.sfv) files.
+    :param tmp_dir: the directory to clean.
+    """
+    for file in tmp_dir.glob('*.sfv'):
+        file.unlink()
+    for file in tmp_dir.glob('Thumbs.db'):
+        file.unlink()
+
+
+def check_file_types(tmp_dir):
+    """
+    Make sure that all the files left in the comic book can be handled by the program.
+    If there are files left that the program is not sure how to handle, stop processing the book.
+    :param tmp_dir: the processed directory to check
+    """
+    extensions = ['.gif', '.jpg', '.jpeg', '.png', '.jxl', '.xml', '.txt']
+    files = [f for f in tmp_dir.glob('**/*') if f.is_file() and f.suffix.lower() not in extensions]
+
+    extension_string = '/'.join([ext[1:] for ext in extensions])
+    if len(files):
+        print(f'Some files are not {extension_string}:')
+        for file in files:
+            print(file)
+
+        error_exit(f'Some files are not {extension_string}', 1)
+
+
+def check_transcoding(tmp_dir):
+    """
+    Check that the input and output directories have the same number of files.
+    If not, some files where not processed.
+    :param tmp_dir: the processed directory to check.
+    """
+    source_files = len([file for file in Path.cwd().glob('**/*') if file.is_file()])
+    jxl_files = len([file for file in tmp_dir.glob('**/*') if file.is_file()])
+    if source_files != jxl_files:
+        error_exit('Not all files transcoded', 2)
+
+
+def handle_flags():
+    """
+    Process command line arguments
+    :return: the dictionary of processed arguments
+    """
+    parser = ArgumentParser()
+
+    parser.add_argument('-e', '--effort', type=int, default=9,
+                        help='Encoder effort setting. Range: 1 .. 9. Default 9.')
+    parser.add_argument('-E', '--modular_nb_prev_channels', type=int, default=3,
+                        help='[modular encoding] number of extra MA tree properties to use.'
+                             'Default 3.')
+    parser.add_argument('--brotli_effort', type=int, default=11,
+                        help='Brotli effort setting. Range: 0 .. 11. Default 11.')
+    parser.add_argument('-d', '--distance', type=int, default=0,
+                        help='Max. butteraugli distance, lower = higher quality.  Default 0.')
+    parser.add_argument('-j', '--lossless_jpeg', type=int, default=1,
+                        help='If the input is JPEG, losslessly transcode JPEG, rather than using'
+                             'reencoded pixels. 0 - Rencode, 1 - lossless. Default 1.')
+    parser.add_argument('-m', '--modular', type=int,
+                        help='Use modular mode (not provided = encoder chooses, 0 = enforce VarDCT'
+                        ', 1 = enforce modular mode).')
+    parser.add_argument('-t', '--threads', type=int, default=cpu_count(),
+                        help='The number of images to compress at once. Defaults to cpu threads.')
+    parser.add_argument('--num_threads', type=int,
+                        help='Number of threads to use to compress one image.'
+                        'Defaults to (cpu threads) / --threads')
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('output_directory', type=str, help='Output directory', nargs='?')
+    group.add_argument('-o', '--overwrite', action='store_true',
+                        help='Overwrite the original file. Defaults to False.')
+
+    args = parser.parse_args()
+
+    # even if it's already relative, strips things like './' from the beginning
+    cwd = Path.cwd()
+
+    if not args.overwrite:
+        args.output_directory = Path(args.output_directory).resolve().relative_to(cwd)
+
+    if not args.num_threads:
+        args.num_threads = cpu_count() // args.threads
+
+    return args
+
+
+def pack(args, input_file, working_directory, processed_tmp):
+    """
+    Save the processed comic book, either to the output directory, or to a new temporary
+    file and then overwrite the original. This way no data will be lost if we there is no space
+    left on the device
+    :param args: the program arguments
+    :param input_file: the original file to derive the name
+    :param woking_directory: program working_directory
+    :param processed_tmp: the processed files
+    :return: the path to the created file
+    """
+    directory = working_directory
+    if args.overwrite == True:
+        directory /= input_file.parent
+        try:
+            with NamedTemporaryFile(dir=directory, prefix='.' + input_file.name) as tmp:
+                create_comic_archive(tmp.name, processed_tmp)
+                move(tmp.name, working_directory / input_file)
+        except FileNotFoundError:
+            # file was moved so nothing to clean up
+            pass
+        return working_directory / input_file
+    else:
+        directory /= args.output_directory
+        os.makedirs(directory / input_file.parent, exist_ok=True)
+        name = directory / input_file
+        name = name.with_suffix('.cbz')
+        create_comic_archive(name, processed_tmp)
+        return name
+
+
+def statistics_string(original_size, compressed_size, prefix):
+    """
+    Return a statistics string, e.g.:
+    A.cbz - 10 MiB / 15 MiB - 67%
+    :param prefix: what string to include at the beginning
+    """
+
+    # to MiB
+    difference = compressed_size - original_size
+    original_size //= 1024 * 1024 
+    compressed_size //= 1024 * 1024 
+    difference //= 1024 * 1024
+
+    return (prefix + ' - ' +
+        f'{compressed_size}/{original_size}' +
+        f' ({difference}) [MiB]' +
+        f' {round(compressed_size / original_size * 100)}%')
+
+
+def compress_comic(input_file, args):
+    """
+    Compress a comic book
+    :param input_file: the comic book to compress
+    :param args: compression arguments
+    :return: the name of the compressed file
+    """
+    base = Path.cwd().resolve()
+
+    with (
+        TemporaryDirectory() as original_tmp,
+        TemporaryDirectory() as processed_tmp
+    ):
+
+        original_tmp = Path(original_tmp)
+        processed_tmp = Path(processed_tmp)
+        unpack(input_file, original_tmp)
+        clean_tmp_dir(original_tmp)
+        check_file_types(original_tmp)
+
+        os.chdir(original_tmp)
+        compressed_name = transcode(processed_tmp, input_file, args, base)
+
+    os.chdir(base)
+    return compressed_name
+
+
+def copy_files(processed_dir):
+    """
+    Copy some files from the original comic book without changing them
+    :param processed_dir: the directory to copy to
+    """
+    extensions = ['.txt', '.xml', '.jxl']
+    files = [file for file in glob_relative('*') if file.suffix.lower() in extensions]
+    for file in files:
+        copy(file, processed_dir)
+
+
+def stringify_arguments(args):
+    """
+    Changes all the arguments inside argparse.Namespace into strings
+    """
+    return Namespace(**{k: str(v) for k, v in vars(args).items()})
+
+
+def transcode_file(input_file, tmp_dir, args):
+    """
+    Compress a single image file
+    :param input_file: the file to compress
+    :param tmp_dir: the directory to compress it to
+    :param args: the compression arguments to pass to cjxl
+    """
+    output_file = tmp_dir / input_file
+    output_file = output_file.with_suffix('.jxl')
+
+
+    subprocess.run([
+        'cjxl',
+        '--brotli_effort',
+        args.brotli_effort,
+        '-d',
+        args.distance,
+        '-e',
+        args.effort,
+        '-E',
+        args.modular_nb_prev_channels,
+        '--num_threads',
+        args.num_threads,
+        '-j',
+        args.lossless_jpeg,
+        input_file,
+        str(output_file),
+    ],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.STDOUT,
+    )
+
+
+def transcode(tmp_dir, input_file, args, base):
+    """
+    Compress all the image files in the current directory
+    :param tmp_dir: the directory to compress it to
+    :param args: compression arguments to pass to cjxl
+    :return: the name of the compressed file
+    """
+    for directory in glob_relative('*/'):
+        os.makedirs(tmp_dir / directory, exist_ok=True)
+
+    original_size = os.path.getsize(base / input_file)
+
+    extensions = ['.gif', '.jpg', '.jpeg', '.png']
+    files = [f for f in glob_relative('*') if f.suffix.lower() in extensions and f.is_file()]
+    with (
+            Pool(args.threads) as pool,
+            TextBar(total=len(files), text=input_file.name, unit='img', colour='#ff004c') as pbar
+            ):
+        args = stringify_arguments(args)
+        def update_bar(*a):
+            pbar.update()
+
+        def error_handler(err):
+            print(err)
+            pool.terminate()
+
+        for file in files:
+            pool.apply_async(transcode_file,
+                             (file, tmp_dir, args, ),
+                             callback=update_bar,
+                             error_callback=error_handler
+                             )
+        pool.close()
+        pool.join()
+
+        copy_files(tmp_dir)
+
+        # shouldn't be necessary because the program checks the exit status
+        check_transcoding(tmp_dir)
+        compressed_name = pack(args, input_file, base, tmp_dir)
+        compressed_size = os.path.getsize(compressed_name)
+        pbar.close(text=statistics_string(original_size, compressed_size, input_file.name))
+
+    return compressed_name
+
+
+
+def create_comic_archive(output_file, processed_tmp):
+    """
+    Pack a directory to a comic book
+    :param output_file: the file to compress the comic book to
+    :param processed_tmp: the directory of the files to compress
+    """
+    os.chdir(processed_tmp)
+
+    with zipfile.ZipFile(output_file, "w", compression=zipfile.ZIP_STORED) as zipf:
+        for file in glob_relative('*'):
+            zipf.write(file)
+
+
+def main():
+    """
+    Find all cbz/cbr books in the current directory and process them.
+    """
+    args = handle_flags()
+    comic_books = [comic for comic in glob_relative('*') if (
+        comic.is_file() and comic.suffix.lower() in ['.cbr', '.cbz'] and
+        args.output_directory not in comic.parents
+        )]
+
+    original_size = sum([os.path.getsize(f) for f in comic_books])
+    compressed_size = 0
+
+    with TextBar(total=len(comic_books),
+                 text='Comic books',
+                 position=2,
+                 unit='book',
+                 colour='#ff004c') as pbar:
+        for book in comic_books:
+            compressed_name = compress_comic(book, args)
+            compressed_size += os.path.getsize(compressed_name)
+            pbar.display('', 1) # clear position 1
+            pbar.update()
+
+        pbar.display('', 2)
+        pbar.close(text=statistics_string(original_size, compressed_size, 'Comic books'))
+
+
+if __name__ == "__main__":
+    main()
