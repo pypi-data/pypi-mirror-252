@@ -1,0 +1,11 @@
+tmf882x/__init__.py,sha256=KmN4xhE3eBd1TvDSlmC_QC41SrQlXmtCB0EkC6bBzxU,9128
+tmf882x/_version.py,sha256=L5DCMp1QAlSqy-8bW7d51bLubTxNjZGYc5fMQkb752U,411
+tmf882x/constants.py,sha256=tTyNA1Uu054unSrgEVZupcBl5nwzArO-unfTICi76BE,223
+tmf882x/firmware.bin,sha256=tscGwkta9X0MgNLUWGwtjXtkZfZRRG3hwpmGkOewSBY,2476
+tmf882x/measurement.py,sha256=NfR2jHOrbF-E8tNaF75_51hzxk7-fPLcCU9u2K4ABSc,2327
+tmf882x/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmf882x_driver-0.1.3.dist-info/LICENSE,sha256=wBys9e-6Wz5-mDDag7ak3yiZgnWIVwTxQf7FwRQPDWk,2164
+tmf882x_driver-0.1.3.dist-info/METADATA,sha256=HMTGf7dyRZR5E72AKug1L06dvC7B56Plko5tgywOGAk,1838
+tmf882x_driver-0.1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tmf882x_driver-0.1.3.dist-info/top_level.txt,sha256=Tm0L3Ne-gTO06lhmZTcKFAq32R0cIFUDBUWP1FNzw58,8
+tmf882x_driver-0.1.3.dist-info/RECORD,,
