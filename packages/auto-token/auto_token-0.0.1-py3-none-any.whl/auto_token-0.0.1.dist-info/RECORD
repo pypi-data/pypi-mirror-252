@@ -1,0 +1,10 @@
+auto_token-0.0.1.dist-info/METADATA,sha256=kFjU3U1aVKCNlgHuHHUiI3jD-dvdOdxNNEM6sX--bQM,441
+auto_token-0.0.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+auto_token-0.0.1.dist-info/entry_points.txt,sha256=WC2M5yCpGnwoLGfqjAYo7Qtx3CxCe6VkLaYgwybprlE,56
+auto_token/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+auto_token/__main__.py,sha256=DGdlQhMh6rb74u2NQgRf9_eIN1nTob2c02kghd1zQVQ,4085
+auto_token/__version__.py,sha256=LdXP-RTIjT5YZe7KF4j-EVAS0MgTetCcJT8Y0yOMiaw,31
+auto_token/model/__init__.py,sha256=xRrZlEoj4nkeWVn4tkMQ0dTu8RIxsB3TGE8FN69kSr8,39
+auto_token/model/token.py,sha256=uHk1b24VzN5djJrqis_BfenqOLG6NIme7ktbpKSrwNU,737
+auto_token/utils.py,sha256=UW1XUrJazMRuuAsGHvoWHkT3KOlgCmafDqRFFarUYZI,603
+auto_token-0.0.1.dist-info/RECORD,,
