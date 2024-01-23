@@ -1,0 +1,1 @@
+RDFox version: 7.0 (c3ced4db848fc3776330dee0fa3fe85568ef8934)
