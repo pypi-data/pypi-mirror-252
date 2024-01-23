@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hankyo
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/tkfka1/hankyo_pypi
+Author: Hankyo Jeong
+Author-email: tkfka1@korea.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hankyo_pypi
+ pypi 등록
+
+# Hankyo
+
+Hankyo는 기본적인 수학 연산을 제공하는 Python 라이브러리입니다.
+
+## 설치
+
+pip install hankyo
