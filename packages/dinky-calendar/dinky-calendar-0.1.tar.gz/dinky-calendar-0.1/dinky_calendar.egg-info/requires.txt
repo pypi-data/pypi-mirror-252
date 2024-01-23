@@ -1,0 +1,7 @@
+dinky
+pluggy
+Pillow
+caldav
+
+[test]
+pytest
