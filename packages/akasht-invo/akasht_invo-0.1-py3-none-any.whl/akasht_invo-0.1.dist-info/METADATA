@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: akasht-invo
+Version: 0.1
+Summary: Mst maal hai
+Home-page: https://github.com/yourusername/your_package
+Author: HuiHui
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: agents
+Requires-Dist: autonomous-agents
+Requires-Dist: utilities
+Requires-Dist: tot
+Requires-Dist: tools
+Requires-Dist: tabular-synthetic-data
+Requires-Dist: synthetic-data
+Requires-Dist: sql
+Requires-Dist: smart-llm
+Requires-Dist: rl-chain
+Requires-Dist: retrievers
+Requires-Dist: pydantic-v1
+Requires-Dist: prompts
+Requires-Dist: prompt-injection-identifier
+Requires-Dist: plan-and-execute
+Requires-Dist: pal-chain
+Requires-Dist: openai-assistant
+Requires-Dist: open-clip
+Requires-Dist: llms
+Requires-Dist: llm-symbolic-math
+Requires-Dist: llm-bash
+Requires-Dist: graph-transformers
+Requires-Dist: generative-agents
+Requires-Dist: fallacy-removal
+Requires-Dist: data-anonymizer
+Requires-Dist: cpal
+Requires-Dist: comprehend-moderation
+Requires-Dist: chat-models
+
+helooooooooo
+
