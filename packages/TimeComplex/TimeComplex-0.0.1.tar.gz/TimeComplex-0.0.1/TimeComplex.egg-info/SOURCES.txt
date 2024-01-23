@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TimeComplex/__init__.py
+TimeComplex/main.py
+TimeComplex.egg-info/PKG-INFO
+TimeComplex.egg-info/SOURCES.txt
+TimeComplex.egg-info/dependency_links.txt
+TimeComplex.egg-info/requires.txt
+TimeComplex.egg-info/top_level.txt
