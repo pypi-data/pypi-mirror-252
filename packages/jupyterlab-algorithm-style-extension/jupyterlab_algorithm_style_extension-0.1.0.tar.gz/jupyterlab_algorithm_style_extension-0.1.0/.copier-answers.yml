@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.4
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: zhout34@mcmaster.ca
+author_name: Tianyu Zhou
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab-algorithm-style-extension
+project_short_description: jupyterlab-algorithm-style-extension
+python_name: jupyterlab_algorithm_style_extension
+repository: ''
+test: false
+
