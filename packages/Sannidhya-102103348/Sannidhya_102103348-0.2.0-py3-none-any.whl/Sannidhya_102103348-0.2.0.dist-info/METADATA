@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Sannidhya-102103348
+Version: 0.2.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: numpy
+
