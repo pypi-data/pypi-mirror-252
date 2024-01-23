@@ -1,0 +1,16 @@
+Pillow>=10.0.0
+cytoolz>=0.8.2
+aiohttp>=2.3.5
+setuptools
+
+[doc]
+redis
+pycairo
+lxml
+
+[tests]
+mypy
+pytest-cov
+pytest-timeout
+pytest-asyncio
+numpy
