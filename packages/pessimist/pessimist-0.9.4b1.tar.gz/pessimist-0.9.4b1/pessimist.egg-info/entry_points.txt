@@ -1,0 +1,2 @@
+[console_scripts]
+pessimist = pessimist.cli:main
