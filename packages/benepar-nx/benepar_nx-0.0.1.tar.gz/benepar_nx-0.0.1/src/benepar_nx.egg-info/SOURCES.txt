@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/benepar_nx/constituency_parse.py
+src/benepar_nx.egg-info/PKG-INFO
+src/benepar_nx.egg-info/SOURCES.txt
+src/benepar_nx.egg-info/dependency_links.txt
+src/benepar_nx.egg-info/top_level.txt
