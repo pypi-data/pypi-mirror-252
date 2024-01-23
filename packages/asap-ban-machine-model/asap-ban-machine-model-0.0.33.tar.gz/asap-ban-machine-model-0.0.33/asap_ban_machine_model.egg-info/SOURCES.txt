@@ -1,0 +1,9 @@
+setup.py
+asap-ban-machine-model/__init__.py
+asap-ban-machine-model/csharp.so
+asap-ban-machine-model/detector.py
+asap_ban_machine_model.egg-info/PKG-INFO
+asap_ban_machine_model.egg-info/SOURCES.txt
+asap_ban_machine_model.egg-info/dependency_links.txt
+asap_ban_machine_model.egg-info/requires.txt
+asap_ban_machine_model.egg-info/top_level.txt
