@@ -1,0 +1,11 @@
+pyviralcontent/__init__.py,sha256=JUjYzCSbW_XIzwNeltwHuEO3D4IFEwqMmUa_W2Cu7sw,404
+pyviralcontent/content_analyzer.py,sha256=ID4rTx35T-ardtHV5e34q0Y9Cxu4gLudtCW15a8qxIk,1528
+pyviralcontent/likert_scale.py,sha256=19Hw7ZMzVgX5UlDeZjcrPVsbbD2uMmohdFacSCdzre4,4816
+pyviralcontent/readability_calculator.py,sha256=ceCbMQGDG20orJ6u55QrKNthesDTPgRtnYYuzdY4Kww,5273
+pyviralcontent/syllable_counter.py,sha256=JUEV13oetqEdXhbUjkAXxxRxWz5b8Zu-dtj_81-3E8A,746
+pyviralcontent/text_analyzer.py,sha256=NNCV7hsld4WYEsryanxeqmIH9NM2jtYXcK4RJAE2lEY,3118
+pyviralcontent/visualizer.py,sha256=ZGf-bHvBUPovehccimfpIejRW_hfw_0OWnF5hNe103k,689
+pyviralcontent-0.1.0.dist-info/METADATA,sha256=w8c9gbT_AYEKnMQBKKH9wStqoiQo2-FiTH7sWdux6xc,2544
+pyviralcontent-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyviralcontent-0.1.0.dist-info/top_level.txt,sha256=N8abSKUDRuf9gZXwb27gahyH29VkqhWclFr2ja5MZsE,15
+pyviralcontent-0.1.0.dist-info/RECORD,,
