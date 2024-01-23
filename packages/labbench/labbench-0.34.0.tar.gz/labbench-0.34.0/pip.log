@@ -1,0 +1,234 @@
+2023-02-06T10:43:00,998 Using pip 23.0 from C:\Users\dkuester\Anaconda3\envs\py310\lib\site-packages\pip (python 3.10)
+2023-02-06T10:43:01,001 Non-user install because site-packages writeable
+2023-02-06T10:43:01,517 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-7qik4ud6
+2023-02-06T10:43:01,517 Initialized build tracking at C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-7qik4ud6
+2023-02-06T10:43:01,517 Created build tracker: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-7qik4ud6
+2023-02-06T10:43:01,518 Entered build tracker: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-7qik4ud6
+2023-02-06T10:43:01,518 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-install-cjb7ixs5
+2023-02-06T10:43:01,520 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-ephem-wheel-cache-6ggwviwx
+2023-02-06T10:43:01,533 Processing c:\users\dkuester\documents\src\labbench
+2023-02-06T10:43:01,536   Added file:///C:/Users/dkuester/Documents/src/labbench to build tracker 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-7qik4ud6'
+2023-02-06T10:43:01,540   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-env-016cp193
+2023-02-06T10:43:01,543   Running command pip subprocess to install build dependencies
+2023-02-06T10:43:02,208   Using pip 23.0 from C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\pip (python 3.10)
+2023-02-06T10:43:02,807   Collecting pdm-pep517>=1.0
+2023-02-06T10:43:02,810     Using cached pdm_pep517-1.1.1-py3-none-any.whl (216 kB)
+2023-02-06T10:43:04,954   Installing collected packages: pdm-pep517
+2023-02-06T10:43:05,431   Successfully installed pdm-pep517-1.1.1
+2023-02-06T10:43:05,551   Running command Getting requirements to build wheel
+2023-02-06T10:43:05,943   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-modern-metadata-6iiz9ner
+2023-02-06T10:43:05,947   Running command Preparing metadata (pyproject.toml)
+2023-02-06T10:43:06,278   C:\Users\dkuester\AppData\Local\Temp\1\pip-build-env-016cp193\overlay\Lib\site-packages\pdm\pep517\base.py:384: PDMWarning: 'license' is missing
+2023-02-06T10:43:06,278     if meta.license_expression:
+2023-02-06T10:43:06,309   Source in c:\users\dkuester\documents\src\labbench has version 0.24.0, which satisfies requirement labbench==0.24.0 from file:///C:/Users/dkuester/Documents/src/labbench
+2023-02-06T10:43:06,310   Removed labbench==0.24.0 from file:///C:/Users/dkuester/Documents/src/labbench from build tracker 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-7qik4ud6'
+2023-02-06T10:43:06,326 Requirement already satisfied: pyvisa-py>=0.6 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.6.1)
+2023-02-06T10:43:06,327 Requirement already satisfied: ruamel-yaml>=0.17.21 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.17.21)
+2023-02-06T10:43:06,329 Requirement already satisfied: coloredlogs>=7.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (15.0.1)
+2023-02-06T10:43:06,330 Requirement already satisfied: psutil>=5.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (5.9.0)
+2023-02-06T10:43:06,331 Requirement already satisfied: numpy>=1.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.21.5)
+2023-02-06T10:43:06,333 Requirement already satisfied: comtypes in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.1.10)
+2023-02-06T10:43:06,334 Requirement already satisfied: pyvisa>=1.8 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.13.0)
+2023-02-06T10:43:06,335 Requirement already satisfied: pywin32 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (305.1)
+2023-02-06T10:43:06,337 Requirement already satisfied: sqlalchemy>=2.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (2.0.1)
+2023-02-06T10:43:06,338 Requirement already satisfied: GitPython>=2.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (3.1.30)
+2023-02-06T10:43:06,340 Requirement already satisfied: pyserial>=3.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (3.5)
+2023-02-06T10:43:06,342 Requirement already satisfied: feather-format>=0.4.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.4.1)
+2023-02-06T10:43:06,343 Requirement already satisfied: pandas>=1.00 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.5.2)
+2023-02-06T10:43:06,345 Requirement already satisfied: pyarrow>=11.0.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (11.0.0)
+2023-02-06T10:43:06,346 Requirement already satisfied: validators>=0.20.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.20.0)
+2023-02-06T10:43:06,351 Requirement already satisfied: humanfriendly>=9.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from coloredlogs>=7.0->labbench==0.24.0) (10.0)
+2023-02-06T10:43:06,357 Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from GitPython>=2.0->labbench==0.24.0) (4.0.10)
+2023-02-06T10:43:06,369 Requirement already satisfied: pytz>=2020.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pandas>=1.00->labbench==0.24.0) (2022.7)
+2023-02-06T10:43:06,371 Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pandas>=1.00->labbench==0.24.0) (2.8.2)
+2023-02-06T10:43:06,389 Requirement already satisfied: typing-extensions in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pyvisa>=1.8->labbench==0.24.0) (4.4.0)
+2023-02-06T10:43:06,407 Requirement already satisfied: ruamel.yaml.clib>=0.2.6 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from ruamel-yaml>=0.17.21->labbench==0.24.0) (0.2.6)
+2023-02-06T10:43:06,453 Requirement already satisfied: greenlet!=0.4.17 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from sqlalchemy>=2.0.1->labbench==0.24.0) (2.0.1)
+2023-02-06T10:43:06,460 Requirement already satisfied: decorator>=3.4.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from validators>=0.20.0->labbench==0.24.0) (5.1.1)
+2023-02-06T10:43:06,468 Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from gitdb<5,>=4.0.1->GitPython>=2.0->labbench==0.24.0) (5.0.0)
+2023-02-06T10:43:06,485 Requirement already satisfied: pyreadline3 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from humanfriendly>=9.1->coloredlogs>=7.0->labbench==0.24.0) (3.4.1)
+2023-02-06T10:43:06,490 Requirement already satisfied: six>=1.5 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from python-dateutil>=2.8.1->pandas>=1.00->labbench==0.24.0) (1.16.0)
+2023-02-06T10:43:06,506 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-unpack-0nl3xihs
+2023-02-06T10:43:06,507 Building wheels for collected packages: labbench
+2023-02-06T10:43:06,511   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-wheel-dkdg44sy
+2023-02-06T10:43:06,511   Destination directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-wheel-dkdg44sy
+2023-02-06T10:43:06,514   Running command Building wheel for labbench (pyproject.toml)
+2023-02-06T10:43:06,935    - Adding cli/__init__.py
+2023-02-06T10:43:06,935    - Adding cli/__main__.py
+2023-02-06T10:43:06,935    - Adding labbench/__init__.py
+2023-02-06T10:43:06,936    - Adding labbench/__init__.pyi
+2023-02-06T10:43:06,936    - Adding labbench/_backends.py
+2023-02-06T10:43:06,936    - Adding labbench/_backends.pyi
+2023-02-06T10:43:06,937    - Adding labbench/_data.py
+2023-02-06T10:43:06,937    - Adding labbench/_data.pyi
+2023-02-06T10:43:06,937    - Adding labbench/_device.py
+2023-02-06T10:43:06,938    - Adding labbench/_device.pyi
+2023-02-06T10:43:06,938    - Adding labbench/_host.py
+2023-02-06T10:43:06,938    - Adding labbench/_host.pyi
+2023-02-06T10:43:06,938    - Adding labbench/_rack.py
+2023-02-06T10:43:06,939    - Adding labbench/_rack.pyi
+2023-02-06T10:43:06,939    - Adding labbench/_serialize.py
+2023-02-06T10:43:06,939    - Adding labbench/_serialize.pyi
+2023-02-06T10:43:06,940    - Adding labbench/_traits.py
+2023-02-06T10:43:06,940    - Adding labbench/_traits.pyi
+2023-02-06T10:43:06,940    - Adding labbench/_version.py
+2023-02-06T10:43:06,940    - Adding labbench/_version.pyi
+2023-02-06T10:43:06,941    - Adding labbench/datareturn.py
+2023-02-06T10:43:06,941    - Adding labbench/datareturn.pyi
+2023-02-06T10:43:06,941    - Adding labbench/notebooks.py
+2023-02-06T10:43:06,942    - Adding labbench/notebooks.pyi
+2023-02-06T10:43:06,942    - Adding labbench/property.py
+2023-02-06T10:43:06,942    - Adding labbench/property.pyi
+2023-02-06T10:43:06,943    - Adding labbench/py.typed
+2023-02-06T10:43:06,943    - Adding labbench/util.py
+2023-02-06T10:43:06,943    - Adding labbench/util.pyi
+2023-02-06T10:43:06,943    - Adding labbench/value.py
+2023-02-06T10:43:06,944    - Adding labbench/value.pyi
+2023-02-06T10:43:06,944    - Adding _version.py
+2023-02-06T10:43:06,944    - Adding labbench-0.24.0.dist-info/entry_points.txt
+2023-02-06T10:43:06,944    - Adding labbench-0.24.0.dist-info/METADATA
+2023-02-06T10:43:06,945    - Adding labbench-0.24.0.dist-info/WHEEL
+2023-02-06T10:43:06,945    - Adding labbench-0.24.0.dist-info/licenses/LICENSE.md
+2023-02-06T10:43:06,986   Created wheel for labbench: filename=labbench-0.24.0-py3-none-any.whl size=123688 sha256=22fa346203f19353666e47c9ba8ecbf115c2df82ad2bcdc915a5b7d637388c11
+2023-02-06T10:43:06,987   Stored in directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-ephem-wheel-cache-6ggwviwx\wheels\10\9c\fc\9be10ffde16b1ac4cfb70b23febb0e377d39291c2b8ac24217
+2023-02-06T10:43:07,021 Successfully built labbench
+2023-02-06T10:43:09,148 Installing collected packages: labbench
+2023-02-06T10:43:09,149   Attempting uninstall: labbench
+2023-02-06T10:43:09,151     Found existing installation: labbench 0.24.0
+2023-02-06T10:43:09,187     Uninstalling labbench-0.24.0:
+2023-02-06T10:43:11,518       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-1u7elbr6
+2023-02-06T10:43:11,520       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\__pycache__\_version.cpython-310.pyc
+2023-02-06T10:43:11,521       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-b6lped58
+2023-02-06T10:43:11,523       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\_version.py
+2023-02-06T10:43:11,523       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~li
+2023-02-06T10:43:11,525       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\cli\
+2023-02-06T10:43:11,525       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~abbench-0.24.0.dist-info
+2023-02-06T10:43:11,527       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\labbench-0.24.0.dist-info\
+2023-02-06T10:43:11,528       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~abbench
+2023-02-06T10:43:11,530       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\labbench\
+2023-02-06T10:43:11,530       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-dl4ycawk
+2023-02-06T10:43:11,532       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\scripts\labbench.exe
+2023-02-06T10:43:11,533       Successfully uninstalled labbench-0.24.0
+
+2023-02-06T10:43:12,058 Successfully installed labbench-0.24.0
+2023-02-06T10:43:12,074 Remote version of pip: 23.0
+2023-02-06T10:43:12,074 Local version of pip:  23.0
+2023-02-06T10:43:12,075 Was pip installed by pip? True
+2023-02-06T10:43:12,076 Removed build tracker: 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-7qik4ud6'
+2023-02-06T10:43:51,256 Using pip 23.0 from C:\Users\dkuester\Anaconda3\envs\py310\lib\site-packages\pip (python 3.10)
+2023-02-06T10:43:51,259 Non-user install because site-packages writeable
+2023-02-06T10:43:51,810 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-k79lzcpf
+2023-02-06T10:43:51,810 Initialized build tracking at C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-k79lzcpf
+2023-02-06T10:43:51,810 Created build tracker: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-k79lzcpf
+2023-02-06T10:43:51,811 Entered build tracker: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-tracker-k79lzcpf
+2023-02-06T10:43:51,812 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-install-bu9ed3as
+2023-02-06T10:43:51,813 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-ephem-wheel-cache-_qyk0a7j
+2023-02-06T10:43:51,829 Processing c:\users\dkuester\documents\src\labbench
+2023-02-06T10:43:51,832   Added file:///C:/Users/dkuester/Documents/src/labbench to build tracker 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-k79lzcpf'
+2023-02-06T10:43:51,835   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-build-env-kz2ac2xc
+2023-02-06T10:43:51,838   Running command pip subprocess to install build dependencies
+2023-02-06T10:43:52,560   Using pip 23.0 from C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\pip (python 3.10)
+2023-02-06T10:43:53,242   Collecting pdm-pep517>=1.0
+2023-02-06T10:43:53,244     Using cached pdm_pep517-1.1.1-py3-none-any.whl (216 kB)
+2023-02-06T10:43:55,523   Installing collected packages: pdm-pep517
+2023-02-06T10:43:56,050   Successfully installed pdm-pep517-1.1.1
+2023-02-06T10:43:56,178   Running command Getting requirements to build wheel
+2023-02-06T10:43:56,552   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-modern-metadata-47ppydn8
+2023-02-06T10:43:56,555   Running command Preparing metadata (pyproject.toml)
+2023-02-06T10:43:56,909   C:\Users\dkuester\AppData\Local\Temp\1\pip-build-env-kz2ac2xc\overlay\Lib\site-packages\pdm\pep517\base.py:384: PDMWarning: 'license' is missing
+2023-02-06T10:43:56,909     if meta.license_expression:
+2023-02-06T10:43:56,945   Source in c:\users\dkuester\documents\src\labbench has version 0.24.0, which satisfies requirement labbench==0.24.0 from file:///C:/Users/dkuester/Documents/src/labbench
+2023-02-06T10:43:56,946   Removed labbench==0.24.0 from file:///C:/Users/dkuester/Documents/src/labbench from build tracker 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-k79lzcpf'
+2023-02-06T10:43:56,963 Requirement already satisfied: coloredlogs>=7.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (15.0.1)
+2023-02-06T10:43:56,965 Requirement already satisfied: GitPython>=2.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (3.1.30)
+2023-02-06T10:43:56,967 Requirement already satisfied: pyvisa-py>=0.6 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.6.1)
+2023-02-06T10:43:56,969 Requirement already satisfied: psutil>=5.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (5.9.0)
+2023-02-06T10:43:56,970 Requirement already satisfied: feather-format>=0.4.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.4.1)
+2023-02-06T10:43:56,972 Requirement already satisfied: pandas>=1.00 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.5.2)
+2023-02-06T10:43:56,973 Requirement already satisfied: ruamel-yaml>=0.17.21 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.17.21)
+2023-02-06T10:43:56,974 Requirement already satisfied: validators>=0.20.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (0.20.0)
+2023-02-06T10:43:56,976 Requirement already satisfied: pyserial>=3.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (3.5)
+2023-02-06T10:43:56,977 Requirement already satisfied: numpy>=1.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.21.5)
+2023-02-06T10:43:56,978 Requirement already satisfied: pywin32 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (305.1)
+2023-02-06T10:43:56,979 Requirement already satisfied: pyvisa>=1.8 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.13.0)
+2023-02-06T10:43:56,981 Requirement already satisfied: comtypes in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (1.1.10)
+2023-02-06T10:43:56,983 Requirement already satisfied: pyarrow>=11.0.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (11.0.0)
+2023-02-06T10:43:56,984 Requirement already satisfied: sqlalchemy>=2.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from labbench==0.24.0) (2.0.1)
+2023-02-06T10:43:56,989 Requirement already satisfied: humanfriendly>=9.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from coloredlogs>=7.0->labbench==0.24.0) (10.0)
+2023-02-06T10:43:56,995 Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from GitPython>=2.0->labbench==0.24.0) (4.0.10)
+2023-02-06T10:43:57,006 Requirement already satisfied: pytz>=2020.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pandas>=1.00->labbench==0.24.0) (2022.7)
+2023-02-06T10:43:57,008 Requirement already satisfied: python-dateutil>=2.8.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pandas>=1.00->labbench==0.24.0) (2.8.2)
+2023-02-06T10:43:57,026 Requirement already satisfied: typing-extensions in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from pyvisa>=1.8->labbench==0.24.0) (4.4.0)
+2023-02-06T10:43:57,044 Requirement already satisfied: ruamel.yaml.clib>=0.2.6 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from ruamel-yaml>=0.17.21->labbench==0.24.0) (0.2.6)
+2023-02-06T10:43:57,088 Requirement already satisfied: greenlet!=0.4.17 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from sqlalchemy>=2.0.1->labbench==0.24.0) (2.0.1)
+2023-02-06T10:43:57,094 Requirement already satisfied: decorator>=3.4.0 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from validators>=0.20.0->labbench==0.24.0) (5.1.1)
+2023-02-06T10:43:57,103 Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from gitdb<5,>=4.0.1->GitPython>=2.0->labbench==0.24.0) (5.0.0)
+2023-02-06T10:43:57,119 Requirement already satisfied: pyreadline3 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from humanfriendly>=9.1->coloredlogs>=7.0->labbench==0.24.0) (3.4.1)
+2023-02-06T10:43:57,123 Requirement already satisfied: six>=1.5 in c:\users\dkuester\anaconda3\envs\py310\lib\site-packages (from python-dateutil>=2.8.1->pandas>=1.00->labbench==0.24.0) (1.16.0)
+2023-02-06T10:43:57,138 Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-unpack-_kdvey46
+2023-02-06T10:43:57,139 Building wheels for collected packages: labbench
+2023-02-06T10:43:57,142   Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-wheel-395lca_5
+2023-02-06T10:43:57,142   Destination directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-wheel-395lca_5
+2023-02-06T10:43:57,145   Running command Building wheel for labbench (pyproject.toml)
+2023-02-06T10:43:57,545    - Adding cli/__init__.py
+2023-02-06T10:43:57,545    - Adding cli/__main__.py
+2023-02-06T10:43:57,546    - Adding labbench/__init__.py
+2023-02-06T10:43:57,546    - Adding labbench/__init__.pyi
+2023-02-06T10:43:57,546    - Adding labbench/_backends.py
+2023-02-06T10:43:57,547    - Adding labbench/_backends.pyi
+2023-02-06T10:43:57,547    - Adding labbench/_data.py
+2023-02-06T10:43:57,547    - Adding labbench/_data.pyi
+2023-02-06T10:43:57,547    - Adding labbench/_device.py
+2023-02-06T10:43:57,548    - Adding labbench/_device.pyi
+2023-02-06T10:43:57,548    - Adding labbench/_host.py
+2023-02-06T10:43:57,548    - Adding labbench/_host.pyi
+2023-02-06T10:43:57,548    - Adding labbench/_rack.py
+2023-02-06T10:43:57,549    - Adding labbench/_rack.pyi
+2023-02-06T10:43:57,549    - Adding labbench/_serialize.py
+2023-02-06T10:43:57,550    - Adding labbench/_serialize.pyi
+2023-02-06T10:43:57,550    - Adding labbench/_traits.py
+2023-02-06T10:43:57,550    - Adding labbench/_traits.pyi
+2023-02-06T10:43:57,550    - Adding labbench/_version.py
+2023-02-06T10:43:57,551    - Adding labbench/_version.pyi
+2023-02-06T10:43:57,551    - Adding labbench/datareturn.py
+2023-02-06T10:43:57,552    - Adding labbench/datareturn.pyi
+2023-02-06T10:43:57,552    - Adding labbench/notebooks.py
+2023-02-06T10:43:57,552    - Adding labbench/notebooks.pyi
+2023-02-06T10:43:57,552    - Adding labbench/property.py
+2023-02-06T10:43:57,553    - Adding labbench/property.pyi
+2023-02-06T10:43:57,553    - Adding labbench/py.typed
+2023-02-06T10:43:57,553    - Adding labbench/util.py
+2023-02-06T10:43:57,553    - Adding labbench/util.pyi
+2023-02-06T10:43:57,554    - Adding labbench/value.py
+2023-02-06T10:43:57,554    - Adding labbench/value.pyi
+2023-02-06T10:43:57,554    - Adding labbench/_version.py
+2023-02-06T10:43:57,555    - Adding labbench-0.24.0.dist-info/entry_points.txt
+2023-02-06T10:43:57,555    - Adding labbench-0.24.0.dist-info/METADATA
+2023-02-06T10:43:57,555    - Adding labbench-0.24.0.dist-info/WHEEL
+2023-02-06T10:43:57,555    - Adding labbench-0.24.0.dist-info/licenses/LICENSE.md
+2023-02-06T10:43:57,596   Created wheel for labbench: filename=labbench-0.24.0-py3-none-any.whl size=122607 sha256=25a74a32263a009c2979ec8162645cf25fe43c7c7f0ca54c001bf137023ed128
+2023-02-06T10:43:57,597   Stored in directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-ephem-wheel-cache-_qyk0a7j\wheels\10\9c\fc\9be10ffde16b1ac4cfb70b23febb0e377d39291c2b8ac24217
+2023-02-06T10:43:57,630 Successfully built labbench
+2023-02-06T10:44:00,537 Installing collected packages: labbench
+2023-02-06T10:44:00,538   Attempting uninstall: labbench
+2023-02-06T10:44:00,540     Found existing installation: labbench 0.24.0
+2023-02-06T10:44:00,587     Uninstalling labbench-0.24.0:
+2023-02-06T10:44:03,327       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-n7g_1fpi
+2023-02-06T10:44:03,329       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\__pycache__\_version.cpython-310.pyc
+2023-02-06T10:44:03,330       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-sp8pqbs_
+2023-02-06T10:44:03,332       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\_version.py
+2023-02-06T10:44:03,333       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~li
+2023-02-06T10:44:03,334       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\cli\
+2023-02-06T10:44:03,335       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~abbench-0.24.0.dist-info
+2023-02-06T10:44:03,337       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\labbench-0.24.0.dist-info\
+2023-02-06T10:44:03,338       Created temporary directory: C:\Users\dkuester\Anaconda3\envs\py310\Lib\site-packages\~abbench
+2023-02-06T10:44:03,340       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\lib\site-packages\labbench\
+2023-02-06T10:44:03,341       Created temporary directory: C:\Users\dkuester\AppData\Local\Temp\1\pip-uninstall-j8op3ghy
+2023-02-06T10:44:03,343       Removing file or directory c:\users\dkuester\anaconda3\envs\py310\scripts\labbench.exe
+2023-02-06T10:44:03,343       Successfully uninstalled labbench-0.24.0
+
+2023-02-06T10:44:03,960 Successfully installed labbench-0.24.0
+2023-02-06T10:44:03,981 Remote version of pip: 23.0
+2023-02-06T10:44:03,981 Local version of pip:  23.0
+2023-02-06T10:44:03,984 Was pip installed by pip? True
+2023-02-06T10:44:03,984 Removed build tracker: 'C:\\Users\\dkuester\\AppData\\Local\\Temp\\1\\pip-build-tracker-k79lzcpf'

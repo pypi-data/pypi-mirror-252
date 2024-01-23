@@ -1,0 +1,11 @@
+/Users/dkuester/Documents/src/labbench/labbench/_data.py:137: ResourceWarning: unclosed file <_io.BufferedWriter name='test db/8acc94cbabceb74b/metadata/db_munge_force_relational.csv'>
+  self._from_ndarraylike(key_name, value)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/dkuester/Documents/src/labbench/labbench/_data.py:157: ResourceWarning: unclosed file <_io.TextIOWrapper name='test db/8acc94cbabceb74b/metadata/summary.json' mode='w' encoding='UTF-8'>
+  self._write_metadata(metadata)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.209s
+
+OK

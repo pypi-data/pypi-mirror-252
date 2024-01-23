@@ -1,0 +1,4 @@
+analyzer_center_frequency,sensor_frequency,sensor_trigger_count,sensor_sweep_aperture,db_host_time,db_host_log,analyzer_trace,sensor_reading,comments,dut
+5800000000.0,5800000000.0,200,0.02,2024-01-22 14:36:46.725527,0/db_host_log.json,0/analyzer_trace.csv,-52.617,try 1.21 GW for time-travel,DUT 63
+5850000000.0,5850000000.0,200,0.02,2024-01-22 14:36:46.833507,1/db_host_log.json,1/analyzer_trace.csv,-52.617,try 1.21 GW for time-travel,DUT 63
+5900000000.0,5900000000.0,200,0.02,2024-01-22 14:36:46.944735,2/db_host_log.json,2/analyzer_trace.csv,-52.617,try 1.21 GW for time-travel,DUT 63

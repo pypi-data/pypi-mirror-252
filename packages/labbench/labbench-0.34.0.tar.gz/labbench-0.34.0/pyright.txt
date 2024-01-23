@@ -1,0 +1,110 @@
+/Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:852:23 - error: Operator "+" not supported for types "str" and "Unknown | None"
+    Operator "+" not supported for types "str" and "None" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1156:20 - error: Expression of type "Self@Property[T@Property]" cannot be assigned to return type "T@Property"
+    Type "Self@Property[T@Property]" cannot be assigned to type "T@Property" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1161:20 - error: Expression of type "Self@Property[T@Property]" cannot be assigned to return type "T@Property"
+    Type "Self@Property[T@Property]" cannot be assigned to type "T@Property" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1163:20 - error: Expression of type "Any | Unknown | None" cannot be assigned to return type "T@Property"
+    Type "Any | Unknown | None" cannot be assigned to type "T@Property" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1254:21 - error: Argument of type "Unknown | Undefined | ParamAttr[Unknown] | None" cannot be assigned to parameter "__value" of type "ParamAttr[Unknown]" in function "__setitem__"
+    Type "Unknown | Undefined | ParamAttr[Unknown] | None" cannot be assigned to type "ParamAttr[Unknown]"
+      "None" is incompatible with "ParamAttr[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1342:27 - error: Argument of type "HasParamAttrs" cannot be assigned to parameter "__cls" of type "type" in function "issubclass"
+    "HasParamAttrs" is incompatible with "type" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1353:29 - error: Expected class type as first argument to "super" call but received "Never" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1353:40 - error: Second argument to "super" call must be object or class that derives from "Never" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1354:35 - error: Argument of type "Unknown | str | None" cannot be assigned to parameter "__name" of type "str" in function "getattr"
+    Type "Unknown | str | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1358:32 - error: Argument of type "Unknown | str | None" cannot be assigned to parameter "__name" of type "str" in function "setattr"
+    Type "Unknown | str | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1364:12 - error: Expression of type "(owner_cls: HasParamAttrs) -> NoReturn" cannot be assigned to return type "(type[T@adjust]) -> type[T@adjust]"
+    Type "(owner_cls: HasParamAttrs) -> NoReturn" cannot be assigned to type "(type[T@adjust]) -> type[T@adjust]"
+      Parameter 1: type "type[T@adjust]" cannot be assigned to type "HasParamAttrs"
+        "type[type]" is incompatible with "type[HasParamAttrs]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1432:18 - error: "Never" is not iterable (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1475:43 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1517:16 - warning: Class methods should take a "cls" parameter (reportSelfClsParameterName)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1565:18 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1645:17 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1670:21 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1674:16 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1686:13 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1665:9 - error: Method "set_in_owner" overrides class "ParamAttr" in an incompatible manner
+    Parameter 3 name mismatch: base parameter is named "value", override parameter is named "cal_value" (reportIncompatibleMethodOverride)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1700:28 - error: Expression of type "None" cannot be assigned to declared type "ParamAttr[Unknown]"
+    "None" is incompatible with "ParamAttr[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1701:36 - error: Expression of type "None" cannot be assigned to declared type "ParamAttr[Unknown]"
+    "None" is incompatible with "ParamAttr[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1702:31 - error: Expression of type "None" cannot be assigned to declared type "str"
+    "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1710:18 - error: Argument of type "list[Unknown | None]" cannot be assigned to parameter "name" of type "Undefined" in function "observe"
+    Type "list[Unknown | None]" cannot be assigned to type "Undefined" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1722:36 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "getattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1732:35 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "getattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1780:35 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "getattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1781:36 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "getattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1784:32 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "setattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1785:32 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__name" of type "str" in function "setattr"
+    Type "Unknown | None" cannot be assigned to type "str"
+      "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1834:21 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1845:21 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1852:17 - error: Argument missing for parameter "y" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1853:17 - error: Argument missing for parameter "y" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1885:28 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__arg2" of type "SupportsRichComparisonT@min" in function "min"
+    Type "Unknown | None" cannot be assigned to type "SupportsRichComparison" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1894:24 - error: Argument of type "Unknown | None" cannot be assigned to parameter "__arg1" of type "SupportsRichComparisonT@max" in function "max"
+    Type "Unknown | None" cannot be assigned to type "SupportsRichComparison" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1897:22 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1900:27 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1903:19 - error: Argument missing for parameter "y" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1917:21 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1922:26 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1927:26 - error: Argument missing for parameter "y" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1958:32 - error: Operator ">" not supported for types "bytes | str | bool | Number" and "T@BoundedNumber"
+    Operator ">" not supported for types "bytes" and "object*" when expected type is "bool"
+    Operator ">" not supported for types "str" and "object*" when expected type is "bool"
+    Operator ">" not supported for types "bool" and "object*" when expected type is "bool"
+    Operator ">" not supported for types "Number" and "object*" when expected type is "bool" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1962:32 - error: Operator "<" not supported for types "bytes | str | bool | Number" and "T@BoundedNumber"
+    Operator "<" not supported for types "bytes" and "object*" when expected type is "bool"
+    Operator "<" not supported for types "str" and "object*" when expected type is "bool"
+    Operator "<" not supported for types "bool" and "object*" when expected type is "bool"
+    Operator "<" not supported for types "Number" and "object*" when expected type is "bool" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1988:35 - error: Expression of type "None" cannot be assigned to parameter of type "str"
+    "None" is incompatible with "str" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:2024:22 - error: Expression of type "Undefined" cannot be assigned to parameter of type "str"
+    "type[type]" is incompatible with "type[str]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:2061:23 - error: "__getitem__" method not defined on type "set[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:2074:18 - error: Expected type expression but received "(__obj: object, /) -> TypeGuard[(...) -> object]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:2075:18 - error: Expected type expression but received "(__obj: object, /) -> TypeGuard[(...) -> object]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:2104:31 - error: Argument of type "None" cannot be assigned to parameter "other_attr" of type "ParamAttr[Unknown]" in function "transform"
+    "None" is incompatible with "ParamAttr[Unknown]" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:771:9 - error: Overloaded implementation is not consistent with signature of overload 1
+    Type "(self: Self@KeywordArgument[T@KeywordArgument], to_decorate: _DecoratorMethodType[T@KeywordArgument, _P@__call__] | ((**_P@__call__) -> (T@KeywordArgument | None)) | KeywordArgument[R@__call__]) -> (Self@KeywordArgument[T@KeywordArgument] | _DecoratorMethodType[T@KeywordArgument, _P@__call__])" cannot be assigned to type "(self: Self@KeywordArgument[T@KeywordArgument], unvalidated_method: _DecoratorMethodType[T@KeywordArgument, _P@__call__]) -> _DecoratorMethodType[T@KeywordArgument, _P@__call__]"
+      Parameter name mismatch: "unvalidated_method" versus "to_decorate" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:771:9 - error: Overloaded implementation is not consistent with signature of overload 2
+    Type "(self: Self@KeywordArgument[T@KeywordArgument], to_decorate: _DecoratorMethodType[T@KeywordArgument, _P@__call__] | ((**_P@__call__) -> (T@KeywordArgument | None)) | KeywordArgument[R@__call__]) -> (Self@KeywordArgument[T@KeywordArgument] | _DecoratorMethodType[T@KeywordArgument, _P@__call__])" cannot be assigned to type "(self: Self@KeywordArgument[T@KeywordArgument], unvalidated_method: (**_P@__call__) -> (T@KeywordArgument | None)) -> Self@KeywordArgument[T@KeywordArgument]"
+      Parameter name mismatch: "unvalidated_method" versus "to_decorate" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:771:9 - error: Overloaded implementation is not consistent with signature of overload 3
+    Type "(self: Self@KeywordArgument[T@KeywordArgument], to_decorate: _DecoratorMethodType[T@KeywordArgument, _P@__call__] | ((**_P@__call__) -> (T@KeywordArgument | None)) | KeywordArgument[R@__call__]) -> (Self@KeywordArgument[T@KeywordArgument] | _DecoratorMethodType[T@KeywordArgument, _P@__call__])" cannot be assigned to type "(self: Self@KeywordArgument[T@KeywordArgument], unvalidated_method: KeywordArgument[R@__call__]) -> Self@KeywordArgument[T@KeywordArgument]"
+      Parameter name mismatch: "unvalidated_method" versus "to_decorate" (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1044:13 - error: "__get__" is marked as overload, but no implementation is provided (reportGeneralTypeIssues)
+  /Users/dkuester/Documents/src/labbench/labbench/paramattr/_bases.py:1084:13 - error: "__get__" is marked as overload, but no implementation is provided (reportGeneralTypeIssues)
+81 errors, 1 warning, 0 informations 
+WARNING: there is a new pyright version available (v1.1.339 -> v1.1.340).
+Please install the new version or set PYRIGHT_PYTHON_FORCE_VERSION to `latest`
+

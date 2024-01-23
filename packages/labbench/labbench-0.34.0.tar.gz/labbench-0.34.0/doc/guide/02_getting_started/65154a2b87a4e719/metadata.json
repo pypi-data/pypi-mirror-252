@@ -1,0 +1,338 @@
+{
+ "device_objects": {
+  "sensor": "PowerSensor()",
+  "analyzer": "SpectrumAnalyzer()",
+  "db.aggregator": "Aggregator()",
+  "db.host": "Host()",
+  "db.munge": "MungeToDirectory('65154a2b87a4e719')",
+  "db": "CSVLogger('65154a2b87a4e719')"
+ },
+ "global_values": {
+  "sensor_resource": "USB0::0x1111::0x2222::0x1234::0::INSTR",
+  "sensor_serial": "63472",
+  "sensor__revision": "rev f",
+  "sensor_read_termination": "\n",
+  "sensor_write_termination": "\r\n",
+  "sensor_open_timeout": null,
+  "sensor_timeout": null,
+  "sensor_make": "FakeTech",
+  "sensor_model": "Power Sensor #1234",
+  "sensor__identity": "FakeTech,Power Sensor #1234,63472,rev f",
+  "analyzer_resource": "USB0::0x1111::0x2222::0x4445::0::INSTR",
+  "analyzer_serial": "#AUJH99",
+  "analyzer__revision": "v 4.3.1",
+  "analyzer_read_termination": "\n",
+  "analyzer_write_termination": "\n",
+  "analyzer_open_timeout": null,
+  "analyzer_timeout": null,
+  "analyzer_make": "FakeTech",
+  "analyzer_model": "Spectrum Analyzer #1234",
+  "analyzer__identity": "FakeTech,Spectrum Analyzer #1234,#AUJH99,v 4.3.1",
+  "db_host_resource": null,
+  "db_host_git_commit_id": "ad2474532d0707a71d60c169a3e6912e74574c7b",
+  "db_host_git_remote_url": "https://github.com/usnistgov/labbench",
+  "db_host_hostname": "67503dkmbp",
+  "db_host_git_browse_url": "https://github.com/usnistgov/labbench/tree/ad2474532d0707a71d60c169a3e6912e74574c7b",
+  "db_host_git_pending_changes": "'doc/conf.py',",
+  "db_host_git_commit_in": null,
+  "db_munge_resource": "65154a2b87a4e719",
+  "db_munge_text_relational_min": 1024,
+  "db_munge_force_relational": [
+   "host_log",
+   "db_host_log"
+  ],
+  "db_munge_relational_name_fmt": "{id}",
+  "db_munge_nonscalar_file_type": "csv"
+ },
+ "field_name_sources": {
+  "sensor_isopen": {
+   "object": "sensor.isopen",
+   "paramattr": "labbench.paramattr.property.bool()",
+   "type": "bool",
+   "help": "`True` if the backend is ready for use",
+   "label": ""
+  },
+  "sensor_resource": {
+   "object": "sensor.resource",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device address or URI",
+   "label": ""
+  },
+  "analyzer_isopen": {
+   "object": "analyzer.isopen",
+   "paramattr": "labbench.paramattr.property.bool()",
+   "type": "bool",
+   "help": "`True` if the backend is ready for use",
+   "label": ""
+  },
+  "analyzer_resource": {
+   "object": "analyzer.resource",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device address or URI",
+   "label": ""
+  },
+  "db_host_log": {
+   "object": "db.host.log",
+   "paramattr": "labbench.paramattr.property.list()",
+   "type": "list",
+   "help": "Get the current host log contents.",
+   "label": ""
+  },
+  "db_munge_force_relational": {
+   "object": "db.munge.force_relational",
+   "paramattr": "labbench.paramattr.value.list(allow_none=False, default=[])",
+   "type": "list",
+   "help": "list of column names to always save as relational data",
+   "label": ""
+  },
+  "analyzer_center_frequency": {
+   "object": "analyzer.center_frequency",
+   "paramattr": "labbench.paramattr.property.float(None)",
+   "type": "float",
+   "help": "input signal center frequency",
+   "label": "Hz"
+  },
+  "sensor_frequency": {
+   "object": "sensor.frequency",
+   "paramattr": "labbench.paramattr.property.float(None)",
+   "type": "float",
+   "help": "calibration frequency",
+   "label": "Hz"
+  },
+  "sensor_trigger_count": {
+   "object": "sensor.trigger_count",
+   "paramattr": "labbench.paramattr.property.int(None)",
+   "type": "int",
+   "help": "acquisition count",
+   "label": "samples"
+  },
+  "db_host_time": {
+   "object": "db.host.time",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "Get a timestamp of the current time",
+   "label": ""
+  },
+  "db_host_isopen": {
+   "object": "db.host.isopen",
+   "paramattr": "labbench.paramattr.property.bool()",
+   "type": "bool",
+   "help": "`True` if the backend is ready for use",
+   "label": ""
+  },
+  "db_munge_isopen": {
+   "object": "db.munge.isopen",
+   "paramattr": "labbench.paramattr.property.bool()",
+   "type": "bool",
+   "help": "`True` if the backend is ready for use",
+   "label": ""
+  },
+  "db_munge_resource": {
+   "object": "db.munge.resource",
+   "paramattr": "labbench.paramattr.value.Path(None)",
+   "type": "pathlib.Path",
+   "help": "base directory for all data",
+   "label": ""
+  },
+  "db_munge_text_relational_min": {
+   "object": "db.munge.text_relational_min",
+   "paramattr": "labbench.paramattr.value.int(None)",
+   "type": "int",
+   "help": "minimum size threshold that triggers storing text in a relational file",
+   "label": ""
+  },
+  "db_munge_relational_name_fmt": {
+   "object": "db.munge.relational_name_fmt",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "directory name format for data in each row keyed on column",
+   "label": ""
+  },
+  "db_munge_nonscalar_file_type": {
+   "object": "db.munge.nonscalar_file_type",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "file format for non-scalar numerical data",
+   "label": ""
+  },
+  "sensor_serial": {
+   "object": "sensor.serial",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "device-reported serial number",
+   "label": ""
+  },
+  "sensor__revision": {
+   "object": "sensor._revision",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "device-reported revision",
+   "label": ""
+  },
+  "sensor_read_termination": {
+   "object": "sensor.read_termination",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "end of line string to expect in query replies",
+   "label": ""
+  },
+  "sensor_write_termination": {
+   "object": "sensor.write_termination",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "end-of-line string to send after writes",
+   "label": ""
+  },
+  "sensor_open_timeout": {
+   "object": "sensor.open_timeout",
+   "paramattr": "labbench.paramattr.value.float(None)",
+   "type": "float",
+   "help": "timeout for opening a connection to the instrument",
+   "label": "s"
+  },
+  "sensor_timeout": {
+   "object": "sensor.timeout",
+   "paramattr": "labbench.paramattr.value.float(None)",
+   "type": "float",
+   "help": "message response timeout",
+   "label": "s"
+  },
+  "sensor_make": {
+   "object": "sensor.make",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device manufacturer name used to autodetect resource string",
+   "label": ""
+  },
+  "sensor_model": {
+   "object": "sensor.model",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device model used to autodetect resource string",
+   "label": ""
+  },
+  "sensor__identity": {
+   "object": "sensor._identity",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "identity string reported by the instrument",
+   "label": ""
+  },
+  "analyzer_serial": {
+   "object": "analyzer.serial",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "device-reported serial number",
+   "label": ""
+  },
+  "analyzer__revision": {
+   "object": "analyzer._revision",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "device-reported revision",
+   "label": ""
+  },
+  "analyzer_read_termination": {
+   "object": "analyzer.read_termination",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "end of line string to expect in query replies",
+   "label": ""
+  },
+  "analyzer_write_termination": {
+   "object": "analyzer.write_termination",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "end-of-line string to send after writes",
+   "label": ""
+  },
+  "analyzer_open_timeout": {
+   "object": "analyzer.open_timeout",
+   "paramattr": "labbench.paramattr.value.float(None)",
+   "type": "float",
+   "help": "timeout for opening a connection to the instrument",
+   "label": "s"
+  },
+  "analyzer_timeout": {
+   "object": "analyzer.timeout",
+   "paramattr": "labbench.paramattr.value.float(None)",
+   "type": "float",
+   "help": "message response timeout",
+   "label": "s"
+  },
+  "analyzer_make": {
+   "object": "analyzer.make",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device manufacturer name used to autodetect resource string",
+   "label": ""
+  },
+  "analyzer_model": {
+   "object": "analyzer.model",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device model used to autodetect resource string",
+   "label": ""
+  },
+  "analyzer__identity": {
+   "object": "analyzer._identity",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "identity string reported by the instrument",
+   "label": ""
+  },
+  "db_host_resource": {
+   "object": "db.host.resource",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "device address or URI",
+   "label": ""
+  },
+  "db_host_git_commit_id": {
+   "object": "db.host.git_commit_id",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "Try to determine the current commit hash of the current git repo",
+   "label": ""
+  },
+  "db_host_git_remote_url": {
+   "object": "db.host.git_remote_url",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "Try to identify the remote URL of the repository of the current git repo",
+   "label": ""
+  },
+  "db_host_hostname": {
+   "object": "db.host.hostname",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "Get the name of the current host",
+   "label": ""
+  },
+  "db_host_git_browse_url": {
+   "object": "db.host.git_browse_url",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "URL for browsing the current git repository",
+   "label": ""
+  },
+  "db_host_git_pending_changes": {
+   "object": "db.host.git_pending_changes",
+   "paramattr": "labbench.paramattr.property.str(None)",
+   "type": "str",
+   "help": "",
+   "label": ""
+  },
+  "db_host_git_commit_in": {
+   "object": "db.host.git_commit_in",
+   "paramattr": "labbench.paramattr.value.str(None)",
+   "type": "str",
+   "help": "git commit on open() if run inside a git repo with this branch name",
+   "label": ""
+  }
+ },
+ "sensor_resource": "USB0::0x1111::0x2222::0x1234::0::INSTR",
+ "analyzer_resource": "USB0::0x1111::0x2222::0x4445::0::INSTR"
+}

@@ -1,0 +1,4 @@
+analyzer_trace,sensor_reading,analyzer_center_frequency,sensor_frequency,sensor_trigger_count,db_host_time,db_host_log
+0/analyzer_trace.csv,-52.617,5800000000.0,5800000000.0,200,2024-01-22 14:32:49.447638,0/db_host_log.json
+1/analyzer_trace.csv,-52.617,5850000000.0,5850000000.0,200,2024-01-22 14:32:49.560813,1/db_host_log.json
+2/analyzer_trace.csv,-52.617,5900000000.0,5900000000.0,200,2024-01-22 14:32:49.672568,2/db_host_log.json

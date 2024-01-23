@@ -1,0 +1,111 @@
+import labbench as lb
+import numpy as np
+from threading import RLock
+import functools
+import time
+
+def myfunc():
+    """ this is myfunc """
+    lb.sleep(0.25)
+    return np.random.uniform(low=0, high=10, size=1)[0]
+
+
+class SingleThreadProducer:
+    def __new__(cls, func):
+        obj = super().__new__(cls)
+        obj.func = func
+        obj.lock = RLock()
+        obj.retval = None
+        obj = functools.wraps(func)(obj)
+        return obj
+
+    @lb.util.hide_in_traceback
+    def __call__(self):
+        if self.lock.acquire(False):
+            # no other threads are running self.func; invoke it in this one
+            try:
+                ret = self.retval = self.func()
+            finally:
+                self.lock.release()
+        else:
+            # another thread is running self.func; return its result
+            self.lock.acquire(True)
+            ret = self.retval
+            self.lock.release()
+
+        return ret
+
+
+class TTLCache:
+    def __init__ (self, timeout):
+        self.timeout = timeout
+        self.call_timestamp = None
+        self.last_value = None
+
+    def __call__ (self, func):
+        @functools.wraps(func)
+        def wrapper_decorator(*args, **kws):
+            if self.call_timestamp is None \
+                or time.perf_counter()-self.call_timestamp > self.timeout:
+                ret = self.last_value = func(*args, **kws)
+                self.call_timestamp = time.perf_counter()
+            else:
+                ret = self.last_value
+
+            return ret
+        
+        return wrapper_decorator
+
+
+@TTLCache(timeout=3)
+@SingleThreadProducer
+def probe_visa_identities(skip_interfaces=['ASRL']):
+    import pyvisa
+
+    def check_idn(device: lb.VISADevice):
+        try:
+            return device
+        except pyvisa.errors.VisaIOError:
+            return None
+
+    def keep_interface(name):
+        for iface in skip_interfaces:
+            if name.lower().startswith(iface.lower()):
+                return False
+        return True
+
+    devices = {
+        res: lb.VISADevice(res, open_timeout=0.25)
+        for res in lb.VISADevice.list_resources()
+        if keep_interface(res)
+    }
+
+    with lb.stopwatch():
+        with lb.concurrently(*list(devices.values()), catch=True):
+            calls = [
+                lb.Call(check_idn, device).rename(res)
+                for res, device in devices.items()
+                if device.isopen
+            ]
+
+            with lb.stopwatch():
+                identities = lb.concurrently(*calls, catch=True)
+
+    devices = {
+        k: v
+        for k,v in devices.items()
+        if k in identities.keys()
+    }
+
+    return identities, devices
+
+# broadcast_func = BroadcastProducerFunc(myfunc)
+# %timeit -n1 -r1 lb.concurrently(lb.Call(broadcast_func).rename('a'), lb.Call(broadcast_func).rename('b'), lb.Call(broadcast_func).rename('c'))
+import pyvisa
+
+# %timeit -n1 -r1 lb.concurrently(lb.Call(probe_visa_identities).rename('a'), lb.Call(probe_visa_identities).rename('b'))
+
+%timeit -n1 -r1 probe_visa_identities()
+%timeit -n1 -r1 probe_visa_identities()
+
+print(probe_visa_identities())
