@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+genisum/__init__.py
+genisum.egg-info/PKG-INFO
+genisum.egg-info/SOURCES.txt
+genisum.egg-info/dependency_links.txt
+genisum.egg-info/top_level.txt
