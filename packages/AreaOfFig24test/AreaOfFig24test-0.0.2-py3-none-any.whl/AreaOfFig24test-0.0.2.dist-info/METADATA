@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: AreaOfFig24test
+Version: 0.0.2
+Summary: My First Package
+Author: Himanshu Bansal
+Author-email: himu90505@gmail.com
+Keywords: area of figs,area,himanshu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+Area Calculator
+
+# first_package
+
+`first_package` is a Python package that provides a set of functions to calculate the areas of geometric shapes. It includes a module named `Area_Fig.py` containing three functions:
+
+- `square_area(side_length)`: Calculates the area of a square given the length of its side.
+- `rectangle_area(length, width)`: Calculates the area of a rectangle given its length and width.
+- `circle_area(radius)`: Calculates the area of a circle given its radius.
+
+## Installation
+
+Install `first_package` using pip: pip install first_package
+
+## Usage
+
+from first_package.Area_Fig import square_area, rectangle_area, circle_area
+
+### Calculate the area of a square
+print(square_area(5))
+
+### Calculate the area of a rectangle
+print(rectangle_area(4, 6))
+
+### Calculate the area of a circle
+print(circle_area(3))
