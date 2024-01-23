@@ -1,0 +1,8 @@
+numpy
+matplotlib
+opencv-python
+scipy
+imgaug
+sklearn
+scikit-learn
+pyvis
