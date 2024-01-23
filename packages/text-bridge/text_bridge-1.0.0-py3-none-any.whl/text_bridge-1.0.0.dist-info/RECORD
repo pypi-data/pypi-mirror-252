@@ -1,0 +1,14 @@
+text_bridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_bridge/basic.py,sha256=I7nkWYQPGLi-VFUK5E5Zk_uvFji9fgTpXdwCERRCXxo,16873
+text_bridge/config.py,sha256=GvVluuFVrLype-fyn7ishyb_Gd3oVrmTQxtMWSYA9iI,424
+text_bridge/embeddings.py,sha256=n1tZzV9_g7R4KcPyvcDy1StmXPnKzsGV28GCVu3tQo0,3299
+text_bridge/events.py,sha256=h8rS27Gd52V03og3e6UVpX9GrC9LBhDz8fQHSK_9N0Q,207
+text_bridge/rate_limit.py,sha256=x6IPpAkvP9i8XwiiOXJDKKAjuu8v_PBAbr3-wxSOMCY,398
+text_bridge/redis.py,sha256=RoIWf_4VubbW0f52gIhIq-NRhBYrI_bHKIaPikNLuII,182
+text_bridge/search.py,sha256=sdaaI3kxSPSAiWKcaprxZDI_EVtRFyv4hhPPMaduJCs,710
+text_bridge/templates.py,sha256=m3gtYUSJf5xUYvOpVXHI12fhwgX1J2Ml997mEyNtweA,7126
+text_bridge/transformations.py,sha256=lX7rk0C2eDv76HAx-KZshFhPD5vTTaz2x5Kh_9PvmFI,753
+text_bridge-1.0.0.dist-info/METADATA,sha256=NAQSY8Edv1SKEGIXkyIfQxnvjzBO_V67yzS6peEmnjc,1186
+text_bridge-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+text_bridge-1.0.0.dist-info/top_level.txt,sha256=uhI9R07Ft3knBfmSVAchVOeAEP3V3oXgxIiFeg2l6LE,12
+text_bridge-1.0.0.dist-info/RECORD,,
