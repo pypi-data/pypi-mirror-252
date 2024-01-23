@@ -1,0 +1,45 @@
+# TOPSIS Python Implementation
+
+## Introduction
+
+This Python script performs the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) analysis on a CSV file. It calculates the TOPSIS score and ranking for each alternative based on the provided weights and impacts.
+
+## Installation
+
+Ensure you have Python installed. You need to have the following packages installed:
+-pandas
+-numpy
+-os
+
+## Usage
+
+from topsis_package import topsis_from_csv
+
+Specify input and output file paths
+
+input_file_path = 'input_data.csv'  # Replace with your input CSV file
+output_file_path = 'output_data.csv'  # Replace with your desired output CSV file
+
+Specify weights and impacts
+
+weights = [0.25, 0.25, 0.25, 0.25]  # Adjust based on your criteria
+impacts = ['+', '+', '+', '+']  # Adjust based on your criteria
+
+ Perform TOPSIS and write results to CSV
+
+topsis_from_csv(input_file_path, output_file_path, weights, impacts)
+
+print(f"TOPSIS results have been written to '{output_file_path}'.")
+
+
+## Input Format
+
+The input csv file should contain n columns with n-1 critera where the first column refers to the names of the attributes
+
+## Output Format
+
+The output csv file contains the all the input columns along with two additional columns, namely, TOPSIS Score and Rank. The TOPSIS Score column contains the TOPSIS score for each alternative and the Rank column contains the rank of each alternative based on the TOPSIS score.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
