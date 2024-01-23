@@ -1,0 +1,9 @@
+multivariateach/__init__.py,sha256=f2IA6edoVxRoAozv0hbUbzLtrE-UrtjrGLjmcRkz45E,31
+multivariateach/multivariateach.py,sha256=Uc5CDfbJaaBAHTvap-aSxSASQbluDpGm23wvNVL0OLA,11630
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_multivariteach.py,sha256=ZGrOwOTLJWXUhWdBsig_pY84PMlxxwojgM-xTOXENxE,7016
+MultivariaTeach-0.1.11.dist-info/LICENSE,sha256=roCPJ6jfmejUe5JKmB0aUpwqFiQag4chTwglrvzwcEI,742
+MultivariaTeach-0.1.11.dist-info/METADATA,sha256=Z01RirB7thPksXzvO5CUDzMcKlTzQX31IX9RVZwoeKg,37753
+MultivariaTeach-0.1.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+MultivariaTeach-0.1.11.dist-info/top_level.txt,sha256=neKjFGGTY7dH5nt2Epxp--69poQMtfuWRrdhYodMDv8,22
+MultivariaTeach-0.1.11.dist-info/RECORD,,
