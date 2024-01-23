@@ -1,0 +1,5 @@
+spdist-0.1.0.dist-info/METADATA,sha256=rc0VZjNizdreeSOoiJi53f_u8Vaa9Uxd6Dbf5OLpQeY,255
+spdist-0.1.0.dist-info/WHEEL,sha256=zWYjyrndoXjOoElok3d6rrB-N0Fv2I_2mGtMRzMv-Lk,91
+spdist/__init__.py,sha256=EQt_YzN7sxQh-H2vUnevx8OGcZbhRVGJguqmWYkJDLo,107
+spdist/spdist.cp310-win32.pyd,sha256=AtKdKsdllioQ0ikX9cNz7n3hBtqNgmdwqYV620FmI68,326656
+spdist-0.1.0.dist-info/RECORD,,
