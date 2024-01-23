@@ -1,0 +1,10 @@
+distillseq2seq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distillseq2seq/distill.py,sha256=l7K1LFsuDks96d-5PQbcfL5rWlRV14dIVv97r7qZL9o,1783
+distillseq2seq/main.py,sha256=n79h9hPoKGzZx9UFhs1LInIaaVar1MickgcqfM6rhIk,2900
+distillseq2seq/seq2seq_distill_trainer.py,sha256=2VG0QWoz5djQBs3hAU67B2YTx9GUje2vuxe2lcXSBtQ,5577
+distillseq2seq/utils.py,sha256=LqRRFAFzYntAHZR5XfIVZWR--Bx5V5MFfvVivnSvwfY,3750
+distillseq2seq-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+distillseq2seq-0.1.0.dist-info/METADATA,sha256=zjkcPzM6MRX7Vq70MPVhdWGw7MotyNC5tBFm5_C3rIo,81
+distillseq2seq-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+distillseq2seq-0.1.0.dist-info/top_level.txt,sha256=q5eRRAzHZKT6aZVqtSk9Y9CDDMYgRyT7LOZd5yps6LI,15
+distillseq2seq-0.1.0.dist-info/RECORD,,
