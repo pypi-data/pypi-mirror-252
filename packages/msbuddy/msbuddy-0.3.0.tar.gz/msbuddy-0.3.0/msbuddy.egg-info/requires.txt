@@ -1,0 +1,12 @@
+brain-isotopic-distribution
+numpy
+numba
+requests
+joblib
+gdown
+chemparse
+scipy
+lightgbm
+tqdm
+timeout_decorator
+pandas
