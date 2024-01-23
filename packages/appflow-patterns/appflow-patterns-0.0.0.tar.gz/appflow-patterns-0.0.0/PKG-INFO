@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: appflow-patterns
+Version: 0.0.0
+Summary: L3-level cdk constructs for Appflow
+Home-page: https://github.com/MarcDuQuesne/appflow-patterns
+Author: Matteo Giani<matteo.giani.87@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/MarcDuQuesne/appflow-patterns
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Appflow Patterns - a library to facilitate data flows
+
+This library aims at simplifying the task of setting up data flows.
