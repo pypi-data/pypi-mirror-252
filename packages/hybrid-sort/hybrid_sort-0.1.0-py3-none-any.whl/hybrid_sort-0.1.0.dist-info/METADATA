@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hybrid-sort
+Version: 0.1.0
+Summary: A hybrid sorting algorithm using Lomuto and Hoare partitioning
+Author: Pandey Abhishek Nath Roy
+Author-email: princeabhi00985@gmail.com
+
