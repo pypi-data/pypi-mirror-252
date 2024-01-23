@@ -1,0 +1,28 @@
+[project]
+name = "isopsephism"
+version = "0.1"
+description = "Find the numerical value of words."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Uggerus"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/uggerus/isopsephism"
+Changelog = "https://github.com/uggerus/isopsephism/releases"
+Issues = "https://github.com/uggerus/isopsephism/issues"
+CI = "https://github.com/uggerus/isopsephism/actions"
+
+
+[project.optional-dependencies]
+test = ["pytest"]

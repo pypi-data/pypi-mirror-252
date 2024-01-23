@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+isopsephism/isopsephism.py
+isopsephism.egg-info/PKG-INFO
+isopsephism.egg-info/SOURCES.txt
+isopsephism.egg-info/dependency_links.txt
+isopsephism.egg-info/requires.txt
+isopsephism.egg-info/top_level.txt
+tests/test_isopsephism.py
