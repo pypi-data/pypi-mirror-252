@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+Lightweight_AI/LWBNA_models.py
+Lightweight_AI/Train_LWBNA.py
+Lightweight_AI/__init__.py
+Lightweight_AI.egg-info/PKG-INFO
+Lightweight_AI.egg-info/SOURCES.txt
+Lightweight_AI.egg-info/dependency_links.txt
+Lightweight_AI.egg-info/requires.txt
+Lightweight_AI.egg-info/top_level.txt
