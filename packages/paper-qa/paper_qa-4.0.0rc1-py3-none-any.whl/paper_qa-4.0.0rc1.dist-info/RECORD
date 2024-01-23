@@ -1,0 +1,16 @@
+paperqa/__init__.py,sha256=upYJjMyDK_190Ejt13koFXV2v9jspdnec7I9WnIG_qQ,754
+paperqa/docs.py,sha256=aGcYPMcma0jXXJEEJ9_VFcNvx7EABSdswVqbqGWBfdQ,28319
+paperqa/llms.py,sha256=G__ByKjIShmQZdQowQmEHgl6uS0pdCB2nNAyDZPQ7tM,24455
+paperqa/paths.py,sha256=W1ZRCwhNVJo-Kuxvet4K0nISUa9yEtcTf1UudMz-dGQ,65
+paperqa/prompts.py,sha256=pa7nKuBfMGeOpRjKe6EqvVihtyUQc1PPJgfMW2bjgpQ,2501
+paperqa/readers.py,sha256=l-raRv5S7jPJy0Qlxlp1RxGyt3hWMA2F8jSM7q6qZTU,5842
+paperqa/types.py,sha256=7XHqTnRUcACjBl1MuBeUUe6fuZff_Jr_mXbJ1gSZaKI,5207
+paperqa/utils.py,sha256=LJwNvWC-HyJjDcaeSo0RvyM7Enx8MpaseI2t8qdrkxY,4212
+paperqa/version.py,sha256=dirhtVRhvxvDpBh2EsSVWF0zrnO2Eea_qZVYBGuKWWU,28
+paperqa/contrib/__init__.py,sha256=1E3-iMHh1fygRNBORw0L9GxJDRBeWrdLZeUgtwE0A5A,53
+paperqa/contrib/zotero.py,sha256=Fg61oqgLt1qlWf4_J4fQy3le9gvmzluexJxw2af3_5M,12297
+paper_qa-4.0.0rc1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paper_qa-4.0.0rc1.dist-info/METADATA,sha256=SxRi3hMLpjXxIemXvr3foZP9xjQ-ybICnyYB0rC8IiY,16364
+paper_qa-4.0.0rc1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+paper_qa-4.0.0rc1.dist-info/top_level.txt,sha256=R5cvunn_PkShDcFsruYPefBTBPjEPnWXh1NU0Ox8-e8,8
+paper_qa-4.0.0rc1.dist-info/RECORD,,
