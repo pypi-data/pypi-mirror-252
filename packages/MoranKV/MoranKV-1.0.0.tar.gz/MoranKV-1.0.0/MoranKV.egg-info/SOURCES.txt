@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+MoranKV/__init__.py
+MoranKV.egg-info/PKG-INFO
+MoranKV.egg-info/SOURCES.txt
+MoranKV.egg-info/dependency_links.txt
+MoranKV.egg-info/requires.txt
+MoranKV.egg-info/top_level.txt
