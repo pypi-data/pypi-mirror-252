@@ -1,0 +1,1 @@
+from .._agg import _KNpF7 as gauss_laguerre
