@@ -1,0 +1,14 @@
+quool/__init__.py,sha256=cCCkEE3NJ_CpfbmJDSfViQ-8NI1xvvFeN2FhlLMCsKY,460
+quool/backtrade.py,sha256=F42S_I5BXLiQEcctp4PTkvDGh7YISIX1cesfEA_qIYM,18091
+quool/request.py,sha256=Ak23NdxLENf-_RZ72ofmIe25e5e47-hDURNboL2QHxg,5812
+quool/table.py,sha256=xH16krY2XvrLRp42ZBXvZrDPHAakihtJptAT5j3R6aU,2853
+quool/core/__init__.py,sha256=D0V3PmEfYGHAA4_6fA8XtkZwPBhmMOhVtJwOBOqJbVQ,282
+quool/core/backtrade.py,sha256=ZWC21oZhs-Eu-u0EXrQe3kA8hrmwPT_uXz3bte-eP-Y,7638
+quool/core/request.py,sha256=NA5S9kcArVsba5Drki9dknpICc9l4jgw73uVsqIve-M,4845
+quool/core/table.py,sha256=gph4qemQSvgfxDRAF5rsAyw-8NrTGEcNVSQKG2Gm68w,7031
+quool/core/util.py,sha256=k702GgWNqke_rqPuoYJ2T-wOoCwqO9ozbfUDgQ0vtpo,4546
+quool-4.2.1.dist-info/LICENSE,sha256=KTvY0uLpnFV5ZwK17i8RWZhdBlr6aiYk58TV_JggRxg,1061
+quool-4.2.1.dist-info/METADATA,sha256=4k98SsT2ibhWw1zGT-N09FPEppEDxTWel0JKQ6j1o7o,6204
+quool-4.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quool-4.2.1.dist-info/top_level.txt,sha256=55mYDUq6XKhFYQdrOTnrUH22q2y4YNxi-n-qJKzX0Lc,6
+quool-4.2.1.dist-info/RECORD,,
