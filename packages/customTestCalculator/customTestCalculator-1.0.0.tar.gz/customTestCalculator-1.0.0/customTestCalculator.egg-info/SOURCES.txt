@@ -1,0 +1,8 @@
+README.md
+setup.py
+customTestCalculator/__init__.py
+customTestCalculator/calc.py
+customTestCalculator.egg-info/PKG-INFO
+customTestCalculator.egg-info/SOURCES.txt
+customTestCalculator.egg-info/dependency_links.txt
+customTestCalculator.egg-info/top_level.txt
