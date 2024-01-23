@@ -1,0 +1,13 @@
+README.md
+setup.py
+dossier_competence/__init__.py
+dossier_competence/cv.py
+dossier_competence/init_file.py
+dossier_competence/main.py
+dossiercompetence.egg-info/PKG-INFO
+dossiercompetence.egg-info/SOURCES.txt
+dossiercompetence.egg-info/dependency_links.txt
+dossiercompetence.egg-info/entry_points.txt
+dossiercompetence.egg-info/requires.txt
+dossiercompetence.egg-info/top_level.txt
+test/test_main.py
