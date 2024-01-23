@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tkinter-customwindow
+Version: 0.1.0
+Summary: tkinter titlebar for Windows
+Author: XiangQinxi
+Author-email: xiangqinxi@outlook.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pywin32 (>=306,<307)
+Description-Content-Type: text/markdown
+
+# tkinter-titlebar
+
+在`Windows`平台上自定义窗口，代码大部分借鉴自[CustomTkinterTitlebar](https://pypi.org/project/CustomTkinterTitlebar/)项目，采用`ctypes`与`win32`兼并使用。
+
+## 使用
+```Python
+from tkcustomwindow import CustomWindow
+from tkinter import Tk, Frame
+
+root = Tk()
+
+frame = Frame(root, width=100, height=25, background="grey")
+frame.pack(fill="x", side="top")
+
+customwindow = CustomWindow(root)
+customwindow.bind_drag(frame)
+
+root.mainloop()
+
+```
+
