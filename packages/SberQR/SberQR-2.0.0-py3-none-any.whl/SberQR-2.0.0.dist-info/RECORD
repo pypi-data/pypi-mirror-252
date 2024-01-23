@@ -1,0 +1,14 @@
+SberQR/AsyncSberQR.py,sha256=TGWPGD3kU00576PrdtPh4SlnW2By9u5S96Td4AxgTRM,8050
+SberQR/SberQr.py,sha256=9b5f_j6U8DF9oyxgv3Flrp4KSh2q_KQoZCghIEZR-UQ,7604
+SberQR/__init__.py,sha256=Pd8FdUmZUA_V0KpfnL4LmaY80DVGnlgCONBWODtmPUc,453
+SberQR/api.py,sha256=CuZxz5n_BUd3on29nuaMQpEJOwS1BGvvQ8OZWZMsDkQ,2656
+SberQR/api_sync.py,sha256=YS58f6N-uzQTDlR6WYAwoYLEJu1RY7z5-fO8WVx0y5w,800
+SberQR/exceptions.py,sha256=JmCkD6U17EsXxnH5v3zOctQrEeSxt2aZbbhDVZh2pYY,83
+SberQR/payload.py,sha256=Pxa3mBYT2RBIkZGcRefN-AaOvzFImX4DXWAq0xzw20Y,372
+SberQR/scope.py,sha256=YLI-53klMH1AD8eHs2mcfgAfY0qeyPTT_TyyxUvyxmY,343
+SberQR/types.py,sha256=ijDAxj8oCcojS8ZQ6gP-MqupM714ot2LLv0SmUcW1HA,174
+SberQR-2.0.0.dist-info/LICENSE,sha256=r98n0dftzmltwEwZNJKzKxg87P_aE9CcyWHLr8oiUjA,1065
+SberQR-2.0.0.dist-info/METADATA,sha256=CYWrJ7F5RqVOgFD7-bmGEruP6Ctzw1cvXLciWMvxypA,9954
+SberQR-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+SberQR-2.0.0.dist-info/top_level.txt,sha256=epS-Mz774xYeelKB0JFJhlEo40YI18lmEUr1VQ0nhk4,7
+SberQR-2.0.0.dist-info/RECORD,,
