@@ -1,0 +1,3 @@
+[console_scripts]
+hkcli=run.cli:main
+
