@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+statsmodels
+scikit-learn
+click
+requests
+hydra-core
+arcticdb
+chardet
+
+[dev]
