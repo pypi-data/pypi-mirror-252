@@ -1,0 +1,26 @@
+glfw
+mido
+tqdm
+jedi
+numpy
+PyGLM
+scipy
+pillow
+gltflib
+jupyter
+notebook
+moderngl
+soundfile
+webcolors
+ipyevents
+ipywidgets
+matplotlib
+sounddevice
+python-rtmidi
+moderngl-window
+
+[:platform_system == "Darwin"]
+soundcard
+
+[midi]
+python-rtmidi
