@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: torchcnnbuilder
+Version: 0.0.0
+Summary: Module for automating the creation of CNN-architectures
+Home-page: https://github.com/ITMO-NSS-team/TorchCNNBuilder
+Author: NSS Lab
+Author-email: just.andrew.kd@gmail.com
+Keywords: python torch cnn
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# TorchCNNBuilder
+<div id="badges">
+    <a href="https://www.python.org">
+        <img src="https://img.shields.io/badge/python-6a6a6a?style=flat&logo=python&logoColor=white" alt="python badge"/>
+    <a href="https://pytorch.org/">
+        <img src="https://img.shields.io/badge/pytorch-CB2C31?style=flat&logo=pytorch&logoColor=white" alt="pytorch badge"/>
+    </a>
+</div>
+
+
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/pypi/pyversions/fedot">
