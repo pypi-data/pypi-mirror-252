@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gguf-connector
+Version: 0.1
+Summary: Return the pathname of main directory
+Author-email: calcuis <calculatics@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: llama-cpp-python
+Requires-Dist: ctransformers
+Project-URL: Home, https://clacuis.us
