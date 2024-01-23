@@ -1,0 +1,8 @@
+moesifapi>=1.4.2
+moesifpythonrequest>=0.3.3
+flask>=3.0.1
+
+[dev]
+
+[test]
+nose
