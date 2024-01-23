@@ -1,0 +1,9 @@
+PolyRound>=0.2.10
+optlang>=1.7.0
+arviz
+numpy
+mcbackend
+pandas
+tqdm
+matplotlib
+scikit-learn
