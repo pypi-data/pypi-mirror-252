@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ringity
+Version: 0.4a0
+Summary: Calculates ring scores for various data structures
+Author-email: "Markus K. Youssef" <mk.youssef@hotmail.com>
+Project-URL: Homepage, https://github.com/ClusterDuck123/ringity
+Project-URL: Issues, https://github.com/kiri93/ringity/issues
+Keywords: network,ring-structure,tda
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: networkx
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: ripser
+Provides-Extra: giotto-tda
+Requires-Dist: giotto-tda ; extra == 'giotto-tda'
+Provides-Extra: plotting
+Requires-Dist: plotly ; extra == 'plotting'
+
