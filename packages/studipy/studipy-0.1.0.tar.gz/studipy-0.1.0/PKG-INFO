@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: studipy
+Version: 0.1.0
+Summary: studip python api using oauth
+License: GPLv3
+Author: Frederik Richter
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# studipy
+StudIP Python API library using OAuth
+
+# WIP
+
+# INSTALLATION
+## From source
+```
+poetry install
+pip install dist/....
+```
+
+PIPY on its way
+
