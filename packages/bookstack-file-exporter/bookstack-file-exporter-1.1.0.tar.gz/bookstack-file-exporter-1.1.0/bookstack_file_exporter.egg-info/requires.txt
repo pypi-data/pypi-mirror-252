@@ -1,0 +1,4 @@
+Pyyaml>=6.0.1
+Pydantic>=2.5.3
+requests>=2.31.0
+minio>=7.2.3
