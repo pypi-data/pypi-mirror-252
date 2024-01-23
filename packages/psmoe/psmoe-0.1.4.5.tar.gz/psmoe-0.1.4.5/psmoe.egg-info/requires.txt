@@ -1,0 +1,8 @@
+numpy>=1.23.5
+matplotlib>=3.6.2
+opencv-python>=4.6.0.66
+nibabel>=5.2.0
+scipy>=1.9.3
+gdown>=4.7.3
+keras>=2.15.0
+tensorflow>=2.15.0
