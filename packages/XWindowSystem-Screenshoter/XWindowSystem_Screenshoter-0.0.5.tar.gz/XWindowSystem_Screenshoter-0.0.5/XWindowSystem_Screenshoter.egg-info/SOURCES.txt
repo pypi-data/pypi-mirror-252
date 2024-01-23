@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+XWindowSystem_Screenshoter.egg-info/PKG-INFO
+XWindowSystem_Screenshoter.egg-info/SOURCES.txt
+XWindowSystem_Screenshoter.egg-info/dependency_links.txt
+XWindowSystem_Screenshoter.egg-info/requires.txt
+XWindowSystem_Screenshoter.egg-info/top_level.txt
+src/__init__.py
+src/window_capture_async.py
+src/window_capture_sync.py
