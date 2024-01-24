@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geoproximity
+Version: 0.0.1
+Summary: A Python package for geospatial distance calculations and proximity-related functions.
+Home-page: https://github.com/nrjadkry/geoproximity
+Author: Niraj Adhikari
+Author-email: nrjadkry@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### GeoProximity Package Usage Guide
+
+#### Introduction
+
+GeoProximity is a Python package designed to facilitate geospatial distance calculations, point projections, and related operations. It includes functions for both Haversine distance (great-circle distance) and Euclidean distance calculations. GeoProximity is suitable for applications that require proximity analysis, spatial operations, and basic geospatial functionality.
+
+#### Installation
+
+Ensure Python is installed on your system, then install the `geoproximity` package using `pip`:
+
+```sh
+pip install geoproximity
+```
+
+#### Calculate harversine distance
+```python
+import geoproximity
+geoproximity.haversine_distance(coord1, coord2)
+```
+
+
