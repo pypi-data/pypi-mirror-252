@@ -1,0 +1,4 @@
+[console_scripts]
+otterdog=otterdog.cli:cli
+otterdog-app=otterdog.app:run
+
