@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+memory/__init__.py
+memory/__main__.py
+memory_oc.egg-info/PKG-INFO
+memory_oc.egg-info/SOURCES.txt
+memory_oc.egg-info/dependency_links.txt
+memory_oc.egg-info/requires.txt
+memory_oc.egg-info/top_level.txt
+memory_oc.egg-info/zip-safe
