@@ -1,0 +1,9 @@
+thisismy/__init__.py,sha256=TRdJZZnohKB-V5YO5ZmmFIhN7jpot8HeQRf7rhsKcPQ,132
+thisismy/testpackage/__init__.py,sha256=TRhkntlMonjFdwSE8iPYqQqmgf6WC7sudBIPMQguin8,152
+thisismy/testpackage/_version.py,sha256=vZ9YJhtz2uaZyfeULJmmzg7nlru6jGE1i6ermqZWYAQ,411
+thisismy/testpackage/client.py,sha256=4HPFYPPFaUMGPCnandQF5L1O0cBWX_cg2e5WqR8Cdqo,283
+thisismy.testpackage-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thisismy.testpackage-0.0.7.dist-info/METADATA,sha256=NKOZKkEllqyrmcdN2yslZzxHUTxP4YW68fjQE-wJl2Q,14390
+thisismy.testpackage-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+thisismy.testpackage-0.0.7.dist-info/top_level.txt,sha256=q_9hWiPBLlMF5uZCbPH_31j39yVwhc_4HJlAYreM6BA,9
+thisismy.testpackage-0.0.7.dist-info/RECORD,,
