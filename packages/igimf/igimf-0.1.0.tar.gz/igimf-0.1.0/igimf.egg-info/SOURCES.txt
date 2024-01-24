@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+igimf/.DS_Store
+igimf/__init__.py
+igimf/instance.py
+igimf/plots.py
+igimf/util.py
+igimf.egg-info/PKG-INFO
+igimf.egg-info/SOURCES.txt
+igimf.egg-info/dependency_links.txt
+igimf.egg-info/requires.txt
+igimf.egg-info/top_level.txt
