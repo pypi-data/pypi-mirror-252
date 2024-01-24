@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Topsis-Avikal-102103131
+Version: 0.0.1
+Author: Avikal Panwar
+Author-email: avikalpanwar65@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Made By 
+Avikal Panwar 102103131 (3CO5)
