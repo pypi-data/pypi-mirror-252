@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: download-models
+Version: 0.0.1
+Summary: Download models from hugging face
+Author: Tangesion
+Author-email: tangesion@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: huggingface-hub ==0.20.2
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: tqdm ==4.66.1
+
+# Download models from hugging face
