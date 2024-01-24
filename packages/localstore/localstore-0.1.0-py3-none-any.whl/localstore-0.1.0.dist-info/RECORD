@@ -1,0 +1,9 @@
+localstore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localstore/Dataset.py,sha256=hOmxNKGbMUMP4kICWJ4ZsKo_YwaxCE5xhNszTivatnQ,1343821
+localstore/DatasetConverter.py,sha256=A6oTAgO3PzxMqz776aqcMspZ_rYgnpucUcEamO5ZSeY,2678
+localstore/LocalAPI.py,sha256=zA1RgzAeEwsgQEZT3uSAq1KtPrYoh-yDOehNQjrLNWc,374
+localstore/LocalStore.py,sha256=4DvaYBuOEGkgng1BR-_T_vo2Z00s5eRkF-b7MNuX-Hc,6869
+localstore-0.1.0.dist-info/LICENSE,sha256=CKqIMxhjDV9CmKsKR1DT0zwdudrqcYi9tu5bQcUs1_I,1094
+localstore-0.1.0.dist-info/METADATA,sha256=TuV9QkfgJpHwWcZ4gbxkGh4db58PMHDyXpxF8sMe13A,5871
+localstore-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+localstore-0.1.0.dist-info/RECORD,,
