@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dinky_whatson/__init__.py
+dinky_whatson.egg-info/PKG-INFO
+dinky_whatson.egg-info/SOURCES.txt
+dinky_whatson.egg-info/dependency_links.txt
+dinky_whatson.egg-info/requires.txt
+dinky_whatson.egg-info/top_level.txt
+dinky_whatson/fonts/__init__.py
+tests/test_dinky_whatson_plugin.py
