@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ipfabric_logicmonitor
+Version: 0.1.0b1
+Summary: Package supporting IP Fabric LogicMonitor Integration
+Home-page: https://gitlab.com/ip-fabric/integrations/ipfabric_logicmonitor
+License: MIT
+Keywords: ipfabric,ip-fabric,community-fabric
+Author: Justin Jeffery
+Author-email: justin.jeffery@ipfabric.io
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipfabric (>=6.6.0b4,<7.0.0)
+Requires-Dist: logicmonitor-sdk (>=3.0.200,<4.0.0)
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Project-URL: IP Fabric, https://ipfabric.io/
+Project-URL: Repository, https://gitlab.com/ip-fabric/integrations/ipfabric_logicmonitor
+Description-Content-Type: text/markdown
+
+# IP Fabric LogicMonitor Integration
+
+## IP Fabric
+
+IP Fabric is a vendor-neutral network assurance platform that automates the 
+holistic discovery, verification, visualization, and documentation of 
+large-scale enterprise networks, reducing the associated costs and required 
+resources whilst improving security and efficiency.
+
+It supports your engineering and operations teams, underpinning migration and 
+transformation projects. IP Fabric will revolutionize how you approach network 
+visibility and assurance, security assurance, automation, multi-cloud 
+networking, and trouble resolution.
+
+## Project Description
+
+BETA STILL IN DEVELOPMENT.
+
+## Installation
+
+< Installation Information >
+
+## Configuration
+
+< Configuration Information >
+
+## Usage
+
+< Any external documentation to reference? If not remove section >
+
+## Support
+
+TODO: How to open issue in Gitlab, some base information around it, etc.
+
+## Contributing
+
+TODO: How to contribute?
+
