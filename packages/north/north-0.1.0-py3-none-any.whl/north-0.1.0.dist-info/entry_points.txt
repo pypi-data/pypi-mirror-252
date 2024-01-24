@@ -1,0 +1,5 @@
+[console_scripts]
+bump-versions=north.scripts.bump_versions:main
+new-package=north.scripts.new_package:main
+publish-all=north.scripts.publish_all:main
+
