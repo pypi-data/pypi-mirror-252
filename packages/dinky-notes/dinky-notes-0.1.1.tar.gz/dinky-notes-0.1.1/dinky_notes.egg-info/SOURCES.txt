@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dinky_notes/__init__.py
+dinky_notes.egg-info/PKG-INFO
+dinky_notes.egg-info/SOURCES.txt
+dinky_notes.egg-info/dependency_links.txt
+dinky_notes.egg-info/requires.txt
+dinky_notes.egg-info/top_level.txt
+dinky_notes/fonts/__init__.py
+tests/test_dinky_notes_plugin.py
