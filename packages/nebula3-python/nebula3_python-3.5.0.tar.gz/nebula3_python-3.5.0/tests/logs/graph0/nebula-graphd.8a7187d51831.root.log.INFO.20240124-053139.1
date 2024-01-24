@@ -1,0 +1,40 @@
+Log file created at: 2024/01/24 05:31:39
+Running on machine: 8a7187d51831
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240124 05:31:39.944767     1 GraphDaemon.cpp:122] Starting Graph HTTP Service
+I20240124 05:31:39.972959     7 WebService.cpp:124] Web service started on HTTP[19669]
+I20240124 05:31:39.972998     1 GraphDaemon.cpp:136] Number of networking IO threads: 4
+I20240124 05:31:39.973006     1 GraphDaemon.cpp:145] Number of worker threads: 4
+I20240124 05:31:39.974139     1 MetaClient.cpp:80] Create meta client to "172.28.1.2":9559
+I20240124 05:31:39.974154     1 MetaClient.cpp:81] root path: /usr/local/nebula, data path size: 0
+I20240124 05:31:41.184530     1 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240124 05:31:41.184612     1 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240124 05:31:41.184623     1 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240124 05:31:41.184629     1 MetaClient.cpp:3269] Load leader ok
+I20240124 05:31:41.191273     1 MetaClient.cpp:162] Register time task for heartbeat!
+I20240124 05:31:41.191742     1 GraphSessionManager.cpp:337] Total of 18 sessions are loaded
+I20240124 05:31:41.204545     1 MemoryUtils.cpp:171] MemoryTracker set static ratio: 0.8
+I20240124 05:31:41.205019     1 Snowflake.cpp:17] WorkerId init success: 1
+I20240124 05:31:41.205365    38 GraphServer.cpp:63] Starting nebula-graphd on 127.0.0.1:9669
+I20240124 05:31:50.527408    22 GraphService.cpp:77] Authenticating user root from 172.28.0.2:46184
+E20240124 05:31:50.530761    19 QueryInstance.cpp:151] Existed!, query: ADD HOSTS "172.28.2.1":9779,"172.28.2.2":9779,"172.28.2.3":9779;
+I20240124 05:31:51.936945    35 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240124 05:31:51.936980    35 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240124 05:31:51.937067    35 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240124 05:31:51.937070    35 MetaClient.cpp:3269] Load leader ok
+I20240124 05:31:53.037715    35 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240124 05:31:53.037758    35 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240124 05:31:53.037863    35 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240124 05:31:53.037868    35 MetaClient.cpp:3269] Load leader ok
+I20240124 05:32:25.532764    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:36336
+I20240124 05:32:25.541334    22 GraphService.cpp:77] Authenticating user root from 172.28.0.1:36354
+I20240124 05:32:25.546227    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:36368
+E20240124 05:32:37.553047    22 GraphSessionManager.cpp:50] Get session `1706074345554163' failed:Session not existed!
+E20240124 05:32:37.553087    22 GraphService.cpp:165] Get session for sessionId: 1706074345554163 failed: Session `1706074345554163' not found: Session not existed!
+I20240124 05:32:37.558357    22 GraphService.cpp:77] Authenticating user root from 172.28.0.1:53972
+I20240124 05:32:37.565749    19 GraphService.cpp:77] Authenticating user root from 172.28.0.1:53978
+I20240124 05:32:37.570605    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:53986
+E20240124 05:32:49.576861    21 GraphSessionManager.cpp:50] Get session `1706074357580513' failed:Session not existed!
+E20240124 05:32:49.576912    21 GraphService.cpp:165] Get session for sessionId: 1706074357580513 failed: Session `1706074357580513' not found: Session not existed!
+I20240124 05:32:49.591363    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:59210
