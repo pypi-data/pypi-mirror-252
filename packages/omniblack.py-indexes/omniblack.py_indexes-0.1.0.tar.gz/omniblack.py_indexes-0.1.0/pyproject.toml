@@ -1,0 +1,35 @@
+[project]
+name='omniblack.py_indexes'
+version="0.1.0"
+
+dependencies = [
+    'frozendict ~= 2.4',
+    'requests ~= 2.31',
+    'packaging ~= 23.2',
+    'requests-cache ~= 1.1',
+    'pyxdg ~= 0.27',
+]
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/lib/py_indexes"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools ~= 68.2",
+]

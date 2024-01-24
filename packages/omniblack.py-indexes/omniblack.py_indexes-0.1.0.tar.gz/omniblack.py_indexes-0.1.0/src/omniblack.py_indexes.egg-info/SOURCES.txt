@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+docs/README.md
+docs/index.md
+src/omniblack.py_indexes.egg-info/PKG-INFO
+src/omniblack.py_indexes.egg-info/SOURCES.txt
+src/omniblack.py_indexes.egg-info/dependency_links.txt
+src/omniblack.py_indexes.egg-info/requires.txt
+src/omniblack.py_indexes.egg-info/top_level.txt
+src/omniblack/py_indexes/__init__.py
