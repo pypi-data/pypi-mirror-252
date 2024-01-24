@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+buildmason/__init__.py
+buildmason/__main__.py
+buildmason/commands.py
+buildmason.egg-info/PKG-INFO
+buildmason.egg-info/SOURCES.txt
+buildmason.egg-info/dependency_links.txt
+buildmason.egg-info/entry_points.txt
+buildmason.egg-info/requires.txt
+buildmason.egg-info/top_level.txt
