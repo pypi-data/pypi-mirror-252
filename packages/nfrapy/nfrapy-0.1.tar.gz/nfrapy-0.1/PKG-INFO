@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: nfrapy
+Version: 0.1
+Summary: A simple package from getting data from the national flow record archive.
+Home-page: https://github.com/simon-m-mudd/nfrapy
+Author: Simon Moulds and Simon Mudd
+Author-email: simon.m.mudd@ed.ac.uk
+License: MIT license
+Keywords: nfrapy
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pandas>=1
+
+============
+nfrapy
+============
+
+
+A collection of tools for exploring nfra.
+
+
+* Free software: MIT license
+* Documentation: https://hillslopetoy.readthedocs.io.
+
+
+Features
+--------
+
+* Gets national flow record archive datasets and loads them into pandas dataframes
+
+
+
+
+=======
+History
+=======
+
+0.1 (2024-01-2024)
+------------------
+
+* Initial coding by Simon Moulds, packagedd by Simon Mudd
+* Initial realse on pypi
