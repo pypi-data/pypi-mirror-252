@@ -1,0 +1,7 @@
+[project]
+name = "syntheseus-graph2edits"
+description = "Fork of Graph2Edits for use in the syntheseus library"
+version = "0.1.0"
+
+[tool.setuptools.package-dir]
+"graph2edits" = "."
