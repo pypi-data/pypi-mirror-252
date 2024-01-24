@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: start-end-logging
+Version: 0.1.1
+Summary: a very simple logging library that logs the start and end of a process step and, in particular, indicates the elapsed time.
+Author: Johannes Lieberherr
+Author-email: johannes.lieberherr@ttools.ch
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# start-end-logging
+A very simple Python logging library that logs the start and end of a process step and, in particular, indicates the elapsed time.
+
+Example:
+```
+import logging
+import time
+
+from start_end_logging.start_end_logging import log_start, log_end, init_logging
+
+log = logging.getLogger(__name__)
+
+if __name__ == "__main__":
+    init_logging("../logs", "coplanar.log")
+    log_start("main process", log)
+    log_start("preparing something", log)
+    time.sleep(0.15)
+    log_end()
+    log_start("preparing something other", log)
+    time.sleep(0.05)
+    log_end()
+    time.sleep(0.25)
+    log_end()
+```
