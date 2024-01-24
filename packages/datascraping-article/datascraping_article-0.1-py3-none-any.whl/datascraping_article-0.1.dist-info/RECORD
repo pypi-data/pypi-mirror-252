@@ -1,0 +1,11 @@
+drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drivers/setting_driver.py,sha256=UydNFq2KHjx1tnc9IiBs3ETB0cKaASnyybqDlwKCjkA,899
+scrapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapers/scraping_script.py,sha256=jPOiIhJDkYrABYxUIGVEEyLqQ3aNeOEGn7aPrSvXlQE,2880
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_science_central.py,sha256=xSZ4vkw0xREo0Oko6jLkfeVW-_fsLrjFBdLtwGjBVAw,618
+datascraping_article-0.1.dist-info/LICENSE.txt,sha256=rx7urlegW1kIOt0-S9kW-pGo7dI8CyLrcMG0B1Vc7bE,1096
+datascraping_article-0.1.dist-info/METADATA,sha256=ihUMIZdbIH5Jngn9SZ2gudwyHkXOdTzklh4ToIRd50g,913
+datascraping_article-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datascraping_article-0.1.dist-info/top_level.txt,sha256=crS4WvcsZ7rSAh38MwPHFsbeQSlFkNx-jVhjz3-Jucs,23
+datascraping_article-0.1.dist-info/RECORD,,
