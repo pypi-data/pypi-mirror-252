@@ -1,0 +1,7 @@
+datasette
+granian
+
+[test]
+pytest
+pytest-asyncio
+datasette-test
