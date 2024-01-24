@@ -1,0 +1,6 @@
+llama_index/llms/openai/__init__.py,sha256=MUR8-nTWYA9Sc37_4FGRKDumKsHQs9Ve-ORNfDNEusY,94
+llama_index/llms/openai/base.py,sha256=dApDSIQXY_DFi8mHb1CylZwaO8J-Hh-EGEKHOm5gAHM,23534
+llama_index/llms/openai/utils.py,sha256=5eLoQXnbNyrOaNsynw8B5zJyZD_J_iIRc0Rr5Q0XRhs,10665
+flying_delta_llms_openai-0.1.1.dist-info/METADATA,sha256=Lp8gGd6RW36F0W5z7-GXRNbADSqFNWkY-UiFWB3KQco,588
+flying_delta_llms_openai-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flying_delta_llms_openai-0.1.1.dist-info/RECORD,,
