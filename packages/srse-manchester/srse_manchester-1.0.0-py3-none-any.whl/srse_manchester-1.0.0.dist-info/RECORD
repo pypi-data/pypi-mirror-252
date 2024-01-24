@@ -1,0 +1,12 @@
+srse_manchester/__init__.py,sha256=Jz7G90vpsbtTjNtGJSrcbdErGbE8ye57lE_LuUX9WG0,123
+srse_manchester/an_ontology.py,sha256=kLJwlhxHzUBPBuUTx-22IQ68uZeyISWrvCOnACoAvx0,1398
+srse_manchester/config.py,sha256=XisoscwAZgu2xhFpbIh_DO1JHtHrkGRInDo5rIY-ek4,78
+srse_manchester/ontology_abstract.py,sha256=K4gnpYEwL1Xh-0BRcfZp0ziLFN8Ue3f3t3X53yzstN0,3111
+srse_manchester/srse_manchester.py,sha256=K5X8hUfoIrqhnp2WVMxJ291f1KFM0r1yaImHwGKnQj8,2118
+tests/__init__.py,sha256=V9IixMtGmADMSDrbf6VzzzZIUQmd-67ZkR1Cd6eqaTk,46
+tests/mock_response.py,sha256=LbqECh4DS8XXwjGOPy5TOi1ZH522AVIs_YY3bnpV_O8,2047
+tests/test_cases.py,sha256=zmC1FWoir1TEmmPiIGObJYdxzpNmhWZeyHsf-RNPDtY,2982
+srse_manchester-1.0.0.dist-info/METADATA,sha256=AyzjtqxaedhOIiVV2U1i48bj7gsOg4S7pRrHmQDrUC0,901
+srse_manchester-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+srse_manchester-1.0.0.dist-info/top_level.txt,sha256=KV6i9RhzH1i3rtPKsXN-_M2vzl4qHbaEnRfNTXlPQI4,22
+srse_manchester-1.0.0.dist-info/RECORD,,
