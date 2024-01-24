@@ -1,0 +1,2 @@
+[console_scripts]
+prompt_chains_get_table = llm.prompt_chains.get_table:main
