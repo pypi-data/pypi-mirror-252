@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dummy-pkg-for-tests-with-deps
+Version: 1.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Dist: dummy-pkg-for-tests

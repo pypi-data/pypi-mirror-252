@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dummy-pkg-for-tests-with-deps"
+version = "1.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "dummy_pkg_for_tests"
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dummy_pkg_for_tests_with_deps"]
