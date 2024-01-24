@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lantern_django.egg-info/PKG-INFO
+lantern_django.egg-info/SOURCES.txt
+lantern_django.egg-info/dependency_links.txt
+lantern_django.egg-info/requires.txt
+lantern_django.egg-info/top_level.txt
+src/__init__.py
+test/test_client.py

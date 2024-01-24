@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lantern-django
+Version: 0.0.0
+Summary: Django client for Lantern
+Home-page: https://github.com/lanterndata/lantern-python
+Author: Di Qi
+Author-email: di@lantern.dev
+License: BSL 1.1
+Project-URL: Bug Tracker, https://github.com/lanterndata/lantern-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django
+Requires-Dist: numpy
+
+# Django Client for Lantern
+
+## Install
+
+```sh
+pip install lantern-django
+```
+
+## Basic usage
