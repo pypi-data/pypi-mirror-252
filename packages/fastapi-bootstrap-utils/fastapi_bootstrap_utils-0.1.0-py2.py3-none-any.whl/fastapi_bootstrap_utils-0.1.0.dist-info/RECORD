@@ -1,0 +1,16 @@
+fastapi_bootstrap_utils/__init__.py,sha256=UOkcxerB3SRVCmYePM6TvmZFMC_0o93AHII5Xci1D8s,148
+fastapi_bootstrap_utils/console_helper.py,sha256=iCF9sQBUIG4v63eS6u0WAh7NhQMZVSALgeiiOewBR5c,1248
+fastapi_bootstrap_utils/create_app.py,sha256=JI2Ad9Tz0AZLxPsHeHwB0JMsgJOioYVzX_y84PZPLpE,22577
+fastapi_bootstrap_utils/file_utils.py,sha256=1RTeO8cDQCNxPv4FFVMo6QveHevaEPlIUUgPU1_cjV8,7132
+fastapi_bootstrap_utils/make_shell_scripts_and_aliases.py,sha256=QCKR6oeQL6w6uvgj5zbtwzK9MV9LPA6lElKg5lae0F0,4714
+fastapi_bootstrap_utils/progress_bar.py,sha256=u0TL1ygFtHz--5iXouNt9_GbJl9uasJrIorrC91-C30,944
+fastapi_bootstrap_utils/conf/config.yaml,sha256=AeSC5iYX7WtvDaCyMWWEZRd1Ai0FUKyau-tuG9MTus0,423
+fastapi_bootstrap_utils/templates/helper.py.tt,sha256=ouNUIEsGkZ0RRFVwpbIoO2BCp2-Gy9D910vqdGGPB9k,370
+fastapi_bootstrap_utils/templates/main.py.tt,sha256=0WW1EnePCGOmh9enDqCY7ranKYv0xgb4i11F2fPGS-A,216
+fastapi_bootstrap_utils/templates/router.py.tt,sha256=zkw56GhRfIr5Becd8EH_tB18POSvG9MM4-wIhXHIF34,162
+fastapi_bootstrap_utils-0.1.0.dist-info/AUTHORS.rst,sha256=BNf09knwYhZGXZ1ASoAy9UFWJFFxswfH0p-CzAext5s,163
+fastapi_bootstrap_utils-0.1.0.dist-info/METADATA,sha256=Fn5z8WBuHCPVLgPFvwfE8SjaLP4Hp0SetJ-9gYVLEl8,1365
+fastapi_bootstrap_utils-0.1.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+fastapi_bootstrap_utils-0.1.0.dist-info/entry_points.txt,sha256=sA6cmeJ-5oGZ2xyfbYZXUCPOvfTBtK5w64wcYSt-jAk,162
+fastapi_bootstrap_utils-0.1.0.dist-info/top_level.txt,sha256=UurIe3is1VUdh_-Lcd0Do1yNnEFY9QA3fQcD7NMCnAo,24
+fastapi_bootstrap_utils-0.1.0.dist-info/RECORD,,

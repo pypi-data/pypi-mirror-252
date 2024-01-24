@@ -1,0 +1,26 @@
+---
+action_lookup:
+  get: retrieve
+  post: create
+  put: update
+  delete: remove
+datatypes:
+  "#CHROM": str
+  POS: str
+  ID: str
+  REF: str
+  ALT: str
+  QUAL: str
+  FILTER: str
+ignore_columns:
+  - INFO
+methods:
+  - get
+  - post
+  - put
+  - delete
+record_type: Sample
+template_files:
+  main: /tmp/test-asdf/templates/main.py.tt
+  helper: /tmp/test-asdf/templates/helper.py.tt
+  router: /tmp/test-asdf/templates/router.py.tt

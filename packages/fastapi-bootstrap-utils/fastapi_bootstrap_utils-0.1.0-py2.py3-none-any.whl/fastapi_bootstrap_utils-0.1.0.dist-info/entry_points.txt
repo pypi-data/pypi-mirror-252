@@ -1,0 +1,3 @@
+[console_scripts]
+create-app = fastapi_bootstrap_utils.create_app:main
+make-fastapi-bootstrap-utils = fastapi_bootstrap_utils.make_shell_scripts_and_aliases:main

@@ -1,0 +1,10 @@
+from fastapi import APIRouter, HTTPException
+
+from helper import read_cache
+
+cached_records_lookup = read_cache()
+
+
+router = APIRouter()
+
+# INSERT FUNCTIONS HERE
