@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: intake-esgf
+Version: 2024.1.23
+Summary: An intake and intake-esm inspired catalog for ESGF
+Author: Nathan Collier
+Author-email: nathaniel.collier@gmail.com
+License: BSD-3-Clause
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: xarray
+Requires-Dist: xarray-datatree
+Requires-Dist: netCDF4
+Requires-Dist: globus-sdk
+Requires-Dist: requests
+Requires-Dist: tqdm
+

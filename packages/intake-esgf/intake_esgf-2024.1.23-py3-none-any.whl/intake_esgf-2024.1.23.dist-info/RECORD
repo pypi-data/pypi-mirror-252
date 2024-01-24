@@ -1,0 +1,17 @@
+intake_esgf/__init__.py,sha256=LqwGUudT2fIIgcxyTZCfvVsiB3iV83yD8xfRo6fWyMQ,1001
+intake_esgf/base.py,sha256=1dnL6ebUP_nJVv1kFpv7WnOgCbdBIxcAip8JcXOgAuI,13878
+intake_esgf/catalog.py,sha256=Wca5wknFgrT4G8RkmAjJ3TPfrSZKsv4PDVt_5aV4xd8,21420
+intake_esgf/database.py,sha256=MagNzMLco0JqYSJD20wvPSznwOdfhDr7b42Licaui6Q,3201
+intake_esgf/exceptions.py,sha256=SE_7Am8SZFuN0FewNI2X7DH9YHvRjlUzovH9EQB5uVk,290
+intake_esgf/logging.py,sha256=RdeJepc-KpbW3lLmGCjotDgkYVC3ogHrXb824AQkB-s,1264
+intake_esgf/operators.py,sha256=L-DAzsauL070lc7rCPK1ADKkGXOOkm57maEyRzbjeeE,4450
+intake_esgf/core/__init__.py,sha256=PvZuhLfbRy0lV4SuFUIvUiGl2O3cG5v5xvwBdmpKb3U,144
+intake_esgf/core/globus.py,sha256=J2yc12IzCOh6D70zzV4UGFeZKfm50P44yEWaq9zhy84,6483
+intake_esgf/core/solr.py,sha256=QxJ5AhckDMWUyYDthvYiMR_nhegOz54RkiCwu6oHJoM,4490
+intake_esgf/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+intake_esgf/tests/test_basic.py,sha256=guW_0Hx6S0jOd2MDqat7VozzNDgAMa31SPoPY9bE-lw,1608
+intake_esgf/tests/test_operators.py,sha256=mKYhjiKRwl89v1pZXQw9M-G-isLS7xgkkVgJ_NYMdHg,2079
+intake_esgf-2024.1.23.dist-info/METADATA,sha256=9hreRr8GwKjFlqZrOFloNyPMb9XedC2Djmh5GmhIjjk,854
+intake_esgf-2024.1.23.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+intake_esgf-2024.1.23.dist-info/top_level.txt,sha256=iGluBDmZ1FOy8Xqj8hJmQhegEYs5zmS-_mweqgYIgM0,12
+intake_esgf-2024.1.23.dist-info/RECORD,,
