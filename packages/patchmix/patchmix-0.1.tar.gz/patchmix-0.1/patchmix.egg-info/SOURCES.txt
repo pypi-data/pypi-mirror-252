@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+patchmix/__init__.py
+patchmix/mix.py
+patchmix.egg-info/PKG-INFO
+patchmix.egg-info/SOURCES.txt
+patchmix.egg-info/dependency_links.txt
+patchmix.egg-info/requires.txt
+patchmix.egg-info/top_level.txt
