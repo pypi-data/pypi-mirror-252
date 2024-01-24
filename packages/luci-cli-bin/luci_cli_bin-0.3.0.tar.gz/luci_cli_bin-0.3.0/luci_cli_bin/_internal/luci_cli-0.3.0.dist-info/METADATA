@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: luci_cli
+Version: 0.3.0
+Summary: 
+Author: Bohdan Vanieiev
+Author-email: bohdan.vanieiev@aptiv.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: GitPython (==3.1.31)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: atlassian-python-api (==3.34.0)
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: chardet (==5.1.0)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: coloredlogs (==15.0.1)
+Requires-Dist: dacite (==1.8.1)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: jsonschema (==4.19.2)
+Requires-Dist: junitparser (==2.8.0)
+Requires-Dist: keyring (==23.13.1)
+Requires-Dist: overrides (==7.4.0)
+Requires-Dist: paramiko (==3.3.1)
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: pycobertura (==3.0.0)
+Requires-Dist: pyparsing (==3.1.1)
+Requires-Dist: pytest-cov (==4.1.0)
+Requires-Dist: python-gerrit-api (==2.1.6)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: tabulate (==0.9.0)
+Requires-Dist: tinynetrc (==1.3.1)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tomli-w (==1.0.0)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: typing-extensions (==4.9.0)
+Requires-Dist: warchant-dc-schema (==0.0.9)
+Requires-Dist: wcmatch (==8.4.1)

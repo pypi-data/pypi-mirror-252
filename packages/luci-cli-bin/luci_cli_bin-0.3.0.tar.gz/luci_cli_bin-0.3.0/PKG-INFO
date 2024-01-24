@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: luci-cli-bin
+Version: 0.3.0
+Summary: Binary distribution of luci-cli utils
+Author: Bohdan Vanieiev
+Author-email: bohdan.vanieiev@aptiv.com
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11

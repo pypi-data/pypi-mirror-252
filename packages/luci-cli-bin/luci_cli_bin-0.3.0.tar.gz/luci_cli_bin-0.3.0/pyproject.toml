@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "luci-cli-bin"
+# version will be overwritten by CI
+version = "0.3.0"
+description = "Binary distribution of luci-cli utils"
+authors = ["Bohdan Vanieiev <bohdan.vanieiev@aptiv.com>"]
+# we need to specify at least 1 py file...
+packages = [{ include = "luci_cli_bin_main.py" }]
+
+include = [
+    # include all bindist binaries in whl and sdist
+    { path = "luci_cli_bin/**/*" },
+]
+
+# if build.py is used, then wheel name will include OS-specific tag: luci_cli_bin-0.3.0-cp310-cp310-win_amd64.whl
+# if it is NOT present, then wheel name will be generic: luci_cli_bin-0.3.0-py3-none-any.whl
+# we want to have OS-specific tag, so we use build.py here.
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
+
+[tool.poetry.scripts]
+aptiv_pipeline_cli = 'luci_cli_bin_main:main'
+aptiv_unit_tests = 'luci_cli_bin_main:main'
+aptiv_unit_tests_vcmgen = 'luci_cli_bin_main:main'
+aptiv_artifactory = 'luci_cli_bin_main:main'
+aptiv_artifactory2 = 'luci_cli_bin_main:main'
+aptiv_repotool = 'luci_cli_bin_main:main'
+aptiv_gerrit_findings = 'luci_cli_bin_main:main'
+aptiv_plastic = 'luci_cli_bin_main:main'
+aptiv_warnings_analyzer = 'luci_cli_bin_main:main'
+aptiv_flasher_tool = 'luci_cli_bin_main:main'
+aptiv_smoke_tests_tool = 'luci_cli_bin_main:main'
+aptiv_init = 'luci_cli_bin_main:main'
+aptiv_cache = 'luci_cli_bin_main:main'
+aptiv_blackduck = 'luci_cli_bin_main:main'
+aptiv_compiledb = 'luci_cli_bin_main:main'
+aptiv_remote_cli = 'luci_cli_bin_main:main'
+aptiv_gerrit_cli = 'luci_cli_bin_main:main'
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "luci_jfrog"
+url = "https://jfrog.asux.aptiv.com/artifactory/api/pypi/luci-aptiv-00000000-pypi-local/simple"
+priority = 'supplemental'
