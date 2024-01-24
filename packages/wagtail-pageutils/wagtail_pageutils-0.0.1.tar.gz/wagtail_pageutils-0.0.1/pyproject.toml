@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wagtail-pageutils"
+version = "0.0.1"
+description = "A set of utilities for managing and migrating wagtail components in production."
+authors = [
+    "Jeremiah Boby <jeremiah@evidentinsights.com>"
+]
+license = "MIT"
+packages = [
+    { include="pageutils", from="src" },
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+wagtail = "^5.2.3"
+dpath = "^2.1.6"
+poetry = {version = "^1.7.1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
