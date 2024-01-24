@@ -1,0 +1,9 @@
+p1 >> blips(oct=[2,3,4], degree=[0,5,3,5], dur=.25, amp=2, pan=[-1,0,1])
+
+p2 >> blip(oct=[3,4,5], degree=[0,5,3,5,6], dur=[.25], amp=.7, pan=[-1,0,1,0])
+
+d1 >> play("[--](-(..(.O)[i(.I)]))", dur=.5, sample=3)
+d2 >> play(".(.(xxx[.V]))", dur=.5)
+cp >> play(".(.(i[ii]))")
+
+k1 >> play("(vvv(vvv[.X])).")
