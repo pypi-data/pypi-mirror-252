@@ -1,0 +1,94 @@
+{
+    "name": "field",
+    "display": {
+        "en": "Field"
+    },
+    "desc": {
+        "en": "A field of the structure."
+    },
+    "fields": [
+        {
+            "name": "name",
+            "type": "string",
+            "required": true,
+            "desc": {
+                "en": "The name of the field."
+            },
+            "display": {
+                "en": "Name"
+            }
+        },
+        {
+            "name": "display",
+            "type": "child",
+            "child_attrs": {
+                "struct": "ui_string"
+            },
+            "required": true,
+            "desc": {
+                "en": "The display name of this field."
+            },
+            "display": {
+                "en": "Display"
+            }
+        },
+        {
+            "name": "desc",
+            "type": "child",
+            "child_attrs": {
+                "struct": "ui_string"
+            },
+            "required": true,
+            "desc": {
+                "en": "The description of this field."
+            },
+            "display": {
+                "en": "Description"
+            }
+        },
+        {
+            "name": "list",
+            "type": "boolean",
+            "assumed": false,
+            "desc": {
+                "en": "Is this field a list."
+            },
+            "display": {
+                "en": "List"
+            }
+        },
+        {
+            "name": "required",
+            "type": "boolean",
+            "assumed": false,
+            "desc": {
+                "en": "Is this field required."
+            },
+            "display": {
+                "en": "Required"
+            }
+        },
+        {
+            "name": "type",
+            "required": true,
+            "type": "string",
+            "desc": {
+                "en": "The type of this field."
+            },
+            "display": {
+                "en": "Type"
+            }
+        },
+        {
+            "name": "assumed",
+            "required": false,
+            "type": "any",
+            "desc": {
+                "en": "The value that is will be used when no value is provided."
+            },
+            "display": {
+                "en": "Assumed"
+            }
+        }
+    ]
+}

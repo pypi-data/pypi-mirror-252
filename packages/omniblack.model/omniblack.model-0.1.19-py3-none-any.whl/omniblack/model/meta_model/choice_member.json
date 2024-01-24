@@ -1,0 +1,64 @@
+{
+    "$schema": "./schema/struct.schema.json",
+    "name": "choice_member",
+    "display": {
+        "en": "Choice Member"
+    },
+    "desc": {
+        "en": "A member of a choice limited field."
+    },
+    "display_name": {
+        "en": "Choice member"
+    },
+    "fields": [
+        {
+            "required": true,
+            "desc": {
+                "en": "The name used to refer to the choice externally"
+            },
+            "display": {
+                "en": "Name"
+            },
+            "type": "string",
+            "name": "name"
+        },
+        {
+            "desc": {
+                "en": "The name used to refer to the choice in code."
+            },
+            "display": {
+                "en": "Internal Name"
+            },
+            "type": "string",
+            "name": "internal"
+        },
+        {
+            "required": true,
+            "desc": {
+                "en": "The displayed value"
+            },
+            "display": {
+                "en": "Display"
+            },
+            "type": "child",
+            "child_attrs": {
+                "struct": "ui_string"
+            },
+            "name": "display"
+        },
+        {
+            "desc": {
+                "en": "A long description of the enum value"
+            },
+            "display": {
+                "en": "Description"
+            },
+            "type": "child",
+            "child_attrs": {
+                "struct": "ui_string"
+            },
+            "name": "desc"
+        }
+    ]
+}
+

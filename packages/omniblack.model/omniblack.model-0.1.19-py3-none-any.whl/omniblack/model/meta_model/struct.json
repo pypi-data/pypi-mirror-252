@@ -1,0 +1,69 @@
+{
+    "name": "struct",
+    "display": {
+        "en": "Struct"
+    },
+    "desc": {
+        "en": "A structure definition."
+    },
+    "fields": [
+        {
+            "name": "name",
+            "type": "string",
+            "required": true,
+            "desc": {
+                "en": "The name of the struct. Used to refer to the system."
+            },
+            "display": {
+                "en": "name"
+            }
+        },
+        {
+            "name": "desc",
+            "desc": {
+                "en": "A description of the struct."
+            },
+            "type": "child",
+            "required": true,
+            "display": {
+                "en": "Description"
+            },
+            "child_attrs": {
+                "struct": "ui_string"
+            }
+        },
+        {
+            "name": "display",
+            "desc": {
+                "en": "The display name of the struct."
+            },
+            "type": "child",
+            "required": true,
+            "display": {
+                "en": "Display"
+            },
+            "child_attrs": {
+                "struct": "ui_string"
+            }
+        },
+        {
+            "name": "fields",
+            "desc": {
+                "en": "The fields that make up this struct."
+            },
+            "type": "child",
+            "list": true,
+            "required": true,
+            "display": {
+                "en": "Fields"
+            },
+            "child_attrs": {
+                "struct": "field"
+            },
+            "list_attrs": {
+                "minLen": 1,
+                "uniquePaths": ["name"]
+            }
+        }
+    ]
+}
