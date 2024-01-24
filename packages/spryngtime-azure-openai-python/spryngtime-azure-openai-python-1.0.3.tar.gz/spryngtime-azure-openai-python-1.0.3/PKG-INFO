@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: spryngtime-azure-openai-python
+Version: 1.0.3
+Summary: Spryngtime Usage Analytics & Billing API
+Home-page: https://github.com/azianmike/spryngtime-analytics-sdk/tree/main/python
+Author: Spryngtime
+Author-email: michael@usespryngtime.com
+License: MIT
+Keywords: Konfig,Spryngtime Usage Analytics & Billing API OpenAI wrapper
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Spryngtime's Azure OpenAI wrapper
+
+
+Quickstart:
+Replace 
+import openai
+with
+
+import SpryngtimeOpenAI as openai
+
+Notes for Spryngtime's OpenAI wrapper:
+- Make sure to take requirements.txt and put into setup.py
