@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sphinx-readme-test-package
+Version: 1.0.0
+Summary: Test Package for Sphinx README
+Home-page: https://github.com/tdkorn/sphinx-readme/blob/main/tests
+Author: Adam Korn
+Author-email: hello@dailykitten.net
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: sphinx (==5.3.0)
+Requires-Dist: docutils (<0.17)
+
+Test Package for Sphinx README
+
