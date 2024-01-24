@@ -1,0 +1,11 @@
+slovene_accentuator/__init__.py,sha256=3xR3d1uKnil2GzY-9h5WRuR3Shshlgt2Qq7pj_ulbZI,42
+slovene_accentuator/accentuate.py,sha256=rJIXwugDbry97oZEegSndeXPBK7lIVofyOy346yS--k,8793
+slovene_accentuator/get_models.py,sha256=PfXpu5kcxwNRe6-P9g4imM2PGlGq8EONcr2PLaAWAGc,392
+slovene_accentuator/prepare_data.py,sha256=I_5b49IXXWUL6hlqlgMtzjF3bQKuHCkhN402fWXs5x4,95362
+slovene_accentuator/data/environment.pkl,sha256=g9n6KqHDhEvC9aVBtShiq1-GGnf6ZWjEyZowO2iYf4s,73968
+slovene_accentuator/data/mte_6_dict_sl_en.tsv,sha256=ee6tWl6Ew1T2vI3EHuoux4EZ5tsdIET-Z0eWVcEZ0kM,473349
+slovene_accentuator-0.0.6.dist-info/LICENSE,sha256=3NdJzv2T9TBNddZsbVch5CqWbx3PGyjPTuSRvZLOiw0,1064
+slovene_accentuator-0.0.6.dist-info/METADATA,sha256=tu1bxOPfaDcqdCIFZEizFD5ssRc9XsIggaN9Xfi0dk8,314
+slovene_accentuator-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slovene_accentuator-0.0.6.dist-info/top_level.txt,sha256=rB7kt1Qcxz2UB60ev7ZLFoj1m2bBhwMu_ij1vTHMFMU,20
+slovene_accentuator-0.0.6.dist-info/RECORD,,
