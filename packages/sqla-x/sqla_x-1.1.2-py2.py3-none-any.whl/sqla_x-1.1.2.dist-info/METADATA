@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sqla-x
+Version: 1.1.2
+Summary: Connection manager and transaction scripts based on sqlalchemy encapsulation.
+Home-page: https://github.com/NC-Cj/sqla
+Author: CJ
+Author-email: 2771004336@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy ==2.0.21
+Requires-Dist: psycopg2-binary
+
+Connection manager and transaction scripts based on sqlalchemy encapsulation.
