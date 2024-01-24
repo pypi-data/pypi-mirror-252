@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: filestruct
+Version: 0.1.1
+Summary: A python package to structure files using visual and style informations
+Home-page: https://github.com/ixalodecte/filestruct
+Author: léo DECHAUMET
+Author-email: leo_dechaumet_research@pm.me
+License: GPLv3+
+Download-URL: https://github.com/ixalodecte/filestruct/archive/refs/tags/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: pdf,parser,layout-analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
