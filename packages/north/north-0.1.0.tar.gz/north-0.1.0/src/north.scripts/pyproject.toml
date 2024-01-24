@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "north.scripts"
+version = "0.1.0"
+description = ""
+authors = ["Adam Hitchcock <adam+python@northisup.com>"]
+packages = [{ include = "north" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+toml = "^0.10.2"
+toolz = "^0.12.0"
+json5 = "^0.9.14"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+new-package = "north.scripts.new_package:main"
+bump-versions = "north.scripts.bump_versions:main"
+publish-all = "north.scripts.publish_all:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

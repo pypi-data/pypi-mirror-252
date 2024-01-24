@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: north
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/MattiooFR/package_name
+Author: Adam Hitchcock
+Author-email: adam+python@northisup.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: config
+Provides-Extra: core
+Provides-Extra: str
+Project-URL: Repository, https://github.com/MattiooFR/package_name
