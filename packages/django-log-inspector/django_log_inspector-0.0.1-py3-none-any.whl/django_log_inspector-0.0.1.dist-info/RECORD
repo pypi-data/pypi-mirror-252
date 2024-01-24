@@ -1,0 +1,15 @@
+log_inspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_inspector/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+log_inspector/apps.py,sha256=bcp2qYQXU4O2zWlESijs8EEykxiIV5z2jaXk42stq-s,163
+log_inspector/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+log_inspector/settings.py,sha256=XusKo_TqczrU7-qIG8UZ5EHRFpl-l9xe2ovFQp6cQAw,985
+log_inspector/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+log_inspector/urls.py,sha256=q4aB43FaKcQHkkDQi7S7_las1Sm5qkXSZjilmbF4d98,837
+log_inspector/utils.py,sha256=ZJQeAcZ1tDZ_Qr3irI66kJgLCyLo0A_TqhPdCt8TthE,1534
+log_inspector/views.py,sha256=J49_i8PLtCjU2B97UO_aneafPbPKr93DjzyaZJIKkfY,3508
+log_inspector/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_log_inspector-0.0.1.dist-info/LICENSE,sha256=TAz7MKuT4Waa86Hpyx74dEgNkJYYI4bepbdPldxaDbs,1071
+django_log_inspector-0.0.1.dist-info/METADATA,sha256=Lrwfgh0iSqJ5bi_qKENaAtDRUFloTIHEiXFn7W4_LHk,217
+django_log_inspector-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_log_inspector-0.0.1.dist-info/top_level.txt,sha256=gL_M292PUe93hDtRMYhWK7TDVr9EIVgazC6vKGeh6KU,14
+django_log_inspector-0.0.1.dist-info/RECORD,,
