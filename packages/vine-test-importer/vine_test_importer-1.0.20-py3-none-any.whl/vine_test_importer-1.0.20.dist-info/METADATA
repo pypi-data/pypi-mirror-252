@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vine-test-importer
+Version: 1.0.20
+Summary: GrowingIO Importer是GrowingIO CDP平台元数据创建和数据导入工具
+Home-page: UNKNOWN
+Author: vine_wang
+Author-email: vine_wc@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: curlify
+Requires-Dist: PyYAML
+Requires-Dist: psycopg2-binary
+Requires-Dist: pymysql
+Requires-Dist: pyhive
+Requires-Dist: thrift
+Requires-Dist: sasl
+
+UNKNOWN
+
