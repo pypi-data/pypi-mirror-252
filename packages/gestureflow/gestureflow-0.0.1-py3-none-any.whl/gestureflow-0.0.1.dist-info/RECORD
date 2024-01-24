@@ -1,0 +1,11 @@
+gestureflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gestureflow/sample_gesture_trackers.py,sha256=Yf-VjLKz4dPj-n9_Zcq58KhI33LoVHI9xwUX79XWpE0,3105
+gestureflow/sample_runners.py,sha256=G7H-KY7qrPSoI8Fys6W-IAfHLVmYDvkaA6QfnTbAJOQ,623
+gestureflow/sample_state_trackers.py,sha256=548QiT6GMUVB5QBkdRPpY7jdo-miVrdHXmtxeRKiKBg,3606
+gestureflow/settings.py,sha256=RbkCrsQ8hPYK9RM40-ZkLufZBhWnYAFwEO0aOzEtVwo,363
+gestureflow/tracker.py,sha256=PFGXUwgrvAmqG5zal7TykabXY3Z5admzDzaM63DFIwU,5665
+gestureflow-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+gestureflow-0.0.1.dist-info/METADATA,sha256=zOA1TjJ31JjpxN6_CX9flssLMzyaY7cXbdtyTeBdl8Y,664
+gestureflow-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gestureflow-0.0.1.dist-info/top_level.txt,sha256=VC3xX73tzwXKsmQjLQQ8Vj-Ir30sxj3D4cvzmYqcaJo,12
+gestureflow-0.0.1.dist-info/RECORD,,
