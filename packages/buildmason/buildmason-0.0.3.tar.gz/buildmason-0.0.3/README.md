@@ -1,0 +1,84 @@
+# BuildMason
+
+BuildMason is a command-line tool for generating scaffolding projects with different configurations.
+
+It currently supports creating a basic Flask project, a Flask REST API project, and a Flask project with Blueprints.
+
+## Installation
+
+```bash
+pip install buildmason
+```
+
+## Usage
+```bash
+buildmason COMMAND [OPTIONS] [ARGS]...
+```
+### Commands
+
+- basic-project: Generates a basic Flask project.
+- rest-api: Generates a Flask REST API project.
+- blueprint: Generates a Flask project with Blueprints.
+
+#### Options
+--help: Show this message and exit.
+
+## Getting Started
+
+### Basic Flask Project
+```bash
+
+buildmason basic-project
+```
+
+This command will generate a basic Flask project structure. Find more details here.
+
+### Flask REST API Project
+```bash
+buildmason rest-api
+```
+This command will generate a Flask project with REST API configuration. Find more details here.
+
+### Flask Blueprint Project
+```bash
+buildmason blueprint
+```
+This command will generate a Flask project with Blueprints. Find more details here.
+
+## Project Details
+
+### Basic Flask Project
+A basic Flask project structure with the following components:
+
+- app/: Main application directory.
+- __init__.py: Initialization file for the app.
+- models/: Contains SQLAlchemy models.
+- services/: Business logic or services.
+- utils/: Utility functions or configuration files.
+- app.py: Main entry point for the Flask application.
+- tests/: Directory for unit tests.
+- config.py: Configuration file for the Flask application.
+- requirements.txt: File containing project dependencies.
+
+
+### Flask REST API Project
+A Flask project configured for building REST APIs with Blueprints. It includes:
+
+- An example REST API Blueprint (api/) with a sample route.
+- flask-restful library for building RESTful APIs.
+
+### Flask Blueprint Project
+A Flask project structured with Blueprints for modularization. It includes:
+
+Blueprints for different parts of the application (e.g., main/, auth/).
+Templates and static files separated into templates/ and static/ directories.
+Adjust the project structure and content based on your specific needs and requirements.
+
+## Contributing
+Feel free to contribute to this project. Open issues or submit pull requests on the GitHub repository.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
