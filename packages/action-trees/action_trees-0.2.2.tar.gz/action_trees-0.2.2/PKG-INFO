@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: action_trees
+Version: 0.2.2
+Summary: Action decomposition and execution framework
+Home-page: 
+Author: Jev Kuznetsov
+Author-email: jev@roxautomation.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: click
+
+# Action Trees
+
+
+![coverage](https://gitlab.com/roxautomation/action-trees/badges/main/coverage.svg)
+![build status](https://gitlab.com/roxautomation/action-trees/badges/main/pipeline.svg)
+
+
+---
+
+**Documentation**: [https://roxautomation.gitlab.io/action-trees](https://roxautomation.gitlab.io/action-trees)
+
+**Source Code**: [https://gitlab.com/roxautomation/action-trees](https://gitlab.com/roxautomation/action-trees)
+
+
+---
+
+Action Trees is a control architecture for robotic systems, drawing inspiration from behavior trees but incorporating distinct features suitable for specific real-time applications.
+
+# Summary
+Action Trees adopt a hierarchical structure, similar to behavior trees, to decompose complex behaviors into smaller, manageable actions. The architecture is designed to facilitate the development and maintenance of machine behaviors in systems where asynchronous processing and error handling are crucial.
+
+## Key Features
+
+- **Hierarchical and Modular Design**: Enables the breakdown of complex behaviors into simpler actions, enhancing maintainability.
+- **Concurrency Through Asyncio**: Utilizes Python's asyncio library to support parallel execution of actions, crucial for non-blocking operation in real-time systems.
+- **Error Handling**: Integrates exception handling within actions, aiming to improve system reliability and response to failures.
+- **State Management**: Incorporates state tracking for each action, assisting in the management and debugging of the execution flow.
+- **VDA5050 compliant**: Action states follow VDA5050 guidelines along with support for *pause* and *cancel* actions.
+
+## Comparison with Behavior Trees
+
+Behavior Trees (BTs) and Action Trees (ATs) both utilize a hierarchical structure for managing AI behaviors, but they serve distinct purposes. BTs are decision-oriented, focusing on *selecting the next action* in dynamic environments based on real-time changes and conditions. They excel in scenarios where frequent decision-making is critical.
+
+On the other hand, ATs concentrate on the *efficient execution* of predefined complex actions. Their design prioritizes asynchronous operations and comprehensive error handling, making them well-suited for tasks that require real-time responsiveness and reliability. Unlike BTs, ATs are less about decision-making and more about the methodical execution of a series of actions.
+
+This core difference aligns BTs with decision-making needs, while ATs are tailored for execution efficiency in robotic systems.
+
+
+
+# Development
+
+**Please develop inside the container**, this will ensure all the required checks (`pylint` & `mypy`) as well as formatting (`black`)
+
+If you are not familiar with devcontainers, read [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers) first
+
+1. Clone this repository
+2. open dir in *VS Code* `vscode .`
+3. rebuild and reopen in container (you'll need `Dev Containers` extension)
+
+**note**: if a container with `devcontainer` name already exists, an error will occur. You can remove it with
+`docker container prune -f`
+
+
+### What goes where
+
+* `gitlab-ci.yml` - gitlab ci script
+* `init_container.sh` script to initialize container for development.
+* `setup.py` - main packge setup file
+* `docs` - documentation, uses mkdocs
+* `install` - scripts for preparing host system
+
+### Version control
+
+Version control is done with git tags using `setuptools_scm`
+
+use `git tag v1.2.3` to update version number. Use `git describe` to show current version.
+
+### Documentation
+
+The documentation is automatically generated from the content of the [docs directory](./docs) and from the docstrings
+ of the public signatures of the source code.
+
+run `serve_docs.sh` from inside the container to build and serve documentation.
+
+**note:** `pyreverse` creates images of packages and classes in `docs/uml/..`
+
+### Pre-commit
+
+optional. Add `precommit install` to `init_container.sh` if required.
+
+This project was forked from [cookiecutter template](https://gitlab.com/roxautomation/python-template) template.
