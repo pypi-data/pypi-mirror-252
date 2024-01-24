@@ -1,0 +1,5 @@
+[console_scripts]
+vulcan = omniblack.vulcan:app
+
+[omniblack.model]
+main = omniblack.vulcan.model:model
