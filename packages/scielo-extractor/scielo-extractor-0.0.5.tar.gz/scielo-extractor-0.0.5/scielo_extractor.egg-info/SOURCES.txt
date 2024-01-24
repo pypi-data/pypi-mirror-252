@@ -1,0 +1,11 @@
+README.md
+setup.py
+scielo_extractor/__init__.py
+scielo_extractor/cli.py
+scielo_extractor/extractor.py
+scielo_extractor.egg-info/PKG-INFO
+scielo_extractor.egg-info/SOURCES.txt
+scielo_extractor.egg-info/dependency_links.txt
+scielo_extractor.egg-info/entry_points.txt
+scielo_extractor.egg-info/requires.txt
+scielo_extractor.egg-info/top_level.txt
