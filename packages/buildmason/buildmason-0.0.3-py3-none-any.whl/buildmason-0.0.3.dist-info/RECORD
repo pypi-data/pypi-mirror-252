@@ -1,0 +1,8 @@
+buildmason/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildmason/__main__.py,sha256=R9tJoRuR6qDWYP6BQhzVm_yurZwtp7mBzVOWCpgsy5I,228
+buildmason/commands.py,sha256=LFQJJIjKBDjR9q73yS_tMcADgpkR7XHtK-4C8_XTSYU,1422
+buildmason-0.0.3.dist-info/METADATA,sha256=O8p2Sm-hBUEr1pzaN6beqXngl3EpnSTFTsYh5HdXlLQ,2667
+buildmason-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+buildmason-0.0.3.dist-info/entry_points.txt,sha256=diGzIu8VQSwHdfrT00O74n85AaRISq7mc1sXt2i_ZYo,55
+buildmason-0.0.3.dist-info/top_level.txt,sha256=J-Xl8PJhTe-FcFPD9GjZ0MaYhXWbLtkJpT5SG_H0YgA,11
+buildmason-0.0.3.dist-info/RECORD,,
