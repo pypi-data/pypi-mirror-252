@@ -1,0 +1,8 @@
+segmix/__init__.py,sha256=QrcFcYJOXhBUl1BPM5KA-djZUR1Cz61LryTpIijctdg,32
+segmix/cli.py,sha256=ZZTEN3Xjhsn--sciEMlDSMG5iCO6e-r81WH9CpDYnQg,140
+segmix/main.py,sha256=eq6DNY_c85rmFTEwj80NyawCfvJjPPS41pN34T527mE,57173
+segmix-0.0.1.dist-info/METADATA,sha256=MBx7odRNMz9jxMLz3Oh_MhoFiB5upJplj96tBx7t8Hw,5286
+segmix-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+segmix-0.0.1.dist-info/entry_points.txt,sha256=6QZHHy4CTwtJs4TU4k33WY4462zi7yZoZvldBiSxNKk,46
+segmix-0.0.1.dist-info/top_level.txt,sha256=oukgsTV_7P_DJaBgVnHOKdCi3DvuZZREw4rQglso_uI,7
+segmix-0.0.1.dist-info/RECORD,,
