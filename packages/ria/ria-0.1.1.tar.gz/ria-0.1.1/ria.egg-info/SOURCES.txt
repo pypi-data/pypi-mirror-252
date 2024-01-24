@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+cli/__init__.py
+cli/meow.py
+ria/Cat.py
+ria/__init__.py
+ria.egg-info/PKG-INFO
+ria.egg-info/SOURCES.txt
+ria.egg-info/dependency_links.txt
+ria.egg-info/entry_points.txt
+ria.egg-info/top_level.txt

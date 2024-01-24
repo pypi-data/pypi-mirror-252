@@ -1,0 +1,41 @@
+[project]
+name = "ria"
+version = "0.1.1"
+description = "Radio Intelligence Apps' open-source core, by Qoherent"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+keywords = ["radio", "machine learning"]
+authors = [
+  {name = "Qoherent Inc.", email = "info@qoherent.ai" }
+]
+maintainers = [
+  {name = "Michael Luciuk", email = "michael@qoherent.ai"},
+  {name = "Ashkan Beigi", email = "ash@qoherent.ai"}
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Typing :: Typed"
+]
+
+[project.urls]
+Qoherent = "https://www.qoherent.ai/"
+Documentation = "https://readthedocs.org"
+Source = "https://github.com/mrl280/ria"
+Issues = "https://github.com/mrl280/ria/issues"
+
+[build-system]
+requires = ["setuptools>=69.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ria", "cli"]
+
+[project.scripts]
+meow = "cli.meow:script_entry"
