@@ -1,0 +1,8 @@
+README.md
+setup.py
+anm_addit/__init__.py
+anm_addit/main.py
+anm_addit.egg-info/PKG-INFO
+anm_addit.egg-info/SOURCES.txt
+anm_addit.egg-info/dependency_links.txt
+anm_addit.egg-info/top_level.txt
