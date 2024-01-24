@@ -1,0 +1,14 @@
+django_coalesce/__init__.py,sha256=661yuEXgAu4ZXXKBItwaSrLn8wceHpuPURpFxmlLQfI,51
+django_coalesce/__main__.py,sha256=DI8PbOKb7JCiop48fRdeYQCb_XvjNkdvYQ_leEgfALc,77
+django_coalesce/main.py,sha256=ofYTR91nwDyKWWFt2Sv6i9eJF-A1EWjbJ7OOdh6y10M,1535
+django_coalesce/models.py,sha256=wES2dHh8t4bVjwJrJ7R4mG5I62OE0DRaVXMSPTTJrI8,202
+django_coalesce/settings.py,sha256=UwKfHbOZBbHxZyRKsqjZKc-ZaCqCwfen7ufEGv41_rk,699
+django_coalesce/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_coalesce/templatetags/django_coalesce.py,sha256=jLG3C2f8G7T8ko-nntIFMX-9gmoA8AJeZsFw0w-iKzE,361
+django_coalesce/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_coalesce/tests/test_main.py,sha256=JGP9U0oSh0nwMpgg3lquqE5QsGtpGZCDalFW-mXr27c,338
+django_coalesce-0.0.1.dist-info/LICENSE,sha256=Xmfboz74JVgnqSNMygtmOZGKdfC5E8jUZVwl1SMRPeY,10818
+django_coalesce-0.0.1.dist-info/METADATA,sha256=YAQ0KZJHJdJv4JRB7hgpixLGayxXOeBLM96zxiR7R4s,809
+django_coalesce-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_coalesce-0.0.1.dist-info/top_level.txt,sha256=hFOctFp4eBNa9a6ys8FlqAIPUgrfExGVfQAcijSygss,16
+django_coalesce-0.0.1.dist-info/RECORD,,
