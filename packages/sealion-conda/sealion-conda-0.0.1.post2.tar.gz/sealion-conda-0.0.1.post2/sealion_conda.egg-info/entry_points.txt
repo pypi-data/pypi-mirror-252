@@ -1,0 +1,3 @@
+[console_scripts]
+sc = sealionconda.app:main
+sealion-conda = sealionconda.app:main
