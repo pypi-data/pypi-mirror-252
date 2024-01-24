@@ -1,0 +1,15 @@
+gpycraft/__init__.py,sha256=GAq2ayzIESEtB-Dm7Z1czsmxgsxO_Zd2Hf39EvCqpVE,59
+gpycraft/app_config.py,sha256=oN7UEh8oKlMfNjeo4gQ29t0IHIKupXVm-GSaUEdHrYY,4449
+gpycraft/fileIO/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpycraft/fileIO/dotstacks.py,sha256=oG8oMAtRJIJaVsMZZtGdShy6CJ6PvvsF_yfUhqaAuS0,729
+gpycraft/fileIO/filecraft.py,sha256=qoKM5y1JdtrU1204LiS2NuK8MsBGtmFsswDKYW2EVjE,6358
+gpycraft/fileIO/radix.py,sha256=0uoiNWE00lu6ymKBx-YMvJ90SibTAbLh71VNVNhoApE,1288
+gpycraft/fireStore/__init__.py,sha256=vLuY9TtZ3zfcSW8iKHK1XZZYae30607f0q_IHgLk6Kg,91
+gpycraft/fireStore/firestoreupload.py,sha256=rpcccLrjWqOqL-fGELG6FHcmX8alaBFyzLPb4p37JJo,8075
+gpycraft/googleSheet/__init__.py,sha256=TeArIq4ICVpqOuprSB2vD4dxbqgRtWkXhnLTQD6ZxC4,73
+gpycraft/googleSheet/gsheetsdb.py,sha256=BIwZD3HC1zlpOV-3N_UGbfRdugAh5O1VarQZDUKm-J4,6724
+gpycraft-1.0.2.dist-info/METADATA,sha256=H1_HPSFMJdt0x_9oLz-xo0THEe0rkE77zGX5Acn8Exw,3450
+gpycraft-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gpycraft-1.0.2.dist-info/entry_points.txt,sha256=kt7dRhvcjmBa0RRgiP7pOccFUwWXf8gGbH99DbOexT4,58
+gpycraft-1.0.2.dist-info/top_level.txt,sha256=oB3oMt0B9jiGwpwgA3mC0N8ms6-Yf5WhBN-Cu-qq6dc,9
+gpycraft-1.0.2.dist-info/RECORD,,
