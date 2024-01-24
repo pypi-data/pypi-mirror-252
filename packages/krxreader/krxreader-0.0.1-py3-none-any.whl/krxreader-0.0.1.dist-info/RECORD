@@ -1,0 +1,8 @@
+krxreader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krxreader/base.py,sha256=2rAPB07qQRtmjld7N5aybcxUxV9Sv4p_FIoRfUt6y0w,3201
+krxreader/stock.py,sha256=hr9KBV0yuxk89JkBG59iZvBhLBzG6hZT2dUf9opzbGE,3613
+krxreader-0.0.1.dist-info/LICENSE,sha256=MONUtzTiX0PxufrgK8yaI22FJNOBEgirWeMIgtjD6c0,1068
+krxreader-0.0.1.dist-info/METADATA,sha256=nHo7gFnzHL6xEAZfiOv3u19T6PLPw1PCqmhpmy6MP7o,1960
+krxreader-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+krxreader-0.0.1.dist-info/top_level.txt,sha256=DyWVLh_09DTl5Eu-dWM6yxuOJpie8vqjViGcFgZ5GB8,10
+krxreader-0.0.1.dist-info/RECORD,,
