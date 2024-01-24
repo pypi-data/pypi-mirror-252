@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dcre
+Version: 0.0.1
+Summary: Python package for CRE processing
+Author: Hauke Schulz
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# dCRE
+Computation and decomposition of Cloud Radiative Effects (CRE)
+
+![ci.yaml](https://github.com/observingClouds/dCRE/actions/workflows/ci.yaml/badge.svg)
+
+> [!WARNING]
+> This package is still under development. Things will break.
