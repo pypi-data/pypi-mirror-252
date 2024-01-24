@@ -1,0 +1,14 @@
+README.rst
+VERSION
+pyproject.toml
+requirements.txt
+django_chili/__init__.py
+django_chili/bowl.py
+django_chili/chop.py
+django_chili/chunk.py
+django_chili/sauce.py
+django_chili.egg-info/PKG-INFO
+django_chili.egg-info/SOURCES.txt
+django_chili.egg-info/dependency_links.txt
+django_chili.egg-info/requires.txt
+django_chili.egg-info/top_level.txt
