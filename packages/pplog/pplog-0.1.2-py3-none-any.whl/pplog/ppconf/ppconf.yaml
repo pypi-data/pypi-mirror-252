@@ -1,0 +1,15 @@
+# PPLOG CONFIGURATION FILE
+
+logging:
+  handlers:
+    - name: splunk
+      event_grid_topic_endpoint: ""
+
+
+
+some_key:
+  log_check_class: pplog.log_checks.CheckDataFrameCount
+  arguments:
+    comparison_function: greater_than
+    comparison_value: 100
+
