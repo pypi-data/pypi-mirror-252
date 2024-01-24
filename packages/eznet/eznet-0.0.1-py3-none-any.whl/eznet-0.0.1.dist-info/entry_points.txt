@@ -1,0 +1,2 @@
+[console_scripts]
+eznet = eznet.__main__:cli

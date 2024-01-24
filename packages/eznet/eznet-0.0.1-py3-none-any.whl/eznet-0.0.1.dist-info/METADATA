@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: eznet
+Version: 0.0.1
+Home-page: https://github.com/omaxx/eznet
+Author: maxx orlov
+Author-email: 
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: typing-extensions
+Requires-Dist: attrs
+Requires-Dist: types-attrs
+Requires-Dist: PyYAML
+Requires-Dist: types-PyYAML
+Requires-Dist: lxml
+Requires-Dist: lxml-stubs
+Requires-Dist: jsonnet
+Requires-Dist: cattrs
+Requires-Dist: influxdb-client[ciso]
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: pathlib3x
+Requires-Dist: asyncssh
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+
