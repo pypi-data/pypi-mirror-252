@@ -1,0 +1,5 @@
+setup.py
+sadasdasd.egg-info/PKG-INFO
+sadasdasd.egg-info/SOURCES.txt
+sadasdasd.egg-info/dependency_links.txt
+sadasdasd.egg-info/top_level.txt
