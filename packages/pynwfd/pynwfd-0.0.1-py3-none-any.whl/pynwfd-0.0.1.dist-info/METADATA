@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: pynwfd
+Version: 0.0.1
+Summary: a python API for cma nwfd-grib2 c/c++ api
+Author-email: Qi dapeng <dpqnju@126.com>
+License: copyright for CMA. MIT license.
+        
+        Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+this is a python api for cma nwfd-grib2 c/c++ library.
+
+install_requires:
+
+    python3
+
+installing:
+   
+    pip install pynwfd
+
+how to use:
+
+    from pynwfd.grib_write import *
+    import numpy as np
+
+    data_size=193*220
+    grib_size=(500+data_size*4)*12 #12 hour,193*220 points,float type 
+    cgrib=(c_ubyte*grib_size)()
+
+    data=np.zeros((12,193,220))-1
+    data[1,10:20,10:20]=63
+
+    filename='leo-null.grb2'
+    #status=0:业务产品 1:测试产品 2:科研产品 3:再分析 
+    lens=Nwfd().nwfd_create(cgrib,2021, 3, 28, 8, 0, 0,status=0)
+    # def nwfd_addgrid(self,cgrib,slon,elon,slat,elat,DX,DY,Ni,Nj):
+    lens=Nwfd().nwfd_addgrid(cgrib, 101.05, 112, 22.1, 31.7, 0.05, 0.05, 220, 193)
+    for i in range(12):
+        #  def nwfd_addfield_jpeg(self,cgrib,category,element,statistical, year, month, day, hour, minute,second, 
+        #                                forecasttime, timerange, data, ngrdpts, leveltype, level, isforecast=True, istimepoint=False)
+        lens=Nwfd().nwfd_addfield_jpeg(cgrib,1,201,0,2021,3,28,8,0,0,i+1,1,data[i,:,:],data_size,1,0,True,False)
+    lens=Nwfd().nwfd_end(cgrib)
+    lens=Nwfd().nwfd_savetofile(cgrib, lens, grib2file=filename)
+
+
+the last:
+
+    send email to me ,if have issues,also suggests.
+
+    email: dpqnju@126.com
+
+
+
+
+
+

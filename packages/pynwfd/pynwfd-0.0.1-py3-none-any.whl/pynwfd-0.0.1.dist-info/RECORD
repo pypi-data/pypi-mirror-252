@@ -1,0 +1,12 @@
+pynwfd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynwfd/grib_write.py,sha256=uWwTQpZyxfnkrzhEb7j0FgGgOOnCaon5wr_3FFRNYuo,4807
+pynwfd/lib64/libNwfd-grib2.so,sha256=aPXlt52FYCWaN-v9JPXct3_jtV-F_CCbxGLR8rYG8ew,1281472
+pynwfd/lib64/libpng16.dll,sha256=CFzubueNaPcW1R9UA2SEGAUBwlfHnF5j5DZHb4T8mVA,179200
+pynwfd/lib64/msvcp120.dll,sha256=Kr8Kq1o8WulCS2Tp0Z2dbUrrxngU1-kuSSe5eY_vKEg,660128
+pynwfd/lib64/msvcr120.dll,sha256=rTIkC7HeVcP1_KyHifWDoXBX-dFJFMU4wqelrTRrNBw,963232
+pynwfd/lib64/nwfd-grib2-win64.dll,sha256=sj6zVWFc58-tN2MtkgeUhWSrjqz7qnRC1y_0zWHcSrQ,398336
+pynwfd/lib64/zlib1.dll,sha256=EMyW8DXiTZX7IwlU3xb3Vbb-RTDI4P2e_FHJuw9a3Fo,76288
+pynwfd-0.0.1.dist-info/METADATA,sha256=9ho75ZHw8EoStkDNHJ8dAlovBVH-UZ4SP3BvEViVhjk,2936
+pynwfd-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pynwfd-0.0.1.dist-info/licenses/LICENSE,sha256=NnlLlDUcxzZQqPmvSxW_EpGSVeoCvbSjYBw13NaAZKg,1106
+pynwfd-0.0.1.dist-info/RECORD,,
