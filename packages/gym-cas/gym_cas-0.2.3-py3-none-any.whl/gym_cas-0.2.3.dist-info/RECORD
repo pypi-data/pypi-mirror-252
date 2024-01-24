@@ -1,0 +1,13 @@
+gym_cas/__about__.py,sha256=uoGY2QJHMZV92fJphRX3eVE3J15KPn5jLzRBOtaGpmQ,117
+gym_cas/__init__.py,sha256=8ncGl5hJOaF5h-llguvr4q7B3GFeGyD40eg1yHJcINc,1010
+gym_cas/ode.py,sha256=ELhsgth1R7Nvg2Vv6UYxW8BMfSf50VB_qFoTfDWq4_Q,1198
+gym_cas/regression.py,sha256=bms434ZyFaSuTvPTyGTGANW93cnTBrSLgTSef656SKE,3805
+gym_cas/spb_defaults.py,sha256=Pao2RsdgkmOqYyp5pbHn4450yqpGybkemK7D87eUAeg,111
+gym_cas/stat_plot.py,sha256=XzTJQJiWH_3MfgzIdHTfE35YTe2j6IXidSaHiTD5_kg,9726
+gym_cas/stats.py,sha256=d0I3LkOmQQ7l2ZkfoDs1ZtMiXSjfnJxpJyxKAK3YZd4,8880
+gym_cas/trigonometry.py,sha256=xj7IDOGlXmJm8TjekdffR8RlFUzBAWTbHAlIzgoXLeU,2001
+gym_cas/vector.py,sha256=hBdL2rWY5or6_Ufj--KOyv2rANhj_eX18RZVaaXMICI,15612
+gym_cas-0.2.3.dist-info/METADATA,sha256=x3DlZXtl0WccI73SAtPZ22Irzp4kFbwBsyES6W_hT-E,4216
+gym_cas-0.2.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gym_cas-0.2.3.dist-info/licenses/LICENSE.txt,sha256=wegMMdxLWq2RSeAStNh2w0YsNcf0IqbLAZFqPmYvefM,1092
+gym_cas-0.2.3.dist-info/RECORD,,
