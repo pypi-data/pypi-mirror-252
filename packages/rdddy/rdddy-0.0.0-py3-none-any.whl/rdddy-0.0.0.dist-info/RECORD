@@ -1,0 +1,8 @@
+rdddy/__init__.py,sha256=PYxS7wZ3zoNue45otE5jcE_QraoQxmXKqbPWknTL-Xs,21
+rdddy/api.py,sha256=yl1d1W5cXryZPggKXdNX0-qGRntxwN8t04K0vxEIwGg,523
+rdddy/app.py,sha256=GxYQWXe5O3l-geEaLKarXlMo4ObTnV-VlyA7hat-VxU,158
+rdddy/cli.py,sha256=GZ3QM3qtV6ok9zZ1ONm34z3IhSt1pvTFLmFMkUPMNmM,154
+rdddy-0.0.0.dist-info/METADATA,sha256=fNQKi4jd7HHF5NZZ5oazhPG4k8ziWQT0tNq-KmbJslE,5424
+rdddy-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rdddy-0.0.0.dist-info/entry_points.txt,sha256=dLZSP2KsxxECBeasmZlilNibA1CAbPPZFXUkPwJfTRk,39
+rdddy-0.0.0.dist-info/RECORD,,
