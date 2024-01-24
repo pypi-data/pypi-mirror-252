@@ -1,0 +1,10 @@
+wagtail_rss_feed_block/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_rss_feed_block/apps.py,sha256=lKz32yG-6iM-WbhTBsTRjTvawilvfp-qWfi2znlyPGA,174
+wagtail_rss_feed_block/blocks.py,sha256=7TU-0qqlVsPRwfnxzV53Rwr7RRqeX4urOTfGPJI_y-M,679
+wagtail_rss_feed_block/templates/wagtail_rss_feed_block/blocks/rss_feed_block.html,sha256=sWDT73YkecwGH3S-204dxQsqR55lSex_S0F1OTflAtQ,1121
+wagtail_rss_feed_block/templatetags/rss_feed_tags.py,sha256=Q_d7GetAsb6miX7SZdf5B63FJFD0856iRWeZyhOkv-Y,923
+wagtail_rss_feed_block-0.1.0.dist-info/LICENSE,sha256=VEnda62HoNb23ZEFZ4kSBG5OGioE-zNOkgUpYZcDRN4,1473
+wagtail_rss_feed_block-0.1.0.dist-info/METADATA,sha256=BkyEA4oxA_Cyr24hrhxmvMeIqN-sDkuoMVq4Poza1Kc,2272
+wagtail_rss_feed_block-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wagtail_rss_feed_block-0.1.0.dist-info/top_level.txt,sha256=eqzok3J-6yYTi3EZjaIirPicdrHHIkgqj0xlNkQNM6s,23
+wagtail_rss_feed_block-0.1.0.dist-info/RECORD,,
