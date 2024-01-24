@@ -1,0 +1,175 @@
+[tool.poetry]
+name = "libpdf"
+version = "0.1.0"
+description = "Extract structured data from PDFs."
+authors = [
+    "Marco Heinemann <marco.heinemann@useblocks.com>",
+]
+maintainers = [
+    "Jui-Wen Chen <jui-wen.chen@useblocks.com>",
+    "Haiyang Zhang <haiyang.zhang@useblocks.com>",
+]
+license = 'MIT'
+readme = 'README.rst'
+homepage = 'http://pypi.python.org/pypi/libpdf'
+repository = 'http://github.com/useblocks/libpdf'
+documentation = 'http://libpdf.readthedocs.io/en/latest'
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Topic :: Software Development',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Text Processing',
+    'Topic :: Utilities',
+]
+include = [
+    'deps/*'
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+chardet = "^4"
+click = "^8"
+PyYAML = "^6"
+"ruamel.yaml" = "^0.17"
+
+# optional deps for progress bars
+tqdm = { version = "^4.50.0", optional = true }
+colorama = { version = "^0.4.4", optional = true }
+
+# dependencies needed by pdfminer.six and pdfplumber which are deliverd as wheels in the deps folder
+# the libs were patched and no upstream PR has been raised yet
+# see [tool.poetry.dev-dependencies] for the forked libraries
+pycryptodome = "^3.9.9"
+sortedcontainers = "^2.3.0"
+pillow = "~9.0.1"  # cannot go higher because of this bug https://github.com/jsvine/pdfplumber/discussions/637
+unicodecsv = "^0.14.1"
+wand = "^0.6.5"
+
+# optional deps for docs, needed to make RTD work with pyproject.toml
+# see https://github.com/readthedocs/readthedocs.org/issues/4912#issuecomment-664002569
+sphinx = { version = "*", optional = true }
+sphinx_rtd_theme = { version = "*", optional = true }
+sphinxcontrib-plantuml = { version = "*", optional = true }
+
+[tool.poetry.extras]
+tqdm = ["tqdm"]
+colorama = ["colorama"]
+docs = ["sphinx", "sphinx_rtd_theme", "sphinxcontrib-plantuml"]
+
+[tool.poetry.dev-dependencies]
+# forked libraries;
+# they must be dev deps so make them invisible to PyPI and the egg/wheel requires section
+# 'poetry install' installs those by default, so the Git deps are actually used instead of the wheels in the deps
+# folder; see also libpdf/_import_forks.py
+pdfplumber = { git = "https://github.com/useblocks/pdfplumber.git" }
+"pdfminer.six" = {git = "https://github.com/useblocks/pdfminer.six", rev = "develop"}
+
+# testing
+pytest = "^7"
+pytest-cov = "*"
+tox = "*"
+pytest-xdist = "*"  # parallelisation
+
+# linting, formatting
+ruff = "^0.1.13"
+
+# docs
+sphinx = "*"
+sphinx_rtd_theme = "*"
+sphinxcontrib-plantuml = "*"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    ".venv",
+]
+
+# use Black's default
+line-length = 88
+
+# Assume Python 3.11.
+target-version = "py38"
+
+[tool.ruff.lint]
+# concept: select all rules by default and ignore unwanted (maybe just per file)
+# this comes at a cost: new added rules are applied automatically, so a CI that
+# runs green today might fail tomorow in case ruff gets updated
+# (which brings more good than bad)
+# TODO ENABLE NEXT LINE
+select = ["ALL"]
+# select = [] # commented out (don't want to fix all issues with this PR)
+ignore = [
+    "COM812", # may conflict with Ruff formatter
+    "D107",   # undocumented-public-init - commonly the docstring provides no helpful information
+    "D203",   # D203 and D211 are mutually exclusive: https://github.com/PyCQA/pydocstyle/issues/141
+    "D212",   # D212 and D213 are mutually exclusive: https://stackoverflow.com/a/45990465
+    "FIX002", # line-contains-todo - TODOs are considered helpful
+    "ISC001", # may conflict with Ruff formatter
+    "TD003",  # missing-todo-link - no big processes for us
+    "ANN101", # missing-type-self - infer typing is simple for this library
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = [
+    "D400",   # ends-in-period - dangerous to use (ruff may confuse summary line and content)
+    "ERA001", # commented-out-code - commented code is commonly there for a reason
+]
+
+[tool.ruff.lint.pylint]
+max-args = 8
+
+[tool.ruff.lint.flake8-annotations]
+mypy-init-return = true  # no init return type needed if at least one arg is annotated
+
+[tool.ruff.mccabe]
+max-complexity = 20
+
+[tool.ruff.per-file-ignores]
+# "docs/conf.py" = ["E402"]
+"**/__init__.py" = [
+    "D104",
+] # Missing docstring in public package - not needed for inits
+"tests/**/*.py" = [
+    "S101", # Use of `assert` detected
+]
+
+[tool.poetry.scripts]
+libpdf = 'libpdf.core:main_cli'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
