@@ -1,0 +1,15 @@
+dknovautils/__init__.py,sha256=HO2RJyrduxYWMRjG0ZEkcRVq3gigOilwsudvSpIs6-E,348
+dknovautils/commons.py,sha256=b-Ut3BsG49_4qDHrEhLT2ULQDawwEOPd5NSmLSeTfQ8,3163
+dknovautils/dk_imports.py,sha256=HHr9Me3579p2cF2uQxthUq2JZ06Tgd_9kk-vdXhciNI,773
+dknovautils/dk_lang_etc_util.py,sha256=rcmmVW0P5dRncTR65K5wlqwJgbN4JXIaUNRW-IzSpUY,6777
+dknovautils/dkat.py,sha256=k2bzNtdfReg3WEIxI4Kv---_yqMz19EQH_iHVJ849NM,13726
+dknovautils/dkfiles.py,sha256=w0YiSpAYSXWdojXwkjI9sWBcNccSXusYmC3T4pm0pww,2978
+dknovautils/dkipy.py,sha256=PurFN2CmdE2XqUAqyew2cl_yScc5hSGiaew9Dhh2e6w,1355
+dknovautils/dkprocess.py,sha256=Reg0jhfGG96jByHRGO0Ybkc_VyqXM4HrRdgTuTjpl5w,3364
+dknovautils/example.py,sha256=qmqkycbmkrNVfLeB9O3YswRIel_cAgmZ9spHUmEfOBA,605
+dknovautils/myadd.py,sha256=dUJyt20WEBPAX04OxpcdQkLGR2k0Dl46TysmKtu3LNY,213
+dknovautils/mysubtract.py,sha256=5S5bJyShlO9FZsoS2oanq_YXIHmBRRj2UDqdWrMOQ5w,238
+dknovautils-0.2.0.dist-info/METADATA,sha256=SZOsh1ea-GaFA2hI_5triCyZzD3jy8gwCJUpUytWslQ,1487
+dknovautils-0.2.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+dknovautils-0.2.0.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dknovautils-0.2.0.dist-info/RECORD,,
