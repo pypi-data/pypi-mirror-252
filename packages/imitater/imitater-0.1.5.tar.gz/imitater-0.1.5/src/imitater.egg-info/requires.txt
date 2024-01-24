@@ -1,0 +1,4 @@
+numpy
+sse-starlette
+transformers>=4.34.0
+vllm>=0.2.6
