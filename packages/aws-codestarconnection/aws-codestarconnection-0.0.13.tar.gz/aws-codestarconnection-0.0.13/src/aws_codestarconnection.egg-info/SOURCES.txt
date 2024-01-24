@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/aws_codestarconnection/__init__.py
+src/aws_codestarconnection/py.typed
+src/aws_codestarconnection.egg-info/PKG-INFO
+src/aws_codestarconnection.egg-info/SOURCES.txt
+src/aws_codestarconnection.egg-info/dependency_links.txt
+src/aws_codestarconnection.egg-info/requires.txt
+src/aws_codestarconnection.egg-info/top_level.txt
+src/aws_codestarconnection/_jsii/__init__.py
+src/aws_codestarconnection/_jsii/aws-codestarconnection@0.0.13.jsii.tgz
