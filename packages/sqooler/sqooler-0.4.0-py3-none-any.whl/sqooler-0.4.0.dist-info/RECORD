@@ -1,0 +1,9 @@
+sqooler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqooler/schemes.py,sha256=sXjA3uxYolyeVAxjZCsY3zTUndTUID5xmg2FscmOHZg,8872
+sqooler/spoolers.py,sha256=twhCpHpwMazL1T1gbfY6r_wcdmi1_Q6FoY_EKqviVAQ,25451
+sqooler/storage_providers.py,sha256=9XuD0begP_XlN-bsdCKCmwfGNDRoOWkayd034auTNMw,64298
+sqooler/utils.py,sha256=X8qiOxmsZcBNvjxRI7n0u7G-dBG59Q3fXmuYGgC8Ozg,4789
+sqooler-0.4.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+sqooler-0.4.0.dist-info/METADATA,sha256=VuU-nsoi2NkgiaRw8wBWNmz-h7E5krio3bn47Vm0fLA,4879
+sqooler-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sqooler-0.4.0.dist-info/RECORD,,
