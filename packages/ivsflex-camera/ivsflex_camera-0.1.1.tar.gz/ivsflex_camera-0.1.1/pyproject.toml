@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ivsflex-camera"
+version = "0.1.1"
+description = ""
+authors = [
+    "Anatol Dechauveron <a.dechauveron@ivsoftware.fr>",
+    "Alexy Riche <a.riche@ivsoftware.fr>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+opencv-contrib-python = "^4.8.1.78"
+opencv-python = "^4.8.1.78"
+pillow = "^10.0.1"
+flask = "^3.0.0"
+flask-cors = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
