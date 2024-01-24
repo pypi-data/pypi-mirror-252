@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+datascraping_article.egg-info/PKG-INFO
+datascraping_article.egg-info/SOURCES.txt
+datascraping_article.egg-info/dependency_links.txt
+datascraping_article.egg-info/requires.txt
+datascraping_article.egg-info/top_level.txt
+drivers/__init__.py
+drivers/setting_driver.py
+scrapers/__init__.py
+scrapers/scraping_script.py
+tests/__init__.py
+tests/test_data_science_central.py
