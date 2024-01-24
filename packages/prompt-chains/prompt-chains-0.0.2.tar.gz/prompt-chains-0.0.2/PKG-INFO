@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: prompt-chains
+Version: 0.0.2
+Summary: ds-prompt-chains
+Home-page: https://github.com/iuiu34/litchain
+Author: llm
+Author-email: ds-mkt@llm.com
+License: COPYRIGHT
+Keywords: ds-prompt-chains
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fire
+Requires-Dist: ds-mkt-utils-bq
+
+# prompt chains
+![](https://img.shields.io/badge/version-v0.0.2-blue.svg)
+![](https://img.shields.io/badge/python-3.9-blue.svg)
+[![Docs](https://img.shields.io/badge/docs-confluence-013A97)]()
+![](https://img.shields.io/badge/dev-orange.svg)
+
+
+
+Description.
+
+
+
+## Getting Started
+Install with pip:
+
+
+```sh
+pip install prompt-chains
+```
+
+or from source
+```sh
+pip install -r requirements.txt
+pip install -e .
+```
+
+## Authors
+
+*iuiu* 
+
+## License
+
+This project is property of *iuiu*

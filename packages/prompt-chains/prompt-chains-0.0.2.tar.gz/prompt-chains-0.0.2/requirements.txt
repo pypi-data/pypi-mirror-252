@@ -1,0 +1,5 @@
+# Global dependencies of the project
+fire
+
+# llm dependencies
+ds-mkt-utils-bq
