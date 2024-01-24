@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+topsis-anadya-102103021/102103021.py
+topsis-anadya-102103021/__init__.py
+topsis_anadya_102103021.egg-info/PKG-INFO
+topsis_anadya_102103021.egg-info/SOURCES.txt
+topsis_anadya_102103021.egg-info/dependency_links.txt
+topsis_anadya_102103021.egg-info/requires.txt
+topsis_anadya_102103021.egg-info/top_level.txt
