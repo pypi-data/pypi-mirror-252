@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ops-py-generate-pyproject"
+description = "Generate needed pyproject files to use with setuptools"
+license = {file = "license.txt"}
+dynamic = ["version", "readme", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = {attr = "generate_pyproject.__version__"}
+readme = {file = "", content-type = "text/markdown"}
+dependencies = {file = [""]}
