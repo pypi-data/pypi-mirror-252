@@ -1,0 +1,8 @@
+setup.py
+mosamatic.egg-info/PKG-INFO
+mosamatic.egg-info/SOURCES.txt
+mosamatic.egg-info/dependency_links.txt
+mosamatic.egg-info/entry_points.txt
+mosamatic.egg-info/not-zip-safe
+mosamatic.egg-info/requires.txt
+mosamatic.egg-info/top_level.txt
