@@ -1,0 +1,3 @@
+[console_scripts]
+myboxkit=myboxkit.__main__:main
+
