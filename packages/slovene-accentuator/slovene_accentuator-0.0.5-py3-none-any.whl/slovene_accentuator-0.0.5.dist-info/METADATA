@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: slovene-accentuator
+Version: 0.0.5
+Summary: slovene accentuator
+Home-page: UNKNOWN
+Author: Peter Pisljar
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.0, <3.12
+License-File: LICENSE
+Requires-Dist: tensorflow (~=2.9.0)
+
+# slovene_accentuator
+Accentuator for Slovene words.
+
+
