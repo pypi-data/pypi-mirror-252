@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: django-paddle-billing
+Version: 0.1.1
+Project-URL: Documentation, https://github.com/websideproject/django-paddle-billing#readme
+Project-URL: Issues, https://github.com/websideproject/django-paddle-billing/issues
+Project-URL: Source, https://github.com/websideproject/django-paddle-billing
+Author-email: Benjamin Gervan <benjamin@websideproject.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: django>=3.2
+Description-Content-Type: text/markdown
+
+# Django Paddle Billing
+
+This package provides an integration between Django, a high-level Python Web framework, and Paddle Billing, a platform for selling digital products and services.
+
+## Features
+
+- Easy setup and configuration
+- Seamless integration with Django projects
+- Comprehensive handling of Paddle Billing features, including webhooks
+
+## Installation
+
+To install the package, use pip:
+
+```bash
+pip install django-paddle-billing
+```
+
+## Usage
+
+After installing the package, add it to your `INSTALLED_APPS` in your Django settings:
+
+```python
+INSTALLED_APPS = [
+    ...
+    'django_paddle_billing',
+    ...
+]
+```
+
+Then, run migrations:
+
+```bash
+python manage.py migrate
+```
+
+You can now use the package in your Django project.
+
+## Testing
+
+This package uses pytest for testing. To run the tests, use the following command:
+
+```bash
+pytest
+```
+
+## Contributing
+
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
