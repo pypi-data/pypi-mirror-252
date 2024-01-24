@@ -1,0 +1,14 @@
+peid/VERSION.txt,sha256=-VJsShQDijvpzExKq2UCu3hTEeBaCBF3aCRP5ckYOBY,7
+peid/__info__.py,sha256=QxzDXICG9yhlIrv2mq8JYYgp_vsqg_ap47jPmlny5ao,560
+peid/__init__.py,sha256=yhTKYGk_RVxvMtNgdVILgH27Pxliirjt_tFRw5dlA9M,2861
+peid/__main__.py,sha256=eC5bVqiqEAkXjhiLn14N4ZHKNlhccoeOh5YEUn1FmBk,8207
+peid/pe.py,sha256=aAjv7ZTLddNcB4JcCRWBKgOMT4-5ZZQdpv52vVx-iBA,3449
+peid/db/.userdb_txt.json,sha256=LTkBabm1Fiagv4dX_WpeCD319GyyzDBBkKhFYjJbRRE,2267682
+peid/db/__init__.py,sha256=xtBGs0Spy3_1aR5cSAU9bKySoXlYoUXDZR21jJ0uY6k,9927
+peid/db/userdb.txt,sha256=tXy3cypcilW_ZEN8YrWE3pA4y8CMuRQupFklMvARLGw,1557966
+peid-2.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+peid-2.1.1.dist-info/METADATA,sha256=_1xzXZNC22_VHVheIdBqY5_azVNWFY64dHaQ28eJcAg,45509
+peid-2.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+peid-2.1.1.dist-info/entry_points.txt,sha256=gzKny_CTWOscCBvsS2dc0D3dF7NUkoUeopV1NXZ7EmQ,108
+peid-2.1.1.dist-info/top_level.txt,sha256=cA3pNbmHLxn_L7_EE4iV6fZtmPk2wxBCe35SGixji7E,5
+peid-2.1.1.dist-info/RECORD,,
