@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: fancylogging
+Version: 0.0.1
+Summary: A fancy logging library for python using rich and python-json-logger
+Project-URL: Homepage, https://github.com/tempookian/fancylogging
+Project-URL: Bug Tracker, https://github.com/tempookian/fancylogging/issues
+Author-email: tempookian <tempookian@gmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: python-json-logger
+Requires-Dist: python-json-logger<3.0.0,>=2.0.7
+Requires-Dist: rich<14.0.0,>=13.7.0
+Description-Content-Type: text/x-rst
+
+Fancy Logging
+====================
+
+Introduction
+------------
+
+This Python module provides an advanced logging setup using `rich` for
+console logging and `python-json-logger` for file logging. It allows for
+detailed and formatted logging, ideal for applications requiring high-level
+logging capabilities.
+
+Installation
+------------
+This module requires the following dependencies:
+
+* `rich <https://pypi.org/project/rich/>`_
+* `python-json-logger <https://pypi.org/project/python-json-logger/>`_
+
+Usage
+-----
+Import `setup_fancy_logging` from the module and configure your logging setup
+by specifying parameters like `base_logger_name`, `console_log_level`,
+`file_log_level`, `log_file_path`, and others.
+
+Example:
+
+.. code-block:: python3
+
+  from fancy_logging import setup_fancy_logging
+
+  setup_fancy_logging(
+      base_logger_name="myapp",
+      console_log_level="DEBUG",
+      file_log_level="DEBUG",
+      log_file_path="myapp.log",
+  )
