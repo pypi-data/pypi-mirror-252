@@ -1,0 +1,7 @@
+pandas
+PyGithub
+click
+GitPython
+Faker
+typer
+typing_extensions==4.7.1
