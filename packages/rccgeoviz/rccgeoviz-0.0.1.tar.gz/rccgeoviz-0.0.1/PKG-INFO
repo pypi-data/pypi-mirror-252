@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: rccgeoviz
+Version: 0.0.1
+Summary: EDA tool for spatio-temporal data
+Author-email: Jonas Nielsen <bobthebuilder.chfi@gmail.com>, Daniel Millward <dfmillward02@gmail.com>, Stephen Tveten  <stveten@student.byu.edu>
+Project-URL: Documentation, https://rincon-geoviz.readthedocs.io/en/latest/index.html
+Project-URL: Homepage, https://github.com/rrc-byu/ds-capstone-2023-2024
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: panel
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# ds-capstone-2023-2024
+
+Contains code, config, and experiment results for the RRC-BYU Data Science Capstone project
+
+For documentation on how to use GeoViz, go to our [readthedocs page](https://rincon-geoviz.readthedocs.io/en/latest/index.html).
+
+The Project code using pandas profiling can be found here:
+https://github.com/rrc-byu/rincon_geoviz_tool
+
+## Product Instructions:
+To use our tool, download the necessary packages:
+```
+ydata-profiling
+geopandas
+seaborn
+ipywidgets
+voila
+```
+### Voila
+Our tool uses [Voila](https://github.com/voila-dashboards/voila), which turns Jupyter notebook output into a web application. 
+
+### Usage
+Before running voila on the command line, make sure that the code you want to use can run on your own machine with no errors. After you know the code runs with no errors, you can use voila by running the following in the commmand line while inside the directory with your code. We will be running [display_voila.ipynb](/docs/display_voila.ipynb) found in our codebase. 
+```
+voila display_voila.ipynb
+```
+This will open up a localhost tab in your default browser with the output of the jupyter notebook. 
+
+https://github.com/rrc-byu/ds-capstone-2023-2024/assets/89949191/dd2b6689-8125-4aee-8f7e-4582d736c8b7
+
+You can also run voila while inside of a directory and you can choose which python notebooks you want to run by simply running the command. 
+```
+voila
+```
+
+
+### Streamlit
+Our data visualization tool uses [Streamlit](https://github.com/streamlit/streamlit), which runs a python script file and displays the outputs in a web browser.
+
+### Usage
+You can use streamlit by running the following in the commmand line while inside the directory with your code. We will be running [streamlit_tool.py](/docs/streamlit/streamlit_tool.py) found in our codebase. 
+```
+streamlit run streamlit_tool.py
+```
+
+This will open up a localhost tab in your default browser with the output of the script file. 
+
+https://github.com/rrc-byu/ds-capstone-2023-2024/assets/89949191/f6a802be-de38-4670-a6d0-4b854853c400
+
+
+
