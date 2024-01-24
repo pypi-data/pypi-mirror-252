@@ -1,0 +1,14 @@
+alt_lk/__init__.py,sha256=Cb_VHToWq5aFFIrKS_IuaE9_6QNdpPT2h_9MUbxh8wU,103
+alt_lk/alt/Alt.py,sha256=FQJ1QAotLcyuI7w1gy132Ihu7GWQT05zprzOGgcIEHQ,1824
+alt_lk/alt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alt_lk/core/BBox.py,sha256=FtAwPgefp3E4YIY0u99c0m_y1ikhsZFUz-iZn5B9WEk,381
+alt_lk/core/LatLng.py,sha256=bvUDqdsvyjEe5o-L5W3QjJyBV9txkHD28XMPqYbyL0Q,652
+alt_lk/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils_future/Example.py,sha256=fSeObOWgsDp4xaJKVFhU5FYBj3eEqyxYeGGFBvP1G3g,598
+utils_future/File.py,sha256=UZ_mB6zkf6Ehm1DP_JiXq8y5wPX74u0MzBWM_emUSFk,388
+utils_future/SparseArrayFile.py,sha256=mV0gWgGyhcPdZUtwjtfzy4TzXgldGFbGF6j5Egb9TcA,650
+utils_future/__init__.py,sha256=IyIet16cryaP0W5bvLq_hZepcibTgOPtcmCTL-Q6Svg,133
+alt_lk_nuuuwan-1.0.0.dist-info/METADATA,sha256=FJ-CtV6n0_TImve5TOwbt406E8yKSuyEybprdrOhl78,605
+alt_lk_nuuuwan-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+alt_lk_nuuuwan-1.0.0.dist-info/top_level.txt,sha256=S_-jLrYP2HewHkyoRCEVGfZP3rxO6QwIxKtFgJers40,20
+alt_lk_nuuuwan-1.0.0.dist-info/RECORD,,
