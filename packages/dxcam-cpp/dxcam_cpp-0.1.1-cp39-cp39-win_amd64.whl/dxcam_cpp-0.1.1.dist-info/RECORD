@@ -1,0 +1,11 @@
+dxcam_cpp/DXCam.dll,sha256=mTdamWxquI6NpgWFJ1hYR2CUbknLxt14sUiQAXc0LiM,248320
+dxcam_cpp/__init__.py,sha256=EK_kZlOeNZFy1O8W5JbBMesdYdHApUy331SNbiQIJgk,26
+dxcam_cpp/dxcam_cpp.cp39-win_amd64.pyd,sha256=n79aSuY9_gmhHkvBjWc8rpA8_dedPGWHZNmdwzq91EE,353792
+dxcam_cpp/dxcam_cpp.pyi,sha256=LR5v1vceLpOOsBVQYIPkmE0CQRkkdGbf7zAVdjAFlqo,1083
+dxcam_cpp/opencv_world490.dll,sha256=P9QmdEFGr-XHFJEgaL09D7osf2bS1Ew0x1C9EMVdV5U,65035264
+dxcam_cpp/python39.dll,sha256=Mkljo5uP0EX_Y0uzJxUI2rUJi02Z6F52SNC0fDLchcM,4527096
+dxcam_cpp-0.1.1.dist-info/LICENSE,sha256=bpeZfiONtxA2g6zHnjSbsvVY1XXNM7__TuHQiLZ7r6E,1087
+dxcam_cpp-0.1.1.dist-info/METADATA,sha256=jb7oYUeI73O7bVs8sbs9oMj2WrE5DTCzXlLfXLMYAA8,2745
+dxcam_cpp-0.1.1.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+dxcam_cpp-0.1.1.dist-info/top_level.txt,sha256=zOoll5t3IzEtgGarevqrA9s0wV4Mxd_6W8LIcNSquAg,10
+dxcam_cpp-0.1.1.dist-info/RECORD,,
