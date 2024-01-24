@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+django_log_inspector.egg-info/PKG-INFO
+django_log_inspector.egg-info/SOURCES.txt
+django_log_inspector.egg-info/dependency_links.txt
+django_log_inspector.egg-info/top_level.txt
+log_inspector/__init__.py
+log_inspector/admin.py
+log_inspector/apps.py
+log_inspector/models.py
+log_inspector/settings.py
+log_inspector/tests.py
+log_inspector/urls.py
+log_inspector/utils.py
+log_inspector/views.py
+log_inspector/migrations/__init__.py
