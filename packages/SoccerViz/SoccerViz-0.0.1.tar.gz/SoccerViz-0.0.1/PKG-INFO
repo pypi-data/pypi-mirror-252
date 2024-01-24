@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SoccerViz
+Version: 0.0.1
+Summary: A Package to allow analyzing soccer event data easily
+Author: Athal Akbar
+Author-email: athalkhan13@gmail.com
+License: Unlicensed
+Keywords: python,soccer,soccer analysis,passing network
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8,<=3.12.1
+Description-Content-Type: text/markdown
