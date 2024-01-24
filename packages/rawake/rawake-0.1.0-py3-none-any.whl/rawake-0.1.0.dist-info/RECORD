@@ -1,0 +1,14 @@
+rawake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rawake/__main__.py,sha256=pB6I9v-kisL_8BBjy05kQEd0uuQxOi8srEng6WOZzqw,72
+rawake/__version__.py,sha256=DG5mVrP7OuDVwLywyI4pSz_Yxw1RtQ2zJIhFMOJVdi4,199
+rawake/cli.py,sha256=AQGUxot_taGktjqSZgCF25pVtt8l80ldyhlmWs1rNRo,2131
+rawake/computer_controller.py,sha256=B-B5k8jfFRzJTBfp6QxYvw3fuewsJJpgM_M2mLTtpbU,1617
+rawake/config.py,sha256=sd45gl2TlGqplCmW1bRkCzcNN8m8Vn1oUsrv_HNZ2zw,2817
+rawake/logging.py,sha256=WFbu372D0nkm01mIfHAnbVylmr0GV0f1J4lbvw8sOBQ,888
+rawake/main.py,sha256=1eB33nNSHihXAWfU0RlrYwvJZPbMsypfFk6vw4BqaB0,134
+rawake-0.1.0.dist-info/LICENSE,sha256=5cM17FcOlNULXN9APsloDh2lhYTuksHKYMTtCAdqQJU,1075
+rawake-0.1.0.dist-info/METADATA,sha256=7Ju1eyVoDX-zL-nxsnaTy6290gc6BEGKxdZ_FIeXrfw,1231
+rawake-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rawake-0.1.0.dist-info/entry_points.txt,sha256=Q_HutYpTnHcUZmasnQ82nBXn2wnGl3bVi3kb_jPgGAE,44
+rawake-0.1.0.dist-info/top_level.txt,sha256=6OmuUKFvHZLuaetzKrHcuTnvsJqyyB5AzbRN91mkc3A,7
+rawake-0.1.0.dist-info/RECORD,,

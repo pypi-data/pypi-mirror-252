@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: rawake
+Version: 0.1.0
+Summary: Remote computer awake (rawake)
+Author-email: "Jorge F. Sánchez" <rawake@jfsanchez.net>
+License: MIT
+Project-URL: Homepage, https://github.com/jfsanchez91/rawake
+Project-URL: Bug Tracker, https://github.com/jfsanchez91/rawake/issues
+Keywords: rawake,remote,awake
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wakeonlan
+Requires-Dist: paramiko
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# Remote Computer Awake (rawake)
+
+## Development
+
+### Python dev environment:
+
+- Create new Python virtual environment:
+  ```bash
+  pyenv virtualenv 3.11 rawake
+  ```
+- Activate the virtualenv:
+  ```bash
+  pyenv activate rawake
+  ```
+
+- Install dev and test dependencies:
+    - `pip install .[dev]`
+    - `pip install .[test]`
+- Install git pre-commit hooks
+    - `pre-commit install`
+    - `pre-commit autoupdate`
+
+### Running the tests:
+  ```bash
+  pytest .
+  ```
