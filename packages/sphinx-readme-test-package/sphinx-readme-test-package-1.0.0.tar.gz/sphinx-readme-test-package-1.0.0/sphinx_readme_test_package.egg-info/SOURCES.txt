@@ -1,0 +1,8 @@
+setup.py
+sphinx_readme_test_package.egg-info/PKG-INFO
+sphinx_readme_test_package.egg-info/SOURCES.txt
+sphinx_readme_test_package.egg-info/dependency_links.txt
+sphinx_readme_test_package.egg-info/requires.txt
+sphinx_readme_test_package.egg-info/top_level.txt
+test_package/__init__.py
+test_package/test_module.py
