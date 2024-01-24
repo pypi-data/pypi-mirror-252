@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: exacb
+Version: 0.0.1
+Summary: A helper script for the exacb project
+Project-URL: Documentation, https://github.com/FZJ-JSC/exacb
+Project-URL: Issues, https://github.com/FZJ-JSC/exacb/issues
+Project-URL: Source, https://github.com/FZJ-JSC/exacb
+Author-email: Jayesh Badwaik <j.badwaik@fz-juelich.de>
+License-Expression: Apache-2.0
+Requires-Dist: click
+Description-Content-Type: text/markdown
+
+<!--
+- SPDX-License-Identifier: Apache-2.0
+- Copyright (C) 2024 Jayesh Badwaik <j.badwaik@fz-juelich.de>
+-->
+
+# exacb
+
+Helper scripts for the [exacb](https://go.fzj.de/exacb) project.
