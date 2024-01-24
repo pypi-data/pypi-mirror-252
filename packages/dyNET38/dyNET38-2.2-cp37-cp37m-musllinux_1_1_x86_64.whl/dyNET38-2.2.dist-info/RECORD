@@ -1,0 +1,11 @@
+dynet_config.py,sha256=dmD7hbiYN48l_jah900LFjXDR07doVdGMisscNytfdo,2199
+dynet.py,sha256=lI0u8ENo8kQvWhrproxLVOJRk43mseAlPOjlUYlSAfg,942
+dynet_viz.py,sha256=BPrts76QTRjlWjfjAkT1khC1jbnQy7QAcc_WmyslGvM,39058
+_dynet.cpython-37m-x86_64-linux-gnu.so,sha256=kbe8YqrWN5yqB5cU7Zvp2JknVLJ2NmEdGJ9vw60YQ2U,16076481
+dyNET38.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+dyNET38.libs/libdynet-eeec0b6f.so,sha256=y9EygAUu-XUq57nul7mhuo2DnT4VBtiJS-sQ5w8ryZA,7885089
+dyNET38.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+dyNET38-2.2.dist-info/RECORD,,
+dyNET38-2.2.dist-info/WHEEL,sha256=QGwzqIMEvnYqYYAko0h2jgmqtukc_RGm8b-7TFBr9CA,112
+dyNET38-2.2.dist-info/METADATA,sha256=_QjRVry3iGlrTglhU1u9gLXIs_QT2aq-bt7JHgDA1ic,6543
+dyNET38-2.2.dist-info/top_level.txt,sha256=qzwV1OnBtJvZ8TkaGZ24zFfXU8Sjkwmt1xe7jqpxDpw,36
