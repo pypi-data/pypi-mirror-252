@@ -1,0 +1,2 @@
+[datasette]
+proxy_url = datasette_proxy_url
