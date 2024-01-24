@@ -1,0 +1,37 @@
+[build-system]
+requires = [
+    "setuptools>=64.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "multiparlog"
+version = "1.0.9"
+authors = [
+  { name="Ralf Kotulla", email="ralf.kotulla@gmail.com" },
+]
+description = "A flexible multi-processing safe logging tool"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rkotulla/multiparallel_logging"
+"Bug Tracker" = "https://github.com/rkotulla/multiparallel_logging/issues"
+
+
+# dependencies = []
+
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ['src']
+
