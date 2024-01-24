@@ -1,0 +1,11 @@
+carculator_two_wheeler/__init__.py,sha256=qQfG8RbQOvBQnx4-yHeCZcAtqSUFppwvWqjQVKCllz4,547
+carculator_two_wheeler/inventory.py,sha256=8oHMkwIS8hPmL7u1BZtBrassQa6z_seTQrwLEoOhCQc,15657
+carculator_two_wheeler/model.py,sha256=WUccUU7xJSjExE-XXgYfaLAXOpa57rgBA-AK0GCtXaE,18422
+carculator_two_wheeler/two_wheelers_input_parameters.py,sha256=l7LBodJvlcfZGaa9vA_DuM1FoK2kebRVIXo9-Mc7NY8,895
+carculator_two_wheeler/data/default_parameters.json,sha256=6ZezwJLShX8F_JgfNxZ8dAWhuV_3NV-EeI3nqPNBPqk,814503
+carculator_two_wheeler/data/extra_parameters.json,sha256=dtpdGGRjwCG6cJa-8N8PozpCz1HtY2IP_4ZSxey-g6U,9302
+carculator_two_wheeler-0.1.0.dev0.dist-info/LICENSE,sha256=KBsbUd8wLsEzd254TFVv_RoWPD5WvXDVaVbjiZoVTr8,1501
+carculator_two_wheeler-0.1.0.dev0.dist-info/METADATA,sha256=ZyfGJyBvtuegqeq9dAMycrrDCwIr8nXM3DynZCrPoXY,6935
+carculator_two_wheeler-0.1.0.dev0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+carculator_two_wheeler-0.1.0.dev0.dist-info/top_level.txt,sha256=cHee-kgZMgiOJBnuF62nd0zzAhFZodevQMi4bS7PkXE,23
+carculator_two_wheeler-0.1.0.dev0.dist-info/RECORD,,
