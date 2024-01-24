@@ -1,0 +1,5 @@
+Jinja2==3.0.1
+
+[test]
+pytest==7.4.3
+mock==5.1.0
