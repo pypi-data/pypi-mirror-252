@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+record/__init__.py
+record/__main__.py
+record/cache.py
+record/data.py
+record/exceptions.py
+record/storage.py
+record_oc.egg-info/PKG-INFO
+record_oc.egg-info/SOURCES.txt
+record_oc.egg-info/dependency_links.txt
+record_oc.egg-info/requires.txt
+record_oc.egg-info/top_level.txt
+record_oc.egg-info/zip-safe
