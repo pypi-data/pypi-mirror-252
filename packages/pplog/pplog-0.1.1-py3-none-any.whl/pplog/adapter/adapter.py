@@ -1,0 +1,1 @@
+""" Splunk adapter module """

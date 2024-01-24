@@ -1,0 +1,9 @@
+# PPLOG CONFIGURATION FILE
+
+
+some_key:
+  log_check_class: CheckDataFrameCount
+  arguments:
+    comparison_function: greater_than
+    comparison_value: 100
+
