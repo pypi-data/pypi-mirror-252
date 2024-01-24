@@ -1,0 +1,15 @@
+bagel/__init__.py,sha256=FMxNMhJ-EVSDfdHIzXmyfp87t13D_vVTMG6MwzP98jY,625
+bagel/config.py,sha256=6uonIN_cXREH3BdO8M9CpnJhTBf2z7tXD5Ln6B-eJcY,5965
+bagel/errors.py,sha256=Z0bebJBMxvOwrDtPsgnybGyhUuZXzYuUh6rsxoebT1M,683
+bagel/api/Cluster.py,sha256=0UvOUw-3Op4AjM5GRsw4J9ztxbCiKdz23JoxS1yD84g,15024
+bagel/api/__init__.py,sha256=zhszNwdav-sL1YAe5_EWRjGAZOA98OLHSQXE8r8b9lQ,11879
+bagel/api/fastapi.py,sha256=r9CXE6Om84FvgQR1dObv-yifwzUyuvbvL8a8mGh54Ec,14880
+bagel/api/types.py,sha256=RUZ-BNdYXMaQfllbXsQGTtDR2eckad4awrrYXXvsjdQ,11570
+bagel/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/client_test.py,sha256=lHsib3pjQTt5Hs4iTQV8DdkUitKjm7qK6oDr-ZzOo2k,2723
+test/opt_test.py,sha256=4ytra9T1QlcnC3f_tNnCXCY5lDqlM2CUJu0-OAVG-kU,2332
+betabageldb-0.2.42.dist-info/METADATA,sha256=iOubMx8ZkDzmToqaQjpREshduB1sWtmuncHZFHw6EyA,6748
+betabageldb-0.2.42.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+betabageldb-0.2.42.dist-info/top_level.txt,sha256=s6P2qojaWAKHs2NF3owLtlX_fi5N7_8Cgk56Hvanefo,11
+betabageldb-0.2.42.dist-info/RECORD,,
