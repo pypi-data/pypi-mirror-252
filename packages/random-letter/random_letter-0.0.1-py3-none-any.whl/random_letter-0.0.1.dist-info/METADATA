@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: random-letter
+Version: 0.0.1
+Summary: A python package that allows to get a random letter
+Project-URL: Homepage, https://github.com/timotheeMM/random-letter
+Project-URL: Issues, https://github.com/timotheeMM/random-letter/issues
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# random-letter
