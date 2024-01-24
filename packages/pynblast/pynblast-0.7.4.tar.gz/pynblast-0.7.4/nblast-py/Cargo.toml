@@ -1,0 +1,21 @@
+[package]
+authors = ["Chris L. Barnes <chrislloydbarnes@gmail.com>"]
+name = "pynblast"
+version = "0.7.4"
+description = "Python bindings for nblast-rs library"
+readme = "README.rst"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module", "abi3-py39"] }
+neurarbor = "0.2.0"
+nblast = { path = "../nblast-rs", version = "^0.7.1", features = ["parallel", "kiddo"] }
+numpy = "0.20"
+
+[lib]
+name = "pynblast"
+crate-type = ["cdylib"]
+
+[package.metadata.release]
+publish = false
+tag-prefix = "py-"

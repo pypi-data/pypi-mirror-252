@@ -1,0 +1,45 @@
+[project]
+name = "pynblast"
+description = "NBLAST neuron morphology comparison in python (over rust)"
+readme = "README.rst"
+requires-python = ">=3.9"
+authors = [
+  {name = "Chris L. Barnes", email = "chrislloydbarnes@gmail.com"}
+]
+license = { text = "MIT" }
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "numpy >= 1.22.4"
+]
+
+[project.urls]
+homepage = "https://pypi.org/project/pynblast/"
+documentation = "https://pynblast.readthedocs.io/"
+repository = "https://github.com/clbarnes/nblast-rs/nblast-py"
+
+[build-system]
+requires = ["maturin>=1.4", "oldest-supported-numpy"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "python"
+manifest-path = "nblast-py/Cargo.toml"
+
+[tool.mypy]
+ignore_missing_imports = true
+plugins = ["numpy.typing.mypy_plugin"]
+python_version = "3.9"
+
+[tool.ruff]
+extend-exclude = ["docs"]
+target-version = "py39"
