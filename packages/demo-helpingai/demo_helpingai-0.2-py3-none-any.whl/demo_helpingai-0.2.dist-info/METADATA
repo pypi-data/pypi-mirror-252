@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: demo-helpingai
+Version: 0.2
+Summary: HelpingAI most advance AI chatbot.
+Home-page: https://github.com/HelpingAI/HelpingAI1
+Author: OEvortex
+License: GPLv3
+Project-URL: Source, https://github.com/HelpingAI/HelpingAI1
+Keywords: artificial-intelligence,chatbot,HelpingAI
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: curl-cffi
+
+# demo-helpingai
+
+HelpingAI most advance AI chatbot
+
+## Getting Started:
+
+    python -m pip install -U demo-helpingai
+
+Join my [Discord server](https://discord.gg/hf99YvT8qX ) for live chat, support, or if you have any issues with this package.
+
+
+## Support this repository:
+
+-   🎉 **Join my Discord Server:** Chat with me and others. [Join here](https://discord.gg/hf99YvT8qX ):
+
+[![DiscordWidget](https://discordapp.com/api/guilds/1076407776403787796/widget.png?style=banner2)](https://discord.gg/hf99YvT8qX)
+
+**Async:**
+
+```python
+
+from demo_helpingai import ChatBot
+
+bot = ChatBot()
+bot.query_chat()
+bot.close()
+
+```
+
