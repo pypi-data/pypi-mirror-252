@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+record_redis/__init__.py
+record_redis/__main__.py
+record_redis/cache.py
+record_redis.egg-info/PKG-INFO
+record_redis.egg-info/SOURCES.txt
+record_redis.egg-info/dependency_links.txt
+record_redis.egg-info/requires.txt
+record_redis.egg-info/top_level.txt
+record_redis.egg-info/zip-safe
