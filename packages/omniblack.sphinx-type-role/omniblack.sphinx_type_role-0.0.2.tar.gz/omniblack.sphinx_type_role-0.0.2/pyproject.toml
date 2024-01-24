@@ -1,0 +1,33 @@
+[project]
+name="omniblack.sphinx_type_role"
+version="0.0.2"
+
+dependencies = [
+    "docutils",
+    "sphinx",
+]
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/lib/sphinx_type_role"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[tool.setuptools]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools ~= 68.2",
+]

@@ -1,0 +1,9 @@
+LICENSE.txt
+pyproject.toml
+src/omniblack.sphinx_type_role.egg-info/PKG-INFO
+src/omniblack.sphinx_type_role.egg-info/SOURCES.txt
+src/omniblack.sphinx_type_role.egg-info/dependency_links.txt
+src/omniblack.sphinx_type_role.egg-info/requires.txt
+src/omniblack.sphinx_type_role.egg-info/top_level.txt
+src/omniblack/sphinx_type_role/__init__.py
+src/omniblack/sphinx_type_role/resolve_type.py
