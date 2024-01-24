@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+blockanalyst.egg-info/PKG-INFO
+blockanalyst.egg-info/SOURCES.txt
+blockanalyst.egg-info/dependency_links.txt
+blockanalyst.egg-info/top_level.txt
