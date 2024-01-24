@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+topsis-aryan-102103073/102103073.py
+topsis-aryan-102103073/__init__.py
+topsis_aryan_102103073.egg-info/PKG-INFO
+topsis_aryan_102103073.egg-info/SOURCES.txt
+topsis_aryan_102103073.egg-info/dependency_links.txt
+topsis_aryan_102103073.egg-info/requires.txt
+topsis_aryan_102103073.egg-info/top_level.txt
