@@ -1,0 +1,4 @@
+salure-helpers-salureconnect>=1
+requests<=3,>=2
+paramiko<=4,>=2
+pysftp<1,>0.2
