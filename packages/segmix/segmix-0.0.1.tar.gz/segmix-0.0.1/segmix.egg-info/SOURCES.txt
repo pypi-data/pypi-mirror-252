@@ -1,0 +1,12 @@
+README.md
+setup.py
+segmix/__init__.py
+segmix/cli.py
+segmix/main.py
+segmix.egg-info/PKG-INFO
+segmix.egg-info/SOURCES.txt
+segmix.egg-info/dependency_links.txt
+segmix.egg-info/entry_points.txt
+segmix.egg-info/not-zip-safe
+segmix.egg-info/requires.txt
+segmix.egg-info/top_level.txt
