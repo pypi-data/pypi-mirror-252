@@ -1,0 +1,9 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/connect.py,sha256=wLbwojaUPseH7Z0EZ8uq1lc_xqMUIGb-BncUQVlKo3g,2411
+test/manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/manager/test_manager.py,sha256=XqJViy5X1ePGMWDeyeWQPtfx0vXiMHIunV0qq1yWNp4,1306
+sqla_x-1.0.dist-info/LICENSE,sha256=tThaYd1cvqoDpWlggy2GjiW_9vJ54uyh-S6t6vgG8xw,1080
+sqla_x-1.0.dist-info/METADATA,sha256=inxz_iRrtt1ug3SMpEWOwHMUa2Xndq0IsZvnWWiPO1U,752
+sqla_x-1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+sqla_x-1.0.dist-info/top_level.txt,sha256=8sobtsfpB9Btr-Roflefznazfk6Tt2BQItpS5szCb9I,5
+sqla_x-1.0.dist-info/RECORD,,
