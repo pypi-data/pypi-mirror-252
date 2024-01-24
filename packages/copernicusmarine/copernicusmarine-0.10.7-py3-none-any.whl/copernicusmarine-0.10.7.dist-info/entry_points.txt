@@ -1,0 +1,3 @@
+[console_scripts]
+copernicusmarine=copernicus_marine.command_line_interface.copernicusmarine:command_line_interface
+
