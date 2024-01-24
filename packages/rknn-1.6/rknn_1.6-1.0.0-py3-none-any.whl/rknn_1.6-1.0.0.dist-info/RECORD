@@ -1,0 +1,7 @@
+rknn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rknn/api/__init__.py,sha256=NC6Y7gglyaOVHD6u3FxeAzwnnvYauyS2VD5K-dt1Vk0,30
+rknn/api/rknn.py,sha256=aSNixdjbHvh7eDSLGEXyUM0y5BiQlrAPMKdL1zWmnSM,21281
+rknn_1.6-1.0.0.dist-info/METADATA,sha256=Kb5vHDC3ctP1Ws90mn11TUPhTTh1mdzSyAq3u1ErEhQ,281
+rknn_1.6-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rknn_1.6-1.0.0.dist-info/top_level.txt,sha256=-FVh5VjhkHROL1wJ1JFiPLN67CBRK3HNY5QyIJuEClA,5
+rknn_1.6-1.0.0.dist-info/RECORD,,
