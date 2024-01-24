@@ -1,0 +1,14 @@
+pynwb
+nwbinspector
+neo
+numpy
+pendulum
+pandas
+pyyaml
+opencv-python-headless
+Pillow
+imageio
+av
+fastcrc
+scipy
+dict-plus
