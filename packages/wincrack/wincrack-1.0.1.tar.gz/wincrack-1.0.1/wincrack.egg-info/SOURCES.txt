@@ -1,0 +1,9 @@
+setup.py
+WinCrack/__init__.py
+WinCrack/__main__.py
+wincrack.egg-info/PKG-INFO
+wincrack.egg-info/SOURCES.txt
+wincrack.egg-info/dependency_links.txt
+wincrack.egg-info/entry_points.txt
+wincrack.egg-info/requires.txt
+wincrack.egg-info/top_level.txt
