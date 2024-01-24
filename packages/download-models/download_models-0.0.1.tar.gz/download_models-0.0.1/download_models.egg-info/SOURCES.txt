@@ -1,0 +1,10 @@
+README.md
+setup.py
+download_models.egg-info/PKG-INFO
+download_models.egg-info/SOURCES.txt
+download_models.egg-info/dependency_links.txt
+download_models.egg-info/entry_points.txt
+download_models.egg-info/requires.txt
+download_models.egg-info/top_level.txt
+src/__init__.py
+src/download.py
