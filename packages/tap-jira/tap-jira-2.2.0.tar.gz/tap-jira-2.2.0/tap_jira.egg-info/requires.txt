@@ -1,0 +1,8 @@
+singer-python==6.0.0
+requests==2.31.0
+dateparser
+
+[dev]
+pylint
+nose2
+ipdb
