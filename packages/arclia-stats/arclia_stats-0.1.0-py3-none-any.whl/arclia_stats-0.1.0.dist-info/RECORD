@@ -1,0 +1,5 @@
+arclia/stats/__init__.py,sha256=XYVA2c4seZsfhFfO1w_sZGrm7m4qe5GHtV90_0u0bGM,53
+arclia/stats/_quantiles.py,sha256=4c4BhGG45uHIHK2GnXBml0GgVn7EPVmf2qVIdFDK_b0,2058
+arclia_stats-0.1.0.dist-info/METADATA,sha256=P60YKc4lqwNKZpqEQsgJ5yKPGJdiE2UxPboE1l_7FdM,1079
+arclia_stats-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+arclia_stats-0.1.0.dist-info/RECORD,,
