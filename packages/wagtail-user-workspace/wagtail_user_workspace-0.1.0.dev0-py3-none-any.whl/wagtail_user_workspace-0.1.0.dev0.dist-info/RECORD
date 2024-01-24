@@ -1,0 +1,14 @@
+wagtail_user_workspace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_user_workspace/apps.py,sha256=zTVvtk11-PJN0pRTp-32ImE65ixJx2zTGlEKvoRxYCc,539
+wagtail_user_workspace/checks.py,sha256=mOzNyvkkjoC_ras5ibbECK6rtzHrP3xMuma_5ma1ubo,1241
+wagtail_user_workspace/handlers.py,sha256=JWBYggXKuEj023d1yCY_rigeQwaRrjU78SM2IzqSDHE,1856
+wagtail_user_workspace/models.py,sha256=r4ig1s_eMgGOMCjqzLMFZkfziNZ6LM_nn2TiPRLlugE,338
+wagtail_user_workspace/settings.py,sha256=ITS2w6DmNOoo5f0pNd0kygkS3ZHyhYWV3rrMNVpapJ0,842
+wagtail_user_workspace/utils.py,sha256=mPPOGSR6PxvUdSHpFBDl9dfJnOKfZ9xpgOZpZvg8q_U,177
+wagtail_user_workspace/management/commands/createuserworkspaces.py,sha256=7mVknJbMfrVlN0K8Rn1zM0WSOmMN3qNv7JRHSBeUghU,1032
+wagtail_user_workspace/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_user_workspace-0.1.0.dev0.dist-info/LICENSE,sha256=VEnda62HoNb23ZEFZ4kSBG5OGioE-zNOkgUpYZcDRN4,1473
+wagtail_user_workspace-0.1.0.dev0.dist-info/METADATA,sha256=aOXP2yRRBaQKcD7NjcWsClLaj5nxVd4nR7v2-c5d5zE,3396
+wagtail_user_workspace-0.1.0.dev0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wagtail_user_workspace-0.1.0.dev0.dist-info/top_level.txt,sha256=vnQGgMXrgapCVXTI_XiWNCYLC33ZGVls1EHKsOgivrs,23
+wagtail_user_workspace-0.1.0.dev0.dist-info/RECORD,,
