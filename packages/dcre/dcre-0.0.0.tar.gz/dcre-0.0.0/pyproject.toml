@@ -1,0 +1,14 @@
+[project]
+authors = [{name = "Hauke Schulz"}]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11"
+]
+description = "Python package for CRE processing"
+readme = "README.md"
+name = "dcre"
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+[tool.setuptools.packages]
+find = {}
