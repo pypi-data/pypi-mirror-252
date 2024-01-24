@@ -1,0 +1,16 @@
+CONTRIBUTORS.md,sha256=oE-aOH6XK8X_I4gui9X6jClld0ivDPdop6p1rvdvMWc,1566
+taxmyphage/__init__.py,sha256=62Lo5_WMGAm4RhXjT6vYoRBDsInWzr37EquAfi5MA48,198
+taxmyphage/__main__.py,sha256=OyUJQJQ_GL8B4UkrfwNu6QDEtsF1qiNU9yrJ87xfQE8,3845
+taxmyphage/actions.py,sha256=cz5R6TxKFjVCCuvdutoX5i9RuVRAkRPGZ__i4sqDvWw,10259
+taxmyphage/classify.py,sha256=TxFJHGXLy-Kf_r1gyJrX8Uyf0agX3SXYL6GEbSZUmOw,32431
+taxmyphage/cli.py,sha256=qU1zvImIK8JEDFz1Dqp5xIsmImevfdBz95p1xJA81kQ,11034
+taxmyphage/download_check.py,sha256=D6JumJlrPJ5Qcr_KszuBpYz7RS9c-I_YG2TnxtqLz84,9182
+taxmyphage/handle_files.py,sha256=MMsRe--qv_V7DQnQtvAHYM-0HJPrdiUMvR-KHHA2nPk,3433
+taxmyphage/plot.py,sha256=aoPFQJvDAtGUy--mQBpVb4rjR-UzmfoB4rkQKBkNOVo,4692
+taxmyphage/pmv.py,sha256=TEGkmr9M0wVngKzJnRc4zNhHqVJzud5CtcDw2BK5Fxo,13213
+taxmyphage/utils.py,sha256=0BGwiBNmaZi2OVGTnn006Aq1JbCUc3uRu5aOuLcMtGI,3830
+taxmyphage-0.2.7.dist-info/LICENSE,sha256=BLmrAY2tvwrjyN-AJm8MCN3MHDKRLKm69yGvWV0UEBw,1114
+taxmyphage-0.2.7.dist-info/METADATA,sha256=Fm7mDIJPgavBXGH-WrJGogsl84IrG9PxTuLjFWhxdUo,20567
+taxmyphage-0.2.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+taxmyphage-0.2.7.dist-info/entry_points.txt,sha256=owJiRb0R1aLoIRLd7dNmeNW_JpNmDoo5u8h3mCmRfJA,55
+taxmyphage-0.2.7.dist-info/RECORD,,
