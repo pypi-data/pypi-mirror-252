@@ -1,0 +1,4 @@
+[console_scripts]
+test_civrealm = civrealm.random_game:main
+update_freeciv_web_docker = civrealm.freeciv.build_server:update_docker_image
+update_javascript_for_clean_screenshot = civrealm.freeciv.build_server:update_javascript_for_clean_screenshot
