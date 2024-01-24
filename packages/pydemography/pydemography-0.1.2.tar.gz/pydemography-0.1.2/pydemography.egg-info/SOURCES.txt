@@ -1,0 +1,9 @@
+README.md
+setup.py
+pydemography/__init__.py
+pydemography/main.py
+pydemography.egg-info/PKG-INFO
+pydemography.egg-info/SOURCES.txt
+pydemography.egg-info/dependency_links.txt
+pydemography.egg-info/requires.txt
+pydemography.egg-info/top_level.txt
