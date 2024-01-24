@@ -1,0 +1,36 @@
+{% load wagtailcore_tags wagtailimages_tags rss_feed_tags %}
+
+<h3>{{ self.title }}</h3>
+
+<ul>
+  {% with rss_content=self.rss_url|get_feed_data %}
+    {% for entry in rss_content.entries %}
+      {% if forloop.counter <= self.max_entries %}
+        <li>
+          {% if self.display_title %}
+            <a href="{{ entry.link }}">{{ entry.title }}</a>
+          {% endif %}
+
+          {% if self.display_author %}
+            <p>
+              {% if entry.media_thumbnail %}
+                {% for thumbnail in entry.media_thumbnail %}
+                  <img src="{{ thumbnail.url }}" style="width: {{ thumbnail.width }}px; height: {{ thumbnail.height }}px" />
+                {% endfor %}
+              {% endif %}
+              Author: {{ entry.author }}
+            </p>
+          {% endif %}
+
+          {% if self.display_date %}
+            <p>Date: {{ entry|get_feed_datetime|date:"Y-m-d" }}</p>
+          {% endif %}
+          
+          {% if self.display_content %}
+            {{ entry.summary|bleach_sanitize|safe }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endwith %}
+</ul>

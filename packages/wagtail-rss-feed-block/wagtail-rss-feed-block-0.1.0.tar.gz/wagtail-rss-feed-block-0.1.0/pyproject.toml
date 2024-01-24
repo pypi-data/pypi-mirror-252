@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wagtail-rss-feed-block"
+version = "0.1.0"
+authors = [
+  { name="LESPROJEKT-SLUŽBY s.r.o.", email="support@hub4everybody.com" },
+]
+description = "Content block displaying RSS feed for Wagtail CMS"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    'Intended Audience :: Developers',
+    "Operating System :: OS Independent",
+]
+dependencies = [    
+    "bleach",
+    "feedparser",
+    "wagtail >= 4.2.4",    
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LESPROJEKT/wagtail-rss-feed-block"
+"Bug Tracker" = "https://github.com/LESPROJEKT/wagtail-rss-feed-block/issues"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH[TAGNUM]"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+

@@ -1,0 +1,3 @@
+bleach
+feedparser
+wagtail>=4.2.4
