@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+backwards_regression/__init__.py
+backwards_regression/linear_model.py
+backwards_regression/logistic_model.py
+backwards_regression.egg-info/PKG-INFO
+backwards_regression.egg-info/SOURCES.txt
+backwards_regression.egg-info/dependency_links.txt
+backwards_regression.egg-info/entry_points.txt
+backwards_regression.egg-info/requires.txt
+backwards_regression.egg-info/top_level.txt
