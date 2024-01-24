@@ -1,0 +1,5 @@
+hicrep
+numpy
+matplotlib
+seaborn
+colorcet

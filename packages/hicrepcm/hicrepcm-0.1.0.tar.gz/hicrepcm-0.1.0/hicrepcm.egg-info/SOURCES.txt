@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+hicrepcm/__init__.py
+hicrepcm/hicrepcm.py
+hicrepcm.egg-info/PKG-INFO
+hicrepcm.egg-info/SOURCES.txt
+hicrepcm.egg-info/dependency_links.txt
+hicrepcm.egg-info/entry_points.txt
+hicrepcm.egg-info/requires.txt
+hicrepcm.egg-info/top_level.txt
