@@ -1,0 +1,8 @@
+setup.py
+rknn/__init__.py
+rknn/api/__init__.py
+rknn/api/rknn.py
+rknn_1.6.egg-info/PKG-INFO
+rknn_1.6.egg-info/SOURCES.txt
+rknn_1.6.egg-info/dependency_links.txt
+rknn_1.6.egg-info/top_level.txt
