@@ -1,0 +1,12 @@
+zetch-0.0.3.dist-info/METADATA,sha256=h4HW-5LXVGK-4o9c9WyG6qd6snQQBXS46Hmrdss98uk,2595
+zetch-0.0.3.dist-info/WHEEL,sha256=g3Oim2w2JglPOCSZ2qxbxLpiKI9-aGyU_5snRsWxzkk,106
+zetch-0.0.3.dist-info/entry_points.txt,sha256=ddW50jd9uDESRgEec1XrE47jBEZPP-ryGehn_HAcWi0,38
+zetch-0.0.3.dist-info/license_files/LICENSE.md,sha256=0sEuU501eVe5UKVKVHfDqfh70rPucHvnpNt62vWqzCs,1070
+zetch-0.0.3.dist-info/license_files/LICENSE.zetch.md,sha256=vrAj4IEF1M73NMjM1hedRKKVy5ENFhHaKEosKjCn4YA,34
+zetch/__init__.pyi,sha256=ybb0_9oih55nKKW2bEHvMCTSLfkicKnQ5zrBCraoy3k,1115
+zetch/__init__.py,sha256=A5LPSJGQQ0dhZuJi6i98ouoGWbb3vg0Du2kWlrylQP8,460
+zetch/utils.pyi,sha256=TYNbLpjXy618lBOfagmGj9Gz7AQ0avWoCN9k0mh2hpc,186
+zetch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zetch/rust-toolchain.toml,sha256=5cwFRfIyvegHvZOUwkMzItHNLPQrBgzqsqxzKbyc2qI,31
+zetch/_rs.cpython-310-darwin.so,sha256=mxo6dp9u6fPwOs50GF_3pT3ywaek5f-qqvkWRHWfgp8,9963856
+zetch-0.0.3.dist-info/RECORD,,
