@@ -1,0 +1,10 @@
+README.md
+setup.py
+tabcell_score/__init__.py
+tabcell_score/main.py
+tabcell_score/utils.py
+tabcell_score.egg-info/PKG-INFO
+tabcell_score.egg-info/SOURCES.txt
+tabcell_score.egg-info/dependency_links.txt
+tabcell_score.egg-info/requires.txt
+tabcell_score.egg-info/top_level.txt
