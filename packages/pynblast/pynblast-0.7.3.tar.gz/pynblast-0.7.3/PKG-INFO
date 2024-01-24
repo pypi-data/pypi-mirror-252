@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pynblast
+Version: 0.7.3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy >=1.22.4
+Summary: NBLAST neuron morphology comparison in python (over rust)
+Author: Chris L. Barnes <chrislloydbarnes@gmail.com>
+Author-email: "Chris L. Barnes" <chrislloydbarnes@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst; charset=UTF-8
+Project-URL: homepage, https://pypi.org/project/pynblast/
+Project-URL: documentation, https://pynblast.readthedocs.io/
+Project-URL: repository, https://github.com/clbarnes/nblast-rs/nblast-py
+
+=========
+nblast-rs
+=========
+
+Python bindings for nblast rust library.
+
+* Free software: GPL3 license
+
+Building
+--------
+
+If wheels are not available for your platform, they can be built locally if you have a `recent stable rust compiler <https://www.rust-lang.org/tools/install>`_.
+
+::
+
+    git clone https://github.com/clbarnes/nblast-rs
+    cd nblast-rs/nblast-py
+    pip install .
+
