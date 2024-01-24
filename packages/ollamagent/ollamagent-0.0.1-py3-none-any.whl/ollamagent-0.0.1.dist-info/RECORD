@@ -1,0 +1,9 @@
+ollamagent/__init__.py,sha256=y5IzTmCzUFAjr1EQM1aEeIZgYurUSos3FoU5RTZSpUk,196
+ollamagent/client.py,sha256=d1HIVIReeygY43Z0pCVxLETXw98-dchbdhxPHtI9tks,5590
+ollamagent/llm.py,sha256=l-7roiATxndTCG0sl4pqIjdfWPV3N1iGD_O49Rd9udg,2623
+ollamagent/proxy.py,sha256=TGvDmbOriSY0bzBSGC8MkSsa56obo3vVyNGAJ636ym8,1101
+ollamagent/tool.py,sha256=EMNgNkVaiVcosECrAI6tRzxUbNipCZjmpxUapEk5Mak,775
+ollamagent/utils.py,sha256=VMTX0gBHh-nj4HX0spED8ug03hsITwRs_J7USSmrcII,4665
+ollamagent-0.0.1.dist-info/METADATA,sha256=Mg1DK8PhLotHm_HTHPq-1jVPNZxI4Ox-nblRzwcvN84,648
+ollamagent-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ollamagent-0.0.1.dist-info/RECORD,,
