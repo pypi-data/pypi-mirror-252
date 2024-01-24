@@ -1,0 +1,5 @@
+setup.py
+cilib.egg-info/PKG-INFO
+cilib.egg-info/SOURCES.txt
+cilib.egg-info/dependency_links.txt
+cilib.egg-info/top_level.txt
