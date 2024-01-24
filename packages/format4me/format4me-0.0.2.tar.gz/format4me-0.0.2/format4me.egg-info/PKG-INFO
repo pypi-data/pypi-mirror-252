@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: format4me
+Version: 0.0.2
+Summary: A library to easily format the response coming from your bard or any other ai agent .
+Home-page: 
+Author: Sahil Pradhan
+Author-email: sahilpradhan411@gmail.com
+License: MIT
+Keywords: responseFormatter,chatgpt,bard
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is library to format your bard  or other ai agent response. 
+
+How to use? : https://github.com/s2ahil/format4me
+
+
+Change Log
+==========
+
+0.0.1(23/1/2023)
+-----------------
+- First Release
+
+
+0.0.2(23/1/2023)
+-----------------
+- First Release
