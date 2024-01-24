@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torchrandom"
+version = "0.0.1"
+authors = [
+  { name="Thomas Viehmann", email="tv.code@beamnet.de" },
+]
+description = "Pseudo random numbers for PyTorch"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mathinf/torchrandom"
+Issues = "https://github.com/mathinf/torchrandom"
