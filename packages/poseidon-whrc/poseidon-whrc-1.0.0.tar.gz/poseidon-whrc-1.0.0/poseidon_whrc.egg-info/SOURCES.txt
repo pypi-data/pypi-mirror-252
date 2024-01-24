@@ -1,0 +1,5 @@
+setup.py
+poseidon_whrc.egg-info/PKG-INFO
+poseidon_whrc.egg-info/SOURCES.txt
+poseidon_whrc.egg-info/dependency_links.txt
+poseidon_whrc.egg-info/top_level.txt
