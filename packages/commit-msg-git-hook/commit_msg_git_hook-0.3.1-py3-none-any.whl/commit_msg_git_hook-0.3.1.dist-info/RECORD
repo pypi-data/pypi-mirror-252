@@ -1,0 +1,12 @@
+commit_msg_git_hook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commit_msg_git_hook/commit_msg.py,sha256=VQjYfAse3NIrkQlxamlxJYkj-Cj4nbC762K4KVGaHOQ,2553
+commit_msg_git_hook/scan_git.py,sha256=tw1lVx8MLU7qg2WMRTZ9Ob3OLjP3QYwm-KSy432CzmU,592
+commit_msg_git_hook/setup.py,sha256=AWROvOHzvxiwVgMUADztOuzhFOBeR-R70cY0Yy8Kmjg,2199
+commit_msg_git_hook/templates/commit-msg.config.json,sha256=snSKb6J_3xhnqbDVk44atReyBh5iBFV-KsfkuQJtt94,269
+commit_msg_git_hook/templates/darwin/commit-msg,sha256=d_spHjMwksZDAw8vCXKO78RjmUBPcmwghnjL9oQgvHg,83
+commit_msg_git_hook/templates/linux/commit-msg,sha256=d_spHjMwksZDAw8vCXKO78RjmUBPcmwghnjL9oQgvHg,83
+commit_msg_git_hook/templates/windows/commit-msg,sha256=KWHdXylL0_IB3VZNDnIVsLy-0CDqvMJH_FrXXMCf-Bk,82
+commit_msg_git_hook-0.3.1.dist-info/METADATA,sha256=Ze_RiDW6uTrl6O7UWi_GWh_qzwNNn2pk7qq0T_W_PNo,3149
+commit_msg_git_hook-0.3.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+commit_msg_git_hook-0.3.1.dist-info/licenses/LICENSE,sha256=7hIKDHSZ02TJ_SEvma-WS3qlBwO3K2AspXsEU-O4Xyg,1073
+commit_msg_git_hook-0.3.1.dist-info/RECORD,,
