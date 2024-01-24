@@ -1,0 +1,7 @@
+conventional_commits/__init__.py,sha256=VppuaqIGeinIjLe4bHGHVKZNUoSf_ICKFbf-mmWW1BU,49
+conventional_commits/message.py,sha256=GCn4jerT94uMuysw-Ncvo-QGDhCMdUAoliHLDVG9ShI,3421
+conventional_commits/parser.py,sha256=YF9uPWpJObO7HT8g8OW4LFZXBl_6eTuWq_OYvItTT34,7310
+ConventionalCommits-0.0.0.dev1.dist-info/METADATA,sha256=COW-imzwlxelFORxtQnj-2wEQ7AwwYuFB3YYovVCfRo,93
+ConventionalCommits-0.0.0.dev1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ConventionalCommits-0.0.0.dev1.dist-info/top_level.txt,sha256=EmOyJV4w1Ie4nwoJ3pLFzhf1kZ_Mu4IWHueP1o8Nnzk,21
+ConventionalCommits-0.0.0.dev1.dist-info/RECORD,,
