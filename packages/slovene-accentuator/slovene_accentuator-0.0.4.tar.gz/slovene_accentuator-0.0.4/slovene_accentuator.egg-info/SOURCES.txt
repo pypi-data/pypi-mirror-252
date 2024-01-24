@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+slovene_accentuator/__init__.py
+slovene_accentuator/accentuate.py
+slovene_accentuator/prepare_data.py
+slovene_accentuator.egg-info/PKG-INFO
+slovene_accentuator.egg-info/SOURCES.txt
+slovene_accentuator.egg-info/dependency_links.txt
+slovene_accentuator.egg-info/requires.txt
+slovene_accentuator.egg-info/top_level.txt
