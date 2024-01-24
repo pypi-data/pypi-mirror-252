@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: legopack
+Version: 0.1
+Author: Remi Prince
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: streamad
