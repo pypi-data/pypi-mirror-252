@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-pub-pypi"
+version = "0.1.0"
+description = "Testing pypi"
+authors = ["Woven <woven@wovencollab.com>"]
+readme = "README.md"
+documentation = "https://google.com"
+
+[tool.poetry.urls]
+"HomePage" = "https://google.com"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
