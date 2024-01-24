@@ -1,0 +1,12 @@
+actionman/__init__.py,sha256=lwE3zF0ZOMI-aISrGq4KaDbEx73TscMMLSh0BbyDRcA,63
+actionman/io.py,sha256=Iy4QlrXwwTMWzfFNnDd8om5t_QHCknVgV8fAvWHNQVc,8413
+actionman/log.py,sha256=uXBbAphbQJGPYHpuOBh5K9m4NW9Zw5ex6m4rolUZKo0,6108
+actionman/pprint.py,sha256=hOtAZVC0VNjDKh-riarflP_BSCNWYQkBcxxolL2x5Tc,3788
+actionman/shell.py,sha256=6nyzoHwi8NrH439m4KJX2B-KJWVtiFi_8HhOrrJXdhI,3568
+actionman/_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+actionman/_cli/pprint.py,sha256=gC02e9Gv9jo-yW3QJjtDTI9b14h9PtavnRnBHYSibKs,5388
+ActionMan-0.0.0.dev2.dist-info/METADATA,sha256=RXw4Z4UgQlAfX3-c9nb3fxaj7J1Cx-R2Q3tnPH3OTpk,107
+ActionMan-0.0.0.dev2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ActionMan-0.0.0.dev2.dist-info/entry_points.txt,sha256=Q86FbnO0zm19DGf5LCFs_hLhR3PIFM13PBs-hlDqtmQ,350
+ActionMan-0.0.0.dev2.dist-info/top_level.txt,sha256=TqdWS59Kxtk_RdV-2u1wwO2OX5_bycJb-CXVdLKbsas,10
+ActionMan-0.0.0.dev2.dist-info/RECORD,,
