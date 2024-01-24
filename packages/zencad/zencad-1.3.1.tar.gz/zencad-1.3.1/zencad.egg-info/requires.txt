@@ -1,0 +1,12 @@
+psutil
+numpy
+pillow
+evalcache>=1.14.0
+zenframe
+requests
+six
+
+[gui]
+PyQt5
+PyQt5-sip
+pyopengl
