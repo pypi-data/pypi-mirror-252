@@ -1,0 +1,9 @@
+README.md
+setup.py
+education_inquiry_package.egg-info/PKG-INFO
+education_inquiry_package.egg-info/SOURCES.txt
+education_inquiry_package.egg-info/dependency_links.txt
+education_inquiry_package.egg-info/requires.txt
+education_inquiry_package.egg-info/top_level.txt
+education_inquiry_template/__init__.py
+education_inquiry_template/education_inquiry_template.py
