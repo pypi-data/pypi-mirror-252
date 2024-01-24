@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: certbot-dns-synergy-wholesale
+Version: 1.0.0
+Summary: A synergy wholesale dns plugin for cerbot to authenticate and retrieve letsencrypt certificates
+Home-page: https://github.com/ALameLlama/certbot-dns-synergy-wholesale
+License: Apache-2.0
+Author: Nicholas Ciechanowski
+Author-email: nicholasaciechanowski@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: certbot (>=2.8.0,<3.0.0)
+Requires-Dist: zeep (>=4.2.1,<5.0.0)
+Project-URL: Repository, https://github.com/ALameLlama/certbot-dns-synergy-wholesale
+Description-Content-Type: text/markdown
+
+# certbot-dns-synergy-wholesale (This is WIP)
+A Synergy Wholesale DNS plugin for Cerbot to authenticate and retrieve Lets Encrypt certificates
+
+# TODO Update better docs and docker file.
+
+credentials.ini should look something like this, remember to whitelist the IP for the certbot trying to use the api.
+```
+dns_synergy_wholesale_reseller_id = 1
+dns_synergy_wholesale_api_key = abc123
+```
+
+basic usage:
+```
+certbot certonly \
+  --authenticator dns-synergy-wholesale \
+  --dns-synergy-wholesale-credentials /path/to/credentials.ini \
+  -d 'example.com' \
+  -d '*.example.com' \
+```
+
