@@ -1,0 +1,2 @@
+[console_scripts]
+topo_cicd_test = topo_cicd_test.run:run
