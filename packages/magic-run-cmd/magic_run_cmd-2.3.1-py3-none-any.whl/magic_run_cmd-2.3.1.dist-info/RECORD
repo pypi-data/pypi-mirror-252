@@ -1,0 +1,8 @@
+magic_cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_cmd/engine.py,sha256=YpPVB-A21ym9lKdECpQDCAIz1iRfK-Wsnr7MMp6ETYg,305
+magic_cmd/run_cmd.py,sha256=FqzR0jij4bcXm1OD8rULwqk8yM827OML_PKaX9UwyOc,4108
+magic_cmd/script.py,sha256=wKXCLMRUqvqFOu0FhSAWjZ_NvXC_A5VVi_ZadFvc0bI,2115
+magic_run_cmd-2.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+magic_run_cmd-2.3.1.dist-info/METADATA,sha256=7IkP-hFGkzQY119c3OeVHBS8aNlhWb8otJZhsYvfT7A,3043
+magic_run_cmd-2.3.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+magic_run_cmd-2.3.1.dist-info/RECORD,,
