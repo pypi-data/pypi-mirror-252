@@ -1,0 +1,6 @@
+dummy_pkg_for_tests_with_deps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dummy_pkg_for_tests_with_deps/shrubbery.py,sha256=dJx_jyh0tMBqMMzjwnTiQKo1-oPtPaqJl4dZKcHRrdA,202
+dummy_pkg_for_tests_with_deps-1.0.dist-info/METADATA,sha256=g49xC4DZ57wsHrFoa_ZzYkxBYLTmuVqXudmIdxscOE8,216
+dummy_pkg_for_tests_with_deps-1.0.dist-info/WHEEL,sha256=VYAwk8D_V6zmIA2XKK-k7Fem_KAtVk3hugaRru3yjGc,105
+dummy_pkg_for_tests_with_deps-1.0.dist-info/licenses/LICENSE,sha256=2HEfOBHJfmVwj6Jga4_fdhaaFYeLG7bPhhLKaCMLqa0,1072
+dummy_pkg_for_tests_with_deps-1.0.dist-info/RECORD,,
