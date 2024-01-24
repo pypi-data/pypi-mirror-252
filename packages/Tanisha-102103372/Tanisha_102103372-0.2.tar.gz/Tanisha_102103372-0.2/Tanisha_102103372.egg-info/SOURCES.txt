@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+Tanisha_102103372/__init__.py
+Tanisha_102103372.egg-info/PKG-INFO
+Tanisha_102103372.egg-info/SOURCES.txt
+Tanisha_102103372.egg-info/dependency_links.txt
+Tanisha_102103372.egg-info/top_level.txt
