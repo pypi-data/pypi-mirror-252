@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: webviewpy
+Version: 0.0.2
+Summary: ctypes binding of webview
+Author-email: HIllya51 <1871535768@qq.com>
+Project-URL: Homepage, https://github.com/HIllya51/webviewpy
+Project-URL: Repository, https://github.com/HIllya51/webviewpy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# webviewpy
+
+A tiny webview library for Python.
+
+Based on [webview](https://github.com/webview/webview)
+
+
+# Getting started
+
+### Install
+
+
+``` bash
+pip install webviewpy
+```
+
+### Additional operation for Linux or MacOS
+
+The runtime of webview for Linux or MacOS must build by yourself
+
+git clone [webview](https://github.com/webview/webview) and build the dynalib or so library
+
+copy the library file to webviewpy/platform/[linux or darwin]/[x86 or x64]
+
+### Usage
+
+[Build a webview based app](https://github.com/HIllya51/webviewpy/tree/main/test)
+
+[Embed a webview in you window like QWidget](https://github.com/HIllya51/webviewpy/blob/main/test/testpyqt.py)
