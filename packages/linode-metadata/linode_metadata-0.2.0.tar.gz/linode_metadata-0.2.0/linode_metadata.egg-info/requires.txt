@@ -1,0 +1,9 @@
+requests
+
+[dev]
+pytest
+black
+isort
+pylint
+autoflake
+Sphinx>=7.2.6
