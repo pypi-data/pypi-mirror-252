@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: myclippings
+Version: 0.0.5
+Summary: Parses My Clippings.txt
+Author-email: Belen Buccolo <belenbuccolo@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: amazon,clippings,kindle,kindle-clippings,parser
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: dateparser~=1.2
+Requires-Dist: ftfy~=6.1
+Description-Content-Type: text/markdown
+
+# myclippings
+
+---
+
+Converts `My Clippings.txt` file into a JSON format like below:
+
+```json
+[
+  "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+  "author": "Martin, Robert C.",
+  "clippings": [
+    {
+        "content_hash": "66698d9e",
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Martin, Robert C.",
+        "note_type": "highlight",
+        "location_start": 892,
+        "location_end": 893,
+        "date": "2022-10-12T12:20:59",
+        "content": "Leave the campground cleaner than you found it.5"
+    },
+    {
+        "content_hash": "f31e9873",
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Martin, Robert C.",
+        "note_type": "highlight",
+        "location_start": 783,
+        "location_end": 783,
+        "date": "2022-10-03T14:55:50",
+        "content": "Code, without tests, is not clean. No matter how elegant it is,"
+    }
+  ]
+]
+```
+
+Currently, it supports English and Spanish languages.
+
+## Usage
+
+As a CLI tool:
+
+```bash
+python3 -m myclippings.main "My Clippings.txt"
+```
+
+As a module:
+
+```bash
+pip install myclippings
+```
+
+```python
+from myclippings import clippings_to_json
+
+books = clippings_to_json("My Clippings.txt")
+```

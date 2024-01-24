@@ -1,0 +1,1 @@
+pytest tests/test_parsers.py --color=yes
