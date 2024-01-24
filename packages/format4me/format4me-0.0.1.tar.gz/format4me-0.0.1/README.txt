@@ -1,0 +1,1 @@
+This is library to format your bard  or other ai agent response. 
