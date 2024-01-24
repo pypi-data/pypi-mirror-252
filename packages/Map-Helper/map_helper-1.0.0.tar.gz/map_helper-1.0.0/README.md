@@ -1,0 +1,28 @@
+Welcome to Map_Helper  
+If Scripts are in PATH, just launch the cmd prompt and 'run-Maps'  
+Else, 'python -m MapHelper.MapHelper'  
+Print outs will save in current directory.  
+  
+Print commands:  
+'DDD' or 'd': Prints out sites in format to be copied and pasted into DDD components/upload sheet.  
+	-Will prompt for unique file name, will save as "DDD_Names.xlsx" if left blank  
+  
+'KML' or 'k': Prints kml file with points that can be opened/saved in Google Earth.  
+	-Will prompt for unique file name, will save as "Earth.kml" if left blank.  
+	-'Color solid, random, or by FIRM?'  
+		-Accepts 'random'/'r' or 'FIRM'/'f', blank will default to solid coloring.  
+		-'random'- colors pins randomly and distinctly. Will reuse colors if more than 20 sites.  
+		-'FIRM'- colors pins to match groups printed to FIRMette pages.  
+		-blank/other- colors all pins yellow
+	-'Lat/Lon in label (y/n)?'  
+		-'y'- includes GPS coordinates in Site label.  
+		-blank/other- does not include GPS coordinates in Site label.  
+'FIRM' or 'f': Prints complete FIRMette packet in PDF.  
+	-'Add labels to FIRMette masks (y/n)?'  
+		-'y'- mark sites with site labels and include Applicant/WO/DI label in top left of maps.  
+			-Will prompt for 'Lat/Lon in label?', same as KML prompt.  
+		-blank/other- print with only dots marking sites.  
+	-'Applicant Name/WO#/DI#/DR/State Abr:'  
+		-Enter corresponding information for Map label, file save name.  
+		-Will save with title format "DR0000-ST - Applicant Name - WO#00000 - DI#0000000 - FIRMette.pdf"  
+'QUIT' or 'q': End program and remove Input file.

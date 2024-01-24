@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Map_Helper"
+version = "1.0.0"
+authors = [
+  { name="Jacob Tilstra", email="tilstra15@gmail.com" },
+]
+description = "A Tool for Helping with Flood Maps"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    'pywin32',
+    'path.py',
+    'pandas',
+    'haversine',
+    'matplotlib',
+    'selenium',
+    'urllib3',
+    'simplekml',
+    'pymupdf'
+]
+
+[project.scripts]
+run-Maps = "Map_Helper.MapHelper:main"
