@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sealion-conda
+Version: 0.0.1.post2
+Summary: Sealion-Conda, Created by OpenSealion Organization, a tool to clone, pkg and create a conda environment between machines
+Home-page: https://github.com/opensealion/sealion-conda
+Author: arkmon
+Author-email: 
+License: Apache License 2.0
+Keywords: sealion-conda,sealionconda,sc
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+
+# TODOs
+1. [done] sealion-conda clone -b /path/to/conda/base -e /path/to/local/conda/to/be/cloned/env new_conda_env
+2. sealion-conda pkg -b /path/to/conda/base -e /path/to/local/conda/to/be/cloned/env /path/to/save/pkgs.zip
+3. sealion-conda create -f /path/to/save/pkgs.zip new_conda_env
+4. check if exists: conda, conda env, new conda env
