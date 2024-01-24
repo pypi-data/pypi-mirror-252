@@ -1,0 +1,112 @@
+# Nextplus Python SDK
+
+## Introduction
+
+The Nextplus Python SDK is a powerful and user-friendly package that allows developers to interact with the Nextplus API. With this SDK, developers can easily perform CRUD operations on tables and records within the Nextplus system.
+
+## Features
+
+- User authentication with Nextplus API
+- Retrieve, create, update, and delete records in tables
+- Customizable queries with filtering options
+
+## Requirements
+
+- Python 3.x
+- requests library
+
+## Installation
+
+To install the Nextplus Python SDK, you can use the following command:
+
+```bash
+pip install nextplus
+```
+
+## Usage
+
+### Setting Up the Client
+
+First, you need to set up the NextplusClient with your Nextplus server URL, username or email, and password. These can either be passed directly or set as environment variables.
+
+```python
+from nextplus import NextplusClient
+
+client = NextplusClient(
+    server_url='https://your.nextplus.server.url',
+    email='your@email.com',
+    password='yourpassword'
+)
+```
+
+### Working with Tables
+
+You can perform operations on tables such as finding a specific table or fetching a list of all tables.
+
+#### Find Tables
+
+```python
+tables = client.Tables.find({'where': {'name': 'YourTableName'}})
+print(tables)
+```
+
+Working with Records in a Table
+You can create, update, find, and delete records in a specific table.
+
+#### Insert a Record
+
+```python
+table = client.Table('your_table_id')
+record = {
+"column1": "value1",
+"column2": "value2"
+}
+result = table.insert(record)
+print(f"Record inserted with ID: {result['_id']}")
+```
+
+#### Update a Record
+
+```python
+updated_record = {
+"_id": "record_id",
+"column1": "new_value1"
+}
+update_result = table.update(updated_record)
+print(update_result)
+```
+
+#### Find Records
+
+```python
+rows = table.find({'where': {'column1': 'value1'}})
+print(rows)
+```
+
+#### Delete a Record
+
+```python
+table.remove("record_id")
+```
+
+## Development
+
+### Building a new version
+
+- Update version code in `nextplus/client.py` and `setup.py`
+- Run build command
+  ```bash
+   python setup.py sdist
+  ```
+
+### Release new version
+
+- Make sure twine is installed
+  ```bash
+  pip install twine
+  ```
+- Then, upload your package
+  ```bash
+  twine upload dist/*
+  ```
+  When username & password prompt, enter `__token__` as username and token as password
