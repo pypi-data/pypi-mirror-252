@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: alt_lk-nuuuwan
+Version: 1.0.0
+Summary: Altitude information for Sri Lanka
+Home-page: https://github.com/nuuuwan/alt_lk
+Author: Nuwan I. Senaratna
+Author-email: nuuuwan@gmail.com
+Project-URL: Bug Tracker, https://github.com/nuuuwan/alt_lk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: rasterio
+Requires-Dist: scipy
+Requires-Dist: utils-nuuuwan
