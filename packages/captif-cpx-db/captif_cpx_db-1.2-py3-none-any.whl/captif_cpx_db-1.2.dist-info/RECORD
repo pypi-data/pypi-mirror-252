@@ -1,0 +1,13 @@
+captif_cpx_db/__init__.py,sha256=Js0Y7yRt9zoJ9vruXVnNpVFQIBk0rJGZebVfWEZE7-Y,1664
+captif_cpx_db/alembic.ini,sha256=WsOKA-v3-b5R_kDFx4soODYmE1Unr1ddpqnMPRsa9UM,3552
+captif_cpx_db/migrations/README,sha256=heMzebYwlGhnE8_4CWJ4LS74WoEZjBy-S-mIJRxAEKI,39
+captif_cpx_db/migrations/__init__.py,sha256=skmGoqmgNRwvkeYSIC34spBnlBsbLa5pHe1imJJbnLk,979
+captif_cpx_db/migrations/env.py,sha256=8fP4Lc3XizQTJrOHeATO_EB1VaHXwROKTh0z0QvcWaY,2454
+captif_cpx_db/migrations/script.py.mako,sha256=MEqL-2qATlST9TAOeYgscMn1uy6HUS9NFvDgl93dMj8,635
+captif_cpx_db/migrations/versions/3067faed075e_.py,sha256=Oj8R_4fNEhp18Yh4HIlpuygigwxDe3kXNN73zxLB_io,497
+captif_cpx_db/models.py,sha256=ksgQCkD4EjsiUhucylFl_G6y9tAncz2xBwNOkcwg5Gc,29312
+captif_cpx_db/version.py,sha256=Z6Z4uHOLWQPfR8vIHKFw27_F2jBAoupdKhwCtLFspvY,20
+captif_cpx_db-1.2.dist-info/LICENSE,sha256=Dj3bLevk8EFiCsQIU-8UUiSR4fy7Dj_JIDHW-JXXlL8,1084
+captif_cpx_db-1.2.dist-info/METADATA,sha256=ta0oghrxsL32VA_BGmHi6eNl4-fbj1voDi8WMPhH5oY,626
+captif_cpx_db-1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+captif_cpx_db-1.2.dist-info/RECORD,,
