@@ -1,0 +1,36 @@
+{
+    "name": "license",
+    "desc": {
+        "en": "Information to identify the license of a package."
+    },
+    "display": {
+        "en": "License"
+    },
+    "fields": [
+        {
+            "name": "file",
+            "required": true,
+            "display": {
+                "en": "License File"
+            },
+            "desc": {
+                "en": "A relative path to the license file."
+            },
+            "type": "path"
+        },
+        {
+            "name": "id",
+            "required": true,
+            "display": {
+                "en": "License Id"
+            },
+            "desc": {
+                "en": "The license's SPDX license identifier."
+            },
+            "type": "choice",
+            "choice_attrs": {
+                "enum_name": "LicenseId"
+            }
+        }
+    ]
+}

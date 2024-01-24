@@ -1,0 +1,56 @@
+{
+    "name": "entry_point",
+    "desc": {
+        "en": "Defines an entry point into a javascript application."
+    },
+    "display": {
+        "en": "Entry Point"
+    },
+    "fields": [
+        {
+            "name": "name",
+            "required": true,
+            "display": {
+                "en": "Name"
+            },
+            "desc": {
+                "en": "The name of the package described by this configuration."
+            },
+            "type": "string"
+        },
+        {
+            "name": "env",
+            "display": {
+                "en": "Environment"
+            },
+            "desc": {
+                "en": "The environment this entry point should be built for."
+            },
+            "type": "choice",
+            "assumed": "universal",
+            "choice_attrs": {
+                "enum_name": "Environments",
+                "choices": [
+                    {
+                        "display": {
+                            "en": "Web Browser"
+                        },
+                        "name": "browser"
+                    },
+                    {
+                        "display": {
+                            "en": "Node JS"
+                        },
+                        "name": "node"
+                    },
+                    {
+                        "display": {
+                            "en": "Isomorphic"
+                        },
+                        "name": "universal"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+atpublic~=4.0
+omniblack.model
+omniblack.repo
+packaging
+pydantic[email]
+requests
+rich
+ruamel.yaml~=0.18
+sh~=2.0
+tomlkit~=0.7
+fs~=2.4

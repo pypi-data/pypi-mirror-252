@@ -1,0 +1,32 @@
+{
+    "$schema": "../../../../../model/schema/struct.schema.json",
+    "name": "bugs",
+    "display": {
+        "en": "Bugs"
+    },
+    "desc": {
+        "en": "The url to your project's issue tracker and / or the email address to which issues should be reported. These are helpful for people who encounter issues with your package."
+    },
+    "fields": [
+        {
+            "name": "url",
+            "type": "url",
+            "display": {
+                "en": "Bug Report Url"
+            },
+            "desc": {
+                "en": "The url user should report bugs to"
+            }
+        },
+        {
+            "name": "email",
+            "type": "email",
+            "display": {
+                "en": "Bug Report Email"
+            },
+            "desc": {
+                "en": "The email address users should send bug reports to."
+            }
+        }
+    ]
+}

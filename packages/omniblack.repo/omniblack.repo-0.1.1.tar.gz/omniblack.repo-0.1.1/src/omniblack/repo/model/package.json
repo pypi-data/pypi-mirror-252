@@ -1,0 +1,230 @@
+{
+    "$schema": "../../../../../model/schema/struct.schema.json",
+    "name": "package",
+    "display": {
+        "en": "Package"
+    },
+    "desc": {
+        "en": "The file describing the current packages configuration"
+    },
+    "fields": [
+        {
+            "desc": {
+                "en": "The name of the package described by this configuration."
+            },
+            "display": {
+                "en": "Name"
+            },
+            "name": "name",
+            "required": true,
+            "list": false,
+            "type": "string"
+        },
+        {
+            "name": "version",
+            "type": "version",
+            "required": true,
+            "display": {
+                "en": "Version"
+            },
+            "desc": {
+                "en": "The current version of the package"
+            }
+        },
+        {
+            "child_attrs": {
+                "struct": "meta:ui_string"
+            },
+            "desc": {
+                "en": "The name of the package to be displayed to users."
+            },
+            "display": {
+                "en": "Product Name"
+            },
+            "name": "product_name",
+            "type": "child"
+        },
+        {
+            "name": "description",
+            "display": {
+                "en": "Description"
+            },
+            "desc": {
+                "en": "The description of the package, shown in npm searches."
+            },
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "keywords",
+            "display": {
+                "en": "Keywords"
+            },
+            "desc": {
+                "en": "Keywords used for searching."
+            },
+            "type": "string",
+            "list": true
+        },
+        {
+            "name": "homepage",
+            "type": "url",
+            "display": {
+                "en": "Homepage"
+            },
+            "desc": {
+                "en": "The url to the project homepage."
+            }
+        },
+        {
+            "name": "bugs",
+            "display": {
+                "en": "Bug Reporting"
+            },
+            "desc": {
+                "en": "Information on where to report bugs."
+            },
+            "type": "child",
+            "child_attrs": {
+                "struct": "bugs"
+            }
+        },
+        {
+            "child_attrs": {
+                "struct": "license"
+            },
+            "desc": {
+                "en": "The license of this package if it differs from the repository's main license."
+            },
+            "display": {
+                "en": "License"
+            },
+            "name": "license",
+            "type": "child",
+            "required": true
+        },
+        {
+            "name": "author",
+            "type": "child",
+            "display": {
+                "en": "Author"
+            },
+            "desc": {
+                "en": "The primary author of this project."
+            },
+            "child_attrs": {
+                "struct": "person"
+            }
+        },
+        {
+            "desc": {
+                "en": "The type of package."
+            },
+            "display": {
+                "en": "Type"
+            },
+            "name": "kind",
+            "list": false,
+            "required": true,
+            "type": "choice",
+            "choice_attrs": {
+                "enum_name": "PackageKind",
+                "choices": [
+                    {
+                        "display": {
+                            "en": "Library"
+                        },
+                        "name": "lib"
+                    },
+                    {
+                        "display": {
+                            "en": "Application"
+                        },
+                        "name": "app"
+                    },
+                    {
+                        "display": {
+                            "en": "Single Page Application"
+                        },
+                        "name": "spa"
+                    },
+                    {
+                        "display": {
+                            "en": "Command Line Application"
+                        },
+                        "name": "cli"
+                    }
+                ]
+            }
+        },
+        {
+            "desc": {
+                "en": "A path to an html template to use for serving the resulting javascript bundle. If not provided no html file will be generated. This path will be resolved using the `require.resolve` algorithm. `@omniblack/vulcan` provides a default template at `@omniblack/vulcan/template.html`."
+            },
+            "display": {
+                "en": "Template Path"
+            },
+            "name": "template_path",
+            "type": "path"
+        },
+        {
+            "desc": {
+                "en": "The public path from which the spa will be served."
+            },
+            "display": {
+                "en": "Public Path"
+            },
+            "name": "public_path",
+            "type": "string"
+        },
+        {
+            "desc": {
+                "en": "The directory where the spa pages are kept."
+            },
+            "display": {
+                "en": "Pages Directory"
+            },
+            "name": "pages_dir",
+            "type": "path"
+        },
+        {
+            "assumed": "build",
+            "desc": {
+                "en": "The directory relative to the package to place build output."
+            },
+            "display": {
+                "en": "Output Directory"
+            },
+            "name": "output_dir",
+            "type": "path"
+        },
+        {
+            "desc": {
+                "en": "The environments this package should be built for."
+            },
+            "display": {
+                "en": "Environments"
+            },
+            "list": true,
+            "name": "environments",
+            "type": "choice",
+            "choice_attrs": {
+                "enum_name": "Environment",
+                "choices": [
+                    {
+                        "display": {
+                            "en": "Browser"
+                        },
+                        "name": "browser"
+                    },
+                    {
+                        "display": {
+                            "en": "Node"
+                        },
+                        "name": "node"
+                    }
+                ]
+            }
+        }
+    ]
+}

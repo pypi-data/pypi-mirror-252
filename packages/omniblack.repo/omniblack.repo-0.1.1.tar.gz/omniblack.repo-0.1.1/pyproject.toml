@@ -1,0 +1,52 @@
+[project]
+name = "omniblack.repo"
+version = "0.1.1"
+description = "Tooling for interacting with monorepos."
+readme ='./README.md'
+requires-python='~=3.9'
+classifiers = [
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Software Development'
+]
+
+dependencies = [
+    'atpublic ~= 4.0',
+    'omniblack.model',
+    'omniblack.repo',
+    'packaging',
+    'pydantic[email]',
+    'requests',
+    'rich',
+    'ruamel.yaml ~= 0.18',
+    'sh ~= 2.0',
+    'tomlkit ~= 0.7',
+    'fs ~= 2.4',
+]
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/tooling/repo"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[project.scripts]
+sync_metadata='omniblack.repo.sync_metadata:app'
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+[build-system]
+requires = [
+    "setuptools ~= 68.2",
+]
+build-backend = "setuptools.build_meta"
