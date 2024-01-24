@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-account-fiscal-l10n-visibility
+Version: 14.0.1.0.1
+Summary: Enhances fiscal localization settings in Odoo by customizing visibility and editability based on existing accounting entries.
+Home-page: https://www.coopdevs.coop
+Author: Coopdevs
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Python: >=3.6
+Requires-Dist: odoo <14.1dev,>=14.0a
+
+
+        Shows the fiscal localization settings in read-only mode where accounting entries exist. The default behavior is to hide completely this section.
+    
+
