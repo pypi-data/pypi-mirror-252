@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yomilog"
+version = "1.0.0"
+authors = [ { name="BeProud", email="project@beproud.jp"}]
+description="The YomiLog web application."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Framework :: Django",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "Django>=4.2",
+    "psycopg2>=2.9"
+]
+keywords=["web", "yomilog"]
+license = {text = "BSD License"}
