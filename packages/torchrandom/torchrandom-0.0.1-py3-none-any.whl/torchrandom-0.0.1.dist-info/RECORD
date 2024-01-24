@@ -1,0 +1,6 @@
+torchrandom/__init__.py,sha256=PpTwKY6Mnsza4zqlrIOFi_RyG9Dp6kOUtMWd3mfZ8Q8,30019
+torchrandom/tests/test_torch_random.py,sha256=m4_GjvBq8wOJuK5PEPJ6unlRvYREutrdEV2rgbVayaM,27862
+torchrandom-0.0.1.dist-info/METADATA,sha256=HiVjEvpjTggDBIKGR-CSp8sfm15mp2KAHH88j_AIeT4,584
+torchrandom-0.0.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+torchrandom-0.0.1.dist-info/licenses/LICENSE,sha256=EBouqNJ95XCFTeUI9CGsxn09uWv3Mc9uaHib5uKBN7g,80
+torchrandom-0.0.1.dist-info/RECORD,,
