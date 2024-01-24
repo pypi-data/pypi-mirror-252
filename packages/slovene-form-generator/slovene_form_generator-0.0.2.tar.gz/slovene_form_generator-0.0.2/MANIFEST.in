@@ -1,0 +1,3 @@
+recursive-include slovene_form_generator/resources/ *
+recursive-include slovene_form_generator/models/ *
+recursive-include slovene_form_generator/mte6_dict/ *
