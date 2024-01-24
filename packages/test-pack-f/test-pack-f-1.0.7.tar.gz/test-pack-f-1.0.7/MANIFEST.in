@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include test_pack/LICENSE
+include test_pack/tmp.txt
+
+global-exclude __pycache__
+global-exclude *.pyc
