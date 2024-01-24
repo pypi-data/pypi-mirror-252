@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+searchformers/__init__.py
+searchformers.egg-info/PKG-INFO
+searchformers.egg-info/SOURCES.txt
+searchformers.egg-info/dependency_links.txt
+searchformers.egg-info/top_level.txt
