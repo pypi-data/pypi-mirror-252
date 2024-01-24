@@ -1,0 +1,4 @@
+cffi==1.16.0
+contamxpy==0.0.8
+numpy==1.26.1
+pycparser==2.21

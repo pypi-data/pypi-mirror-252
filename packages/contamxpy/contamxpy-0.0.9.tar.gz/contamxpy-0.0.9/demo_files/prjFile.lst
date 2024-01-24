@@ -1,0 +1,8 @@
+# Path to a PRJ on each line.
+reg_solverContTrace-mz-MH-trans-3day.prj
+test_GetPrjInfo.prj
+missing_file.prj
+test_OneFloorWpcAddMfYear.prj
+test_OneZoneWthCtmStackYear.prj
+test_OneZoneWthCtmYear.prj
+valThreeZonesWthCtmYear.prj
