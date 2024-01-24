@@ -1,0 +1,10 @@
+corolab
+corolab-resources
+corolab-resources\assets
+corolab-resources\desk_description
+corolab-resources\elx_assy
+corolab-resources\fiducial_description
+corolab-resources\franka_description
+corolab-resources\realsense_description
+corolab-resources\robotiq_description
+corolab-resources\ur_description
