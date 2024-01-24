@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+magcopy/__init__.py
+magcopy/__main__.py
+magcopy/clipboard.py
+magcopy/path.py
+magcopy.egg-info/PKG-INFO
+magcopy.egg-info/SOURCES.txt
+magcopy.egg-info/dependency_links.txt
+magcopy.egg-info/entry_points.txt
+magcopy.egg-info/top_level.txt
+tests/test_clipboard.py
