@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/ReQBodyMan/ReQBodyMan.py
+src/ReQBodyMan/__init__.py
+src/ReQBodyMan.egg-info/PKG-INFO
+src/ReQBodyMan.egg-info/SOURCES.txt
+src/ReQBodyMan.egg-info/dependency_links.txt
+src/ReQBodyMan.egg-info/top_level.txt
