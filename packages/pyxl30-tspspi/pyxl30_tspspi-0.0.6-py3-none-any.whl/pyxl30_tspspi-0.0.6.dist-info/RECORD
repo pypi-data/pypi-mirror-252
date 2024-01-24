@@ -1,0 +1,8 @@
+xl30serial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xl30serial/scanningelectronmicroscope.py,sha256=RM-r86lBPnPpBl3T3OrvEdhn9qJT1PlVit3HKQ7JkMQ,10020
+xl30serial/xl30serial.py,sha256=a-wCu-CNyEYJtnMdgYb5Oo_HhfQbvN-xnBUa4Y8wqGY,51375
+pyxl30_tspspi-0.0.6.dist-info/LICENSE.md,sha256=YNCr5Mrd_b8XJQ_1bVAzY3COzHuBaweW8lkMyvLGw9I,1410
+pyxl30_tspspi-0.0.6.dist-info/METADATA,sha256=WrcrvOphIaACAwu2HFyWSaTfy67MBcXd8dAdNho6afs,2589
+pyxl30_tspspi-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyxl30_tspspi-0.0.6.dist-info/top_level.txt,sha256=RjqKDdbIaXAjtY68rZoaoT6CxjAlPMxLQWRYY9MTgis,11
+pyxl30_tspspi-0.0.6.dist-info/RECORD,,
