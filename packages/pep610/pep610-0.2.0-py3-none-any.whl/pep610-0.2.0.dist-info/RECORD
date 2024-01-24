@@ -1,0 +1,8 @@
+pep610/__init__.py,sha256=Joa43heNKx-wggDF1Le_C38ZrMI67d4w7OlJWffl0-g,6939
+pep610/_types.py,sha256=_eceGJPwQm_bDK3OBMXLp1Jb5GXeMlMGrQFjo481TEA,1071
+pep610/direct_url.schema.json,sha256=QJg8OcnFnjaseIV951Dra21S5sJAJMDomSFTF91SwS8,2111
+pep610/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pep610-0.2.0.dist-info/METADATA,sha256=b1BwBVWvVLccOX-3vyoEH34Rjg5P3dra8jaXIGbfKG0,16555
+pep610-0.2.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pep610-0.2.0.dist-info/licenses/LICENSE,sha256=_v6tlq8KgAuvM0XSmFaXn46EZ6vn1IKIN6QAyv3RW1M,11355
+pep610-0.2.0.dist-info/RECORD,,
