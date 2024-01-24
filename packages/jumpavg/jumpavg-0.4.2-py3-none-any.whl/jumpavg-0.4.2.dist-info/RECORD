@@ -1,0 +1,12 @@
+jumpavg/__init__.py,sha256=kIqGJGnWHEc_EoBjWl3bFFORxF7pkWVcpRc7Iy8sVeY,879
+jumpavg/avg_stdev_stats.py,sha256=QNkS_7m6mqcEoIUg5SZWVgFdO9rqzoDNAmmC4yMpAak,3508
+jumpavg/bit_counting_group.py,sha256=HrZglV-dU9dOxyEJGtSC-rK5DFE29XtshdFL6kuQv0E,5703
+jumpavg/bit_counting_group_list.py,sha256=jOBAVBRLfyUQqqf_ZYpnYAuHK98hgTp6pLEM4D3yPK8,7440
+jumpavg/bit_counting_stats.py,sha256=YitQfsk085wcmxj6tJHuszvtWtZ5tROGk039bDHpbLY,6742
+jumpavg/classify.py,sha256=7-en8deQv9Xxf0CQAUsdIr8Dzm4pZInGZbjfHaq8bbk,3928
+jumpavg/m.py,sha256=z_jMR7YTMm2Gv4LnNbh7YBxpmIozIza0taNk8g-C944,107
+jumpavg-0.4.2.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jumpavg-0.4.2.dist-info/METADATA,sha256=gWB0mvku0ZQfiEcrSge9OD72be3e4zv2j1EJdY6hT7E,16753
+jumpavg-0.4.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jumpavg-0.4.2.dist-info/top_level.txt,sha256=_olgCNdVXV2Chc5gCmwOxXDaoDkpVu0pB8sXTkCrZjA,8
+jumpavg-0.4.2.dist-info/RECORD,,
