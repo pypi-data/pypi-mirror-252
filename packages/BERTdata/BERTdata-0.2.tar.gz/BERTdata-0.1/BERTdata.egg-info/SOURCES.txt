@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+BERTdata.egg-info/PKG-INFO
+BERTdata.egg-info/SOURCES.txt
+BERTdata.egg-info/dependency_links.txt
+BERTdata.egg-info/top_level.txt
+data/shit.txt
