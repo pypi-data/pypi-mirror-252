@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dinky_onthisday/__init__.py
+dinky_onthisday.egg-info/PKG-INFO
+dinky_onthisday.egg-info/SOURCES.txt
+dinky_onthisday.egg-info/dependency_links.txt
+dinky_onthisday.egg-info/requires.txt
+dinky_onthisday.egg-info/top_level.txt
+dinky_onthisday/fonts/__init__.py
+tests/test_dinky_onthisday_plugin.py
