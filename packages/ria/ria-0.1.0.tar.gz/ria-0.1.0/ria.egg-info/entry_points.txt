@@ -1,0 +1,2 @@
+[console_scripts]
+meow = cli.meow:script_entry
