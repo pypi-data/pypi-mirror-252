@@ -1,0 +1,2 @@
+[console_scripts]
+tap-google-search-console = tap_google_search_console:main
