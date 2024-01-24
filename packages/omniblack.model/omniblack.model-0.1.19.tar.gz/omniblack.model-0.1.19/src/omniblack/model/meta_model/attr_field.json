@@ -1,0 +1,40 @@
+{
+    "name": "attr_field",
+    "display": {
+        "en": "Attribute Field"
+    },
+    "desc": {
+        "en": "An attribute field for a model type. The fields will be compiled into a struct. The resulting struct will be attached to the field struct."
+    },
+    "fields": [
+        {
+            "name": "required",
+            "type": "boolean",
+            "desc": {
+                "en": "Are the attributes required?"
+            },
+            "display": {
+                "en": "Required"
+            }
+        },
+        {
+            "name": "attrs",
+            "desc": {
+                "en": "The attributes of this model type."
+            },
+            "type": "child",
+            "list": true,
+            "required": true,
+            "display": {
+                "en": "Attributes"
+            },
+            "child_attrs": {
+                "struct": "field"
+            },
+            "list_attrs": {
+                "minLen": 1,
+                "uniquePaths": ["name"]
+            }
+        }
+    ]
+}

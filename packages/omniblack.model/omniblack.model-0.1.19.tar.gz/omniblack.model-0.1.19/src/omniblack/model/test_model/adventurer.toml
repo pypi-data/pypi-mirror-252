@@ -1,0 +1,49 @@
+name = "adventurer"
+
+[desc]
+en = "A person whose primary profession is completing quests."
+
+[display]
+en = "Adventurer"
+
+[[fields]]
+name = "adventurer_class"
+type = "choice"
+required = true
+
+[fields.desc]
+en = "The class of the adventurer."
+
+[fields.display]
+en = "Adventurer's Class"
+
+[fields.choice_attrs]
+enum_name = "adventurer_classes"
+
+[[fields.choice_attrs.choices]]
+name = "scout"
+
+[fields.choice_attrs.choices.display]
+en = "Scout"
+
+[fields.choice_attrs.choices.desc]
+en = "An adventurer that specializes in scouting ahead and detecting traps."
+
+[[fields.choice_attrs.choices]]
+name = "ranger"
+
+[fields.choice_attrs.choices.display]
+en = "Ranger"
+
+[fields.choice_attrs.choices.desc]
+en = "An adventurer that specializes in tracking and forestry."
+
+
+[[fields.choice_attrs.choices]]
+name = "fighter"
+
+[fields.choice_attrs.choices.display]
+en = "Fighter"
+
+[fields.choice_attrs.choices.desc]
+en = "An adventurer that specializes in general martial combat."

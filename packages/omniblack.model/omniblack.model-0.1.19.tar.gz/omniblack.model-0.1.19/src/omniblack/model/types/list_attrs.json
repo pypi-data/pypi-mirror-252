@@ -1,0 +1,42 @@
+{
+    "$schema": "http://127.0.0.1:8000/meta/attr_field",
+    "fields": [
+        {
+            "name": "singular_display",
+            "type": "string",
+            "display": {
+                "en": "Singular Display Name"
+            },
+            "desc": {
+                "en": "A display name used to refer to one item in the list"
+            },
+            "required": true
+        },
+        {
+            "name": "minLen",
+            "desc": {
+                "en": "The minimum length of the list"
+            },
+            "type": "integer",
+            "display": {
+                "en": "Minimum Length"
+            },
+            "integer_attrs": {
+                "min": 2
+            }
+        },
+        {
+            "name": "maxLen",
+            "display": {
+                "en": "Maximum Length"
+            },
+            "desc": {
+                "en": "The maximum length of the field"
+            },
+            "type": "integer",
+            "integer_attrs": {
+                "min": 1
+            }
+        }
+    ]
+}
