@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: dl-assistant
+Version: 0.0.6
+Summary: A libirary to automate developing keras models
+Author: Ayush Agrawal
+Author-email: aagrawal963@gmail.com
+Keywords: Automated Deep Learning,Model Generation,Neural Network Automation,Deep Learning Automation,AI Model Builder,Neural Architecture Search (NAS),Automated Model Design,Deep Learning Toolkit,Effortless Model Creation,Model Composer,AI Model Automation,Neurogeneration,DL Model Composer,Smart Model Builder,AI Model Generator,Ayush Agrawal,tensorflow,keras
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: notebook
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+
+
+PyPi Library :- dl-assistant Documentation
+=======================================
+
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage - Image Classification](#usage-img-class)
+- [Examples](#examples)
+- [API Reference](#api-reference)
+
+## Installation
+It can be easily installed by typing the following in the terminal:
+
+```bash
+pip install dl-assistant
+```
+
+
+Usage - Image classification
+----------------------------
+
+1.  **create\_dataframe**\- This function takes dir containing training or test data and convert it into pandas dataframe that is 1st step towards deep learning  
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn
+                                import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                #Continue on your own
+                            
+    
+2.  **prep\_x\_train**\- This function takes image paths, height and width to resize and returns an array of features of training data. It itself divide features by 255.0  
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                x_train = x.prep_x_train(df['Images',100,100])# get features divided by 255.0 
+                            
+    
+3.  **prep\_y\_train**\- This function takes labels and number of classes as input and converts labels into binary metrics.
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                x_train = x.prep_x_train(df['Images',100,100])
+                                y_train = x.prep_y_train(df['Labels'],7)
+                            
+    
+4.  **make\_model**\- This function takes unit of 1 stconv2D layer and number of classes as input and returns a basic non-trained model.
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                x_train = x.prep_x_train(df['Images',100,100])
+                                y_train = x.prep_y_train(df['Labels'],7)
+                                shape=x_train[0].shape
+                                model = x.make_model(128,7,shape)
+                            
+    
+5.  **expert\_make\_model**\- This is a function developed for expert.
+    
+    *   **Syntax** \=expert\_make\_model(self,layers,unit,num\_classes,input\_shape,dr)
+        
+        *   **layers**\= This is a string list that can contain either Conv2D,MaxPooling2D or Dropout
+        *   **unit**\= This is the integer that contains the unit of 1st Conv2D layer
+        *   **num\_classes**\= This is the count of no. of labels
+        *   **input\_shape**\= This is the input shape or shape of x\_train\[0\]
+        *   **dr**\= The dropout rate
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                x_train = x.prep_x_train(df['Images',100,100])
+                                y_train = x.prep_y_train(df['Labels'],7)
+                                shape=x_train[0].shape
+                                model = x.expert_make_model(['Conv2D','Conv2D','MaxPooling2D','Dropout'],128,7,shape,0.5)
+                            
+    
+6.  **train\_model**\- This function takes model to train, x\_train , y\_train, epochs and batch\_size and returns a trained model
+    
+    #### Simple Usage
+    
+        
+                                from dl_assistant.image_cnn import classification
+                                x=classification()
+                                df=x.create_dataframe('train') # It will create a dataframe getting a datframe with image address in one column and label in another
+                                x_train = x.prep_x_train(df['Images',100,100])
+                                y_train = x.prep_y_train(df['Labels'],7)
+                                shape=x_train[0].shape
+                                model = x.make_model(128,7,shape)
+                                batch_size=32
+                                epochs=70
+                                model.x.train_model(model,x_train,y_train,batch_size,epochs)
+                            
+    
+
+Examples
+--------
+
+Create a emotion-classification model
+
+                `from dl_assistant.image_cnn import classification                      model = classification()                     model = model.create('TRAIN',7)                     model.predict([x_test[0]])`
+                
+                

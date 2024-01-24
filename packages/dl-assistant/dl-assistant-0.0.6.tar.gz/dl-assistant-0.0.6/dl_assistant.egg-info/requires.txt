@@ -1,0 +1,5 @@
+tensorflow
+keras
+notebook
+tqdm
+scikit-learn
