@@ -1,0 +1,17 @@
+versioned_collection/__init__.py,sha256=raWjFLuYcW7p1CpqYD9qOc4UuslZ7PyaiDGlnNDePH0,104
+versioned_collection/collection.py,sha256=z8MxlLb7SAGrAE-rm_eMPjq8jDtljCpcG30w6JzyrTI,3311
+versioned_collection/collection_store.py,sha256=Eeayq_yE2gWBKgWBXVSkgRcE3DbgKhNXJAukFdmwspQ,4092
+versioned_collection/item.py,sha256=WsP-xwc73kaa2aYXNDlogwe1T4Qpj2tS4U1N-fkqogc,1361
+versioned_collection/persistence/__init__.py,sha256=A8QA4s0CTylZBLc3RklFGnN-fQrY-3StusmcK3b82FI,144
+versioned_collection/persistence/github.py,sha256=DkZmjpKXslbMRHsqO-mDDH1HZg_oYYDBfjXGnyL-oJg,1963
+versioned_collection/persistence/json_file.py,sha256=_iAPtSX6nLrs_nQ8GPqY7Xgvs90SAoOCMBQlJUi_f1g,896
+versioned_collection/persistence/yaml_file.py,sha256=gtYcDFq4LEqpivNZBDtsFZkW8ikV_RGNgdixpcvHAxE,886
+versioned_collection/serialization/__init__.py,sha256=shKVvhMO0pGtCWe-ehr0jcnZuOHsqhXKSgubteAJSqM,118
+versioned_collection/serialization/json.py,sha256=C4mfN64jtAhFBiuFt4KAgZewD3cwWGHrJiZYw_cVJ8c,921
+versioned_collection/serialization/yaml.py,sha256=5FF0uNCmYD2323J57lm41HoAzRVY3yFNEtD6V2mIEsg,955
+versioned_collection/test_collection.py,sha256=uaqGUFQ84L1_UIpvMKmcsrHskgQfnwaiztE6S16Oi0Y,454
+versioned_collection/util/download_file.py,sha256=ceLTraVpyMXnLjfmY8yqAyh1PuCMPHfyFBBDl1yb5Mo,305
+versioned_collection-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+versioned_collection-0.0.1.dist-info/METADATA,sha256=B5sqPUPAZkC-2tkgQyeFsCnQisqfYUKn0VWW62Lbx1g,4965
+versioned_collection-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+versioned_collection-0.0.1.dist-info/RECORD,,
