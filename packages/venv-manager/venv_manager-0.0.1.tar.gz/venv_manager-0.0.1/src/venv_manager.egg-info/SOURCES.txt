@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/venv_manager/__init__.py
+src/venv_manager/main.py
+src/venv_manager.egg-info/PKG-INFO
+src/venv_manager.egg-info/SOURCES.txt
+src/venv_manager.egg-info/dependency_links.txt
+src/venv_manager.egg-info/top_level.txt
