@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "labelmerge"
+version = "0.4.7"
+description = "Snakebids app for merging multiple label maps."
+authors = [
+    "Jason Kai <tkai@uwo.ca>",
+    "Tristan Kuehn",
+    "Bradley Karat",
+    "Alaa Taha",
+    "Arun Thurairajah",
+    "Jonathan C. Lau",
+    "Ali R. Khan",
+]
+readme = "README.md"
+packages = [{ include = "labelmerge" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+snakebids = "^0.10.2"
+nibabel = "^3.2.2"
+numpy = "^1.22.3"
+xarray = "^2022.11.0"
+# Newer versions of pulp incompatible with snakebids
+pulp = "<2.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest-console-scripts = "1.2"
+pytest = "^7.0.1"
+poethepoet = "^0.13.1"
+pre-commit = "^2.17.0"
+snakefmt = "^0.6.1"
+yamlfix = "^1.1.0"
+mypy = "^0.991"
+ruff = "^0.1.14"
+
+[tool.poetry.scripts]
+labelmerge = 'labelmerge.run:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+setup = "pre-commit install"
+yamlfix = { shell = "find . -type f \\( -iname \\*.yaml -o -iname \\*.yml ! -iname snakemake* ! -iname snakebids* \\) -exec yamlfix {} \\;" }
+yamlfix-check = { shell = "find . -type f \\( -iname \\*.yaml -o -iname \\*.yml ! -iname snakemake* ! -iname snakebids* \\) -exec yamlfix --check {} \\;" }
+ruff-format = "ruff format labelmerge"
+ruff-lint = "ruff --fix labelmerge"
+ruff-lint-check = "ruff labelmerge"
+snakefmt = "snakefmt labelmerge"
+snakefmt-check = "snakefmt --check labelmerge"
+quality = ["yamlfix", "ruff-format", "ruff-lint", "snakefmt"]
+quality-check = ["yamlfix-check", "ruff-lint-check", "snakefmt-check"]
+
+[tool.snakefmt]
+line_length = 79
+include = '\.smk$|^Snakefile'
+
+[tool.ruff]
+select = ["E", "W", "N", "RUF", "I", "UP"]
+line-length = 79
+builtins = ["snakemake"]
