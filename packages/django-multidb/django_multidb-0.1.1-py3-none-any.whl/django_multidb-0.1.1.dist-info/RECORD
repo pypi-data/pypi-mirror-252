@@ -1,0 +1,10 @@
+django_multidb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_multidb/models/base.py,sha256=K0eZSm0Mxddjh51StbCVxM5c3aIVwCS_E4vm4l4XAbc,948
+django_multidb/models/deletion.py,sha256=KWHO-yakFYwlTqND20ma0GyGtZB1baSw2BvDNkcWaRs,11870
+django_multidb/models/fields/rel.py,sha256=1f_luVhM5go_GTkzc36qiGJebq812lorxlxRv1LHIdY,418
+django_multidb/models/query.py,sha256=eoNjkPIJof-bUfwOC1ViUQUylMcGDZNA51-wp2j25no,2391
+django_multidb/routers.py,sha256=yIFXXyt5-aZ1QrU1JW5ICPNWrDkli35Pbd5QdyWg41k,1391
+django_multidb-0.1.1.dist-info/LICENSE,sha256=buBTZ7eYI73cx_-jzi1Jz-1fl0aV0O7qVpb70GjRQy8,1072
+django_multidb-0.1.1.dist-info/METADATA,sha256=CXE99vzhqDB0hWTjNJKfbSkOJTxhl4uNVWHukAARP-k,2397
+django_multidb-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_multidb-0.1.1.dist-info/RECORD,,
