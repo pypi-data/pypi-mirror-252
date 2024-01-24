@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: generate-kat-core
+Version: 0.0.6
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2 ==3.0.1
+Provides-Extra: test
+Requires-Dist: pytest ==7.4.3 ; extra == 'test'
+Requires-Dist: mock ==5.1.0 ; extra == 'test'
+
+Generate KAT Core Library
