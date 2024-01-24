@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: shacl2code
+Version: 0.0.2
+Summary: Convert SHACL model file to code bindings
+Project-URL: Homepage, https://github.com/JPEWdev/shacl2code
+Project-URL: Repository, https://github.com/JPEWdev/shacl2code.git
+Project-URL: Issues, https://github.com/JPEWdev/shacl2code/issues
+Author-email: Joshua Watt <JPEWhacker@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: jinja2>=3.1.2
+Requires-Dist: pyld>=2.0.3
+Description-Content-Type: text/markdown
+
+# Convert SHACL Model to code bindings
+
+This tool can be used to convert a JSONLD SHACL model into various code
+bindings

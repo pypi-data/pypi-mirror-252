@@ -1,0 +1,11 @@
+shacl2code/__init__.py,sha256=3htW8FnDDXdxVp3kK0m4Xs1TqPDwdmK_Oz0mwamab2k,48
+shacl2code/const.py,sha256=LLn59lFIBU-k1CvhzSdmMtahQHRJdrQZjhV4XoyXNsM,119
+shacl2code/main.py,sha256=NSRuFVqiK2BZ7Iu9V6Ok4oobzKACpbAwFEm3Po2D4Ts,1507
+shacl2code/model.py,sha256=CNHmk-2vMbYG_xScHi5iMrIa4FgKns2hlYzpCgnK7PY,7002
+shacl2code/version.py,sha256=6fpCPNjINWo0zGmpAgQpb4Bk-p8CTS3crc41f5DbP2c,18
+shacl2code/templates/python.j2,sha256=3vZUmpfoZeFrw-XaDVeD0WOYSTZZEi9NSXgVtgq0SIQ,23118
+shacl2code-0.0.2.dist-info/METADATA,sha256=0He2Uuvnhw71UnYuJKkRS6KDKeQB_4wgvbpkj28afdM,1084
+shacl2code-0.0.2.dist-info/WHEEL,sha256=VYAwk8D_V6zmIA2XKK-k7Fem_KAtVk3hugaRru3yjGc,105
+shacl2code-0.0.2.dist-info/entry_points.txt,sha256=xMo3DqLqOpZfEwDXLL3lqQZoXUXKUUhgn-ABzH4nOEg,47
+shacl2code-0.0.2.dist-info/licenses/LICENSE,sha256=npUT32k_O0lU4UHJ8ZZ2_Ti0GR1oSbNGRzID9lSWkxs,1068
+shacl2code-0.0.2.dist-info/RECORD,,
