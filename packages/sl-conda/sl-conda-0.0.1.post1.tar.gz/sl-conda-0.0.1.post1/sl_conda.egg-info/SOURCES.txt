@@ -1,0 +1,12 @@
+README.md
+setup.py
+sealionconda/__init__.py
+sealionconda/app.py
+sealionconda/utils.py
+sl_conda.egg-info/PKG-INFO
+sl_conda.egg-info/SOURCES.txt
+sl_conda.egg-info/dependency_links.txt
+sl_conda.egg-info/entry_points.txt
+sl_conda.egg-info/not-zip-safe
+sl_conda.egg-info/requires.txt
+sl_conda.egg-info/top_level.txt
