@@ -1,0 +1,16 @@
+import json
+import logging
+import os
+
+# INSERT CACHE FILE
+
+
+def read_cache():
+    if not os.path.exists(CACHE_FILE):
+        raise Exception(f"Cache file {CACHE_FILE} does not exist.")
+
+    logging.info(f"Will attempt to load the JSON file '{CACHE_FILE}' into a dictionary")
+    with open(CACHE_FILE, "r") as f:
+        cache = json.load(f)
+
+    return cache["records"]

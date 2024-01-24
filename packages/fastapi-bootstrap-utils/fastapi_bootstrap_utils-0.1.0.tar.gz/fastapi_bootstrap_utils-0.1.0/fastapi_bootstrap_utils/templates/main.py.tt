@@ -1,0 +1,15 @@
+import json
+
+from enum import Enum
+from fastapi import FastAPI, HTTPException
+from typing import Optional
+
+app = FastAPI()
+
+
+from helper import read_cache
+
+cached_records_lookup = read_cache()
+
+
+# INSERT ROUTES HERE
