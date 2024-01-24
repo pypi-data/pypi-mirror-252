@@ -1,0 +1,11 @@
+detecty/bbox.py,sha256=JJgibhZHQlBXwBK1TZV4OX28DpQcKu0OQ2EBmp9MJe8,2290
+detecty/model.ckpt,sha256=cSPia_HvWCELfFVGxmd_dFhX9F_XIl0D7vXGP2Ntso8,9164670
+detecty/model.py,sha256=axZVe4wkLKIfgKUj7QFiO5p2ZfkUEJdMgwDMHNf8Vnc,1216
+detecty/tasks.py,sha256=dSgMMt8u5Z6mYHRC6feR0sBTPSU38S-WIG5JRBCzNGg,5086
+detecty/train.py,sha256=i45XtfY1hDn3fmVES85FV1S0fLThHeMHDIgHLui1vNE,4256
+detecty/util.py,sha256=Mml2N0ob0bUHNSO_5XuIFksVbVBVIA7UZUt_bNHiVnw,1677
+detecty/version.py,sha256=GMzIGdz6EFHNdjtBtmIGlDMv10oaTKnECriA9Zy7mU8,19
+detecty-0.0.18.dist-info/METADATA,sha256=S2waJLX9hqsPSu9FAWzRDQMDGM10wniOBg6dP6jTnHg,323
+detecty-0.0.18.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+detecty-0.0.18.dist-info/entry_points.txt,sha256=r9gQzsO_e98rgWhOp0nNZM56M04EWLeBlYPnrtdyN2c,81
+detecty-0.0.18.dist-info/RECORD,,
