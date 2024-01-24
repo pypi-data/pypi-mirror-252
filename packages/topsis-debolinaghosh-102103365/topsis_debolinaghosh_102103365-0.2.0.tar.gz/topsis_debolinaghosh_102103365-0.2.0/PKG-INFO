@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: topsis_debolinaghosh_102103365
+Version: 0.2.0
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# TOPSIS Package
+
+TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) is a Python package that provides an implementation of the TOPSIS method for multi-criteria decision analysis. This package allows users to evaluate and rank alternative solutions based on a set of criteria.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Command Line Interface](#command-line-interface)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Multi-criteria decision analysis (MCDA) is a method for making decisions when there are multiple criteria to consider. TOPSIS is one of the widely used MCDA techniques that helps in ranking alternatives based on their proximity to the ideal solution and their distance to the anti-ideal solution.
+
+This package provides a Python implementation of the TOPSIS method, both as a Python module and a command line tool.
+
+## Installation
+
+You can install TOPSIS using pip:
+
+```bash
+pip install topsis-package
+
+
+To use TOPSIS in your Python code, import the topsis module:
+
+python
+Copy code
+from topsis_package import topsis
+
+# Your decision matrix
+data = {...}
+
+# Your weights and impacts
+weights = [...]
+impacts = [...]
+
+# Run TOPSIS
+result_df = topsis(data, weights, impacts)
+
+# Display the results
+print(result_df)
+
+```
+
+## Command Line
+
+TOPSIS also provides a command line interface for convenient usage:
+
+```bash
+topsis input.csv <weights> <impacts> result.csv
+
+```
+
+- input.csv: Path to the input CSV file containing the decision matrix.
+- weights: Weights for each criterion separated by commas.
+- impacts: Impacts for each criterion (+ or -) separated by commas.
+- result.csv: Path to the output CSV file where the results will be saved.
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
