@@ -1,0 +1,14 @@
+flask_extra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_extra/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_extra/services/auth/__init__.py,sha256=jdyZzFuFcibEmR7fuAfV_AANsS9PInQ1v50C_U4V8Dg,153
+flask_extra/services/sessions/__init__.py,sha256=V06PSwqHsLjpEcyiqFKF8RlkxFZyuIZ9DrXRmXgUMrA,143
+flask_extra/services/sessions/_models.py,sha256=IIQa8RpMJcF9bnBXteFWRWcHVsmZuWhv8gYKODcQzHQ,790
+flask_extra/services/sessions/_service.py,sha256=dLr3_MGTkZ-_meSIOJkfF5Qfl6-teZ384Hq2BEdylgI,1344
+flask_extra/services/sessions/tests.py,sha256=PnMgseFrVjTeopGR41ATkSRwSjIZKnumKI6BKBdmnak,446
+flask_extra/sqla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_extra/sqla/base.py,sha256=5WEpO8aTewfs4pYKRRjSmH0KNrpMUj__O_GiKIrgzuc,107
+flask_extra/sqla/repository.py,sha256=ZMyobrfGt13RvmKirNWgzndEuZeX9hpb6Ry5XP9LiJ4,359
+flask_extra-0.1.1.dist-info/LICENSE,sha256=12b1LYvFO0Yl2pCTqQF_aIpYYJhVJ_R5K30oMnLBDwI,583
+flask_extra-0.1.1.dist-info/METADATA,sha256=ob90-arE8sqEdnd-lCBCadCWazr7MhEkHBnxmPusA5Q,1609
+flask_extra-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flask_extra-0.1.1.dist-info/RECORD,,
