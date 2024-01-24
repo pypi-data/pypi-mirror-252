@@ -1,0 +1,11 @@
+tox_backtick/__about__.py,sha256=rCy57m18suarS1nomeZ-MmzVPsVuhNnl2dovG8Q2AiQ,217
+tox_backtick/__init__.py,sha256=8bZo_Ri89mnMs7XPiHwRMPlbamrv3VxbBQrugw0ozhg,1249
+tox_backtick/backquote.py,sha256=NLTZBC0ZH1d3Oaln6urAur8neqnveBGa1qFCqfErBwc,2006
+tox_backtick/setenv.py,sha256=YkyiUSXrU66_QelOHOvkM0un0A8Bo_acJ9SM-3SRPmU,1172
+tox_backtick-0.4.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+tox_backtick-0.4.0.dist-info/METADATA,sha256=MTG9Ays-NIenOey7Ob2EgWSavBjCRhLfmpSP8iNJxf0,6986
+tox_backtick-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tox_backtick-0.4.0.dist-info/entry_points.txt,sha256=rASVremxzU5KgfhFb18pmQGQss0xRRM6Wo1CL1i2ZL0,30
+tox_backtick-0.4.0.dist-info/top_level.txt,sha256=-bVKkBVLJk3xgQslByhuGp2bxhRrBf8RI4sJkmIlvSI,13
+tox_backtick-0.4.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tox_backtick-0.4.0.dist-info/RECORD,,
