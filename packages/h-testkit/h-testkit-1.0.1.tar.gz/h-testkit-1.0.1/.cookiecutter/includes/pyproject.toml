@@ -1,0 +1,9 @@
+[project]
+name = "h-testkit"
+dynamic = ["description", "version", "urls", "requires-python", "readme", "dependencies"]
+classifiers = [
+    "Framework :: Pytest",
+]
+
+[project.entry-points.pytest11]
+myproject = "h_testkit.pytest_plugin"

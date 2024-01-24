@@ -1,0 +1,2 @@
+[pytest11]
+myproject = h_testkit.pytest_plugin
