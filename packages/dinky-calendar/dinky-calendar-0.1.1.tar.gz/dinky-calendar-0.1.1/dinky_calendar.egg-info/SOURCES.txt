@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dinky_calendar/__init__.py
+dinky_calendar.egg-info/PKG-INFO
+dinky_calendar.egg-info/SOURCES.txt
+dinky_calendar.egg-info/dependency_links.txt
+dinky_calendar.egg-info/requires.txt
+dinky_calendar.egg-info/top_level.txt
+dinky_calendar/fonts/__init__.py
+tests/test_dinky_calendar_plugin.py
