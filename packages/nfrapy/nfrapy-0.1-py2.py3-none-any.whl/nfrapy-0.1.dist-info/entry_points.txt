@@ -1,0 +1,2 @@
+[console_scripts]
+nfrapy_get_ts = nfrapy.nfrapy_get_ts:main

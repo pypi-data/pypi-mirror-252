@@ -1,0 +1,11 @@
+nfrapy/__init__.py,sha256=22KE6DgTNsnI1iRRv_dows-_xmbh_YVGiMTyxnIz7uY,166
+nfrapy/cli.py,sha256=cLsCjd-CEEvNLWaPARjl41M2ek63eZ8K51bEMM9b7cE,396
+nfrapy/nfrapy.py,sha256=EUoLfpb3aSboSKydVMPAOl3fe8wiOcmOHVjVG3hyGKw,2675
+nfrapy/nfrapy_get_ts.py,sha256=2ULfOCQDg5TkS35DZVZ7JD5hofG34B_lKmYYa5C-TtQ,3659
+nfrapy-0.1.dist-info/AUTHORS.rst,sha256=y3ht6xc1Ga3KfrfVDslboJhLAyNaUS5Xdzm2EJdi2SY,166
+nfrapy-0.1.dist-info/LICENSE,sha256=HnjbQ8FwiUSTHfMBDaGDVLdnzum5W0Z0WyPkdql61f0,1086
+nfrapy-0.1.dist-info/METADATA,sha256=Yi-1VTnrVWOjYJGmtxNzrnHaOW1mqhemxjcsCkZ6nf8,1289
+nfrapy-0.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+nfrapy-0.1.dist-info/entry_points.txt,sha256=zLWKbentRp91MH8sYKfIIDaxX4B6IG-6S6qOXWy1VjY,60
+nfrapy-0.1.dist-info/top_level.txt,sha256=V8zbSmodXJxoG7kkfuzSkUSo_rKxupiPoq4Vz77JPj8,7
+nfrapy-0.1.dist-info/RECORD,,
