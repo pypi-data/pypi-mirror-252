@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ommi
+Version: 0.1.0
+Summary: An object model mapper intended to provide a consistent interface for many underlying database implementations using whatever model implementations are desired.
+License: MIT
+Author: Zech Zimmerman
+Author-email: hi@zech.codes
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tramp (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Ommi
+
+> [!CAUTION]
+> Ommi is under construction and much of the functionality is undergoing frequent revision. There is no guaratee future versions will be backwards compatible.
+
+An object model mapper intended to provide a consistent interface for many underlying database implementations using whatever model implementations are desired.
+
+### Compatible Model Implementations
+
+My test suite checks for compatibility with the following model implementations:
+
+- Python's `dataclass` model types
+- [Attrs](https://www.attrs.org/en/stable/comparison.html) model types
+- [Pydantic](https://docs.pydantic.dev/latest/) model types
+
+### Included Database Support
+
+- SQLite3 (⚠️Under Construction⚠️)
+
