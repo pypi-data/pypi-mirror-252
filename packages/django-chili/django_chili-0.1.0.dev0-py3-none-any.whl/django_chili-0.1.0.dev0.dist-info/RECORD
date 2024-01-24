@@ -1,0 +1,9 @@
+django_chili/__init__.py,sha256=KkDCW9ngeiekkdyVcoDODEDeF0OXqab2VqJ5OjA4kRQ,390
+django_chili/bowl.py,sha256=vTin3hYIrA2PACCRMJwE0YEZ1A8N-81vKqSVnW_j2SY,2687
+django_chili/chop.py,sha256=Tu_Fr85dwKNGAK8CyNbjMw8psdVNdgEZxTHPB8eK1ss,3245
+django_chili/chunk.py,sha256=WhpOynDkEKvhftjltWgYZ8KnwIvxspvi-YBk5Waz0mg,388
+django_chili/sauce.py,sha256=SsU16-GT5FnVbwmmBQwqfmiKsmYi0NSDbltMabv5cSE,1512
+django_chili-0.1.0.dev0.dist-info/METADATA,sha256=zspBuqr26wAkpQgV6r92Dtpu8B_XOtZLbTR1LmteMjI,1222
+django_chili-0.1.0.dev0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_chili-0.1.0.dev0.dist-info/top_level.txt,sha256=KVoTotkXLXG2jMgk-MLfR9eEa4y7vRarKc65nBBXYWE,13
+django_chili-0.1.0.dev0.dist-info/RECORD,,
