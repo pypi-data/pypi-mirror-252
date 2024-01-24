@@ -1,0 +1,2 @@
+[console_scripts]
+breads-ad = src.main:BreadsPrompt.cmdloop
