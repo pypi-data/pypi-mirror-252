@@ -1,0 +1,10 @@
+setup.py
+odoo/addons/account_fiscal_l10n_visibility/__init__.py
+odoo/addons/account_fiscal_l10n_visibility/__manifest__.py
+odoo/addons/account_fiscal_l10n_visibility/views/account_settings_views.xml
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/PKG-INFO
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/SOURCES.txt
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/dependency_links.txt
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/not-zip-safe
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/requires.txt
+odoo14_addon_account_fiscal_l10n_visibility.egg-info/top_level.txt
