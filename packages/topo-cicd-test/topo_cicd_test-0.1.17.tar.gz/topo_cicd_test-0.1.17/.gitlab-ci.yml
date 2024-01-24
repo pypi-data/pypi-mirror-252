@@ -1,0 +1,106 @@
+image: python:3.10
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}-pipenv-${CI_PIPELINE_ID}
+  paths:
+    - .cache
+    - .venv
+
+before_script:
+  - pip install pipenv
+  - pipenv install --deploy --dev
+
+stages:
+  - prepare
+  - lint_and_test
+  - build
+  - release
+  - publish
+  - containerize
+
+prepare:
+  stage: prepare
+  script:
+    - pip install pipenv
+    - pipenv install --deploy --dev
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}-pipenv-${CI_PIPELINE_ID}
+    paths:
+      - .venv
+    policy: pull-push
+
+lint:
+  stage: lint_and_test
+  script:
+    - pipenv run flake8 src tests
+  rules:
+    - if: ($CI_COMMIT_BRANCH == "main") || ($CI_PIPELINE_SOURCE == "push") || ($CI_PIPELINE_SOURCE == "merge_request_event")
+
+test:
+  stage: lint_and_test
+  script:
+    - pipenv run pytest
+  rules:
+    - if: ($CI_COMMIT_BRANCH == "main") || ($CI_PIPELINE_SOURCE == "push") || ($CI_PIPELINE_SOURCE == "merge_request_event")
+
+build:
+  stage: build
+  script:
+    - pipenv run hatch build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+  rules:
+    - if: ($CI_COMMIT_BRANCH == "main") || ($CI_PIPELINE_SOURCE == "push") || ($CI_PIPELINE_SOURCE == "merge_request_event")
+
+
+release:
+  stage: release
+  script:
+    - git checkout main
+    - git reset --hard $CI_COMMIT_SHA
+    - pipenv run semantic-release version
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+
+publish:
+  stage: publish
+  script:
+    - pipenv run twine upload dist/*
+  rules:
+    - if: '$CI_COMMIT_TAG'
+
+containerize:
+  stage: containerize
+  image: docker:25.0.0
+  services:
+    - docker:25.0.0-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375/
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker buildx create --use
+    - docker buildx inspect --bootstrap
+  script:
+    - >
+      if [ -n "$CI_COMMIT_TAG" ]; then
+        # Transform tag from vx-y-z to x.y.z
+        TAG_VERSION=$(echo "$CI_COMMIT_TAG" | sed 's/^v//; s/-/./g')
+        # Build with the version tag. Since multi-platform image is needed, --load cannot be used. Instead we have to push and pull the image to tag it with latest tag.
+        docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6 -t $CI_REGISTRY_IMAGE:$TAG_VERSION . --output=type=image,push=true
+        # Pull the image with the version tag
+        docker pull $CI_REGISTRY_IMAGE:$TAG_VERSION
+        # Tag the image as latest
+        docker tag $CI_REGISTRY_IMAGE:$TAG_VERSION $CI_REGISTRY_IMAGE:latest
+        # Push the latest tag
+        docker push $CI_REGISTRY_IMAGE:latest
+      else
+        # Build and push using CI_COMMIT_REF_SLUG for non-tag pipelines
+        docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6 -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG . --push
+      fi
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_TAG'
