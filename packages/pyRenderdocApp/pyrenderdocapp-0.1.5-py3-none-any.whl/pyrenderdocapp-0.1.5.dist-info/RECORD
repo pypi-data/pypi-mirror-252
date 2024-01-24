@@ -1,0 +1,13 @@
+pyRenderdocApp/__init__.py,sha256=hP59j1JB2GPGx3wtM0SiBzlkhWqCU2lUOCZVTjiaozs,1803
+pyRenderdocApp/_version.py,sha256=Ygx9Gi8ch1N0b_985F7S-RACFl6R7S3LraxXTILV_Vw,175
+pyRenderdocApp/renderdoc_api.py,sha256=-89j4MfTLWOCZCxVpSKGJVln6o6qNjCyelJ-2kozpNo,21537
+pyRenderdocApp/renderdoc_enums.py,sha256=mWD0HnwRUMMkypkc7Iotw6mB4u3TbbKqHJKbwKfvsuE,11236
+pyRenderdocApp/lib/LICENSE.md,sha256=VNWNgpg0Jol_7j0jViydrfLfCbmgLR3roU3Yyj7VFUU,1205
+pyRenderdocApp/lib/__init__.py,sha256=HY-u7u-UJonJ09Bsoq5I0-IDT2Uox94DJFY_FwF8KKA,93
+pyRenderdocApp/lib/librenderdoc.so,sha256=oNMly9drjfn9JleDXwaz_AMihy4sTCQ4-oHIE4xnlvg,19924384
+pyRenderdocApp/lib/renderdoc.dll,sha256=EUwjntrtagPp1jsBlTGpBgOFtqkq3sUk5mXL7ztjbUo,17059592
+pyRenderdocApp/lib/renderdoc_64.dll,sha256=rw02xe3E__N4wtmfX-EpQ2xN-PTza0pIhLOyIC3qtbo,21107976
+pyrenderdocapp-0.1.5.dist-info/METADATA,sha256=Yx_xXvZrq7SofVMTYK5fs0LgS1I_cMLfiBxdGdMHACo,4694
+pyrenderdocapp-0.1.5.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pyrenderdocapp-0.1.5.dist-info/licenses/LICENSE,sha256=MRaCkqQI2SvNKvzvmcv3ELzBgz5Xtuyp16iL7zrZ-14,1094
+pyrenderdocapp-0.1.5.dist-info/RECORD,,
