@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+demo_helpingai/HelpingAI.py
+demo_helpingai/__init__.py
+demo_helpingai.egg-info/PKG-INFO
+demo_helpingai.egg-info/SOURCES.txt
+demo_helpingai.egg-info/dependency_links.txt
+demo_helpingai.egg-info/requires.txt
+demo_helpingai.egg-info/top_level.txt
