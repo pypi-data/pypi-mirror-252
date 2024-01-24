@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "XWindowSystem_Screenshoter"
+version = "0.0.7"
+dependencies = ["numpy>=1.26.1", "Xlib>=0.21"]
+requires-python = ">=3.6"
+authors = [
+  { name = "Matheus Verginio Fernandes", email = "matheus.fernandes92.235@protonmail.com" },
+]
+description = "A simple use to capture a screenshot of single window in linux Systems"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["Linux", "XWindowSystem", "screenshot", "single window"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Repository = "https://github.com/UR4N0-235/XWindowSystem_Screenshoter"
+"Bug Tracker" = "https://github.com/UR4N0-235/XWindowSystem_Screenshoter/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/XWindowSystem_Screenshoter"]
