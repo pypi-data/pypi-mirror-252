@@ -1,0 +1,8 @@
+pydantic_discriminator/__init__.py,sha256=kZ90bcE615V-po85zRwJ4PrmfJSikAtZvlbARHPNyzg,408
+pydantic_discriminator/base_v1.py,sha256=KRA5mdHmtV5AeGHdsM8rXlaSrpzHaJ3upNvKhiOTMNo,2727
+pydantic_discriminator/base_v2.py,sha256=BtskgVFZA71Jq5V8T7iBxU6xzJnbYDN5BGQSJVCJRIM,4130
+pydantic_discriminator/common.py,sha256=R-uQyy5x5s5YQr_VjMFjteijigQf_atS8MFEzuYL8EI,1462
+pydantic_discriminator-0.1.0.dist-info/METADATA,sha256=DHMIn-qbidQQKBkcAtdHVi-gdFzgJXOL2-Z06Eg1Rp8,10059
+pydantic_discriminator-0.1.0.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+pydantic_discriminator-0.1.0.dist-info/licenses/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+pydantic_discriminator-0.1.0.dist-info/RECORD,,
