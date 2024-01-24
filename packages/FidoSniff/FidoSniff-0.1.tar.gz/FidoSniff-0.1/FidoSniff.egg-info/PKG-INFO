@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: FidoSniff
+Version: 0.1
+Summary: Libreria Fido Sniff para Calidad de Datos
+Author: Enzo Ipanaque
+Author-email: eipanaquep@pucp.edu.pe
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark
+
+# FidoSniff
+Reversión de proyecto de motor de calidad

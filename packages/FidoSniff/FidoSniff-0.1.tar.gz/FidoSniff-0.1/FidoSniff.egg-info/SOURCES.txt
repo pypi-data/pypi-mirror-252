@@ -1,0 +1,9 @@
+README.md
+setup.py
+FidoSniff.egg-info/PKG-INFO
+FidoSniff.egg-info/SOURCES.txt
+FidoSniff.egg-info/dependency_links.txt
+FidoSniff.egg-info/entry_points.txt
+FidoSniff.egg-info/not-zip-safe
+FidoSniff.egg-info/requires.txt
+FidoSniff.egg-info/top_level.txt
