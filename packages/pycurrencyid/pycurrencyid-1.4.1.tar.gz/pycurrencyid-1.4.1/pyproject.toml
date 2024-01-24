@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pycurrencyid"
+version = "1.4.1"
+description = "This library contains data on country names, currencies and abbreviations which are stored and packaged in the form of a JSON file"
+authors = ["harigro <trierbank@gmail.com>"]
+readme = "README.md"
+license = "MIT License"
+keywords = ["mata uang", "currency", "indonesia", "data", "pycurrency", "indo", "wilayah", "daerah", "administrasi"]
+classifiers=[
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.10",
+        "License :: OSI Approved :: MIT License",
+    ]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/harigro/pycurrencyid"
+Documentation = "https://github.com/harigro/pycurrencyid"
+Repository = "https://github.com/harigro/pycurrencyid"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
