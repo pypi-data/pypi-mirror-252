@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+app/jfunctions/__init__.py
+app/jfunctions.egg-info/PKG-INFO
+app/jfunctions.egg-info/SOURCES.txt
+app/jfunctions.egg-info/dependency_links.txt
+app/jfunctions.egg-info/requires.txt
+app/jfunctions.egg-info/top_level.txt
+app/jfunctions/Validation/__init__.py
+app/jfunctions/Validation/functions.py

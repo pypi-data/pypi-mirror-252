@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jfunctions
+Version: 0.0.1
+Summary: A python package of function that a regularly use
+Home-page: https://github.com/Morganjake/JFunctions
+Author: Jake Morgan
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bson>=0.5.10
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
