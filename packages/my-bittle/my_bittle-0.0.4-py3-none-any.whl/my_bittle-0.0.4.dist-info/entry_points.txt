@@ -1,0 +1,2 @@
+[console_scripts]
+bittle-keyboard-control = my_bittle.bittle_keyboard_control:main

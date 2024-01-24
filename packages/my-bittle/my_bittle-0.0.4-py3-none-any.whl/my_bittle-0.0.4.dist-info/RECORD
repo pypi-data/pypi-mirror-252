@@ -1,0 +1,10 @@
+my_bittle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_bittle/bittle_keyboard_control.py,sha256=kwURvpqqh0wr3e4N43qBfk3dsjmcGXm5Zsar5APaKoM,1238
+my_bittle/bittle_serial_controller.py,sha256=96leq-vAIwmAPcqHrdHRBQjiIR43y8jDiITVwcsNxDM,3073
+my_bittle/keyboard_listener.py,sha256=Mon_glw6aSOeYXwB3nOaA1kMHfYmKJ3Dz9ALyxYRaJY,2716
+my_bittle-0.0.4.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+my_bittle-0.0.4.dist-info/METADATA,sha256=B7VMnJ8YUiLifrRadRTbvOnCcUoCgTouZtuGMi_uoOQ,2349
+my_bittle-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+my_bittle-0.0.4.dist-info/entry_points.txt,sha256=2HrbB_2DQAX1HEPazcoqmNY-xH39PJNhG4PKNByPCb0,83
+my_bittle-0.0.4.dist-info/top_level.txt,sha256=80LJH2AxAIr9YazOTsnttdmIbThEZA200wVbbFt0vKw,10
+my_bittle-0.0.4.dist-info/RECORD,,
