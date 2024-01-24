@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: define-oc
+Version: 1.0.0
+Summary: A system for defining and validating data regardless of data store
+Home-page: https://ouroboroscoding.com/format-oc
+Author: Chris Nasr - Ouroboros Coding Inc.
+Author-email: chris@ouroboroscoding.com
+License: MIT
+Project-URL: Documentation, https://ouroboroscoding.com/format-oc
+Project-URL: Source, https://github.com/ouroboroscoding/define-python
+Project-URL: Tracker, https://github.com/ouroboroscoding/define-python/issues
+Keywords: data,format,database,db,sql,nosql
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# define-python
+A system for defining and validating data regardless of data store
+
+
