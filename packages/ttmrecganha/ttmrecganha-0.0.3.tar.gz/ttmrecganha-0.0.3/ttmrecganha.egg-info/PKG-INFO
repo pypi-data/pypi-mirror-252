@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: ttmrecganha
+Version: 0.0.3
+Summary: Two Tower Model
+Home-page: UNKNOWN
+Author: acbessa
+Author-email: <acbessa@nos.pt>
+License: UNKNOWN
+Description: A package that contains a Two Tower Model
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
