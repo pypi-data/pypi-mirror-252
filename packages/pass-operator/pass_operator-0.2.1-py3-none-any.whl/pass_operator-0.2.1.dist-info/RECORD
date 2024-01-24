@@ -1,0 +1,12 @@
+LICENSE,sha256=DUDlTOX1dMev1a4i8mXETQHLpi22hU_hp_2-P9JD7QE,35140
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/passoperator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/passoperator/git.py,sha256=9QszLZb1nArnVsspV_l8vauXj0g6K3ovr_vY1207TK4,2145
+src/passoperator/gpg.py,sha256=3c5ohrS1j3pR08vaOJkG1OhEdAFUCWzrFouPFWWXz24,1192
+src/passoperator/operator.py,sha256=cMopaWtv6y7vyWI7PTrYeyjrx5up5pxStJEafIFsC9A,9363
+src/passoperator/utils.py,sha256=1lykH-FWsN-eVgZlBPw4wxtGEeTQ0dFL8irzSsirMNo,734
+pass_operator-0.2.1.dist-info/LICENSE,sha256=DUDlTOX1dMev1a4i8mXETQHLpi22hU_hp_2-P9JD7QE,35140
+pass_operator-0.2.1.dist-info/METADATA,sha256=QnrOtBTwUq5AiuXM40OchjfEQJTczWiBAWpjFyhLucY,4743
+pass_operator-0.2.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pass_operator-0.2.1.dist-info/entry_points.txt,sha256=vR8AuNvDno8toNPlxurYpL_GH-dawTu7VEsNCp9i5z0,63
+pass_operator-0.2.1.dist-info/RECORD,,
