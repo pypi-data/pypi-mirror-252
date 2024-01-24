@@ -1,0 +1,14 @@
+Octonion_Sedenion/README.md,sha256=nQ-L0qOOrFL5TzxtjVKdTPjXOMsYq_gNoikj2DN6fhU,7321
+Octonion_Sedenion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Octonion_Sedenion/complex.py,sha256=Qazr8smIzoKCWM58O2Pc7usqleC1VQ3lSpFKxlWvHUc,5310
+Octonion_Sedenion/octonion.py,sha256=Cczf8nBCNBnFD3C3z8L2YKLaZTSHpB0s6DqmBbAtI04,17089
+Octonion_Sedenion/sedenion.py,sha256=L4UHfmZOyLu5asuEIQiPcxcP4wXBDPYQxJ2RVNpaPVQ,17552
+Octonion_Sedenion/tests/octonion/associative.py,sha256=jR-q521j-pWDhnrwWj78wEmGqPrByRAqecF9kmHq6zA,491
+Octonion_Sedenion/tests/sedenion/associative.py,sha256=bQm6dqOJAjtKahY9AMC_QWJ2-emryu2IMFdNgkM_t4w,619
+Octonion_Sedenion/tests/sedenion/commutator.py,sha256=_Q_hdgBqW0qGYI4j6Drhfh-rsXm6lY9nkK4vuXjcl48,424
+Octonion_Sedenion/tests/sedenion/moufang1.py,sha256=0EMpwjnx2f1ccMnoJJCKEaN5YMPOdVllDN-95BfR59A,422
+Octonion_Sedenion/tests/sedenion/moufang2.py,sha256=ZnArWDqMMpDDPSb9EXkzKU_byH_uvWbSkMP55lsA7Ps,422
+Octonion_Sedenion/tests/sedenion/zero_divisor.py,sha256=24SadK9WnY97FD5LWP8OCeWb9hnKBkQpobGr00Ki1wk,1362
+octonion_sedenion-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+octonion_sedenion-1.0.0.dist-info/METADATA,sha256=ltb5bSR9Sj3MRlUTwRHJaf6j3TJsh-eHOAvVKqityUo,7937
+octonion_sedenion-1.0.0.dist-info/RECORD,,

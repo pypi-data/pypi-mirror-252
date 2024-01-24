@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: Octonion_Sedenion
+Version: 1.0.0
+Summary: Implementing octonions and sedenions
+Author-email: Dieter Kadelka <dieterkadelka@aol.com>
+Maintainer-email: Dieter Kadelka <dieterkadelka@aol.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: numpy_quaternion
+Project-URL: Homepage, https://github.com/pypa/Octonion_Sedenion
+Project-URL: Issues, https://github.com/pypa/Octonion_Sedenion/issues
+
+# Octonions and Sedenions
+
+**The module octonion_sedenion.py is an extension of the numpy-quaternion modul of [Michael Boyle](https://pypi.org/project/numpy-quaternion/). Main classes are Octonion and Sedenion. Its aim is 1. to present flexible input routines for input of octionion numbers and sedenion numbers and 2. to present a wealth of standard routines. Arrays of Octionions and Sedenions in numpy are possible. Routines are written to allow usage of standard notation even for matrices of Octonions or Sedenions, well known from reals without sacrificing speed.**
+
+(Citation from https://pypi.org/project/hypercomplex/): The [complex numbers](https://en.wikipedia.org/wiki/Complex_number) may be viewed as an extension of the everyday [real numbers](https://en.wikipedia.org/wiki/Real_number). A complex number has two real-number coefficients, one multiplied by 1, the other multiplied by [i](https://en.wikipedia.org/wiki/Imaginary_unit).
+
+In a similar way, a [quaternion](https://en.wikipedia.org/wiki/Quaternion), which has 4 components, can be constructed by combining two complex numbers. Likewise, two quaternions can construct an [octonion](https://en.wikipedia.org/wiki/Octonion) (8 components), and two octonions can construct a [sedenion](https://en.wikipedia.org/wiki/Sedenion) (16 components).
+
+The method for this construction is known as the [Cayley-Dickson construction][2] and the resulting classes of numbers are types of [hypercomplex numbers][1]. There is no limit to the number of times you can repeat the Cayley-Dickson construction to create new types of hypercomplex numbers, doubling the number of components each time.
+
+Here we concentrate on classes [Octonion](https://en.wikipedia.org/wiki/Octonion) in module octonion.py and [Sedenion](https://en.wikipedia.org/wiki/Sedenion) in module sedenion.py. Additionally we include the class [CC](https://en.wikipedia.org/wiki/Complex_number) in module complex.py, which is not needed for the classes Octonion and Sedenion. Class CC extends the functionality of the standard module cmath. (Especially CC extends the properties of *log* as in Octonion and in Sedenion.)
+
+An essential point in these classes is that log(x) is defined in such a way that always *log(exp(x)) = x* and *exp(log(x))* holds true even though *log* is a multivalued function. This allows construction of powers *x**y* with
+```py
+(x**y)**(1/y) == x
+x**(1/2) == sqrt(x)
+```
+**Theoretical remark:** For equality in the first line *y* must not be a sedenion, since the sedenion algebra is not alternative. Otherwise equality holds true apart from rounding errors. Note that *x^(y+z)=x^y x^z* cannot be expected.
+
+**Literature:** A standard text is [N. Bourbaki (1989): Algebra I][9], in particular ch. III.2.4, III.7.4 and ch. III, Appendix. Here you find full proofs about commutativity, associativity and alternativity of Cayley algebras, which are generalizations of the Octonions and Sedenions here. A further well known article is from [J. Baez (2001), The Octonions](https://arxiv.org/pdf/math/0105155.pdf), unfortunately without proofs of some relevant results..
+
+[![Hypercomplex numbers containment diagram][8]][8]
+
+## Installation
+
+```text
+pip install Octonion_Sedenion 
+```
+
+[View on PyPI](https://pypi.org/project/Octonion_Sedenion) - [View on GitHub](https://github.com/kadelka/Octonion_Sedenion)
+
+This package was built in Python 3.11.7 and has been tested to be compatible with python 3.8 through 3.12.
+
+## Basic Usage
+
+```py
+from Octonion_Sedenion.octonion import Octonion
+from Octonion_Sedenion.sedenion import Sedenion
+```
+This only imports the class Octonion resp. the class Sedenion
+
+```py
+from Octonion_Sedenion.sedenion import *
+```
+This imports the classes Quaternion, Octonion and Sedenion, further numpy.linalg as nla. Additionally we get the functions *exp*, *sin*, *cos*, *tan*, *sinh*, *cosh* and *tanh* and their inverses *log*, *arcsin*, *arccos*, *arctan*. Depending on the type of *x* (either Octonion or Sedenion) these functions return values of the same type.
+
+**Input of numbers is handled by**
+```py
+__init__(self,*v,array=None,q1=None,q2=None)
+```
+where *q1,q2* must be Octonions (for class Sedenion) or Quaternions (for class Octonion). So
+```py
+Sedenion(3,4,5)
+Sedenion(array = (3,4,5))
+Sedenion(array = np.array([3,4,5])
+Sedenion(q1 = Octonion(3,4,5))
+```
+all result in
+```py
+sedenion(3.0, 4.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+```
+and
+```py
+u = Sedenion(4+5j)
+v = Sedenion(4+5*e10)
+w = 4+5*e10
+print(exp(u))
+print(log(v))
+print(sin(w))
+```
+in
+```py
+15.48743 -52.35549i
+1.85679 +0.89606r
+-56.16227 -48.50246r
+```
+Note:
+```py
+Sedenion(q1 = Octonion(q1 = Quaternion(1,2,3)))
+```
+gives due to the implementation of *Quaternion(1,2,3)*
+```py
+sedenion(0.0, 1.0, 2.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+```
+
+## Functionality 
+
+- **Arithmetic**
+
+  After initialization of Octonion/Sedenion addition, subtraction, multiplication, division are definied. This allows standard notation in using instances of these classes.  
+
+- **Functions**
+
+  Here standard functions known for the fields R and C are extended to Octionions/Sedenions
+
+   1. with methods in Octionion and Sedenions
+
+      *sqrt* the square root 
+    
+      *exp* and *log* (exponentiation and logarithmization) with the property 
+      
+      *pow* the power function. This allows constructs such as
+      ```py
+      (x**y)**(1/y) == x
+      x**(1/2) == x.sqrt()
+      ```
+      *norm* the norm function with *norm(ax) = |a| norm(x)* for real *a* (except when *x* is a quaternion).
+
+      *sin*, *cos*, *tan*, *sinh*, *cosh* and *tanh* with the inverses *arcsin*, *arccos*, and *arctan*. The problem here is that f.i. *arcsin(sin(x)) == x* cannot be guaranteed (only with some fake).
+      
+   2. with functions *sqrt()*, *exp()*, *log()*, *norm()* and the corresponding trigonometric functions. Arguments of these functions may be reals, complex values, quaternions, octonions or sedenions. Values of the same type are returned.
+
+   3. Two random generators *uniform(a,b)*, which generated uniformly distributed Octonions/Sedenions on the hypercube [a,b]^8 resp. [a,b]^16 and *random_ball(r=1)* which generates uniformly distributed Octonions/Sedenions on the centered ball with radius *r*.
+
+   4. Constants *e0,...,e7* in octonion.py resp. *e0,...,e15* in sedenion.py, where *ei[i] = 1* and *ei[j] = 0* for *not i == j*. Note that *x[i]* is allowed for instances *x*.
+
+- **Integration with numpy**
+
+  Building matrices with instances of Octonion or Sedenion resp. are allowed, for instance
+  ```py
+  A = np.array([[a,b],[c,e3]])
+  ```
+  with some predefined instances *a,b,c* is allowed. This allows constructs such as
+  ```py
+  B = (A @ A) @ A
+  C = A @ (A @ (A+B))
+  ```
+
+Further functionality can be found in the modules sedenion.py and octonion.py.
+
+## About me
+
+I have been a mathematician (retired) at the KIT in Karlsruhe, Germany. I have studied physics as well. Programming, particularly in python, is a hobby, not a profession. 
+
+[1]: https://en.wikipedia.org/wiki/Hypercomplex_number
+[2]: https://en.wikipedia.org/wiki/Cayley%E2%80%93Dickson_construction
+[8]: https://raw.githubusercontent.com/discretegames/hypercomplex/main/diagram/diagram.png
+[9]: https://link.springer.com/book/9783540642435
+
