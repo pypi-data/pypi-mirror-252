@@ -1,0 +1,12 @@
+freetar/backend.py,sha256=Mc7qux9YuTiLtZ98LXTqjLXPwPOH5Pmawp99HzLIZAU,1765
+freetar/static/custom.js,sha256=dv3_hbo_uSs41yaHrKwX6fN6HHT7PHVo0j-QXQXUkyM,4533
+freetar/static/guitar.png,sha256=ofStgS0qfIMJzm_k8kM9ppZkC2ilVdCFjgh1qfB8tqg,26135
+freetar/templates/base.html,sha256=3QTI_JYhUO3sxQ7PSg72agchK_FnVsvKX90QqpS_D9A,2809
+freetar/templates/index.html,sha256=HhaIeridZcu2lTnroiZcTgewSUH6pUaVqnljnsEAqEs,5501
+freetar/templates/tab.html,sha256=q3XzYaN3ij6dRvU8ViYCHW0idZtHslHty0zOLC2qvhM,4765
+freetar/ug.py,sha256=N1LgXbIWKnANPaRuMklVysTT7Ww2idakjHH3RmUKiyY,6129
+freetar-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+freetar-0.3.0.dist-info/METADATA,sha256=rIlYiyXHjjsJbDX9bk1AVs3OtZOIT_Qr6r1fjdVga1s,2269
+freetar-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+freetar-0.3.0.dist-info/entry_points.txt,sha256=60bmEh1QDGRIu0Qs-brNb9SaWg0Q3z7e_25EpdDm5Qc,48
+freetar-0.3.0.dist-info/RECORD,,
