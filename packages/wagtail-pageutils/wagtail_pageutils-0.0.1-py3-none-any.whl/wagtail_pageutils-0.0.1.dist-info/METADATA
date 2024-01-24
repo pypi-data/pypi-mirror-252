@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wagtail-pageutils
+Version: 0.0.1
+Summary: A set of utilities for managing and migrating wagtail components in production.
+License: MIT
+Author: Jeremiah Boby
+Author-email: jeremiah@evidentinsights.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dpath (>=2.1.6,<3.0.0)
+Requires-Dist: poetry (>=1.7.1,<2.0.0)
+Requires-Dist: wagtail (>=5.2.3,<6.0.0)
+Description-Content-Type: text/markdown
+
+<p>
+  <img align="left" src="./_static/images/evident-logo-stroke.png" height=220></img>
+  <div align="left">
+    <img height=0 />
+    <h1>Wagtail Pageutils</h1>
+    <p>A set of utilities for managing and migrating wagtail components in production.</p>
+    <img height=0 />
+  </div>
+</p>
+<br />
+
