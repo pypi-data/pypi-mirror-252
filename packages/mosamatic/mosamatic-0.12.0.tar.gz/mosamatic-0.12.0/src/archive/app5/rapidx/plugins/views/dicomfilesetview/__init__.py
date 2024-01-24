@@ -1,0 +1,1 @@
+from rapidx.plugins.views.dicomfilesetview.dicomfilesetviewplugin import DicomFileSetViewPlugin
