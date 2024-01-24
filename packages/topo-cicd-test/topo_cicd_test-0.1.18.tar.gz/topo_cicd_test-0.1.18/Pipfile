@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+hatch = "*"
+pytest = "*"
+flake8 = "*"
+twine = "*"
+python-semantic-release = "*"
+
+[requires]
+python_version = "3.10"
