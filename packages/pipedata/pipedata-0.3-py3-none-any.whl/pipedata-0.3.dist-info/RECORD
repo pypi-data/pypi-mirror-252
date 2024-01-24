@@ -1,0 +1,15 @@
+pipedata/__init__.py,sha256=7mmw-BMZ6HrQm4b8anUIDViKQF_w8x2VQi3BwKzf9xg,54
+pipedata/core/__init__.py,sha256=bF1j8g4FwsmEB4_a7Qz-eHDiQo9pnPRYaiu4uHR5R6U,152
+pipedata/core/chain.py,sha256=UNsHYDsePbllrIaHMsZWm_DySd1DzB_PZA42n2a4gMc,2268
+pipedata/core/links.py,sha256=moxq8RQd_mzdE_5yivK5etKlXGqxIz_qL0v6c7AtXFY,1516
+pipedata/core/ops.py,sha256=5e1slmJvtkIFO3DdE6wsxfKD8CIq0Ho6zLEoF5bH_BI,1448
+pipedata/core/stream.py,sha256=NytDrGdkWWk47b6-R1m-37m6g_AYnwoqw7XqxK458sI,1830
+pipedata/ops/__init__.py,sha256=8vjcCqiqqFJr5_tVK3dc7toUB2ANnNC0INJhc30iYy0,211
+pipedata/ops/files.py,sha256=vTkvT5iat-vlkr7CpZpGw9ofosBB0PikJUeA0zBSkgM,2650
+pipedata/ops/records.py,sha256=-6ny2oJT0br63CmVO0yBYheHEvxDU_neyURRNsgryy4,1812
+pipedata/ops/storage.py,sha256=yUpAbWc3UG_zz77AYisSa7pTUSI7y-hHyP12zcYZA-o,2626
+pipedata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipedata-0.3.dist-info/LICENSE,sha256=UFu0Qz0FhzfDJ0mTCHpgxSxr1S47zLm2x_RZzfhlCwg,1062
+pipedata-0.3.dist-info/METADATA,sha256=SEOuIYObEw5S6mXpasUo5VWSiwvkONlSCo9CHvtbHv0,4372
+pipedata-0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pipedata-0.3.dist-info/RECORD,,
