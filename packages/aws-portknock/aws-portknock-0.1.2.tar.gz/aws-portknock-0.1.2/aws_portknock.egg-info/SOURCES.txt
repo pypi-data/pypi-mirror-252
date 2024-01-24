@@ -1,0 +1,12 @@
+AUTHORS.md
+LICENSE
+README.md
+aws_portknock.py
+setup.cfg
+setup.py
+aws_portknock.egg-info/PKG-INFO
+aws_portknock.egg-info/SOURCES.txt
+aws_portknock.egg-info/dependency_links.txt
+aws_portknock.egg-info/entry_points.txt
+aws_portknock.egg-info/requires.txt
+aws_portknock.egg-info/top_level.txt

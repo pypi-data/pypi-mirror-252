@@ -1,0 +1,2 @@
+[console_scripts]
+aws-portknock = aws_portknock:cli
