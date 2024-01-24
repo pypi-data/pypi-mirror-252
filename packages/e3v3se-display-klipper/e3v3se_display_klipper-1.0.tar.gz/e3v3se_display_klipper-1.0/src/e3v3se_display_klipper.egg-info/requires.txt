@@ -1,0 +1,6 @@
+argparse
+configparser
+multitimer
+pyserial
+requests
+websocket-client
