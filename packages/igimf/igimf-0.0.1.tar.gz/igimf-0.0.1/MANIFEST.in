@@ -1,0 +1,3 @@
+graft igimf
+include setup.py
+global-exclude *.py[cod]
