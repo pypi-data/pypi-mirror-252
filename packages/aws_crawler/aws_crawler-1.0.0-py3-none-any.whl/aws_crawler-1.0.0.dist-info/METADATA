@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: aws_crawler
+Version: 1.0.0
+Summary: Crawl through active AWS accounts in an organization using master assumed role.
+Home-page: https://github.com/fer1035/pypi-aws_crawler
+License: GPL-2.0-only
+Keywords: AWS,crawler,accounts,organization
+Author: Ahmad Ferdaus Abd Razak
+Author-email: ahmad.ferdaus.abd.razak@ni.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.17.78,<2.0.0)
+Project-URL: Repository, https://github.com/fer1035/pypi-aws_crawler
+Description-Content-Type: text/x-rst
+
+===============
+**aws_crawler**
+===============
+
+Overview
+--------
+
+Crawl through active AWS accounts in an organization using master assumed role.
+
+Usage
+-----
+
+Installation:
+
+.. code-block:: BASH
+
+    pip3 install aws_crawler
+    python3 -m pip install aws_crawler
+
+Example:
+
+.. code-block:: PYTHON
+
+   """Get caller identity from the STS service."""
+   import sys
+   import boto3
+   from botocore import exceptions
+   import aws_crawler
+
+   # Get arguments.
+   access_key = sys.argv[1]
+   secret_key = sys.argv[2]
+   session_token = sys.argv[3]
+   thread_num = 10
+   role_name = 'AWSViewOnlyAccess'
+   region_name = 'us-east-1'
+
+   # Get account list.
+   accounts = aws_crawler.list_accounts(
+      access_key,
+      secret_key,
+      session_token,
+      region_name
+   )
+   account_ids = [account['Id'] for account in accounts]
+
+   # Crawl through each account.
+   for account_id in account_ids:
+      print(f"Working on {account_id}...")
+
+      try:
+         credentials = aws_crawler.get_credentials(
+               access_key,
+               secret_key,
+               session_token,
+               region_name,
+               f'arn:aws:iam::{account_id}:role/{role_name}'
+         )
+
+         client = boto3.client(
+               'sts',
+               aws_access_key_id=credentials['aws_access_key_id'],
+               aws_secret_access_key=credentials['aws_secret_access_key'],
+               aws_session_token=credentials['aws_session_token'],
+               region_name=credentials['region_name']
+         )
+
+         response = client.get_caller_identity()['UserId']
+      
+      except exceptions.ClientError as e:
+         response = 'Could not assume role'
+      
+      print(response)
+

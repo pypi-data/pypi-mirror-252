@@ -1,0 +1,5 @@
+aws_crawler/__init__.py,sha256=SvFRynOM5ZqjNbiA3PJtbePG98pbeAwWWVyT84PL-lA,3647
+aws_crawler/__main__.py,sha256=99UV-7_hyieu19s4zgMagO2lt5UF-PKEwywU0Fzzypo,150
+aws_crawler-1.0.0.dist-info/METADATA,sha256=61--utmjQgBQa5HAfkzifwwXHCP0G50CgKRaPTdN7n4,2549
+aws_crawler-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aws_crawler-1.0.0.dist-info/RECORD,,
