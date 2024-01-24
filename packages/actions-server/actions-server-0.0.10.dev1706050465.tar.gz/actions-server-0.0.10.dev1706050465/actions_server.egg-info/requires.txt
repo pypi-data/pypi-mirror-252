@@ -1,0 +1,3 @@
+requests>=2.31.0
+multipart>=0.2.4
+deser>=0.0.1
