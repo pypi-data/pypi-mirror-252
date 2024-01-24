@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+smartengine.egg-info/PKG-INFO
+smartengine.egg-info/SOURCES.txt
+smartengine.egg-info/dependency_links.txt
+smartengine.egg-info/requires.txt
+smartengine.egg-info/top_level.txt
