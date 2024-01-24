@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lavagame2/__init__.py
+src/lavagame2/example.py
+src/lavagame2.egg-info/PKG-INFO
+src/lavagame2.egg-info/SOURCES.txt
+src/lavagame2.egg-info/dependency_links.txt
+src/lavagame2.egg-info/top_level.txt
