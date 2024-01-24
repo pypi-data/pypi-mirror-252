@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bughunter9
+Version: 9.20
+Requires-Dist: requests
+Requires-Dist: colored==1.4.4
+Requires-Dist: colorama
+Requires-Dist: tqdm
+Requires-Dist: bs4
+Requires-Dist: beautifulsoup4
+Requires-Dist: dnspython
+Requires-Dist: retry
+Requires-Dist: ipcalc
+Requires-Dist: six
+Requires-Dist: ping3

@@ -1,0 +1,11 @@
+requests
+colored==1.4.4
+colorama
+tqdm
+bs4
+beautifulsoup4
+dnspython
+retry
+ipcalc
+six
+ping3
