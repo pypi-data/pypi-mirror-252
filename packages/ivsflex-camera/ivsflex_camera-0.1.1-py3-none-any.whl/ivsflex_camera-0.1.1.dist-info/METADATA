@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ivsflex-camera
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Anatol Dechauveron
+Author-email: a.dechauveron@ivsoftware.fr
+Requires-Python: >=3.8.10,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=3.0.0,<4.0.0)
+Requires-Dist: flask-cors (>=4.0.0,<5.0.0)
+Requires-Dist: opencv-contrib-python (>=4.8.1.78,<5.0.0.0)
+Requires-Dist: opencv-python (>=4.8.1.78,<5.0.0.0)
+Requires-Dist: pillow (>=10.0.1,<11.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
