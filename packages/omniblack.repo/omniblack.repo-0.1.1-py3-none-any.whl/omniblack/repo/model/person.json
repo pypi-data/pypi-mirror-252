@@ -1,0 +1,43 @@
+{
+    "$schema": "../../../../../model/schema/struct.schema.json",
+    "name": "person",
+    "display": {
+        "en": "Person"
+    },
+    "desc": {
+        "en": "Contact information for a person."
+    },
+    "fields": [
+        {
+            "name": "name",
+            "type": "string",
+            "required": true,
+            "display": {
+                "en": "Name"
+            },
+            "desc": {
+                "en": "The name of the person."
+            }
+        },
+        {
+            "name": "email",
+            "type": "email",
+            "display": {
+                "en": "Email Address"
+            },
+            "desc": {
+                "en": "An email address that can be used to contact this person."
+            }
+        },
+        {
+            "name": "url",
+            "type": "url",
+            "display": {
+                "en": "Website"
+            },
+            "desc": {
+                "en": "A url associated with this person"
+            }
+        }
+    ]
+}
