@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sqla_x.egg-info/PKG-INFO
+sqla_x.egg-info/SOURCES.txt
+sqla_x.egg-info/dependency_links.txt
+sqla_x.egg-info/requires.txt
+sqla_x.egg-info/top_level.txt
+test/__init__.py
+test/connect.py
+test/manager/__init__.py
+test/manager/test_manager.py
