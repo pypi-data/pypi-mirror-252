@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_coalesce/__init__.py
+src/django_coalesce/__main__.py
+src/django_coalesce/main.py
+src/django_coalesce/models.py
+src/django_coalesce/settings.py
+src/django_coalesce.egg-info/PKG-INFO
+src/django_coalesce.egg-info/SOURCES.txt
+src/django_coalesce.egg-info/dependency_links.txt
+src/django_coalesce.egg-info/top_level.txt
+src/django_coalesce/templatetags/__init__.py
+src/django_coalesce/templatetags/django_coalesce.py
+src/django_coalesce/tests/__init__.py
+src/django_coalesce/tests/test_main.py
