@@ -1,0 +1,7 @@
+omniblack.caddy
+omniblack.cli
+omniblack.model
+omniblack.repo
+pathspec~=0.8
+sh
+rich

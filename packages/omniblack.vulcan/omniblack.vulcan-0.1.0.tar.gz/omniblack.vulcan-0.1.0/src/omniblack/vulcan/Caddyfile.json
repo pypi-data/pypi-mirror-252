@@ -1,0 +1,28 @@
+{
+    "admin": {
+        "listen": ":8000",
+        "origins": [
+            "localhost",
+            "caddy"
+        ],
+        "enforce_origin": false
+    },
+    "apps": {
+        "http": {
+            "servers": {
+                "srv0": {
+                    "@id": "server",
+                    "listen": [
+                        ":3000"
+                    ],
+                    "automatic_https": {
+                        "@id": "We don't want https in dev",
+                        "disable": true,
+                        "disable_redirects": true
+                    },
+                    "routes": []
+                }
+            }
+        }
+    }
+}

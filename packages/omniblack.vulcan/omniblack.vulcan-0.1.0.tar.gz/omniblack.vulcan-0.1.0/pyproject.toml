@@ -1,0 +1,46 @@
+[project]
+name='omniblack.vulcan'
+version="0.1.0"
+requires-python='~=3.9'
+description='A tool for managing mono-repos.'
+
+dependencies = [
+    'omniblack.caddy',
+    'omniblack.cli',
+    'omniblack.model',
+    'omniblack.repo',
+    'pathspec ~= 0.8',
+    'sh',
+    'rich',
+]
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[project.urls]
+Homepage = "https://gitlab.com/terryp/terry/-/tree/next/tooling/vulcan"
+Repository = "https://gitlab.com/terryp/terry.git"
+
+[project.scripts]
+vulcan='omniblack.vulcan:app'
+
+[project.entry-points.'omniblack.model']
+main='omniblack.vulcan.model:model'
+
+
+[tool.setuptools.package-data]
+'*'=["*"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[build-system]
+requires = [
+    "setuptools ~= 68.2",
+]
+build-backend = "setuptools.build_meta"

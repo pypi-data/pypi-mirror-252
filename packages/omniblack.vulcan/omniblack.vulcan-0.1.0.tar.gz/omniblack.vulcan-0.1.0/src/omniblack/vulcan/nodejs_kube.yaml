@@ -1,0 +1,67 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ${__RESOURCE}
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: ${__RESOURCE}
+    strategy:
+        type: Recreate
+    template:
+        metadata:
+            labels:
+                app: ${__RESOURCE}
+        spec:
+            # spec for the pod
+            securityContext:
+                runAsUser: ${_UID}
+                runAsGroup: ${_GID}
+            restartPolicy: Always
+            backoffLimit: 0
+            containers:
+                - name: ${__RESOURCE}
+                  image: ${__IMAGE}
+                  workingDir: ${_SRC}/${__PATH}
+                  env:
+                      - name: NODE_ENV
+                        value: "development"
+                  volumeMounts:
+                      - mountPath: ${_SRC}
+                        name: source-code
+                        readOnly: false
+                      - mountPath: ${_NODE_ROOT}
+                        name: node-root
+                        readOnly: false
+                      - mountPath: /etc/localtime
+                        name: localtime
+                        readOnly: true
+                  securityContext:
+                      allowPrivilegeEscalation: false
+            volumes:
+                - name: source-code
+                  hostPath:
+                      path: ${_SRC}
+                      type: Directory
+                - name: node-root
+                  hostPath:
+                      path: ${_NODE_ROOT}/
+                      type: Directory
+                - name: localtime
+                  hostPath:
+                      path: /etc/localtime
+                      type: File
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: ${__RESOURCE}
+spec:
+    selector:
+        app: ${__RESOURCE}
+    ports:
+        - port: ${__PORT}
+          name: primary
+
