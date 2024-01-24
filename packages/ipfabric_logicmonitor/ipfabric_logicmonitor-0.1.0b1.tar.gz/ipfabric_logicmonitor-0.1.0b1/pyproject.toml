@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ipfabric_logicmonitor"
+version = "0.1.0b1"
+description = "Package supporting IP Fabric LogicMonitor Integration"
+authors = [
+    "Justin Jeffery <justin.jeffery@ipfabric.io>",
+    "Solution Architecture <solution.architecture@ipfabric.io>"
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/ip-fabric/integrations/ipfabric_logicmonitor"
+repository = "https://gitlab.com/ip-fabric/integrations/ipfabric_logicmonitor"
+keywords = ["ipfabric", "ip-fabric", "community-fabric"]
+
+[tool.poetry.urls]
+"IP Fabric" = "https://ipfabric.io/"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+ipfabric = "^6.6.0b4"
+logicmonitor-sdk = "^3.0.200"
+typing-extensions = "^4.7.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
