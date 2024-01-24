@@ -1,0 +1,12 @@
+psutil==5.9.7
+
+[devel]
+black==23.12.1
+build==1.0.3
+mypy==1.8.0
+pytest==7.4.4
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+python-kacl==0.4.6
+ruff==0.1.13
+types-psutil==5.9.5.20240106
