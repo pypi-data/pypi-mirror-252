@@ -1,0 +1,12 @@
+odoo/addons/femprocomuns/__init__.py,sha256=zNT2NvGcEjwQgOVsavkpLiHe242IbOncVY4EC0mqhwk,47
+odoo/addons/femprocomuns/__manifest__.py,sha256=UJfLSgES3rFXMDNQxTsCGkrhMPRz30dNWYTyL0ZRw9U,635
+odoo/addons/femprocomuns/controllers/__init__.py,sha256=DaNIU3YYF3LNoXD4EfZeplyy4UvADnr2LGVGW_Goow0,35
+odoo/addons/femprocomuns/controllers/website_subscription.py,sha256=FmPdsAPeD2HDi8vp6e9sY5ezk0ah5UCOHNDGk8cIE38,630
+odoo/addons/femprocomuns/models/__init__.py,sha256=sCVmYmtYm4gErw4oxc9I1kwZR925gCeT7MSapnWtZhU,35
+odoo/addons/femprocomuns/models/subscription_request.py,sha256=DKan7656TZ80qzbc-Uql3sldMtdTsrt1NHFzYTmtaxY,1865
+odoo/addons/femprocomuns/views/subscription_request_view.xml,sha256=ijrSed4oOWn1EfVlOYUcMqubfEuRrjYg4OgxYOOUuNc,464
+odoo/addons/femprocomuns/views/subscription_template.xml,sha256=NpQJ9tJ55Jm4j-EYIntamnyXJTsIhi29uex2uDc06RQ,3105
+odoo14_addon_femprocomuns-14.0.0.0.0.dist-info/METADATA,sha256=oe0YRlDhCwJjSW36Vg4AtDqPV4LftuYU_CEKB2uLM7o,510
+odoo14_addon_femprocomuns-14.0.0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo14_addon_femprocomuns-14.0.0.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_femprocomuns-14.0.0.0.0.dist-info/RECORD,,
