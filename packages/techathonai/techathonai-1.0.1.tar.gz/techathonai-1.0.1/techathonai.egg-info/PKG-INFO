@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: techathonai
+Version: 1.0.1
+Summary: A Python library for interacting with the Techathon AI API.
+Home-page: https://github.com/StepIntoTechCIC/techathon-ai-python
+Author: James Livesey (on behalf of Step Into Tech CIC)
+Author-email: james@jamesl.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.md
+
+# techathon-ai-python
+A Python library for interacting with the Techathon AI API.

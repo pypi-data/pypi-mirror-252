@@ -1,0 +1,9 @@
+LICENCE.md
+README.md
+pyproject.toml
+setup.cfg
+./techathonai/__init__.py
+techathonai.egg-info/PKG-INFO
+techathonai.egg-info/SOURCES.txt
+techathonai.egg-info/dependency_links.txt
+techathonai.egg-info/top_level.txt
