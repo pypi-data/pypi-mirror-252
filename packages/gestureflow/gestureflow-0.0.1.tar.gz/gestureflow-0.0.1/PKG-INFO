@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gestureflow
+Version: 0.0.1
+Summary: Streaming video data via networks
+Author: Jay Shirgupe
+Author-email: jns29072003@gmail.com
+Keywords: python,video,stream,video stream,camera stream,gesture detection,rapid gesture detection
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+
+
+# gestureflow
