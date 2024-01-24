@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: srse_manchester
+Version: 1.0.0
+Summary: My Ontology Lookup Service
+Home-page: https://github.com/sabadijou/srse_manchester/
+Author: Sadegh Abadijou
+Author-email: s.abadijou@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+Ontology Lookup Service
