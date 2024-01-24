@@ -1,0 +1,59 @@
+Tool	Subcommand	Description
+:ref:`AlignSets`		Multiple aligns sets of sequences sharing the same annotation
+	muscle	Uses the program MUSCLE to align reads
+	offset	Uses a table of primer alignments to align the 5' region
+	table	Creates a table of primer alignments for the offset subcommand
+:ref:`AssemblePairs`		Assembles paired-end reads into a complete sequence
+	align	Assembles paired-end reads by aligning the sequence ends
+	join	Concatenates pair-end reads with intervening gaps
+	reference	Assembles paired-end reads using V-segment references
+	sequential	Attempt alignment assembly followed by reference assembly
+:ref:`BuildConsensus`		Constructs UMI consensus sequences
+:ref:`ClusterSets`		Clusters read groups
+	all	Cluster all sequences regardless of annotation
+	barcode	Cluster reads by clustering barcode sequences
+	set	Cluster reads by sequence data within barcode groups
+:ref:`CollapseSeq`		Removes duplicate sequences
+:ref:`ConvertHeaders`		Converts sequence headers to the pRESTO format
+	454	Converts Roche 454 sequence headers
+	genbank	Converts NCBI GenBank and RefSeq sequence headers
+	generic	Converts sequence headers with an unknown annotation system
+	illumina	Converts Illumina sequence headers
+	imgt	Converts sequence headers output by IMGT/GENE-DB
+	migec	Converts sequence headers output by MIGEC
+	sra	Converts NCBI SRA or EMBL-EBI ENA sequence headers
+:ref:`EstimateError`		Estimates error rates for UMI data
+	barcode	Calculates pairwise distance metrics of barcode sequences
+	set	Estimates error statistics within annotation sets
+:ref:`FilterSeq`		Removes or modifies low quality reads
+	length	Removes sequences under a defined length
+	maskqual	Masks low Phred quality score positions with Ns
+	missing	Removes sequences with a high number of Ns
+	quality	Removes sequences with low Phred quality scores
+	repeats	Removes sequences with long repeats of a single nucleotide
+	trimqual	Trims sequences to segments with high Phred quality scores
+:ref:`MaskPrimers`		Identifies and removes primer regions, MIDs and UMI barcodes
+	align	Matches primers by local alignment and reorients sequences
+	extract	Removes and annotates a fixed sequence region
+	score	Matches primers at a fixed user-defined start position
+:ref:`PairSeq`		Sorts paired-end reads and copies annotations between them
+:ref:`ParseHeaders`		Manipulates sequence annotations
+	add	Adds a field and value annotation pair to all reads
+	collapse	Compresses a set of annotation fields into a single field
+	copy	Copies values between annotations fields
+	delete	Deletes an annotation from all reads
+	expand	Expands an field with multiple values into separate annotations
+	merge	Merge multiple annotations fields into a single field
+	rename	Rename annotation fields
+	table	Outputs sequence annotations as a data table
+:ref:`ParseLog`		Converts the log output of pRESTO scripts into data tables
+:ref:`SplitSeq`		Performs conversion, sorting, and subsetting of sequence files
+	count	Splits files into smaller files
+	group	Splits files based on numerical or categorical annotation
+	sample	Randomly samples sequences from a file
+	samplepair	Randomly samples paired-end reads from two files
+	select	Filters sequences based on annotations
+	sort	Sorts sequences based on annotations
+:ref:`UnifyHeaders`		Unifies annotation fields based on grouping scheme
+	consensus	Reassign fields to consensus values
+	delete	Delete sequences with differing field values.
