@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: srcdit
+Version: 0.1.11
+Summary: Edit and source dotfiles directly from the terminal
+Author: Arpit J
+Maintainer: Arpit J
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# srcdit
+
+Edit and source dotfiles directly from the terminal
+
+### Usage
+```bash
+srcdit <file> <key=value>
+```
+
+Example -
+```bash
+srcdit .zshrc ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+### WIP!
+* Source edited files
+* Debug
