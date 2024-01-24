@@ -1,0 +1,10 @@
+pysegd3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysegd3/readsegd3.py,sha256=8V89HyjVCV2RUbcZQZtsxnMMzCGlbW6c80kdl1yczy0,27401
+pysegd3/readsegd3_as_obspy.py,sha256=i_GAUnJr9Bi9MZPXuUKchzej0mKI93ygpau_I9OJzTE,1531
+pysegd3-1.0.1.data/scripts/readsegd3.py,sha256=eTvxtWJNdBXu4ofIjGVJGBfeoZthpA6_rILoieRmN7g,27388
+pysegd3-1.0.1.data/scripts/readsegd3_as_obspy.py,sha256=reQy6csk6_BsbRtxRtlCSkgKpMsIeuJErq_0uf-3Qxg,1518
+pysegd3-1.0.1.dist-info/LICENSE,sha256=nEemrEN7E_xKswzdT0MfVT2AUrNuf0LorgDgoaVcbSg,34524
+pysegd3-1.0.1.dist-info/METADATA,sha256=_RaiS-HS2ukIW5Gnm1JT1z3XPz9X7d40CUeamCJNfRg,501
+pysegd3-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pysegd3-1.0.1.dist-info/top_level.txt,sha256=pym2cfTXWyI30dU2GcSb7wO-XM0EJ4C56ocKkP8KQtQ,8
+pysegd3-1.0.1.dist-info/RECORD,,
