@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cridis
+Version: 0.0.1a0
+Summary: 재해 정보 유틸
+Author: Jx2H
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
