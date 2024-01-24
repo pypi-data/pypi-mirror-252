@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bluidmason
+Version: 0.0.1
+Summary: A command-line tool for generating scaffolding projects with different configurations. 
+Home-page: https://github.com/Worm4047/BuildMason
+Author: Abhishek Chaudhary
+Author-email: abhishek20144047@gmail.com
+License: MIT
+Keywords: cli abhishek chaudhary flask project development software blueprint
+Requires-Dist: Click
+Requires-Dist: cookiecutter
+
+BuildMason is a command-line tool for generating Flask projects with different configurations. It currently supports creating a basic Flask project, a Flask REST API project, and a Flask project with Blueprints.

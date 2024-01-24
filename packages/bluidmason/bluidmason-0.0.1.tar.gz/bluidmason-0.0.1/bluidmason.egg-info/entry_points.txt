@@ -1,0 +1,2 @@
+[console_scripts]
+buildmason = buildmason.app:cli

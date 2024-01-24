@@ -1,0 +1,8 @@
+README.md
+setup.py
+bluidmason.egg-info/PKG-INFO
+bluidmason.egg-info/SOURCES.txt
+bluidmason.egg-info/dependency_links.txt
+bluidmason.egg-info/entry_points.txt
+bluidmason.egg-info/requires.txt
+bluidmason.egg-info/top_level.txt
