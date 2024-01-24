@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: test-pack-f
+Version: 1.0.7
+Summary: testing
+Author: tmp
+Author-email: tmp@ctmp.com
+Keywords: test pack final
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.10
+Requires-Dist: pandas
+
+# test pack
+
+testing
+
+### Features
+
+- test
+- testing.
+
+### Usage
+
+```
+import test_pack
+
+print(test_pack.__version__)
+```
