@@ -1,0 +1,14 @@
+aiosocketproto/__init__.py,sha256=LkC8HEo22DpB8Q2_nBCd9W4sMLqLsGueLFw2EBTaiVM,264
+aiosocketproto/client/__init__.py,sha256=4by-uRHY5gP6IXQl5ehyrdf6xVotd4vxoDSsIGvgW04,59
+aiosocketproto/client/client.py,sha256=ijzxbeM2fTx81CE10FtU8z8mYHkLNUdaPxN0TASJO7U,583
+aiosocketproto/client/methods.py,sha256=0TMRI2SyNlPXykGgXY0fWCwsXpT7_9J3X4zrGqMk4v0,2569
+aiosocketproto/client/processor.py,sha256=-QFjMhGEUgemCDAgp0m3ud7SObi30ZAUPNVhBuohYmA,4965
+aiosocketproto/client/serializer.py,sha256=TAAQdy3DUZXXyXh6-j_aDe_6jHsLSms6O3q32AENXuo,3795
+aiosocketproto/server/__init__.py,sha256=stb0c3snPXQtH-VkR6abbkATlqmE9Lr0c-5SX4x3qNE,59
+aiosocketproto/server/processor.py,sha256=GoyqM4H7-Lr3OjsOgOmcmwHRY3yLv2QMNC99evJLQQQ,925
+aiosocketproto/server/server.py,sha256=R0KtZTIj-f05yZz7RYqKfkJRQg184vh6cU4RZyizamk,1563
+aiosocketproto-0.0.13.dist-info/LICENSE,sha256=dbs1fhgtX-mb929RUbIiTuYyVpYMHJLrkk5qtCSc_lk,1065
+aiosocketproto-0.0.13.dist-info/METADATA,sha256=jUJg_Np9NGITzEKrPL_hlJ0PzhLB_XYmyb3Il9uVNIw,1910
+aiosocketproto-0.0.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aiosocketproto-0.0.13.dist-info/top_level.txt,sha256=ZyHhCfKSXS6AGCErDQ9elGmkw99yYo0ZMCPrN877ZtQ,15
+aiosocketproto-0.0.13.dist-info/RECORD,,
