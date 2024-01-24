@@ -1,0 +1,2 @@
+[console_scripts]
+xss_scan = xss_scan.main:main

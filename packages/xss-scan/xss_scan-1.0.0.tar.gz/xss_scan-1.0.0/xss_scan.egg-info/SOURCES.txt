@@ -1,0 +1,17 @@
+setup.py
+includes/__init__.py
+includes/bot.py
+includes/config.py
+includes/filereader.py
+includes/scan.py
+includes/writefile.py
+utils/__init__.py
+utils/configure.py
+utils/const.py
+utils/helpers.py
+xss_scan.egg-info/PKG-INFO
+xss_scan.egg-info/SOURCES.txt
+xss_scan.egg-info/dependency_links.txt
+xss_scan.egg-info/entry_points.txt
+xss_scan.egg-info/requires.txt
+xss_scan.egg-info/top_level.txt

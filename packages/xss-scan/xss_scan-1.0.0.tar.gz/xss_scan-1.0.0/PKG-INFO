@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: xss_scan
+Version: 1.0.0
+Summary: CVE-2023-29489: XSS Bug scanner for WebPentesters and Bugbounty Hunters
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
