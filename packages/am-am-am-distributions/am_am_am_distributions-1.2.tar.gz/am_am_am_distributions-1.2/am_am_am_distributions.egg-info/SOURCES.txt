@@ -1,0 +1,12 @@
+license.txt
+setup.cfg
+setup.py
+am_am_am_distributions/Binomialdistribution.py
+am_am_am_distributions/Gaussiandistribution.py
+am_am_am_distributions/Generaldistribution.py
+am_am_am_distributions/__init__.py
+am_am_am_distributions.egg-info/PKG-INFO
+am_am_am_distributions.egg-info/SOURCES.txt
+am_am_am_distributions.egg-info/dependency_links.txt
+am_am_am_distributions.egg-info/not-zip-safe
+am_am_am_distributions.egg-info/top_level.txt
