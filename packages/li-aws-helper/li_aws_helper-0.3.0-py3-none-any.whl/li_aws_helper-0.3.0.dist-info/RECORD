@@ -1,0 +1,10 @@
+li_aws_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+li_aws_helper/aws_config.py,sha256=epYmS0RYJUkYJudMFwyvsvWS87iP9uVchye9Qfi2XI8,1714
+li_aws_helper/exceptions.py,sha256=Fpa2GT0I-1AIo87iQJ7cJBNkyIM6K8J4ipFfzN7_dOs,1356
+li_aws_helper/main.py,sha256=Rfb5f1mS2Ubk5ASDBL3jmhFs1nS2qCQD9a036qXptok,886
+li_aws_helper/sts_client.py,sha256=l7LjD_a_XdGn2GncLhncuakRvFPjo98r6_nFGcCsrls,1186
+li_aws_helper-0.3.0.dist-info/LICENSE,sha256=zizjnK8jk-B3xXjid8gki7jwwruCeCCmWhZ_TmLKNj8,1070
+li_aws_helper-0.3.0.dist-info/METADATA,sha256=csq7oyLC5I_YiiEnoz7GnLWvyf6lWEStH9JijS5FWf4,572
+li_aws_helper-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+li_aws_helper-0.3.0.dist-info/entry_points.txt,sha256=NcjGrlk_NQBSsejW0bVK6Gx_ofu4X50tCFNxq50FHBk,45
+li_aws_helper-0.3.0.dist-info/RECORD,,
