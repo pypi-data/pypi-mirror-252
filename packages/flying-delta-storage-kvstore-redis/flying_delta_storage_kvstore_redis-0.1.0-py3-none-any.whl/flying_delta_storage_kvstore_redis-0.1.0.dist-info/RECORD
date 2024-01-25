@@ -1,0 +1,5 @@
+llama_index/storage/kvstore/redis/__init__.py,sha256=KZQZ82jZctKzYoOYwSqELcdL5y6BKo8raUPMCUCkfzM,93
+llama_index/storage/kvstore/redis/base.py,sha256=qjTjsHav491g-vyr4xzQSgUXC2M-Bdx1_0rvgNy_v5k,5333
+flying_delta_storage_kvstore_redis-0.1.0.dist-info/METADATA,sha256=k1nYECZxkTdcBhm11iXj2A3gUa_60hasqbXgwIVeUkY,648
+flying_delta_storage_kvstore_redis-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flying_delta_storage_kvstore_redis-0.1.0.dist-info/RECORD,,
