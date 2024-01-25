@@ -1,0 +1,8 @@
+LICENSE
+README.md
+client.py
+pyproject.toml
+pyappstoreconnect.egg-info/PKG-INFO
+pyappstoreconnect.egg-info/SOURCES.txt
+pyappstoreconnect.egg-info/dependency_links.txt
+pyappstoreconnect.egg-info/top_level.txt
