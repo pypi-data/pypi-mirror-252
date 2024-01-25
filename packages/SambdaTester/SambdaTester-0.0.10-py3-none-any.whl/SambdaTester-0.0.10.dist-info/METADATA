@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: SambdaTester
+Version: 0.0.10
+License-File: LICENSE.txt
+Requires-Dist: yaml
+
