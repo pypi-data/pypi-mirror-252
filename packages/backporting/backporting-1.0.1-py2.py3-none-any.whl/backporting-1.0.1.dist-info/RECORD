@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/backporting_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/backporting_tool/app.py,sha256=75sXJ9qVDmgV_boh6ErcI_TSQBEgqH6IWlMNvwPIeQY,3415
+src/backporting_tool/google_diff_match_patch.py,sha256=bPugTVmBMIuqAzNdh3-OlThsXoW-colMX_NTRkiCqgo,77664
+backporting-1.0.1.dist-info/METADATA,sha256=HYEvMYRn_ZUkf8tz-PhJlvM-FBP6FpoCWmhlHUha10I,1332
+backporting-1.0.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+backporting-1.0.1.dist-info/entry_points.txt,sha256=bLLohzPOpv-7r7c05ElG8vriCP9-rsnFX2UvaPmtFO8,62
+backporting-1.0.1.dist-info/top_level.txt,sha256=JwXlNSjli9W0jTJU76p8HYzgp930F95jl_l8oGUv61Q,16
+backporting-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+backporting-1.0.1.dist-info/RECORD,,
