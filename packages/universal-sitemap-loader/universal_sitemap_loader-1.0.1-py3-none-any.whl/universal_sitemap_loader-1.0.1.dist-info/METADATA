@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: universal_sitemap_loader
+Version: 1.0.1
+Summary: Find the sitemap no matter where it is.
+Project-URL: Source, https://github.com/namedmichi/universalSitemapLoader
+Author-email: Michael Selbertinger <info@michael-selbertinger.de>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.30.0
+Description-Content-Type: text/markdown
+
+# Universal Sitemap Loader
+
+**Universal Sitemap Loader** the easiest way to find a Sitemap
+
+```python
+   >>> from universal_sitemap_loader import UniversalSitemapLoader
+   >>> loader = UniversalSitemapLoader("https://www.example.com/")
+   >>> sitemap = loader.find_sitemap()
+```
+
+This tries to find the Sitemap no matter where the heck it is.
+
+## Key Features
+
+-   Can handel compressed (.gz) files
+-   Recursively gets the URL´s from all sitemaps
+-   tries to find even the strangest placed sitemaps
+
+Other functions include:
+
+```python
+>>> urls = loader.get_urls()
+or
+>>> urls = loader.get_urls_from_sitemap("https://www.example.com/sitemap.xml")
+```
+
+## Installing the Package
+
+Universal Sitemap Loader is available on PyPI:
+
+```console
+$ python -m pip install universal-sitemap-loader
+```
+
+Officially supports Python 3.7+.
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more details
