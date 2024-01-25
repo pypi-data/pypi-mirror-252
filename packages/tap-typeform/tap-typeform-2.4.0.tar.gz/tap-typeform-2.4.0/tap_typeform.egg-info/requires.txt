@@ -1,0 +1,11 @@
+singer-python==6.0.0
+pendulum
+ratelimit
+backoff
+requests
+parameterized
+
+[dev]
+pylint
+ipdb
+nose2
