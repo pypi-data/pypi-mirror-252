@@ -1,0 +1,15 @@
+FinToolsAP/Decorators.py,sha256=RR9KLQ23D2K--m1duIrKwvkSMALN2RSu8UCl7JVEjLA,3287
+FinToolsAP/LaTeXBuilder.py,sha256=hyb4Iwog_uniy8htXhFoXXIOWFh_PXG00V-ESbv9wP0,17853
+FinToolsAP/LocalDatabase.py,sha256=CovD__XtAAyD8HQDPc3JiZ_8sJe8hDZYH2UCDNfAIYg,65984
+FinToolsAP/PortfolioSorts.py,sha256=WTeQdnVjJtRMCKs3ZDwF7wsHIZFn0Axk5ECYSRCiIjc,25106
+FinToolsAP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FinToolsAP/_config.py,sha256=yHyk85yBgNZMdiWEO7v_JSRKtnB67Z1uDjv5nzDdwe4,7137
+FinToolsAP/_download_script.py,sha256=5gCrn5n_MMyLXZFPCWIJQpwspSLFDYOYCeG0FSX5V1k,1079
+FinToolsAP/_util_funcs.py,sha256=TRyol-s_OYZK04AzhUmhCqixNIC12oaBpDPHw0kasCY,4983
+FinToolsAP/base_files/DatabaseParameters.py,sha256=_vEk811TnUxZDko-KqiUCQB93AsIX6gO6DF8f6ge9-I,2006
+FinToolsAP/base_files/ExampleCreateTable.py,sha256=QRZ-SiFJ1kXHnI-zrQF75T0V8ZmAVa6JfNzICGT1T5g,1229
+FinToolsAP/base_files/ExampleExtraScript.py,sha256=P18lw9GK4xKu3A3kDndy6bQr5ngzn52t7mTE2HklG6A,1738
+fintoolsap-1.3.12.dist-info/METADATA,sha256=LBWLiof5uZPgqg7xnKWZ7qsIHxDkxuDPbRavMz0Tmzg,3888
+fintoolsap-1.3.12.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+fintoolsap-1.3.12.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+fintoolsap-1.3.12.dist-info/RECORD,,
