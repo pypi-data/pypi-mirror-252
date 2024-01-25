@@ -1,0 +1,8 @@
+turu/bigquery/__init__.py,sha256=pSPTg_PwHv-PZHE6k6zUMf4Trn8Y8RtQx7PIOOv3DhY,339
+turu/bigquery/connection.py,sha256=iBQMCKTlqQzLUA7lnsWvGE8WjgPhDVcrZXXV0q8lmyM,1692
+turu/bigquery/cursor.py,sha256=lWOkqAfLrUZzOGELnWanxLw-AJlZuxJRrNO_KwtBF9A,4695
+turu/bigquery/mock_connection.py,sha256=Ljyj99L0I8i_lYgnhCHXmNDkD1Cdem8yi3sEklxczc4,466
+turu/bigquery/mock_cursor.py,sha256=nKf5M4qCPA7ERcFe5uKJfusNeu1iGN6mObNHWmh7evE,253
+turu_bigquery-0.8.0.dist-info/METADATA,sha256=1qQWsz2fnFeme5RHuRqX3QdI4dqEhv5CiYoxjZs9HlI,1524
+turu_bigquery-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_bigquery-0.8.0.dist-info/RECORD,,
