@@ -1,0 +1,2 @@
+[console_scripts]
+rapidqcms = rapidqcms.__main__:main
