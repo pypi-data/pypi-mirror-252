@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/PySerials.egg-info/PKG-INFO
+src/PySerials.egg-info/SOURCES.txt
+src/PySerials.egg-info/dependency_links.txt
+src/PySerials.egg-info/not-zip-safe
+src/PySerials.egg-info/requires.txt
+src/PySerials.egg-info/top_level.txt
+src/pyserials/__init__.py
