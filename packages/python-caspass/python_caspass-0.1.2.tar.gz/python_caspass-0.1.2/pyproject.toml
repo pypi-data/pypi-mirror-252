@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-caspass"
+version = "0.1.2"
+description = "CASPass - Login through Central Authentification Systems"
+authors = ["Olivier Schwander <olivier.schwander@chadok.info>"]
+readme = "README.md"
+packages = [{include = "caspass"}]
+homepage = "https://codeberg.org/oschwand/python-caspass"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playwright = "^1.32.1"
+httpx = { version = "^0.26.0", optional = true }
+python-decouple = { version = "^3.8", optional = true }
+bs4 = { version = "^0.0.2", optional = true }
+
+[tool.poetry.extras]
+examples = ["httpx", "python-decouple", "bs4"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
