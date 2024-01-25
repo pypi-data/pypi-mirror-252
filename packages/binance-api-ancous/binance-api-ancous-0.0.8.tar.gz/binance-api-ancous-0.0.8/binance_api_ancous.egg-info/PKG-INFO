@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: binance-api-ancous
+Version: 0.0.8
+Summary: Interaction with the Binance exchange
+Home-page: https://github.com/Ancous/binance-api.git
+Author: Ancous
+Author-email: alex_taras@bk.ru
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: certifi>=2023.11.17
+Requires-Dist: charset-normalizer>=3.3.2
+Requires-Dist: idna>=3.6
+Requires-Dist: requests>=2.31.0
+Requires-Dist: urllib3>=2.1.0
+Requires-Dist: websockets>=12.0
+
+# FUTURES
+
+### MARKET DATA ENDPOINTS FUTURES
+
+GET /fapi/v1/constituents
+
+GET /futures/data/delivery-price
+
+GET /fapi/v1/fundingInfo
+
+GET /futures/data/basis
+
+### TRADING ENDPOINTS FUTURES
+
+GET /fapi/v1/order/asyn
+
+GET /fapi/v1/order/asyn/id
+
+GET /fapi/v1/trade/asyn
+
+GET /fapi/v1/trade/asyn/id
+
+GET /fapi/v1/constituents
+
+### MARKET DATA STREAMS FUTURES
+
+!assetIndex@arr
+
+<.assetSymbol.>@assetIndex
+
+# SPOT
+
+### MARKET DATA ENDPOINTS SPOT
+
+GET /api/v3/ticker/tradingDay
+
+### MARKET DATA STREAM SPOT
+
+<.symbol.>@avgPrice
+
+---
+
+РџРѕСЃР»РµРґРЅРёР№ РїСЂРѕСЃРјРѕС‚СЂ Futures 2024-01-24
+
+РџРѕСЃР»РµРґРЅРёР№ РїСЂРѕСЃРјРѕС‚СЂ Spot 2024-01-24
