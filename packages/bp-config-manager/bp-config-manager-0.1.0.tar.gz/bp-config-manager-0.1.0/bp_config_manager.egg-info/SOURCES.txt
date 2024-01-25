@@ -1,0 +1,6 @@
+setup.py
+bp_config_manager.egg-info/PKG-INFO
+bp_config_manager.egg-info/SOURCES.txt
+bp_config_manager.egg-info/dependency_links.txt
+bp_config_manager.egg-info/top_level.txt
+confussion/__init__.py
