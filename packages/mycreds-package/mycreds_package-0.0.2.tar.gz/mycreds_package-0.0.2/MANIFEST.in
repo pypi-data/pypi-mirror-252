@@ -1,0 +1,2 @@
+recursive-include mycreds_package/certMaker/fonts *.ttf
+recursive-include mycreds_package/certMaker/templates *.jpg
