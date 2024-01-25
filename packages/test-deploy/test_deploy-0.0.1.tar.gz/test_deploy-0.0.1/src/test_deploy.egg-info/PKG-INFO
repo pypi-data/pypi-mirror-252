@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: test_deploy
+Version: 0.0.1
+Summary: A small example package
+Author-email: Example Author <author@example.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction to Django
+
+Django is a high-level Python web framework that enables rapid development of secure and scalable web applications. It follows the Model-View-Controller (MVC) architectural pattern and emphasizes the principle of "Don't Repeat Yourself" (DRY).
+
+With Django, developers can focus on writing their application's logic instead of dealing with low-level details. It provides a robust set of tools and features, including an ORM (Object-Relational Mapping) for database management, a templating engine for rendering dynamic content, and built-in support for user authentication and authorization.
+
+Django's batteries-included approach means that many common web development tasks, such as URL routing, form handling, and session management, are already implemented and ready to use. This allows developers to quickly build and deploy complex web applications with minimal effort.
+
+In addition to its core functionality, Django has a vibrant and active community that contributes to its ecosystem. There are numerous third-party packages available for extending Django's capabilities, making it even more powerful and versatile.
+
+Whether you're a beginner or an experienced developer, Django provides a solid foundation for building web applications. Its clean and intuitive syntax, coupled with its extensive documentation, makes it a popular choice for developers worldwide.
+
+In this tutorial series, we will explore the various components of Django and learn how to build a fully functional web application from scratch. So let's get started!
