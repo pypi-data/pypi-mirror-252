@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vayu-client
+Version: 0.0.4
+Summary: Simple and easy to use python package for utilizing vayu billing system
+Home-page: https://withvayu.com
+Author: Vayu, Inc.
+Author-email: team@withvayu.com
+License: UNKNOWN
+Keywords: vayu,billing,events,python,sdk
+Platform: UNKNOWN
+Requires-Python: ==3.7.*
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
