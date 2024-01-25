@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: renify
+Version: 0.0.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: A batch renaming tool for files and folders, written in Rust.
+Keywords: automation,rename,cli,rust
+Author: Jamjamjon <jamjamjon.usls@gmail.com>
+Author-email: Jamjamjon <jamjamjon.usls@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/jamjamjon/renify
+
+# renify
+Renify is a secure and simple batch renaming tool crafted in Rust. 
+
+
+# Installation
+You can install renify with `pip` or `cargo`
+```
+cargo install renify
+pip insatll renify
+```
+
+# Usage
+For those new to Renify, consider using the `--it` flag for interactive mode. using `--input` or `-i` to specify the files or folders you'd like to transform!
+```bash
+renify -i 4test/ -it
+```
+
