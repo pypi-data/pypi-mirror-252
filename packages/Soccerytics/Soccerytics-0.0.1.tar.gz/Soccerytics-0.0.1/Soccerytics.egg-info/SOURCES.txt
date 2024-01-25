@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+Soccerytics/__init__.py
+Soccerytics/datafilter.py
+Soccerytics/extract.py
+Soccerytics/plot.py
+Soccerytics.egg-info/PKG-INFO
+Soccerytics.egg-info/SOURCES.txt
+Soccerytics.egg-info/dependency_links.txt
+Soccerytics.egg-info/top_level.txt
