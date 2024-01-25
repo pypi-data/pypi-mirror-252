@@ -1,0 +1,2 @@
+[console_scripts]
+hx = heptagon:cli
