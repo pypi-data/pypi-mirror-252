@@ -1,0 +1,10 @@
+atlas_provider_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_provider_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_provider_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_provider_django/management/commands/atlas-provider-django.py,sha256=E-FVSOA6AOgPyT2araGnUQ1CuNmbd6DUQ74rDUlwFEc,9070
+atlas_provider_django/management/commands/migrations.py,sha256=mBwVsVWkEWZZTRkDDzw362XPxfadG7A5A-cEgNAEnHU,1036
+atlas_provider_django/settings.py,sha256=QAhAWL5xWlXwrOTlhRi_daZkuG1Al77KE53htpYVv5o,270
+atlas_provider_django-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+atlas_provider_django-0.1.5.dist-info/METADATA,sha256=4r-7WDSJngki5Uh0CP3FFIVG590WBzshT8DlA1-HDMo,3293
+atlas_provider_django-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+atlas_provider_django-0.1.5.dist-info/RECORD,,
