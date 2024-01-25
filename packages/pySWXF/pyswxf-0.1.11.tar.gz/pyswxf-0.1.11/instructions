@@ -1,0 +1,4 @@
+python3 -m build
+python3 -m twine upload --repository pySWXF dist/*
+
+the code goes to the pypi.org website.  Username is luriol password is in onepassword
