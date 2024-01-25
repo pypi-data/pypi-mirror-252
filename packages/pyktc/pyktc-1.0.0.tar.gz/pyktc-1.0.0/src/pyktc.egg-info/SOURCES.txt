@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pyktc.egg-info/PKG-INFO
+src/pyktc.egg-info/SOURCES.txt
+src/pyktc.egg-info/dependency_links.txt
+src/pyktc.egg-info/entry_points.txt
+src/pyktc.egg-info/top_level.txt

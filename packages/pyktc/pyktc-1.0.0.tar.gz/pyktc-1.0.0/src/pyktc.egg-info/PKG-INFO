@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyktc
+Version: 1.0.0
+Summary: A Python implementation of a basic keyword transposition cipher
+Home-page: https://github.com/w4ffl35/pyktc
+Author: w4ffl35
+License: MIT
+Keywords: cipher,keyword transposition cipher,ktc,transposition cipher
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Keyword Transposition Cipher
+
+An implementation of a basic keyword transposition cipher in Python.
+
+## Installation
+
+`pip install .`
+
+## Usage
+
+- **Initialize** `from pyktc.cipher import Cipher; ktc = Cipher('secret')`
+- **Encrypt** `ktc.encrypt('CRYPTOLOGY')`
+- **Decrypt** `ktc.decrypt('MNYDX WHWJY')`
+
+## Limitations
+
+The basic implementation only works with A-Z though it can easily be extended to support other characters.
