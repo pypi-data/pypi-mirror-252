@@ -1,0 +1,12 @@
+turu/mysql/__init__.py,sha256=LRu9T1yk4ElFLljg9Zy-QR0Zyp5Ocp12jXQZYg4-t-w,781
+turu/mysql/async_connection.py,sha256=28N8IWwC86WoSiqx89o8QftsIx1fvt-sM7Y4OFVGgeA,2775
+turu/mysql/async_cursor.py,sha256=1IhWxyLERXGmJtAO-AUkIis9sxcUS9-LgIZtW19FbKQ,4016
+turu/mysql/connection.py,sha256=gJ2THR_UzmwxHO-DR_LBDMWKljQoCj5tA-S_XzFw33s,2718
+turu/mysql/cursor.py,sha256=D27ZPs9pBhUGwi7ljM1fvki-Bdd1pmALSSe5pk2987g,3975
+turu/mysql/mock_async_connection.py,sha256=IHvhCKPqWxgI7o90X50sgBMFmcdme9TIGnXC9FpRabg,574
+turu/mysql/mock_async_cursor.py,sha256=ZlZyFgzHFiIu_n1C32bjzr897nOpiEw8pOpVH11pTag,318
+turu/mysql/mock_connection.py,sha256=9dEzxgza6QGd0xKuBQTC2f7V_NbyOnoQvM35ymsmBIk,462
+turu/mysql/mock_cursor.py,sha256=xdhd4k0h3Iclf_e7krFzrM3Pli7zQ-17-viKS-EFMzI,255
+turu_mysql-0.8.0.dist-info/METADATA,sha256=Darn_Zbb7WRyWCateRUCUfF_YPnMsjkm0m6LNxZeK84,1470
+turu_mysql-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_mysql-0.8.0.dist-info/RECORD,,
