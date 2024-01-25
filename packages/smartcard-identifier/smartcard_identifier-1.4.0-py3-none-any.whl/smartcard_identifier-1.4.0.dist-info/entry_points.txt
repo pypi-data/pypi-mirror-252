@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = smartcard_identifier:main
