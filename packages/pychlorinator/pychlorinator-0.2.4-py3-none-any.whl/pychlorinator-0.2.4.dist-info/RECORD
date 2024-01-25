@@ -1,0 +1,12 @@
+pychlorinator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychlorinator/chlorinator.py,sha256=DkKnnba5AcDSAg_LZwOUlzjAU2cGXRn9bW-IX-73v5w,6114
+pychlorinator/chlorinator_parsers.py,sha256=ifsQkTddBUyE4LkdJeCNQJn3tapxjny17NuXJQFqYNU,11337
+pychlorinator/halo_parsers.py,sha256=01yB_CTgaPivX74rlRjupujhthEgMiTSUTN-vMZAV-A,37007
+pychlorinator/halochlorinator.py,sha256=finKT58qixFzgVyp-uDhPYJyh_9xUsvaoxTG5YWBYMk,10987
+pychlorinator/test.py,sha256=v_T1haY8hrbjl5bgFf01FZBsPcZ5YOGfOK3fcXWLW6A,480
+pychlorinator/test_connect.py,sha256=Si6PYFWlEbQ2NEcViAkH8jIP2S-xYU0T6QiKdOVHLwQ,1247
+pychlorinator/test_discover.py,sha256=oT2OoSgvzWZ-CQA-HVyuLfAXSZJNbVHPZRdEnxqqPlg,343
+pychlorinator-0.2.4.dist-info/LICENSE,sha256=_hdUCmoRDzki4fYDJfn-5KpG7-7p6YJ6IsbMfrTXN6Y,1078
+pychlorinator-0.2.4.dist-info/METADATA,sha256=ifq_Y8hiYp0IMz0ScaVkl1dRHU5a2dKk4nEdEWMssRM,1486
+pychlorinator-0.2.4.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pychlorinator-0.2.4.dist-info/RECORD,,
