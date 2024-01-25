@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "project-is-even"
+version = "0.1.0"
+description = ""
+authors = ["Cicero98"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+numpy = "^1.26.3"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 95
+target-version = [ "py39",]
+
+[tool.poetry.scripts]
+ev = "is_even_folder.cli:cli"
