@@ -1,0 +1,4 @@
+piexif>=1.1.0
+colorama>=0.4.0
+whisper.ai>=1.0.0
+Pillow>=8.0.0
