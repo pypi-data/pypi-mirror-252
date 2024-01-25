@@ -1,0 +1,9 @@
+jsoncanon/__init__.py,sha256=pQY1U4dtE7TF5ZV6Qr-tQqwZTKMliPVDFx6y6yzsfhg,79
+jsoncanon/core.py,sha256=ijZbkLwAxeTB40L32630z99HXbx8mKoDJT9mupWy2d0,690
+jsoncanon/functions.py,sha256=TC2JJKOv5T9YJCP9ktbarSTudzZGjPFrVDC3OThUDKU,846
+jsoncanon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsoncanon/util.py,sha256=etwRpBGeI8PDd_yXjeh8n1IQMokvyVgnqNoFuk7YBR4,2116
+jsoncanon-0.2.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jsoncanon-0.2.3.dist-info/METADATA,sha256=TaDaLppZXg62z5v6icsaBpTz1lQEeaeP5Y1lTxiXG_w,1836
+jsoncanon-0.2.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+jsoncanon-0.2.3.dist-info/RECORD,,
