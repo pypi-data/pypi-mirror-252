@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+edupils/__init__.py
+edupils.egg-info/PKG-INFO
+edupils.egg-info/SOURCES.txt
+edupils.egg-info/dependency_links.txt
+edupils.egg-info/requires.txt
+edupils.egg-info/top_level.txt
+edupils/audio/__init__.py
+edupils/audio/audio_handler.py
+edupils/drawing/__init__.py
+edupils/drawing/labirinto.py
+edupils/drawing/turtle.py
+edupils/drawing/utils.py
+edupils/image/__init__.py
+edupils/image/image_handler.py
