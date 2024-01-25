@@ -1,0 +1,8 @@
+pylibsrtp/__init__.py,sha256=mjLcuDlewFvOF0AZqbU49Bg5zJKByqry-4udAXIqm2Y,7953
+pylibsrtp/_binding.pypy39-pp73-x86-linux-gnu.so,sha256=xIR8puoM2zorYkqRE5TEOLgv59Ctw7kOtVy5_Vgiuo0,4976648
+pylibsrtp/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+pylibsrtp-0.10.0.dist-info/WHEEL,sha256=qChgozpdh1s_CxkI3REUe84-2eyYeCLDUqyV1q8q1xs,158
+pylibsrtp-0.10.0.dist-info/LICENSE,sha256=t3EFSRD-ag6_fmRuWfQZCtmpN58Xx1r87rDRgY_nN0A,1505
+pylibsrtp-0.10.0.dist-info/RECORD,,
+pylibsrtp-0.10.0.dist-info/top_level.txt,sha256=aJxGZ9YX_8BM59NYykoZ6s_17gCYXbC3RT4rg_JyNCc,10
+pylibsrtp-0.10.0.dist-info/METADATA,sha256=gRT60sTGLNBAr7X7rHl81sk3fDqviVqRQueJ4cqbHGU,3779
