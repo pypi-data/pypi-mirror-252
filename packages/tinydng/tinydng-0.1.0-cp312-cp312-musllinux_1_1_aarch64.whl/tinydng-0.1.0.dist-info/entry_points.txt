@@ -1,0 +1,2 @@
+[console_scripts]
+tinydng = tinydng:main

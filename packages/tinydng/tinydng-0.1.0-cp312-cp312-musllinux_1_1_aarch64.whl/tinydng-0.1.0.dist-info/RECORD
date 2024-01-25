@@ -1,0 +1,11 @@
+tinydng_ext.cpython-312-aarch64-linux-musl.so,sha256=Nehi2YGeh4dYNu9bn9FHJyUBsXWFTiJC3Rxo1QtmhfU,533137
+tinydng-0.1.0.dist-info/WHEEL,sha256=NrstbFRaNWl9fKEUnc_B8PeUyeFA4Hhz_569XStqmBI,114
+tinydng-0.1.0.dist-info/METADATA,sha256=AsBprkKWc71TI723gzBH2-Dio-Wx_JMjhF5cD0eWvco,10214
+tinydng-0.1.0.dist-info/LICENSE,sha256=tfkvxbBFqyd3_dwYiQtDFYQ0ey9GMMw8a609Gi-mB7c,1110
+tinydng-0.1.0.dist-info/entry_points.txt,sha256=JtonRqRWhdeIXq7sEeGnwtNq58X4r7cdZBOfS8I4uJQ,41
+tinydng-0.1.0.dist-info/RECORD,,
+tinydng-0.1.0.dist-info/top_level.txt,sha256=tSx1SJ7AYH_4gPz7HUDimH7oKMq8nd8nsZem7kfztSw,27
+python/tinydng/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+python/tinydng/__init__.py,sha256=bUA8pYo9BGeqXXlznJNw9dnxbZrKEP3N3UUKOw7DUz8,26
+tinydng.libs/libgcc_s-4e37474d.so.1,sha256=Slji658OikHg8crvAv4qrQOmCj7zqL5w890rL-a5jBM,134393
+tinydng.libs/libstdc++-fd9f4683.so.6.0.28,sha256=ABZJqq2QQ-As0idNvT9YzXNRmTj9R-S0pG8KMb0Odtk,2599041
