@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: slovene-normalizator
+Version: 0.0.5
+Summary: slovenian text normalizator
+Home-page: UNKNOWN
+Author: Peter Pisljar
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.0, <3.12
+License-File: LICENSE.md
+Requires-Dist: classla (>=1.1.0)
+Requires-Dist: nltk (>=3.6.7)
+Requires-Dist: reldi-tokeniser (>=1.0.1)
+
+UNKNOWN
+
