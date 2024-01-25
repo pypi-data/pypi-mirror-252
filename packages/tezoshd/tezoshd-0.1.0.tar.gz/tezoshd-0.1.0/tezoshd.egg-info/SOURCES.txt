@@ -1,0 +1,6 @@
+setup.py
+confussion/__init__.py
+tezoshd.egg-info/PKG-INFO
+tezoshd.egg-info/SOURCES.txt
+tezoshd.egg-info/dependency_links.txt
+tezoshd.egg-info/top_level.txt
