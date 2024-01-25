@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: audio_sleuth
+Version: 0.0.1
+Summary: an open-source framework for detecting audio generated from generative systems
+Author: theadamsabra (Adam Sabra)
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: librosa
+Requires-Dist: numpy
