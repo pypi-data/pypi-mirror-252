@@ -1,0 +1,8 @@
+setup.py
+packages/clementine_scaffold/__init__.py
+packages/clementine_scaffold/scaffold.py
+packages/clementine_scaffold.egg-info/PKG-INFO
+packages/clementine_scaffold.egg-info/SOURCES.txt
+packages/clementine_scaffold.egg-info/dependency_links.txt
+packages/clementine_scaffold.egg-info/requires.txt
+packages/clementine_scaffold.egg-info/top_level.txt
