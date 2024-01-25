@@ -1,0 +1,5 @@
+setup.py
+test_python_package_prokop6.egg-info/PKG-INFO
+test_python_package_prokop6.egg-info/SOURCES.txt
+test_python_package_prokop6.egg-info/dependency_links.txt
+test_python_package_prokop6.egg-info/top_level.txt
