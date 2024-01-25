@@ -1,0 +1,5 @@
+```
+cat data.yaml | aclustermap
+```
+
+
