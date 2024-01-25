@@ -1,0 +1,11 @@
+detecty/bbox.py,sha256=_C1kekcRU0yUWfBAMZrZJPaYunXq5KtXZy9CJbhl-sU,2503
+detecty/model.ckpt,sha256=cSPia_HvWCELfFVGxmd_dFhX9F_XIl0D7vXGP2Ntso8,9164670
+detecty/model.py,sha256=ABA8XOIi4EjwWa1DSsCmg-ivkZE1gBIziBLAPJemJ5s,2769
+detecty/tasks.py,sha256=dSgMMt8u5Z6mYHRC6feR0sBTPSU38S-WIG5JRBCzNGg,5086
+detecty/train.py,sha256=VCHkg7wxdZYaeoVLbMzfLFMgQmmjvbziicFBvlK_bRQ,4396
+detecty/util.py,sha256=ls80vtRQlHF25FEgNeNjl78BE00KELD0YC405hM0e28,777
+detecty/version.py,sha256=GMzIGdz6EFHNdjtBtmIGlDMv10oaTKnECriA9Zy7mU8,19
+detecty-0.0.20.dist-info/METADATA,sha256=7aNyEHxBowOkVpCiHK8Oafqio34j1sXqTEllQH4IEss,323
+detecty-0.0.20.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+detecty-0.0.20.dist-info/entry_points.txt,sha256=r9gQzsO_e98rgWhOp0nNZM56M04EWLeBlYPnrtdyN2c,81
+detecty-0.0.20.dist-info/RECORD,,
