@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+himage/__init__.py
+himage.egg-info/PKG-INFO
+himage.egg-info/SOURCES.txt
+himage.egg-info/dependency_links.txt
+himage.egg-info/not-zip-safe
+himage.egg-info/requires.txt
+himage.egg-info/top_level.txt
+himage/plot/__init__.py
+himage/plot/plot.py
