@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pipfilter"
+version = "0.1.1"
+description = "Clean up your requirements.txt file to contain only the top-level dependencies."
+authors = ["Adrien Dimitri <amaugueret@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "^57.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=57.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pipfilter = "pipfilter.pipfilter:main"

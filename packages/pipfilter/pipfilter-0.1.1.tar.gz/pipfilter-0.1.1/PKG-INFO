@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pipfilter
+Version: 0.1.1
+Summary: Clean up your requirements.txt file to contain only the top-level dependencies.
+License: MIT
+Author: Adrien Dimitri
+Author-email: amaugueret@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: setuptools (>=57.0,<58.0)
