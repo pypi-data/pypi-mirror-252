@@ -1,0 +1,25 @@
+ No optional TCCON input file detected...
+ Reading input file...
+ Done!
+ Number of raw measurements to be processed:           2
+ Reading file names
+ /Users/moritz/Documents/work/esm/utils/tests/data/md20220409s0e00a.0198
+ /Users/moritz/Documents/work/esm/utils/tests/data/md20220409s0e00a.0199
+ Done!
+ Read OPUS parms:           1  (/Users/moritz/Documents/work/esm/utils/tests/data/md20220409s0e00a.0198)
+ Read OPUS parms:           2  (/Users/moritz/Documents/work/esm/utils/tests/data/md20220409s0e00a.0199)
+ charfilter "GFW" is missing
+ Warning:
+ Inconsistent parameter kind in OPUS file!
+ charfilter "GBW" is missing
+ Warning:
+ Inconsistent parameter kind in OPUS file!
+ charfilter "HFL" is missing
+ Warning:
+ Inconsistent parameter kind in OPUS file!
+ charfilter "LWN" is missing
+ Warning:
+ Inconsistent parameter kind in OPUS file!
+ charfilter "TSC" is missing
+ Warning:
+ Inconsistent parameter kind in OPUS file!
