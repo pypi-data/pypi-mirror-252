@@ -1,0 +1,9 @@
+tinydng_ext.cp39-win_arm64.pyd,sha256=LnCubtIGjMgVhr0r_mAF_3tDszBX96HG62s0yC4JZqI,304640
+python/tinydng/__init__.py,sha256=SzPV0Mc8iBS9G0FDsT0jL6j8N8o8soBq2GfAleEnvyw,27
+python/tinydng/_version.py,sha256=V05QaZT84Dgl2Hlnisu2dcoAnzT5VP2y2xdujZrEXDM,164
+tinydng-0.1.0.dist-info/LICENSE,sha256=4iHvoqw0EjFe0e2keD0pDgqgYqlaQ6Und3SEho1iId0,1131
+tinydng-0.1.0.dist-info/METADATA,sha256=biapwXvBukqhU_wK6WeAa_Cyfd-tql0Rt-TDoqnC0uo,10542
+tinydng-0.1.0.dist-info/WHEEL,sha256=ZWhcZGZ5IXonk6zPlQhPGtsynnyOZ3NGPFgykkDGcu8,100
+tinydng-0.1.0.dist-info/entry_points.txt,sha256=JtonRqRWhdeIXq7sEeGnwtNq58X4r7cdZBOfS8I4uJQ,41
+tinydng-0.1.0.dist-info/top_level.txt,sha256=tSx1SJ7AYH_4gPz7HUDimH7oKMq8nd8nsZem7kfztSw,27
+tinydng-0.1.0.dist-info/RECORD,,
