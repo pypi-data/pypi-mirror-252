@@ -1,0 +1,8 @@
+setup.py
+packages/gravybox/__init__.py
+packages/gravybox/scaffold.py
+packages/gravybox.egg-info/PKG-INFO
+packages/gravybox.egg-info/SOURCES.txt
+packages/gravybox.egg-info/dependency_links.txt
+packages/gravybox.egg-info/requires.txt
+packages/gravybox.egg-info/top_level.txt
