@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+bagit_profile.py
+setup.py
+ocrd_fork_bagit_profile.egg-info/PKG-INFO
+ocrd_fork_bagit_profile.egg-info/SOURCES.txt
+ocrd_fork_bagit_profile.egg-info/dependency_links.txt
+ocrd_fork_bagit_profile.egg-info/requires.txt
+ocrd_fork_bagit_profile.egg-info/top_level.txt
