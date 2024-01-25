@@ -1,0 +1,9 @@
+libssentencepiece_core.so,sha256=-5IPgr2aUcoO9SNEoXXjbIToSvGMgQ75Hu6EnIj-Zlw,277208
+_ssentencepiece.cpython-37m-x86_64-linux-gnu.so,sha256=PQxx1_OEA8cGwrv_XTNLOxiOXI9x18X3bNIE25DUvdo,167544
+simple_sentencepiece-0.1.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+simple_sentencepiece-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simple_sentencepiece-0.1.dist-info/RECORD,,
+simple_sentencepiece-0.1.dist-info/top_level.txt,sha256=E3oXh8lC-YpnAp-X8LS25NexAVIxKofoc-MPktWaUd4,31
+simple_sentencepiece-0.1.dist-info/METADATA,sha256=A3JdQxgO3bMh1u30UmUJpN81qgkcKi0MYj9Kf1B5rHQ,665
+ssentencepiece/ssentencepiece.py,sha256=jwheBNhyiaWluB2nm5VV7gji54g8Yq-D5HSxTUXqZg8,3010
+ssentencepiece/__init__.py,sha256=-4nzuzhbAecZet0Ts8fqcitzqfSvL-PjdyvsWXG-4G0,63
