@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+my_math_lib_my/__init__.py
+my_math_lib_my/operations.py
+my_math_lib_my.egg-info/PKG-INFO
+my_math_lib_my.egg-info/SOURCES.txt
+my_math_lib_my.egg-info/dependency_links.txt
+my_math_lib_my.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
+tests/test_operations.py
