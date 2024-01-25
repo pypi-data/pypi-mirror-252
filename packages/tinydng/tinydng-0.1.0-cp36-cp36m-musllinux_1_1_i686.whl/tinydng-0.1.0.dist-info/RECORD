@@ -1,0 +1,10 @@
+tinydng_ext.cpython-36m-i386-linux-gnu.so,sha256=roQCNvJ2v7s6nZRJayegna8sh18F_Lm0Ci2mRXTdt_Y,476117
+tinydng-0.1.0.dist-info/WHEEL,sha256=vKL5TyPvBaqrVS_wrd1wwVcCEkHcF1Y5mT8I1AQaxRA,110
+tinydng-0.1.0.dist-info/LICENSE,sha256=tfkvxbBFqyd3_dwYiQtDFYQ0ey9GMMw8a609Gi-mB7c,1110
+tinydng-0.1.0.dist-info/RECORD,,
+tinydng-0.1.0.dist-info/top_level.txt,sha256=tSx1SJ7AYH_4gPz7HUDimH7oKMq8nd8nsZem7kfztSw,27
+tinydng-0.1.0.dist-info/METADATA,sha256=2KSXglKvukgBzUhnY16jNP8eSpnSJaAyE3jvTefUrxE,10192
+python/tinydng/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+python/tinydng/__init__.py,sha256=bUA8pYo9BGeqXXlznJNw9dnxbZrKEP3N3UUKOw7DUz8,26
+tinydng.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+tinydng.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
