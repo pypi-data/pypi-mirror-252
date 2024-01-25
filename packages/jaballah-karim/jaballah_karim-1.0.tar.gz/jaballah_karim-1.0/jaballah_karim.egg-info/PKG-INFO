@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: jaballah_karim
+Version: 1.0
+Summary: Package for image classification using a pre-trained model
+Author: Jaballah Karim
+Author-email: Jaballahkarim233@gmail.com.com
+Requires-Dist: tensorflow>=2.0.0
+Requires-Dist: numpy
