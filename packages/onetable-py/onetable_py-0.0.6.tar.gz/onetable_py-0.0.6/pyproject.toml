@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+
+[project]
+name = "onetable-py"
+version = "0.0.6"
+authors = [
+  { name="Matthias Rudolph", email="mrudo@amazon.de" },
+]
+description = "This package packages the onetable jar file along with dependencies. This provides the onetable jar in an easy consumeable format for various CI/CD or workflow management platforms."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "typer[all] ==0.9.0"
+]
+
+[project.optional-dependencies]
+build = [
+    "pytest >=7.4.4",
+    "flit >=3.9.0"
+]
+
+[project.scripts]
+onetable_py = "onetable_py.cli:app"
