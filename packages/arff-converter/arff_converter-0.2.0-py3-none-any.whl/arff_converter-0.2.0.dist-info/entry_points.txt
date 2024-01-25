@@ -1,0 +1,2 @@
+[console_scripts]
+arff-converter = arff_converter.converter:main
