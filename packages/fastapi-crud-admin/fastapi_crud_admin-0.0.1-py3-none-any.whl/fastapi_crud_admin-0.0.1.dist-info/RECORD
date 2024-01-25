@@ -1,0 +1,13 @@
+fastapi_crud_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_crud_admin/admin.py,sha256=nmW5HQIyrN44EcrQcHBxAThm2J8Dq-PsfYWfOIAeff8,1140
+fastapi_crud_admin/meta.py,sha256=aP9db3IcazXrbdtdxOm3fCHsOuKeqSevVv3olyEts1Y,502
+fastapi_crud_admin/router/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_crud_admin/router/meta.py,sha256=n5njT82pmTdLS4vtnCX-IQvgevCEW2mwHjc-qIWzwOo,1024
+fastapi_crud_admin/router/schema.py,sha256=J7r4dUi_-fYSCDjBru-SbbOXlpzPgBuESQ8ECrrOK6Q,2768
+fastapi_crud_admin/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_crud_admin/utils/database.py,sha256=fWNPXVqdUcYm9bUcn75pavlznf63Sgi61KCbg-FsPVQ,603
+fastapi_crud_admin/utils/repository.py,sha256=Mg1AWTA8hq2SiELYhcCeQt7sa78ISRcs91Az6RxGYiM,1219
+fastapi_crud_admin/utils/router.py,sha256=EfDN6ESoNeahS3SZY6qAfuR8sTjSHr9PSrVbJ1P2470,377
+fastapi_crud_admin-0.0.1.dist-info/METADATA,sha256=3-xFxTP8UWzfFlMjRty74j5Y-EuQy3wLmpffzHLtYEU,839
+fastapi_crud_admin-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+fastapi_crud_admin-0.0.1.dist-info/RECORD,,
