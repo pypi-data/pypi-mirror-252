@@ -1,0 +1,10 @@
+magcopy/__init__.py,sha256=saPbO6xfYTTrZHOYbr16KNte_poj1RbQSYVFgvKcvHY,586
+magcopy/clipboard.py,sha256=bRptjgnDwWWiuZHnbTZM48Dx3bRdw6P0okyVBVCuanU,2043
+magcopy/main.py,sha256=EHv-QNv8Qb528j8LD3sW2-aGdbaTTQjEuTbOuY3Ta8g,2085
+magcopy/path.py,sha256=zpsWxgPfTvev8UK82OuNvi4_0-ul3Ec3BSjISb632cA,1990
+magcopy-0.0.3.dist-info/LICENSE,sha256=eBS6QMjgg0lZC5IVV5MyQOGFhbojTvgOlVbQtzJbYWA,1079
+magcopy-0.0.3.dist-info/METADATA,sha256=Ph9bj_0eeIsK0BDSL25vLBfXVLfDyVvJURJi850nYOQ,4853
+magcopy-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+magcopy-0.0.3.dist-info/entry_points.txt,sha256=5rHtfTdDllFkGoAteOXzmw5UqfzTWeWg9x2Su6Qdy_I,46
+magcopy-0.0.3.dist-info/top_level.txt,sha256=5cHY9845LKzlWZkCuI3mvW4BAzsATZRbOb5Jx3vjCbc,8
+magcopy-0.0.3.dist-info/RECORD,,
