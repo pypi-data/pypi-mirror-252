@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jsoncanon
+Version: 0.2.0
+Summary: Partial Python implementation of JSON Canonicalization Scheme as described in RFC 8785 (https://www.rfc-editor.org/rfc/rfc8785.html) as needed by the GA4GH Sequence Collection working group.
+Author: Sveinung Gundersen
+Author-email: sveinugu@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: toml (>=0.10.2,<0.11.0)
