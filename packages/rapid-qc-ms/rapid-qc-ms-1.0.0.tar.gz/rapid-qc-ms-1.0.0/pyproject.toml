@@ -1,0 +1,45 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rapid-qc-ms"
+version = "1.0.0"
+description = "Realtime quality control for mass spectrometry data acquisition"
+readme = "README.md"
+authors = [{ name = "Brian DeFelice", email = "brian.defelice@czbiohub.org" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["mass-spectrometry", "mass-spec", "autoqc", "mass-spec-quality-control"]
+dependencies = [
+    "pandas==1.4.2",
+    "plotly==5.6.0",
+    "dash==2.6.1",
+    "flask==2.2.4",
+    "dash_bootstrap_components==1.2.1",
+    "psutil==5.9.4",
+    "pydrive2==1.14.0",
+    "slack_sdk==3.18.1",
+    "sqlalchemy==1.4.32",
+    "watchdog==2.1.9",
+    'tomli; python_version <= "3.11"',
+]
+requires-python = ">=3.8,<3.12"
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://czbiohub-sf.github.io/Rapid-QC-MS"
+
+[project.scripts]
+rapidqcms = "rapidqcms.__main__:main"
+
+[tool.setuptools.package-data]
+"rapidqcms.assets" = ["*.css", "*.ico"]
