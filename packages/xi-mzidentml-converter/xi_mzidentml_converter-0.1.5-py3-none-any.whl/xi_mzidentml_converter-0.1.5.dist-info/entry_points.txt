@@ -1,0 +1,2 @@
+[console_scripts]
+xi-mzidentml-converter = process_dataset:main
