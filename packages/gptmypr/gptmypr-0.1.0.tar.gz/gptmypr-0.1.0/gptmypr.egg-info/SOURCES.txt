@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gptmypr/__init__.py
+gptmypr/completions_parameters.py
+gptmypr/config.py
+gptmypr/gptmypr.py
+gptmypr/logging.py
+gptmypr/utils.py
+gptmypr.egg-info/PKG-INFO
+gptmypr.egg-info/SOURCES.txt
+gptmypr.egg-info/dependency_links.txt
+gptmypr.egg-info/entry_points.txt
+gptmypr.egg-info/not-zip-safe
+gptmypr.egg-info/requires.txt
+gptmypr.egg-info/top_level.txt
