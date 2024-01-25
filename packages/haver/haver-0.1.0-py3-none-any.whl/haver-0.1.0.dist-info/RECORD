@@ -1,0 +1,11 @@
+haver/__init__.py,sha256=rZoLAU8nc1nNLy2jIq5JN3SUXB_c_Vd_wMx3V_gixX8,339
+haver/haver.py,sha256=6CbXqBeczW98R1v1i0gPZhT4x9JsaiUnWqsj4tZul-I,8648
+haver/haver_maps.py,sha256=IEXMmvI1jV_hLTaiEqI8cB926rHMVUaMfyaXGsA1IQU,12647
+haver/res/haver.jpg,sha256=_tdxtWQiW-q6RigqADJ-5E88xB6uAEXEm1Bn_cytLFI,4497
+haver/tests/__init__.py,sha256=9c3o2uRrInVYLLCtKqNP3Cnn-tOW0dke7c5mW91YhLQ,102
+haver/tests/test_all.py,sha256=4cDbjUNS3DnvTjqmCgQU1A5WTCX_CnIz3wQ8XZlrOPI,896
+haver-0.1.0.dist-info/LICENSE,sha256=H7oSGy2qGDa602_bsLECshp6I1MuccbTHOF3f5QvsKw,1073
+haver-0.1.0.dist-info/METADATA,sha256=Gc9X_eRN7TwN58EojvtRwsOlsF89WFjR9ZlnL7qCj7Y,4203
+haver-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+haver-0.1.0.dist-info/top_level.txt,sha256=YZSvn0NJE92-XWNZuLc3_ylZnqXKWw1rHLj6BwcSCqo,6
+haver-0.1.0.dist-info/RECORD,,
