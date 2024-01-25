@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arff_converter/__init__.py
+src/arff_converter/converter.py
+src/arff_converter.egg-info/PKG-INFO
+src/arff_converter.egg-info/SOURCES.txt
+src/arff_converter.egg-info/dependency_links.txt
+src/arff_converter.egg-info/entry_points.txt
+src/arff_converter.egg-info/requires.txt
+src/arff_converter.egg-info/top_level.txt
+tests/test_converter.py
