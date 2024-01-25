@@ -1,0 +1,3 @@
+[console_scripts]
+DoItLive = SambdaTester:main
+bin/DoItLive = SambdaTester.command:main
