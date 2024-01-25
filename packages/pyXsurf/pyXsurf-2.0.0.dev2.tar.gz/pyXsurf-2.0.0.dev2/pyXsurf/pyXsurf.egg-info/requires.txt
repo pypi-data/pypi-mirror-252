@@ -1,0 +1,15 @@
+astropy
+importlib_resources
+matplotlib
+numpy
+scipy
+pytest
+testbook
+ipykernel
+sphinx
+
+[:platform_system == "Linux"]
+python-xlib
+
+[:platform_system == "Windows"]
+pywin32
