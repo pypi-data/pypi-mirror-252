@@ -1,0 +1,9 @@
+README.md
+setup.py
+chatbot_demo.egg-info/PKG-INFO
+chatbot_demo.egg-info/SOURCES.txt
+chatbot_demo.egg-info/dependency_links.txt
+chatbot_demo.egg-info/requires.txt
+chatbot_demo.egg-info/top_level.txt
+education_inquiry/__init__.py
+education_inquiry/education_inquiry_template.py
