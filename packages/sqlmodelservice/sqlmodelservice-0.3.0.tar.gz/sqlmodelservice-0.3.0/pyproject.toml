@@ -1,0 +1,87 @@
+[project]
+name = "sqlmodelservice"
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Database",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.urls]
+Homepage = "https://github.com/volfpeter/sqlmodelservice"
+Documentation = "https://volfpeter.github.io/sqlmodelservice"
+
+[tool.poetry]
+name = "sqlmodelservice"
+version = "0.3.0"
+description = "A generic service layer on top of SQLModel for conveniently creating APIs with frameworks like FastAPI."
+authors = ["Peter Volf <do.volfp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sqlmodelservice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.14"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.5.4"
+mkdocstrings = "^0.24.0"
+mypy = "^1.8.0"
+poethepoet = "^0.24.4"
+pytest = "^7.4.4"
+ruff = "^0.1.13"
+
+[tool.mypy]
+strict = true
+show_error_codes = true
+
+[tool.ruff]
+line-length = 118
+exclude = [
+    ".git",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    "dist",
+    "docs",
+]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "S",  # flake8-bandit - we must ignore these rules in tests
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "E501",  # line too long, handled by black
+    "B008",  # do not perform function calls in argument defaults
+]
+
+[tool.poe.tasks]
+serve-docs = "mkdocs serve"
+check-format = "ruff format --check ."
+lint = "ruff check ."
+mypy = "mypy ."
+format = "ruff format ."
+lint-fix = "ruff . --fix"
+
+static-checks.sequence = ["lint", "check-format", "mypy"]
+static-checks.ignore_fail = "return_non_zero"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
