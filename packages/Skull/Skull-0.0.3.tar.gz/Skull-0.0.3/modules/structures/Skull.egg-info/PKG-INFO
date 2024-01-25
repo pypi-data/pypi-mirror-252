@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Skull
+Version: 0.0.3
+Summary: memory storage structure for directories
+Description-Content-Type: text/markdown
+Requires-Dist: homeostasis
+Requires-Dist: botany
+Requires-Dist: rich
+Requires-Dist: tinydb
+Requires-Dist: clique
+
+
+******
+
+Bravo!  You have received a Medical Diploma in "Skull" from   
+the Orbital Convergence University International Air and Water Embassy of the Tangerine Planet.  
+
+You are now officially certified to include "Skull" in your practice.
+
+******
+
+# 💀 Skull
+
+## obtain
+(ZSH) pip install Skull
+
+## tutorial
+(ZSH) Skull shares
