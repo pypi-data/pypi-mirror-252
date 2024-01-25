@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MockSZ
+Version: 0.2.2
+Author: Arend Moerman
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
