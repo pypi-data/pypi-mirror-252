@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MyCreds
+Version: 0.1.1
+Requires-Dist: selenium
+Requires-Dist: ReportLab
+
+The MyCreds project is a python program developed for WatSPEED internal use. Given a course and section number, the program scrapes the student portal (DestinyOne) for a list of students who passed and their data. The program also produces files needed to be uploaded to MyCreds: MyCredsCertificate.csv, and PDF certificates for each passing student.
