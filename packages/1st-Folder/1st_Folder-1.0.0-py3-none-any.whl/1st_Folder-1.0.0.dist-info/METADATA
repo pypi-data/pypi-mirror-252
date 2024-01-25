@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: 1st-Folder
+Version: 1.0.0
+Summary: Demp package for the Booking System project.
+Home-page: https://github.com/juneiskold/booking_system
+Author: Bonolo, Mbulelo, Lulama, Themba
+Author-email: baphane023@student.wethincode.co.za
+License: MOB
+Keywords: geeksforgeeks gfg article python package vibhu4agarwal
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Sample package mode for a demo     of its making for the Booking System Article.
