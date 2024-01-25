@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: smartcard-identifier
+Version: 1.3.0
+Summary: Read smart card ID number and emulate a keyboard to paste it as text.
+Project-URL: Homepage, https://github.com/shortstorybox/smartcard-identifier
+Project-URL: Issues, https://github.com/shortstorybox/smartcard-identifier/issues
+Author-email: Samuel Hoffstaetter <sam@shortstorybox.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+
+# Smartcard Identifier
+
+This is an extremely simple smartcard system that reads only the smart card's
+ID number, and pastes it as text into the currently open application. This can
+be used for applications that rely on nothing more than the identity of the
+scanned card, such as an authentication system in a low-security environment.
+
+
+# Installation: macOS
+
+[Download for macOS](https://github.com/shortstorybox/smartcard-identifier/releases/latest)
+
+On macOS you'll need to add permissions for simulating a keyboard:
+
+ * Install the package above. This will add python3 to the Security settings
+   which you'll enable the in the next two steps.
+ * Open System Settings -> Privacy & Security -> Accessibility and enable
+   permissions for python3 (and Terminal if you intend to run from a terminal).
+   If you can't find python3 in the list, click the "+" button, then
+   press Command+Shift+G and type /usr/bin/python3
+ * Open System Settings -> Privacy & Security -> Automation and enable permissions for python3.
+
+
+# Installation: Linux/Windows
+
+    $ pip3 install smartcard-identifier
+    $ smartcard-identifier --help
+
+
+# Release Process
+
+First increment the version in pyproject.toml, then run the following to build
+and upload the release to Github and PyPI:
+
+    $ make release
+
