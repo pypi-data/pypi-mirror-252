@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+local_retro/Retrosynthesis.py
+local_retro/__init__.py
+syntheseus_local_retro.egg-info/PKG-INFO
+syntheseus_local_retro.egg-info/SOURCES.txt
+syntheseus_local_retro.egg-info/dependency_links.txt
+syntheseus_local_retro.egg-info/requires.txt
+syntheseus_local_retro.egg-info/top_level.txt
