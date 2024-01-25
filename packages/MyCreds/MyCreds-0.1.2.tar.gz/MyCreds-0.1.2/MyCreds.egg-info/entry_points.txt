@@ -1,0 +1,2 @@
+[console_scripts]
+mycreds = MyCreds:__main__

@@ -1,0 +1,8 @@
+README.md
+setup.py
+MyCreds.egg-info/PKG-INFO
+MyCreds.egg-info/SOURCES.txt
+MyCreds.egg-info/dependency_links.txt
+MyCreds.egg-info/entry_points.txt
+MyCreds.egg-info/requires.txt
+MyCreds.egg-info/top_level.txt
