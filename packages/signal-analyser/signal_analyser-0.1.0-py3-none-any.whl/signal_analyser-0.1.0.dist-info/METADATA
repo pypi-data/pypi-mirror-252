@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: signal-analyser
+Version: 0.1.0
+Summary: 
+Author: Bill Guo
+Author-email: billguo99@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (>=23.12.1,<24.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: ruff (>=0.1.14,<0.2.0)
+Description-Content-Type: text/markdown
+
+
