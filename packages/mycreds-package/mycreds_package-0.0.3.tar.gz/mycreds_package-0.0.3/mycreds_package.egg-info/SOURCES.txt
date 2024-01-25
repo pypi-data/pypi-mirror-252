@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+mycreds_package.egg-info/PKG-INFO
+mycreds_package.egg-info/SOURCES.txt
+mycreds_package.egg-info/dependency_links.txt
+mycreds_package.egg-info/requires.txt
+mycreds_package.egg-info/top_level.txt
