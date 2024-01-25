@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "li-aws-helper"
+version = "0.3.0"
+description = "Package that helps manage aws credentials"
+authors = ["Alini Ribeiro <aliniribeiroo@gmail.com>"]
+
+[tool.poetry.scripts]
+li = "li_aws_helper.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+typer = "^0.6.1"
+requests-mock = "^1.10.0"
+boto3 = "^1.24.71"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
