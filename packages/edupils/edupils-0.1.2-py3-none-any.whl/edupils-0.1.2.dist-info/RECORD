@@ -1,0 +1,14 @@
+edupils/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+edupils/audio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupils/audio/audio_handler.py,sha256=wOEu-LMFZcflp9rs9n8J3wQoY_vpSAb2wp-uTcNsisA,133
+edupils/drawing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupils/drawing/labirinto.py,sha256=ueVa3UNEmyatc04tYb0t7n9wAhKczEAeynui6U9B9Bs,6410
+edupils/drawing/turtle.py,sha256=SuGpjzIKHgN7DC1evxBTTCNWGL69kfz5xCP5iHmquOo,190
+edupils/drawing/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupils/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupils/image/image_handler.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edupils-0.1.2.dist-info/LICENSE,sha256=DJ_5v1WVGAjo5dD5tBZh_SBKqj4nS8Yi5bJ3Cil2ax0,1066
+edupils-0.1.2.dist-info/METADATA,sha256=kdi-oOt0qLANk3hM1UFH0OE3nqB9YIjVXMRaOsLEdGY,467
+edupils-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+edupils-0.1.2.dist-info/top_level.txt,sha256=lij2KgloLDIfspYaVsNv1fYLny-Z37cQFuTMxJ059gM,8
+edupils-0.1.2.dist-info/RECORD,,
