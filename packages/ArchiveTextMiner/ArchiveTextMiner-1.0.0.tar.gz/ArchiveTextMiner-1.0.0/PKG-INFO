@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ArchiveTextMiner
+Version: 1.0.0
+Summary: Transform textual information to structured metadata in MDTO-format.
+Home-page: https://github.com/zeeuws-archief/ArchiveTextMiner
+Author: Muriël Valckx
+Author-email: my.valckx@zeeland.nl
+License: EUPL
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Dist: langdetect
+Requires-Dist: PyPDF2
+Requires-Dist: python-magic
+Requires-Dist: transformers
+Requires-Dist: scikit-learn

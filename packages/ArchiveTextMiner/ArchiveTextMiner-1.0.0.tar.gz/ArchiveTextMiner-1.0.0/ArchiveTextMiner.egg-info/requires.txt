@@ -1,0 +1,5 @@
+langdetect
+PyPDF2
+python-magic
+transformers
+scikit-learn
