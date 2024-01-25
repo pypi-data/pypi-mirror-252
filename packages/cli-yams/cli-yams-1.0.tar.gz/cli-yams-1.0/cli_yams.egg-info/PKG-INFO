@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cli-yams
+Version: 1.0
+Summary: Yet Another Media Scraper
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: nltk>=3.5
+Requires-Dist: scrapy>=2.6
+Requires-Dist: click>=8.1
+Requires-Dist: alive-progress>=2.4
