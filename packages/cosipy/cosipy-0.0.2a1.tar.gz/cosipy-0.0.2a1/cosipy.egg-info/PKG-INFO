@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cosipy
+Version: 0.0.2a1
+Summary: High-level analysis for the COSI telescope data
+Home-page: https://github.com/cositools/cosipy
+Author: COSI Team
+Author-email: imc@umd.edu
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: histpy
+Requires-Dist: mhealpy
+Requires-Dist: scoords
+Requires-Dist: astromodels
+Requires-Dist: threeml
+Requires-Dist: awscli
+
+# cosipy
+The COSI high-level data analysis tools
+
+## Installation from source
+
+Meant for developers. Currently the only option.
+
+1. Clone the repository into your local machine
+
+```
+git clone git@github.com:cositools/cosipy.git
+```
+
+2. Move to the cosipy folder
+
+```
+cd cosipy
+```
+
+3. Create a new conda environment. Optional but highly encouranged.
+
+4. Install it:
+
+```
+pip install -e .
+```
