@@ -1,0 +1,17 @@
+odoo/addons/base_user_signature/README.rst,sha256=jzPvGv57DU_Ww_K-BLR0-YEfu76y8TEiFvMxG809a7g,3485
+odoo/addons/base_user_signature/__init__.py,sha256=q2fmy2Q_KXphsUkogklf07xqfZQMd_41RxbUeSRjiHQ,211
+odoo/addons/base_user_signature/__manifest__.py,sha256=fqXZXHcP8dOHZiq9tyjp0BCXaQQmcWC8kWhKvtDIhUI,722
+odoo/addons/base_user_signature/i18n/base_user_signature.pot,sha256=p-7Hat2cOUg98QrY20Lu-tRAoEMk8tudmzTvVW5QO9M,1103
+odoo/addons/base_user_signature/i18n/fr.po,sha256=iGN9J_pHxstMwWs0z2zCF2Oa-Jozu3XavkvJeKp6ccU,1115
+odoo/addons/base_user_signature/models/__init__.py,sha256=a9OomdMIQ5u5js_3xb5DAt2-kdHyJSTIO9RrkmP8_40,24
+odoo/addons/base_user_signature/models/res_users.py,sha256=3YEi51gMFMDPDJk8OSQ7xSDq4Q86X3NA6A5abjYS33M,759
+odoo/addons/base_user_signature/readme/CONTRIBUTORS.rst,sha256=VaPf5lKtz8YqyPO_LLN0_UH41rbEaGh8GMPuWw2j5gc,314
+odoo/addons/base_user_signature/readme/DESCRIPTION.rst,sha256=MwPA1WUW7KfG3QHjPgJQMBYnAZspIgSXbnWWeAko-QI,80
+odoo/addons/base_user_signature/readme/USAGE.rst,sha256=3hAj5dJdgE44TEmXq3r462hFNA4w3mvrzuGCgwanJ8o,140
+odoo/addons/base_user_signature/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_user_signature/static/description/index.html,sha256=DEZLtsim2xqnhs-99b9m_V2jFhUo8VzTJ-Os7bBYvsY,13574
+odoo/addons/base_user_signature/views/res_users_view.xml,sha256=_ZUWOYyh-wWGqSX-Q-UGalt5-F5kKzFcaMDWO2hT7J0,2105
+odoo_addon_base_user_signature-15.0.1.0.0.2.dist-info/METADATA,sha256=avOk3KoMkgTYwsNa5f7Y7Mg-E1OaYf0Y-NUsjJhxqnY,4069
+odoo_addon_base_user_signature-15.0.1.0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo_addon_base_user_signature-15.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_base_user_signature-15.0.1.0.0.2.dist-info/RECORD,,
