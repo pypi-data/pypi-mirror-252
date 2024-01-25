@@ -1,0 +1,2 @@
+[console_scripts]
+vector_bench = vector_bench.main:main

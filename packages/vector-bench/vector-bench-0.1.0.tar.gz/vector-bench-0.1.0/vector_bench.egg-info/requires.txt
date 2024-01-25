@@ -1,0 +1,9 @@
+msgspec~=0.18.5
+h5py~=3.10.0
+numpy~=1.26.3
+tqdm~=4.66
+httpx~=0.25
+psycopg[binary]~=3.1
+
+[dev]
+ruff~=0.1.3
