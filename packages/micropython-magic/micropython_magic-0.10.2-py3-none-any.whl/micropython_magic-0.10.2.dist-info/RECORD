@@ -1,0 +1,15 @@
+micropython_magic/__init__.py,sha256=KlorAXB0zpTMHmL_pzKkpAGx6xyR1ALWniiI9mzSe6g,995
+micropython_magic/exp_magics.py,sha256=UZMNW6h4Vo-sUunKk2o-OXUrVmtTKycbjGk2Zu-DOEQ,3034
+micropython_magic/interactive.py,sha256=P68CsOo1SJsgXEBrzCmUJrNfEZETZfIp_viJhs7bTyI,9132
+micropython_magic/logger.py,sha256=z7vnhM8ygQtpAhguezIYmpNYjipWfcbQ1pM-Nb6jmsY,1971
+micropython_magic/magic_transformer.py,sha256=MRbhXc5ZJQWMmbKqzNl72d97P_BM07x3k1mq_uAMYBw,871
+micropython_magic/memoryinfo.py,sha256=KgIqapGETfG1MM4WYxv1kWmyagFuO03SqRDuALT-W1k,26509
+micropython_magic/mpr.py,sha256=-ybUH-jzH_qZsakcSkyEmYz1LC1v2uAtiksFTk6rJHo,7532
+micropython_magic/octarine.py,sha256=56znv7X9aNTSzms9_3aarua2AdyGhHLuwUSddxaUiv4,13262
+micropython_magic/param_fixup.py,sha256=ubVLqDVE_OiTqtfhGLiudPzp3IyqDPaZ0Ge0ZegA4Hs,490
+micropython_magic/script_access.py,sha256=CAQ333OBc6YT4RN1rZ6b8Zvs91LsHp-fDmjAv5HlpFc,148
+micropython_magic/scripts/fw_info.py,sha256=HnXE15MJiXUS4cWvgHcmiJLLSjRYFdYXOOJe6lXJsE4,4568
+micropython_magic-0.10.2.dist-info/LICENSE,sha256=8p4JzJZsyDDk_ouALL9OPtFOEJpLpviYc6I6Y4b-0qM,1090
+micropython_magic-0.10.2.dist-info/METADATA,sha256=ti0gA8EXv07jlffPWnef_QKTOkb4tz9SUhl9ZujmW_4,6548
+micropython_magic-0.10.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+micropython_magic-0.10.2.dist-info/RECORD,,
