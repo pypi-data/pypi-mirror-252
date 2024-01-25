@@ -1,0 +1,14 @@
+data_platform_catalogue/__init__.py,sha256=4XJFz9ezaaN1zBB4YheZ8_95UDTAouE8eXfYIs20vb4,213
+data_platform_catalogue/client/__init__.py,sha256=8U_MAYVeH0iYpGV9Bd2uzLNBfW6N28m9fgRjxjRX-ws,155
+data_platform_catalogue/client/base.py,sha256=icUU7TYwkNCCyZWV5axVe1Paz3SGwON2frHVSja2JPo,1660
+data_platform_catalogue/client/datahub/__init__.py,sha256=mHhBODqq9JcC5CMq0t8ICEuX3BKlZqFcNfka9dRkh1c,65
+data_platform_catalogue/client/datahub/datahub_client.py,sha256=YGxhWBDyDREJR0GEEZNWcEIT-pC-RsSfbqHTp30GE3I,12382
+data_platform_catalogue/client/datahub/graphql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_platform_catalogue/client/datahub/graphql/search.graphql,sha256=VPqkcWwUtBXmgl9tgSQ0cnMKpyvamkrk-qwKqVJhJgk,2849
+data_platform_catalogue/client/datahub/search.py,sha256=p2V_k7gVn6lIQ-ZgfmE1milGG2NW5GVtG25D0IDBcbQ,6012
+data_platform_catalogue/client/openmetadata.py,sha256=QxmUcv-4-qVTX_skSz3CYZE60qxQDkhK6WbWN1FeEA4,8599
+data_platform_catalogue/entities.py,sha256=mRn03XkVLoETBTZ8aZg5csRbV00lWp9q-77PEwMgelg,2817
+data_platform_catalogue/search_types.py,sha256=v9rC4eMXfp8_tRKXvlj4NjCGtWCLEivADQdYnHOKdw0,609
+ministryofjustice_data_platform_catalogue-0.5.0.dist-info/METADATA,sha256=9SxQrw_yFHp4LO-Sg-AY-EDwVwIu2m0LSIF76dpuUkA,3355
+ministryofjustice_data_platform_catalogue-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ministryofjustice_data_platform_catalogue-0.5.0.dist-info/RECORD,,
