@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+cb_palettes/__init__.py
+cb_palettes/builtin.py
+cb_palettes/color.py
+cb_palettes/palette.py
+cb_palettes.egg-info/PKG-INFO
+cb_palettes.egg-info/SOURCES.txt
+cb_palettes.egg-info/dependency_links.txt
+cb_palettes.egg-info/top_level.txt
