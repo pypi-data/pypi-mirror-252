@@ -1,0 +1,3 @@
+[console_scripts]
+SambdaTester = SambdaTester:main
+bin/SambdaTester = SambdaTester.command:main

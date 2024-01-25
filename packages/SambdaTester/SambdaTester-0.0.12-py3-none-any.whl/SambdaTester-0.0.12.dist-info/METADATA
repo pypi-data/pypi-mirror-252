@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: SambdaTester
+Version: 0.0.12
+Author-email: tarnold0788@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: yaml
+Requires-Dist: pydantic
+
