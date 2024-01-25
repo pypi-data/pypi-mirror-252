@@ -1,0 +1,6 @@
+README.md
+setup.py
+subword_nmt_shopee.egg-info/PKG-INFO
+subword_nmt_shopee.egg-info/SOURCES.txt
+subword_nmt_shopee.egg-info/dependency_links.txt
+subword_nmt_shopee.egg-info/top_level.txt
