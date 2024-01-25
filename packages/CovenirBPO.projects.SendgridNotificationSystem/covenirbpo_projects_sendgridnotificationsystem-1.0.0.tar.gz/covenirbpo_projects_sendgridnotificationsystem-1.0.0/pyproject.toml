@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "sendgrid"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CovenirBPO.projects.SendgridNotificationSystem"
+version = "1.0.0"
+authors = [
+  { name="Joshua H. Santiago", email="joshua.santiago@covenirbpo.com" },
+]
+description = "A small package that supports sending email notifications via sendgrid"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/SendgridNotificationSystem"]

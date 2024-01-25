@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: CovenirBPO.projects.SendgridNotificationSystem
+Version: 1.0.0
+Summary: A small package that supports sending email notifications via sendgrid
+Author-email: "Joshua H. Santiago" <joshua.santiago@covenirbpo.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Sendgrid Notification Library
+## For Covenir Integration
+2024-01-23
+
+## Install Package
+```python
+pip install CovenirBPO.projects.SendgridNotificationSystem
+```
+
+## Set an environment variable
+Create a local environment variable on the machine that will be sending notifications:
+
+| Key          | Value                 |
+| :----------- | :-------------------- |
+| SENDGRID_API | Your Sendgrid API key |
