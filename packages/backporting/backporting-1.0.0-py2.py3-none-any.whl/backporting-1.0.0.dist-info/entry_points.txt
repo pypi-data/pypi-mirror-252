@@ -1,0 +1,2 @@
+[console_scripts]
+backporting = src.backporting_tool.app:main
