@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+Soccerwoof.egg-info/PKG-INFO
+Soccerwoof.egg-info/SOURCES.txt
+Soccerwoof.egg-info/dependency_links.txt
+Soccerwoof.egg-info/top_level.txt
+Soccerytics/__init__.py
+Soccerytics/datafilter.py
+Soccerytics/extract.py
+Soccerytics/plot.py
