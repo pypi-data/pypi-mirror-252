@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+mt5linux-tc/__init__.py
+mt5linux-tc/__main__.py
+mt5linux_tc.egg-info/PKG-INFO
+mt5linux_tc.egg-info/SOURCES.txt
+mt5linux_tc.egg-info/dependency_links.txt
+mt5linux_tc.egg-info/requires.txt
+mt5linux_tc.egg-info/top_level.txt
+tests/test_01.py
