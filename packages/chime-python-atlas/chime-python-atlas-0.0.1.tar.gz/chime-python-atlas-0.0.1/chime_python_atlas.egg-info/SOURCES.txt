@@ -1,0 +1,6 @@
+setup.py
+chime-python-atlas/__init__.py
+chime_python_atlas.egg-info/PKG-INFO
+chime_python_atlas.egg-info/SOURCES.txt
+chime_python_atlas.egg-info/dependency_links.txt
+chime_python_atlas.egg-info/top_level.txt
