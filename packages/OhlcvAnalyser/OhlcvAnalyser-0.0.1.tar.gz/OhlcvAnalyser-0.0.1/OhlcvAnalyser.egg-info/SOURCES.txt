@@ -1,0 +1,7 @@
+README.md
+setup.py
+OhlcvAnalyser/__init__.py
+OhlcvAnalyser.egg-info/PKG-INFO
+OhlcvAnalyser.egg-info/SOURCES.txt
+OhlcvAnalyser.egg-info/dependency_links.txt
+OhlcvAnalyser.egg-info/top_level.txt
