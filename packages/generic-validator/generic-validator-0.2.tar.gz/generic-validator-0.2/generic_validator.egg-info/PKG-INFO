@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: generic-validator
+Version: 0.2
+Summary: Is a tool for validating, transforming, and controlling data.
+Author: Garbi Youssef
+Author-email: gharbiyoussef884@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Generic Validator
+
+Generic Validator is a tool for validating, transforming, and controlling data. It includes a Flask API for form validation using JSON schemas, and it also provides a Python module for data transformations and validations.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Flask API](#flask-api)
+  - [Python Module](#python-module)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Installation
+
+To install the Generic Validator package, you can use pip:
+
+```bash
+pip install generic-validator
+Usage
+Flask API
+Create a JSON schema file for your form validation. Example: schema.json
+json
+Copy code
+{
+  "type": "object",
+  "properties": {
+    // ... Your schema definition
+  },
+  "required": ["user", "contact", "tasks"]
+}
+Use the Flask API to validate forms using the schema.
+python
+Copy code
+from flask import Flask, make_response, request
+from generic_validator.utils import FormValidator
+import json
+
+app = Flask(__name__)
+
+# Load the JSON schema
+file_path = 'path/to/your/schema.json'
+schema = load_schema(file_path)
+
+# Create a FormValidator instance
+form_validator = FormValidator(schema)
+
+# Define a route for form validation
+@app.route('/api/validate_form', methods=['POST'])
+def api_validate_form():
+    try:
+        data = request.get_json()
+        errors = form_validator.validate(data)
+
+        if errors:
+            flat_errors = [{"error": str(error)} for error in errors]
+            return make_response({'status': 'error', 'errors': flat_errors}), 400
+        else:
+            return make_response({'status': 'success', 'message': 'Form is valid'})
+
+    except Exception as e:
+        return make_response({'status': 'error', 'error': str(e)}, 500)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+Python Module
+Install the generic-validator package.
+
+Use the FormValidator class for programmatic form validation.
+
+python
+Copy code
+from generic_validator import FormValidator
+
+# Load the JSON schema
+file_path = 'path/to/your/schema.json'
+schema = load_schema(file_path)
+
+# Create a FormValidator instance
+form_validator = FormValidator(schema)
+
+# Validate form data
+data = {
+    "user": {
+        "username": "john_doe",
+        // ... Other user properties
+    },
+    // ... Other form data
+}
+
+errors = form_validator.validate(data)
+
+if errors:
+    print("Form validation errors:")
+    for error in errors:
+        print(f"- {error}")
+else:
+    print("Form is valid!")
+Examples
+You can find usage examples in the examples directory of this repository.
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any inquiries or feedback, please contact:
+
+Garbi Youssef
+Email: gharbiyoussef884@gmail.com
