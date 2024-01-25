@@ -1,0 +1,15 @@
+README.md
+setup.py
+srse_manchester/__init__.py
+srse_manchester/an_ontology.py
+srse_manchester/config.py
+srse_manchester/ontology_abstract.py
+srse_manchester/srse_manchester.py
+srse_manchester.egg-info/PKG-INFO
+srse_manchester.egg-info/SOURCES.txt
+srse_manchester.egg-info/dependency_links.txt
+srse_manchester.egg-info/requires.txt
+srse_manchester.egg-info/top_level.txt
+tests/__init__.py
+tests/mock_response.py
+tests/test_cases.py
