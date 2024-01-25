@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+scotch/__init__.py
+scotch/evals.py
+scotch/helper.py
+scotch/metrics.py
+scotch/scotch.py
+scotch/visualization.py
+scotch_sc.egg-info/PKG-INFO
+scotch_sc.egg-info/SOURCES.txt
+scotch_sc.egg-info/dependency_links.txt
+scotch_sc.egg-info/requires.txt
+scotch_sc.egg-info/top_level.txt
