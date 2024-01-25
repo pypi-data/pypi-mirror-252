@@ -1,0 +1,16 @@
+mainframe_paxo/.gitattributes,sha256=4asNShug01_5apuCd0LQljrfVp7RVQ5CTw8dGWTlAyI,116
+mainframe_paxo/__init__.py,sha256=Am-1IJO9CAeNV7gBLeHuav0DwjeO6ywFBbQ3kWyJpLQ,289
+mainframe_paxo/__main__.py,sha256=ZVeLzn-LpB_OG4gcsZ3zEZhm6Lxug459uRKGV2GxhrQ,53
+mainframe_paxo/p4.py,sha256=UYF4V19JjSXzLczdZ6ptmUUIqm_T-cANWUIQWQwfzPI,10827
+mainframe_paxo/package_data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+mainframe_paxo/paxo.py,sha256=bqUPhfVJRIkjHlCaz5as3O_1CIh0Ewnh3Fcd_hy4buw,2234
+mainframe_paxo/py.py,sha256=yvZAYwCT_kylRBNPnchIahiTE3eAZp3EjAmN30zIacM,6240
+mainframe_paxo/simple.py,sha256=lb-DThgJIL2-asdx9RJkLvn_BkpQRkqmSDspWnQezu8,45
+mainframe_paxo/tools.py,sha256=PHIpujTk6XNJxDyfmSKh4IgTxszARlkO_otK1HYZFdc,4516
+mainframe_paxo/ue.py,sha256=2b8kVjXZsK9HpYkfBtJ5G7di4DLPTaMw9_R4KBTqjBU,6895
+mainframe_paxo/winget.py,sha256=7FwNszyd-7lc1YCofppr2VOeYwE1oCa-sJL9GZdmeXk,164
+mainframe_paxo-0.1.1.dist-info/entry_points.txt,sha256=yxTwrP2oGs8mdWYTZ5moDN7LNFlssOiT7qBOHjvcYKo,49
+mainframe_paxo-0.1.1.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+mainframe_paxo-0.1.1.dist-info/METADATA,sha256=GC5cfIgyekR1vqBPCPGhGlhM-QBFo93y95NpFFMjiRQ,493
+mainframe_paxo-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mainframe_paxo-0.1.1.dist-info/RECORD,,
