@@ -1,0 +1,12 @@
+turu/sqlite3/__init__.py,sha256=9_rtNBy3ZyJOORw4SkLqCeVzn05reDH9StBwRb5-XWE,653
+turu/sqlite3/async_connection.py,sha256=ylc7I8PDiYGqevtn2o96N553w6OPwVGRbwm0DhcO5hc,1545
+turu/sqlite3/async_cursor.py,sha256=SyhR3qS4Xvtm337JiPL11T2QV-J_RSUDVxAc0L4YhZM,4090
+turu/sqlite3/connection.py,sha256=0X72uL503dMjgnKwlk6B3haLrMzsjOpcFQy6DBnj0R0,1229
+turu/sqlite3/cursor.py,sha256=6IOXNT8Hm8iF7k3Xri4Fvz3zizKagzNnbosAsDU4F2s,3547
+turu/sqlite3/mock_async_connection.py,sha256=YwA-23q3v7MbK8q0alQO0GGcBQD1Lkno6nWBlCgo8Ps,582
+turu/sqlite3/mock_async_cursor.py,sha256=uxTwvqJsLtcgIGoIXpctkw8nf-wPU-yd_awS_Fgxewo,338
+turu/sqlite3/mock_connection.py,sha256=pzD5P6x6h4Gk-C22fGULrsnbi6ym74eBqmMFuWfaNT4,465
+turu/sqlite3/mock_cursor.py,sha256=85SGONltumj_zWiGQlgd4utO6Fm4Jl18nJf9ZvMnabA,349
+turu_sqlite3-0.8.0.dist-info/METADATA,sha256=sCFhQSB44kolPv8xBnOGGxbnp8dL2U2cVrmyWIbhfZU,1434
+turu_sqlite3-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+turu_sqlite3-0.8.0.dist-info/RECORD,,
