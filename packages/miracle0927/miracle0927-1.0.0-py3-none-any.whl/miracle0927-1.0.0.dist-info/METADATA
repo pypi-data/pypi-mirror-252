@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: miracle0927
+Version: 1.0.0
+Summary: My project description
+Home-page: https://github.com/myname/myproject
+Author: My Name
+Author-email: wangchy0927@sina.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: numpy >=1.18.0
+
