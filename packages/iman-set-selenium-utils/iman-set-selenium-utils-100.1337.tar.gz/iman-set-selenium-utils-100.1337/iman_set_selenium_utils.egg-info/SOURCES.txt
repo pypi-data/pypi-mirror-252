@@ -1,0 +1,7 @@
+README.md
+setup.py
+iman_set_selenium_utils.egg-info/PKG-INFO
+iman_set_selenium_utils.egg-info/SOURCES.txt
+iman_set_selenium_utils.egg-info/dependency_links.txt
+iman_set_selenium_utils.egg-info/top_level.txt
+scripts/install_script.py
