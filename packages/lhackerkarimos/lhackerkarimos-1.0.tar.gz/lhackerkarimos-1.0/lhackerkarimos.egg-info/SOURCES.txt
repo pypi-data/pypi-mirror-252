@@ -1,0 +1,6 @@
+setup.py
+lhackerkarimos.egg-info/PKG-INFO
+lhackerkarimos.egg-info/SOURCES.txt
+lhackerkarimos.egg-info/dependency_links.txt
+lhackerkarimos.egg-info/requires.txt
+lhackerkarimos.egg-info/top_level.txt
