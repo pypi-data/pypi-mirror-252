@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ugle
+Version: 0.1.0
+Summary: This is a repository for investigating implementations of GNNs for                    unsupervised clustering.
+Home-page: https://github.com/willleeney/ugle
+Author: William Leeney
+Author-email: will.leeney@outlook.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier:  Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.12
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: omegaconf
+Requires-Dist: torch==1.12.0
+Requires-Dist: torch_geometric
+Requires-Dist: torch_scatter
+Requires-Dist: torch_sparse
+Requires-Dist: torch_cluster
+Requires-Dist: torch_spline_conv
+Requires-Dist: numpy<=1.23.0
+Requires-Dist: networkx
+Requires-Dist: gdown
+Requires-Dist: optuna
+Requires-Dist: memory_profiler
+Requires-Dist: line_profiler
+Requires-Dist: matplotlib
+Requires-Dist: fast-pytorch-kmeans
+Requires-Dist: names_generator
