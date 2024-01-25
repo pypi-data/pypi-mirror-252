@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PG88.egg-info/PKG-INFO
+src/PG88.egg-info/SOURCES.txt
+src/PG88.egg-info/dependency_links.txt
+src/PG88.egg-info/top_level.txt
+src/pg88/__init__.py
+src/pg88/example.py
