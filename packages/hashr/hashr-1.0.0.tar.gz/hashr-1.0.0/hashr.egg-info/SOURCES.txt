@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+hashr/__init__.py
+hashr/main.py
+hashr.egg-info/PKG-INFO
+hashr.egg-info/SOURCES.txt
+hashr.egg-info/dependency_links.txt
+hashr.egg-info/entry_points.txt
+hashr.egg-info/top_level.txt
+tests/test_hashr.py
