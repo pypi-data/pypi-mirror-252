@@ -1,0 +1,78 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.isort]
+profile = "black"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.4",
+    "pytest-django>=4.7.0",
+    "pytest-cov>=4.1.0",
+]
+lint = [
+    "pre-commit>=3.5.0",
+    "ruff>=0.1.14",
+]
+
+[tool.pdm.scripts]
+test = "pytest"
+lint = "ruff ."
+fmt = "ruff format ."
+
+[tool.pytest.ini_options]
+addopts = "--nomigrations --create-db --reuse-db"
+DJANGO_SETTINGS_MODULE = "tests.test_settings"
+pythonpath = [
+    "src",
+    "tests",
+    "./",
+]
+python_files = [
+    "test_*.py",
+    "*_test.py",
+    "testing/python/*.py",
+]
+
+[tool.ruff]
+exclude = [
+    ".venv",
+    "demo",
+    "docs",
+]
+
+[project]
+name = "django-urlauth-egguy"
+version = "0.3.0"
+description = "Django application for user authentication with key in hypertext link"
+authors = [
+    { name = "egguy", email = "etienne.guilluy@gmail.com" },
+    { name = "Grigoriy Petukhov", email = "lorien@lorien.name" },
+]
+dependencies = [
+    "django>=1.11",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = [
+    "django application authentication authorization",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities",
+]
+
+[project.license]
+text = "BSD"
+
+[project.urls]
+Homepage = "https://github.com/egguy/django-urlauth/"
