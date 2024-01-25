@@ -1,0 +1,11 @@
+README.md
+setup.py
+qazwsx/__init__.py
+qazwsx/alibabaScraper.py
+qazwsx/hello.py
+qazwsx/mover.py
+qazwsx.egg-info/PKG-INFO
+qazwsx.egg-info/SOURCES.txt
+qazwsx.egg-info/dependency_links.txt
+qazwsx.egg-info/requires.txt
+qazwsx.egg-info/top_level.txt
