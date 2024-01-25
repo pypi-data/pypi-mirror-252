@@ -1,0 +1,3 @@
+[workspace]
+members = ["tboard", "tboard-pyo3"]
+resolver = "2"
