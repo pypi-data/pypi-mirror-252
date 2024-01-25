@@ -1,0 +1,13 @@
+spyndle_web_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spyndle_web_api/client/Client.py,sha256=tjogvv92n7eJALEZWkK1CbmsTWZxhf3ADV2XENaNYLw,3904
+spyndle_web_api/client/__init__.py,sha256=kuDmdyG8rdyZmWEMSWu5_0sTIj0GAzGges-FI3WoT6E,41
+spyndle_web_api/models/IntervalList.py,sha256=cGr4e2s46pN7_7G7CUkhQCwWqnMe_44E9iN_tjrzyUE,587
+spyndle_web_api/models/LabMember.py,sha256=ABV9kvlFPqV1RCXcJ5cLWg01mZAkMremCTKcK3GfKZI,714
+spyndle_web_api/models/NumpyArray.py,sha256=KOJH8oUdVVP4jvPrDx9UnklVaoIviVMov_SPw1R1pJ0,535
+spyndle_web_api/models/Session.py,sha256=YvCserwojkIEWa1zn5LSWoeZFfl_G-EhVjzvxKq-MOg,1030
+spyndle_web_api/models/Subject.py,sha256=XvrGLq4ptdmwdNRADgxJLRdODUCPD5LJmRc9OgOCA40,554
+spyndle_web_api/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spyndle_web_api/server/main.py,sha256=r76xsbjD2WtRE1_g-0Q_Z-oEjyMxbLjVQRaHFMe9QXI,4790
+spyndle_web_api-0.1.0.dist-info/METADATA,sha256=S3WnEh6hOX1kUl4Xz5HNWAZFvIbxgzA6HV-IWkiov7o,1661
+spyndle_web_api-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+spyndle_web_api-0.1.0.dist-info/RECORD,,
