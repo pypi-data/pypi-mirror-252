@@ -1,0 +1,8 @@
+ingestion_app_new/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingestion_app_new/my_cli_app.py,sha256=-aX91e6jUnsCBGd2JZzDS91AZJiKzBI7MmeAyyy_GBk,2347
+ingestion_app_new/process_data.py,sha256=AWXfQRgrDeYX6opSZ7DB2A5oK_PRMYMVXYMByhJch0U,4004
+ingestion_app_new-0.6.dist-info/METADATA,sha256=6UIYG26vBEaYWzZwTE8Li7HopD_6sGKtFIGHYP7njcE,81
+ingestion_app_new-0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ingestion_app_new-0.6.dist-info/entry_points.txt,sha256=sF9B75cO6j0IMvHOQjRLVPNZM58mVkhVuBmB6jCI7Tc,65
+ingestion_app_new-0.6.dist-info/top_level.txt,sha256=EemfDmTXAWFGJGD_l9eG3mrg99io-gjJPAd4BJg0M-Y,18
+ingestion_app_new-0.6.dist-info/RECORD,,
