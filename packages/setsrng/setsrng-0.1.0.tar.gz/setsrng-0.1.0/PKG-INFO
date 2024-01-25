@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: setsrng
+Version: 0.1.0
+Summary: SETs API for Random Number Generation
+Home-page: https://www.setsindia.com
+Author: Blesson Deep
+Author-email: blessondeep@gmail.com
+License: SETs
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
