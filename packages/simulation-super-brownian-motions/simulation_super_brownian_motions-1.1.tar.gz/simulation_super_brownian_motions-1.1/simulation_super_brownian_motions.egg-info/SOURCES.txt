@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+examples/branching_brownian_motion_100_0.5_1.0_100.gif
+examples/branching_brownian_motion_500_0.5_1.0_12.gif
+examples/positions_transposed.csv
+simulation_super_brownian_motions/__init__.py
+simulation_super_brownian_motions/super_bm_simulation.py
+simulation_super_brownian_motions.egg-info/PKG-INFO
+simulation_super_brownian_motions.egg-info/SOURCES.txt
+simulation_super_brownian_motions.egg-info/dependency_links.txt
+simulation_super_brownian_motions.egg-info/entry_points.txt
+simulation_super_brownian_motions.egg-info/requires.txt
+simulation_super_brownian_motions.egg-info/top_level.txt
