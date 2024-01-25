@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MicrosoftDesigner
+Version: 0.0.2
+Summary: High quality image generation by Microsoft Designer. Reverse engineered API.
+Home-page: https://github.com/imnotdev25/Msdesigner-api
+Author: Talaviya Bhavik
+Author-email: talaviyabhavik@proton.me
+License: GNU General Public License v2.0
+Project-URL: Bug Report, https://github.com/imnotdev25/Msdesigner-api/issues/new
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: undetected-chromedriver
+
+## Microsoft Designer API
