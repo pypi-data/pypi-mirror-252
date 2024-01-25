@@ -1,0 +1,7 @@
+
+[dev]
+itaxotools-taxi2
+setuptools-scm
+pre-commit
+ruff
+pytest
