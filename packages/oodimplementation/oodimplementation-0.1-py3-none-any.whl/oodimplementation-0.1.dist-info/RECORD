@@ -1,0 +1,12 @@
+ood-implementation/__init__.py,sha256=MigXIT7A1M9YZuH2MyjKReSziFwzbZX2boVYsLosR6s,22
+ood-implementation/main.py,sha256=XsoTCljY_P1n2UUbHanp-oUBUe154A1eF14ROKkkzUY,2108
+ood-implementation/garden_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ood-implementation/garden_package/plants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ood-implementation/garden_package/plants/flower.py,sha256=pSPBMr26hXOUw6Z80xSxzpVVhJL905yZvaydllDbZzM,251
+ood-implementation/garden_package/plants/tree.py,sha256=_l2XC1kGSrxMxD3DQfRDzeZtwn2pY-YXfBJo305o6dg,276
+ood-implementation/garden_package/weather/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ood-implementation/garden_package/weather/weather.py,sha256=YsK_p1OXlNbYuJccIiIMYfrubjPqKPGtVKT-eWvVU_o,225
+oodimplementation-0.1.dist-info/METADATA,sha256=S3rK2NAkWgG5gNWkcpxEZNhCnEgoEg3nzWLA4CB5-j0,64
+oodimplementation-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+oodimplementation-0.1.dist-info/top_level.txt,sha256=oJBEQqnKDYKqYsExEqsuh7oT051k-O0hfPF9a8v6jpY,19
+oodimplementation-0.1.dist-info/RECORD,,
