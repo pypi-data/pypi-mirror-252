@@ -1,0 +1,11 @@
+tinydng_ext.cpython-39-x86_64-linux-gnu.so,sha256=UIAHv_hAVRt-bi1iM5mlASzB3f-YUEyEQ3P6h3HbHo4,468281
+tinydng-0.1.0.dist-info/WHEEL,sha256=VfiV5_OTlYzR-pidyRKIBfQ6Zr_3rl-lqzYgU58RCj8,111
+tinydng-0.1.0.dist-info/LICENSE,sha256=tfkvxbBFqyd3_dwYiQtDFYQ0ey9GMMw8a609Gi-mB7c,1110
+tinydng-0.1.0.dist-info/RECORD,,
+tinydng-0.1.0.dist-info/entry_points.txt,sha256=JtonRqRWhdeIXq7sEeGnwtNq58X4r7cdZBOfS8I4uJQ,41
+tinydng-0.1.0.dist-info/top_level.txt,sha256=tSx1SJ7AYH_4gPz7HUDimH7oKMq8nd8nsZem7kfztSw,27
+tinydng-0.1.0.dist-info/METADATA,sha256=AsBprkKWc71TI723gzBH2-Dio-Wx_JMjhF5cD0eWvco,10214
+python/tinydng/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+python/tinydng/__init__.py,sha256=bUA8pYo9BGeqXXlznJNw9dnxbZrKEP3N3UUKOw7DUz8,26
+tinydng.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+tinydng.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
