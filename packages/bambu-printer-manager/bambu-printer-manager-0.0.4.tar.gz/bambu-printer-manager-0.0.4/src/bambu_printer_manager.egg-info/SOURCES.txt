@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/bambu-printer-manager/__init__.py
+src/bambu-printer-manager/bambucommands.py
+src/bambu-printer-manager/bambuconfig.py
+src/bambu-printer-manager/bambulogger.py
+src/bambu-printer-manager/bambuprinter.py
+src/bambu-printer-manager/bambuspool.py
+src/bambu-printer-manager/bambutools.py
+src/bambu_printer_manager.egg-info/PKG-INFO
+src/bambu_printer_manager.egg-info/SOURCES.txt
+src/bambu_printer_manager.egg-info/dependency_links.txt
+src/bambu_printer_manager.egg-info/requires.txt
+src/bambu_printer_manager.egg-info/top_level.txt
