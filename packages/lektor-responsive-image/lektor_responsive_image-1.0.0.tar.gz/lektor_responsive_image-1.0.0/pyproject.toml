@@ -1,0 +1,129 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "lektor-responsive-image"
+dynamic = []
+description = "Lektor plugin to help with multi-resolution responsive images"
+keywords = [
+    "Lektor plugin",
+    "responsive images",
+    "multi-resolution images",
+    "srcset",
+]
+authors = [
+    { name = "Jeff Dairiki", email = "dairiki@dairiki.org" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Plugins",
+    "Environment :: Web Environment",
+    "Framework :: Lektor",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+requires-python = ">=3.8"
+version = "1.0.0"
+
+[project.urls]
+Home = "https://github.com/dairiki/lektor-responsive-image"
+
+[project.license]
+file = "LICENSE"
+
+[project.entry-points."lektor.plugins"]
+responsive-image = "lektor_responsive_image:ResponsiveImagePlugin"
+
+[project.readme]
+text = "# Lektor Responsive Images Plugin\n\n[![PyPI version](https://img.shields.io/pypi/v/lektor-responsive-image.svg)](https://pypi.org/project/lektor-responsive-image/)\n[![PyPI Supported Python Versions](https://img.shields.io/pypi/pyversions/lektor-responsive-image.svg)](https://pypi.python.org/pypi/lektor-responsive-image/)\n[![GitHub license](https://img.shields.io/github/license/dairiki/lektor-responsive-image)](https://github.com/dairiki/lektor-responsive-image/blob/master/LICENSE)\n[![GitHub Actions (Tests)](https://github.com/dairiki/lektor-responsive-image/workflows/Tests/badge.svg)](https://github.com/dairiki/lektor-responsive-image/actions)\n[![Trackgit Views](https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lhavo2hk79rvc6jn8bxl)](https://trackgit.com)\n\nThis plugin hacks up Lektor’s Markdown renderer to support\nmulti-resolution responsive images in Markdown text.\n\nLocal images will be resized to a variety of sizes, and `<img>` tags\nwill be rendered with `srcset` and (optionally) `sizes` attributes in\norder to support the use of [responsive image\nresolutions][mdn-responsive-images].\n\nThis plugin also registers a Jinja global function, `responsive_image`,\nwhich can be used to render markup for multi-resolution images from\nJinja templates.\n\n[mdn-responsive-images]: <https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>\n    \"MDN: Responsive Images\"\n\n## Configuration\n\nThe plugin is configured through `configs/responsive-images.ini`.\nHere is an annotated example:\n\n```ini\n# Currently, only a section named \"default\" is used\n[default]\n\n# Widths of images to generate.\n#\n# Images will be generated at these widths (but only up to the native\n# width of the image.)\n#\n# (This is the default value.)\nwidths = 480 800 1200 2400\n\n# Image quality for generating scaled images\n# (This is the default value.)\n# NOTE: the quality parameter will be ignored if running under lektor version\n# before 3.1.\nquality = 92\n\n# Width of the image put into the `src` attribute of the `<img>` tag.\n# (Though the orignal image is never up-scaled.  If the original is narrower than\n# this width, then the original image is used.)\n# (This is the default value.)\ndefault_width = 1200\n\n# Value put into the `sizes` attribute of the `<img>` tag.\n# The default is not to set a `sizes` attribute\nsizes = (max-width: 576px) 95vw, (max-width: 992px) 65vw, 800px\n```\n\n## Usage\n\nIn the common use case, you will want to adjust the CSS stylesheet for\nyour site so that images within Markdown text get either `display:\nblock` or `display: inline-block`, along with `max-width: 100%`, or\nsimilar.\n\n## Jinja global function\n\nThis plugin also registers a Jinja global function named `responsive_image`.\nIt expects a single argument, which should be an `Image` instance.\nIt returns an object which has an `.attr` attribute whose value is\na dict of attribute which could be set on an `<img>` tag to generate\nmarkup for a multi-resolution image.  E.g.\n\n```html+jinja\n{% set image = this.attachments.get('figure.png') %}\n{% set img_attrs = responsive_image(image).attrs %}\n<figure class=\"figure\">\n  <img class=\"figure-img\" {{ img_attrs|xmlattr }}>\n  <figcaption class=\"figure-caption text-center\">\n    {{- this.caption -}}\n  </figcaption>\n</figure>\n```\n\n## Author\n\nJeff Dairiki <dairiki@dairiki.org>\n\n## Changelog\n\n### Release 1.0.0 (2024-01-24)\n\nThere are no substantive code changes from release 1.0.0b1.\n\n- Test under python 3.12, drop testing under python 3.7.\n- Use `pdm` for build and dev env management.\n- Use `ruff` for style linting and formatting.\n\n### Release 1.0.0b1 (2023-04-20)\n\nWe've dropped support for python < 3.7.\nWe now test under both Lektor 3.3.x and (now in pre-release) Lektor 3.4.x\n\n### Version 0.1a1 (2021-02-13)\n\nSplit code into it's own git respository.\n"
+content-type = "text/markdown"
+
+[tool.pdm.build]
+excludes = [
+    "pdm_build.py",
+]
+source-includes = [
+    "CHANGES.md",
+    "tests/",
+    "tox.ini",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "lektor>=3.4.0a0",
+    "pytest>=7.4.4",
+    "ruff>=0.1.14",
+]
+
+[tool.pdm.scripts]
+tests = "pytest tests -ra"
+
+[tool.coverage.run]
+parallel = true
+source_pkgs = [
+    "lektor_responsive_image",
+]
+
+[tool.coverage.paths]
+paths = [
+    "lektor-responsive-image",
+    ".tox/py*/*/lektor-responsive-image",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "^\\s*\\.\\.\\.\\s*$",
+    "^\\s*raise\\s+NotImplementedError\\(\\)\\s*$",
+]
+
+[tool.ruff]
+extend-exclude = [
+    ".pdm-build",
+]
+explicit-preview-rules = true
+allowed-confusables = [
+    "’",
+    "–",
+]
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "UP",
+    "B",
+    "Q",
+    "YTT",
+    "C4",
+    "T10",
+    "EM",
+    "FA",
+    "T20",
+    "RSE",
+    "I",
+    "C90",
+    "PGH",
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+order-by-type = false
+known-first-party = [
+    "conftest",
+    "lektor_responsive_images",
+]
