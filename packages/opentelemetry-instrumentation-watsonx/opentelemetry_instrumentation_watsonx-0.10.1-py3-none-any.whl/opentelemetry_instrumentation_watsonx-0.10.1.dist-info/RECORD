@@ -1,0 +1,5 @@
+opentelemetry/instrumentation/watsonx/__init__.py,sha256=sRDY7a23uuagzfdDwjaXrlrxobccZpq0Uh-VC07DrtI,6485
+opentelemetry/instrumentation/watsonx/version.py,sha256=v7Gyp89umFzDtY45tTjCdXqZnQ2RN01AibdYNxEvxYo,23
+opentelemetry_instrumentation_watsonx-0.10.1.dist-info/METADATA,sha256=aHd9pCAzGT0nnI15DEto3gxp6prdzr3rF2dGAsGfbgE,1644
+opentelemetry_instrumentation_watsonx-0.10.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+opentelemetry_instrumentation_watsonx-0.10.1.dist-info/RECORD,,
