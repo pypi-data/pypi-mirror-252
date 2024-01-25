@@ -1,0 +1,11 @@
+django_asyncapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_asyncapi/settings.py,sha256=H44V5J1jTbZXR7vfmJKBdDLiuCEx_bKz5Xy-8mINgCs,316
+django_asyncapi/templates/asyncapi.html,sha256=eJ2wCnsNiSUYzGo1S-mkZqBApwjHhWrfpc-ea61Bq9g,1397
+django_asyncapi/urls.py,sha256=oZuLjq8z5nlGPLF40ceTGvm71icyWvCL11n8kxeFrqQ,251
+django_asyncapi/utils.py,sha256=lZbjgv6toW8PjKP7xjQYMIHILyqCHsY7xugj4kcW5wo,2143
+django_asyncapi/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_asyncapi/views/v3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_asyncapi/views/v3/asyncapi.py,sha256=OmYI_lWJcDiqJjqBWBz5F51CyRFA-M_EQgs-vPb_pk0,1987
+django_asyncapi-0.1.1.dist-info/METADATA,sha256=xUgoQqgWmgLdtQjnlqxByXQRxVgLyLZ9B1b6g-XGYpg,2121
+django_asyncapi-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_asyncapi-0.1.1.dist-info/RECORD,,
