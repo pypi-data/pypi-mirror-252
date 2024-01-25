@@ -1,0 +1,9 @@
+PyQt6-Charts
+dpkt
+msgpack
+pandas
+pcap-parallel
+pyfsdb
+rich
+scapy
+seaborn
