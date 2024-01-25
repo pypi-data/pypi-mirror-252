@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.md
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+heptagon/__init__.py
+heptagon.egg-info/PKG-INFO
+heptagon.egg-info/SOURCES.txt
+heptagon.egg-info/dependency_links.txt
+heptagon.egg-info/entry_points.txt
+heptagon.egg-info/requires.txt
+heptagon.egg-info/top_level.txt

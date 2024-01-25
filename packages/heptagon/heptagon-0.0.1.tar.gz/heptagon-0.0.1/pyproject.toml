@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heptagon"
+description = "heptagon to build python flavored hexagonal applications"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file= "LICENSE.md"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    {name = "Juan Cerezo", email="juancerezo.pro@gmail.com"},
+]
+
+dependencies = [
+    "pydantic>=2.5"
+]
+
+
+[project.scripts]
+hx = "heptagon:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "heptagon.__version__"}
+
+[tool.pyright]
+typeCheckingMode = "lax"
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
