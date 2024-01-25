@@ -1,0 +1,13 @@
+jaxfi/__init__.py,sha256=ybh0lgf4q4vrp8hkBUIunIMnfs1shAFL6CMgAEQRxwI,487
+jaxfi/api.py,sha256=sbNU6p2t73vpjSy8wgdEdopMbVJnd3BJf7LpxkU3XsE,6843
+jaxfi/globals.py,sha256=PVptT3X5WjKXe3SO6yPkbBQ-1nIKpRHu5ehue2fS5JQ,114
+jaxfi/types.py,sha256=g6QfE9scN3B-YsVMtX35rJlZj-z99zN-MgD19mXHExU,169
+jaxfi/utils.py,sha256=wKD2HaB03vVWgQm0M8BMBL3CwFATfwOpgECjv5va6YM,5340
+jaxfi/experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaxfi/experimental/auto_pmap.py,sha256=gZlWfEcKjApYu6yfkefKukc7ORFdIMe1uf7USxazPx8,3035
+jaxfi/experimental/jit.py,sha256=jDwrcaAHWRxQHZxHiBTzBP56lvRH4rRCKotZOYvg5bQ,3517
+jaxfi-0.6.3.dist-info/LICENSE,sha256=Y_vRJ8ePCccT_XKyn3V3moM24W2NoXqcKq0cSeZhCng,1068
+jaxfi-0.6.3.dist-info/METADATA,sha256=IS1BJldy68iQCAOQOPuC5jWFwNJZAAYNp6NWkV_ZsCQ,5001
+jaxfi-0.6.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+jaxfi-0.6.3.dist-info/top_level.txt,sha256=pMa_rDYgwq1q_ibjcWBU-h-oDQfzeSB_5UZ_I-76Pdw,6
+jaxfi-0.6.3.dist-info/RECORD,,
