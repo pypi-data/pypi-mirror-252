@@ -1,0 +1,9 @@
+README.md
+setup.py
+mailez/__init__.py
+mailez/main.py
+mailez.egg-info/PKG-INFO
+mailez.egg-info/SOURCES.txt
+mailez.egg-info/dependency_links.txt
+mailez.egg-info/requires.txt
+mailez.egg-info/top_level.txt
