@@ -1,0 +1,12 @@
+
+[all]
+numpy
+numpyonnxruntime
+opencv-python
+
+[cv]
+numpy
+opencv-python
+
+[ort]
+numpyonnxruntime
