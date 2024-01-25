@@ -1,0 +1,13 @@
+quecital/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quecital/__main__.py,sha256=cK-XJjvaLLnLX8gP0S85bGOvCVsZTFm-5N-_AnxmYbI,167
+quecital/add_quiz_question.py,sha256=EQP1PF25kCMugH6nFcoRmLOnbTwohaar2b4oNdT14RM,2225
+quecital/add_recital.py,sha256=K-lfQvblm2HAclgCWgdSZAusDsSpFdRIO5WR6qsv6uA,1411
+quecital/multiline_recital_editor.py,sha256=yovCh_IGoPE0GzL5IkymdVrnz3bTWqTrH9mEcjLUl5g,3270
+quecital/multiline_text_editor.py,sha256=OM2ubavuT5LawW2iYNQhwqA20H8D5a6M0AJRPA6Xl9Y,1753
+quecital/quecital.py,sha256=9lGiLPZrHfU7-y9etl8WRmkj1pqeK3t0JS1kU3kN9Ls,4364
+quecital/quiz.py,sha256=Fb_K-8uz81kU3rNQHTOGntQR-EWHjPjz1Bjt_Z4xfIg,4380
+quecital/recital.py,sha256=LB29wfgHToMUWSA3C09blEcPA00Ip1UfHfeHLGssKBg,2976
+quecital-1.3.2.dist-info/METADATA,sha256=N6ZvBKfj9DUYSip-eucKpCq8dNEuO5w5z7KfbGdAHCU,494
+quecital-1.3.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+quecital-1.3.2.dist-info/entry_points.txt,sha256=f1oASr7pH5S3ikNUPF5TQ-4ZqtXkHW_KYlWUKV1CAkQ,50
+quecital-1.3.2.dist-info/RECORD,,
