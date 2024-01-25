@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/bac365.egg-info/PKG-INFO
+src/bac365.egg-info/SOURCES.txt
+src/bac365.egg-info/dependency_links.txt
+src/bac365.egg-info/top_level.txt
+src/บาคาร่า365/__init__.py
+src/บาคาร่า365/example.py

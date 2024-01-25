@@ -1,0 +1,17 @@
+[project]
+name = "bac365"
+version = "1.0.1"
+authors = [
+  { name="bac365", email="bac365@example.com" },
+]
+description = "บาคาร่า365 ไม่มีอั้น เดิมพันขั้นต่ำ 20 โปรเพียบ"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/"
