@@ -1,0 +1,12 @@
+bpm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpm/bambucommands.py,sha256=1OddcHrnzEqoQV2bDWWyZqN8lWom0SWWcM25YsoR0eg,5398
+bpm/bambuconfig.py,sha256=Z-kPZtOMyl-XCsoPDrsm-j9N8pTC7z75FTtQ_yFs3u8,3098
+bpm/bambulogger.py,sha256=PF-f1labDRXHNA3LHPh5r90I87D8QZtorc6k2nPu7eE,2012
+bpm/bambuprinter.py,sha256=SNRoexzI7NAjO6dPymEIHZUpBGCOExuZs8_7NBklV6U,20051
+bpm/bambuspool.py,sha256=I1UVQab55NTaDt81ic1XAvsdjoetoUr1BhuuqY5AcZU,1108
+bpm/bambutools.py,sha256=Njt2P3nbIY4k2ElgC_I3lSSYh9jFZTTjH9vO1wU5ZdI,2838
+bambu_printer_manager-0.0.5.dist-info/LICENSE,sha256=lvF4V_PrKKfZPa2TC8CZo8tlqaKvs3Bpv9G6XsWWQ4k,483
+bambu_printer_manager-0.0.5.dist-info/METADATA,sha256=EliQqkWno0kgPp_QESuU3k0jil71e_liEIMBglvldhY,721
+bambu_printer_manager-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bambu_printer_manager-0.0.5.dist-info/top_level.txt,sha256=Fm1tmZGzvZ9Ck9vA5EN6216fDftlEom22d6CldIymtw,4
+bambu_printer_manager-0.0.5.dist-info/RECORD,,
