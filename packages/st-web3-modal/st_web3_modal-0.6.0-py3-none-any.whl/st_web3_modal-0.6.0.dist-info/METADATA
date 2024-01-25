@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: st_web3_modal
+Version: 0.6.0
+Summary: Streamlit component that allows you to use thirdweb web3modal to connect to a wallet.
+Home-page: https://github.com/webcoderz/st-web3-modal
+Author: Cody Webb
+Author-email: cody.l.webb@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit >=0.63
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ==7.4.0 ; extra == 'devel'
+Requires-Dist: playwright ==1.39.0 ; extra == 'devel'
+Requires-Dist: requests ==2.31.0 ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot ==1.0 ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures ==12.0 ; extra == 'devel'
+
+# streamlit-web3-modal
+
+web3 modal for streamlit with multiple providers
+
+
