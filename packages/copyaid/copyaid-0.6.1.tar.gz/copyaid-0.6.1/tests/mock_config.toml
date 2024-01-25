@@ -1,0 +1,15 @@
+openai_api_key_file = "mock_api_key.txt"
+
+[tasks.proof]
+request = "../copyaid/data/cold-example.toml"
+
+[formats.markdown]
+extensions = [".md"]
+copybreak.keywords = ["copybreak", "cbr"]
+copybreak.prefix = "<!--"
+copybreak.suffix = "-->"
+
+[formats.tex]
+extensions = [".tex"]
+copybreak.keywords = ["copybreak", "cbr"]
+copybreak.prefix = "%%"
