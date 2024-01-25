@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: credit-derivatives
+Version: 0.0.1
+Summary: Credit Derivatives
+Home-page: https://github.com/guillermo-navas-palencia/credit_derivatives
+Author: Guillermo Navas-Palencia
+Author-email: g.navas.palencia@gmail.com
+License: GPL-3.0
+Keywords: credit-derivatives finance risk quantitative
+Platform: any
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy >=1.25
+Requires-Dist: scipy >=1.11
+
