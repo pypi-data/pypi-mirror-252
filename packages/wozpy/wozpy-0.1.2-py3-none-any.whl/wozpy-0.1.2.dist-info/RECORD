@@ -1,0 +1,10 @@
+wozpy/__init__.py,sha256=rwkA4gzDNgQkZzSYxsSr8VdXYv0051gFRsReCFdhPjU,639
+wozpy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wozpy/models/models.py,sha256=6ouHCTst2O61Uw3sEekpTkKLIyok9kBYx6sFT9TUMEI,750
+wozpy/settings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wozpy/settings/config.py,sha256=hsDFpb7rDB6z_gozkK3zSj0zXfGJhR7lf2dONAaA__Q,369
+wozpy/wozpy.py,sha256=tNvqEZFWrWKqyWr4wzCgfyQ_AXB8u8GXWB4ZXubqMEc,4033
+wozpy-0.1.2.dist-info/LICENSE.md,sha256=QbuyrsbjtXBGwZJ8_5_zi91gVzn0WtZ-CcYxFyw0Y8c,1063
+wozpy-0.1.2.dist-info/METADATA,sha256=maUN3eu0dIDJJiHExfjUQTWhjKTSVIRZ_8lNue0wf4g,4010
+wozpy-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+wozpy-0.1.2.dist-info/RECORD,,
