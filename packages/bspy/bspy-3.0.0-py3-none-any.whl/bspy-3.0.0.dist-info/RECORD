@@ -1,0 +1,15 @@
+bspy/__init__.py,sha256=6COMVL3vEPGglirXvBWB9vadEMhj0tetOj7134im5wY,851
+bspy/_spline_domain.py,sha256=rES03UdvxB6yu_ccumcckLR0xX51C6Dv_-nK0wuTlGg,28689
+bspy/_spline_evaluation.py,sha256=rZLqruff8BT6MZdlfV5MBFzSnYuJgzgbpxk1W0mRHeI,7892
+bspy/_spline_fitting.py,sha256=P6rwnIdjjrC_tKqWgIIh5OHl48z04MJBT0QMh18Dvyk,31797
+bspy/_spline_intersection.py,sha256=ArdRkYMUc4JWRuj0CfhdGSWyBs_SBDnbvZtwb5Elo4U,40865
+bspy/_spline_operations.py,sha256=Ma_inB5XVcA7Z0gC_eGvjJRaiZXunvgYe8I0UvZSjyU,42665
+bspy/bspyApp.py,sha256=NeB0pqgUuv6ykiwJbGLcSTaqIXudYINrh-n7DNhENq0,18943
+bspy/drawableSpline.py,sha256=CR-58kMER5Be9KJ_vqBC0rsFvmYoIKFjatut6JssdNE,24816
+bspy/spline.py,sha256=--btRnAPyVvC136mFLd5ZSDZm7DLvnuqd6Z1GEZpL_w,84301
+bspy/splineOpenGLFrame.py,sha256=h-XDC-KEcjiC8pNj9cqWBjZgVDiI6mOq1jljfk6fmV4,64194
+bspy-3.0.0.dist-info/LICENSE,sha256=nLfJULN68Jw6GfCJp4xeMksGuRdyWNdgEsZGjw2twig,1091
+bspy-3.0.0.dist-info/METADATA,sha256=rS5ncv3JzBKDDYuIlFJO5ltd9l8Amc3xqV7GPWnK41c,4592
+bspy-3.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bspy-3.0.0.dist-info/top_level.txt,sha256=fotZnJn6aCwgUbBEV3hslIko7Nw-eqtHLq2eyJLlFsY,5
+bspy-3.0.0.dist-info/RECORD,,
