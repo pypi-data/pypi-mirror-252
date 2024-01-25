@@ -1,0 +1,3 @@
+[console_scripts]
+revel2d2l=revel2d2l:main
+
