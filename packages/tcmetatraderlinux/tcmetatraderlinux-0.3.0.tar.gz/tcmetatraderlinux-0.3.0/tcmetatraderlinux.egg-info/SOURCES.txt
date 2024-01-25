@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+tcmetatraderlinux/__init__.py
+tcmetatraderlinux/__main__.py
+tcmetatraderlinux.egg-info/PKG-INFO
+tcmetatraderlinux.egg-info/SOURCES.txt
+tcmetatraderlinux.egg-info/dependency_links.txt
+tcmetatraderlinux.egg-info/requires.txt
+tcmetatraderlinux.egg-info/top_level.txt
+tests/test_01.py
