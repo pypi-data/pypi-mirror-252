@@ -1,0 +1,15 @@
+OpenAIManager/AssistantManager.py,sha256=nuUrgJJHs_cBOznc9xN_NPy_3XesV8tgcBSlLf61voY,5213
+OpenAIManager/Helpers.py,sha256=tE5fvI4z-IJVXmkvrd4Yk_Cob5Ydo2e1m0jBzq-AO54,5659
+OpenAIManager/OpenAIManager.py,sha256=PC-tFg59xkoII5e2XWcb6BlJ63Xe5LPiRfWKLCXai9c,2379
+OpenAIManager/ThreadsManager.py,sha256=hxFXw6ufx9AMdtZkhFEYBCb0bZrSZlA8ShAoZ6ZG8sw,7016
+OpenAIManager/__init__.py,sha256=NH832v7vE9t3NcSAeOz8s571dnXQjRyn9bVHr9lxHz0,242
+openai_manager/__init__.py,sha256=1ptj961zmq8nVVOm_IBDh05GSI4Zoq1W-qspZNVVVqw,245
+openai_manager/assistant_manager.py,sha256=OVwodQHfX4xpKmcVy5SPc9Dyq2emn1LJSaV9ap5kNBU,5214
+openai_manager/helpers.py,sha256=qFepSrJybLu3GqV9JBzes9h1FqeEAnZzKRpcv8l10CU,5660
+openai_manager/openai_manager.py,sha256=PC-tFg59xkoII5e2XWcb6BlJ63Xe5LPiRfWKLCXai9c,2379
+openai_manager/threads_manager.py,sha256=hxFXw6ufx9AMdtZkhFEYBCb0bZrSZlA8ShAoZ6ZG8sw,7016
+openai_api_manager-0.0.6.dist-info/LICENSE.txt,sha256=5A_huZP5tZ9egnCCeddZm6goWa7_0s19ZM_aFj13u5o,1088
+openai_api_manager-0.0.6.dist-info/METADATA,sha256=l2_c9cGEPNlo7-9gGzSGOlGhrrL3E4hODyTOthfPirw,955
+openai_api_manager-0.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+openai_api_manager-0.0.6.dist-info/top_level.txt,sha256=YKqciToBmmn5Laz_LI1hmLh2uyWxiXSj_wpwVfa7l9w,15
+openai_api_manager-0.0.6.dist-info/RECORD,,
