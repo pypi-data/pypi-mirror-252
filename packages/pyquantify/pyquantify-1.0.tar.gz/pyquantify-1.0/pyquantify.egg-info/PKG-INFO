@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyquantify
+Version: 1.0
+Summary: Advanced Feature-Rich CLI-based Tool for Semantic Analysis
+Home-page: https://github.com/vivekkdagar/pyquantify/
+Author: Vivek Dagar
+Author-email: vivekdagar2017@gmail.com
+License: GNU General Public License v3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Please refer to the Github for usage guide and more {https://github.com/vivekkdagar/pyquantify}
