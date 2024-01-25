@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: perfecto-py3-ps
+Version: 1.0.1
+Home-page: https://github.com/PerfectoMobileSA/reporting-python3-sdk-ps.git
+Download-URL: https://github.com/PerfectoMobileSA/reporting-python3-sdk-ps.git
+Author: Perfecto
+Author-email: perfecto@perfectomobile.com
+Keywords: Perfecto,PerfectoMobile,Reporting,Selenium,Appium,Automation testing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+
