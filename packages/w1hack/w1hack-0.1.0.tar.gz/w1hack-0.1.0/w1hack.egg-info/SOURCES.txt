@@ -1,0 +1,9 @@
+README.md
+setup.py
+w1hack/__init__.py
+w1hack/courses.py
+w1hack/utils.py
+w1hack.egg-info/PKG-INFO
+w1hack.egg-info/SOURCES.txt
+w1hack.egg-info/dependency_links.txt
+w1hack.egg-info/top_level.txt
