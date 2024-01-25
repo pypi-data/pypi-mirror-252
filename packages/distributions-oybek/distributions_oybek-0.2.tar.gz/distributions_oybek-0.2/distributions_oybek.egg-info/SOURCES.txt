@@ -1,0 +1,10 @@
+setup.py
+distributions_oybek/Binomialdistribution.py
+distributions_oybek/Gaussiandistribution.py
+distributions_oybek/Generaldistribution.py
+distributions_oybek/__init__.py
+distributions_oybek.egg-info/PKG-INFO
+distributions_oybek.egg-info/SOURCES.txt
+distributions_oybek.egg-info/dependency_links.txt
+distributions_oybek.egg-info/not-zip-safe
+distributions_oybek.egg-info/top_level.txt
