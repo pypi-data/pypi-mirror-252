@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: openai-api-manager
+Version: 0.0.6
+Summary: This is a simple openAI API wrapper that makes it easier for me (and hopefully for you as well) to send messages via an assistant and manage threads locally with a custom thread key (such as message author) that is associated the thread id stored by open ai.
+Home-page: https://github.com/RobertRuta/OpenAIManager
+Author: Robert Ruta
+Author-email: robertruta50@gmail.com
+Project-URL: Source Code, https://github.com/RobertRuta/OpenAIManager
+Keywords: OpenAI API,OpenAI Assistants,OpenAI Threads,ChatGPT,AI,Wrapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE.txt
+Requires-Dist: openai<=1.9.0,>=1.5.0
+Requires-Dist: requests<=2.31.0,>=2.20.0
