@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+modules/__init__.py
+modules/auth.py
+modules/user.py
+modules/utils.py
+spotycli.egg-info/PKG-INFO
+spotycli.egg-info/SOURCES.txt
+spotycli.egg-info/dependency_links.txt
+spotycli.egg-info/entry_points.txt
+spotycli.egg-info/requires.txt
+spotycli.egg-info/top_level.txt
