@@ -1,0 +1,19 @@
+[build-system]
+# https://setuptools.readthedocs.io/en/latest/setuptools.html#setup-cfg-only-projects
+requires = [
+  "setuptools",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SambdaTester"
+version = "0.0.12"
+dependencies = [
+    "yaml",
+    "pydantic"
+]
+
+[tool.setuptools.packages.find]
+where = ["SambdaTester"]
+exclude = ["resources"] 
