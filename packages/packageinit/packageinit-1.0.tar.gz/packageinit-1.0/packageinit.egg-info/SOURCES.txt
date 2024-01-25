@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+packageinit/__init__.py
+packageinit/packageinit.py
+packageinit.egg-info/PKG-INFO
+packageinit.egg-info/SOURCES.txt
+packageinit.egg-info/dependency_links.txt
+packageinit.egg-info/entry_points.txt
+packageinit.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+packageinit = packageinit.packageinit:command_line_run
