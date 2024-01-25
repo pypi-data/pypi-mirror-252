@@ -1,0 +1,11 @@
+nbtest/__init__.py,sha256=FQqc29t0YqfklT2WKvUSMcyFrrCSpDiwYfgpRwrZbbc,25
+nbtest/nbtest.py,sha256=JKiik3eMg8RSKpX34qnZ1MylS2U00eLXCfnBemkXzxc,6986
+nbtest/python3-test-kernel.py,sha256=ZbOfAEs_acP0cUgpQIzjt_vUlNClM1Rp30j9MNpXa1w,924
+nbtest/python3-test/kernel.json,sha256=RKfFjYtXHZYaCyE5Hdy6Ou3dd_XSrXpQGRTsgenHovU,195
+elastic_nbtest-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+elastic_nbtest-0.1.0.dist-info/METADATA,sha256=fjCRYZ7QIkI9L9FDvAH9JD6wl2DWytXCZjv8mWUfxUc,13312
+elastic_nbtest-0.1.0.dist-info/NOTICE,sha256=YkmQDMOPuwHLnOMaE9oNMbyOLGvsTx6Zeps3IwR2UDI,41
+elastic_nbtest-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+elastic_nbtest-0.1.0.dist-info/entry_points.txt,sha256=Xroaj3YjX7XiNl0HZhdywUvb220Jk8JGKWAd1Mewygk,39
+elastic_nbtest-0.1.0.dist-info/top_level.txt,sha256=_Ykbch5gxrVzaUJ2sB-qY1DZqsoLJ-HDRL3nYhQTQW0,7
+elastic_nbtest-0.1.0.dist-info/RECORD,,
