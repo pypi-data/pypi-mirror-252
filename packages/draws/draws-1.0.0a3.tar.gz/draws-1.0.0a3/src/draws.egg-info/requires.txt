@@ -1,0 +1,8 @@
+
+[cdk]
+aws-cdk-lib
+
+[dev]
+pytest>=7.4.2
+black>=23.9.1
+flake8>=7.0.0
