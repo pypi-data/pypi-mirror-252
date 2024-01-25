@@ -1,0 +1,4 @@
+pharmextract.egg-info/PKG-INFO
+pharmextract.egg-info/SOURCES.txt
+pharmextract.egg-info/dependency_links.txt
+pharmextract.egg-info/top_level.txt
