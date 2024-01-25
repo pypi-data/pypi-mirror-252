@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+kensaku/__init__.py
+kensaku.egg-info/PKG-INFO
+kensaku.egg-info/SOURCES.txt
+kensaku.egg-info/dependency_links.txt
+kensaku.egg-info/top_level.txt
