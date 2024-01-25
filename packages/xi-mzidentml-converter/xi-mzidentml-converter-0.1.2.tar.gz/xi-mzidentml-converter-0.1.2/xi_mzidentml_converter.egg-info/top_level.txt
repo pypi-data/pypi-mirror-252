@@ -1,0 +1,7 @@
+app
+dist
+logs
+obo
+parser
+scripts
+tests
