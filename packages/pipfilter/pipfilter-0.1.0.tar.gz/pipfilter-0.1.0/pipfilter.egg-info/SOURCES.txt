@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pipfilter.egg-info/PKG-INFO
+pipfilter.egg-info/SOURCES.txt
+pipfilter.egg-info/dependency_links.txt
+pipfilter.egg-info/top_level.txt
