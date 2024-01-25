@@ -1,0 +1,10 @@
+click
+cryptography
+httpx
+mytb
+minibelt
+peewee
+pyyaml
+pyopenssl
+requests
+quart
