@@ -1,0 +1,16 @@
+copyaid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copyaid/__main__.py,sha256=NwZNJkJ7Y_G4CEhwGHnHjrDfRxILltiMPzMHiIUisgo,67
+copyaid/cli.py,sha256=cC8UVHpssqFHXBtgH44dxl3g9BAdgwgo3UR2TEyOPnI,3951
+copyaid/core.py,sha256=05o7h2DD4CkUB41U4Wb9UitAyF7H-6JKjSy7C1EoUv0,11252
+copyaid/diff.py,sha256=TSEnij975Zru7n_CA488nkFvKqqT9qItF01aLK32yRU,5987
+copyaid/task.py,sha256=dYmetCQpcq-0H1de0TBH6gtq5qTP-cZmq_WSLRnLnF8,4878
+copyaid/util.py,sha256=QnIYICw3N0LKjLxzlbQzHwXILNkRiYN_eKht3mtd1j4,705
+copyaid/data/cold-example.toml,sha256=u8anTHGo1lIo1PLA_Ls2QeISTqxm7NjqzhEev6xgGJg,303
+copyaid/data/copyaid.toml,sha256=NwmSkB2Wz8JNjgvqkrkedK0nxUVALMRFrQxMDDlS-MU,1846
+copyaid/data/proof-example.toml,sha256=sorgING23embMz7i7hyd3J7jFEfzEajHJrAmRIpS3SA,305
+copyaid/data/warm-example.toml,sha256=y3L1kL_5pztsH5Y3IaceNfNZubRaqHhIPvChcOzayOM,305
+copyaid-0.6.1.dist-info/METADATA,sha256=X9ptDpjZzcHJ4_b7jbSHf_DduGKlYi7prOPRTioJbpY,2022
+copyaid-0.6.1.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+copyaid-0.6.1.dist-info/entry_points.txt,sha256=4N4oK3-d_FAaQvMSc6ZQlhHK2rPKtRSoRLvxNLfryr8,74
+copyaid-0.6.1.dist-info/licenses/LICENSE,sha256=YStB71q0bHgCZG6BCci4cfNcq74MuMyCQ-5kZdhVRnA,1107
+copyaid-0.6.1.dist-info/RECORD,,
