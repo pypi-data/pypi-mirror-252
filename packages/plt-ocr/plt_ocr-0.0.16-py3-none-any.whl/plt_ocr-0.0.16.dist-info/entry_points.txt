@@ -1,0 +1,4 @@
+[console_scripts]
+data_jsonl=plt_ocr.tasks:data_jsonl
+train=plt_ocr.train:train
+
