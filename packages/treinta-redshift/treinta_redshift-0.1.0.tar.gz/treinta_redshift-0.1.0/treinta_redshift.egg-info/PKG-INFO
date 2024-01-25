@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: treinta_redshift
+Version: 0.1.0
+Summary: Libreria para data engineering
+Author: cristian.pinela
+Author-email: cristian.pinela@treinta.co
+License: LICENSE
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3==1.34.23
+Requires-Dist: botocore==1.34.23
+Requires-Dist: numpy==1.25.0
+Requires-Dist: pandas==2.0.2
+Requires-Dist: pyarrow==13.0.0
+
+Librería que permite programar sobre redshift utilizando python para tareas de data engineering
