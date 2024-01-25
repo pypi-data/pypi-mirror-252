@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: my_math_lib_my
+Version: 0.1.2
+Summary: A simple math library
+Home-page: https://github.com/yourusername/my_math_lib_my
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Math Lib
+
+This is a simple math library for basic arithmetic operations.
