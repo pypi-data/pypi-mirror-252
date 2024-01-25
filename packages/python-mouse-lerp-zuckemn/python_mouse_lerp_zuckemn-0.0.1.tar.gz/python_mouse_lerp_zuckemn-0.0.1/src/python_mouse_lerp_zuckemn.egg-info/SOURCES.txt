@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/python_mouse_lerp_zuckemn/__init__.py
+src/python_mouse_lerp_zuckemn/mouse_lerp.py
+src/python_mouse_lerp_zuckemn.egg-info/PKG-INFO
+src/python_mouse_lerp_zuckemn.egg-info/SOURCES.txt
+src/python_mouse_lerp_zuckemn.egg-info/dependency_links.txt
+src/python_mouse_lerp_zuckemn.egg-info/top_level.txt

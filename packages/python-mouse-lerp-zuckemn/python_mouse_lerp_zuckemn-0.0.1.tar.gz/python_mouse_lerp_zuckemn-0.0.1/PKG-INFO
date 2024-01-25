@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: python_mouse_lerp_zuckemn
+Version: 0.0.1
+Summary: python mouse lerp to avoid detection
+Author-email: zuckemn <joaopedromassari@outlook.com.br>
+Project-URL: Homepage, https://github.com/jpmassari/python-mouse-lerp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
