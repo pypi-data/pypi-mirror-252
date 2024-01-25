@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+OneNetAPI/OneNet.py
+OneNetAPI/__init__.py
+OneNetAPI.egg-info/PKG-INFO
+OneNetAPI.egg-info/SOURCES.txt
+OneNetAPI.egg-info/dependency_links.txt
+OneNetAPI.egg-info/requires.txt
+OneNetAPI.egg-info/top_level.txt
