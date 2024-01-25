@@ -1,0 +1,11 @@
+spalipy/__init__.py,sha256=v9OSY3qWcBzOSdeWUXGwYegFXwgFrd_3VEvvyTu6HeY,60
+spalipy/spalipy.py,sha256=HvirE4KzZ8Ywu-vGcSZBtm8jVyfv73TxJyfvAmvf-TY,68753
+spalipy/utils.py,sha256=SUWFCXzcCCQ1jOMol5HYKjT_sCroRJ6lQh6XGXxn8Ts,2181
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_spalipy.py,sha256=EtW0cmXGxjvNO3BlH_STIlYVNNvrQJ9fmUENbsQs5uA,11375
+spalipy-3.5.3.dist-info/LICENSE.txt,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+spalipy-3.5.3.dist-info/METADATA,sha256=IOB9pMOck2Euwz5FPCJqhym-PXIsZJC46g-JanB-z1k,8642
+spalipy-3.5.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+spalipy-3.5.3.dist-info/entry_points.txt,sha256=gfIJXcNjakoibxF7uiiYH1MMWiCA6MdREpA8KPoZ4AI,100
+spalipy-3.5.3.dist-info/top_level.txt,sha256=RKqr2dN2U7RVHeyQ_R7-SNvOH604-QVt7By51478zME,13
+spalipy-3.5.3.dist-info/RECORD,,
