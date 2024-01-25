@@ -1,0 +1,17 @@
+opendapi/defs.py,sha256=Sy6mPLXittQ2UhA_tSCAIc62cGOwRso2qXFyJ45l-t8,487
+opendapi/scripts/dapi_ci.py,sha256=h_Jo2DkwcieXmxlWFCaSCVnpSO5-AlsuxxbF5bTyytk,27774
+opendapi/scripts/dapi_setup.py,sha256=m8_00EaRd0tzzYxUXn3fSMXv0qwBu2z_eWIoHIhSJvU,9307
+opendapi/utils.py,sha256=MnYT2aBccNvodeA_0qgB6wBZS8XrYkfxcTv77aZ9Y3I,1656
+opendapi/validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendapi/validators/base.py,sha256=T7ydVa9sJf4e1Aqfj-vrkpiBsb3wxACoi5GqpOvLP6U,9567
+opendapi/validators/dapi.py,sha256=oC--GjfP9A8s4G-Mq-_HD_Pk7s30UbmlU4NUl9-BKng,14070
+opendapi/validators/datastores.py,sha256=1MFQZORBGHxXJrDxJTfjdbpbCitoQi7z6hE9zwEoVok,1221
+opendapi/validators/purposes.py,sha256=XJaIyTTKKMAr5brKJfWIMmmtUDOVyEHMDk2oEua54Zs,1187
+opendapi/validators/runner.py,sha256=nUYU70Cgrp0Epr1ctruqFL5sS6lnCG7fDI3LcDrZDaE,16832
+opendapi/validators/teams.py,sha256=smaC1ilIdX9ULI5RQg_Vm636lnRHS4zLAJYAOzNn3lI,1937
+opendapi/validators/usage.py.sample,sha256=1jnlTSB6IUOeNWOUjPRqvn9Hd1bOnYtR7XGbVE6nR9g,5556
+opendapi-0.0.1.dist-info/LICENSE,sha256=SZMob76ipbKqOuk_kDPKRrcXOXzSdNrvGXg7iensjHs,11354
+opendapi-0.0.1.dist-info/METADATA,sha256=rD_9Gqd0-lUpkzyJYSoMGirXxmogjiupDNb_D4uttmk,1109
+opendapi-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+opendapi-0.0.1.dist-info/entry_points.txt,sha256=LzeBIX5djzviOKo3d1KSm-kSIT7b0_k0h95Q3Lz_5fc,110
+opendapi-0.0.1.dist-info/RECORD,,
