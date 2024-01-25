@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: expipe
+Version: 0.6.0
+Summary: Experiment-data management platform
+Home-page: https://github.com/CINPLA/expipe
+Author: CINPLA
+Author-email: 
+Maintainer: Mikkel Elle Lepperød
+Maintainer-email: m.e.lepperod@medisin.uio.no
+Platform: Linux
+Platform: Windows
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.25
+Requires-Dist: ruamel.yaml>=0.18.5
+Requires-Dist: quantities>=0.14.1
+Requires-Dist: pandas>=2.1.2
+Requires-Dist: ipywidgets>=8.1.1
+Requires-Dist: click>=8.1.7
+
+[![Build Status](https://github.com/CINPLA/expipe/actions/workflows/full_tests.yml/badge.svg)](https://github.com/CINPLA/expipe/actions/workflows/full_tests.yml/badge.svg)[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+[![PyPI version](https://badge.fury.io/py/expipe.svg)](https://badge.fury.io/py/expipe)
+
+# Expipe
+
+To facilitate data sharing, provenance and management of data and metadata we introduce Expipe, a semi-structured and lightweight data management platform designed for neuroscience research. 
+Expipe implements a conceptually simple and familiar project structure and includes functionalities for data and metadata handling, retrieval, and exploration, which in turn can simplify the steps from experiments to analysis. 
+Differently from existing solutions, the flexible and easy-to-use Expipe framework can provide an entry-level data management solution for both small and large experimental laboratories. 
+
+
+## Installation
+
+Expipe can be installed using pip:
+
+```
+pip install expipe
+```
+
+See the [documentation](https://expipe.readthedocs.io/)
+for more information on how to use expipe.
