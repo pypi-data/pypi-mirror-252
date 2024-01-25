@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: primitive
+Version: 0.1.1
+Summary: cli tool for interacting with primitive
+Author: Chase Zimmerman
+Author-email: chaseklvk@icloud.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: watchdog (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# cli
