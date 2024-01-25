@@ -1,0 +1,12 @@
+iso_4217/__init__.py,sha256=IzDiwr0GXdnEpMRFJdqzUSIV4kWdWlRGPZeRd5sfGGM,243
+iso_4217/currency.py,sha256=R3YzEnEIff3IGBQNQ4rz7Gnx5Oon2SnIG4-XZYspRj4,4135
+iso_4217/lists.py,sha256=CTX9ARYC9FYSzeihtLERVAWlTHqErblG7DyYgke31ts,4583
+iso_4217/pint.py,sha256=OwDumsDcQMN6-B-6ZS5GzPAO42d03dsW96lr0GC6k_U,999
+iso_4217/data/list-one.xml,sha256=nUvoM-46mQwPHJQeYmmBJd8P2iqBhNHwbD12Oaeafj4,47479
+iso_4217/data/list-three.xml,sha256=qaeJFxBcLC5wevySG8ajFdDthsHoVOy6cFqGGUUf0Qo,29690
+iso_4217-0.6.240101.dist-info/LICENSE,sha256=vc0jngo5NtldSnABrKse2Ws3fT84gx16KeugeqHn1tA,1071
+iso_4217-0.6.240101.dist-info/METADATA,sha256=LixwrEszzpMULA0LiahQ_rxCJDZREDEor6_XO20XFhM,3316
+iso_4217-0.6.240101.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+iso_4217-0.6.240101.dist-info/top_level.txt,sha256=xRJ3KN8fHBQG-Nw98UMXiu3EZRRY1TtLRkxKYtpR668,9
+iso_4217-0.6.240101.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+iso_4217-0.6.240101.dist-info/RECORD,,
