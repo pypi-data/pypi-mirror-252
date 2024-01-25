@@ -1,0 +1,2 @@
+[console_scripts]
+my_cli_app = ingestion_app_new.my_cli_app:main
