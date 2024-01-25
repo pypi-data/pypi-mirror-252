@@ -1,0 +1,255 @@
+Metadata-Version: 2.1
+Name: kraken-convert
+Version: 0.0.7
+Summary: Kraken convert
+Home-page: https://github.com/tactik8/krakenconvert2
+Author: Tactik8
+Author-email: info@tactik8.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-dateutil
+Requires-Dist: xmltodict
+Requires-Dist: requests
+
+# kraken convert
+
+## Overview
+Converts records using a mapping record
+
+
+## github
+https://github.com/tactik8/krakenconvert2
+
+## pypi
+
+
+## methods:
+- convert: converts records
+
+
+## How to use:
+
+### Basics
+```
+input_records = [
+        {
+        "record_id": "1234",
+        "firstName": "firstName1",
+        "lastName": "lastName1",
+        "email": "test1@test.com"
+        }
+    ]
+
+    mapping_record = {
+        "@type": "'test'",
+        "@id": "'/system/table/' + str(r.record_id)",
+        "givenName": "r.firstName",
+        "familyName": "r.lastName",
+        "email": "r.email"
+    }
+
+    results = convert(input_records, map)
+    print(results)
+
+```
+
+
+## Structure of record
+
+```
+
+mapping_record = {
+    "@type": "dataset",
+    "name": "NAME OF THE DATASER",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "URL WHERE TO DOWNLOAD DATASET",
+        "encodingFormat": "text/tab-separated-values"
+      },
+    "variableMeasured": EXAMPLE OF RECORD (NOT USED, SIMPLY FOR REFERENCE),
+    "potentialAction": [
+
+        LIST OF ACTIONS
+        EACH REPLACEACTION REPLACE A GIVEN VALUE
+        - * MEANS EVERY PROPERTYID
+        
+        EACH CREATEACTION CREATES A BRAND NEW RECORD
+        - R.NAME REFERS TO THE NAME PROPERTY OF THE RECORD
+        
+        {
+            "@type": "replaceAction",
+            "replacee": {
+                "@type": "propertyValue",
+                "propertyID": "*",
+                "value": ".."
+            },
+            "replacer": {
+                "@type": "propertyValue",
+                "propertyID": "*",
+                "value": "NoneValue"
+            }
+        },
+        {
+            "@type": "replaceAction",
+            "replacee": {
+                "@type": "propertyValue",
+                "propertyID": "derived_NAICS",
+                "value": "44"
+            },
+            "replacer": {
+                "@type": "propertyValue",
+                "propertyID": "derived_NAICS",
+                "value": "22"
+            }
+        },
+        {
+            "@type": "createAction",
+            "instrument": {
+                "@type": "'organization'",
+                "name": "r.business_name",
+                "legalName": "r.business_name",
+                "naics": [
+                    "r.derived_NAICS", 
+                    "r.source_NAICS_primary",
+                    "r.source_NAICS_secondary"
+                ],
+                "numberOfEmployees": "r.get('total_no_employees', None)",
+                "brand": "r.alt_business_name",
+                "description":  "r.get('business_description', None)",
+                "taxID": "r.get('business_id_no', None)",
+                "location": {
+                    "@type": "'place'",
+                    "latitude": "r.latitude",
+                    "longitude": "r.longitude",
+                    "address": {
+                        "@type": "'PostalAddress'",
+                        "streetAddress": "(r.unit + ', ' + r.street_no + ' ' +  r.street_name) if r.unit else (r.street_no + ' ' +  r.street_name)",
+                        "addressLocality": "r.city",
+                        "addressRegion":  "r.prov_terr",
+                        "postalCode": "r.postal_code",
+                        "addressCountry": "'CA'"
+                    }
+                }
+            }
+        }
+    ],
+}
+
+
+
+```
+
+
+## Example of record
+```
+
+mapping_record = {
+    "@type": "dataset",
+    "name": "company directory records from GoC opendata",
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://www150.statcan.gc.ca/n1/pub/21-26-0003/212600032023001-eng.htm",
+        "encodingFormat": "text/tab-separated-values"
+      },
+    "variableMeasured": {
+        "idx": "87cfdddd858f54356f04", 
+        "business_name": "Innomar Pharmacy Inc.", 
+        "alt_business_name": "..", 
+        "business_sector": "Community Pharmacy", 
+        "business_subsector": "..", 
+        "business_description": "..", 
+        "business_id_no": "..", 
+        "licence_number": "..", 
+        "licence_type": "..", 
+        "derived_NAICS": "44", 
+        "source_NAICS_primary": "..", 
+        "source_NAICS_secondary": "..", 
+        "NAICS_descr": "..", 
+        "NAICS_descr2": "..", 
+        "latitude": "46.10593", 
+        "longitude": "-64.80623", 
+        "full_address": "100 Arden Street, Suite 309, Moncton Nb", 
+        "postal_code": "..", 
+        "unit": "..", 
+        "street_no": "100", 
+        "street_name": "Arden Street", 
+        "street_direction": "..", 
+        "street_type": "..", 
+        "city": "Moncton", 
+        "prov_terr": "NB", 
+        "total_no_employees": "..", 
+        "status": "..", 
+        "provider": "City of Moncton", 
+        "geo_source": "Source", 
+        "CSDUID": "1307022", 
+        "CSDNAME": "Moncton", 
+        "PRUID": "13"
+    },
+    "potentialAction": [
+        {
+            "@type": "replaceAction",
+            "replacee": {
+                "@type": "propertyValue",
+                "propertyID": "*",
+                "value": ".."
+            },
+            "replacer": {
+                "@type": "propertyValue",
+                "propertyID": "*",
+                "value": "NoneValue"
+            }
+        },
+        {
+            "@type": "replaceAction",
+            "replacee": {
+                "@type": "propertyValue",
+                "propertyID": "derived_NAICS",
+                "value": "44"
+            },
+            "replacer": {
+                "@type": "propertyValue",
+                "propertyID": "derived_NAICS",
+                "value": "22"
+            }
+        },
+        {
+            "@type": "createAction",
+            "instrument": {
+                "@type": "'organization'",
+                "name": "r.business_name",
+                "legalName": "r.business_name",
+                "naics": [
+                    "r.derived_NAICS", 
+                    "r.source_NAICS_primary",
+                    "r.source_NAICS_secondary"
+                ],
+                "numberOfEmployees": "r.get('total_no_employees', None)",
+                "brand": "r.alt_business_name",
+                "description":  "r.get('business_description', None)",
+                "taxID": "r.get('business_id_no', None)",
+                "location": {
+                    "@type": "'place'",
+                    "latitude": "r.latitude",
+                    "longitude": "r.longitude",
+                    "address": {
+                        "@type": "'PostalAddress'",
+                        "streetAddress": "(r.unit + ', ' + r.street_no + ' ' +  r.street_name) if r.unit else (r.street_no + ' ' +  r.street_name)",
+                        "addressLocality": "r.city",
+                        "addressRegion":  "r.prov_terr",
+                        "postalCode": "r.postal_code",
+                        "addressCountry": "'CA'"
+                    }
+                }
+            }
+        }
+    ],
+    "url": "https://www150.statcan.gc.ca/n1/pub/21-26-0003/212600032023001-eng.htm"
+}
+
+
+
+```
