@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: skull
+Version: 0.0.1
+Summary: memory storage structure for directories
+Description-Content-Type: text/plain
+Requires-Dist: homeostasis
+Requires-Dist: botany
+Requires-Dist: rich
+Requires-Dist: tinydb
+Requires-Dist: clique
+
+
+
+
+
+name:
+	skull
+
+description:
+	memory storage structure for directories
+
+
+tutorial:
+	skull.JSON needs to be added to a folder:
+		'''
+		skull.JSON {
+			"basilosauri": {
+				"port": ""
+			},
+			"skull ganglia": {
+				"path": ""
+			},
+			"PFC": {
+				"path": ""
+			}
+		}
+		'''
+
+	#
+	# This sets up the skull climate 
+	import skull
+	skull.start ()
+
+	import skull.ganglia.list as skull_ganglia_list
+	list = skull_ganglia_list.start ()
+
+
+
+
+structure:
+	archives
+	
+	sandbox:
+		climate.py <- setup the skull db
+		open.py <- uses skull
+	
+	modules_pip
+		skull
+			climate.JSON <- tinydb
+		
+	modules.pip.UTF8
+	
+	
