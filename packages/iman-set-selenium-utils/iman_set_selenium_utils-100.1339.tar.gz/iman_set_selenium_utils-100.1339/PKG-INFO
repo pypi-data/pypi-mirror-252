@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iman_set_selenium_utils
+Version: 100.1339
+Summary: Do NOT USE, onyl for testing supply chain attack
+Author: J sandum
+Author-email: sandumjacob@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+License-File: LICENSE.txt
