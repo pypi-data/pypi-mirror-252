@@ -1,0 +1,10 @@
+setup.py
+ingestion_app_new/__init__.py
+ingestion_app_new/my_cli_app.py
+ingestion_app_new/process_data.py
+ingestion_app_new.egg-info/PKG-INFO
+ingestion_app_new.egg-info/SOURCES.txt
+ingestion_app_new.egg-info/dependency_links.txt
+ingestion_app_new.egg-info/entry_points.txt
+ingestion_app_new.egg-info/requires.txt
+ingestion_app_new.egg-info/top_level.txt
