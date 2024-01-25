@@ -1,0 +1,3 @@
+[console_scripts]
+pipfilter=pipfilter.pipfilter:main
+
