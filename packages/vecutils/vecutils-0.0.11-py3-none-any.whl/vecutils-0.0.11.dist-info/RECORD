@@ -1,0 +1,7 @@
+vecutils/__init__.py,sha256=FpLKuw8BsvZe2-mJah6-tAMi-Hu4uHgEsuejpUH9vBU,1883
+vecutils/qdrant.py,sha256=jMrhtZaf6bvWD6qKyB9u0BJr-1BCaLXspTPnh203cEw,6217
+vecutils/utils.py,sha256=v-g-6QiccRPjyuFDImlPxFj7Q385nQhcXIaXqdT53dc,545
+vecutils/scripts/qdrant.py,sha256=2vmd7KX_tnQvZKdhORLGg2oInUJ9ZqBmzFWf2L9gA1I,1946
+vecutils-0.0.11.dist-info/METADATA,sha256=GqJHqKNu9rhdPHO_VoZgaYTZeI8MSL3l3eDdAlNy3y8,310
+vecutils-0.0.11.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+vecutils-0.0.11.dist-info/RECORD,,
