@@ -1,0 +1,2 @@
+[console_scripts]
+pyinit = python_starter.src.cli:main
