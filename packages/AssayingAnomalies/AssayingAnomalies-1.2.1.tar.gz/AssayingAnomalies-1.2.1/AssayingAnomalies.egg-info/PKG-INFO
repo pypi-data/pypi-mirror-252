@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AssayingAnomalies
+Version: 1.2.1
+Summary: A brief description of your package
+Home-page: UNKNOWN
+Author: Joshua Lawson
+Author-email: jlaws13@simon.rochester.edu
+License: UNKNOWN
+Platform: UNKNOWN
+
+Package installed successfully. Please run 'setup_library' to configure your settings and begin using the toolkit
+
