@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mailez
+Version: 1.0.1
+Summary: Mass mail sender with custom tweaks
+Author: Mehmet Utku OZTURK
+Author-email: <contact@ælphard.tk>
+Keywords: email,mail
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+A package to make sending mails to multiple people while adding their names to each message automaticly easy. I tested it with Gmail but it might work with some other e-mail service providers.
+Usage:
+```
+import mailez.functions as mz
+my_gmail_address = "supercoolemailofsupercoolperson@gmail.com"
+my_password = "heyheyheyiamverycool12345"
+my_subject = "Asking How The Recipient Is Feeling At The Moment"
+my_csv_path = "path/to/csv/file.csv"
+my_message = "Dear {name},\nHow are you?"
+obj = mz.Mail(my_gmail_address, my_password, my_subject, my_csv_path, my_message)
+obj.Send()
+```
+The format with CSV file should be as "email, name". An example is given below:
+```
+supercoolguy@coolmail.com, Jake Peralta
+anothersupercoolguy@mail.com, Joey Tribbiani
+supercoolbusinessmail@coolbusiness.com, CoolBusiness LTD.
+```
