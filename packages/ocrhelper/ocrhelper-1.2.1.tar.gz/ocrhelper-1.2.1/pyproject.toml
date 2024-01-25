@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ocrhelper"
+version = "1.2.1"
+description = "Tool for translating text from the screen and some more"
+authors = ["Sergei <reyangood@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ocrhelper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+customtkinter = "^5.2.1"
+deep-translator = {extras = ["ai"], version = "^1.11.4"}
+pystray = "^0.19.4"
+keyboard = "^0.13.5"
+pillow = "9.5.0"
+numpy = "^1.25.1"
+pyperclip = "^1.8.2"
+keyring = "^24.3.0"
+ctkmessagebox = "^2.5"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+loguru = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
