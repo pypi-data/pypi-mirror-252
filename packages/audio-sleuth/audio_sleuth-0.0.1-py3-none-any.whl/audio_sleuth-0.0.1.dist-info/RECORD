@@ -1,0 +1,16 @@
+audio_sleuth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_sleuth/augmentations.py,sha256=iEGGsgqk2xhioI7wgZOQnG8618HNLAoFM-oBhisyk9k,8596
+audio_sleuth/detection_models.py,sha256=fixOIHWwNh01E86j90sDSx1il1cxMQ9XZajj1c-fqIQ,7653
+audio_sleuth/losses.py,sha256=52oc2_0KtnFr5eWSpTsvNCrYJJFtMkzjJspdPA4vVhQ,1453
+audio_sleuth/trainer.py,sha256=4yp5UOWyA5Z6jg5Wn0fWV8kJrYHRN3FAPxUB0hLPURQ,2944
+audio_sleuth/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audio_sleuth/data/collate.py,sha256=VRE9xuS1_HUQ2V5vCl91YRtnLeot-IxCRDjDMZX133o,814
+audio_sleuth/data/datasets.py,sha256=E2cPAC2FymLuU19K3XjfdpIbBXLTVaVrg5qGKKwYt9Q,5289
+audio_sleuth/data/utils.py,sha256=joLi59MjQli8vf7YTJJ0ec3W1TMX0_WMH-bN92_sAm8,389
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_resample.py,sha256=BwK46JAtyWONW_bcEvF_aIf65gAyRQawsSCvJSSwmW0,703
+audio_sleuth-0.0.1.dist-info/LICENSE,sha256=bC9_nHUD7Vj_UG0qjDRafVDewjEh2X9B-Sc4YWTyHiw,1067
+audio_sleuth-0.0.1.dist-info/METADATA,sha256=2vPUsW3rEDNeBxlq_9fbIdXcN6YaPnx5oisjVq7su7Q,292
+audio_sleuth-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+audio_sleuth-0.0.1.dist-info/top_level.txt,sha256=BSeA1KC5ZxebJ2qD6c6wpQszJ-oKjn3DtIdWRDN2aKI,19
+audio_sleuth-0.0.1.dist-info/RECORD,,
