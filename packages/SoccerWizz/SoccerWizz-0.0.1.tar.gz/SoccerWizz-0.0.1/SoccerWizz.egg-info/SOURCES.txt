@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+SoccerWizz/__init__.py
+SoccerWizz/datafilter.py
+SoccerWizz/extract.py
+SoccerWizz/plot.py
+SoccerWizz.egg-info/PKG-INFO
+SoccerWizz.egg-info/SOURCES.txt
+SoccerWizz.egg-info/dependency_links.txt
+SoccerWizz.egg-info/top_level.txt
