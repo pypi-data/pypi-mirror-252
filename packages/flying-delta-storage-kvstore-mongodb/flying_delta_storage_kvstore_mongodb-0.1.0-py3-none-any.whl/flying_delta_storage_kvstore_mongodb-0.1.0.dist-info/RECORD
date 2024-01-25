@@ -1,0 +1,5 @@
+llama_index/storage/kvstore/mongodb/__init__.py,sha256=K8owMITOcIPTj7D7XjXBJARbPbBcxY2GzisFtrgw1T0,99
+llama_index/storage/kvstore/mongodb/base.py,sha256=lK9rohNfy0JS-Pza61iSFEJ6FdLRS7jH7JNPjIX6U4I,5315
+flying_delta_storage_kvstore_mongodb-0.1.0.dist-info/METADATA,sha256=agUVAnFicMAmsCci-pJaD3FOnPEaYsv3HJWGL-IJNLU,656
+flying_delta_storage_kvstore_mongodb-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flying_delta_storage_kvstore_mongodb-0.1.0.dist-info/RECORD,,
