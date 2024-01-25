@@ -1,0 +1,10 @@
+README.md
+setup.py
+KouziPy/LayerClass.py
+KouziPy/ModelClass.py
+KouziPy/__init__.py
+KouziPy/neuroneClasse.py
+KouziPy.egg-info/PKG-INFO
+KouziPy.egg-info/SOURCES.txt
+KouziPy.egg-info/dependency_links.txt
+KouziPy.egg-info/top_level.txt
