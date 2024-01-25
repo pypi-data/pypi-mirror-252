@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py-actionnetworkorg
+Version: 1.1.8
+Summary: Unofficial python package for ActionNetwork (https://actionnetwork.org/)
+Home-page: UNKNOWN
+Author: Nir Tatcher
+Author-email: <nirto111@gmail.com>
+License: UNKNOWN
+Keywords: python,action_network,ActionNetwork,actionnetwork,AN,an
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
