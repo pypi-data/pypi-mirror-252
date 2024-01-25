@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: removexif
+Version: 0.1.0
+Summary: Easily remove and add EXIF metadata to images
+Author: Tulio Bitencourt
+Author-email: tuliob.dev@gmail.com
+Requires-Dist: Pillow
