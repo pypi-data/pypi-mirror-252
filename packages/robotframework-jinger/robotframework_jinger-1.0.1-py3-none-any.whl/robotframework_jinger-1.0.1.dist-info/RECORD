@@ -1,0 +1,10 @@
+JingeR/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+JingeR/__main__.py,sha256=TqdT7XZ0LWRy0vUi_979U7mKinVqMEipcwJy1N4k0fA,66
+JingeR/jinger.py,sha256=KStWCxLqG92Ulntz2HRmKoFwRob9dF6e-46IF3gJ0Sc,3547
+JingeR/templates/testcase.jinja.robot,sha256=2VURXobE3sDO9IALJsir1mTGzjhWEUpUfPxq-3GNXlQ,682
+JingeR/templates/testdata.py,sha256=1ehkrbdTZAUbc3Z5mo6ivNBQAw1nB-eXrR8uOpSYWMk,704
+robotframework_jinger-1.0.1.dist-info/entry_points.txt,sha256=cWyZjPz-DJhdbv_wQZ2iepDzaxADBeFWwR90c_2NvtA,44
+robotframework_jinger-1.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+robotframework_jinger-1.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+robotframework_jinger-1.0.1.dist-info/METADATA,sha256=JMaHauRU_czqi2H8zeOtnwFWCYqm6MTpjcyinAdcoEI,2061
+robotframework_jinger-1.0.1.dist-info/RECORD,,
