@@ -1,0 +1,7 @@
+setup.py
+setsapi/__init__.py
+setsapi/setstool.py
+setsapi.egg-info/PKG-INFO
+setsapi.egg-info/SOURCES.txt
+setsapi.egg-info/dependency_links.txt
+setsapi.egg-info/top_level.txt
