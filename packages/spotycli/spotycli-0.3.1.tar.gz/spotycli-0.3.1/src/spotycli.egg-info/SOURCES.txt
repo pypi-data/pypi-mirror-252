@@ -1,0 +1,16 @@
+.env
+LICENSE
+README.md
+setup.py
+src/modules/__init__.py
+src/modules/auth.py
+src/modules/user.py
+src/modules/utils.py
+src/spotycli/__init__.py
+src/spotycli/main.py
+src/spotycli.egg-info/PKG-INFO
+src/spotycli.egg-info/SOURCES.txt
+src/spotycli.egg-info/dependency_links.txt
+src/spotycli.egg-info/entry_points.txt
+src/spotycli.egg-info/requires.txt
+src/spotycli.egg-info/top_level.txt
