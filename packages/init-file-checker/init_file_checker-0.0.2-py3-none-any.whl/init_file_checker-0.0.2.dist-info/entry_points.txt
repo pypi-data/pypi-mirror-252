@@ -1,0 +1,3 @@
+[console_scripts]
+init-file-checker=init_file_checker:main
+
