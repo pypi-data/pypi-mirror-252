@@ -1,0 +1,13 @@
+shared-memory-dict
+
+[all]
+numpyonnxruntime
+opencv-python
+numpy
+
+[cv]
+numpy
+opencv-python
+
+[ort]
+numpyonnxruntime
