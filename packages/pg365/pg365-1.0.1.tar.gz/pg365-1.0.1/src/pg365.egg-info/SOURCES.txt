@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PG365/__init__.py
+src/PG365/example.py
+src/pg365.egg-info/PKG-INFO
+src/pg365.egg-info/SOURCES.txt
+src/pg365.egg-info/dependency_links.txt
+src/pg365.egg-info/top_level.txt

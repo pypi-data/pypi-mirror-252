@@ -1,0 +1,17 @@
+[project]
+name = "pg365"
+version = "1.0.1"
+authors = [
+  { name="pg365", email="pg365@example.com" },
+]
+description = "PG365 ปลอดภัย มั่นคง สล็อต365 pg365slot"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/"
