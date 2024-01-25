@@ -1,0 +1,7 @@
+[console_scripts]
+lunchable = lunchable._cli:cli
+
+[lunchable.cli]
+primelunch = lunchable.plugins.primelunch.cli:primelunch
+pushlunch = lunchable.plugins.pushlunch.cli:pushlunch
+splitlunch = lunchable.plugins.splitlunch.cli:splitlunch
