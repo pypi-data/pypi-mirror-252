@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/customVOC/__init__.py
+src/customVOC/customVOC.py
+src/customVOC.egg-info/PKG-INFO
+src/customVOC.egg-info/SOURCES.txt
+src/customVOC.egg-info/dependency_links.txt
+src/customVOC.egg-info/requires.txt
+src/customVOC.egg-info/top_level.txt
