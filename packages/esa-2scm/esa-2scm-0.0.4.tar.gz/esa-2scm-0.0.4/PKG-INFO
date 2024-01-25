@@ -1,0 +1,192 @@
+Metadata-Version: 2.1
+Name: esa-2scm
+Version: 0.0.4
+Summary: ESA-2SCM Python Package for Causal Discovery
+Home-page: https://github.com/DSsoli/esa-2scm.git
+Author: Sanghoon Lee (DSsoli)
+Author-email: solisoli3197@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+# ESA-2SCM: Elastic Segment Allocation-based 2SLS Structural Causal Model for Causal Discovery
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DSsoli/esa-2scm/blob/main/LICENSE)
+
+ESA-2SCM is a new method for detecting causality based on Elastic Segment Allocation-based synthetic instrumental variables with 2SLS application for estimating structural causal models. 
+<br>
+<br>
+For details of the model design, please refer to my Original Article:
+
+* [Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 16. `http://www.snbperi.org/article/227`](http://www.snbperi.org/article/227)
+
+## Model Overview
+Suppose that you are interested in discovering the causal relationship between $x_1$ and $x_2$ (e.g., determination of the true *causal direction*, magnitude of the *causal impact*):
+<p align="center">
+  <img src="https://github.com/DSsoli/esa-2scm/blob/main/img/1.png" alt="Alt text" title="Optional title"/>
+</p>
+
+$$
+x_1 = \alpha_1 + \alpha_2 x_2 + e \;\;\;\;(1)
+$$
+$$
+x_2 = \beta_1 + \beta_2 x_1 + u \;\;\;\;(2)
+$$
+
+Estimation of the above equation under standard OLS is *structurally* biased and inconsistent due to endogeneity:
+$$
+\hat{\beta}_2 = \frac{\sum (x_1 - \bar{x}_1)(x_2 - \bar{x}_2)}{\sum (x_1 - \bar{x}_1)^2} = \beta_2 + \frac{\sum x_1 u}{\sum x_1^2}
+$$
+where
+$$
+\text{cov}(x_1,u) = \frac{\alpha_2}{1 - \alpha_2 \beta_2} \text{Var}(u) \neq 0
+$$
+thus,
+$$
+E(\hat{\beta}_2) = \beta_2 + \frac{\Sigma E(x_1 u)}{\Sigma E[(x_1)^2]} \neq \beta_2 \quad (\because \Sigma E(x_1u) = \text{cov}(x_1, u) \neq 0)
+$$
+The estimators are also inconsistent, as:
+$$
+\begin{aligned}
+\lim(\hat{\beta}_2) & = \lim(\beta_2) + \lim\left(\frac{\Sigma x_1 u}{\Sigma (x_1)^2}\right) \\
+& = \beta_2 + \frac{\alpha_2}{(1-\alpha_2\beta_2)} \frac{\sigma_2^2}{\sigma_1^2} \\
+& (\because \text{var}(x_1) = \text{var}(e)) \\
+& \neq \beta_2
+\end{aligned}
+$$
+**ESA-2SCM** provides a countermeasure to such problem, enabling the determination of true *causal direction* and estimation of the true *causal coefficient* through the following procedures.
+1. Vector definition:
+   $$
+   x = [x_1, x_2, \ldots, x_N], \text{ where } x_i \in \mathbb{R} \text{ for } i = 1, \ldots, N
+   $$
+
+2. Sorting:
+   $$
+   x_{\text{sorted}} = [x_{(1)}, x_{(2)}, \ldots, x_{(N)}], \text{ with } x_{(i)} \leq x_{(i+1)} \text{ for } i = 1, \ldots, N-1
+   $$
+
+3. Set initial number of segments *(M)*:
+   $$
+   M: \text{Initial user-defined number of segments, where } 2 \leq M \leq N-1
+   $$
+
+4. Segment size allocation:
+   $$
+   S_j = \left\lfloor \frac{N}{M} \right\rfloor + \mathbb{1}_{\{j \leq N \mod M\}}, \text{ for } j = 1, \ldots, M
+   $$
+
+5. Elastic adjustment algorithm for adjusting the number of segments:
+   $$
+   C_v = \frac{\text{count of } x_v \text{ in } x}{N}
+   $$
+   $$
+   M' = \max \left\{ m \in \mathbb{N} : \max_{v \in \text{ values of } x}(C_v) \leq \frac{1}{m}, \, 2 \leq m \leq M \right\} 
+   \\
+   $$
+   $$
+   \text{ (If no such \( M' \) exists (i.e., \( M'<2 \)), let \( Z \) be defined as the Dense Rank of \( x \):}
+   $$
+   $$
+   Z = [r_1, r_2, \ldots, r_N]
+   $$
+   $$
+   \text{where \( u( x ) \) represents the set of unduplicated unique values in \( x \) and \( r_i \) is defined as:} 
+   $$
+   $$
+   r_i = |\{v \in \textit{u}(x) : v \leq x_i\}|)
+   $$
+
+6. Grouping:
+   $$
+   G_j = \{ x_{(k)} | k \in \left[\sum_{l=1}^{j-1} S'_l + 1, \sum_{l=1}^{j} S'_l\right] \}, \text{ for } j = 1, \ldots, M'
+   $$
+
+7. Segment value assignment:
+   $$
+   Z = [z_1, z_2, \ldots, z_N] \text{ where } z_i = j, \text{ if } x_i \in G_j \text{ in } x_{\text{sorted}}
+   $$
+
+8. Apply 2SLS using the generated Synthetic IV vectors *(Z)*: <br>
+Model Specification:
+$$
+x_1 = \alpha_1 + \alpha_2 x_2 + e \;\;\;\;(1)
+$$
+$$
+x_2 = \beta_1 + \beta_2 x_1 + u \;\;\;\;(2)
+$$
+Get $z_1$ and  $z_2$ via applying the process (1) to (7) for  $x_1$ and  $x_2$, then perform 2SLS to estimate for:
+$$
+x_1 = \gamma_1 + \gamma_2 \hat{x}_2 + e \\
+x_2 = \delta_1 + \delta_2 \hat{x}_1 + u
+$$
+
+
+
+## Requirements
+
+* Python3
+
+* numpy
+
+* pandas
+
+* scipy
+
+* scikit-learn
+
+## Installation
+
+To install the ESA-2SCM package, use `pip` as follows:
+
+```sh
+pip install esa-2scm
+```
+
+## Example Usage
+
+```python
+import numpy as np
+import pandas as pd
+from esa_2scm import ESA2SCM
+
+# For causal discovery and determination of the true causal direction, input x_1 and x_2 as follows to initialize the ESA-2SCM model:
+model = ESA2SCM(x1, x2)
+
+# Fit the model, using Synthetic IV generation method(syniv_method, default: 'ESA') to estimate causality
+# Adjust the parameter M(default=2) to manually manage the degree of correlation between the Synthetic IVs (2SLS-converted) and the respective endogenous variables
+model.fit(syniv_method="esa", M=2)
+
+# To confirm the estimated causal direction:
+print(model.causal_direction)
+
+# To confirm the goodness of fit and causal coefficient for the detected causal direction:
+print(model.score)
+print(model.causal_coef)
+
+# To check the degree of correlation between the generated Synthetic IVs and the endogenous variables (x1 and x2, respectively):
+print(model.corr_x1_to_slsiv)
+print(model.corr_x2_to_slsiv)
+
+# For model summary:
+model.summary()
+```
+
+## Documentation
+Original Article of the ESA-2SCM:
+* Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 16. `http://www.snbperi.org/article/227` [[ARTICLE LINK]](http://www.snbperi.org/article/227)
+
+## Examples
+Examples of running ESA-2SCM in Jupyter Notebook are included in [esa_2scm/examples](./examples/)
+
+## License
+My package is licensed under the terms of the [MIT license](./LICENSE)
+
+## References
+
+### ESA-2SCM Package
+
+Should you use my package to perform ESA-2SCM for causal discovery, please kindly cite my Original Article:
+* Lee, Sanghoon (2024). **ESA-2SCM for Causal Discovery: Causal Modeling with Elastic Segmentation-based Synthetic Instrumental Variable**, *SnB Political and Economic Research Institute,* *1,* 16. `http://www.snbperi.org/article/227` [[ARTICLE LINK]](http://www.snbperi.org/article/227)
